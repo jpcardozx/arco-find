@@ -1,0 +1,28 @@
+{
+  "execution_time": "2025-06-19T19:06:59.787728",
+  "total_discovery_time": 215.365109,
+  "total_qualified_leads": 0,
+  "segments_executed": 2,
+  "segments": {
+    "dental_premium_berlin_amsterdam": {
+      "leads_found": 0,
+      "discovery_time": 207.978587,
+      "leads": [],
+      "status": "success"
+    },
+    "aesthetic_clinics_istanbul_madrid": {
+      "leads_found": 0,
+      "discovery_time": 6.125681,
+      "leads": [],
+      "status": "success"
+    }
+  },
+  "leads": [],
+  "summary": {
+    "avg_qualification_score": 0,
+    "avg_monthly_spend": 0,
+    "total_market_value": 0,
+    "estimated_cac": 0,
+    "data_quality": "No Data"
+  }
+}

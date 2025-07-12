@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ARCO Sprint Execution",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"src/sprint/sprint_execution_master.py"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

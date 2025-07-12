@@ -1,0 +1,19 @@
+{
+  "511da857683f5330fa0a2559c8aaee34": {
+    "analyzed_at": "2025-06-18T02:29:22.473708",
+    "business_name": "Nexus Tax & Accounting Solutions",
+    "website": "https://nexustas.com.au",
+    "phone": "+61 2 9876 5432",
+    "address": "123 George Street, Sydney NSW 2000",
+    "analysis_result": {
+      "status": "completed",
+      "qualification_score": 75,
+      "confidence_score": 0.85,
+      "business_size": "small",
+      "revenue_estimate": "$500K-$2M",
+      "conflicts_count": 2,
+      "critical_conflicts": 0
+    },
+    "prospect_key": "511da857683f5330fa0a2559c8aaee34"
+  }
+}

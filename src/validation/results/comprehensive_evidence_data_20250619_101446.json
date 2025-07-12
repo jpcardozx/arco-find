@@ -1,0 +1,316 @@
+{
+  "timestamp": "2025-06-19T10:14:42.374250",
+  "target_url": "https://ojambubags.com.br/",
+  "domain": "ojambubags.com.br",
+  "api_validations": {
+    "google_pagespeed": {
+      "source": "Google PageSpeed Insights API",
+      "authority": "Google Official",
+      "data_collected": "2025-06-19T10:14:42.374250",
+      "desktop": {},
+      "mobile": {},
+      "issues_found": [],
+      "business_impact": {},
+      "confidence": 0.95
+    },
+    "security_headers": {
+      "source": "SecurityHeaders.com Scan",
+      "authority": "Security Community Standard",
+      "data_collected": "2025-06-19T10:14:44.695980",
+      "security_grade": "",
+      "missing_headers": [
+        {
+          "header": "Content-Security-Policy",
+          "description": "CSP - Previne XSS",
+          "risk_level": "ALTO",
+          "business_impact": "Vulnerabilidade de segurança afeta confiança do usuário"
+        },
+        {
+          "header": "Referrer-Policy",
+          "description": "Controla vazamento de informações",
+          "risk_level": "MÉDIO",
+          "business_impact": "Vulnerabilidade de segurança afeta confiança do usuário"
+        },
+        {
+          "header": "Permissions-Policy",
+          "description": "Controla permissões do browser",
+          "risk_level": "MÉDIO",
+          "business_impact": "Vulnerabilidade de segurança afeta confiança do usuário"
+        }
+      ],
+      "security_issues": [
+        {
+          "severity": "CRÍTICO",
+          "issue": "3 headers de segurança ausentes",
+          "impact": "Vulnerabilidades podem causar perda de confiança e dados",
+          "estimated_conversion_loss": "5-15%"
+        }
+      ],
+      "business_impact": {},
+      "confidence": 0.9,
+      "security_score": 55,
+      "headers_present": [
+        "Connection",
+        "Keep-Alive",
+        "last-modified",
+        "vary",
+        "content-type",
+        "cache-control",
+        "expires",
+        "date",
+        "server",
+        "x-xss-protection",
+        "x-frame-options",
+        "x-content-type-options",
+        "access-control-allow-origin",
+        "strict-transport-security",
+        "alt-svc"
+      ],
+      "total_missing": 3
+    },
+    "ssl_evidence": {
+      "error": "cannot access local variable 'datetime' where it is not associated with a value",
+      "confidence": 0.0
+    },
+    "w3c_validation": {
+      "source": "W3C Markup Validator",
+      "authority": "World Wide Web Consortium (W3C)",
+      "data_collected": "2025-06-19T10:14:45.204125",
+      "validation_status": "REPROVADO",
+      "errors": [
+        {
+          "type": "error",
+          "lastLine": 31,
+          "lastColumn": 48,
+          "firstColumn": 13,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "\t\t        <script type=\"rocketlazyloadscript\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 36
+        },
+        {
+          "type": "error",
+          "lastLine": 102,
+          "lastColumn": 78,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "wv8\" />\n\n\n<script type=\"rocketlazyloadscript\" data-rocket-type='application/javascript'>consol",
+          "hiliteStart": 10,
+          "hiliteLength": 78
+        },
+        {
+          "type": "error",
+          "lastLine": 187,
+          "lastColumn": 71,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-rocket-type=\"text/javascript\">\n     ",
+          "hiliteStart": 10,
+          "hiliteLength": 71
+        },
+        {
+          "type": "error",
+          "lastLine": 217,
+          "lastColumn": 132,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-rocket-src='https://ojambubags.com.br/wp-includes/js/utils.min.js?ver=6.3.5' id='utils-js'></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 132
+        },
+        {
+          "type": "error",
+          "lastLine": 218,
+          "lastColumn": 143,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-rocket-src='https://ojambubags.com.br/wp-includes/js/plupload/moxie.min.js?ver=1.3.5' id='moxiejs-js'></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 143
+        },
+        {
+          "type": "error",
+          "lastLine": 219,
+          "lastColumn": 147,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-rocket-src='https://ojambubags.com.br/wp-includes/js/plupload/plupload.min.js?ver=2.1.9' id='plupload-js'></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 147
+        },
+        {
+          "type": "error",
+          "lastLine": 225,
+          "lastColumn": 182,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-rocket-src='https://ojambubags.com.br/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.2.1' id='wc-add-to-cart-js'></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 182
+        },
+        {
+          "type": "error",
+          "lastLine": 226,
+          "lastColumn": 255,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-minify=\"1\" data-rocket-src='https://ojambubags.com.br/wp-content/cache/min/1/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce-enhanced.js?ver=1750260275' id='gtm4wp-woocommerce-enhanced-js'></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 255
+        },
+        {
+          "type": "error",
+          "lastLine": 227,
+          "lastColumn": 248,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-minify=\"1\" data-rocket-src='https://ojambubags.com.br/wp-content/cache/min/1/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=1750260275' id='vc_woocommerce-add-to-cart-js-js'></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 248
+        },
+        {
+          "type": "error",
+          "lastLine": 229,
+          "lastColumn": 181,
+          "firstColumn": 1,
+          "message": "Bad value “rocketlazyloadscript” for attribute “type” on element “script”: Subtype missing.",
+          "extract": "</script>\n<script type=\"rocketlazyloadscript\" data-rocket-src='https://ojambubags.com.br/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3' id='js-cookie-pys-js'></scri",
+          "hiliteStart": 10,
+          "hiliteLength": 181
+        }
+      ],
+      "warnings": [
+        {
+          "type": "info",
+          "lastLine": 4,
+          "lastColumn": 30,
+          "firstColumn": 7,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": "#\">\n<head><meta charset=\"UTF-8\" /><scrip",
+          "hiliteStart": 10,
+          "hiliteLength": 24
+        },
+        {
+          "type": "info",
+          "lastLine": 6,
+          "lastColumn": 127,
+          "firstColumn": 2,
+          "subType": "warning",
+          "message": "Consider avoiding viewport values that prevent users from resizing documents.",
+          "extract": "cript>\n\t\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">\n\t<lin",
+          "hiliteStart": 10,
+          "hiliteLength": 126
+        },
+        {
+          "type": "info",
+          "lastLine": 9,
+          "lastColumn": 48,
+          "firstColumn": 7,
+          "subType": "warning",
+          "message": "The “type” attribute for the “style” element is not needed and should be omitted.",
+          "extract": "p\">\n\t\t\t\t\t\t<style type=\"text/css\" id=\"cst_font_data\">\n\t\t\t\t\t",
+          "hiliteStart": 10,
+          "hiliteLength": 42
+        },
+        {
+          "type": "info",
+          "lastLine": 72,
+          "lastColumn": 333,
+          "firstColumn": 1,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": "l</title>\n<meta name=\"description\" content=\"É a diversidade da flora deste país o que guia a sua missão: oferecer bolsas e mochilas para todxs! E, se a planta homônima tem o poder de adormecer freneticamente os lábios de quem a experimenta, o que nos impulsiona é a possibilidade de oferecer uma experiência sinestésica aos nossos clientes.\"/>\n<meta",
+          "hiliteStart": 10,
+          "hiliteLength": 333
+        },
+        {
+          "type": "info",
+          "lastLine": 73,
+          "lastColumn": 108,
+          "firstColumn": 1,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": "entes.\"/>\n<meta name=\"robots\" content=\"follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large\"/>\n<link",
+          "hiliteStart": 10,
+          "hiliteLength": 108
+        },
+        {
+          "type": "info",
+          "lastLine": 74,
+          "lastColumn": 58,
+          "firstColumn": 1,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": ":large\"/>\n<link rel=\"canonical\" href=\"https://ojambubags.com.br/\" />\n<meta",
+          "hiliteStart": 10,
+          "hiliteLength": 58
+        },
+        {
+          "type": "info",
+          "lastLine": 75,
+          "lastColumn": 45,
+          "firstColumn": 1,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": "m.br/\" />\n<meta property=\"og:locale\" content=\"pt_BR\" />\n<meta",
+          "hiliteStart": 10,
+          "hiliteLength": 45
+        },
+        {
+          "type": "info",
+          "lastLine": 76,
+          "lastColumn": 45,
+          "firstColumn": 1,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": "pt_BR\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta",
+          "hiliteStart": 10,
+          "hiliteLength": 45
+        },
+        {
+          "type": "info",
+          "lastLine": 77,
+          "lastColumn": 91,
+          "firstColumn": 1,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": "bsite\" />\n<meta property=\"og:title\" content=\"O Jambu Bags - Original, artesanal e sem pele animal\" />\n<meta",
+          "hiliteStart": 10,
+          "hiliteLength": 91
+        },
+        {
+          "type": "info",
+          "lastLine": 78,
+          "lastColumn": 341,
+          "firstColumn": 1,
+          "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
+          "extract": "nimal\" />\n<meta property=\"og:description\" content=\"É a diversidade da flora deste país o que guia a sua missão: oferecer bolsas e mochilas para todxs! E, se a planta homônima tem o poder de adormecer freneticamente os lábios de quem a experimenta, o que nos impulsiona é a possibilidade de oferecer uma experiência sinestésica aos nossos clientes.\" />\n<meta",
+          "hiliteStart": 10,
+          "hiliteLength": 341
+        }
+      ],
+      "seo_impact": [
+        {
+          "severity": "ALTO",
+          "issue": "160 erros de HTML detectados",
+          "impact": "Erros de código podem afetar indexação no Google",
+          "estimated_seo_loss": "10-25% de potencial de ranking"
+        }
+      ],
+      "business_impact": {},
+      "confidence": 0.95,
+      "total_errors": 160,
+      "total_warnings": 160
+    },
+    "mobile_optimization": {
+      "source": "Google Mobile-Friendly Analysis",
+      "authority": "Google Mobile Standards",
+      "data_collected": "2025-06-19T10:14:45.789148",
+      "mobile_friendly": true,
+      "mobile_issues": [],
+      "mobile_score": 100,
+      "business_impact": {},
+      "confidence": 0.9,
+      "total_issues": 0
+    }
+  },
+  "technical_evidence": {},
+  "business_impact": {},
+  "competitor_comparison": {},
+  "confidence_scores": {},
+  "executive_summary": {}
+}
