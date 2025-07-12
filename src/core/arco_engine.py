@@ -143,6 +143,7 @@ class ARCOEngine:
         }
 
         insights = []
+        missed_opportunities = []
         insights.append(self.analyze_saas_costs(company_data))
         insights.append(self.analyze_website_performance(company_data['website']))
         

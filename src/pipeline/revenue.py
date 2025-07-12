@@ -9,7 +9,7 @@ from enum import Enum, auto
 from dataclasses import dataclass, field
 from typing import Dict, List, Any, Optional
 
-from src.models.lead import RealLead
+from src.models.lead import Lead
 
 # Configuração de logging
 logger = logging.getLogger("arco.revenue_engine")
@@ -129,11 +129,11 @@ class RevenueEstimator:
             }
         }
 
-    def estimate_revenue(self, lead: RealLead) -> Dict[str, Any]:
+    def estimate_revenue(self, lead: Lead) -> Dict[str, Any]:
         """Estima a receita para um lead
 
         Args:
-            lead: Objeto RealLead com dados do lead
+            lead: Objeto Lead com dados do lead
 
         Returns:
             Dicionário com estimativa de receita e dados relacionados
@@ -191,11 +191,11 @@ class RevenueEstimator:
             "confidence_score": confidence
         }
 
-    def _collect_revenue_indicators(self, lead: RealLead) -> Dict[str, Any]:
+    def _collect_revenue_indicators(self, lead: Lead) -> Dict[str, Any]:
         """Coleta indicadores de receita do lead
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
 
         Returns:
             Dicionário com indicadores coletados
@@ -223,11 +223,11 @@ class RevenueEstimator:
 
         return indicators
 
-    def _identify_industry(self, lead: RealLead) -> str:
+    def _identify_industry(self, lead: Lead) -> str:
         """Identifica a indústria do lead para benchmarking
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
 
         Returns:
             Nome da indústria normalizado para benchmarking
@@ -279,11 +279,11 @@ class RevenueEstimator:
         # Default
         return "General Business"
 
-    def _calculate_tech_complexity(self, lead: RealLead) -> int:
+    def _calculate_tech_complexity(self, lead: Lead) -> int:
         """Calcula a complexidade tecnológica do lead
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
 
         Returns:
             Score de complexidade tecnológica (0-100)
@@ -322,11 +322,11 @@ class RevenueEstimator:
         # Normaliza para 0-100
         return min(score, 100)
 
-    def _assess_digital_maturity(self, lead: RealLead) -> int:
+    def _assess_digital_maturity(self, lead: Lead) -> int:
         """Avalia a maturidade digital do lead
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
 
         Returns:
             Score de maturidade digital (0-100)
@@ -353,11 +353,11 @@ class RevenueEstimator:
         # Normaliza para 0-100
         return min(int(score), 100)
 
-    def _classify_location_tier(self, lead: RealLead) -> int:
+    def _classify_location_tier(self, lead: Lead) -> int:
         """Classifica a localização em tiers de valor
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
 
         Returns:
             Tier da localização (1-5, sendo 5 o mais valioso)
@@ -391,11 +391,11 @@ class RevenueEstimator:
         # Tier 1 - Default
         return 1
 
-    def _assess_website_quality(self, lead: RealLead) -> int:
+    def _assess_website_quality(self, lead: Lead) -> int:
         """Avalia a qualidade do website como indicador de investimento
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
 
         Returns:
             Score de qualidade do website (0-100)
@@ -419,11 +419,11 @@ class RevenueEstimator:
         # Normaliza para 0-100
         return min(int(score), 100)
 
-    def _estimate_from_reviews(self, lead: RealLead) -> Tuple[float, float]:
+    def _estimate_from_reviews(self, lead: Lead) -> Tuple[float, float]:
         """Estima receita com base em reviews
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
 
         Returns:
             Tupla (min, max) de estimativa anual
@@ -453,11 +453,11 @@ class RevenueEstimator:
 
         return (min_estimate, max_estimate)
 
-    def _estimate_from_tech_complexity(self, lead: RealLead, tech_complexity: int) -> Tuple[float, float]:
+    def _estimate_from_tech_complexity(self, lead: Lead, tech_complexity: int) -> Tuple[float, float]:
         """Estima receita com base na complexidade tecnológica
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
             tech_complexity: Score de complexidade tecnológica
 
         Returns:
@@ -488,11 +488,11 @@ class RevenueEstimator:
 
         return (min_estimate, max_estimate)
 
-    def _estimate_from_location_rating(self, lead: RealLead, location_tier: int) -> Tuple[float, float]:
+    def _estimate_from_location_rating(self, lead: Lead, location_tier: int) -> Tuple[float, float]:
         """Estima receita com base na classificação da localização
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
             location_tier: Tier da localização (1-5)
 
         Returns:
@@ -528,11 +528,11 @@ class RevenueEstimator:
 
         return (min_estimate, max_estimate)
 
-    def _estimate_from_digital_maturity(self, lead: RealLead, digital_maturity: int) -> Tuple[float, float]:
+    def _estimate_from_digital_maturity(self, lead: Lead, digital_maturity: int) -> Tuple[float, float]:
         """Estima receita com base na maturidade digital
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
             digital_maturity: Score de maturidade digital
 
         Returns:
@@ -605,11 +605,11 @@ class RevenueEstimator:
 
         return (min_annual, max_annual)
 
-    def _calculate_confidence(self, lead: RealLead, estimates: List[Tuple[float, float]]) -> int:
+    def _calculate_confidence(self, lead: Lead, estimates: List[Tuple[float, float]]) -> int:
         """Calcula o score de confiança da estimativa
 
         Args:
-            lead: Objeto RealLead
+            lead: Objeto Lead
             estimates: Lista de estimativas utilizadas
 
         Returns:

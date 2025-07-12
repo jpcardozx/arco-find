@@ -13,7 +13,7 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional, Tuple
 
 from src.api_service import APIService
-from src.models.lead import RealLead
+from src.models.lead import Lead
 from src.pipeline.pain_points import PainPointsAnalyzer
 from src.pipeline.revenue import RevenueEstimator
 
@@ -407,14 +407,14 @@ class LeadPipeline:
             logger.error(f"Erro ao analisar tech stack para {url}: {str(e)}")
             return {"tech_stack": []}
 
-    async def analyze_lead(self, business_data: Dict) -> RealLead:
+    async def analyze_lead(self, business_data: Dict) -> Lead:
         """Analisa um lead potencial
 
         Args:
             business_data: Dados iniciais do negócio
 
         Returns:
-            Objeto RealLead completo com análise
+            Objeto Lead completo com análise
         """
         # Extrai website do negócio
         place_details = await self.get_place_details(business_data.get("place_id", ""))
@@ -431,7 +431,7 @@ class LeadPipeline:
             return None
 
         # Criação do lead básico
-        lead = RealLead(
+        lead = Lead(
             business_name=business_data.get("business_name", ""),
             domain=domain,
             location=business_data.get("location", ""),
@@ -540,11 +540,11 @@ class LeadPipeline:
         # Default
         return "General Business"
 
-    def _determine_icp_match(self, lead: RealLead) -> str:
+    def _determine_icp_match(self, lead: Lead) -> str:
         """Determina qual ICP (Ideal Customer Profile) melhor corresponde ao lead
 
         Args:
-            lead: Objeto RealLead com dados do lead
+            lead: Objeto Lead com dados do lead
 
         Returns:
             Código do ICP (P1, P2, P3, P4) ou vazio se não houver match
@@ -573,11 +573,11 @@ class LeadPipeline:
         # Sem match claro
         return ""
 
-    def _calculate_qualification_score(self, lead: RealLead) -> int:
+    def _calculate_qualification_score(self, lead: Lead) -> int:
         """Calcula o score de qualificação do lead
 
         Args:
-            lead: Objeto RealLead com dados do lead
+            lead: Objeto Lead com dados do lead
 
         Returns:
             Score de qualificação (0-100)
@@ -631,11 +631,11 @@ class LeadPipeline:
 
         return min(score, 100)  # Máximo 100 pontos
 
-    def _determine_approach_strategy(self, lead: RealLead) -> str:
+    def _determine_approach_strategy(self, lead: Lead) -> str:
         """Determina a estratégia de abordagem para o lead
 
         Args:
-            lead: Objeto RealLead com dados do lead
+            lead: Objeto Lead com dados do lead
 
         Returns:
             Estratégia de abordagem recomendada
@@ -649,11 +649,11 @@ class LeadPipeline:
         else:
             return "Sem abordagem - qualificação insuficiente"
 
-    def _determine_urgency_level(self, lead: RealLead) -> str:
+    def _determine_urgency_level(self, lead: Lead) -> str:
         """Determina o nível de urgência para abordar o lead
 
         Args:
-            lead: Objeto RealLead com dados do lead
+            lead: Objeto Lead com dados do lead
 
         Returns:
             Nível de urgência (Alto, Médio, Baixo)
@@ -669,7 +669,7 @@ class LeadPipeline:
         # Default
         return "Baixo"
 
-    async def run_pipeline(self, business_type: str = None) -> List[RealLead]:
+    async def run_pipeline(self, business_type: str = None) -> List[Lead]:
         """Executa o pipeline completo de descoberta e qualificação
 
         Args:
@@ -741,7 +741,7 @@ class LeadPipeline:
         logger.info(f"Pipeline concluído: {len(all_leads)} leads válidos, {len(qualified_leads)} qualificados")
         return qualified_leads
 
-    def save_results(self, leads: List[RealLead], output_prefix: str = None) -> Dict[str, str]:
+    def save_results(self, leads: List[Lead], output_prefix: str = None) -> Dict[str, str]:
         """Salva os resultados em diferentes formatos
 
         Args:
@@ -842,7 +842,7 @@ class LeadPipeline:
 
         return output_files
 
-    def _generate_report(self, leads: List[RealLead]) -> str:
+    def _generate_report(self, leads: List[Lead]) -> str:
         """Gera um relatório em markdown com insights sobre os leads
 
         Args:

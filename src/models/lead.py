@@ -6,10 +6,10 @@ from typing import List, Dict, Any, Optional
 @dataclass
 class OptimizationInsight:
     category: str
+    details: str = ""
     potential_savings: Optional[float] = None
     performance_score: Optional[int] = None
-    ad_metrics: Optional[Dict[str, Any]] = None # Novas métricas para performance de anúncios
-    details: str
+    ad_metrics: Optional[Dict[str, Any]] = None  # Novas métricas para performance de anúncios
     recommendations: List[str] = field(default_factory=list)
 
 @dataclass

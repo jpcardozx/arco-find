@@ -1,3 +1,3 @@
-from .lead import RealLead
+from .lead import Lead, OptimizationInsight
 
-__all__ = ["RealLead"]
+__all__ = ["Lead", "OptimizationInsight"]
