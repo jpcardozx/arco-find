@@ -19,4 +19,4 @@ To get started with Arco-Find, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).

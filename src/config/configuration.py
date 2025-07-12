@@ -1,6 +1,6 @@
 # src/config/configuration.py
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional
 
 @dataclass
@@ -19,6 +19,6 @@ class DatabaseConfig:
 class AppConfig:
     environment: str = "development"
     debug_mode: bool = False
-    api_keys: APIKeys = APIKeys()
-    database: DatabaseConfig = DatabaseConfig()
+    api_keys: APIKeys = field(default_factory=APIKeys)
+    database: DatabaseConfig = field(default_factory=DatabaseConfig)
     # Adicione outras configurações gerais da aplicação

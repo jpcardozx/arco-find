@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+env/
+venv/
+.venv/
+
+# Editor directories
+.idea/
+.vscode/
+
+# Logs and caches
+*.log
+cache/
+
+# Misc
+.DS_Store
+.env
