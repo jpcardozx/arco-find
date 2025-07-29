@@ -1,0 +1,7 @@
+{
+  "gcloud_path": "C:\\Users\\Jo\u00e3o Pedro Cardozo\\AppData\\Local\\Google\\Cloud SDK\\google-cloud-sdk\\bin\\gcloud.cmd",
+  "project_id": "arco-intelligence-hub",
+  "dataset_id": "arco_intelligence",
+  "bigquery_enabled": true,
+  "setup_complete": true
+}

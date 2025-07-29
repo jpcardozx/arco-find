@@ -1,0 +1,649 @@
+{
+  "meta": {
+    "timestamp": "20250726_022005",
+    "version": "8.0_NICHO_REPOSICIONADO",
+    "methodology": "Home Services Urgentes + Odonto Eletivo com SearchAPI",
+    "analysis_date": "2025-07-26T02:20:05.361254",
+    "target_niches": [
+      "home_services_urgent",
+      "odonto_eletivo"
+    ],
+    "nicho_scores": {
+      "home_services_urgent": 8.1,
+      "odonto_eletivo": 7.2
+    },
+    "total_prospects": 8,
+    "searchapi_calls_made": 8
+  },
+  "executive_summary": {
+    "total_prospects": 8,
+    "pilot_ready": 3,
+    "nurture": 5,
+    "total_monthly_rpp": 153600.0,
+    "total_p10_leads": 49,
+    "total_p50_leads": 101,
+    "searchapi_success_rate": 87.5,
+    "nicho_pivot_status": "IMPLEMENTED"
+  },
+  "pilot_ready_prospects": [
+    {
+      "business_name": "Clínica Implantes Premium",
+      "nicho": "odonto_eletivo",
+      "nicho_score": 7.2,
+      "searchapi_data": {
+        "ads_found": 13,
+        "query_timestamp": "2025-07-26T02:21:12.646537",
+        "query_used": "Clínica implantes advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 13,
+          "call_gaps": 13
+        },
+        "total_score": 78,
+        "evidence_text": "alta atividade (13 anúncios), 13 anúncios sem CTA de telefone",
+        "signal_count": 2,
+        "ads_analyzed": 13,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.2,
+        "call_readiness_avg": 5.0
+      },
+      "rpp_analysis": {
+        "nicho": "odonto_eletivo",
+        "monthly_clicks_base": 1040,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.16,
+          "call_bonus": 0.1,
+          "nicho_bonus": 0.03,
+          "total": 0.5
+        },
+        "additional_clicks": 520.0,
+        "additional_leads": 41.6,
+        "monthly_rpp": 62400.0,
+        "ticket_value": 1500,
+        "meets_pilot_threshold": true,
+        "p10_leads": 20,
+        "p50_leads": 41,
+        "lead_type": "consultas",
+        "evidence": "+20 a +41 consultas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 13
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": true,
+        "gate_call_opportunity": true,
+        "all_gates_passed": true,
+        "tier": "pilot_ready"
+      },
+      "outreach_message": "Detectei 2 sinais (alta atividade (13 anúncios), 13 anúncios sem CTA de telefone). Em 72h deixo WhatsApp fixo + CTA único e A/B de prova social. Sem subir mídia: +20 a +41 consultas/mês. Se não bater o piso, +2 semanas. Consegue 10 min hoje às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:21:13.646786"
+    },
+    {
+      "business_name": "Estética Dental Lentes",
+      "nicho": "odonto_eletivo",
+      "nicho_score": 7.2,
+      "searchapi_data": {
+        "ads_found": 8,
+        "query_timestamp": "2025-07-26T02:21:19.593344",
+        "query_used": "\"Estética Dental Lentes\" facebook ads implantes lentes"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 8,
+          "call_gaps": 8
+        },
+        "total_score": 48,
+        "evidence_text": "alta atividade (8 anúncios), 8 anúncios sem CTA de telefone",
+        "signal_count": 2,
+        "ads_analyzed": 8,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.6125,
+        "call_readiness_avg": 5.5
+      },
+      "rpp_analysis": {
+        "nicho": "odonto_eletivo",
+        "monthly_clicks_base": 640,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.16,
+          "call_bonus": 0.09,
+          "nicho_bonus": 0.091875,
+          "total": 0.5
+        },
+        "additional_clicks": 320.0,
+        "additional_leads": 25.6,
+        "monthly_rpp": 38400.0,
+        "ticket_value": 1500,
+        "meets_pilot_threshold": true,
+        "p10_leads": 12,
+        "p50_leads": 25,
+        "lead_type": "consultas",
+        "evidence": "+12 a +25 consultas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 8
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": true,
+        "gate_call_opportunity": true,
+        "all_gates_passed": true,
+        "tier": "pilot_ready"
+      },
+      "outreach_message": "Detectei 2 sinais (alta atividade (8 anúncios), 8 anúncios sem CTA de telefone). Em 72h deixo WhatsApp fixo + CTA único e A/B de prova social. Sem subir mídia: +12 a +25 consultas/mês. Se não bater o piso, +2 semanas. Consegue 10 min hoje às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:21:23.004716"
+    },
+    {
+      "business_name": "Ortodontia Invisalign SP",
+      "nicho": "odonto_eletivo",
+      "nicho_score": 7.2,
+      "searchapi_data": {
+        "ads_found": 11,
+        "query_timestamp": "2025-07-26T02:21:30.663231",
+        "query_used": "\"Ortodontia Invisalign SP\" facebook ads implantes lentes"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 11,
+          "call_gaps": 11
+        },
+        "total_score": 66,
+        "evidence_text": "alta atividade (11 anúncios), 11 anúncios sem CTA de telefone",
+        "signal_count": 2,
+        "ads_analyzed": 11,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.32727272727272727,
+        "call_readiness_avg": 5.0
+      },
+      "rpp_analysis": {
+        "nicho": "odonto_eletivo",
+        "monthly_clicks_base": 880,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.16,
+          "call_bonus": 0.1,
+          "nicho_bonus": 0.04909090909090909,
+          "total": 0.5
+        },
+        "additional_clicks": 440.0,
+        "additional_leads": 35.2,
+        "monthly_rpp": 52800.00000000001,
+        "ticket_value": 1500,
+        "meets_pilot_threshold": true,
+        "p10_leads": 17,
+        "p50_leads": 35,
+        "lead_type": "consultas",
+        "evidence": "+17 a +35 consultas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 11
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": true,
+        "gate_call_opportunity": true,
+        "all_gates_passed": true,
+        "tier": "pilot_ready"
+      },
+      "outreach_message": "Detectei 2 sinais (alta atividade (11 anúncios), 11 anúncios sem CTA de telefone). Em 72h deixo WhatsApp fixo + CTA único e A/B de prova social. Sem subir mídia: +17 a +35 consultas/mês. Se não bater o piso, +2 semanas. Consegue 10 min hoje às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:21:36.022713"
+    }
+  ],
+  "all_prospects": [
+    {
+      "business_name": "Desentupidora Santos 24h",
+      "nicho": "home_services_urgent",
+      "nicho_score": 8.1,
+      "searchapi_data": {
+        "ads_found": 10,
+        "query_timestamp": "2025-07-26T02:20:11.722899",
+        "query_used": "\"Desentupidora Santos 24h\" facebook ads desentupimento eletricista"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 10,
+          "call_gaps": 10,
+          "urgency_gap": 10
+        },
+        "total_score": 100,
+        "evidence_text": "alta atividade (10 anúncios), 10 anúncios sem CTA de telefone, 10 anúncios sem urgência",
+        "signal_count": 3,
+        "ads_analyzed": 10,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.22999999999999998,
+        "call_readiness_avg": 6.6
+      },
+      "rpp_analysis": {
+        "nicho": "home_services_urgent",
+        "monthly_clicks_base": 1200,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.24,
+          "call_bonus": 0.068,
+          "nicho_bonus": 0.034499999999999996,
+          "total": 0.5
+        },
+        "additional_clicks": 600.0,
+        "additional_leads": 72.0,
+        "monthly_rpp": 25200.0,
+        "ticket_value": 350,
+        "meets_pilot_threshold": true,
+        "p10_leads": 43,
+        "p50_leads": 86,
+        "lead_type": "chamadas",
+        "evidence": "+43 a +86 chamadas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 10
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": false,
+        "gate_call_opportunity": true,
+        "all_gates_passed": false,
+        "tier": "nurture"
+      },
+      "outreach_message": "Vi 3 sinais na sua conta nas últimas horas (alta atividade (10 anúncios), 10 anúncios sem CTA de telefone, 10 anúncios sem urgência). Em 72h coloco ligação 1-toque + auto-SMS em chamadas perdidas e higienizo criativos. Meta sem subir mídia: +43 a +86 chamadas/mês. Se não bater o piso, +2 semanas. Pode 10 min às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:20:17.509802"
+    },
+    {
+      "business_name": "Eletricista Express SP",
+      "nicho": "home_services_urgent",
+      "nicho_score": 8.1,
+      "searchapi_data": {
+        "ads_found": 2,
+        "query_timestamp": "2025-07-26T02:20:28.529948",
+        "query_used": "Eletricista desentupimento advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0,
+        "ads_analyzed": 2,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.4,
+        "call_readiness_avg": 5.0
+      },
+      "rpp_analysis": {
+        "nicho": "home_services_urgent",
+        "monthly_clicks_base": 240,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.0,
+          "call_bonus": 0.1,
+          "nicho_bonus": 0.06,
+          "total": 0.41
+        },
+        "additional_clicks": 98.39999999999999,
+        "additional_leads": 11.807999999999998,
+        "monthly_rpp": 4132.799999999999,
+        "ticket_value": 350,
+        "meets_pilot_threshold": false,
+        "p10_leads": 18,
+        "p50_leads": 14,
+        "lead_type": "chamadas",
+        "evidence": "+18 a +14 chamadas/mês sem subir mídia",
+        "data_quality": "estimated",
+        "ads_analyzed": 2
+      },
+      "gates_status": {
+        "gate_signals": false,
+        "gate_leads": false,
+        "gate_nicho_fit": true,
+        "gate_call_opportunity": true,
+        "all_gates_passed": false,
+        "tier": "nurture"
+      },
+      "outreach_message": "Vi 0 sinais na sua conta nas últimas horas (). Em 72h coloco ligação 1-toque + auto-SMS em chamadas perdidas e higienizo criativos. Meta sem subir mídia: +18 a +14 chamadas/mês. Se não bater o piso, +2 semanas. Pode 10 min às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:20:29.546030"
+    },
+    {
+      "business_name": "SOS Encanador Emergência",
+      "nicho": "home_services_urgent",
+      "nicho_score": 8.1,
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": null,
+        "query_used": "N/A"
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data",
+        "nicho_fit": 0
+      },
+      "rpp_analysis": {
+        "nicho": "home_services_urgent",
+        "monthly_clicks_base": 0,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.0,
+          "call_bonus": 0.2,
+          "nicho_bonus": 0.0,
+          "total": 0.45
+        },
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 350,
+        "meets_pilot_threshold": false,
+        "p10_leads": 18,
+        "p50_leads": 0,
+        "lead_type": "chamadas",
+        "evidence": "+18 a +0 chamadas/mês sem subir mídia",
+        "data_quality": "estimated",
+        "ads_analyzed": 0
+      },
+      "gates_status": {
+        "gate_signals": false,
+        "gate_leads": false,
+        "gate_nicho_fit": false,
+        "gate_call_opportunity": false,
+        "all_gates_passed": false,
+        "tier": "nurture"
+      },
+      "outreach_message": "Vi 0 sinais na sua conta nas últimas horas (sem dados do SearchAPI). Em 72h coloco ligação 1-toque + auto-SMS em chamadas perdidas e higienizo criativos. Meta sem subir mídia: +18 a +0 chamadas/mês. Se não bater o piso, +2 semanas. Pode 10 min às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:20:43.730995"
+    },
+    {
+      "business_name": "Dedetizadora Rápida",
+      "nicho": "home_services_urgent",
+      "nicho_score": 8.1,
+      "searchapi_data": {
+        "ads_found": 16,
+        "query_timestamp": "2025-07-26T02:20:50.818094",
+        "query_used": "\"Dedetizadora Rápida\" facebook ads desentupimento eletricista"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 16,
+          "call_gaps": 16,
+          "urgency_gap": 16
+        },
+        "total_score": 100,
+        "evidence_text": "alta atividade (16 anúncios), 16 anúncios sem CTA de telefone, 16 anúncios sem urgência",
+        "signal_count": 3,
+        "ads_analyzed": 16,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.2,
+        "call_readiness_avg": 5.3125
+      },
+      "rpp_analysis": {
+        "nicho": "home_services_urgent",
+        "monthly_clicks_base": 1920,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.24,
+          "call_bonus": 0.09375,
+          "nicho_bonus": 0.03,
+          "total": 0.5
+        },
+        "additional_clicks": 960.0,
+        "additional_leads": 115.19999999999999,
+        "monthly_rpp": 40319.99999999999,
+        "ticket_value": 350,
+        "meets_pilot_threshold": true,
+        "p10_leads": 69,
+        "p50_leads": 138,
+        "lead_type": "chamadas",
+        "evidence": "+69 a +138 chamadas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 16
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": false,
+        "gate_call_opportunity": true,
+        "all_gates_passed": false,
+        "tier": "nurture"
+      },
+      "outreach_message": "Vi 3 sinais na sua conta nas últimas horas (alta atividade (16 anúncios), 16 anúncios sem CTA de telefone, 16 anúncios sem urgência). Em 72h coloco ligação 1-toque + auto-SMS em chamadas perdidas e higienizo criativos. Meta sem subir mídia: +69 a +138 chamadas/mês. Se não bater o piso, +2 semanas. Pode 10 min às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:20:55.956476"
+    },
+    {
+      "business_name": "Clínica Implantes Premium",
+      "nicho": "odonto_eletivo",
+      "nicho_score": 7.2,
+      "searchapi_data": {
+        "ads_found": 13,
+        "query_timestamp": "2025-07-26T02:21:12.646537",
+        "query_used": "Clínica implantes advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 13,
+          "call_gaps": 13
+        },
+        "total_score": 78,
+        "evidence_text": "alta atividade (13 anúncios), 13 anúncios sem CTA de telefone",
+        "signal_count": 2,
+        "ads_analyzed": 13,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.2,
+        "call_readiness_avg": 5.0
+      },
+      "rpp_analysis": {
+        "nicho": "odonto_eletivo",
+        "monthly_clicks_base": 1040,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.16,
+          "call_bonus": 0.1,
+          "nicho_bonus": 0.03,
+          "total": 0.5
+        },
+        "additional_clicks": 520.0,
+        "additional_leads": 41.6,
+        "monthly_rpp": 62400.0,
+        "ticket_value": 1500,
+        "meets_pilot_threshold": true,
+        "p10_leads": 20,
+        "p50_leads": 41,
+        "lead_type": "consultas",
+        "evidence": "+20 a +41 consultas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 13
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": true,
+        "gate_call_opportunity": true,
+        "all_gates_passed": true,
+        "tier": "pilot_ready"
+      },
+      "outreach_message": "Detectei 2 sinais (alta atividade (13 anúncios), 13 anúncios sem CTA de telefone). Em 72h deixo WhatsApp fixo + CTA único e A/B de prova social. Sem subir mídia: +20 a +41 consultas/mês. Se não bater o piso, +2 semanas. Consegue 10 min hoje às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:21:13.646786"
+    },
+    {
+      "business_name": "Estética Dental Lentes",
+      "nicho": "odonto_eletivo",
+      "nicho_score": 7.2,
+      "searchapi_data": {
+        "ads_found": 8,
+        "query_timestamp": "2025-07-26T02:21:19.593344",
+        "query_used": "\"Estética Dental Lentes\" facebook ads implantes lentes"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 8,
+          "call_gaps": 8
+        },
+        "total_score": 48,
+        "evidence_text": "alta atividade (8 anúncios), 8 anúncios sem CTA de telefone",
+        "signal_count": 2,
+        "ads_analyzed": 8,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.6125,
+        "call_readiness_avg": 5.5
+      },
+      "rpp_analysis": {
+        "nicho": "odonto_eletivo",
+        "monthly_clicks_base": 640,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.16,
+          "call_bonus": 0.09,
+          "nicho_bonus": 0.091875,
+          "total": 0.5
+        },
+        "additional_clicks": 320.0,
+        "additional_leads": 25.6,
+        "monthly_rpp": 38400.0,
+        "ticket_value": 1500,
+        "meets_pilot_threshold": true,
+        "p10_leads": 12,
+        "p50_leads": 25,
+        "lead_type": "consultas",
+        "evidence": "+12 a +25 consultas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 8
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": true,
+        "gate_call_opportunity": true,
+        "all_gates_passed": true,
+        "tier": "pilot_ready"
+      },
+      "outreach_message": "Detectei 2 sinais (alta atividade (8 anúncios), 8 anúncios sem CTA de telefone). Em 72h deixo WhatsApp fixo + CTA único e A/B de prova social. Sem subir mídia: +12 a +25 consultas/mês. Se não bater o piso, +2 semanas. Consegue 10 min hoje às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:21:23.004716"
+    },
+    {
+      "business_name": "Ortodontia Invisalign SP",
+      "nicho": "odonto_eletivo",
+      "nicho_score": 7.2,
+      "searchapi_data": {
+        "ads_found": 11,
+        "query_timestamp": "2025-07-26T02:21:30.663231",
+        "query_used": "\"Ortodontia Invisalign SP\" facebook ads implantes lentes"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 11,
+          "call_gaps": 11
+        },
+        "total_score": 66,
+        "evidence_text": "alta atividade (11 anúncios), 11 anúncios sem CTA de telefone",
+        "signal_count": 2,
+        "ads_analyzed": 11,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.32727272727272727,
+        "call_readiness_avg": 5.0
+      },
+      "rpp_analysis": {
+        "nicho": "odonto_eletivo",
+        "monthly_clicks_base": 880,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.16,
+          "call_bonus": 0.1,
+          "nicho_bonus": 0.04909090909090909,
+          "total": 0.5
+        },
+        "additional_clicks": 440.0,
+        "additional_leads": 35.2,
+        "monthly_rpp": 52800.00000000001,
+        "ticket_value": 1500,
+        "meets_pilot_threshold": true,
+        "p10_leads": 17,
+        "p50_leads": 35,
+        "lead_type": "consultas",
+        "evidence": "+17 a +35 consultas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 11
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": true,
+        "gate_call_opportunity": true,
+        "all_gates_passed": true,
+        "tier": "pilot_ready"
+      },
+      "outreach_message": "Detectei 2 sinais (alta atividade (11 anúncios), 11 anúncios sem CTA de telefone). Em 72h deixo WhatsApp fixo + CTA único e A/B de prova social. Sem subir mídia: +17 a +35 consultas/mês. Se não bater o piso, +2 semanas. Consegue 10 min hoje às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:21:36.022713"
+    },
+    {
+      "business_name": "Dental Estética Clareamento",
+      "nicho": "odonto_eletivo",
+      "nicho_score": 7.2,
+      "searchapi_data": {
+        "ads_found": 47,
+        "query_timestamp": "2025-07-26T02:21:51.756354",
+        "query_used": "Dental implantes advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "volume_burst": 47,
+          "call_gaps": 47
+        },
+        "total_score": 100,
+        "evidence_text": "alta atividade (47 anúncios), 47 anúncios sem CTA de telefone",
+        "signal_count": 2,
+        "ads_analyzed": 47,
+        "data_source": "real_searchapi",
+        "nicho_fit": 0.18723404255319148,
+        "call_readiness_avg": 5.127659574468085
+      },
+      "rpp_analysis": {
+        "nicho": "odonto_eletivo",
+        "monthly_clicks_base": 3760,
+        "improvement_breakdown": {
+          "base": 0.25,
+          "signal_bonus": 0.16,
+          "call_bonus": 0.0974468085106383,
+          "nicho_bonus": 0.02808510638297872,
+          "total": 0.5
+        },
+        "additional_clicks": 1880.0,
+        "additional_leads": 150.4,
+        "monthly_rpp": 225600.0,
+        "ticket_value": 1500,
+        "meets_pilot_threshold": true,
+        "p10_leads": 75,
+        "p50_leads": 150,
+        "lead_type": "consultas",
+        "evidence": "+75 a +150 consultas/mês sem subir mídia",
+        "data_quality": "high",
+        "ads_analyzed": 47
+      },
+      "gates_status": {
+        "gate_signals": true,
+        "gate_leads": true,
+        "gate_nicho_fit": false,
+        "gate_call_opportunity": true,
+        "all_gates_passed": false,
+        "tier": "nurture"
+      },
+      "outreach_message": "Detectei 2 sinais (alta atividade (47 anúncios), 47 anúncios sem CTA de telefone). Em 72h deixo WhatsApp fixo + CTA único e A/B de prova social. Sem subir mídia: +75 a +150 consultas/mês. Se não bater o piso, +2 semanas. Consegue 10 min hoje às 11:30 ou 16:00 (SP)?",
+      "real_domain": null,
+      "analysis_timestamp": "2025-07-26T02:21:52.756677"
+    }
+  ],
+  "next_steps": {
+    "immediate_outreach": "Contact 3 nicho-validated prospects",
+    "target_verticals": "Home Services 24h + Odonto Eletivo",
+    "value_prop": "Rota 1-toque + auto-SMS + SLA ≤15min + higiene criativa",
+    "expected_pilots": "1-1 pilotos em 72h"
+  }
+}

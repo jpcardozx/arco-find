@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "timestamp": "20250725_233340",
+    "version": "7.4_pragmatic_production",
+    "methodology": "Pragmatic analysis focused on SearchAPI data and real outreach results",
+    "analysis_date": "2025-07-25T23:33:40.666686",
+    "total_prospects": 0
+  },
+  "executive_summary": {
+    "total_prospects": 0,
+    "pilot_ready": 0,
+    "qualified": 0,
+    "nurture": 0,
+    "total_monthly_opportunity": 0,
+    "avg_priority_score": 0,
+    "immediate_action_prospects": 0
+  },
+  "volume_analysis": {
+    "high_volume_prospects": 0,
+    "medium_volume_prospects": 0,
+    "low_volume_prospects": 0,
+    "high_volume_opportunity": 0,
+    "medium_volume_opportunity": 0
+  },
+  "pilot_ready_prospects": [],
+  "qualified_prospects": [],
+  "all_prospects": [],
+  "outreach_plan": {
+    "immediate_action": "Contact 0 pilot-ready prospects",
+    "week_1_targets": [],
+    "week_2_targets": [],
+    "expected_reply_rate": "35-45% based on personalized templates",
+    "target_meetings": "2-4 calls"
+  },
+  "methodology_notes": {
+    "waste_calculation": "Tier-based: high_volume(45%), medium_volume(25%), low_volume(12%)",
+    "priority_scoring": "opportunity(50%) + implementation(30%) + evidence(20%)",
+    "outreach_templates": "Niche-specific templates tested for reply rates",
+    "data_source": "SearchAPI Meta Ad Library data with observable metrics"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "generated_at": "2025-07-25T23:09:09.245325",
+    "version": "7.3b_pilot_shortlist",
+    "total_prospects": 9,
+    "selection_criteria": "business_match >= 0.4, combined_score >= 0.35, monthly_opportunity >= $200"
+  },
+  "shortlist_summary": {
+    "total_monthly_opportunity": 4792.4800000000005,
+    "average_combined_score": 0.572,
+    "niche_breakdown": {
+      "legal": {
+        "count": 3,
+        "total_opportunity": 2143.52
+      },
+      "healthcare": {
+        "count": 2,
+        "total_opportunity": 1085.12
+      },
+      "professional": {
+        "count": 4,
+        "total_opportunity": 1563.8400000000001
+      }
+    },
+    "expected_reply_rate": "35-45%",
+    "target_meetings": "6-8 calls"
+  },
+  "prospects": [
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "company_size": "medium",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 667.84,
+        "formula_breakdown": "$4,174 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $668",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 21,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "company_size": "medium",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 584.0,
+        "formula_breakdown": "$3,650 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $584",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 21,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "Daniel L. Abrams MD",
+      "page_id": "112732508450417",
+      "company_size": "medium",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 604.8000000000001,
+        "formula_breakdown": "$3,780 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $605",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 21,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "company_size": "medium",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 501.12,
+        "formula_breakdown": "$3,132 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $501",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 21,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "company_size": "small",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 389.92,
+        "formula_breakdown": "$2,437 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $390",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 14,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "Adam Finch",
+      "page_id": "107885628715611",
+      "company_size": "small",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 352.8,
+        "formula_breakdown": "$2,205 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $353",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 14,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "FABBI LLC",
+      "page_id": "112624778611120",
+      "company_size": "small",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 312.16,
+        "formula_breakdown": "$1,951 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $312",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 14,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "Advisors Hub, Inc.",
+      "page_id": "544765435382123",
+      "company_size": "small",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 294.08,
+        "formula_breakdown": "$1,838 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $294",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.8,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 14,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "company_size": "medium",
+      "hot_signals": [],
+      "hot_signal_score": 0.2,
+      "meta_waste": {
+        "creative_overlap_rate": 0.05,
+        "audience_fragmentation": 0.03,
+        "broad_without_exclusions": 0.03,
+        "ad_set_dispersion": 0.05,
+        "total_waste_percentage": 0.16,
+        "monthly_waste_amount": 1085.76,
+        "formula_breakdown": "$6,786 × (0.05 creative_overlap + 0.03 audience_frag + 0.03 broad_usage + 0.05 dispersion) = $1,086",
+        "confidence_level": 0.55
+      },
+      "pilot_insights": [],
+      "business_match": 0.56,
+      "pilot_readiness": 0.27,
+      "time_to_value_score": 0.23500000000000001,
+      "sales_cycle_estimate_days": 21,
+      "decision_maker_urgency": "low",
+      "proof_timeline": "4-6 weeks",
+      "analysis_timestamp": "2025-07-25T23:08:10.484373"
+    }
+  ],
+  "templates_by_niche": {
+    "legal_high": "Hi [Name], noticed your firm is running multiple ad campaigns. Our analysis of legal practices shows specific optimization opportunities worth $[Amount]/month. 15-minute call to share the breakdown?",
+    "legal_standard": "Hi [Name], quick question about your lead generation. We've identified $[Amount]/month in potential savings through campaign consolidation. Worth a brief call?",
+    "healthcare_high": "Hi [Name], analyzing your practice's advertising approach. Healthcare-specific optimization could recover $[Amount]/month in your current spend. Quick chat about the findings?",
+    "healthcare_standard": "Hi [Name], noticed your practice advertising. Medical practices often have $[Amount]/month in hidden waste - would you like to see where it is?",
+    "professional_high": "Hi [Name], your advertising data shows $[Amount]/month optimization opportunity. Most service businesses miss this - interested in a quick breakdown?",
+    "professional_standard": "Hi [Name], quick insight on your advertising efficiency. $[Amount]/month potential savings identified. 10-minute call?"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "export_timestamp": "20250729_095908",
+  "total_leads": 5,
+  "qualification_criteria": {
+    "industries": [
+      "legal",
+      "healthcare",
+      "real_estate",
+      "automotive",
+      "home_services"
+    ],
+    "min_spend": 1000,
+    "location_types": [
+      "local",
+      "regional"
+    ],
+    "business_size": [
+      "smb",
+      "small_medium"
+    ]
+  },
+  "leads": [
+    {
+      "company_name": "DFW Injury Lawyers: Dallas Personal Injury Attorneys",
+      "domain": "dfwinjurylawyers.com",
+      "industry": "legal",
+      "location": "Dallas",
+      "contact_info": {
+        "website": "https://www.dfwinjurylawyers.com/",
+        "industry": "legal",
+        "approach_method": "cold_email_with_audit"
+      },
+      "icp_score": 0.8,
+      "p0_signals": [
+        "P0_PERFORMANCE",
+        "P0_LCP"
+      ],
+      "qualification_reason": "High-value legal vertical with strong ROI potential | Local business focus indicates SMB target | Multiple P0 signals detected (2) indicating urgent optimization needs",
+      "urgency_score": 0.9099999999999999,
+      "estimated_waste": 2000.0,
+      "approach_vector": "AD_WASTE_FOCUS"
+    },
+    {
+      "company_name": "Dallas Personal Injury Lawyers The Texas Hammer®",
+      "domain": "jimadler.com",
+      "industry": "legal",
+      "location": "Dallas",
+      "contact_info": {
+        "website": "https://www.jimadler.com/dallas/",
+        "industry": "legal",
+        "approach_method": "cold_email_with_audit"
+      },
+      "icp_score": 0.7500000000000001,
+      "p0_signals": [
+        "P0_LCP"
+      ],
+      "qualification_reason": "High-value legal vertical with strong ROI potential | Local business focus indicates SMB target | P0 performance signal detected",
+      "urgency_score": 0.62,
+      "estimated_waste": 2000.0,
+      "approach_vector": "AD_WASTE_FOCUS"
+    },
+    {
+      "company_name": "J. Alexander Law Firm: Dallas Personal Injury Lawyers",
+      "domain": "severeinjurylawyers.com",
+      "industry": "legal",
+      "location": "Dallas",
+      "contact_info": {
+        "website": "https://www.severeinjurylawyers.com/",
+        "industry": "legal",
+        "approach_method": "cold_email_with_audit"
+      },
+      "icp_score": 0.7500000000000001,
+      "p0_signals": [
+        "P0_LCP"
+      ],
+      "qualification_reason": "High-value legal vertical with strong ROI potential | Local business focus indicates SMB target | P0 performance signal detected",
+      "urgency_score": 0.62,
+      "estimated_waste": 2000.0,
+      "approach_vector": "AD_WASTE_FOCUS"
+    },
+    {
+      "company_name": "Personal Injury Attorneys in Texas Thomas J. Henry Law",
+      "domain": "thomasjhenrylaw.com",
+      "industry": "legal",
+      "location": "Dallas",
+      "contact_info": {
+        "website": "https://thomasjhenrylaw.com/",
+        "industry": "legal",
+        "approach_method": "cold_email_with_audit"
+      },
+      "icp_score": 0.8,
+      "p0_signals": [
+        "P0_LCP",
+        "P0_CLS"
+      ],
+      "qualification_reason": "High-value legal vertical with strong ROI potential | Multiple P0 signals detected (2) indicating urgent optimization needs",
+      "urgency_score": 0.8800000000000001,
+      "estimated_waste": 2000.0,
+      "approach_vector": "AD_WASTE_FOCUS"
+    },
+    {
+      "company_name": "Dallas Personal Injury Lawyer Attorney Jerry D. Andrews",
+      "domain": "dfwinjurylawyer.com",
+      "industry": "legal",
+      "location": "Dallas",
+      "contact_info": {
+        "website": "https://www.dfwinjurylawyer.com/",
+        "industry": "legal",
+        "approach_method": "cold_email_with_audit"
+      },
+      "icp_score": 0.7500000000000001,
+      "p0_signals": [
+        "P0_LCP"
+      ],
+      "qualification_reason": "High-value legal vertical with strong ROI potential | Local business focus indicates SMB target | P0 performance signal detected",
+      "urgency_score": 0.62,
+      "estimated_waste": 2000.0,
+      "approach_vector": "AD_WASTE_FOCUS"
+    }
+  ],
+  "summary": {
+    "avg_icp_score": 0.7700000000000001,
+    "avg_urgency_score": 0.73,
+    "total_estimated_waste": 10000.0,
+    "industries": [
+      "legal"
+    ],
+    "approach_vectors": [
+      "AD_WASTE_FOCUS"
+    ]
+  }
+}

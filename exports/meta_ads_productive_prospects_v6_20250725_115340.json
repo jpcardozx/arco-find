@@ -1,0 +1,1169 @@
+{
+  "meta": {
+    "timestamp": "20250725_115340",
+    "version": "6.0",
+    "engine": "productive_volume",
+    "approach": "expanded_niches_realistic_waste",
+    "analysis_date": "2025-07-25T11:53:40.768470"
+  },
+  "productive_summary": {
+    "total_prospects": 50,
+    "hot_prospects": 14,
+    "warm_prospects": 10,
+    "qualified_prospects": 16,
+    "cold_prospects": 10,
+    "total_waste_identified": 15188,
+    "average_waste_per_prospect": 303.76,
+    "average_confidence": 0.7710000000000007
+  },
+  "industry_performance": {
+    "legal": {
+      "prospects_found": 14,
+      "total_waste": 8666,
+      "avg_confidence": 0.8892857142857142,
+      "avg_waste": 619.0
+    },
+    "healthcare": {
+      "prospects_found": 9,
+      "total_waste": 3251,
+      "avg_confidence": 0.7999999999999999,
+      "avg_waste": 361.22222222222223
+    },
+    "professional": {
+      "prospects_found": 9,
+      "total_waste": 1868,
+      "avg_confidence": 0.8166666666666665,
+      "avg_waste": 207.55555555555554
+    },
+    "b2b": {
+      "prospects_found": 8,
+      "total_waste": 711,
+      "avg_confidence": 0.6312500000000001,
+      "avg_waste": 88.875
+    },
+    "home_services": {
+      "prospects_found": 10,
+      "total_waste": 692,
+      "avg_confidence": 0.65,
+      "avg_waste": 69.2
+    }
+  },
+  "productive_insights": [
+    {
+      "page_name": "Quill & Arrow - Personal Injury & Lemon Law Lawyers",
+      "page_id": "238107887068721",
+      "total_ads": 30,
+      "active_ads": 30,
+      "spend_estimate": "$8000/month",
+      "waste_indicators": [
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 2392,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "personal injury attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "HOT",
+      "annual_opportunity": "$28704",
+      "outreach_value": 2392.0
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "total_ads": 30,
+      "active_ads": 30,
+      "spend_estimate": "$6786/month",
+      "waste_indicators": [
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 2029,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "workers compensation attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "HOT",
+      "annual_opportunity": "$24348",
+      "outreach_value": 2029.0
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "total_ads": 26,
+      "active_ads": 13,
+      "spend_estimate": "$4174/month",
+      "waste_indicators": [
+        "Creative fatigue - 13 ads running 4+ months",
+        "Stale creatives - 13 ads running 1+ year",
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging",
+        "Complete creative refresh needed",
+        "Consider expanding to additional Meta placements",
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 1878,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "medical malpractice lawyer",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "HOT",
+      "annual_opportunity": "$22536",
+      "outreach_value": 1878.0
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "total_ads": 30,
+      "active_ads": 30,
+      "spend_estimate": "$3650/month",
+      "waste_indicators": [
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Consider expanding to additional Meta placements",
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 924,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "dermatology clinic",
+      "business_validation": "Business type: healthcare, confidence: high",
+      "industry_category": "healthcare",
+      "priority": "HOT",
+      "annual_opportunity": "$11088",
+      "outreach_value": 924.0
+    },
+    {
+      "page_name": "Daniel L. Abrams MD",
+      "page_id": "112732508450417",
+      "total_ads": 30,
+      "active_ads": 30,
+      "spend_estimate": "$3780/month",
+      "waste_indicators": [
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 956,
+      "confidence_score": 0.9,
+      "data_source": "Meta Ad Library API",
+      "search_term": "medical clinic",
+      "business_validation": "Business type: healthcare, confidence: medium",
+      "industry_category": "healthcare",
+      "priority": "HOT",
+      "annual_opportunity": "$11472",
+      "outreach_value": 860.4
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "total_ads": 30,
+      "active_ads": 30,
+      "spend_estimate": "$3132/month",
+      "waste_indicators": [
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 792,
+      "confidence_score": 0.9,
+      "data_source": "Meta Ad Library API",
+      "search_term": "medical clinic",
+      "business_validation": "Business type: healthcare, confidence: medium",
+      "industry_category": "healthcare",
+      "priority": "HOT",
+      "annual_opportunity": "$9504",
+      "outreach_value": 712.8000000000001
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "total_ads": 28,
+      "active_ads": 22,
+      "spend_estimate": "$2437/month",
+      "waste_indicators": [
+        "Creative fatigue - 6 ads running 4+ months",
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging",
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 680,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "tax attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "professional",
+      "priority": "HOT",
+      "annual_opportunity": "$8160",
+      "outreach_value": 680.0
+    },
+    {
+      "page_name": "Cooper Hurley Injury Lawyers",
+      "page_id": "332013360177510",
+      "total_ads": 6,
+      "active_ads": 4,
+      "spend_estimate": "$1169/month",
+      "waste_indicators": [
+        "Creative fatigue - 2 ads running 4+ months",
+        "Stale creatives - 2 ads running 1+ year",
+        "Limited ad testing - could benefit from more variants"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging",
+        "Complete creative refresh needed",
+        "Test additional ad creative angles"
+      ],
+      "monthly_waste_estimate": 526,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "wrongful death lawyer",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "HOT",
+      "annual_opportunity": "$6312",
+      "outreach_value": 526.0
+    },
+    {
+      "page_name": "Adam Finch",
+      "page_id": "107885628715611",
+      "total_ads": 30,
+      "active_ads": 30,
+      "spend_estimate": "$2205/month",
+      "waste_indicators": [
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 456,
+      "confidence_score": 0.9,
+      "data_source": "Meta Ad Library API",
+      "search_term": "insurance agent",
+      "business_validation": "Generic business indicators",
+      "industry_category": "professional",
+      "priority": "HOT",
+      "annual_opportunity": "$5472",
+      "outreach_value": 410.40000000000003
+    },
+    {
+      "page_name": "FABBI LLC",
+      "page_id": "112624778611120",
+      "total_ads": 19,
+      "active_ads": 18,
+      "spend_estimate": "$1951/month",
+      "waste_indicators": [
+        "Creative fatigue - 1 ads running 4+ months"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging"
+      ],
+      "monthly_waste_estimate": 449,
+      "confidence_score": 0.9,
+      "data_source": "Meta Ad Library API",
+      "search_term": "accounting firm",
+      "business_validation": "Generic business indicators",
+      "industry_category": "b2b",
+      "priority": "HOT",
+      "annual_opportunity": "$5388",
+      "outreach_value": 404.1
+    },
+    {
+      "page_name": "Advisors Hub, Inc.",
+      "page_id": "544765435382123",
+      "total_ads": 25,
+      "active_ads": 25,
+      "spend_estimate": "$1838/month",
+      "waste_indicators": [
+        "High ad volume - potential budget dispersion"
+      ],
+      "optimization_opportunities": [
+        "Consolidate budget on top-performing ads"
+      ],
+      "monthly_waste_estimate": 380,
+      "confidence_score": 0.9,
+      "data_source": "Meta Ad Library API",
+      "search_term": "financial advisor",
+      "business_validation": "Business type: professional, confidence: medium",
+      "industry_category": "professional",
+      "priority": "HOT",
+      "annual_opportunity": "$4560",
+      "outreach_value": 342.0
+    },
+    {
+      "page_name": "Saunders & Chabert Attorneys at Law",
+      "page_id": "109516577344940",
+      "total_ads": 3,
+      "active_ads": 2,
+      "spend_estimate": "$645/month",
+      "waste_indicators": [
+        "Creative fatigue - 1 ads running 4+ months",
+        "Stale creatives - 1 ads running 1+ year",
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging",
+        "Complete creative refresh needed",
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 290,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "workers compensation attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "WARM",
+      "annual_opportunity": "$3480",
+      "outreach_value": 290.0
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "total_ads": 4,
+      "active_ads": 4,
+      "spend_estimate": "$905/month",
+      "waste_indicators": [
+        "Limited ad testing - could benefit from more variants"
+      ],
+      "optimization_opportunities": [
+        "Test additional ad creative angles"
+      ],
+      "monthly_waste_estimate": 271,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "wrongful death lawyer",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "WARM",
+      "annual_opportunity": "$3252",
+      "outreach_value": 271.0
+    },
+    {
+      "page_name": "Christian Lewis Attorney at Law",
+      "page_id": "550054921736828",
+      "total_ads": 4,
+      "active_ads": 1,
+      "spend_estimate": "$558/month",
+      "waste_indicators": [
+        "Creative fatigue - 3 ads running 4+ months",
+        "Stale creatives - 3 ads running 1+ year",
+        "Limited ad testing - could benefit from more variants",
+        "Low activity rate - 25% of ads are recent"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging",
+        "Complete creative refresh needed",
+        "Test additional ad creative angles",
+        "Pause old ads and focus budget on recent creatives"
+      ],
+      "monthly_waste_estimate": 251,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "personal injury attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "WARM",
+      "annual_opportunity": "$3012",
+      "outreach_value": 251.0
+    },
+    {
+      "page_name": "The Parks Law Firm",
+      "page_id": "117459407904682",
+      "total_ads": 4,
+      "active_ads": 4,
+      "spend_estimate": "$811/month",
+      "waste_indicators": [
+        "Limited ad testing - could benefit from more variants"
+      ],
+      "optimization_opportunities": [
+        "Test additional ad creative angles"
+      ],
+      "monthly_waste_estimate": 243,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "personal injury attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "WARM",
+      "annual_opportunity": "$2916",
+      "outreach_value": 243.0
+    },
+    {
+      "page_name": "The Ooten Law Firm",
+      "page_id": "510489129723017",
+      "total_ads": 3,
+      "active_ads": 3,
+      "spend_estimate": "$800/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 239,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "personal injury attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "WARM",
+      "annual_opportunity": "$2868",
+      "outreach_value": 239.0
+    },
+    {
+      "page_name": "The Grife Law Firm, Car Accident and Medical Malpractice Lawyers",
+      "page_id": "235092636691446",
+      "total_ads": 3,
+      "active_ads": 2,
+      "spend_estimate": "$524/month",
+      "waste_indicators": [
+        "Creative fatigue - 1 ads running 4+ months",
+        "Stale creatives - 1 ads running 1+ year",
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging",
+        "Complete creative refresh needed",
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 236,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "medical malpractice lawyer",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "WARM",
+      "annual_opportunity": "$2832",
+      "outreach_value": 236.0
+    },
+    {
+      "page_name": "Pelican Dental Care",
+      "page_id": "274427182416874",
+      "total_ads": 5,
+      "active_ads": 5,
+      "spend_estimate": "$819/month",
+      "waste_indicators": [
+        "Limited ad testing - could benefit from more variants"
+      ],
+      "optimization_opportunities": [
+        "Test additional ad creative angles"
+      ],
+      "monthly_waste_estimate": 207,
+      "confidence_score": 1.0,
+      "data_source": "Meta Ad Library API",
+      "search_term": "dental office",
+      "business_validation": "Business type: healthcare, confidence: high",
+      "industry_category": "healthcare",
+      "priority": "HOT",
+      "annual_opportunity": "$2484",
+      "outreach_value": 207.0
+    },
+    {
+      "page_name": "Moving The Mitten Real Estate Group",
+      "page_id": "751468708207694",
+      "total_ads": 14,
+      "active_ads": 5,
+      "spend_estimate": "$689/month",
+      "waste_indicators": [
+        "Creative fatigue - 9 ads running 4+ months"
+      ],
+      "optimization_opportunities": [
+        "Refresh old ad creatives with new messaging"
+      ],
+      "monthly_waste_estimate": 143,
+      "confidence_score": 0.9,
+      "data_source": "Meta Ad Library API",
+      "search_term": "mortgage broker",
+      "business_validation": "Business type: professional, confidence: medium",
+      "industry_category": "professional",
+      "priority": "WARM",
+      "annual_opportunity": "$1716",
+      "outreach_value": 128.70000000000002
+    },
+    {
+      "page_name": "Billion Dollar Contractor",
+      "page_id": "430717000127590",
+      "total_ads": 11,
+      "active_ads": 11,
+      "spend_estimate": "$845/month",
+      "waste_indicators": [],
+      "optimization_opportunities": [],
+      "monthly_waste_estimate": 152,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "hvac contractor",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "home_services",
+      "priority": "HOT",
+      "annual_opportunity": "$1824",
+      "outreach_value": 121.60000000000001
+    },
+    {
+      "page_name": "Superior Service",
+      "page_id": "255204921867",
+      "total_ads": 10,
+      "active_ads": 10,
+      "spend_estimate": "$840/month",
+      "waste_indicators": [],
+      "optimization_opportunities": [],
+      "monthly_waste_estimate": 151,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "plumbing contractor",
+      "business_validation": "Generic business indicators",
+      "industry_category": "home_services",
+      "priority": "HOT",
+      "annual_opportunity": "$1812",
+      "outreach_value": 120.80000000000001
+    },
+    {
+      "page_name": "Lombard Family Dentistry PLLC",
+      "page_id": "474192175772510",
+      "total_ads": 7,
+      "active_ads": 7,
+      "spend_estimate": "$882/month",
+      "waste_indicators": [],
+      "optimization_opportunities": [],
+      "monthly_waste_estimate": 146,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "family dentist",
+      "business_validation": "Generic business indicators",
+      "industry_category": "healthcare",
+      "priority": "WARM",
+      "annual_opportunity": "$1752",
+      "outreach_value": 116.80000000000001
+    },
+    {
+      "page_name": "Kamper Chiropractic a Palmercare Clinic",
+      "page_id": "533261990190567",
+      "total_ads": 3,
+      "active_ads": 3,
+      "spend_estimate": "$407/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 103,
+      "confidence_score": 0.95,
+      "data_source": "Meta Ad Library API",
+      "search_term": "chiropractic clinic",
+      "business_validation": "Business type: healthcare, confidence: high",
+      "industry_category": "healthcare",
+      "priority": "WARM",
+      "annual_opportunity": "$1236",
+      "outreach_value": 97.85
+    },
+    {
+      "page_name": "Jonathan Hicks, Esq Injury Attorney",
+      "page_id": "1781691892095074",
+      "total_ads": 2,
+      "active_ads": 2,
+      "spend_estimate": "$406/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 121,
+      "confidence_score": 0.75,
+      "data_source": "Meta Ad Library API",
+      "search_term": "personal injury attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$1452",
+      "outreach_value": 90.75
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "total_ads": 3,
+      "active_ads": 3,
+      "spend_estimate": "$328/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 90,
+      "confidence_score": 0.95,
+      "data_source": "Meta Ad Library API",
+      "search_term": "landscaping company",
+      "business_validation": "Business type: home_services, confidence: high",
+      "industry_category": "home_services",
+      "priority": "WARM",
+      "annual_opportunity": "$1080",
+      "outreach_value": 85.5
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "total_ads": 4,
+      "active_ads": 4,
+      "spend_estimate": "$284/month",
+      "waste_indicators": [
+        "Limited ad testing - could benefit from more variants"
+      ],
+      "optimization_opportunities": [
+        "Test additional ad creative angles"
+      ],
+      "monthly_waste_estimate": 59,
+      "confidence_score": 0.95,
+      "data_source": "Meta Ad Library API",
+      "search_term": "tax attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "professional",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$708",
+      "outreach_value": 56.05
+    },
+    {
+      "page_name": "Next Level Wealth Financial Services",
+      "page_id": "682425714947080",
+      "total_ads": 3,
+      "active_ads": 3,
+      "spend_estimate": "$234/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 54,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "payroll company",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "b2b",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$648",
+      "outreach_value": 43.2
+    },
+    {
+      "page_name": "CDD Services",
+      "page_id": "601764846345566",
+      "total_ads": 3,
+      "active_ads": 3,
+      "spend_estimate": "$187/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 52,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "hvac contractor",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "home_services",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$624",
+      "outreach_value": 41.6
+    },
+    {
+      "page_name": "Anthony Rogers, Attorney at Law",
+      "page_id": "997185167044234",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$226/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 68,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "workers compensation attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$816",
+      "outreach_value": 40.8
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$226/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 68,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "personal injury attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$816",
+      "outreach_value": 40.8
+    },
+    {
+      "page_name": "InVision Capital Advisor, LLC",
+      "page_id": "1413313565365077",
+      "total_ads": 3,
+      "active_ads": 3,
+      "spend_estimate": "$220/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 46,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "financial advisor",
+      "business_validation": "Generic business indicators",
+      "industry_category": "professional",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$552",
+      "outreach_value": 36.800000000000004
+    },
+    {
+      "page_name": "Dream Home Loans, Inc.",
+      "page_id": "428683763669650",
+      "total_ads": 3,
+      "active_ads": 3,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety",
+        "Single platform dependency - missing reach opportunities"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants",
+        "Test additional platforms (Instagram, Facebook, Audience Network)"
+      ],
+      "monthly_waste_estimate": 42,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "mortgage broker",
+      "business_validation": "Generic business indicators",
+      "industry_category": "professional",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$504",
+      "outreach_value": 33.6
+    },
+    {
+      "page_name": "River Road Pet Clinic",
+      "page_id": "137819436264076",
+      "total_ads": 2,
+      "active_ads": 2,
+      "spend_estimate": "$187/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 47,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "veterinary clinic",
+      "business_validation": "Business type: healthcare, confidence: medium",
+      "industry_category": "healthcare",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$564",
+      "outreach_value": 28.2
+    },
+    {
+      "page_name": "Rob Lambert, Attorney at Law",
+      "page_id": "206158926778680",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$179/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 54,
+      "confidence_score": 0.5,
+      "data_source": "Meta Ad Library API",
+      "search_term": "wrongful death lawyer",
+      "business_validation": "Business type: legal, confidence: high",
+      "industry_category": "legal",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$648",
+      "outreach_value": 27.0
+    },
+    {
+      "page_name": "E-N-S Home Cleaning Solutions, LLC",
+      "page_id": "108871535397991",
+      "total_ads": 2,
+      "active_ads": 2,
+      "spend_estimate": "$154/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 42,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "cleaning service",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "home_services",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$504",
+      "outreach_value": 25.2
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 41,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "hvac contractor",
+      "business_validation": "Business type: home_services, confidence: high",
+      "industry_category": "home_services",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$492",
+      "outreach_value": 24.599999999999998
+    },
+    {
+      "page_name": "McLaren's Home Repair Services",
+      "page_id": "105368155382491",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 41,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "handyman service",
+      "business_validation": "Business type: home_services, confidence: high",
+      "industry_category": "home_services",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$492",
+      "outreach_value": 24.599999999999998
+    },
+    {
+      "page_name": "Vitae Chiropractic Clinic Dr. Yamira Valentin",
+      "page_id": "286784825163461",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 38,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "chiropractic clinic",
+      "business_validation": "Business type: healthcare, confidence: high",
+      "industry_category": "healthcare",
+      "priority": "COLD",
+      "annual_opportunity": "$456",
+      "outreach_value": 22.8
+    },
+    {
+      "page_name": "DODO Professional Services",
+      "page_id": "680743965130088",
+      "total_ads": 2,
+      "active_ads": 2,
+      "spend_estimate": "$156/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 36,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "tax preparation service",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "b2b",
+      "priority": "COLD",
+      "annual_opportunity": "$432",
+      "outreach_value": 21.599999999999998
+    },
+    {
+      "page_name": "Service Solutions USA",
+      "page_id": "380786669099506",
+      "total_ads": 2,
+      "active_ads": 2,
+      "spend_estimate": "$156/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 36,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "payroll company",
+      "business_validation": "Generic business indicators",
+      "industry_category": "b2b",
+      "priority": "COLD",
+      "annual_opportunity": "$432",
+      "outreach_value": 21.599999999999998
+    },
+    {
+      "page_name": "Ever-Clean Maintenance Pro, LLC",
+      "page_id": "110872021633616",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 34,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "commercial cleaning",
+      "business_validation": "Business type: home_services, confidence: high",
+      "industry_category": "b2b",
+      "priority": "COLD",
+      "annual_opportunity": "$408",
+      "outreach_value": 20.4
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 34,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "commercial cleaning",
+      "business_validation": "Business type: home_services, confidence: high",
+      "industry_category": "b2b",
+      "priority": "COLD",
+      "annual_opportunity": "$408",
+      "outreach_value": 20.4
+    },
+    {
+      "page_name": "Fireside Planning LLC",
+      "page_id": "691383980728051",
+      "total_ads": 2,
+      "active_ads": 2,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 31,
+      "confidence_score": 0.6,
+      "data_source": "Meta Ad Library API",
+      "search_term": "financial advisor",
+      "business_validation": "Generic business indicators",
+      "industry_category": "professional",
+      "priority": "COLD",
+      "annual_opportunity": "$372",
+      "outreach_value": 18.599999999999998
+    },
+    {
+      "page_name": "PrimeCore Contractors",
+      "page_id": "672004989336866",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 41,
+      "confidence_score": 0.45,
+      "data_source": "Meta Ad Library API",
+      "search_term": "plumbing contractor",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "home_services",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$492",
+      "outreach_value": 18.45
+    },
+    {
+      "page_name": "Joe Ollis Real Estate & Auction, LLC",
+      "page_id": "117157445020877",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 41,
+      "confidence_score": 0.45,
+      "data_source": "Meta Ad Library API",
+      "search_term": "plumbing contractor",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "home_services",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$492",
+      "outreach_value": 18.45
+    },
+    {
+      "page_name": "Triple H Cleaning Services",
+      "page_id": "642369162302077",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 41,
+      "confidence_score": 0.45,
+      "data_source": "Meta Ad Library API",
+      "search_term": "cleaning service",
+      "business_validation": "Business type: home_services, confidence: medium",
+      "industry_category": "home_services",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$492",
+      "outreach_value": 18.45
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 38,
+      "confidence_score": 0.45,
+      "data_source": "Meta Ad Library API",
+      "search_term": "physical therapy",
+      "business_validation": "Generic business indicators",
+      "industry_category": "healthcare",
+      "priority": "COLD",
+      "annual_opportunity": "$456",
+      "outreach_value": 17.1
+    },
+    {
+      "page_name": "Southern Maid Janitorial Services, Inc.",
+      "page_id": "257785377602826",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 34,
+      "confidence_score": 0.5,
+      "data_source": "Meta Ad Library API",
+      "search_term": "janitorial service",
+      "business_validation": "Business type: home_services, confidence: high",
+      "industry_category": "b2b",
+      "priority": "COLD",
+      "annual_opportunity": "$408",
+      "outreach_value": 17.0
+    },
+    {
+      "page_name": "Cohen Financial Group Los Angeles",
+      "page_id": "103316885479817",
+      "total_ads": 2,
+      "active_ads": 2,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 31,
+      "confidence_score": 0.5,
+      "data_source": "Meta Ad Library API",
+      "search_term": "mortgage broker",
+      "business_validation": "Business type: professional, confidence: medium",
+      "industry_category": "professional",
+      "priority": "COLD",
+      "annual_opportunity": "$372",
+      "outreach_value": 15.5
+    },
+    {
+      "page_name": "Ribbie's Tax Preparation Service",
+      "page_id": "208243152666577",
+      "total_ads": 1,
+      "active_ads": 1,
+      "spend_estimate": "$150/month",
+      "waste_indicators": [
+        "Minimal ad testing - limited creative variety"
+      ],
+      "optimization_opportunities": [
+        "Expand A/B testing with multiple ad variants"
+      ],
+      "monthly_waste_estimate": 34,
+      "confidence_score": 0.45,
+      "data_source": "Meta Ad Library API",
+      "search_term": "tax preparation service",
+      "business_validation": "Generic business indicators",
+      "industry_category": "b2b",
+      "priority": "COLD",
+      "annual_opportunity": "$408",
+      "outreach_value": 15.3
+    }
+  ]
+}

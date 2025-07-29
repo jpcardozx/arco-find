@@ -1,0 +1,1050 @@
+{
+  "meta": {
+    "timestamp": "20250726_003602",
+    "version": "7.6_real_searchapi_integration",
+    "methodology": "Real SearchAPI integration with hot signals detection",
+    "analysis_date": "2025-07-26T00:36:02.675480",
+    "total_prospects": 10,
+    "searchapi_calls_made": 10
+  },
+  "executive_summary": {
+    "total_prospects": 10,
+    "pilot_ready": 10,
+    "qualified": 0,
+    "nurture": 0,
+    "total_monthly_rpp": 31770.0,
+    "total_additional_leads": 216.0,
+    "avg_priority_score": 83.9,
+    "searchapi_success_rate": 100.0
+  },
+  "searchapi_results": {
+    "total_api_calls": 10,
+    "successful_calls": 10,
+    "total_ads_found": 84,
+    "avg_ads_per_prospect": 8.4,
+    "prospects_with_activity": 10
+  },
+  "pilot_ready_prospects": [
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 18,
+        "query_timestamp": "2025-07-26T00:35:28.526594",
+        "api_response_size": 22848
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 18,
+          "fatigue_2h": 10,
+          "landing_test": 7
+        },
+        "total_score": 50,
+        "evidence_text": "alta atividade (18 anúncios), 10 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 18,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 500.0,
+        "additional_leads": 22.5,
+        "monthly_rpp": 5625.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+22 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "high",
+        "ads_analyzed": 18,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.7371428571428573,
+        "precision": 0.92,
+        "priority_score": 86.6857142857143,
+        "adjusted_score": 94.6857142857143,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no sansburylaw.com: alta atividade (18 anúncios), 10 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +22 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:35:28.526594"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 18,
+        "query_timestamp": "2025-07-26T00:35:39.017790",
+        "api_response_size": 27776
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 18,
+          "fatigue_2h": 33,
+          "landing_test": 4
+        },
+        "total_score": 50,
+        "evidence_text": "alta atividade (18 anúncios), 33 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 18,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 500.0,
+        "additional_leads": 22.5,
+        "monthly_rpp": 5625.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+22 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "high",
+        "ads_analyzed": 18,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.7371428571428573,
+        "precision": 0.92,
+        "priority_score": 84.1857142857143,
+        "adjusted_score": 92.1857142857143,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no lawyersfor.com: alta atividade (18 anúncios), 33 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +22 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:35:39.017790"
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 15,
+        "query_timestamp": "2025-07-26T00:35:32.241246",
+        "api_response_size": 34549
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 15,
+          "landing_test": 4
+        },
+        "total_score": 35,
+        "evidence_text": "alta atividade (15 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 15,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 500.0,
+        "additional_leads": 22.5,
+        "monthly_rpp": 5625.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+22 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "high",
+        "ads_analyzed": 15,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6300000000000001,
+        "precision": 0.92,
+        "priority_score": 82.4,
+        "adjusted_score": 90.4,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 2 sinais nas últimas 2h no jdavis.com: alta atividade (15 anúncios), teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +22 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:35:32.242292"
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 9,
+        "query_timestamp": "2025-07-26T00:35:50.893267",
+        "api_response_size": 10213
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 9,
+          "landing_test": 6
+        },
+        "total_score": 35,
+        "evidence_text": "alta atividade (9 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 9,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 499.9999999999998,
+        "additional_leads": 44.99999999999998,
+        "monthly_rpp": 2699.9999999999986,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+45 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "high",
+        "ads_analyzed": 9,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6300000000000001,
+        "precision": 0.92,
+        "priority_score": 82.4,
+        "adjusted_score": 90.4,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "2 sinais de oportunidade detectados nas últimas 2h em a-1contractor.com: alta atividade (9 anúncios), teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +44 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T00:35:50.893267"
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 7,
+        "query_timestamp": "2025-07-26T00:36:02.675480",
+        "api_response_size": 8306
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 7,
+          "fatigue_2h": 7,
+          "landing_test": 7
+        },
+        "total_score": 35,
+        "evidence_text": "atividade moderada (7 anúncios), 7 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 7,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 600,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 300.0,
+        "additional_leads": 13.5,
+        "monthly_rpp": 3375.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+14 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "medium",
+        "ads_analyzed": 7,
+        "estimated_spend": 1200
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6300000000000001,
+        "precision": 0.92,
+        "priority_score": 79.9,
+        "adjusted_score": 87.9,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no sweeneymerrigan.com: atividade moderada (7 anúncios), 7 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +13 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:36:02.675480"
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 6,
+        "query_timestamp": "2025-07-26T00:35:54.704658",
+        "api_response_size": 7001
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 6,
+          "landing_test": 5
+        },
+        "total_score": 20,
+        "evidence_text": "atividade moderada (6 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 6,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 600,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 299.9999999999999,
+        "additional_leads": 26.99999999999999,
+        "monthly_rpp": 1619.9999999999993,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+27 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "medium",
+        "ads_analyzed": 6,
+        "estimated_spend": 1200
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.5228571428571429,
+        "precision": 0.92,
+        "priority_score": 78.11428571428573,
+        "adjusted_score": 86.11428571428573,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "2 sinais de oportunidade detectados nas últimas 2h em eastcoast.com: atividade moderada (6 anúncios), teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +26 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T00:35:54.704658"
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 4,
+        "query_timestamp": "2025-07-26T00:35:58.089863",
+        "api_response_size": 3843
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 4,
+          "landing_test": 2
+        },
+        "total_score": 20,
+        "evidence_text": "atividade moderada (4 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 4,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 600,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 299.9999999999999,
+        "additional_leads": 26.99999999999999,
+        "monthly_rpp": 1619.9999999999993,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+27 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "medium",
+        "ads_analyzed": 4,
+        "estimated_spend": 1200
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.5228571428571429,
+        "precision": 0.92,
+        "priority_score": 78.11428571428573,
+        "adjusted_score": 86.11428571428573,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "2 sinais de oportunidade detectados nas últimas 2h em bayouroofing.com: atividade moderada (4 anúncios), teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +26 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T00:35:58.089863"
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 2,
+        "query_timestamp": "2025-07-26T00:35:25.048977",
+        "api_response_size": 2263
+      },
+      "hot_signals": {
+        "signals": {
+          "landing_test": 2
+        },
+        "total_score": 10,
+        "evidence_text": "teste de landing pages",
+        "signal_count": 1,
+        "ads_analyzed": 2,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 400,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 200.0,
+        "additional_leads": 9.0,
+        "monthly_rpp": 2250.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+9 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "low",
+        "ads_analyzed": 2,
+        "estimated_spend": 800
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.4114285714285714,
+        "precision": 0.8,
+        "priority_score": 69.45714285714286,
+        "adjusted_score": 72.45714285714286,
+        "tier": "pilot_ready",
+        "data_bonus": 3,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de The Gillman Immigration Law Firm, PLLC. Identificamos potencial de +9 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T00:35:25.048977"
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 3,
+        "query_timestamp": "2025-07-26T00:35:35.889413",
+        "api_response_size": 2818
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0,
+        "ads_analyzed": 3,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 400,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 200.0,
+        "additional_leads": 9.0,
+        "monthly_rpp": 2250.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+9 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "low",
+        "ads_analyzed": 3,
+        "estimated_spend": 800
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.34,
+        "precision": 0.8,
+        "priority_score": 66.6,
+        "adjusted_score": 69.6,
+        "tier": "pilot_ready",
+        "data_bonus": 3,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Kevin C. Martin, Attorney at Law, PLLC. Identificamos potencial de +9 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T00:35:35.889413"
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 2,
+        "query_timestamp": "2025-07-26T00:35:47.653541",
+        "api_response_size": 2097
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0,
+        "ads_analyzed": 2,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 400,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 199.99999999999991,
+        "additional_leads": 17.999999999999993,
+        "monthly_rpp": 1079.9999999999995,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+18 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "low",
+        "ads_analyzed": 2,
+        "estimated_spend": 800
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.34,
+        "precision": 0.8,
+        "priority_score": 66.6,
+        "adjusted_score": 69.6,
+        "tier": "pilot_ready",
+        "data_bonus": 3,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Johnson Counseling Services, LLC. Identificamos potencial de +17 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T00:35:47.656539"
+    }
+  ],
+  "qualified_prospects": [],
+  "all_prospects": [
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 18,
+        "query_timestamp": "2025-07-26T00:35:28.526594",
+        "api_response_size": 22848
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 18,
+          "fatigue_2h": 10,
+          "landing_test": 7
+        },
+        "total_score": 50,
+        "evidence_text": "alta atividade (18 anúncios), 10 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 18,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 500.0,
+        "additional_leads": 22.5,
+        "monthly_rpp": 5625.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+22 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "high",
+        "ads_analyzed": 18,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.7371428571428573,
+        "precision": 0.92,
+        "priority_score": 86.6857142857143,
+        "adjusted_score": 94.6857142857143,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no sansburylaw.com: alta atividade (18 anúncios), 10 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +22 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:35:28.526594"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 18,
+        "query_timestamp": "2025-07-26T00:35:39.017790",
+        "api_response_size": 27776
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 18,
+          "fatigue_2h": 33,
+          "landing_test": 4
+        },
+        "total_score": 50,
+        "evidence_text": "alta atividade (18 anúncios), 33 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 18,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 500.0,
+        "additional_leads": 22.5,
+        "monthly_rpp": 5625.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+22 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "high",
+        "ads_analyzed": 18,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.7371428571428573,
+        "precision": 0.92,
+        "priority_score": 84.1857142857143,
+        "adjusted_score": 92.1857142857143,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no lawyersfor.com: alta atividade (18 anúncios), 33 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +22 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:35:39.017790"
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 15,
+        "query_timestamp": "2025-07-26T00:35:32.241246",
+        "api_response_size": 34549
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 15,
+          "landing_test": 4
+        },
+        "total_score": 35,
+        "evidence_text": "alta atividade (15 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 15,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 500.0,
+        "additional_leads": 22.5,
+        "monthly_rpp": 5625.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+22 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "high",
+        "ads_analyzed": 15,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6300000000000001,
+        "precision": 0.92,
+        "priority_score": 82.4,
+        "adjusted_score": 90.4,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 2 sinais nas últimas 2h no jdavis.com: alta atividade (15 anúncios), teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +22 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:35:32.242292"
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 9,
+        "query_timestamp": "2025-07-26T00:35:50.893267",
+        "api_response_size": 10213
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 9,
+          "landing_test": 6
+        },
+        "total_score": 35,
+        "evidence_text": "alta atividade (9 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 9,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 1000,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 499.9999999999998,
+        "additional_leads": 44.99999999999998,
+        "monthly_rpp": 2699.9999999999986,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+45 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "high",
+        "ads_analyzed": 9,
+        "estimated_spend": 2000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6300000000000001,
+        "precision": 0.92,
+        "priority_score": 82.4,
+        "adjusted_score": 90.4,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "2 sinais de oportunidade detectados nas últimas 2h em a-1contractor.com: alta atividade (9 anúncios), teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +44 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T00:35:50.893267"
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 7,
+        "query_timestamp": "2025-07-26T00:36:02.675480",
+        "api_response_size": 8306
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 7,
+          "fatigue_2h": 7,
+          "landing_test": 7
+        },
+        "total_score": 35,
+        "evidence_text": "atividade moderada (7 anúncios), 7 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 7,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 600,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 300.0,
+        "additional_leads": 13.5,
+        "monthly_rpp": 3375.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+14 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "medium",
+        "ads_analyzed": 7,
+        "estimated_spend": 1200
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6300000000000001,
+        "precision": 0.92,
+        "priority_score": 79.9,
+        "adjusted_score": 87.9,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no sweeneymerrigan.com: atividade moderada (7 anúncios), 7 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +13 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T00:36:02.675480"
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 6,
+        "query_timestamp": "2025-07-26T00:35:54.704658",
+        "api_response_size": 7001
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 6,
+          "landing_test": 5
+        },
+        "total_score": 20,
+        "evidence_text": "atividade moderada (6 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 6,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 600,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 299.9999999999999,
+        "additional_leads": 26.99999999999999,
+        "monthly_rpp": 1619.9999999999993,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+27 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "medium",
+        "ads_analyzed": 6,
+        "estimated_spend": 1200
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.5228571428571429,
+        "precision": 0.92,
+        "priority_score": 78.11428571428573,
+        "adjusted_score": 86.11428571428573,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "2 sinais de oportunidade detectados nas últimas 2h em eastcoast.com: atividade moderada (6 anúncios), teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +26 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T00:35:54.704658"
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 4,
+        "query_timestamp": "2025-07-26T00:35:58.089863",
+        "api_response_size": 3843
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 4,
+          "landing_test": 2
+        },
+        "total_score": 20,
+        "evidence_text": "atividade moderada (4 anúncios), teste de landing pages",
+        "signal_count": 2,
+        "ads_analyzed": 4,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 600,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 299.9999999999999,
+        "additional_leads": 26.99999999999999,
+        "monthly_rpp": 1619.9999999999993,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+27 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "medium",
+        "ads_analyzed": 4,
+        "estimated_spend": 1200
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.5228571428571429,
+        "precision": 0.92,
+        "priority_score": 78.11428571428573,
+        "adjusted_score": 86.11428571428573,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "2 sinais de oportunidade detectados nas últimas 2h em bayouroofing.com: atividade moderada (4 anúncios), teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +26 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T00:35:58.089863"
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 2,
+        "query_timestamp": "2025-07-26T00:35:25.048977",
+        "api_response_size": 2263
+      },
+      "hot_signals": {
+        "signals": {
+          "landing_test": 2
+        },
+        "total_score": 10,
+        "evidence_text": "teste de landing pages",
+        "signal_count": 1,
+        "ads_analyzed": 2,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 400,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 200.0,
+        "additional_leads": 9.0,
+        "monthly_rpp": 2250.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+9 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "low",
+        "ads_analyzed": 2,
+        "estimated_spend": 800
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.4114285714285714,
+        "precision": 0.8,
+        "priority_score": 69.45714285714286,
+        "adjusted_score": 72.45714285714286,
+        "tier": "pilot_ready",
+        "data_bonus": 3,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de The Gillman Immigration Law Firm, PLLC. Identificamos potencial de +9 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T00:35:25.048977"
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 3,
+        "query_timestamp": "2025-07-26T00:35:35.889413",
+        "api_response_size": 2818
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0,
+        "ads_analyzed": 3,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 400,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 200.0,
+        "additional_leads": 9.0,
+        "monthly_rpp": 2250.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+9 leads/mês via CTR 0.8% → 1.2%",
+        "data_quality": "low",
+        "ads_analyzed": 3,
+        "estimated_spend": 800
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.34,
+        "precision": 0.8,
+        "priority_score": 66.6,
+        "adjusted_score": 69.6,
+        "tier": "pilot_ready",
+        "data_bonus": 3,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Kevin C. Martin, Attorney at Law, PLLC. Identificamos potencial de +9 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T00:35:35.889413"
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 2,
+        "query_timestamp": "2025-07-26T00:35:47.653541",
+        "api_response_size": 2097
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0,
+        "ads_analyzed": 2,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 400,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 199.99999999999991,
+        "additional_leads": 17.999999999999993,
+        "monthly_rpp": 1079.9999999999995,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+18 leads/mês via CTR 1.2% → 1.8%",
+        "data_quality": "low",
+        "ads_analyzed": 2,
+        "estimated_spend": 800
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.34,
+        "precision": 0.8,
+        "priority_score": 66.6,
+        "adjusted_score": 69.6,
+        "tier": "pilot_ready",
+        "data_bonus": 3,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Johnson Counseling Services, LLC. Identificamos potencial de +17 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T00:35:47.656539"
+    }
+  ],
+  "next_steps": {
+    "immediate_outreach": "Contact 10 pilot-ready prospects",
+    "searchapi_refresh": "Re-query in 2-4 hours for updated activity",
+    "target_calls": "5-10 meetings",
+    "expected_closes": "3-2 pilots this week"
+  }
+}

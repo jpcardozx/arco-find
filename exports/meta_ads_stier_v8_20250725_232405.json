@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "timestamp": "20250725_232405",
+    "version": "8.0_stier_production",
+    "engine": "enterprise_grade_workflow",
+    "methodology": "S-tier production-ready with advanced scoring and intelligence",
+    "analysis_date": "2025-07-25T23:24:05.667022",
+    "total_prospects_processed": 0
+  },
+  "executive_dashboard": {
+    "total_prospects": 0,
+    "pilot_ready": 0,
+    "premium_tier": 0,
+    "anchor_deals": 0,
+    "nurture_tier": 0,
+    "high_readiness": 0,
+    "hot_signals_active": 0,
+    "quick_implementation": 0,
+    "total_monthly_opportunity": 0,
+    "total_annual_opportunity": 0,
+    "avg_composite_score": 0,
+    "avg_sales_cycle_days": 0,
+    "pilot_ready_rate": 0
+  },
+  "industry_intelligence": {},
+  "pilot_ready_prospects": [],
+  "premium_prospects": [],
+  "anchor_deal_prospects": [],
+  "high_readiness_prospects": [],
+  "all_stier_prospects": [],
+  "stier_methodology": {
+    "waste_analysis": "5-component observable analysis (creative_overlap + audience_frag + broad_targeting + dispersion + frequency)",
+    "scoring_system": "Enterprise 5-factor: business_fit(35%) + opportunity(25%) + urgency(25%) + implementation(15%)",
+    "tier_classification": "PILOT_READY | PREMIUM | ANCHOR_DEAL | NURTURE based on composite scoring",
+    "competitive_intelligence": "Advanced landscape analysis with timing advantages and differentiators",
+    "hot_signals": "Real-time urgency detection with expiry tracking",
+    "outreach_optimization": "Tier-specific strategies with business_fit gates"
+  }
+}

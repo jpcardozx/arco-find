@@ -1,0 +1,527 @@
+{
+  "meta": {
+    "timestamp": "20250726_012859",
+    "version": "7.7_sanity_gates",
+    "methodology": "Real SearchAPI with strict sanity gates",
+    "analysis_date": "2025-07-26T01:28:59.688121",
+    "total_prospects": 10,
+    "searchapi_calls_made": 10
+  },
+  "executive_summary": {
+    "total_prospects": 10,
+    "pilot_ready": 0,
+    "qualified": 0,
+    "nurture": 10,
+    "total_monthly_rpp": 0,
+    "total_additional_leads": 0,
+    "avg_priority_score": 45.5,
+    "searchapi_success_rate": 100.0
+  },
+  "searchapi_results": {
+    "total_api_calls": 10,
+    "successful_calls": 10,
+    "total_ads_found": 0,
+    "avg_ads_per_prospect": 0.0,
+    "prospects_with_activity": 0
+  },
+  "pilot_ready_prospects": [],
+  "qualified_prospects": [],
+  "all_prospects": [
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:02.518867",
+        "api_response_size": 837
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Sansbury Law Firm, LLC. Identificamos potencial de +0 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:02.518867",
+      "real_domain": null
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:06.060170",
+        "api_response_size": 840
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de J. Davis Law Firm, PLLC. Identificamos potencial de +0 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:06.060170",
+      "real_domain": null
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:10.884337",
+        "api_response_size": 840
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 0.9,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 43.5,
+        "adjusted_score": 43.5,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Lawyers for Justice, PC. Identificamos potencial de +0 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:10.884337",
+      "real_domain": null
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:14.287178",
+        "api_response_size": 887
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 0.9,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 43.5,
+        "adjusted_score": 43.5,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Sweeney Merrigan Personal Injury Lawyers. Identificamos potencial de +0 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:14.287178",
+      "real_domain": null
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:17.101740",
+        "api_response_size": 2443
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de A-1 Contractor Services LLC. Identificamos potencial de +0 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:17.101740",
+      "real_domain": null
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:20.054563",
+        "api_response_size": 881
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de East Coast Building Services Group LLC. Identificamos potencial de +0 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:20.054563",
+      "real_domain": null
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:22.929706",
+        "api_response_size": 897
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Bayou Roofing and Mechanical Services, LLC. Identificamos potencial de +0 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:22.930718",
+      "real_domain": null
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:26.768879",
+        "api_response_size": 867
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Johnson Counseling Services, LLC. Identificamos potencial de +0 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:26.768879",
+      "real_domain": null
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:33.395627",
+        "api_response_size": 885
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de The Gillman Immigration Law Firm, PLLC. Identificamos potencial de +0 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:33.395627",
+      "real_domain": null
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:29:36.779262",
+        "api_response_size": 887
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Kevin C. Martin, Attorney at Law, PLLC. Identificamos potencial de +0 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:29:36.779262",
+      "real_domain": null
+    }
+  ],
+  "next_steps": {
+    "immediate_outreach": "Contact 0 pilot-ready prospects",
+    "searchapi_refresh": "Re-query in 2-4 hours for updated activity",
+    "target_calls": "2-0 meetings",
+    "expected_closes": "1-1 pilots this week"
+  }
+}

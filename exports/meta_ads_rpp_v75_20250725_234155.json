@@ -1,0 +1,4233 @@
+{
+  "meta": {
+    "timestamp": "20250725_234155",
+    "version": "7.5_revenue_patch_potential",
+    "methodology": "Revenue Patch Potential with 2h hot signals detection",
+    "analysis_date": "2025-07-25T23:41:55.500557",
+    "total_prospects": 49
+  },
+  "executive_summary": {
+    "total_prospects": 49,
+    "pilot_ready": 0,
+    "qualified": 49,
+    "nurture": 0,
+    "total_monthly_rpp": 3655.57,
+    "total_additional_leads": 37.0,
+    "avg_priority_score": 62.8,
+    "hot_signals_prospects": 34
+  },
+  "rpp_analysis": {
+    "legal_prospects": 15,
+    "healthcare_prospects": 7,
+    "professional_prospects": 27,
+    "avg_rpp_legal": 118.12,
+    "avg_rpp_healthcare": 50.4,
+    "avg_rpp_professional": 56.7
+  },
+  "pilot_ready_prospects": [],
+  "qualified_prospects": [
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 69.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    }
+  ],
+  "hot_signals_prospects": [
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 69.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Cooper Hurley Injury Lawyers",
+      "page_id": "332013360177510",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Saunders & Chabert Attorneys at Law",
+      "page_id": "109516577344940",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "The Parks Law Firm",
+      "page_id": "117459407904682",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Christian Lewis Attorney at Law",
+      "page_id": "550054921736828",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "The Ooten Law Firm",
+      "page_id": "510489129723017",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Jonathan Hicks, Esq Injury Attorney",
+      "page_id": "1781691892095074",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Anthony Rogers, Attorney at Law",
+      "page_id": "997185167044234",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Rob Lambert, Attorney at Law",
+      "page_id": "206158926778680",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "The Grife Law Firm, Car Accident and Medical Malpractice Lawyers",
+      "page_id": "235092636691446",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Lombard Family Dentistry PLLC",
+      "page_id": "474192175772510",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "InVision Capital Advisor, LLC",
+      "page_id": "1413313565365077",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Fireside Planning LLC",
+      "page_id": "691383980728051",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "E-N-S Home Cleaning Solutions, LLC",
+      "page_id": "108871535397991",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Ever-Clean Maintenance Pro, LLC",
+      "page_id": "110872021633616",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Joe Ollis Real Estate & Auction, LLC",
+      "page_id": "117157445020877",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Kamper Chiropractic a Palmercare Clinic",
+      "page_id": "533261990190567",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Vitae Chiropractic Clinic Dr. Yamira Valentin",
+      "page_id": "286784825163461",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "River Road Pet Clinic",
+      "page_id": "137819436264076",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Next Level Wealth Financial Services",
+      "page_id": "682425714947080",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Southern Maid Janitorial Services, Inc.",
+      "page_id": "257785377602826",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Triple H Cleaning Services",
+      "page_id": "642369162302077",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "DODO Professional Services",
+      "page_id": "680743965130088",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "McLaren's Home Repair Services",
+      "page_id": "105368155382491",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    }
+  ],
+  "all_prospects": [
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 72.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 40,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.72,
+        "precision": 0.52,
+        "priority_score": 69.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.8,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 3 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos, pausa/reativação de conjuntos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true,
+          "status_churn_2h": true
+        },
+        "total_score": 30,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos",
+        "signal_count": 3
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 68.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Cooper Hurley Injury Lawyers",
+      "page_id": "332013360177510",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Saunders & Chabert Attorneys at Law",
+      "page_id": "109516577344940",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "The Parks Law Firm",
+      "page_id": "117459407904682",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Christian Lewis Attorney at Law",
+      "page_id": "550054921736828",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "The Ooten Law Firm",
+      "page_id": "510489129723017",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Jonathan Hicks, Esq Injury Attorney",
+      "page_id": "1781691892095074",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Anthony Rogers, Attorney at Law",
+      "page_id": "997185167044234",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Rob Lambert, Attorney at Law",
+      "page_id": "206158926778680",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "The Grife Law Firm, Car Accident and Medical Malpractice Lawyers",
+      "page_id": "235092636691446",
+      "vertical": "legal",
+      "hot_signals_2h": {
+        "signals": {
+          "burst_2h": 3,
+          "fatigue_2h": 2
+        },
+        "total_score": 30,
+        "evidence_text": "burst de 3 anúncios, dois criativos quase idênticos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.4725,
+        "monthly_rpp": 118.125,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.8% → 1.2%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.6200000000000001,
+        "precision": 0.52,
+        "priority_score": 65.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.6,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Vi 2 nas últimas 2h: burst de 3 anúncios, dois criativos quase idênticos. Implemento rota de ligação + velocidade crítica em 48h. Meta: +0 consultas na próxima quinzena sem subir mídia. Quer ver 60s de antes/depois aplicado no seu domínio?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Lombard Family Dentistry PLLC",
+      "page_id": "474192175772510",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "InVision Capital Advisor, LLC",
+      "page_id": "1413313565365077",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Fireside Planning LLC",
+      "page_id": "691383980728051",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "E-N-S Home Cleaning Solutions, LLC",
+      "page_id": "108871535397991",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Ever-Clean Maintenance Pro, LLC",
+      "page_id": "110872021633616",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Joe Ollis Real Estate & Auction, LLC",
+      "page_id": "117157445020877",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "status_churn_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, pausa/reativação de conjuntos",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 64.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Kamper Chiropractic a Palmercare Clinic",
+      "page_id": "533261990190567",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Vitae Chiropractic Clinic Dr. Yamira Valentin",
+      "page_id": "286784825163461",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "River Road Pet Clinic",
+      "page_id": "137819436264076",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 2 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos, mudança Learn More → Call Now. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Next Level Wealth Financial Services",
+      "page_id": "682425714947080",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Southern Maid Janitorial Services, Inc.",
+      "page_id": "257785377602826",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Triple H Cleaning Services",
+      "page_id": "642369162302077",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "DODO Professional Services",
+      "page_id": "680743965130088",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "McLaren's Home Repair Services",
+      "page_id": "105368155382491",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2,
+          "cta_shift_2h": true
+        },
+        "total_score": 20,
+        "evidence_text": "dois criativos quase idênticos, mudança Learn More → Call Now",
+        "signal_count": 2
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.52,
+        "precision": 0.52,
+        "priority_score": 61.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.4,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos, mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "FABBI LLC",
+      "page_id": "112624778611120",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "status_churn_2h": true
+        },
+        "total_score": 10,
+        "evidence_text": "pausa/reativação de conjuntos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 60.0,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: pausa/reativação de conjuntos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Daniel L. Abrams MD",
+      "page_id": "112732508450417",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 1 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 1 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Pelican Dental Care",
+      "page_id": "274427182416874",
+      "vertical": "healthcare",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "healthcare",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 50.0,
+        "additional_clicks": 10.5,
+        "additional_leads": 0.63,
+        "monthly_rpp": 50.4,
+        "ticket_value": 80,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.0% → 1.5%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Detectei 1 sinais nas últimas 2h no seu domínio: dois criativos quase idênticos. Agendamento em 2 cliques + WhatsApp prioritário → +0 leads/mês. 48h para implementar. Interessado no before/after?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Advisors Hub, Inc.",
+      "page_id": "544765435382123",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Moving The Mitten Real Estate Group",
+      "page_id": "751468708207694",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Billion Dollar Contractor",
+      "page_id": "430717000127590",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Dream Home Loans, Inc.",
+      "page_id": "428683763669650",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Ribbie's Tax Preparation Service",
+      "page_id": "208243152666577",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Cohen Financial Group Los Angeles",
+      "page_id": "103316885479817",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "CDD Services",
+      "page_id": "601764846345566",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "cta_shift_2h": true
+        },
+        "total_score": 10,
+        "evidence_text": "mudança Learn More → Call Now",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: mudança Learn More → Call Now. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Service Solutions USA",
+      "page_id": "380786669099506",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {
+          "fatigue_2h": 2
+        },
+        "total_score": 10,
+        "evidence_text": "dois criativos quase idênticos",
+        "signal_count": 1
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.42,
+        "precision": 0.52,
+        "priority_score": 57.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.2,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: dois criativos quase idênticos. Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Adam Finch",
+      "page_id": "107885628715611",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.32,
+        "precision": 0.52,
+        "priority_score": 53.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.0,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: . Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "Superior Service",
+      "page_id": "255204921867",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.32,
+        "precision": 0.52,
+        "priority_score": 53.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.0,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: . Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    },
+    {
+      "page_name": "PrimeCore Contractors",
+      "page_id": "672004989336866",
+      "vertical": "professional",
+      "hot_signals_2h": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "",
+        "signal_count": 0
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 21,
+        "ctr_improvement_pct": 49.99999999999998,
+        "additional_clicks": 10.499999999999995,
+        "additional_leads": 0.9449999999999995,
+        "monthly_rpp": 56.69999999999997,
+        "ticket_value": 60,
+        "meets_pilot_threshold": false,
+        "evidence": "+1 leads/mês via CTR 1.2% → 1.8%"
+      },
+      "priority_analysis": {
+        "business_match": 0.8999999999999999,
+        "readiness": 0.32,
+        "precision": 0.52,
+        "priority_score": 53.5,
+        "tier": "qualified",
+        "readiness_breakdown": {
+          "signal_score": 0.0,
+          "trend_7d": 0.3,
+          "icp_fit": 1.0,
+          "tech_evidence": 0.6
+        },
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "3 sinais críticos detectados nas últimas 2h: . Click-to-call 1 toque + extensão de chamada → +0 chamadas no pico da tarde. 48h de implementação. Vale um Loom de 60s?",
+      "analysis_timestamp": "2025-07-25T23:41:55.500557"
+    }
+  ],
+  "immediate_action_plan": {
+    "d0_today": "Focus on 0 pilot-ready prospects",
+    "d1_d2": "Collect real 2h signals via SearchAPI",
+    "d3": "Generate shortlist of 5 prospects",
+    "d4_d6": "Outreach with Loom + 48h patch proposal",
+    "target_meetings": "2-4 calls",
+    "expected_pilots": "1-2 confirmed"
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "timestamp": "20250726_013414",
+    "version": "7.7_sanity_gates",
+    "methodology": "Real SearchAPI with strict sanity gates",
+    "analysis_date": "2025-07-26T01:34:14.845661",
+    "total_prospects": 4,
+    "searchapi_calls_made": 4
+  },
+  "executive_summary": {
+    "total_prospects": 4,
+    "pilot_ready": 2,
+    "qualified": 0,
+    "nurture": 2,
+    "total_monthly_rpp": 9266.4,
+    "total_additional_leads": 51.8,
+    "avg_priority_score": 68.1,
+    "searchapi_success_rate": 100.0
+  },
+  "searchapi_results": {
+    "total_api_calls": 4,
+    "successful_calls": 4,
+    "total_ads_found": 25,
+    "avg_ads_per_prospect": 6.2,
+    "prospects_with_activity": 3
+  },
+  "pilot_ready_prospects": [
+    {
+      "page_name": "High Signal Legal",
+      "page_id": "1",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 15,
+        "query_timestamp": "2025-07-26T01:34:14.845661",
+        "api_response_size": 2632
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 15,
+          "fatigue_2h": 15,
+          "landing_test": 10
+        },
+        "total_score": 80,
+        "evidence_text": "alta atividade (15 anúncios), 15 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 15,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1200,
+        "ctr_improvement_pct": 60.0,
+        "additional_clicks": 720.0,
+        "additional_leads": 32.4,
+        "monthly_rpp": 8100.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+32 leads/mês via CTR 12.0% → 19.2%",
+        "data_quality": "high",
+        "ads_analyzed": 15,
+        "estimated_spend": 3000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.9249999999999999,
+        "precision": 0.9239999999999999,
+        "priority_score": 94.34,
+        "adjusted_score": 102.34,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no example0.com: alta atividade (15 anúncios), 15 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +32 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T01:34:14.845661",
+      "real_domain": "example0.com"
+    },
+    {
+      "page_name": "Medium Signal Pro",
+      "page_id": "2",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 8,
+        "query_timestamp": "2025-07-26T01:34:16.847320",
+        "api_response_size": 1392
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 8,
+          "fatigue_2h": 8,
+          "landing_test": 8
+        },
+        "total_score": 56,
+        "evidence_text": "atividade moderada (8 anúncios), 8 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 8,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 360,
+        "ctr_improvement_pct": 60.0,
+        "additional_clicks": 216.0,
+        "additional_leads": 19.439999999999998,
+        "monthly_rpp": 1166.3999999999999,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+19 leads/mês via CTR 3.6% → 5.8%",
+        "data_quality": "medium",
+        "ads_analyzed": 8,
+        "estimated_spend": 1600
+      },
+      "priority_analysis": {
+        "business_match": 0.9,
+        "readiness": 0.82,
+        "precision": 0.7944,
+        "priority_score": 83.104,
+        "adjusted_score": 88.104,
+        "tier": "pilot_ready",
+        "data_bonus": 5,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "3 sinais de oportunidade detectados nas últimas 2h em no example0.com: atividade moderada (8 anúncios), 8 criativos similares, teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +19 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T01:34:16.847320",
+      "real_domain": "example0.com"
+    }
+  ],
+  "qualified_prospects": [],
+  "all_prospects": [
+    {
+      "page_name": "High Signal Legal",
+      "page_id": "1",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 15,
+        "query_timestamp": "2025-07-26T01:34:14.845661",
+        "api_response_size": 2632
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 15,
+          "fatigue_2h": 15,
+          "landing_test": 10
+        },
+        "total_score": 80,
+        "evidence_text": "alta atividade (15 anúncios), 15 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 15,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 1200,
+        "ctr_improvement_pct": 60.0,
+        "additional_clicks": 720.0,
+        "additional_leads": 32.4,
+        "monthly_rpp": 8100.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+32 leads/mês via CTR 12.0% → 19.2%",
+        "data_quality": "high",
+        "ads_analyzed": 15,
+        "estimated_spend": 3000
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.9249999999999999,
+        "precision": 0.9239999999999999,
+        "priority_score": 94.34,
+        "adjusted_score": 102.34,
+        "tier": "pilot_ready",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Vi 3 sinais nas últimas 2h no example0.com: alta atividade (15 anúncios), 15 criativos similares, teste de landing pages. Implemento rota de ligação + velocidade crítica em 48h. Meta: +32 consultas sem subir mídia. Garantia mínima ou +2 semanas grátis. Quer ver 60s de antes/depois?",
+      "analysis_timestamp": "2025-07-26T01:34:14.845661",
+      "real_domain": "example0.com"
+    },
+    {
+      "page_name": "Medium Signal Pro",
+      "page_id": "2",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 8,
+        "query_timestamp": "2025-07-26T01:34:16.847320",
+        "api_response_size": 1392
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 8,
+          "fatigue_2h": 8,
+          "landing_test": 8
+        },
+        "total_score": 56,
+        "evidence_text": "atividade moderada (8 anúncios), 8 criativos similares, teste de landing pages",
+        "signal_count": 3,
+        "ads_analyzed": 8,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 360,
+        "ctr_improvement_pct": 60.0,
+        "additional_clicks": 216.0,
+        "additional_leads": 19.439999999999998,
+        "monthly_rpp": 1166.3999999999999,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+19 leads/mês via CTR 3.6% → 5.8%",
+        "data_quality": "medium",
+        "ads_analyzed": 8,
+        "estimated_spend": 1600
+      },
+      "priority_analysis": {
+        "business_match": 0.9,
+        "readiness": 0.82,
+        "precision": 0.7944,
+        "priority_score": 83.104,
+        "adjusted_score": 88.104,
+        "tier": "pilot_ready",
+        "data_bonus": 5,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "3 sinais de oportunidade detectados nas últimas 2h em no example0.com: atividade moderada (8 anúncios), 8 criativos similares, teste de landing pages. Click-to-call 1 toque + extensões otimizadas → +19 chamadas no pico. 48h turnaround. Interessado?",
+      "analysis_timestamp": "2025-07-26T01:34:16.847320",
+      "real_domain": "example0.com"
+    },
+    {
+      "page_name": "Low Signal Legal",
+      "page_id": "3",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 2,
+        "query_timestamp": "2025-07-26T01:34:18.848744",
+        "api_response_size": 346
+      },
+      "hot_signals": {
+        "signals": {
+          "landing_test": 2
+        },
+        "total_score": 10,
+        "evidence_text": "teste de landing pages",
+        "signal_count": 1,
+        "ads_analyzed": 2,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 160,
+        "ctr_improvement_pct": 40.0,
+        "additional_clicks": 64.0,
+        "additional_leads": 2.88,
+        "monthly_rpp": 720.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+2 leads/mês via CTR 1.6% → 2.2%",
+        "data_quality": "low",
+        "ads_analyzed": 2,
+        "estimated_spend": 400
+      },
+      "priority_analysis": {
+        "business_match": 0.8,
+        "readiness": 0.16999999999999998,
+        "precision": 0.6288,
+        "priority_score": 48.808,
+        "adjusted_score": 51.808,
+        "tier": "nurture",
+        "data_bonus": 3,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Low Signal Legal. Identificamos potencial de +2 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:34:18.848744",
+      "real_domain": "example0.com"
+    },
+    {
+      "page_name": "No Data Legal",
+      "page_id": "4",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 0,
+        "query_timestamp": "2025-07-26T01:34:20.849893",
+        "api_response_size": 2
+      },
+      "hot_signals": {
+        "signals": {},
+        "total_score": 0,
+        "evidence_text": "sem dados do SearchAPI",
+        "signal_count": 0,
+        "ads_analyzed": 0,
+        "data_source": "no_data"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 0,
+        "ctr_improvement_pct": 30.0,
+        "additional_clicks": 0.0,
+        "additional_leads": 0.0,
+        "monthly_rpp": 0.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": false,
+        "evidence": "+0 leads/mês via CTR 0.0% → 0.0%",
+        "data_quality": "estimated",
+        "ads_analyzed": 0,
+        "estimated_spend": 0
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.0,
+        "precision": 0.6,
+        "priority_score": 46.0,
+        "adjusted_score": 46.0,
+        "tier": "nurture",
+        "data_bonus": 0,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": false,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de No Data Legal. Identificamos potencial de +0 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:34:20.849893",
+      "real_domain": null
+    }
+  ],
+  "next_steps": {
+    "immediate_outreach": "Contact 2 pilot-ready prospects",
+    "searchapi_refresh": "Re-query in 2-4 hours for updated activity",
+    "target_calls": "2-2 meetings",
+    "expected_closes": "1-1 pilots this week"
+  }
+}

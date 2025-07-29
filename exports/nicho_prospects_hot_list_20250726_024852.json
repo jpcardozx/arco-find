@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "timestamp": "20250726_024816",
+    "version": "8.0_NICHO_PROSPECT_FINDER",
+    "target_location": "sp",
+    "filters_count": 4,
+    "nichos_analyzed": [
+      "home_services_urgent",
+      "odonto_eletivo"
+    ]
+  },
+  "nicho_results": {
+    "home_services_urgent": {
+      "nicho": "home_services_urgent",
+      "location": "sp",
+      "total_found": 0,
+      "filtered_count": 0,
+      "top_prospects": [],
+      "filters_applied": {
+        "keywords": [
+          "desentupimento",
+          "eletricista 24h",
+          "encanador emergencia",
+          "dedetizadora",
+          "chaveiro 24h"
+        ],
+        "location_modifiers": [
+          "sp",
+          "são paulo",
+          "rio",
+          "rj",
+          "bh",
+          "salvador"
+        ],
+        "min_ads_2h": 6,
+        "min_domains": 2,
+        "min_similar_creatives": 5,
+        "urgency_indicators": [
+          "24h",
+          "emergencia",
+          "urgente",
+          "agora",
+          "rapido"
+        ]
+      },
+      "generation_timestamp": "2025-07-26T02:48:34.739890"
+    },
+    "odonto_eletivo": {
+      "nicho": "odonto_eletivo",
+      "location": "sp",
+      "total_found": 0,
+      "filtered_count": 0,
+      "top_prospects": [],
+      "filters_applied": {
+        "keywords": [
+          "implantes dentais",
+          "lentes de contato dental",
+          "ortodontia",
+          "clareamento dental",
+          "estética dental"
+        ],
+        "location_modifiers": [
+          "sp",
+          "são paulo",
+          "rio",
+          "rj",
+          "bh",
+          "salvador"
+        ],
+        "min_ads_2h": 8,
+        "min_domains": 2,
+        "min_similar_creatives": 5,
+        "value_indicators": [
+          "implantes",
+          "lentes",
+          "invisalign",
+          "premium"
+        ]
+      },
+      "generation_timestamp": "2025-07-26T02:48:52.788245"
+    }
+  },
+  "combined_hot_list": [],
+  "outreach_templates": []
+}

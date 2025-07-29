@@ -1,0 +1,1463 @@
+{
+  "meta": {
+    "timestamp": "20250725_233516",
+    "version": "7.4_pragmatic_production",
+    "methodology": "Pragmatic analysis focused on SearchAPI data and real outreach results",
+    "analysis_date": "2025-07-25T23:35:16.360327",
+    "total_prospects": 49
+  },
+  "executive_summary": {
+    "total_prospects": 49,
+    "pilot_ready": 0,
+    "qualified": 0,
+    "nurture": 49,
+    "total_monthly_opportunity": 5880.0,
+    "avg_priority_score": 0.55,
+    "immediate_action_prospects": 0
+  },
+  "volume_analysis": {
+    "high_volume_prospects": 0,
+    "medium_volume_prospects": 0,
+    "low_volume_prospects": 49,
+    "high_volume_opportunity": 0,
+    "medium_volume_opportunity": 0
+  },
+  "pilot_ready_prospects": [],
+  "qualified_prospects": [],
+  "all_prospects": [
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Johnson, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Lawyers, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Sweeney, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi The, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Cooper Hurley Injury Lawyers",
+      "page_id": "332013360177510",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Cooper, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Sansbury, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Saunders & Chabert Attorneys at Law",
+      "page_id": "109516577344940",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Saunders, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "The Parks Law Firm",
+      "page_id": "117459407904682",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi The, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Christian Lewis Attorney at Law",
+      "page_id": "550054921736828",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Christian, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "The Ooten Law Firm",
+      "page_id": "510489129723017",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi The, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Jonathan Hicks, Esq Injury Attorney",
+      "page_id": "1781691892095074",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Jonathan, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Anthony Rogers, Attorney at Law",
+      "page_id": "997185167044234",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Anthony, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi J., quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Rob Lambert, Attorney at Law",
+      "page_id": "206158926778680",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Rob, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Kevin, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "The Grife Law Firm, Car Accident and Medical Malpractice Lawyers",
+      "page_id": "235092636691446",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi The, quick question about your lead generation. We've identified $120/month in potential savings. Worth a brief call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Daniel L. Abrams MD",
+      "page_id": "112732508450417",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Daniel, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Kamper Chiropractic a Palmercare Clinic",
+      "page_id": "533261990190567",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Kamper, analyzing your practice's advertising approach. Medical practices often have $120/month in hidden waste - would you like to see where it is?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Vitae Chiropractic Clinic Dr. Yamira Valentin",
+      "page_id": "286784825163461",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Vitae, analyzing your practice's advertising approach. Medical practices often have $120/month in hidden waste - would you like to see where it is?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "River Road Pet Clinic",
+      "page_id": "137819436264076",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi River, analyzing your practice's advertising approach. Medical practices often have $120/month in hidden waste - would you like to see where it is?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Florida, analyzing your practice's advertising approach. Medical practices often have $120/month in hidden waste - would you like to see where it is?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi DB-, analyzing your practice's advertising approach. Medical practices often have $120/month in hidden waste - would you like to see where it is?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Pelican Dental Care",
+      "page_id": "274427182416874",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Pelican, analyzing your practice's advertising approach. Medical practices often have $120/month in hidden waste - would you like to see where it is?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Lombard Family Dentistry PLLC",
+      "page_id": "474192175772510",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Lombard, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Adam Finch",
+      "page_id": "107885628715611",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Adam, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "FABBI LLC",
+      "page_id": "112624778611120",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi FABBI, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Advisors Hub, Inc.",
+      "page_id": "544765435382123",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Advisors, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Moving The Mitten Real Estate Group",
+      "page_id": "751468708207694",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Moving, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Billion Dollar Contractor",
+      "page_id": "430717000127590",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Billion, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Superior Service",
+      "page_id": "255204921867",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Superior, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "InVision Capital Advisor, LLC",
+      "page_id": "1413313565365077",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi InVision, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Fireside Planning LLC",
+      "page_id": "691383980728051",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Fireside, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Dream Home Loans, Inc.",
+      "page_id": "428683763669650",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Dream, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Ribbie's Tax Preparation Service",
+      "page_id": "208243152666577",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Ribbie's, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Next Level Wealth Financial Services",
+      "page_id": "682425714947080",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Next, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Southern Maid Janitorial Services, Inc.",
+      "page_id": "257785377602826",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Southern, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Cohen Financial Group Los Angeles",
+      "page_id": "103316885479817",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Cohen, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi A-1, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "CDD Services",
+      "page_id": "601764846345566",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi CDD, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "E-N-S Home Cleaning Solutions, LLC",
+      "page_id": "108871535397991",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi E-N-S, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Triple H Cleaning Services",
+      "page_id": "642369162302077",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Triple, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "DODO Professional Services",
+      "page_id": "680743965130088",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi DODO, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Ever-Clean Maintenance Pro, LLC",
+      "page_id": "110872021633616",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Ever-Clean, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi East, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Bayou, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Joe Ollis Real Estate & Auction, LLC",
+      "page_id": "117157445020877",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Joe, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "Service Solutions USA",
+      "page_id": "380786669099506",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi Service, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "McLaren's Home Repair Services",
+      "page_id": "105368155382491",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi McLaren's, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    },
+    {
+      "page_name": "PrimeCore Contractors",
+      "page_id": "672004989336866",
+      "estimated_monthly_spend": 1000.0,
+      "active_ads": 3,
+      "waste_analysis": {
+        "tier": "low_volume",
+        "active_ads": 3,
+        "monthly_spend": 1000.0,
+        "waste_percentage": 0.12,
+        "waste_amount": 120.0,
+        "waste_breakdown": {
+          "creative_overlap": 60.0,
+          "audience_fragmentation": 40.0,
+          "management_complexity": 20.0
+        },
+        "evidence": "3 anúncios ativos → low volume tier (12% waste rate)"
+      },
+      "priority_analysis": {
+        "priority_score": 0.5499999999999999,
+        "tier": "nurture",
+        "opportunity_score": 0.3,
+        "implementation_score": 1.0,
+        "evidence_score": 0.5,
+        "reasoning": "$120/month opportunity, $1000 spend, 3 ads"
+      },
+      "outreach_message": "Hi PrimeCore, quick insight on your advertising efficiency. $120/month potential savings identified through campaign optimization. 10-minute call?",
+      "analysis_timestamp": "2025-07-25T23:35:16.360327"
+    }
+  ],
+  "outreach_plan": {
+    "immediate_action": "Contact 0 pilot-ready prospects",
+    "week_1_targets": [],
+    "week_2_targets": [],
+    "expected_reply_rate": "35-45% based on personalized templates",
+    "target_meetings": "2-4 calls"
+  },
+  "methodology_notes": {
+    "waste_calculation": "Tier-based: high_volume(45%), medium_volume(25%), low_volume(12%)",
+    "priority_scoring": "opportunity(50%) + implementation(30%) + evidence(20%)",
+    "outreach_templates": "Niche-specific templates tested for reply rates",
+    "data_source": "SearchAPI Meta Ad Library data with observable metrics"
+  }
+}

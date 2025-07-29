@@ -1,0 +1,2507 @@
+{
+  "meta": {
+    "timestamp": "20250725_142946",
+    "version": "7.0_pragmatic",
+    "engine": "evidence_based_transparent_analysis",
+    "source_version": "v6_productive_data",
+    "analysis_date": "2025-07-25T14:29:46.515333",
+    "methodology": "Transparent waste formulas + Evidence-based insights + Composite scoring"
+  },
+  "executive_summary": {
+    "total_prospects_analyzed": 50,
+    "prospects_by_priority": {
+      "PREMIUM": 4,
+      "HIGH": 12,
+      "MEDIUM": 32,
+      "LOW": 2
+    },
+    "ready_for_outreach": 13,
+    "total_monthly_waste_identified": 18789.16,
+    "total_annual_opportunity": 281837.4,
+    "average_confidence_score": 0.756,
+    "average_waste_per_prospect": 375.78
+  },
+  "industry_performance": {
+    "home_services": {
+      "prospect_count": 10,
+      "total_monthly_waste": 440.08000000000004,
+      "avg_confidence": 0.7215,
+      "avg_composite_score": 1091.9127999999998,
+      "ready_for_outreach": 0
+    },
+    "legal": {
+      "prospect_count": 14,
+      "total_monthly_waste": 10305.640000000001,
+      "avg_confidence": 0.7885714285714286,
+      "avg_composite_score": 3644.1462857142847,
+      "ready_for_outreach": 7
+    },
+    "b2b": {
+      "prospect_count": 8,
+      "total_monthly_waste": 859.3900000000001,
+      "avg_confidence": 0.6737500000000001,
+      "avg_composite_score": 1167.11275,
+      "ready_for_outreach": 0
+    },
+    "professional": {
+      "prospect_count": 9,
+      "total_monthly_waste": 2964.71,
+      "avg_confidence": 0.7561111111111112,
+      "avg_composite_score": 1714.9355555555553,
+      "ready_for_outreach": 1
+    },
+    "healthcare": {
+      "prospect_count": 9,
+      "total_monthly_waste": 4219.339999999999,
+      "avg_confidence": 0.815,
+      "avg_composite_score": 2440.1573333333336,
+      "ready_for_outreach": 5
+    }
+  },
+  "outreach_ready_prospects": [
+    {
+      "page_name": "Quill & Arrow - Personal Injury & Lemon Law Lawyers",
+      "page_id": "238107887068721",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 8000.0,
+      "waste_breakdown": {
+        "base_spend": 8000.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 2960.0,
+        "formula_used": "$8,000 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,960",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.955,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $2,000/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 1.3333333333333333,
+          "first_line_suggestion": "Olá Quill, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $2,000/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 10927.0,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 35520.0,
+      "annual_opportunity_max": 44400.0,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "industry": "healthcare",
+      "search_term": "dermatology clinic",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 3650.0,
+      "waste_breakdown": {
+        "base_spend": 3650.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 1350.5,
+        "formula_used": "$3,650 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,350",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $912/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.6083333333333333,
+          "first_line_suggestion": "Olá Florida, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $912/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 4646.2,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 16206.0,
+      "annual_opportunity_max": 20257.5,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "industry": "healthcare",
+      "search_term": "medical clinic",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 3132.0,
+      "waste_breakdown": {
+        "base_spend": 3132.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 1158.84,
+        "formula_used": "$3,132 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,159",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $783/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.522,
+          "first_line_suggestion": "Olá DB-, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $783/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 4186.216,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 13906.079999999998,
+      "annual_opportunity_max": 17382.6,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "industry": "professional",
+      "search_term": "tax attorney",
+      "total_ads": 28,
+      "active_ads": 22,
+      "estimated_monthly_spend": 2437.0,
+      "waste_breakdown": {
+        "base_spend": 2437.0,
+        "aging_penalty": 0.1,
+        "dispersion_penalty": 0.15,
+        "fatigue_penalty": 0.1,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.47,
+        "monthly_waste_amount": 1145.3899999999999,
+        "formula_used": "$2,437 × (0.10 aging + 0.15 dispersion + 0.10 fatigue + 0.12 placement) = $1,145",
+        "evidence_summary": "22 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.88,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "22 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $366/mês (15% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.2437,
+          "first_line_suggestion": "Olá The, notei que vocês têm 22 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $366/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 3470.7799999999997,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 13744.679999999998,
+      "annual_opportunity_max": 17180.85,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Christian Lewis Attorney at Law",
+      "page_id": "550054921736828",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 4,
+      "active_ads": 1,
+      "estimated_monthly_spend": 558.0,
+      "waste_breakdown": {
+        "base_spend": 558.0,
+        "aging_penalty": 0.35,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.65,
+        "monthly_waste_amount": 362.7,
+        "formula_used": "$558 × (0.35 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $363",
+        "evidence_summary": "3 ads inativos (75% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.855,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "3 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $140/mês",
+          "effort_required": "baixo",
+          "priority_score": 0.174375,
+          "first_line_suggestion": "Oi Christian, seus dados mostram 3 anúncios pausados por fadiga - 3 novos criativos podem recuperar $140/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (35% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $195/mês",
+          "effort_required": "médio",
+          "priority_score": 0.09764999999999999,
+          "first_line_suggestion": "Ei Christian, análise mostra oportunidade de $195/mês otimizando campanhas com mais de 6 meses."
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 2515.6400000000003,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 4352.4,
+      "annual_opportunity_max": 5440.5,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Saunders & Chabert Attorneys at Law",
+      "page_id": "109516577344940",
+      "industry": "legal",
+      "search_term": "workers compensation attorney",
+      "total_ads": 3,
+      "active_ads": 2,
+      "estimated_monthly_spend": 645.0,
+      "waste_breakdown": {
+        "base_spend": 645.0,
+        "aging_penalty": 0.2,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.5700000000000001,
+        "monthly_waste_amount": 367.65000000000003,
+        "formula_used": "$645 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $368",
+        "evidence_summary": "1 ads inativos (33% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "1 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $161/mês",
+          "effort_required": "baixo",
+          "priority_score": 0.2015625,
+          "first_line_suggestion": "Oi Saunders, seus dados mostram 1 anúncios pausados por fadiga - 3 novos criativos podem recuperar $161/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (20% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $129/mês",
+          "effort_required": "médio",
+          "priority_score": 0.0645,
+          "first_line_suggestion": "Ei Saunders, análise mostra oportunidade de $129/mês otimizando campanhas com mais de 6 meses."
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 2506.4800000000005,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 4411.8,
+      "annual_opportunity_max": 5514.750000000001,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "The Grife Law Firm, Car Accident and Medical Malpractice Lawyers",
+      "page_id": "235092636691446",
+      "industry": "legal",
+      "search_term": "medical malpractice lawyer",
+      "total_ads": 3,
+      "active_ads": 2,
+      "estimated_monthly_spend": 524.0,
+      "waste_breakdown": {
+        "base_spend": 524.0,
+        "aging_penalty": 0.2,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.5700000000000001,
+        "monthly_waste_amount": 298.68,
+        "formula_used": "$524 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $299",
+        "evidence_summary": "1 ads inativos (33% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.9049999999999999,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "1 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $131/mês",
+          "effort_required": "baixo",
+          "priority_score": 0.16375,
+          "first_line_suggestion": "Oi The, seus dados mostram 1 anúncios pausados por fadiga - 3 novos criativos podem recuperar $131/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (20% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $105/mês",
+          "effort_required": "médio",
+          "priority_score": 0.05240000000000001,
+          "first_line_suggestion": "Ei The, análise mostra oportunidade de $105/mês otimizando campanhas com mais de 6 meses."
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 2360.776,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 3584.16,
+      "annual_opportunity_max": 4480.2,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "industry": "legal",
+      "search_term": "wrongful death lawyer",
+      "total_ads": 4,
+      "active_ads": 4,
+      "estimated_monthly_spend": 905.0,
+      "waste_breakdown": {
+        "base_spend": 905.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 108.6,
+        "formula_used": "$905 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $109",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1677.52,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1303.1999999999998,
+      "annual_opportunity_max": 1629.0,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "The Parks Law Firm",
+      "page_id": "117459407904682",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 4,
+      "active_ads": 4,
+      "estimated_monthly_spend": 811.0,
+      "waste_breakdown": {
+        "base_spend": 811.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 97.32,
+        "formula_used": "$811 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $97",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1641.424,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1167.84,
+      "annual_opportunity_max": 1459.8,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Lombard Family Dentistry PLLC",
+      "page_id": "474192175772510",
+      "industry": "healthcare",
+      "search_term": "family dentist",
+      "total_ads": 7,
+      "active_ads": 7,
+      "estimated_monthly_spend": 882.0,
+      "waste_breakdown": {
+        "base_spend": 882.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 105.83999999999999,
+        "formula_used": "$882 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $106",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.8,
+        "overall": 0.885,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.80"
+      },
+      "evidence_insights": [],
+      "clv_tier": "medium",
+      "composite_score": 1639.016,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1270.08,
+      "annual_opportunity_max": 1587.6,
+      "outreach_readiness": "ready"
+    }
+  ],
+  "all_enhanced_prospects": [
+    {
+      "page_name": "Quill & Arrow - Personal Injury & Lemon Law Lawyers",
+      "page_id": "238107887068721",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 8000.0,
+      "waste_breakdown": {
+        "base_spend": 8000.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 2960.0,
+        "formula_used": "$8,000 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,960",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.955,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $2,000/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 1.3333333333333333,
+          "first_line_suggestion": "Olá Quill, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $2,000/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 10927.0,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 35520.0,
+      "annual_opportunity_max": 44400.0,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "industry": "legal",
+      "search_term": "medical malpractice lawyer",
+      "total_ads": 26,
+      "active_ads": 13,
+      "estimated_monthly_spend": 4174.0,
+      "waste_breakdown": {
+        "base_spend": 4174.0,
+        "aging_penalty": 0.2,
+        "dispersion_penalty": 0.08,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.65,
+        "monthly_waste_amount": 2713.1,
+        "formula_used": "$4,174 × (0.20 aging + 0.08 dispersion + 0.25 fatigue + 0.12 placement) = $2,713",
+        "evidence_summary": "13 ads inativos (50% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "13 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $1,044/mês",
+          "effort_required": "baixo",
+          "priority_score": 1.304375,
+          "first_line_suggestion": "Oi Sweeney, seus dados mostram 13 anúncios pausados por fadiga - 3 novos criativos podem recuperar $1,044/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (20% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $835/mês",
+          "effort_required": "médio",
+          "priority_score": 0.41740000000000005,
+          "first_line_suggestion": "Ei Sweeney, análise mostra oportunidade de $835/mês otimizando campanhas com mais de 6 meses."
+        },
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.66 (Match: 0.35 | Data: 1.00 | Spend: 0.90)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Sweeney, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 9836.92,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 32557.199999999997,
+      "annual_opportunity_max": 40696.5,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "industry": "legal",
+      "search_term": "workers compensation attorney",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 6786.0,
+      "waste_breakdown": {
+        "base_spend": 6786.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 2510.82,
+        "formula_used": "$6,786 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,511",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $1,696/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 1.131,
+          "first_line_suggestion": "Olá Lawyers, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $1,696/mês do orçamento atual."
+        },
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.66 (Match: 0.35 | Data: 1.00 | Spend: 0.90)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Lawyers, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 9189.624,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 30129.840000000004,
+      "annual_opportunity_max": 37662.3,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "industry": "healthcare",
+      "search_term": "dermatology clinic",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 3650.0,
+      "waste_breakdown": {
+        "base_spend": 3650.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 1350.5,
+        "formula_used": "$3,650 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,350",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $912/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.6083333333333333,
+          "first_line_suggestion": "Olá Florida, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $912/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 4646.2,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 16206.0,
+      "annual_opportunity_max": 20257.5,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Daniel L. Abrams MD",
+      "page_id": "112732508450417",
+      "industry": "healthcare",
+      "search_term": "medical clinic",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 3780.0,
+      "waste_breakdown": {
+        "base_spend": 3780.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 1398.6,
+        "formula_used": "$3,780 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,399",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $945/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.63,
+          "first_line_suggestion": "Olá Daniel, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $945/mês do orçamento atual."
+        },
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.66 (Match: 0.35 | Data: 1.00 | Spend: 0.90)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Daniel, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 4511.639999999999,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 16783.199999999997,
+      "annual_opportunity_max": 20979.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "industry": "healthcare",
+      "search_term": "medical clinic",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 3132.0,
+      "waste_breakdown": {
+        "base_spend": 3132.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 1158.84,
+        "formula_used": "$3,132 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,159",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $783/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.522,
+          "first_line_suggestion": "Olá DB-, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $783/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 4186.216,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 13906.079999999998,
+      "annual_opportunity_max": 17382.6,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "industry": "professional",
+      "search_term": "tax attorney",
+      "total_ads": 28,
+      "active_ads": 22,
+      "estimated_monthly_spend": 2437.0,
+      "waste_breakdown": {
+        "base_spend": 2437.0,
+        "aging_penalty": 0.1,
+        "dispersion_penalty": 0.15,
+        "fatigue_penalty": 0.1,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.47,
+        "monthly_waste_amount": 1145.3899999999999,
+        "formula_used": "$2,437 × (0.10 aging + 0.15 dispersion + 0.10 fatigue + 0.12 placement) = $1,145",
+        "evidence_summary": "22 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.88,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "22 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $366/mês (15% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.2437,
+          "first_line_suggestion": "Olá The, notei que vocês têm 22 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $366/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 3470.7799999999997,
+      "priority_class": "PREMIUM",
+      "annual_opportunity_min": 13744.679999999998,
+      "annual_opportunity_max": 17180.85,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Cooper Hurley Injury Lawyers",
+      "page_id": "332013360177510",
+      "industry": "legal",
+      "search_term": "wrongful death lawyer",
+      "total_ads": 6,
+      "active_ads": 4,
+      "estimated_monthly_spend": 1169.0,
+      "waste_breakdown": {
+        "base_spend": 1169.0,
+        "aging_penalty": 0.2,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.5700000000000001,
+        "monthly_waste_amount": 666.33,
+        "formula_used": "$1,169 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $666",
+        "evidence_summary": "2 ads inativos (33% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.8,
+        "overall": 0.635,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.80"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "2 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $292/mês",
+          "effort_required": "baixo",
+          "priority_score": 0.3653125,
+          "first_line_suggestion": "Oi Cooper, seus dados mostram 2 anúncios pausados por fadiga - 3 novos criativos podem recuperar $292/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (20% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $234/mês",
+          "effort_required": "médio",
+          "priority_score": 0.1169,
+          "first_line_suggestion": "Ei Cooper, análise mostra oportunidade de $234/mês otimizando campanhas com mais de 6 meses."
+        },
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.64 (Match: 0.35 | Data: 1.00 | Spend: 0.80)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Cooper, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 3267.2560000000003,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 7995.960000000001,
+      "annual_opportunity_max": 9994.95,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Adam Finch",
+      "page_id": "107885628715611",
+      "industry": "professional",
+      "search_term": "insurance agent",
+      "total_ads": 30,
+      "active_ads": 30,
+      "estimated_monthly_spend": 2205.0,
+      "waste_breakdown": {
+        "base_spend": 2205.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.25,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 815.85,
+        "formula_used": "$2,205 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $816",
+        "evidence_summary": "30 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "30 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $551/mês (25% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.3675,
+          "first_line_suggestion": "Olá Adam, notei que vocês têm 30 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $551/mês do orçamento atual."
+        },
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.66 (Match: 0.35 | Data: 1.00 | Spend: 0.90)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Adam, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 2586.7,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 9790.2,
+      "annual_opportunity_max": 12237.75,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Christian Lewis Attorney at Law",
+      "page_id": "550054921736828",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 4,
+      "active_ads": 1,
+      "estimated_monthly_spend": 558.0,
+      "waste_breakdown": {
+        "base_spend": 558.0,
+        "aging_penalty": 0.35,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.65,
+        "monthly_waste_amount": 362.7,
+        "formula_used": "$558 × (0.35 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $363",
+        "evidence_summary": "3 ads inativos (75% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.855,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "3 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $140/mês",
+          "effort_required": "baixo",
+          "priority_score": 0.174375,
+          "first_line_suggestion": "Oi Christian, seus dados mostram 3 anúncios pausados por fadiga - 3 novos criativos podem recuperar $140/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (35% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $195/mês",
+          "effort_required": "médio",
+          "priority_score": 0.09764999999999999,
+          "first_line_suggestion": "Ei Christian, análise mostra oportunidade de $195/mês otimizando campanhas com mais de 6 meses."
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 2515.6400000000003,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 4352.4,
+      "annual_opportunity_max": 5440.5,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Saunders & Chabert Attorneys at Law",
+      "page_id": "109516577344940",
+      "industry": "legal",
+      "search_term": "workers compensation attorney",
+      "total_ads": 3,
+      "active_ads": 2,
+      "estimated_monthly_spend": 645.0,
+      "waste_breakdown": {
+        "base_spend": 645.0,
+        "aging_penalty": 0.2,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.5700000000000001,
+        "monthly_waste_amount": 367.65000000000003,
+        "formula_used": "$645 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $368",
+        "evidence_summary": "1 ads inativos (33% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "1 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $161/mês",
+          "effort_required": "baixo",
+          "priority_score": 0.2015625,
+          "first_line_suggestion": "Oi Saunders, seus dados mostram 1 anúncios pausados por fadiga - 3 novos criativos podem recuperar $161/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (20% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $129/mês",
+          "effort_required": "médio",
+          "priority_score": 0.0645,
+          "first_line_suggestion": "Ei Saunders, análise mostra oportunidade de $129/mês otimizando campanhas com mais de 6 meses."
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 2506.4800000000005,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 4411.8,
+      "annual_opportunity_max": 5514.750000000001,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "The Grife Law Firm, Car Accident and Medical Malpractice Lawyers",
+      "page_id": "235092636691446",
+      "industry": "legal",
+      "search_term": "medical malpractice lawyer",
+      "total_ads": 3,
+      "active_ads": 2,
+      "estimated_monthly_spend": 524.0,
+      "waste_breakdown": {
+        "base_spend": 524.0,
+        "aging_penalty": 0.2,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.25,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.5700000000000001,
+        "monthly_waste_amount": 298.68,
+        "formula_used": "$524 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $299",
+        "evidence_summary": "1 ads inativos (33% turnover); sinais de fadiga criativa detectados"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.9049999999999999,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "creative_fatigue",
+          "evidence": "1 anúncios foram pausados (indicativo de fadiga), 25% penalty detectada",
+          "quantified_impact": "Refresh criativo pode melhorar CTR em +11% e economizar $131/mês",
+          "effort_required": "baixo",
+          "priority_score": 0.16375,
+          "first_line_suggestion": "Oi The, seus dados mostram 1 anúncios pausados por fadiga - 3 novos criativos podem recuperar $131/mês em performance."
+        },
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (20% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $105/mês",
+          "effort_required": "médio",
+          "priority_score": 0.05240000000000001,
+          "first_line_suggestion": "Ei The, análise mostra oportunidade de $105/mês otimizando campanhas com mais de 6 meses."
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 2360.776,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 3584.16,
+      "annual_opportunity_max": 4480.2,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "FABBI LLC",
+      "page_id": "112624778611120",
+      "industry": "b2b",
+      "search_term": "accounting firm",
+      "total_ads": 19,
+      "active_ads": 18,
+      "estimated_monthly_spend": 1951.0,
+      "waste_breakdown": {
+        "base_spend": 1951.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.15,
+        "fatigue_penalty": 0.1,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.37,
+        "monthly_waste_amount": 721.87,
+        "formula_used": "$1,951 × (0.00 aging + 0.15 dispersion + 0.10 fatigue + 0.12 placement) = $722",
+        "evidence_summary": "18 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.745,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.85"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "18 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $293/mês (15% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.1951,
+          "first_line_suggestion": "Olá FABBI, notei que vocês têm 18 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $293/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 2344.366,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 8662.44,
+      "annual_opportunity_max": 10828.05,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Advisors Hub, Inc.",
+      "page_id": "544765435382123",
+      "industry": "professional",
+      "search_term": "financial advisor",
+      "total_ads": 25,
+      "active_ads": 25,
+      "estimated_monthly_spend": 1838.0,
+      "waste_breakdown": {
+        "base_spend": 1838.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.15,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.27,
+        "monthly_waste_amount": 496.26000000000005,
+        "formula_used": "$1,838 × (0.00 aging + 0.15 dispersion + 0.00 fatigue + 0.12 placement) = $496",
+        "evidence_summary": "25 ads simultâneos (alta dispersão)"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.755,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.90"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "budget_dispersion",
+          "evidence": "25 anúncios simultâneos ativos (limite recomendado: 8-10)",
+          "quantified_impact": "Consolidação pode economizar $276/mês (15% do orçamento)",
+          "effort_required": "médio",
+          "priority_score": 0.1838,
+          "first_line_suggestion": "Olá Advisors, notei que vocês têm 25 anúncios rodando simultaneamente - consolidar nos 8 top performers pode liberar $276/mês do orçamento atual."
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 2047.52,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 5955.120000000001,
+      "annual_opportunity_max": 7443.900000000001,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Moving The Mitten Real Estate Group",
+      "page_id": "751468708207694",
+      "industry": "professional",
+      "search_term": "mortgage broker",
+      "total_ads": 14,
+      "active_ads": 5,
+      "estimated_monthly_spend": 689.0,
+      "waste_breakdown": {
+        "base_spend": 689.0,
+        "aging_penalty": 0.35,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.1,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.57,
+        "monthly_waste_amount": 392.72999999999996,
+        "formula_used": "$689 × (0.35 aging + 0.00 dispersion + 0.10 fatigue + 0.12 placement) = $393",
+        "evidence_summary": "9 ads inativos (64% turnover)"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.745,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.85"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "aging_performance",
+          "evidence": "Alta rotatividade de anúncios (35% aging penalty)",
+          "quantified_impact": "Otimização de campanhas longas pode recuperar $241/mês",
+          "effort_required": "médio",
+          "priority_score": 0.12057499999999999,
+          "first_line_suggestion": "Ei Moving, análise mostra oportunidade de $241/mês otimizando campanhas com mais de 6 meses."
+        }
+      ],
+      "clv_tier": "medium",
+      "composite_score": 1830.46,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 4712.759999999999,
+      "annual_opportunity_max": 5890.95,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "industry": "legal",
+      "search_term": "wrongful death lawyer",
+      "total_ads": 4,
+      "active_ads": 4,
+      "estimated_monthly_spend": 905.0,
+      "waste_breakdown": {
+        "base_spend": 905.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 108.6,
+        "formula_used": "$905 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $109",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1677.52,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1303.1999999999998,
+      "annual_opportunity_max": 1629.0,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "The Parks Law Firm",
+      "page_id": "117459407904682",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 4,
+      "active_ads": 4,
+      "estimated_monthly_spend": 811.0,
+      "waste_breakdown": {
+        "base_spend": 811.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 97.32,
+        "formula_used": "$811 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $97",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1641.424,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1167.84,
+      "annual_opportunity_max": 1459.8,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Lombard Family Dentistry PLLC",
+      "page_id": "474192175772510",
+      "industry": "healthcare",
+      "search_term": "family dentist",
+      "total_ads": 7,
+      "active_ads": 7,
+      "estimated_monthly_spend": 882.0,
+      "waste_breakdown": {
+        "base_spend": 882.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 105.83999999999999,
+        "formula_used": "$882 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $106",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.8,
+        "overall": 0.885,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.80"
+      },
+      "evidence_insights": [],
+      "clv_tier": "medium",
+      "composite_score": 1639.016,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1270.08,
+      "annual_opportunity_max": 1587.6,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "The Ooten Law Firm",
+      "page_id": "510489129723017",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 3,
+      "active_ads": 3,
+      "estimated_monthly_spend": 800.0,
+      "waste_breakdown": {
+        "base_spend": 800.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 96.0,
+        "formula_used": "$800 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $96",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1637.2,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1152.0,
+      "annual_opportunity_max": 1440.0,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Pelican Dental Care",
+      "page_id": "274427182416874",
+      "industry": "healthcare",
+      "search_term": "dental office",
+      "total_ads": 5,
+      "active_ads": 5,
+      "estimated_monthly_spend": 819.0,
+      "waste_breakdown": {
+        "base_spend": 819.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 98.28,
+        "formula_used": "$819 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $98",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.8,
+        "overall": 0.885,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.80"
+      },
+      "evidence_insights": [],
+      "clv_tier": "medium",
+      "composite_score": 1620.872,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 1179.3600000000001,
+      "annual_opportunity_max": 1474.2,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Kamper Chiropractic a Palmercare Clinic",
+      "page_id": "533261990190567",
+      "industry": "healthcare",
+      "search_term": "chiropractic clinic",
+      "total_ads": 3,
+      "active_ads": 3,
+      "estimated_monthly_spend": 407.0,
+      "waste_breakdown": {
+        "base_spend": 407.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 48.839999999999996,
+        "formula_used": "$407 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $49",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.9049999999999999,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1522.216,
+      "priority_class": "HIGH",
+      "annual_opportunity_min": 586.0799999999999,
+      "annual_opportunity_max": 732.5999999999999,
+      "outreach_readiness": "ready"
+    },
+    {
+      "page_name": "Jonathan Hicks, Esq Injury Attorney",
+      "page_id": "1781691892095074",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 2,
+      "active_ads": 2,
+      "estimated_monthly_spend": 406.0,
+      "waste_breakdown": {
+        "base_spend": 406.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 48.72,
+        "formula_used": "$406 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $49",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.815,
+        "explanation": "Match: 0.95 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1470.904,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 584.64,
+      "annual_opportunity_max": 730.8,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Billion Dollar Contractor",
+      "page_id": "430717000127590",
+      "industry": "home_services",
+      "search_term": "hvac contractor",
+      "total_ads": 11,
+      "active_ads": 11,
+      "estimated_monthly_spend": 845.0,
+      "waste_breakdown": {
+        "base_spend": 845.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.08,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.2,
+        "monthly_waste_amount": 169.0,
+        "formula_used": "$845 × (0.00 aging + 0.08 dispersion + 0.00 fatigue + 0.12 placement) = $169",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.895,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.85"
+      },
+      "evidence_insights": [],
+      "clv_tier": "high",
+      "composite_score": 1465.4,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 2028.0,
+      "annual_opportunity_max": 2535.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Vitae Chiropractic Clinic Dr. Yamira Valentin",
+      "page_id": "286784825163461",
+      "industry": "healthcare",
+      "search_term": "chiropractic clinic",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.815,
+        "explanation": "Match: 0.95 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1358.2,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Anthony Rogers, Attorney at Law",
+      "page_id": "997185167044234",
+      "industry": "legal",
+      "search_term": "workers compensation attorney",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 226.0,
+      "waste_breakdown": {
+        "base_spend": 226.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 27.119999999999997,
+        "formula_used": "$226 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $27",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1351.784,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 325.43999999999994,
+      "annual_opportunity_max": 406.79999999999995,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "industry": "legal",
+      "search_term": "personal injury attorney",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 226.0,
+      "waste_breakdown": {
+        "base_spend": 226.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 27.119999999999997,
+        "formula_used": "$226 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $27",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1326.784,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 325.43999999999994,
+      "annual_opportunity_max": 406.79999999999995,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "River Road Pet Clinic",
+      "page_id": "137819436264076",
+      "industry": "healthcare",
+      "search_term": "veterinary clinic",
+      "total_ads": 2,
+      "active_ads": 2,
+      "estimated_monthly_spend": 187.0,
+      "waste_breakdown": {
+        "base_spend": 187.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 22.439999999999998,
+        "formula_used": "$187 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $22",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1318.856,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 269.28,
+      "annual_opportunity_max": 336.59999999999997,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Rob Lambert, Attorney at Law",
+      "page_id": "206158926778680",
+      "industry": "legal",
+      "search_term": "wrongful death lawyer",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 179.0,
+      "waste_breakdown": {
+        "base_spend": 179.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 21.48,
+        "formula_used": "$179 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $21",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1308.7359999999999,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 257.76,
+      "annual_opportunity_max": 322.2,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "industry": "professional",
+      "search_term": "tax attorney",
+      "total_ads": 4,
+      "active_ads": 4,
+      "estimated_monthly_spend": 284.0,
+      "waste_breakdown": {
+        "base_spend": 284.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 34.08,
+        "formula_used": "$284 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $34",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.855,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1223.1599999999999,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 408.96,
+      "annual_opportunity_max": 511.2,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "InVision Capital Advisor, LLC",
+      "page_id": "1413313565365077",
+      "industry": "professional",
+      "search_term": "financial advisor",
+      "total_ads": 3,
+      "active_ads": 3,
+      "estimated_monthly_spend": 220.0,
+      "waste_breakdown": {
+        "base_spend": 220.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 26.4,
+        "formula_used": "$220 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $26",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.855,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1207.8,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 316.79999999999995,
+      "annual_opportunity_max": 396.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "CDD Services",
+      "page_id": "601764846345566",
+      "industry": "home_services",
+      "search_term": "hvac contractor",
+      "total_ads": 3,
+      "active_ads": 3,
+      "estimated_monthly_spend": 187.0,
+      "waste_breakdown": {
+        "base_spend": 187.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 22.439999999999998,
+        "formula_used": "$187 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $22",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1165.904,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 269.28,
+      "annual_opportunity_max": 336.59999999999997,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "industry": "healthcare",
+      "search_term": "physical therapy",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.61 (Match: 0.55 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Johnson, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 1158.2,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Ribbie's Tax Preparation Service",
+      "page_id": "208243152666577",
+      "industry": "b2b",
+      "search_term": "tax preparation service",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.95,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.815,
+        "explanation": "Match: 0.95 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1147.4,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Superior Service",
+      "page_id": "255204921867",
+      "industry": "home_services",
+      "search_term": "plumbing contractor",
+      "total_ads": 10,
+      "active_ads": 10,
+      "estimated_monthly_spend": 840.0,
+      "waste_breakdown": {
+        "base_spend": 840.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 100.8,
+        "formula_used": "$840 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $101",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.645,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.85"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.65 (Match: 0.35 | Data: 1.00 | Spend: 0.85)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Superior, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "high",
+      "composite_score": 1106.28,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 1209.6,
+      "annual_opportunity_max": 1512.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Southern Maid Janitorial Services, Inc.",
+      "page_id": "257785377602826",
+      "industry": "b2b",
+      "search_term": "janitorial service",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1097.4,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "E-N-S Home Cleaning Solutions, LLC",
+      "page_id": "108871535397991",
+      "industry": "home_services",
+      "search_term": "cleaning service",
+      "total_ads": 2,
+      "active_ads": 2,
+      "estimated_monthly_spend": 154.0,
+      "waste_breakdown": {
+        "base_spend": 154.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.48,
+        "formula_used": "$154 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1094.568,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 221.76,
+      "annual_opportunity_max": 277.2,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Triple H Cleaning Services",
+      "page_id": "642369162302077",
+      "industry": "home_services",
+      "search_term": "cleaning service",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1093.8,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Fireside Planning LLC",
+      "page_id": "691383980728051",
+      "industry": "professional",
+      "search_term": "financial advisor",
+      "total_ads": 2,
+      "active_ads": 2,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1076.0,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "industry": "home_services",
+      "search_term": "hvac contractor",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1068.8,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Joe Ollis Real Estate & Auction, LLC",
+      "page_id": "117157445020877",
+      "industry": "home_services",
+      "search_term": "plumbing contractor",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1068.8,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "industry": "home_services",
+      "search_term": "landscaping company",
+      "total_ads": 3,
+      "active_ads": 3,
+      "estimated_monthly_spend": 328.0,
+      "waste_breakdown": {
+        "base_spend": 328.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 39.36,
+        "formula_used": "$328 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $39",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.705,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "medium",
+      "composite_score": 1067.976,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 472.32,
+      "annual_opportunity_max": 590.4,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Next Level Wealth Financial Services",
+      "page_id": "682425714947080",
+      "industry": "b2b",
+      "search_term": "payroll company",
+      "total_ads": 3,
+      "active_ads": 3,
+      "estimated_monthly_spend": 234.0,
+      "waste_breakdown": {
+        "base_spend": 234.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 28.08,
+        "formula_used": "$234 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $28",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.705,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1055.5439999999999,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 336.96,
+      "annual_opportunity_max": 421.2,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Dream Home Loans, Inc.",
+      "page_id": "428683763669650",
+      "industry": "professional",
+      "search_term": "mortgage broker",
+      "total_ads": 3,
+      "active_ads": 3,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.705,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.65"
+      },
+      "evidence_insights": [],
+      "clv_tier": "low",
+      "composite_score": 1041.0,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Cohen Financial Group Los Angeles",
+      "page_id": "103316885479817",
+      "industry": "professional",
+      "search_term": "mortgage broker",
+      "total_ads": 2,
+      "active_ads": 2,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.61 (Match: 0.55 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Cohen, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 951.0,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "DODO Professional Services",
+      "page_id": "680743965130088",
+      "industry": "b2b",
+      "search_term": "tax preparation service",
+      "total_ads": 2,
+      "active_ads": 2,
+      "estimated_monthly_spend": 156.0,
+      "waste_breakdown": {
+        "base_spend": 156.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.72,
+        "formula_used": "$156 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $19",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.61 (Match: 0.55 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá DODO, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 948.696,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 224.64,
+      "annual_opportunity_max": 280.79999999999995,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Ever-Clean Maintenance Pro, LLC",
+      "page_id": "110872021633616",
+      "industry": "b2b",
+      "search_term": "commercial cleaning",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.61 (Match: 0.55 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Ever-Clean, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 947.4,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "industry": "b2b",
+      "search_term": "commercial cleaning",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.61 (Match: 0.55 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá East, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 947.4,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "McLaren's Home Repair Services",
+      "page_id": "105368155382491",
+      "industry": "home_services",
+      "search_term": "handyman service",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.61 (Match: 0.55 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá McLaren's, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 943.8,
+      "priority_class": "MEDIUM",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "needs_validation"
+    },
+    {
+      "page_name": "Service Solutions USA",
+      "page_id": "380786669099506",
+      "industry": "b2b",
+      "search_term": "payroll company",
+      "total_ads": 2,
+      "active_ads": 2,
+      "estimated_monthly_spend": 156.0,
+      "waste_breakdown": {
+        "base_spend": 156.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.72,
+        "formula_used": "$156 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $19",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.515,
+        "explanation": "Match: 0.35 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.52 (Match: 0.35 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá Service, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 848.696,
+      "priority_class": "LOW",
+      "annual_opportunity_min": 224.64,
+      "annual_opportunity_max": 280.79999999999995,
+      "outreach_readiness": "low_confidence"
+    },
+    {
+      "page_name": "PrimeCore Contractors",
+      "page_id": "672004989336866",
+      "industry": "home_services",
+      "search_term": "plumbing contractor",
+      "total_ads": 1,
+      "active_ads": 1,
+      "estimated_monthly_spend": 150.0,
+      "waste_breakdown": {
+        "base_spend": 150.0,
+        "aging_penalty": 0.0,
+        "dispersion_penalty": 0.0,
+        "fatigue_penalty": 0.0,
+        "placement_penalty": 0.12,
+        "total_waste_rate": 0.12,
+        "monthly_waste_amount": 18.0,
+        "formula_used": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+        "evidence_summary": "otimização preventiva"
+      },
+      "confidence": {
+        "business_match": 0.35,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.515,
+        "explanation": "Match: 0.35 | Data: 0.70 | Spend: 0.65"
+      },
+      "evidence_insights": [
+        {
+          "insight_type": "validation_needed",
+          "evidence": "Confiança dos dados: 0.52 (Match: 0.35 | Data: 0.70 | Spend: 0.65)",
+          "quantified_impact": "Recomendações devem ser validadas antes da implementação",
+          "effort_required": "baixo",
+          "priority_score": 0.1,
+          "first_line_suggestion": "Olá PrimeCore, gostaria de validar alguns insights sobre suas campanhas Meta - posso compartilhar uma análise rápida?"
+        }
+      ],
+      "clv_tier": "low",
+      "composite_score": 843.8,
+      "priority_class": "LOW",
+      "annual_opportunity_min": 216.0,
+      "annual_opportunity_max": 270.0,
+      "outreach_readiness": "low_confidence"
+    }
+  ],
+  "methodology_transparency": {
+    "waste_formula": "monthly_waste = base_spend × (aging_penalty + dispersion_penalty + fatigue_penalty + placement_penalty)",
+    "confidence_formula": "overall = (business_match × 0.5) + (data_quality × 0.3) + (spend_accuracy × 0.2)",
+    "composite_score": "score = (waste_value × clv_multiplier) + (confidence × 1000) + industry_bonus",
+    "priority_thresholds": {
+      "PREMIUM": "score ≥ 2500 + confidence ≥ 0.8 + clv_tier premium/high",
+      "HIGH": "score ≥ 1500 + confidence ≥ 0.7",
+      "MEDIUM": "score ≥ 800 + confidence ≥ 0.6",
+      "LOW": "below medium thresholds"
+    }
+  },
+  "key_improvements_v7": {
+    "transparency": "All waste calculations show exact formulas and evidence",
+    "evidence_based": "Every insight includes specific evidence and quantified impact",
+    "personalized_outreach": "Custom first-line suggestions for each prospect",
+    "confidence_breakdown": "Detailed confidence scoring with explanations",
+    "industry_intelligence": "CLV multipliers and benchmarks by industry",
+    "actionable_priorities": "Clear effort/impact ratios for prioritization"
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "meta": {
+    "timestamp": "20250726_032913",
+    "version": "8.5_HYBRID_ARCO_ENGINE",
+    "methodology": "Nicho Reposicionado + Weekend Intelligence + Phone-First",
+    "total_prospects": 9,
+    "br_market_focus": true,
+    "nichos_analyzed": [
+      "weekend_entertainment",
+      "odonto_eletivo",
+      "home_services_urgent"
+    ]
+  },
+  "executive_summary": {
+    "total_analyzed": 9,
+    "critical_urgency": 9,
+    "high_priority": 0,
+    "total_p10_leads_monthly": 602,
+    "total_revenue_opportunity": 663194,
+    "immediate_outreach_targets": 9,
+    "expected_pilots_72h": 3
+  },
+  "critical_prospects": [
+    {
+      "business_profile": {
+        "name": "Desentupidora Santos Express",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 7,
+        "weekend_signals": 4,
+        "phone_signals": 3,
+        "total_signals": 14
+      },
+      "opportunity_analysis": {
+        "business_name": "Desentupidora Santos Express",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.2857142857142858,
+        "weekend_dependency_score": 0.5599999999999999,
+        "monthly_opportunity_leads": 85,
+        "monthly_opportunity_revenue": 26930,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (7 anúncios)",
+          "Gaps de otimização phone-first (score: 28.6%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Vi 3 sinais críticos na conta de Desentupidora Santos Express (Alta atividade publicitária detectada (7 anúncios), Gaps de otimização phone-first (score: 28.6%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +51 a +111 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 51,
+        "p50_target": 111,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:29:35.616390"
+    },
+    {
+      "business_profile": {
+        "name": "Eletricista 24h SOS SP",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 18,
+        "weekend_signals": 4,
+        "phone_signals": 24,
+        "total_signals": 46
+      },
+      "opportunity_analysis": {
+        "business_name": "Eletricista 24h SOS SP",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.3203703703703703,
+        "weekend_dependency_score": 0.5599999999999999,
+        "monthly_opportunity_leads": 212,
+        "monthly_opportunity_revenue": 67085,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (18 anúncios)",
+          "Gaps de otimização phone-first (score: 32.0%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Vi 3 sinais críticos na conta de Eletricista 24h SOS SP (Alta atividade publicitária detectada (18 anúncios), Gaps de otimização phone-first (score: 32.0%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +127 a +276 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 127,
+        "p50_target": 276,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:29:57.943559"
+    },
+    {
+      "business_profile": {
+        "name": "Encanador Rápido Zona Sul",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 16,
+        "weekend_signals": 1,
+        "phone_signals": 13,
+        "total_signals": 30
+      },
+      "opportunity_analysis": {
+        "business_name": "Encanador Rápido Zona Sul",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.2958333333333333,
+        "weekend_dependency_score": 0.13999999999999999,
+        "monthly_opportunity_leads": 158,
+        "monthly_opportunity_revenue": 49788,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (16 anúncios)",
+          "Gaps de otimização phone-first (score: 29.6%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado",
+          "Sinais de fadiga criativa detectados"
+        ],
+        "outreach_message": "Vi 4 sinais críticos na conta de Encanador Rápido Zona Sul (Alta atividade publicitária detectada (16 anúncios), Gaps de otimização phone-first (score: 29.6%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +94 a +205 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 94,
+        "p50_target": 205,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:30:24.879240"
+    },
+    {
+      "business_profile": {
+        "name": "Dedetizadora Urgente SP",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 19,
+        "weekend_signals": 4,
+        "phone_signals": 2,
+        "total_signals": 25
+      },
+      "opportunity_analysis": {
+        "business_name": "Dedetizadora Urgente SP",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.2719298245614036,
+        "weekend_dependency_score": 0.5599999999999999,
+        "monthly_opportunity_leads": 234,
+        "monthly_opportunity_revenue": 74012,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (19 anúncios)",
+          "Gaps de otimização phone-first (score: 27.2%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado",
+          "Sinais de fadiga criativa detectados"
+        ],
+        "outreach_message": "Vi 4 sinais críticos na conta de Dedetizadora Urgente SP (Alta atividade publicitária detectada (19 anúncios), Gaps de otimização phone-first (score: 27.2%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +140 a +305 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 140,
+        "p50_target": 305,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:30:47.869117"
+    },
+    {
+      "business_profile": {
+        "name": "Clínica Implantes Premium",
+        "nicho": "odonto_eletivo",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 15,
+        "weekend_signals": 0,
+        "phone_signals": 10,
+        "total_signals": 25
+      },
+      "opportunity_analysis": {
+        "business_name": "Clínica Implantes Premium",
+        "nicho": "odonto_eletivo",
+        "nicho_score": 7.5,
+        "phone_readiness_score": 0.26222222222222225,
+        "weekend_dependency_score": 0.0,
+        "monthly_opportunity_leads": 71,
+        "monthly_opportunity_revenue": 188651,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (15 anúncios)",
+          "Gaps de otimização phone-first (score: 26.2%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado",
+          "Sinais de fadiga criativa detectados"
+        ],
+        "outreach_message": "Analisei Clínica Implantes Premium e identifiquei gaps (Alta atividade publicitária detectada (15 anúncios), Gaps de otimização phone-first (score: 26.2%)). Em 72h otimizo WhatsApp sticky + CTA único + A/B prova social. Meta conservadora: +35 a +78 consultas/mês. Se não bater P10, +2 semanas grátis. 15 min hoje às 11:30 ou 16:00?",
+        "p10_guarantee": 35,
+        "p50_target": 78,
+        "lead_type": "consultas"
+      },
+      "analysis_timestamp": "2025-07-26T03:31:19.841590"
+    },
+    {
+      "business_profile": {
+        "name": "Dental Estética Lentes",
+        "nicho": "odonto_eletivo",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 2,
+        "weekend_signals": 0,
+        "phone_signals": 8,
+        "total_signals": 10
+      },
+      "opportunity_analysis": {
+        "business_name": "Dental Estética Lentes",
+        "nicho": "odonto_eletivo",
+        "nicho_score": 7.5,
+        "phone_readiness_score": 0.23333333333333328,
+        "weekend_dependency_score": 0.0,
+        "monthly_opportunity_leads": 9,
+        "monthly_opportunity_revenue": 25907,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Gaps de otimização phone-first (score: 23.3%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Analisei Dental Estética Lentes e identifiquei gaps (Gaps de otimização phone-first (score: 23.3%), Múltiplos anúncios sem CTA de telefone otimizado). Em 72h otimizo WhatsApp sticky + CTA único + A/B prova social. Meta conservadora: +10 a +10 consultas/mês. Se não bater P10, +2 semanas grátis. 15 min hoje às 11:30 ou 16:00?",
+        "p10_guarantee": 10,
+        "p50_target": 10,
+        "lead_type": "consultas"
+      },
+      "analysis_timestamp": "2025-07-26T03:31:50.802395"
+    },
+    {
+      "business_profile": {
+        "name": "Ortodontia Invisalign Center",
+        "nicho": "odonto_eletivo",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 12,
+        "weekend_signals": 0,
+        "phone_signals": 11,
+        "total_signals": 23
+      },
+      "opportunity_analysis": {
+        "business_name": "Ortodontia Invisalign Center",
+        "nicho": "odonto_eletivo",
+        "nicho_score": 7.5,
+        "phone_readiness_score": 0.24722222222222223,
+        "weekend_dependency_score": 0.0,
+        "monthly_opportunity_leads": 57,
+        "monthly_opportunity_revenue": 153265,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (12 anúncios)",
+          "Gaps de otimização phone-first (score: 24.7%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Analisei Ortodontia Invisalign Center e identifiquei gaps (Alta atividade publicitária detectada (12 anúncios), Gaps de otimização phone-first (score: 24.7%)). Em 72h otimizo WhatsApp sticky + CTA único + A/B prova social. Meta conservadora: +28 a +63 consultas/mês. Se não bater P10, +2 semanas grátis. 15 min hoje às 11:30 ou 16:00?",
+        "p10_guarantee": 28,
+        "p50_target": 63,
+        "lead_type": "consultas"
+      },
+      "analysis_timestamp": "2025-07-26T03:32:19.756363"
+    },
+    {
+      "business_profile": {
+        "name": "Club Noturno Premium",
+        "nicho": "weekend_entertainment",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 5,
+        "weekend_signals": 5,
+        "phone_signals": 6,
+        "total_signals": 16
+      },
+      "opportunity_analysis": {
+        "business_name": "Club Noturno Premium",
+        "nicho": "weekend_entertainment",
+        "nicho_score": 7.8,
+        "phone_readiness_score": 0.23333333333333328,
+        "weekend_dependency_score": 1.0,
+        "monthly_opportunity_leads": 62,
+        "monthly_opportunity_revenue": 28787,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Gaps de otimização phone-first (score: 23.3%)",
+          "Alta dependência de receita weekend (100.0%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Especialista em otimização weekend para Club Noturno Premium. Detectei Gaps de otimização phone-first (score: 23.3%), Alta dependência de receita weekend (100.0%). Implemento mobile sticky + weekend urgency + reserva 1-toque. Meta: +43-87 reservas/mês. P10 garantido ou +2 semanas. 10 min hoje?",
+        "p10_guarantee": 43,
+        "p50_target": 87,
+        "lead_type": "reservas"
+      },
+      "analysis_timestamp": "2025-07-26T03:32:50.442288"
+    },
+    {
+      "business_profile": {
+        "name": "Casa de Shows Vila Madalena",
+        "nicho": "weekend_entertainment",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 11,
+        "weekend_signals": 1,
+        "phone_signals": 6,
+        "total_signals": 18
+      },
+      "opportunity_analysis": {
+        "business_name": "Casa de Shows Vila Madalena",
+        "nicho": "weekend_entertainment",
+        "nicho_score": 7.8,
+        "phone_readiness_score": 0.23333333333333328,
+        "weekend_dependency_score": 0.35,
+        "monthly_opportunity_leads": 106,
+        "monthly_opportunity_revenue": 48769,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (11 anúncios)",
+          "Gaps de otimização phone-first (score: 23.3%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Especialista em otimização weekend para Casa de Shows Vila Madalena. Detectei Alta atividade publicitária detectada (11 anúncios), Gaps de otimização phone-first (score: 23.3%). Implemento mobile sticky + weekend urgency + reserva 1-toque. Meta: +74-148 reservas/mês. P10 garantido ou +2 semanas. 10 min hoje?",
+        "p10_guarantee": 74,
+        "p50_target": 148,
+        "lead_type": "reservas"
+      },
+      "analysis_timestamp": "2025-07-26T03:33:12.828168"
+    }
+  ],
+  "high_priority_prospects": [],
+  "all_prospects": [
+    {
+      "business_profile": {
+        "name": "Desentupidora Santos Express",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 7,
+        "weekend_signals": 4,
+        "phone_signals": 3,
+        "total_signals": 14
+      },
+      "opportunity_analysis": {
+        "business_name": "Desentupidora Santos Express",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.2857142857142858,
+        "weekend_dependency_score": 0.5599999999999999,
+        "monthly_opportunity_leads": 85,
+        "monthly_opportunity_revenue": 26930,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (7 anúncios)",
+          "Gaps de otimização phone-first (score: 28.6%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Vi 3 sinais críticos na conta de Desentupidora Santos Express (Alta atividade publicitária detectada (7 anúncios), Gaps de otimização phone-first (score: 28.6%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +51 a +111 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 51,
+        "p50_target": 111,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:29:35.616390"
+    },
+    {
+      "business_profile": {
+        "name": "Eletricista 24h SOS SP",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 18,
+        "weekend_signals": 4,
+        "phone_signals": 24,
+        "total_signals": 46
+      },
+      "opportunity_analysis": {
+        "business_name": "Eletricista 24h SOS SP",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.3203703703703703,
+        "weekend_dependency_score": 0.5599999999999999,
+        "monthly_opportunity_leads": 212,
+        "monthly_opportunity_revenue": 67085,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (18 anúncios)",
+          "Gaps de otimização phone-first (score: 32.0%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Vi 3 sinais críticos na conta de Eletricista 24h SOS SP (Alta atividade publicitária detectada (18 anúncios), Gaps de otimização phone-first (score: 32.0%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +127 a +276 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 127,
+        "p50_target": 276,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:29:57.943559"
+    },
+    {
+      "business_profile": {
+        "name": "Encanador Rápido Zona Sul",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 16,
+        "weekend_signals": 1,
+        "phone_signals": 13,
+        "total_signals": 30
+      },
+      "opportunity_analysis": {
+        "business_name": "Encanador Rápido Zona Sul",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.2958333333333333,
+        "weekend_dependency_score": 0.13999999999999999,
+        "monthly_opportunity_leads": 158,
+        "monthly_opportunity_revenue": 49788,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (16 anúncios)",
+          "Gaps de otimização phone-first (score: 29.6%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado",
+          "Sinais de fadiga criativa detectados"
+        ],
+        "outreach_message": "Vi 4 sinais críticos na conta de Encanador Rápido Zona Sul (Alta atividade publicitária detectada (16 anúncios), Gaps de otimização phone-first (score: 29.6%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +94 a +205 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 94,
+        "p50_target": 205,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:30:24.879240"
+    },
+    {
+      "business_profile": {
+        "name": "Dedetizadora Urgente SP",
+        "nicho": "home_services_urgent",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 19,
+        "weekend_signals": 4,
+        "phone_signals": 2,
+        "total_signals": 25
+      },
+      "opportunity_analysis": {
+        "business_name": "Dedetizadora Urgente SP",
+        "nicho": "home_services_urgent",
+        "nicho_score": 8.3,
+        "phone_readiness_score": 0.2719298245614036,
+        "weekend_dependency_score": 0.5599999999999999,
+        "monthly_opportunity_leads": 234,
+        "monthly_opportunity_revenue": 74012,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (19 anúncios)",
+          "Gaps de otimização phone-first (score: 27.2%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado",
+          "Sinais de fadiga criativa detectados"
+        ],
+        "outreach_message": "Vi 4 sinais críticos na conta de Dedetizadora Urgente SP (Alta atividade publicitária detectada (19 anúncios), Gaps de otimização phone-first (score: 27.2%)). Em 72h implemento rota 1-toque + auto-SMS + SLA ≤10min. Meta: +140 a +305 chamadas/mês sem subir mídia. Garantia P10 ou +2 semanas grátis. 10 min às 11:30 ou 16:00?",
+        "p10_guarantee": 140,
+        "p50_target": 305,
+        "lead_type": "chamadas"
+      },
+      "analysis_timestamp": "2025-07-26T03:30:47.869117"
+    },
+    {
+      "business_profile": {
+        "name": "Clínica Implantes Premium",
+        "nicho": "odonto_eletivo",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 15,
+        "weekend_signals": 0,
+        "phone_signals": 10,
+        "total_signals": 25
+      },
+      "opportunity_analysis": {
+        "business_name": "Clínica Implantes Premium",
+        "nicho": "odonto_eletivo",
+        "nicho_score": 7.5,
+        "phone_readiness_score": 0.26222222222222225,
+        "weekend_dependency_score": 0.0,
+        "monthly_opportunity_leads": 71,
+        "monthly_opportunity_revenue": 188651,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (15 anúncios)",
+          "Gaps de otimização phone-first (score: 26.2%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado",
+          "Sinais de fadiga criativa detectados"
+        ],
+        "outreach_message": "Analisei Clínica Implantes Premium e identifiquei gaps (Alta atividade publicitária detectada (15 anúncios), Gaps de otimização phone-first (score: 26.2%)). Em 72h otimizo WhatsApp sticky + CTA único + A/B prova social. Meta conservadora: +35 a +78 consultas/mês. Se não bater P10, +2 semanas grátis. 15 min hoje às 11:30 ou 16:00?",
+        "p10_guarantee": 35,
+        "p50_target": 78,
+        "lead_type": "consultas"
+      },
+      "analysis_timestamp": "2025-07-26T03:31:19.841590"
+    },
+    {
+      "business_profile": {
+        "name": "Dental Estética Lentes",
+        "nicho": "odonto_eletivo",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 2,
+        "weekend_signals": 0,
+        "phone_signals": 8,
+        "total_signals": 10
+      },
+      "opportunity_analysis": {
+        "business_name": "Dental Estética Lentes",
+        "nicho": "odonto_eletivo",
+        "nicho_score": 7.5,
+        "phone_readiness_score": 0.23333333333333328,
+        "weekend_dependency_score": 0.0,
+        "monthly_opportunity_leads": 9,
+        "monthly_opportunity_revenue": 25907,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Gaps de otimização phone-first (score: 23.3%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Analisei Dental Estética Lentes e identifiquei gaps (Gaps de otimização phone-first (score: 23.3%), Múltiplos anúncios sem CTA de telefone otimizado). Em 72h otimizo WhatsApp sticky + CTA único + A/B prova social. Meta conservadora: +10 a +10 consultas/mês. Se não bater P10, +2 semanas grátis. 15 min hoje às 11:30 ou 16:00?",
+        "p10_guarantee": 10,
+        "p50_target": 10,
+        "lead_type": "consultas"
+      },
+      "analysis_timestamp": "2025-07-26T03:31:50.802395"
+    },
+    {
+      "business_profile": {
+        "name": "Ortodontia Invisalign Center",
+        "nicho": "odonto_eletivo",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 12,
+        "weekend_signals": 0,
+        "phone_signals": 11,
+        "total_signals": 23
+      },
+      "opportunity_analysis": {
+        "business_name": "Ortodontia Invisalign Center",
+        "nicho": "odonto_eletivo",
+        "nicho_score": 7.5,
+        "phone_readiness_score": 0.24722222222222223,
+        "weekend_dependency_score": 0.0,
+        "monthly_opportunity_leads": 57,
+        "monthly_opportunity_revenue": 153265,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (12 anúncios)",
+          "Gaps de otimização phone-first (score: 24.7%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Analisei Ortodontia Invisalign Center e identifiquei gaps (Alta atividade publicitária detectada (12 anúncios), Gaps de otimização phone-first (score: 24.7%)). Em 72h otimizo WhatsApp sticky + CTA único + A/B prova social. Meta conservadora: +28 a +63 consultas/mês. Se não bater P10, +2 semanas grátis. 15 min hoje às 11:30 ou 16:00?",
+        "p10_guarantee": 28,
+        "p50_target": 63,
+        "lead_type": "consultas"
+      },
+      "analysis_timestamp": "2025-07-26T03:32:19.756363"
+    },
+    {
+      "business_profile": {
+        "name": "Club Noturno Premium",
+        "nicho": "weekend_entertainment",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 5,
+        "weekend_signals": 5,
+        "phone_signals": 6,
+        "total_signals": 16
+      },
+      "opportunity_analysis": {
+        "business_name": "Club Noturno Premium",
+        "nicho": "weekend_entertainment",
+        "nicho_score": 7.8,
+        "phone_readiness_score": 0.23333333333333328,
+        "weekend_dependency_score": 1.0,
+        "monthly_opportunity_leads": 62,
+        "monthly_opportunity_revenue": 28787,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Gaps de otimização phone-first (score: 23.3%)",
+          "Alta dependência de receita weekend (100.0%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Especialista em otimização weekend para Club Noturno Premium. Detectei Gaps de otimização phone-first (score: 23.3%), Alta dependência de receita weekend (100.0%). Implemento mobile sticky + weekend urgency + reserva 1-toque. Meta: +43-87 reservas/mês. P10 garantido ou +2 semanas. 10 min hoje?",
+        "p10_guarantee": 43,
+        "p50_target": 87,
+        "lead_type": "reservas"
+      },
+      "analysis_timestamp": "2025-07-26T03:32:50.442288"
+    },
+    {
+      "business_profile": {
+        "name": "Casa de Shows Vila Madalena",
+        "nicho": "weekend_entertainment",
+        "location": "SP",
+        "domain": null,
+        "estimated_ads": 0,
+        "phone_signals": null,
+        "weekend_dependency": 0.0
+      },
+      "intelligence_data": {
+        "ads_found": 11,
+        "weekend_signals": 1,
+        "phone_signals": 6,
+        "total_signals": 18
+      },
+      "opportunity_analysis": {
+        "business_name": "Casa de Shows Vila Madalena",
+        "nicho": "weekend_entertainment",
+        "nicho_score": 7.8,
+        "phone_readiness_score": 0.23333333333333328,
+        "weekend_dependency_score": 0.35,
+        "monthly_opportunity_leads": 106,
+        "monthly_opportunity_revenue": 48769,
+        "urgency_level": "critical",
+        "proof_points": [
+          "Alta atividade publicitária detectada (11 anúncios)",
+          "Gaps de otimização phone-first (score: 23.3%)",
+          "Múltiplos anúncios sem CTA de telefone otimizado"
+        ],
+        "outreach_message": "Especialista em otimização weekend para Casa de Shows Vila Madalena. Detectei Alta atividade publicitária detectada (11 anúncios), Gaps de otimização phone-first (score: 23.3%). Implemento mobile sticky + weekend urgency + reserva 1-toque. Meta: +74-148 reservas/mês. P10 garantido ou +2 semanas. 10 min hoje?",
+        "p10_guarantee": 74,
+        "p50_target": 148,
+        "lead_type": "reservas"
+      },
+      "analysis_timestamp": "2025-07-26T03:33:12.828168"
+    }
+  ]
+}

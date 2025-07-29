@@ -1,0 +1,3954 @@
+{
+  "meta": {
+    "timestamp": "20250725_172821",
+    "version": "7.2_ultra_pragmatic",
+    "engine": "surgical_precision_analysis",
+    "source_version": "v7_enhanced_data",
+    "analysis_date": "2025-07-25T17:28:21.642315",
+    "methodology": "Ultra-enhanced competitive intelligence + surgical insights + precision scoring"
+  },
+  "ultra_executive_dashboard": {
+    "total_prospects_analyzed": 50,
+    "ultra_premium_tier": 2,
+    "premium_tier": 5,
+    "surgical_insights_generated": 66,
+    "outreach_ready_prospects": 7,
+    "total_monthly_opportunity": 18789.16,
+    "total_annual_opportunity": 225469.92,
+    "average_precision_score": 0.42,
+    "high_urgency_prospects": 7,
+    "strategic_fit_prospects": 9
+  },
+  "subspecialty_intelligence": {
+    "general": {
+      "prospect_count": 27,
+      "avg_precision_score": 0.36747487098765447,
+      "total_opportunity": 4264.18,
+      "outreach_ready_count": 1,
+      "avg_strategic_value": 0.5260162962962963
+    },
+    "general_practice": {
+      "prospect_count": 14,
+      "avg_precision_score": 0.4818626714285714,
+      "total_opportunity": 10305.640000000001,
+      "outreach_ready_count": 3,
+      "avg_strategic_value": 0.7249557142857144
+    },
+    "general_medical": {
+      "prospect_count": 9,
+      "avg_precision_score": 0.4816547,
+      "total_opportunity": 4219.339999999999,
+      "outreach_ready_count": 3,
+      "avg_strategic_value": 0.6922133333333333
+    }
+  },
+  "ultra_premium_prospects": [
+    {
+      "page_name": "Quill & Arrow - Personal Injury & Lemon Law Lawyers",
+      "page_id": "238107887068721",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 8000.0,
+      "waste_amount_monthly": 2960.0,
+      "waste_formula_breakdown": "$8,000 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,960",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 1512.0,
+          "quantified_impact_max": 3528.0,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $2,520/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Quill, competitive analysis of your market shows $2,520/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 1400.0,
+          "quantified_impact_max": 2600.0,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $2,000/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 3.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Quill, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $2,000/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.9259999999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.9864999999999999,
+      "estimated_company_size": "large",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.8472916666666667,
+      "recommended_approach": "direct_executive_outreach",
+      "personalized_value_prop": "$3,528/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.640323",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.955,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 6786.0,
+      "waste_amount_monthly": 2510.82,
+      "waste_formula_breakdown": "$6,786 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,511",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 1282.554,
+          "quantified_impact_max": 2992.626,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $2,138/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Lawyers, competitive analysis of your market shows $2,138/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 1187.55,
+          "quantified_impact_max": 2205.4500000000003,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $1,696/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 3.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Lawyers, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $1,696/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.9259999999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.8965,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.8247916666666666,
+      "recommended_approach": "direct_executive_outreach",
+      "personalized_value_prop": "$2,993/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    }
+  ],
+  "outreach_ready_prospects": [
+    {
+      "page_name": "Quill & Arrow - Personal Injury & Lemon Law Lawyers",
+      "page_id": "238107887068721",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 8000.0,
+      "waste_amount_monthly": 2960.0,
+      "waste_formula_breakdown": "$8,000 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,960",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 1512.0,
+          "quantified_impact_max": 3528.0,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $2,520/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Quill, competitive analysis of your market shows $2,520/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 1400.0,
+          "quantified_impact_max": 2600.0,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $2,000/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 3.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Quill, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $2,000/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.9259999999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.9864999999999999,
+      "estimated_company_size": "large",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.8472916666666667,
+      "recommended_approach": "direct_executive_outreach",
+      "personalized_value_prop": "$3,528/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.640323",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.955,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 6786.0,
+      "waste_amount_monthly": 2510.82,
+      "waste_formula_breakdown": "$6,786 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,511",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 1282.554,
+          "quantified_impact_max": 2992.626,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $2,138/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Lawyers, competitive analysis of your market shows $2,138/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 1187.55,
+          "quantified_impact_max": 2205.4500000000003,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $1,696/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 3.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Lawyers, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $1,696/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.9259999999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.8965,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.8247916666666666,
+      "recommended_approach": "direct_executive_outreach",
+      "personalized_value_prop": "$2,993/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 4174.0,
+      "waste_amount_monthly": 2713.1,
+      "waste_formula_breakdown": "$4,174 × (0.20 aging + 0.08 dispersion + 0.25 fatigue + 0.12 placement) = $2,713",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 788.886,
+          "quantified_impact_max": 1840.7339999999997,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $1,315/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Sweeney, competitive analysis of your market shows $1,315/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "13 paused ads indicate creative fatigue (50% turnover)",
+          "quantified_impact_min": 601.0559999999999,
+          "quantified_impact_max": 1126.98,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $751/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "13 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi Sweeney, your data shows 13 paused ads from creative fatigue - refreshing could recover $751/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.7591570999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.84694,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.7706909416666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,841/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 3650.0,
+      "waste_amount_monthly": 1350.5,
+      "waste_formula_breakdown": "$3,650 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,350",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 689.85,
+          "quantified_impact_max": 1609.6499999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $1,150/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Florida, competitive analysis of your market shows $1,150/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 638.75,
+          "quantified_impact_max": 1186.25,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $912/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 8.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Florida, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $912/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.745385,
+      "urgency_multiplier": 0.7801000000000001,
+      "strategic_value": 0.8505,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.7606629166666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,610/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Daniel L. Abrams MD",
+      "page_id": "112732508450417",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 3780.0,
+      "waste_amount_monthly": 1398.6,
+      "waste_formula_breakdown": "$3,780 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,399",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 714.4199999999998,
+          "quantified_impact_max": 1666.9799999999996,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $1,191/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Daniel, competitive analysis of your market shows $1,191/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 661.5,
+          "quantified_impact_max": 1228.5,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $945/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 8.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Daniel, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $945/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.7603219999999999,
+      "urgency_multiplier": 0.7897200000000001,
+      "strategic_value": 0.7833,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.7500021666666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,667/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 3132.0,
+      "waste_amount_monthly": 1158.84,
+      "waste_formula_breakdown": "$3,132 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,159",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 591.948,
+          "quantified_impact_max": 1381.212,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $987/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi DB-, competitive analysis of your market shows $987/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 548.0999999999999,
+          "quantified_impact_max": 1017.9000000000001,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $783/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 8.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi DB-, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $783/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.6858668,
+      "urgency_multiplier": 0.7417680000000001,
+      "strategic_value": 0.81942,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.7284303666666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,381/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 2437.0,
+      "waste_amount_monthly": 1145.3899999999999,
+      "waste_formula_breakdown": "$2,437 × (0.10 aging + 0.15 dispersion + 0.10 fatigue + 0.12 placement) = $1,145",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 460.59299999999996,
+          "quantified_impact_max": 1074.7169999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $768/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi The, competitive analysis of your market shows $768/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "22 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 426.47499999999997,
+          "quantified_impact_max": 792.025,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 22 campaigns to 8 top performers can recover $609/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 22 campaigns. Industry data indicates 8-10 campaigns optimal for 5.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi The, noticed you're running 22 campaigns - our analysis shows consolidating to your top 8 could free up $609/month. Worth a quick chat?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "6 paused ads indicate creative fatigue (21% turnover)",
+          "quantified_impact_min": 350.928,
+          "quantified_impact_max": 657.99,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $439/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "6 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi The, your data shows 6 paused ads from creative fatigue - refreshing could recover $439/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.5791398666666666,
+      "urgency_multiplier": 0.739078,
+      "strategic_value": 0.7302200000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.7621094666666667,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,075/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.88,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.90"
+      }
+    }
+  ],
+  "all_ultra_prospects": [
+    {
+      "page_name": "Quill & Arrow - Personal Injury & Lemon Law Lawyers",
+      "page_id": "238107887068721",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 8000.0,
+      "waste_amount_monthly": 2960.0,
+      "waste_formula_breakdown": "$8,000 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,960",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 1512.0,
+          "quantified_impact_max": 3528.0,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $2,520/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Quill, competitive analysis of your market shows $2,520/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 1400.0,
+          "quantified_impact_max": 2600.0,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $2,000/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 3.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Quill, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $2,000/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.9259999999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.9864999999999999,
+      "estimated_company_size": "large",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.8472916666666667,
+      "recommended_approach": "direct_executive_outreach",
+      "personalized_value_prop": "$3,528/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.640323",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.955,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 6786.0,
+      "waste_amount_monthly": 2510.82,
+      "waste_formula_breakdown": "$6,786 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $2,511",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 1282.554,
+          "quantified_impact_max": 2992.626,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $2,138/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Lawyers, competitive analysis of your market shows $2,138/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 1187.55,
+          "quantified_impact_max": 2205.4500000000003,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $1,696/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 3.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Lawyers, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $1,696/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.9259999999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.8965,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.8247916666666666,
+      "recommended_approach": "direct_executive_outreach",
+      "personalized_value_prop": "$2,993/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 4174.0,
+      "waste_amount_monthly": 2713.1,
+      "waste_formula_breakdown": "$4,174 × (0.20 aging + 0.08 dispersion + 0.25 fatigue + 0.12 placement) = $2,713",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 788.886,
+          "quantified_impact_max": 1840.7339999999997,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $1,315/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Sweeney, competitive analysis of your market shows $1,315/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "13 paused ads indicate creative fatigue (50% turnover)",
+          "quantified_impact_min": 601.0559999999999,
+          "quantified_impact_max": 1126.98,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $751/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "13 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi Sweeney, your data shows 13 paused ads from creative fatigue - refreshing could recover $751/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.7591570999999999,
+      "urgency_multiplier": 0.81,
+      "strategic_value": 0.84694,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.7706909416666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,841/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Florida Medical Clinic Orlando Health",
+      "page_id": "129763547094689",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 3650.0,
+      "waste_amount_monthly": 1350.5,
+      "waste_formula_breakdown": "$3,650 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,350",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 689.85,
+          "quantified_impact_max": 1609.6499999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $1,150/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Florida, competitive analysis of your market shows $1,150/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 638.75,
+          "quantified_impact_max": 1186.25,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $912/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 8.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Florida, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $912/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.745385,
+      "urgency_multiplier": 0.7801000000000001,
+      "strategic_value": 0.8505,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.7606629166666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,610/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Daniel L. Abrams MD",
+      "page_id": "112732508450417",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 3780.0,
+      "waste_amount_monthly": 1398.6,
+      "waste_formula_breakdown": "$3,780 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,399",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 714.4199999999998,
+          "quantified_impact_max": 1666.9799999999996,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $1,191/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Daniel, competitive analysis of your market shows $1,191/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 661.5,
+          "quantified_impact_max": 1228.5,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $945/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 8.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Daniel, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $945/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.7603219999999999,
+      "urgency_multiplier": 0.7897200000000001,
+      "strategic_value": 0.7833,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.7500021666666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,667/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "DB- Medical Aesthetic Machine",
+      "page_id": "198043346729163",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 3132.0,
+      "waste_amount_monthly": 1158.84,
+      "waste_formula_breakdown": "$3,132 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $1,159",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 591.948,
+          "quantified_impact_max": 1381.212,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $987/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi DB-, competitive analysis of your market shows $987/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 548.0999999999999,
+          "quantified_impact_max": 1017.9000000000001,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $783/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 8.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi DB-, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $783/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.6858668,
+      "urgency_multiplier": 0.7417680000000001,
+      "strategic_value": 0.81942,
+      "estimated_company_size": "medium",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.7284303666666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,381/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.905,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "The Gillman Immigration Law Firm, PLLC",
+      "page_id": "101477769383301",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 2437.0,
+      "waste_amount_monthly": 1145.3899999999999,
+      "waste_formula_breakdown": "$2,437 × (0.10 aging + 0.15 dispersion + 0.10 fatigue + 0.12 placement) = $1,145",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 460.59299999999996,
+          "quantified_impact_max": 1074.7169999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $768/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi The, competitive analysis of your market shows $768/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "22 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 426.47499999999997,
+          "quantified_impact_max": 792.025,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 22 campaigns to 8 top performers can recover $609/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 22 campaigns. Industry data indicates 8-10 campaigns optimal for 5.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi The, noticed you're running 22 campaigns - our analysis shows consolidating to your top 8 could free up $609/month. Worth a quick chat?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "6 paused ads indicate creative fatigue (21% turnover)",
+          "quantified_impact_min": 350.928,
+          "quantified_impact_max": 657.99,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $439/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "6 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi The, your data shows 6 paused ads from creative fatigue - refreshing could recover $439/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.5791398666666666,
+      "urgency_multiplier": 0.739078,
+      "strategic_value": 0.7302200000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.7621094666666667,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$1,075/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.88,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Adam Finch",
+      "page_id": "107885628715611",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 2205.0,
+      "waste_amount_monthly": 815.85,
+      "waste_formula_breakdown": "$2,205 × (0.00 aging + 0.25 dispersion + 0.00 fatigue + 0.12 placement) = $816",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 416.74499999999995,
+          "quantified_impact_max": 972.4049999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $695/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Adam, competitive analysis of your market shows $695/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "30 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 385.875,
+          "quantified_impact_max": 716.625,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 30 campaigns to 8 top performers can recover $551/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 30 campaigns. Industry data indicates 8-10 campaigns optimal for 5.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Adam, noticed you're running 30 campaigns - our analysis shows consolidating to your top 8 could free up $551/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.5793545,
+      "urgency_multiplier": 0.67317,
+      "strategic_value": 0.6488,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.6419977916666667,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$972/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.655,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "FABBI LLC",
+      "page_id": "112624778611120",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 1951.0,
+      "waste_amount_monthly": 721.87,
+      "waste_formula_breakdown": "$1,951 × (0.00 aging + 0.15 dispersion + 0.10 fatigue + 0.12 placement) = $722",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 368.739,
+          "quantified_impact_max": 860.3909999999998,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $615/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi FABBI, competitive analysis of your market shows $615/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "18 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 341.42499999999995,
+          "quantified_impact_max": 634.075,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 18 campaigns to 8 top performers can recover $488/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 18 campaigns. Industry data indicates 8-10 campaigns optimal for 5.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi FABBI, noticed you're running 18 campaigns - our analysis shows consolidating to your top 8 could free up $488/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.5501699,
+      "urgency_multiplier": 0.6543740000000001,
+      "strategic_value": 0.62056,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.6229426416666667,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$860/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.745,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.85"
+      }
+    },
+    {
+      "page_name": "Advisors Hub, Inc.",
+      "page_id": "544765435382123",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 1838.0,
+      "waste_amount_monthly": 496.26000000000005,
+      "waste_formula_breakdown": "$1,838 × (0.00 aging + 0.15 dispersion + 0.00 fatigue + 0.12 placement) = $496",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 347.382,
+          "quantified_impact_max": 810.558,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $579/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Advisors, competitive analysis of your market shows $579/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "budget_consolidation_surgical",
+          "category": "waste_reduction",
+          "specific_evidence": "25 simultaneous campaigns vs industry optimal of 8-10",
+          "quantified_impact_min": 321.65,
+          "quantified_impact_max": 597.35,
+          "confidence_level": 0.88,
+          "implementation_effort": "medium",
+          "expected_timeline": "3-4 weeks",
+          "success_metrics": [
+            "CTR improvement: +20-30%",
+            "CPC reduction: $2-$4",
+            "Quality Score improvement: +15-25%"
+          ],
+          "c_suite_pitch": "Consolidating your 25 campaigns to 8 top performers can recover $460/month while improving lead quality by 25%.",
+          "marketing_manager_detail": "Analysis shows budget fragmentation across 25 campaigns. Industry data indicates 8-10 campaigns optimal for 5.0% conversion rate in your sector.",
+          "cold_email_opener": "Hi Advisors, noticed you're running 25 campaigns - our analysis shows consolidating to your top 8 could free up $460/month. Worth a quick chat?"
+        }
+      ],
+      "precision_score": 0.5371862000000001,
+      "urgency_multiplier": 0.609252,
+      "strategic_value": 0.65678,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.6174712166666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$811/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.9,
+        "overall": 0.755,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.90"
+      }
+    },
+    {
+      "page_name": "Cooper Hurley Injury Lawyers",
+      "page_id": "332013360177510",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 1169.0,
+      "waste_amount_monthly": 666.33,
+      "waste_formula_breakdown": "$1,169 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $666",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 220.941,
+          "quantified_impact_max": 515.529,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $368/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Cooper, competitive analysis of your market shows $368/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "2 paused ads indicate creative fatigue (33% turnover)",
+          "quantified_impact_min": 168.336,
+          "quantified_impact_max": 315.63,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $210/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "2 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi Cooper, your data shows 2 paused ads from creative fatigue - refreshing could recover $210/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.43867385,
+      "urgency_multiplier": 0.643266,
+      "strategic_value": 0.66064,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.6023116291666666,
+      "recommended_approach": "consultative_discovery",
+      "personalized_value_prop": "$516/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.8,
+        "overall": 0.635,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.80"
+      }
+    },
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 905.0,
+      "waste_amount_monthly": 108.6,
+      "waste_formula_breakdown": "$905 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $109",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 171.045,
+          "quantified_impact_max": 399.10499999999996,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $285/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Sansbury, competitive analysis of your market shows $285/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.41973150000000004,
+      "urgency_multiplier": 0.5317200000000001,
+      "strategic_value": 0.7033,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.49702120833333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$399/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Saunders & Chabert Attorneys at Law",
+      "page_id": "109516577344940",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 645.0,
+      "waste_amount_monthly": 367.65000000000003,
+      "waste_formula_breakdown": "$645 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $368",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 121.90499999999999,
+          "quantified_impact_max": 284.44499999999994,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $203/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Saunders, competitive analysis of your market shows $203/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "1 paused ads indicate creative fatigue (33% turnover)",
+          "quantified_impact_min": 92.88,
+          "quantified_impact_max": 174.14999999999998,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $116/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "1 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi Saunders, your data shows 1 paused ads from creative fatigue - refreshing could recover $116/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.38278924999999997,
+      "urgency_multiplier": 0.58353,
+      "strategic_value": 0.6877,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.5801714791666667,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$284/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "The Parks Law Firm",
+      "page_id": "117459407904682",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 811.0,
+      "waste_amount_monthly": 97.32,
+      "waste_formula_breakdown": "$811 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $97",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 153.27899999999997,
+          "quantified_impact_max": 357.65099999999995,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $255/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi The, competitive analysis of your market shows $255/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.4072953,
+      "urgency_multiplier": 0.529464,
+      "strategic_value": 0.69766,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.4919381583333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$358/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Lombard Family Dentistry PLLC",
+      "page_id": "474192175772510",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 882.0,
+      "waste_amount_monthly": 105.83999999999999,
+      "waste_formula_breakdown": "$882 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $106",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 166.69799999999998,
+          "quantified_impact_max": 388.96199999999993,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $278/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Lombard, competitive analysis of your market shows $278/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.4166886,
+      "urgency_multiplier": 0.5311680000000001,
+      "strategic_value": 0.67842,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.48990248333333336,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$389/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.8,
+        "overall": 0.885,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.80"
+      }
+    },
+    {
+      "page_name": "Christian Lewis Attorney at Law",
+      "page_id": "550054921736828",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 558.0,
+      "waste_amount_monthly": 362.7,
+      "waste_formula_breakdown": "$558 × (0.35 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $363",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 105.46199999999999,
+          "quantified_impact_max": 246.07799999999995,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $176/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Christian, competitive analysis of your market shows $176/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "3 paused ads indicate creative fatigue (75% turnover)",
+          "quantified_impact_min": 80.352,
+          "quantified_impact_max": 150.66,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $100/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "3 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi Christian, your data shows 3 paused ads from creative fatigue - refreshing could recover $100/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.3735107,
+      "urgency_multiplier": 0.5825400000000001,
+      "strategic_value": 0.68998,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.5781743416666667,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$246/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.855,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "The Ooten Law Firm",
+      "page_id": "510489129723017",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 800.0,
+      "waste_amount_monthly": 96.0,
+      "waste_formula_breakdown": "$800 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $96",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 151.2,
+          "quantified_impact_max": 352.79999999999995,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $252/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi The, competitive analysis of your market shows $252/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.40584000000000003,
+      "urgency_multiplier": 0.5292,
+      "strategic_value": 0.697,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.4913433333333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$353/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "The Grife Law Firm, Car Accident and Medical Malpractice Lawyers",
+      "page_id": "235092636691446",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 524.0,
+      "waste_amount_monthly": 298.68,
+      "waste_formula_breakdown": "$524 × (0.20 aging + 0.00 dispersion + 0.25 fatigue + 0.12 placement) = $299",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 99.036,
+          "quantified_impact_max": 231.08399999999997,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $165/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi The, competitive analysis of your market shows $165/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "1 paused ads indicate creative fatigue (33% turnover)",
+          "quantified_impact_min": 75.456,
+          "quantified_impact_max": 141.48,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $94/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "1 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi The, your data shows 1 paused ads from creative fatigue - refreshing could recover $94/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.3698846,
+      "urgency_multiplier": 0.569736,
+      "strategic_value": 0.70294,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.5773068166666666,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$231/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.9049999999999999,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Pelican Dental Care",
+      "page_id": "274427182416874",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 819.0,
+      "waste_amount_monthly": 98.28,
+      "waste_formula_breakdown": "$819 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $98",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 154.791,
+          "quantified_impact_max": 361.179,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $258/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Pelican, competitive analysis of your market shows $258/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.40835370000000004,
+      "urgency_multiplier": 0.529656,
+      "strategic_value": 0.6746400000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.48649575833333336,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$361/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.8,
+        "overall": 0.885,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.80"
+      }
+    },
+    {
+      "page_name": "Moving The Mitten Real Estate Group",
+      "page_id": "751468708207694",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 689.0,
+      "waste_amount_monthly": 392.72999999999996,
+      "waste_formula_breakdown": "$689 × (0.35 aging + 0.00 dispersion + 0.10 fatigue + 0.12 placement) = $393",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 130.221,
+          "quantified_impact_max": 303.849,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $217/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Moving, competitive analysis of your market shows $217/month opportunity through better positioning - interested in the breakdown?"
+        },
+        {
+          "insight_id": "creative_optimization",
+          "category": "waste_reduction",
+          "specific_evidence": "9 paused ads indicate creative fatigue (64% turnover)",
+          "quantified_impact_min": 99.21600000000001,
+          "quantified_impact_max": 186.03,
+          "confidence_level": 0.82,
+          "implementation_effort": "low",
+          "expected_timeline": "2-3 weeks",
+          "success_metrics": [
+            "CTR improvement: +25-40%",
+            "Engagement rate increase: +30%",
+            "Cost per conversion reduction: 15-25%"
+          ],
+          "c_suite_pitch": "Creative refresh opportunity worth $124/month identified through ad performance decay analysis.",
+          "marketing_manager_detail": "9 ads were paused due to performance decline. Industry data shows creative refresh typically improves CTR by 30% in your sector.",
+          "cold_email_opener": "Hi Moving, your data shows 9 paused ads from creative fatigue - refreshing could recover $124/month. Quick call?"
+        }
+      ],
+      "precision_score": 0.38748185,
+      "urgency_multiplier": 0.588546,
+      "strategic_value": 0.58484,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.5568836291666667,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$304/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.745,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.85"
+      }
+    },
+    {
+      "page_name": "Billion Dollar Contractor",
+      "page_id": "430717000127590",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 845.0,
+      "waste_amount_monthly": 169.0,
+      "waste_formula_breakdown": "$845 × (0.00 aging + 0.08 dispersion + 0.00 fatigue + 0.12 placement) = $169",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 159.705,
+          "quantified_impact_max": 372.645,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $266/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Billion, competitive analysis of your market shows $266/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.41179350000000003,
+      "urgency_multiplier": 0.5438000000000001,
+      "strategic_value": 0.5592,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.46203170833333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$373/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.895,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.85"
+      }
+    },
+    {
+      "page_name": "Jonathan Hicks, Esq Injury Attorney",
+      "page_id": "1781691892095074",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 406.0,
+      "waste_amount_monthly": 48.72,
+      "waste_formula_breakdown": "$406 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $49",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 76.734,
+          "quantified_impact_max": 179.046,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $128/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Jonathan, competitive analysis of your market shows $128/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.3537138,
+      "urgency_multiplier": 0.519744,
+      "strategic_value": 0.66886,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.4689127833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$179/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.815,
+        "explanation": "Match: 0.95 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Kamper Chiropractic a Palmercare Clinic",
+      "page_id": "533261990190567",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 407.0,
+      "waste_amount_monthly": 48.839999999999996,
+      "waste_formula_breakdown": "$407 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $49",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 76.92299999999999,
+          "quantified_impact_max": 179.48699999999997,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $128/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Kamper, competitive analysis of your market shows $128/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.35384610000000005,
+      "urgency_multiplier": 0.519768,
+      "strategic_value": 0.6559200000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.46571685833333337,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$179/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.9049999999999999,
+        "explanation": "Match: 0.95 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Anthony Rogers, Attorney at Law",
+      "page_id": "997185167044234",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 226.0,
+      "waste_amount_monthly": 27.119999999999997,
+      "waste_formula_breakdown": "$226 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $27",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 42.714,
+          "quantified_impact_max": 99.666,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $71/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Anthony, competitive analysis of your market shows $71/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.3298998,
+      "urgency_multiplier": 0.515424,
+      "strategic_value": 0.64306,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.4554292833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$100/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 226.0,
+      "waste_amount_monthly": 27.119999999999997,
+      "waste_formula_breakdown": "$226 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $27",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 42.714,
+          "quantified_impact_max": 99.666,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $71/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi J., competitive analysis of your market shows $71/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.3298998,
+      "urgency_multiplier": 0.515424,
+      "strategic_value": 0.63556,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.4535542833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$100/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Superior Service",
+      "page_id": "255204921867",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 840.0,
+      "waste_amount_monthly": 100.8,
+      "waste_formula_breakdown": "$840 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $101",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 158.75999999999996,
+          "quantified_impact_max": 370.43999999999994,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $265/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Superior, competitive analysis of your market shows $265/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.41113200000000005,
+      "urgency_multiplier": 0.5301600000000001,
+      "strategic_value": 0.4839,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.4396313333333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$370/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.85,
+        "overall": 0.645,
+        "explanation": "Match: 0.35 | Data: 1.00 | Spend: 0.85"
+      }
+    },
+    {
+      "page_name": "Rob Lambert, Attorney at Law",
+      "page_id": "206158926778680",
+      "industry_category": "legal",
+      "sub_specialization": "general_practice",
+      "estimated_monthly_spend": 179.0,
+      "waste_amount_monthly": 21.48,
+      "waste_formula_breakdown": "$179 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $21",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 33.830999999999996,
+          "quantified_impact_max": 78.93899999999998,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (3.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $56/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Rob, competitive analysis of your market shows $56/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.3236817,
+      "urgency_multiplier": 0.5142960000000001,
+      "strategic_value": 0.63274,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "managing partner",
+      "sales_cycle_estimate": "1-3 months",
+      "outreach_readiness": 0.4510127583333334,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$79/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Kevin C. Martin, Attorney at Law, PLLC",
+      "page_id": "104981021639165",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 284.0,
+      "waste_amount_monthly": 34.08,
+      "waste_formula_breakdown": "$284 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $34",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 53.675999999999995,
+          "quantified_impact_max": 125.24399999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $89/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Kevin, competitive analysis of your market shows $89/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.3375732,
+      "urgency_multiplier": 0.516816,
+      "strategic_value": 0.5935400000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.44531563333333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$125/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.855,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Vitae Chiropractic Clinic Dr. Yamira Valentin",
+      "page_id": "286784825163461",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Vitae, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.6135,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.44506958333333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.815,
+        "explanation": "Match: 0.95 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "River Road Pet Clinic",
+      "page_id": "137819436264076",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 187.0,
+      "waste_amount_monthly": 22.439999999999998,
+      "waste_formula_breakdown": "$187 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $22",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 35.342999999999996,
+          "quantified_impact_max": 82.467,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $59/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi River, competitive analysis of your market shows $59/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.32474010000000003,
+      "urgency_multiplier": 0.5144880000000001,
+      "strategic_value": 0.60072,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.44332035833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$82/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "InVision Capital Advisor, LLC",
+      "page_id": "1413313565365077",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 220.0,
+      "waste_amount_monthly": 26.4,
+      "waste_formula_breakdown": "$220 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $26",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 41.58,
+          "quantified_impact_max": 97.02,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $69/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi InVision, competitive analysis of your market shows $69/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.32910600000000007,
+      "urgency_multiplier": 0.5152800000000001,
+      "strategic_value": 0.5897000000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.44185483333333336,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$97/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.855,
+        "explanation": "Match: 0.85 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Johnson Counseling Services, LLC",
+      "page_id": "657550874117457",
+      "industry_category": "healthcare",
+      "sub_specialization": "general_medical",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (8.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Johnson, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.5535000000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "practice manager",
+      "sales_cycle_estimate": "2-6 weeks",
+      "outreach_readiness": 0.4300695833333334,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Fireside Planning LLC",
+      "page_id": "691383980728051",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Fireside, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.551,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.42944458333333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Dream Home Loans, Inc.",
+      "page_id": "428683763669650",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Dream, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.5405000000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.42681958333333336,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.705,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Ribbie's Tax Preparation Service",
+      "page_id": "208243152666577",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Ribbie's, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.5335,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.42506958333333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.95,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.815,
+        "explanation": "Match: 0.95 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Next Level Wealth Financial Services",
+      "page_id": "682425714947080",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 234.0,
+      "waste_amount_monthly": 28.08,
+      "waste_formula_breakdown": "$234 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $28",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 44.22599999999999,
+          "quantified_impact_max": 103.19399999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $74/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Next, competitive analysis of your market shows $74/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.33095820000000004,
+      "urgency_multiplier": 0.5156160000000001,
+      "strategic_value": 0.50554,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.4213618833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$103/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.705,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Southern Maid Janitorial Services, Inc.",
+      "page_id": "257785377602826",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Southern, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.5185,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.42131958333333336,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Cohen Financial Group Los Angeles",
+      "page_id": "103316885479817",
+      "industry_category": "professional",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Cohen, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.5135000000000001,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.4200695833333334,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 328.0,
+      "waste_amount_monthly": 39.36,
+      "waste_formula_breakdown": "$328 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $39",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 61.99199999999999,
+          "quantified_impact_max": 144.64799999999997,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $103/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi A-1, competitive analysis of your market shows $103/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.34339440000000004,
+      "urgency_multiplier": 0.517872,
+      "strategic_value": 0.47117999999999993,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.4164449333333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$145/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.705,
+        "explanation": "Match: 0.55 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "CDD Services",
+      "page_id": "601764846345566",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 187.0,
+      "waste_amount_monthly": 22.439999999999998,
+      "waste_formula_breakdown": "$187 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $22",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 35.342999999999996,
+          "quantified_impact_max": 82.467,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $59/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi CDD, competitive analysis of your market shows $59/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.32474010000000003,
+      "urgency_multiplier": 0.5144880000000001,
+      "strategic_value": 0.50022,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.4181953583333334,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$82/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 1.0,
+        "spend_accuracy": 0.65,
+        "overall": 0.83,
+        "explanation": "Match: 0.80 | Data: 1.00 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "E-N-S Home Cleaning Solutions, LLC",
+      "page_id": "108871535397991",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 154.0,
+      "waste_amount_monthly": 18.48,
+      "waste_formula_breakdown": "$154 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 29.105999999999998,
+          "quantified_impact_max": 67.91399999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $49/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi E-N-S, competitive analysis of your market shows $49/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.32037420000000005,
+      "urgency_multiplier": 0.513696,
+      "strategic_value": 0.47873999999999994,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.4115358833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$68/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.641332",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Triple H Cleaning Services",
+      "page_id": "642369162302077",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Triple, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.4785,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.41131958333333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.85,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.765,
+        "explanation": "Match: 0.85 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "DODO Professional Services",
+      "page_id": "680743965130088",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 156.0,
+      "waste_amount_monthly": 18.72,
+      "waste_formula_breakdown": "$156 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $19",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 29.483999999999998,
+          "quantified_impact_max": 68.79599999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $49/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi DODO, competitive analysis of your market shows $49/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.32063880000000006,
+      "urgency_multiplier": 0.5137440000000001,
+      "strategic_value": 0.47385999999999995,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.41039403333333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$69/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Ever-Clean Maintenance Pro, LLC",
+      "page_id": "110872021633616",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Ever-Clean, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.4735,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.4100695833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi East, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.4735,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.4100695833333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Bayou Roofing and Mechanical Services, LLC",
+      "page_id": "100662265812613",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Bayou, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.471,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.40944458333333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Joe Ollis Real Estate & Auction, LLC",
+      "page_id": "117157445020877",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Joe, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.471,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.40944458333333333,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.8,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.74,
+        "explanation": "Match: 0.80 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "Service Solutions USA",
+      "page_id": "380786669099506",
+      "industry_category": "b2b",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 156.0,
+      "waste_amount_monthly": 18.72,
+      "waste_formula_breakdown": "$156 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $19",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 29.483999999999998,
+          "quantified_impact_max": 68.79599999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (5.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $49/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi Service, competitive analysis of your market shows $49/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.32063880000000006,
+      "urgency_multiplier": 0.5137440000000001,
+      "strategic_value": 0.4438599999999999,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "principal/owner",
+      "sales_cycle_estimate": "3-8 weeks",
+      "outreach_readiness": 0.40289403333333335,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$69/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.515,
+        "explanation": "Match: 0.35 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "McLaren's Home Repair Services",
+      "page_id": "105368155382491",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi McLaren's, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.4335,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.40006958333333337,
+      "recommended_approach": "educational_content_series",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.55,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.615,
+        "explanation": "Match: 0.55 | Data: 0.70 | Spend: 0.65"
+      }
+    },
+    {
+      "page_name": "PrimeCore Contractors",
+      "page_id": "672004989336866",
+      "industry_category": "home_services",
+      "sub_specialization": "general",
+      "estimated_monthly_spend": 150.0,
+      "waste_amount_monthly": 18.0,
+      "waste_formula_breakdown": "$150 × (0.00 aging + 0.00 dispersion + 0.00 fatigue + 0.12 placement) = $18",
+      "competitive_intel": {
+        "search_term": "",
+        "market_saturation_level": "low",
+        "estimated_cpc_benchmark": 15,
+        "competitive_advantages": [
+          "Underserved market with first-mover advantage",
+          "Low competition allows for market education",
+          "Brand building opportunity with lower costs"
+        ],
+        "market_timing_score": 0.9,
+        "opportunity_window": "excellent - market leader opportunity"
+      },
+      "surgical_insights": [
+        {
+          "insight_id": "competitive_positioning",
+          "category": "competitive_advantage",
+          "specific_evidence": "low market saturation with 90% timing opportunity",
+          "quantified_impact_min": 28.349999999999998,
+          "quantified_impact_max": 66.14999999999999,
+          "confidence_level": 0.75,
+          "implementation_effort": "medium",
+          "expected_timeline": "4-6 weeks",
+          "success_metrics": [
+            "Market share increase vs competitors",
+            "CPC below market average (target: $13)",
+            "Conversion rate above industry avg (12.0%)"
+          ],
+          "c_suite_pitch": "Market timing analysis reveals $47/month opportunity through strategic competitive positioning in excellent window.",
+          "marketing_manager_detail": "Competitive landscape shows low saturation. Key advantages: Underserved market with first-mover advantage, Low competition allows for market education.",
+          "cold_email_opener": "Hi PrimeCore, competitive analysis of your market shows $47/month opportunity through better positioning - interested in the breakdown?"
+        }
+      ],
+      "precision_score": 0.31984500000000005,
+      "urgency_multiplier": 0.5136000000000001,
+      "strategic_value": 0.40349999999999997,
+      "estimated_company_size": "small",
+      "decision_maker_profile": "owner/operator",
+      "sales_cycle_estimate": "1-2 weeks",
+      "outreach_readiness": 0.3925695833333333,
+      "recommended_approach": "nurture_sequence",
+      "personalized_value_prop": "$66/month competitive advantage opportunity",
+      "analysis_timestamp": "2025-07-25T17:28:21.642315",
+      "confidence_breakdown": {
+        "business_match": 0.35,
+        "data_quality": 0.7,
+        "spend_accuracy": 0.65,
+        "overall": 0.515,
+        "explanation": "Match: 0.35 | Data: 0.70 | Spend: 0.65"
+      }
+    }
+  ],
+  "surgical_methodology": {
+    "competitive_intelligence": "Ultra-refined market saturation analysis with CPC benchmarking",
+    "surgical_insights": "Precision-targeted recommendations with specific evidence and quantified impact",
+    "precision_scoring": "Multi-factor: (insight_confidence × 0.4) + (impact_potential × 0.6)",
+    "urgency_calculation": "(market_timing × 0.4) + (waste_urgency × 0.3) + (competitive_urgency × 0.3)",
+    "strategic_value": "(industry_multiplier × 0.4) + (spend_value × 0.3) + (confidence × 0.3)",
+    "outreach_readiness": "Combined precision, urgency, strategic value, and insight quality"
+  },
+  "competitive_market_intelligence": {
+    "high_opportunity_specialties": [],
+    "outreach_ready_rate": 14.000000000000002,
+    "ultra_premium_rate": 4.0
+  }
+}

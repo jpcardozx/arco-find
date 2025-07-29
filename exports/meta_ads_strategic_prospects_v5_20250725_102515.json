@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "timestamp": "20250725_102515",
+    "version": "5.0",
+    "engine": "strategic_balanced",
+    "approach": "strategic_niches_smart_queries",
+    "analysis_date": "2025-07-25T10:25:15.538001"
+  },
+  "strategic_summary": {
+    "total_prospects": 3,
+    "hot_prospects": 0,
+    "warm_prospects": 1,
+    "qualified_prospects": 1,
+    "cold_prospects": 1,
+    "total_waste_identified": 245,
+    "average_waste_per_prospect": 81.66666666666667,
+    "average_confidence": 0.8666666666666667
+  },
+  "niche_performance": {
+    "specialized_legal": {
+      "prospects_found": 3,
+      "total_waste": 245,
+      "avg_confidence": 0.8666666666666667
+    }
+  },
+  "strategic_insights": [
+    {
+      "page_name": "The Chopin Law Firm LLC",
+      "page_id": "1524086524548378",
+      "total_ads": 30,
+      "active_ads": 18,
+      "spend_estimate": "$900/month",
+      "waste_indicators": [],
+      "optimization_opportunities": [],
+      "monthly_waste_estimate": 108,
+      "confidence_score": 0.82,
+      "data_source": "Meta Ad Library API",
+      "search_term": "workers compensation attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "priority": "WARM",
+      "annual_opportunity": "$1296",
+      "strategic_value": 88.55999999999999
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "total_ads": 26,
+      "active_ads": 13,
+      "spend_estimate": "$780/month",
+      "waste_indicators": [],
+      "optimization_opportunities": [],
+      "monthly_waste_estimate": 94,
+      "confidence_score": 0.8,
+      "data_source": "Meta Ad Library API",
+      "search_term": "medical malpractice lawyer",
+      "business_validation": "Business type: legal, confidence: high",
+      "priority": "QUALIFIED",
+      "annual_opportunity": "$1128",
+      "strategic_value": 75.2
+    },
+    {
+      "page_name": "Coye Law Firm",
+      "page_id": "142119005851713",
+      "total_ads": 9,
+      "active_ads": 6,
+      "spend_estimate": "$270/month",
+      "waste_indicators": [
+        "Creative fatigue (9/9 old ads)"
+      ],
+      "optimization_opportunities": [
+        "Refresh ad creatives"
+      ],
+      "monthly_waste_estimate": 43,
+      "confidence_score": 0.98,
+      "data_source": "Meta Ad Library API",
+      "search_term": "workers compensation attorney",
+      "business_validation": "Business type: legal, confidence: high",
+      "priority": "COLD",
+      "annual_opportunity": "$516",
+      "strategic_value": 42.14
+    }
+  ]
+}

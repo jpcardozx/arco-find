@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "timestamp": "20250726_013755",
+    "version": "7.7_FINAL_PRODUCTION",
+    "methodology": "Real SearchAPI with validated sanity gates",
+    "analysis_date": "2025-07-26T01:37:55.865865",
+    "total_prospects": 6,
+    "searchapi_calls_made": 6,
+    "gates_applied": {
+      "signal_minimum": 2,
+      "rpp_threshold": 1000,
+      "priority_threshold": 75,
+      "fatigue_cap": true,
+      "domain_extraction": true
+    }
+  },
+  "executive_summary": {
+    "total_prospects": 6,
+    "pilot_ready": 0,
+    "qualified": 0,
+    "nurture": 6,
+    "total_monthly_rpp": 0,
+    "total_additional_leads": 0,
+    "searchapi_success_rate": 100.0,
+    "gates_approval_rate": 0.0
+  },
+  "searchapi_results": {
+    "total_api_calls": 6,
+    "successful_calls": 6,
+    "total_ads_found": 166,
+    "avg_ads_per_prospect": 27.7,
+    "prospects_with_activity": 6
+  },
+  "pilot_ready_prospects": [],
+  "qualified_prospects": [],
+  "all_prospects": [
+    {
+      "page_name": "Sansbury Law Firm, LLC",
+      "page_id": "1682759851948811",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 12,
+        "query_timestamp": "2025-07-26T01:38:05.495006",
+        "api_response_size": 32184,
+        "query_used": "Sansbury facebook advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 12
+        },
+        "total_score": 12,
+        "evidence_text": "atividade moderada (12 anúncios)",
+        "signal_count": 1,
+        "ads_analyzed": 12,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 960,
+        "ctr_improvement_pct": 40.0,
+        "additional_clicks": 384.0,
+        "additional_leads": 17.28,
+        "monthly_rpp": 4320.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+17 leads/mês via otimizações de CTR",
+        "data_quality": "high",
+        "ads_analyzed": 12,
+        "estimated_spend": 2400
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.348,
+        "precision": 0.7727999999999999,
+        "priority_score": 65.96799999999999,
+        "adjusted_score": 73.96799999999999,
+        "tier": "nurture",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": false,
+          "rpp_threshold": true,
+          "both_met": false
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Sansbury Law Firm, LLC. Identificamos potencial de +17 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:38:11.021573",
+      "real_domain": null,
+      "gates_status": {
+        "passed_all_gates": false,
+        "signal_count": 1,
+        "rpp_value": 4320.0,
+        "priority_score": 65.96799999999999
+      }
+    },
+    {
+      "page_name": "J. Davis Law Firm, PLLC",
+      "page_id": "758926677293539",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 31,
+        "query_timestamp": "2025-07-26T01:38:19.513531",
+        "api_response_size": 58330,
+        "query_used": "J. facebook advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 31
+        },
+        "total_score": 31,
+        "evidence_text": "alta atividade (31 anúncios)",
+        "signal_count": 1,
+        "ads_analyzed": 31,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 2480,
+        "ctr_improvement_pct": 40.0,
+        "additional_clicks": 992.0,
+        "additional_leads": 44.64,
+        "monthly_rpp": 11160.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+44 leads/mês via otimizações de CTR",
+        "data_quality": "high",
+        "ads_analyzed": 31,
+        "estimated_spend": 6200
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.734,
+        "precision": 0.92,
+        "priority_score": 86.56,
+        "adjusted_score": 94.56,
+        "tier": "nurture",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de J. Davis Law Firm, PLLC. Identificamos potencial de +44 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:38:23.445994",
+      "real_domain": null,
+      "gates_status": {
+        "passed_all_gates": false,
+        "signal_count": 1,
+        "rpp_value": 11160.0,
+        "priority_score": 86.56
+      }
+    },
+    {
+      "page_name": "Lawyers for Justice, PC",
+      "page_id": "102978838056812",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 41,
+        "query_timestamp": "2025-07-26T01:38:32.755660",
+        "api_response_size": 70546,
+        "query_used": "Lawyers facebook advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 41
+        },
+        "total_score": 41,
+        "evidence_text": "alta atividade (41 anúncios)",
+        "signal_count": 1,
+        "ads_analyzed": 41,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 3280,
+        "ctr_improvement_pct": 40.0,
+        "additional_clicks": 1312.0,
+        "additional_leads": 59.04,
+        "monthly_rpp": 14760.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+59 leads/mês via otimizações de CTR",
+        "data_quality": "high",
+        "ads_analyzed": 41,
+        "estimated_spend": 8200
+      },
+      "priority_analysis": {
+        "business_match": 0.9,
+        "readiness": 0.8739999999999999,
+        "precision": 0.92,
+        "priority_score": 89.66,
+        "adjusted_score": 97.66,
+        "tier": "nurture",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Lawyers for Justice, PC. Identificamos potencial de +59 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:38:41.475366",
+      "real_domain": null,
+      "gates_status": {
+        "passed_all_gates": false,
+        "signal_count": 1,
+        "rpp_value": 14760.0,
+        "priority_score": 89.66
+      }
+    },
+    {
+      "page_name": "Sweeney Merrigan Personal Injury Lawyers",
+      "page_id": "167843913240609",
+      "vertical": "legal",
+      "searchapi_data": {
+        "ads_found": 31,
+        "query_timestamp": "2025-07-26T01:38:50.450971",
+        "api_response_size": 61736,
+        "query_used": "Sweeney facebook advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 31
+        },
+        "total_score": 31,
+        "evidence_text": "alta atividade (31 anúncios)",
+        "signal_count": 1,
+        "ads_analyzed": 31,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "legal",
+        "monthly_clicks_base": 2480,
+        "ctr_improvement_pct": 40.0,
+        "additional_clicks": 992.0,
+        "additional_leads": 44.64,
+        "monthly_rpp": 11160.0,
+        "ticket_value": 250,
+        "meets_pilot_threshold": true,
+        "evidence": "+44 leads/mês via otimizações de CTR",
+        "data_quality": "high",
+        "ads_analyzed": 31,
+        "estimated_spend": 6200
+      },
+      "priority_analysis": {
+        "business_match": 0.9,
+        "readiness": 0.734,
+        "precision": 0.92,
+        "priority_score": 84.06,
+        "adjusted_score": 92.06,
+        "tier": "nurture",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de Sweeney Merrigan Personal Injury Lawyers. Identificamos potencial de +44 legal leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:38:53.354632",
+      "real_domain": null,
+      "gates_status": {
+        "passed_all_gates": false,
+        "signal_count": 1,
+        "rpp_value": 11160.0,
+        "priority_score": 84.06
+      }
+    },
+    {
+      "page_name": "A-1 Contractor Services LLC",
+      "page_id": "105952615740695",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 28,
+        "query_timestamp": "2025-07-26T01:39:04.911204",
+        "api_response_size": 62442,
+        "query_used": "A-1 facebook advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 28
+        },
+        "total_score": 28,
+        "evidence_text": "alta atividade (28 anúncios)",
+        "signal_count": 1,
+        "ads_analyzed": 28,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 1260,
+        "ctr_improvement_pct": 40.0,
+        "additional_clicks": 504.0,
+        "additional_leads": 45.36,
+        "monthly_rpp": 2721.6,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+45 leads/mês via otimizações de CTR",
+        "data_quality": "high",
+        "ads_analyzed": 28,
+        "estimated_spend": 5600
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.692,
+        "precision": 0.92,
+        "priority_score": 84.88,
+        "adjusted_score": 92.88,
+        "tier": "nurture",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de A-1 Contractor Services LLC. Identificamos potencial de +45 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:39:08.578943",
+      "real_domain": null,
+      "gates_status": {
+        "passed_all_gates": false,
+        "signal_count": 1,
+        "rpp_value": 2721.6,
+        "priority_score": 84.88
+      }
+    },
+    {
+      "page_name": "East Coast Building Services Group LLC",
+      "page_id": "105902968494686",
+      "vertical": "professional",
+      "searchapi_data": {
+        "ads_found": 23,
+        "query_timestamp": "2025-07-26T01:39:22.330188",
+        "api_response_size": 63866,
+        "query_used": "East facebook advertising transparency"
+      },
+      "hot_signals": {
+        "signals": {
+          "burst_2h": 23
+        },
+        "total_score": 23,
+        "evidence_text": "alta atividade (23 anúncios)",
+        "signal_count": 1,
+        "ads_analyzed": 23,
+        "data_source": "real_searchapi"
+      },
+      "rpp_analysis": {
+        "vertical": "professional",
+        "monthly_clicks_base": 1035,
+        "ctr_improvement_pct": 40.0,
+        "additional_clicks": 414.0,
+        "additional_leads": 37.26,
+        "monthly_rpp": 2235.6,
+        "ticket_value": 60,
+        "meets_pilot_threshold": true,
+        "evidence": "+37 leads/mês via otimizações de CTR",
+        "data_quality": "high",
+        "ads_analyzed": 23,
+        "estimated_spend": 4600
+      },
+      "priority_analysis": {
+        "business_match": 1.0,
+        "readiness": 0.622,
+        "precision": 0.92,
+        "priority_score": 82.08,
+        "adjusted_score": 90.08,
+        "tier": "nurture",
+        "data_bonus": 8,
+        "pilot_ready_criteria": {
+          "priority_threshold": true,
+          "rpp_threshold": true,
+          "both_met": true
+        }
+      },
+      "outreach_message": "Analisei a atividade de anúncios de East Coast Building Services Group LLC. Identificamos potencial de +37 professional leads/mês através de otimizações específicas. Vale uma conversa de 10 minutos?",
+      "analysis_timestamp": "2025-07-26T01:39:31.912350",
+      "real_domain": null,
+      "gates_status": {
+        "passed_all_gates": false,
+        "signal_count": 1,
+        "rpp_value": 2235.6,
+        "priority_score": 82.08
+      }
+    }
+  ],
+  "next_steps": {
+    "immediate_outreach": "Contact 0 validated pilot-ready prospects",
+    "searchapi_refresh": "Re-query at 13:30-16:30 ET and 18:30-20:00 ET",
+    "technical_enrichment": "Add pixel/tel_top/PSI data for top 6 domains",
+    "expected_pilots": "1-1 pilots this week"
+  }
+}
