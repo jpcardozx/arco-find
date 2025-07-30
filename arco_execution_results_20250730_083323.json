@@ -1,0 +1,13 @@
+{
+  "execution_timestamp": "2025-07-30T08:33:23.710144",
+  "validation_results": {
+    "config.api_keys": "\u2705 SUCCESS",
+    "src.config.arco_config_manager": "\u2705 SUCCESS",
+    "src.core.lead_qualification_engine": "\u2705 SUCCESS",
+    "src.main": "\u2705 SUCCESS"
+  },
+  "execution_results": {
+    "status": "ERROR",
+    "error": "SearchAPIConnector.__init__() missing 1 required positional argument: 'api_key'"
+  }
+}

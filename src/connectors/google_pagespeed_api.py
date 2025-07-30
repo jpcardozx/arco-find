@@ -7,13 +7,22 @@ from src.utils.logger import logger
 class GooglePageSpeedAPI:
     BASE_URL = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed"
 
-    def __init__(self):
-        self.config = ARCOConfigManager().get_config()
-        self.api_key = self.config.api_keys.google_pagespeed
-        if not self.api_key:
-            logger.error("GOOGLE_PAGESPEED_API_KEY não configurada no .env")
-            raise ValueError("GOOGLE_PAGESPEED_API_KEY é necessária para usar a API PageSpeed.")
+    def __init__(self, api_key: str = None):
+        if api_key:
+            self.api_key = api_key
+        else:
+            self.config = ARCOConfigManager().get_config()
+            self.api_key = self.config.get('pagespeed_key')
+            if not self.api_key:
+                logger.error("GOOGLE_PAGESPEED_API_KEY não configurada no .env")
+                raise ValueError("GOOGLE_PAGESPEED_API_KEY é necessária para usar a API PageSpeed.")
 
+    def analyze_url(self, url: str, strategy: str = "mobile") -> dict:
+        """
+        Alias para get_page_speed_score para compatibilidade
+        """
+        return self.get_page_speed_score(url, strategy)
+    
     def get_page_speed_score(self, url: str, strategy: str = "desktop") -> dict:
         """
         Obtém o score de performance de uma URL usando a Google PageSpeed Insights API.

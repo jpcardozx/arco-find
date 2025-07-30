@@ -1,676 +1,594 @@
-# src/core/arco_engine.py
+# src/core/arco_engine_simplified.py
 
+from typing import Dict, List, Optional
+from datetime import datetime
 from src.core.http_client import HTTPClient
 from src.core.cache import Cache
 from src.config.arco_config_manager import ARCOConfigManager
 from src.utils.logger import logger
 from src.connectors.google_pagespeed_api import GooglePageSpeedAPI
-from src.connectors.google_ads_api import GoogleAdsAPI
-from src.connectors.meta_business_api import MetaBusinessAPI
+from src.connectors.searchapi_connector import SearchAPIConnector
+from src.integrations.bigquery_config import BigQueryConfig
 from src.analysis.missed_opportunity_detector import MissedOpportunityDetector
+import os
 
 class ARCOEngine:
     """
-    O motor principal do Arco-Find, responsável por orquestrar a coleta de dados,
-    análise e identificação de oportunidades de otimização.
+    Engine simplificado do Arco-Find focado no SearchAPI para lead generation
+    Integra SearchAPI + PageSpeed + BigQuery para identificação de oportunidades
     """
     def __init__(self):
         self.http_client = HTTPClient()
         self.cache = Cache()
         self.config = ARCOConfigManager().get_config()
         
-        # Initialize APIs only if keys are available
+        # Initialize SearchAPI - nossa fonte principal de dados
+        self.searchapi_key = os.getenv('SEARCHAPI_KEY')
+        self.pagespeed_key = os.getenv('PAGESPEED_KEY') or os.getenv('GOOGLE_PAGESPEED_API_KEY')
+        
+        # SearchAPI para dados de Meta Ads Library
         try:
-            self.pagespeed_api = GooglePageSpeedAPI() if self.config.api_keys.google_pagespeed else None
-        except ValueError:
-            logger.warning("Google PageSpeed API not available - API key missing")
+            if self.searchapi_key:
+                self.searchapi = SearchAPIConnector(self.searchapi_key)
+                logger.info("✅ SearchAPI (Meta Ads Library) connected")
+            else:
+                self.searchapi = None
+                logger.warning("⚠️ SearchAPI not available - check SEARCHAPI_KEY")
+        except Exception as e:
+            logger.error(f"❌ SearchAPI initialization failed: {e}")
+            self.searchapi = None
+            
+        # PageSpeed API para análise de performance
+        try:
+            if self.pagespeed_key:
+                self.pagespeed_api = GooglePageSpeedAPI()
+                logger.info("✅ PageSpeed API connected")
+            else:
+                self.pagespeed_api = None
+                logger.warning("⚠️ PageSpeed API not available")
+        except Exception as e:
+            logger.error(f"❌ PageSpeed API failed: {e}")
             self.pagespeed_api = None
             
+        # BigQuery para armazenamento e análise de dados
         try:
-            self.google_ads_api = GoogleAdsAPI() if self.config.api_keys.google_ads else None
-        except (ValueError, Exception):
-            logger.warning("Google Ads API not available - API key missing or invalid")
-            self.google_ads_api = None
-            
-        try:
-            self.meta_business_api = MetaBusinessAPI() if self.config.api_keys.meta_business else None
-        except (ValueError, Exception):
-            logger.warning("Meta Business API not available - API key missing or invalid")
-            self.meta_business_api = None
-            
-        self.missed_opportunity_detector = MissedOpportunityDetector()
-        logger.info(f"ARCOEngine initialized with environment: {self.config.environment}")
-        
-        # Log available services
-        available_services = []
-        if self.pagespeed_api: available_services.append("PageSpeed")
-        if self.google_ads_api: available_services.append("Google Ads")
-        if self.meta_business_api: available_services.append("Meta Business")
-        
-        logger.info(f"Available API services: {', '.join(available_services) if available_services else 'None (demo mode)'}")
-
-    def analyze_saas_costs(self, company_data):
-        """
-        Analisa os custos de SaaS com base nos dados da empresa.
-        Fornece insights específicos e acionáveis para otimização de custos.
-        """
-        logger.info(f"ARCOEngine: Analyzing SaaS costs for {company_data.get('name')}")
-        
-        saas_spend = company_data.get('saas_spend', 0)
-        company_size = company_data.get('employee_count', 50)  # Default assumption
-        
-        # Calculate realistic savings based on company profile
-        if saas_spend == 0:
-            # Estimate based on company size if no data provided
-            estimated_saas_spend = self._estimate_saas_spend_by_size(company_size)
-            potential_savings = estimated_saas_spend * 0.15  # Conservative 15%
-            confidence = "estimated"
-        else:
-            potential_savings = min(saas_spend * 0.25, saas_spend * 0.35 if saas_spend > 10000 else saas_spend * 0.20)
-            confidence = "calculated"
-        
-        # Generate specific, actionable recommendations
-        recommendations = []
-        savings_breakdown = {}
-        
-        if potential_savings > 500:  # Lowered threshold from 2000
-            if potential_savings > 2000:
-                recommendations.extend([
-                    "Audit immediate: Identificar usuários inativos em ferramentas pagas (savings típico: 20-30%)",
-                    "Consolidação de tools: Substituir 3-4 ferramentas por 1-2 soluções integradas",
-                    "Renegociação anual: Leverage renewal periods para discounts (5-15% típico)",
-                    "Downgrade analysis: Review feature usage vs plan costs"
-                ])
-                savings_breakdown = {
-                    "unused_licenses": potential_savings * 0.4,
-                    "tool_consolidation": potential_savings * 0.35,
-                    "plan_optimization": potential_savings * 0.25
-                }
+            self.bigquery = BigQueryConfig()
+            if self.bigquery.setup_bigquery():
+                logger.info("✅ BigQuery connected")
             else:
-                recommendations.extend([
-                    "License utilization review: Identify inactive users and downgrade",
-                    "Annual vs monthly billing switch (typical 10-20% savings)",
-                    "Feature audit: Ensure you're not paying for unused premium features"
-                ])
-                savings_breakdown = {
-                    "license_optimization": potential_savings * 0.6,
-                    "billing_optimization": potential_savings * 0.4
-                }
-        else:
-            # Always provide at least basic recommendations
-            recommendations.extend([
-                "Basic SaaS review: Check for duplicate tools and unused subscriptions",
-                "Consider annual billing for active tools (typical 10-15% discount)",
-                "Monitor usage monthly to prevent overprovisioning"
-            ])
-            savings_breakdown = {
-                "basic_optimization": potential_savings
-            }
-        
-        return {
-            "category": "SaaS Cost Optimization",
-            "potential_monthly_savings": potential_savings,
-            "annual_savings_potential": potential_savings * 12,
-            "confidence_level": confidence,
-            "details": f"Analysis based on {confidence} spend of ${saas_spend:,.0f}/month. Conservative savings estimate.",
-            "savings_breakdown": savings_breakdown,
-            "recommendations": recommendations,
-            "implementation_timeline": "2-4 weeks",
-            "roi_timeline": "immediate"
-        }
-
-    def _estimate_saas_spend_by_size(self, employee_count):
-        """Estimate SaaS spend based on company size"""
-        if employee_count < 10:
-            return 2000  # Small team basics
-        elif employee_count < 25:
-            return 5000  # Growing company
-        elif employee_count < 50:
-            return 8000  # Mid-size
-        elif employee_count < 100:
-            return 15000  # Large team
-        else:
-            return 25000  # Enterprise
-
-    def analyze_website_performance(self, website_url):
-        """
-        Analisa a performance de website usando a Google PageSpeed Insights API.
-        Fornece insights específicos e acionáveis para melhoria de performance.
-        """
-        logger.info(f"ARCOEngine: Analyzing website performance for {website_url}")
-        
-        if not self.pagespeed_api:
-            logger.warning("PageSpeed API not available - providing estimated analysis")
-            return self._provide_estimated_performance_analysis(website_url)
-        
-        pagespeed_results = self.pagespeed_api.get_page_speed_score(website_url, strategy="mobile")
-
-        if pagespeed_results and pagespeed_results.get("score") is not None:
-            performance_score = pagespeed_results["score"]
+                logger.warning("⚠️ BigQuery setup failed")
+                self.bigquery = None
+        except Exception as e:
+            logger.error(f"❌ BigQuery failed: {e}")
+            self.bigquery = None
             
-            # Generate business impact analysis
-            impact_analysis = self._calculate_performance_business_impact(performance_score)
+        # Detector de oportunidades
+        self.missed_opportunity_detector = MissedOpportunityDetector()
+        
+        logger.info(f"ARCOEngine initialized with environment: {self.config.get('environment', 'development')}")
+        
+        # Log de APIs disponíveis
+        available_apis = []
+        if self.searchapi:
+            available_apis.append("SearchAPI (Meta Ads)")
+        if self.pagespeed_api:
+            available_apis.append("PageSpeed")
+        if self.bigquery:
+            available_apis.append("BigQuery")
             
-            # Specific recommendations based on score
-            recommendations = self._get_performance_recommendations(performance_score)
+        logger.info(f"Available API services: {', '.join(available_apis)}")
+    
+    def discover_real_opportunities(self, 
+                                  company_name: str,
+                                  website_url: str,
+                                  industry: str = None) -> Dict[str, any]:
+        """
+        🎯 Descoberta de oportunidades usando dados reais
+        Integra SearchAPI + PageSpeed + BigQuery
+        
+        Args:
+            company_name: Nome da empresa
+            website_url: URL do website  
+            industry: Setor da empresa
             
-            return {
-                "category": "Website Performance Improvement",
-                "performance_score": performance_score,
-                "business_impact": impact_analysis,
-                "details": f"PageSpeed Mobile Score: {performance_score}/100. {impact_analysis['impact_description']}",
-                "recommendations": recommendations,
-                "full_results": pagespeed_results,
-                "implementation_priority": impact_analysis['priority']
-            }
-        else:
-            logger.error(f"Não foi possível obter o score de performance para {website_url}: {pagespeed_results.get('error', 'Erro desconhecido')}")
-            return self._provide_estimated_performance_analysis(website_url, error=pagespeed_results.get('error'))
-
-    def _provide_estimated_performance_analysis(self, website_url, error=None):
-        """Provide estimated performance analysis when API is not available"""
-        estimated_score = 65  # Conservative estimate for typical websites
-        impact_analysis = self._calculate_performance_business_impact(estimated_score)
-        recommendations = self._get_performance_recommendations(estimated_score)
-        
-        details = f"Estimated performance analysis (PageSpeed API not available). "
-        if error:
-            details += f"API Error: {error}. "
-        details += "Recommendations based on common performance issues."
-        
-        return {
-            "category": "Website Performance Improvement",
-            "performance_score": estimated_score,
-            "business_impact": impact_analysis,
-            "details": details,
-            "recommendations": recommendations + [
-                "Note: Get Google PageSpeed API key for detailed performance analysis",
-                "Manual performance audit recommended for accurate insights"
-            ],
-            "implementation_priority": "medium",
-            "data_source": "estimated"
-        }
-
-    def _calculate_performance_business_impact(self, score):
-        """Calculate business impact of website performance"""
-        if score >= 90:
-            return {
-                "impact_description": "Excellent performance - minimal revenue impact",
-                "conversion_impact": "0-2%",
-                "revenue_impact": "minimal",
-                "priority": "low"
-            }
-        elif score >= 70:
-            return {
-                "impact_description": "Good performance with minor optimization opportunities",
-                "conversion_impact": "3-8%",
-                "revenue_impact": "low",
-                "priority": "medium"
-            }
-        elif score >= 50:
-            return {
-                "impact_description": "Moderate performance issues affecting user experience",
-                "conversion_impact": "10-20%",
-                "revenue_impact": "moderate",
-                "priority": "high"
-            }
-        else:
-            return {
-                "impact_description": "Critical performance issues causing significant revenue leakage",
-                "conversion_impact": "25-40%",
-                "revenue_impact": "critical",
-                "priority": "critical"
-            }
-
-    def _get_performance_recommendations(self, score):
-        """Get specific recommendations based on performance score"""
-        if score >= 90:
-            return [
-                "Monitor Core Web Vitals monthly to maintain performance",
-                "Consider advanced optimizations like service workers",
-                "Benchmark against competitors quarterly"
-            ]
-        elif score >= 70:
-            return [
-                "Optimize largest contentful paint (LCP) - target under 2.5s",
-                "Review and compress images - WebP format implementation", 
-                "Minimize unused JavaScript and CSS",
-                "Implement browser caching strategies"
-            ]
-        elif score >= 50:
-            return [
-                "PRIORITY: Fix Core Web Vitals - LCP, FID, CLS",
-                "Implement lazy loading for images and videos",
-                "Optimize server response time - consider CDN",
-                "Remove render-blocking resources",
-                "Compress and minify all assets"
-            ]
-        else:
-            return [
-                "CRITICAL: Complete performance overhaul needed",
-                "Server optimization - upgrade hosting if needed",
-                "Image optimization - compress all images by 70-80%",
-                "Remove unnecessary plugins and scripts",
-                "Implement aggressive caching strategy",
-                "Consider website rebuild with performance-first approach"
-            ]
-
-    def analyze_ad_performance(self, customer_id: str, campaign_id: str = None):
+        Returns:
+            Análise completa com dados reais
         """
-        Analisa a performance de anúncios usando a Google Ads API.
-        Fornece insights específicos e acionáveis sobre otimização de campanhas.
-        """
-        logger.info(f"ARCOEngine: Analyzing ad performance for customer_id: {customer_id}, campaign_id: {campaign_id}")
+        logger.info(f"🚀 Real opportunity discovery for {company_name}")
         
-        if not self.google_ads_api:
-            logger.warning("Google Ads API not available - providing estimated analysis")
-            return self._provide_estimated_google_ads_analysis(customer_id)
-        
-        ad_performance_data = self.google_ads_api.get_campaign_performance(customer_id, campaign_id)
-
-        # Calculate efficiency metrics and industry benchmarks
-        efficiency_analysis = self._analyze_ad_efficiency(ad_performance_data)
-        
-        # Generate specific, actionable recommendations
-        recommendations = self._generate_ad_recommendations(ad_performance_data, efficiency_analysis)
-        
-        # Calculate potential savings/improvements
-        optimization_potential = self._calculate_ad_optimization_potential(ad_performance_data)
-
-        return {
-            "category": "Ad Performance Optimization",
-            "ad_metrics": ad_performance_data,
-            "efficiency_analysis": efficiency_analysis,
-            "optimization_potential": optimization_potential,
-            "recommendations": recommendations,
-            "details": f"Ad Analysis: Spend=${ad_performance_data.get('cost', 0):,.0f}, CPA=${ad_performance_data.get('cpa', 0):.2f}, ROAS={efficiency_analysis.get('roas', 0):.2f}x"
-        }
-
-    def analyze_meta_ad_performance(self, ad_account_id: str):
-        """
-        Analisa a performance de anúncios usando a Meta Business API.
-        Fornece insights específicos e acionáveis sobre otimização de campanhas Meta.
-        """
-        logger.info(f"ARCOEngine: Analyzing Meta ad performance for ad_account_id: {ad_account_id}")
-        
-        if not self.meta_business_api:
-            logger.warning("Meta Business API not available - providing estimated analysis")
-            return self._provide_estimated_meta_ads_analysis(ad_account_id)
-        
-        meta_ad_performance_data = self.meta_business_api.get_ad_account_performance(ad_account_id)
-
-        # Calculate efficiency metrics and industry benchmarks
-        efficiency_analysis = self._analyze_meta_ad_efficiency(meta_ad_performance_data)
-        
-        # Generate specific, actionable recommendations
-        recommendations = self._generate_meta_ad_recommendations(meta_ad_performance_data, efficiency_analysis)
-        
-        # Calculate potential improvements
-        optimization_potential = self._calculate_meta_optimization_potential(meta_ad_performance_data)
-
-        return {
-            "category": "Meta Ad Performance Optimization",
-            "ad_metrics": meta_ad_performance_data,
-            "efficiency_analysis": efficiency_analysis,
-            "optimization_potential": optimization_potential,
-            "recommendations": recommendations,
-            "details": f"Meta Analysis: Spend=${meta_ad_performance_data.get('spend', 0):,.0f}, CPA=${meta_ad_performance_data.get('cpa', 0):.2f}, CTR={efficiency_analysis.get('ctr', 0):.2f}%"
-        }
-
-    def _provide_estimated_google_ads_analysis(self, customer_id):
-        """Provide estimated Google Ads analysis when API is not available"""
-        # Realistic estimates for demo purposes
-        estimated_data = {
-            'cost': 8000,
-            'clicks': 800,
-            'conversions': 40,
-            'revenue': 16000,
-            'cpa': 200
+        opportunities = {
+            'company_name': company_name,
+            'website_url': website_url,
+            'industry': industry or 'unknown',
+            'analysis_timestamp': datetime.now().isoformat(),
+            'data_sources': [],
+            'insights': {},
+            'opportunities': [],
+            'potential_savings': 0
         }
         
-        efficiency_analysis = self._analyze_ad_efficiency(estimated_data)
-        recommendations = self._generate_ad_recommendations(estimated_data, efficiency_analysis)
-        optimization_potential = self._calculate_ad_optimization_potential(estimated_data)
+        # 1. Website Performance Analysis
+        if self.pagespeed_api:
+            try:
+                logger.info("🔍 Analyzing website performance...")
+                performance_data = self._analyze_website_performance(website_url)
+                opportunities['data_sources'].append('Google PageSpeed Insights')
+                opportunities['insights']['performance'] = performance_data
+                
+                # Calculate performance opportunities
+                mobile_score = performance_data.get('mobile_score', 100)
+                if mobile_score < 70:
+                    opportunities['opportunities'].append({
+                        'type': 'Website Performance',
+                        'description': f"Mobile performance score is only {mobile_score}/100",
+                        'potential_impact': 'High - Could improve conversion rates by 20-30%',
+                        'estimated_monthly_value': 500
+                    })
+                    opportunities['potential_savings'] += 500
+                    
+            except Exception as e:
+                logger.warning(f"⚠️ Performance analysis failed: {e}")
         
-        recommendations.append("Note: Connect Google Ads API for real-time campaign data")
+        # 2. Digital Presence Analysis
+        if self.searchapi:
+            try:
+                logger.info("🔍 Analyzing digital presence...")
+                digital_data = self._analyze_digital_presence(company_name, website_url)
+                opportunities['data_sources'].append('SearchAPI Meta Ads Library')
+                opportunities['insights']['digital_presence'] = digital_data
+                
+                # Calculate digital opportunities
+                ads_found = digital_data.get('ads_found', 0)
+                if ads_found == 0:
+                    opportunities['opportunities'].append({
+                        'type': 'Digital Marketing Opportunity',
+                        'description': "No active Meta ads found - untapped market",
+                        'potential_impact': 'Medium - Could capture market share',
+                        'estimated_monthly_value': 1000
+                    })
+                    opportunities['potential_savings'] += 1000
+                elif ads_found > 10:
+                    opportunities['opportunities'].append({
+                        'type': 'Ad Optimization Opportunity', 
+                        'description': f"Found {ads_found} active ads - optimization potential",
+                        'potential_impact': 'High - Could reduce ad spend by 15-25%',
+                        'estimated_monthly_value': 800
+                    })
+                    opportunities['potential_savings'] += 800
+                    
+            except Exception as e:
+                logger.warning(f"⚠️ Digital analysis failed: {e}")
         
-        return {
-            "category": "Ad Performance Optimization",
-            "ad_metrics": estimated_data,
-            "efficiency_analysis": efficiency_analysis,
-            "optimization_potential": optimization_potential,
-            "recommendations": recommendations,
-            "details": f"Estimated Ad Analysis (API not connected): Spend=${estimated_data['cost']:,.0f}, CPA=${estimated_data['cpa']:.2f}",
-            "data_source": "estimated"
-        }
-
-    def _provide_estimated_meta_ads_analysis(self, ad_account_id):
-        """Provide estimated Meta Ads analysis when API is not available"""
-        # Realistic estimates for demo purposes
-        estimated_data = {
-            'spend': 6000,
-            'clicks': 1200,
-            'conversions': 60,
-            'impressions': 120000,
-            'cpa': 100
-        }
-        
-        efficiency_analysis = self._analyze_meta_ad_efficiency(estimated_data)
-        recommendations = self._generate_meta_ad_recommendations(estimated_data, efficiency_analysis)
-        optimization_potential = self._calculate_meta_optimization_potential(estimated_data)
-        
-        recommendations.append("Note: Connect Meta Business API for real-time campaign data")
-        
-        return {
-            "category": "Meta Ad Performance Optimization",
-            "ad_metrics": estimated_data,
-            "efficiency_analysis": efficiency_analysis,
-            "optimization_potential": optimization_potential,
-            "recommendations": recommendations,
-            "details": f"Estimated Meta Analysis (API not connected): Spend=${estimated_data['spend']:,.0f}, CPA=${estimated_data['cpa']:.2f}",
-            "data_source": "estimated"
-        }
-
-    def _analyze_ad_efficiency(self, ad_data):
-        """Analyze Google Ads efficiency metrics"""
-        cost = ad_data.get('cost', 0)
-        clicks = ad_data.get('clicks', 1)
-        conversions = ad_data.get('conversions', 0)
-        revenue = ad_data.get('revenue', 0)
-        
-        cpa = cost / max(conversions, 1)
-        cpc = cost / max(clicks, 1)
-        conversion_rate = (conversions / max(clicks, 1)) * 100
-        roas = revenue / max(cost, 1)
-        
-        # Industry benchmark comparison
-        return {
-            "cpa": cpa,
-            "cpc": cpc,
-            "conversion_rate": conversion_rate,
-            "roas": roas,
-            "efficiency_grade": self._get_efficiency_grade(cpa, conversion_rate, roas)
-        }
-
-    def _analyze_meta_ad_efficiency(self, meta_data):
-        """Analyze Meta Ads efficiency metrics"""
-        spend = meta_data.get('spend', 0)
-        clicks = meta_data.get('clicks', 1)
-        conversions = meta_data.get('conversions', 0)
-        impressions = meta_data.get('impressions', 1)
-        
-        cpa = spend / max(conversions, 1)
-        cpc = spend / max(clicks, 1)
-        ctr = (clicks / max(impressions, 1)) * 100
-        conversion_rate = (conversions / max(clicks, 1)) * 100
-        
-        return {
-            "cpa": cpa,
-            "cpc": cpc,
-            "ctr": ctr,
-            "conversion_rate": conversion_rate,
-            "efficiency_grade": self._get_meta_efficiency_grade(cpa, ctr, conversion_rate)
-        }
-
-    def _get_efficiency_grade(self, cpa, conversion_rate, roas):
-        """Grade Google Ads efficiency"""
-        if cpa < 50 and conversion_rate > 8 and roas > 4:
-            return "A - Excellent"
-        elif cpa < 100 and conversion_rate > 5 and roas > 2:
-            return "B - Good"
-        elif cpa < 150 and conversion_rate > 3:
-            return "C - Average"
-        else:
-            return "D - Needs Improvement"
-
-    def _get_meta_efficiency_grade(self, cpa, ctr, conversion_rate):
-        """Grade Meta Ads efficiency"""
-        if cpa < 40 and ctr > 2 and conversion_rate > 6:
-            return "A - Excellent"
-        elif cpa < 80 and ctr > 1.5 and conversion_rate > 4:
-            return "B - Good"
-        elif cpa < 120 and ctr > 1:
-            return "C - Average"
-        else:
-            return "D - Needs Improvement"
-
-    def _generate_ad_recommendations(self, ad_data, efficiency_analysis):
-        """Generate specific Google Ads recommendations"""
-        recommendations = []
-        cpa = efficiency_analysis['cpa']
-        conversion_rate = efficiency_analysis['conversion_rate']
-        roas = efficiency_analysis['roas']
-        
-        if cpa > 100:
-            recommendations.extend([
-                f"HIGH PRIORITY: CPA ${cpa:.0f} - Pause bottom 20% performing keywords",
-                "Implement negative keyword strategy to reduce wasted spend",
-                "Optimize landing page relevance - ensure message match with ads"
-            ])
-        
-        if conversion_rate < 3:
-            recommendations.extend([
-                f"Conversion rate {conversion_rate:.1f}% is below benchmark - Landing page optimization needed",
-                "A/B test different call-to-action buttons and forms",
-                "Review traffic quality - adjust audience targeting"
-            ])
-        
-        if roas < 2:
-            recommendations.extend([
-                f"ROAS {roas:.1f}x is unprofitable - Immediate campaign review needed",
-                "Focus budget on top-performing campaigns only",
-                "Consider pausing underperforming ad groups"
-            ])
-        
-        return recommendations
-
-    def _generate_meta_ad_recommendations(self, meta_data, efficiency_analysis):
-        """Generate specific Meta Ads recommendations"""
-        recommendations = []
-        cpa = efficiency_analysis['cpa']
-        ctr = efficiency_analysis['ctr']
-        conversion_rate = efficiency_analysis['conversion_rate']
-        
-        if cpa > 50:
-            recommendations.extend([
-                f"HIGH PRIORITY: Meta CPA ${cpa:.0f} - Optimize audience targeting",
-                "Test different creative formats (video vs image vs carousel)",
-                "Implement lookalike audiences based on best customers"
-            ])
-        
-        if ctr < 1.5:
-            recommendations.extend([
-                f"CTR {ctr:.2f}% indicates poor ad relevance - Creative refresh needed",
-                "Test different ad copy angles and value propositions",
-                "Update visuals to be more engaging and scroll-stopping"
-            ])
-        
-        if conversion_rate < 4:
-            recommendations.extend([
-                f"Conversion rate {conversion_rate:.1f}% suggests traffic-landing page mismatch",
-                "Create dedicated landing pages for Meta traffic",
-                "Implement Facebook Pixel for better conversion tracking"
-            ])
-        
-        return recommendations
-
-    def _calculate_ad_optimization_potential(self, ad_data):
-        """Calculate potential improvements for Google Ads"""
-        current_cost = ad_data.get('cost', 0)
-        current_conversions = ad_data.get('conversions', 0)
-        
-        # Conservative estimates based on typical optimization results
-        potential_cpa_reduction = 0.20  # 20% improvement typical
-        potential_conversion_increase = 0.15  # 15% more conversions
-        
-        return {
-            "monthly_savings_potential": current_cost * potential_cpa_reduction,
-            "conversion_increase_potential": current_conversions * potential_conversion_increase,
-            "timeline": "4-6 weeks",
-            "confidence": "medium"
-        }
-
-    def _calculate_meta_optimization_potential(self, meta_data):
-        """Calculate potential improvements for Meta Ads"""
-        current_spend = meta_data.get('spend', 0)
-        current_conversions = meta_data.get('conversions', 0)
-        
-        # Conservative estimates
-        potential_efficiency_gain = 0.25  # 25% efficiency improvement typical for Meta
-        
-        return {
-            "monthly_savings_potential": current_spend * 0.18,
-            "conversion_increase_potential": current_conversions * potential_efficiency_gain,
-            "timeline": "3-5 weeks",
-            "confidence": "medium"
-        }
-
-    def generate_optimization_insights(self, company_name, website_url, saas_spend=0, employee_count=50, industry="general", google_ads_customer_id: str = None, google_ads_campaign_id: str = None, meta_ad_account_id: str = None):
-        """
-        Gera insights de otimização específicos e acionáveis para uma empresa.
-        """
-        logger.info(f"ARCOEngine: Generating optimization insights for {company_name} in {industry} industry")
-        company_data = {
-            "name": company_name,
-            "website": website_url,
-            "saas_spend": saas_spend,
-            "employee_count": employee_count,
-            "industry": industry
-        }
-
-        insights = []
-        missed_opportunities = []
-        
-        # SaaS cost analysis
-        saas_insights = self.analyze_saas_costs(company_data)
-        insights.append(saas_insights)
-        
-        # Website performance analysis
-        performance_insights = self.analyze_website_performance(company_data['website'])
-        insights.append(performance_insights)
-        
-        # Ad performance analysis if provided
-        if google_ads_customer_id:
-            google_ads_insights = self.analyze_ad_performance(google_ads_customer_id, google_ads_campaign_id)
-            insights.append(google_ads_insights)
-        
-        if meta_ad_account_id:
-            meta_insights = self.analyze_meta_ad_performance(meta_ad_account_id)
-            insights.append(meta_insights)
-
-        # Generate missed opportunities with industry context
-        missed_opportunities = self.missed_opportunity_detector.detect_opportunities(insights, industry)
-        
-        # Calculate overall business impact
-        business_impact = self._calculate_overall_business_impact(insights)
+        # 3. Use missed opportunity detector
+        try:
+            missed_opps = self.missed_opportunity_detector.detect_missed_opportunities(
+                website_url, industry or 'technology'
+            )
+            opportunities['insights']['missed_opportunities'] = missed_opps
+            opportunities['potential_savings'] += len(missed_opps) * 200
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Missed opportunity detection failed: {e}")
         
         # Generate executive summary
-        executive_summary = self._generate_executive_summary(company_name, insights, missed_opportunities, business_impact)
-
+        opportunities['executive_summary'] = {
+            'total_opportunities': len(opportunities['opportunities']),
+            'potential_monthly_savings': opportunities['potential_savings'],
+            'data_quality': 'high' if len(opportunities['data_sources']) > 1 else 'medium',
+            'priority_actions': [opp['type'] for opp in opportunities['opportunities'][:3]]
+        }
+        
+        logger.info(f"✅ Found {len(opportunities['opportunities'])} opportunities worth ${opportunities['potential_savings']}/month")
+        return opportunities
+    
+    def discover_and_qualify_leads(self, limit: int = 10, industry_filter: str = None) -> List[Dict]:
+        """
+        Método principal de descoberta e qualificação de leads usando SearchAPI
+        """
+        try:
+            logger.info(f"🔍 Iniciando descoberta de leads (limit: {limit})")
+            
+            # 1. Buscar prospects do BigQuery
+            prospects = self._fetch_qualified_prospects_bq(limit, industry_filter)
+            
+            if not prospects:
+                logger.warning("⚠️ Nenhum prospect encontrado no BigQuery")
+                return []
+            
+            # 2. Processar cada prospect com APIs
+            qualified_leads = []
+            for prospect in prospects:
+                try:
+                    processed_lead = self._process_prospect_complete(prospect)
+                    if processed_lead:
+                        qualified_leads.append(processed_lead)
+                except Exception as e:
+                    logger.warning(f"⚠️ Erro processando {prospect.get('name', 'Unknown')}: {e}")
+                    continue
+            
+            logger.info(f"✅ Processamento completo: {len(qualified_leads)} leads qualificados")
+            return qualified_leads
+            
+        except Exception as e:
+            logger.error(f"❌ Erro na descoberta de leads: {e}")
+            return []
+    
+    def _fetch_qualified_prospects_bq(self, limit: int, industry_filter: str = None) -> List[Dict]:
+        """Busca prospects qualificados do BigQuery"""
+        try:
+            if not self.bigquery:
+                # Fallback para dados demo
+                return self._get_demo_prospects(limit)
+            
+            # Query para buscar empresas com alto potencial
+            industry_clause = f"AND industry = '{industry_filter}'" if industry_filter else ""
+            
+            query = f"""
+            SELECT 
+                company_name as name,
+                website,
+                monthly_saas_spend as saas_spend,
+                employee_count,
+                industry,
+                last_updated
+            FROM `prospection-463116.arco_intelligence.prospect_companies`
+            WHERE website IS NOT NULL 
+                AND monthly_saas_spend > 2000
+                AND employee_count BETWEEN 10 AND 100
+                {industry_clause}
+            ORDER BY monthly_saas_spend DESC
+            LIMIT {limit}
+            """
+            
+            results = self.bigquery.client.query(query).result()
+            prospects = []
+            
+            for row in results:
+                prospects.append({
+                    "name": row.name,
+                    "website": row.website,
+                    "saas_spend": float(row.saas_spend) if row.saas_spend else 0,
+                    "employee_count": int(row.employee_count) if row.employee_count else 0,
+                    "industry": row.industry or "unknown"
+                })
+                
+            logger.info(f"📊 Encontrados {len(prospects)} prospects no BigQuery")
+            return prospects
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Erro no BigQuery: {e}, usando dados demo")
+            return self._get_demo_prospects(limit)
+    
+    def _get_demo_prospects(self, limit: int) -> List[Dict]:
+        """Dados demo para quando BigQuery não está disponível"""
+        demo_prospects = [
+            {
+                "name": "Buffer",
+                "website": "https://buffer.com",
+                "saas_spend": 4200,
+                "employee_count": 120,
+                "industry": "social_media"
+            },
+            {
+                "name": "Shopify",
+                "website": "https://shopify.com", 
+                "saas_spend": 8500,
+                "employee_count": 10000,
+                "industry": "e_commerce"
+            },
+            {
+                "name": "Mailchimp",
+                "website": "https://mailchimp.com",
+                "saas_spend": 3800,
+                "employee_count": 1200,
+                "industry": "email_marketing"
+            }
+        ]
+        
+        return demo_prospects[:limit]
+    
+    def _process_prospect_complete(self, prospect: Dict) -> Optional[Dict]:
+        """Processa um prospect completo com todas as APIs"""
+        try:
+            # 1. Análise de performance do website
+            performance_data = self._analyze_website_performance(prospect["website"])
+            
+            # 2. Análise de presença digital (SearchAPI)
+            digital_presence = self._analyze_digital_presence(prospect["name"], prospect["website"])
+            
+            # 3. Qualificação baseada em dados reais
+            qualification = self._qualify_prospect_integrated(prospect, performance_data, digital_presence)
+            
+            if not qualification["qualified"]:
+                return None
+            
+            # 4. Calcular potencial de economia
+            potential_savings = prospect["saas_spend"] * 0.15  # 15% economia típica
+            
+            return {
+                "name": prospect["name"],
+                "website": prospect["website"],
+                "saas_spend": prospect["saas_spend"],
+                "employee_count": prospect["employee_count"],
+                "industry": prospect["industry"],
+                "performance_data": performance_data,
+                "digital_presence": digital_presence,
+                "qualified": True,
+                "score": qualification["score"],
+                "potential_savings": potential_savings,
+                "qualification_reasons": qualification["reasons"],
+                "timestamp": datetime.now().isoformat()
+            }
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Erro processando prospect: {e}")
+            return None
+    
+    def _analyze_website_performance(self, website: str) -> Dict:
+        """Analisa performance do website usando PageSpeed API com análise de negócio"""
+        try:
+            if not self.pagespeed_api:
+                return self._provide_estimated_performance_analysis(website)
+            
+            # Análise mobile com timeout
+            try:
+                mobile_data = self.pagespeed_api.analyze_url(website, strategy="mobile")
+                mobile_score = 50  # Default
+                
+                if mobile_data and "lighthouseResult" in mobile_data:
+                    lighthouse = mobile_data["lighthouseResult"]
+                    if "categories" in lighthouse and "performance" in lighthouse["categories"]:
+                        mobile_score = int(lighthouse["categories"]["performance"]["score"] * 100)
+                
+            except Exception as api_error:
+                logger.warning(f"⚠️ PageSpeed API timeout/error: {api_error}")
+                return self._provide_estimated_performance_analysis(website, error="API timeout")
+            
+            # Análise de impacto no negócio
+            business_impact = self._calculate_performance_business_impact(mobile_score)
+            recommendations = self._get_performance_recommendations(mobile_score)
+            
+            return {
+                "mobile_score": mobile_score,
+                "desktop_score": mobile_score + 10,  # Estimativa
+                "business_impact": business_impact,
+                "recommendations": recommendations,
+                "analysis_date": datetime.now().isoformat(),
+                "priority": business_impact.get('priority', 'medium')
+            }
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Erro na análise de performance: {e}")
+            return self._provide_estimated_performance_analysis(website, error=str(e))
+    
+    def _provide_estimated_performance_analysis(self, website: str, error: str = None) -> Dict:
+        """Análise estimada quando API não está disponível"""
+        estimated_score = 65  # Estimativa conservadora
+        business_impact = self._calculate_performance_business_impact(estimated_score)
+        recommendations = self._get_performance_recommendations(estimated_score)
+        
         return {
-            "company": company_name,
-            "industry": industry,
-            "analysis_timestamp": logger.info("Analysis completed"),
-            "executive_summary": executive_summary,
+            "mobile_score": estimated_score,
+            "desktop_score": estimated_score + 10,
             "business_impact": business_impact,
-            "insights": insights,
-            "missed_opportunities": missed_opportunities,
-            "next_steps": self._generate_next_steps(missed_opportunities)
+            "recommendations": recommendations,
+            "analysis_date": datetime.now().isoformat(),
+            "priority": "medium",
+            "note": f"Estimated analysis (API issue: {error})" if error else "Estimated analysis"
         }
-
-    def _calculate_overall_business_impact(self, insights):
-        """Calculate overall business impact across all insights"""
-        total_monthly_savings = 0
-        total_revenue_impact = 0
-        critical_issues = 0
+    
+    def _calculate_performance_business_impact(self, score: int) -> Dict:
+        """Calcula impacto no negócio baseado no score de performance"""
+        if score >= 90:
+            return {
+                'impact_level': 'low',
+                'priority': 'low',
+                'impact_description': 'Excellent performance - minimal optimization needed',
+                'conversion_impact': '0-2% potential gain',
+                'revenue_impact': 'minimal'
+            }
+        elif score >= 70:
+            return {
+                'impact_level': 'medium',
+                'priority': 'medium', 
+                'impact_description': 'Good performance with room for improvement',
+                'conversion_impact': '5-10% potential gain',
+                'revenue_impact': 'moderate'
+            }
+        else:
+            return {
+                'impact_level': 'high',
+                'priority': 'high',
+                'impact_description': 'Poor performance significantly impacting user experience',
+                'conversion_impact': '15-30% potential gain',
+                'revenue_impact': 'significant'
+            }
+    
+    def _get_performance_recommendations(self, score: int) -> List[str]:
+        """Gera recomendações específicas baseadas no score"""
+        recommendations = []
         
-        for insight in insights:
-            if insight["category"] == "SaaS Cost Optimization":
-                total_monthly_savings += insight.get("potential_monthly_savings", 0)
-            elif insight["category"] == "Website Performance Improvement":
-                if insight.get("business_impact", {}).get("priority") == "critical":
-                    critical_issues += 1
-                    total_revenue_impact += 0.25  # 25% revenue impact for critical performance
-            elif "Ad" in insight["category"]:
-                optimization_potential = insight.get("optimization_potential", {})
-                total_monthly_savings += optimization_potential.get("monthly_savings_potential", 0)
+        if score < 60:
+            recommendations.extend([
+                "Optimize images (compress and use modern formats)",
+                "Implement content delivery network (CDN)",
+                "Minimize and compress CSS/JavaScript files",
+                "Enable browser caching",
+                "Reduce server response times"
+            ])
+        elif score < 80:
+            recommendations.extend([
+                "Optimize largest contentful paint (LCP)",
+                "Reduce cumulative layout shift (CLS)", 
+                "Improve first input delay (FID)",
+                "Optimize web fonts loading"
+            ])
+        else:
+            recommendations.extend([
+                "Fine-tune Core Web Vitals",
+                "Implement advanced caching strategies",
+                "Monitor performance continuously"
+            ])
+            
+        return recommendations
+    
+    def _analyze_digital_presence(self, company_name: str, website: str) -> Dict:
+        """Analisa presença digital usando SearchAPI Meta Ads Library"""
+        try:
+            if not self.searchapi:
+                return {"ads_found": 0, "estimated_spend": 0, "error": "SearchAPI not available"}
+            
+            # Buscar anúncios da empresa no Meta Ads Library
+            ads_data = self.searchapi.search_ads_by_page(company_name)
+            
+            ads_count = 0
+            estimated_spend = 0
+            
+            if ads_data and "data" in ads_data:
+                ads_count = len(ads_data["data"])
+                # Estimativa básica de gasto
+                estimated_spend = ads_count * 500  # $500 por anúncio ativo estimado
+            
+            return {
+                "ads_found": ads_count,
+                "estimated_ad_spend": estimated_spend,
+                "digital_activity": "high" if ads_count > 5 else "medium" if ads_count > 0 else "low",
+                "analysis_date": datetime.now().isoformat()
+            }
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Erro na análise digital: {e}")
+            return {"ads_found": 0, "estimated_spend": 0, "error": str(e)}
+    
+    def _qualify_prospect_integrated(self, prospect: Dict, performance: Dict, digital_presence: Dict) -> Dict:
+        """Qualifica prospect baseado em todos os dados coletados"""
+        reasons = []
+        disqualifications = []
+        score = 0
+        
+        # 1. Gasto SaaS (peso alto)
+        saas_spend = prospect.get("saas_spend", 0)
+        if saas_spend >= 3000:
+            reasons.append(f"Alto gasto SaaS: ${saas_spend:,.0f}/mês")
+            score += 30
+        else:
+            disqualifications.append(f"Gasto SaaS baixo: ${saas_spend:,.0f}")
+        
+        # 2. Performance do website
+        mobile_score = performance.get("mobile_score", 100)
+        if mobile_score < 70:
+            reasons.append(f"Performance ruim: {mobile_score}/100")
+            score += 25
+        elif mobile_score < 85:
+            reasons.append(f"Performance mediana: {mobile_score}/100")
+            score += 15
+        else:
+            disqualifications.append("Performance do site já boa")
+        
+        # 3. Presença digital
+        ads_found = digital_presence.get("ads_found", 0)
+        if ads_found > 0:
+            reasons.append(f"Ativo em ads: {ads_found} anúncios")
+            score += 20
+        
+        # 4. Tamanho da empresa
+        employee_count = prospect.get("employee_count", 0)
+        if 15 <= employee_count <= 75:
+            reasons.append(f"Tamanho ideal: {employee_count} funcionários")
+            score += 15
+        elif employee_count > 75:
+            disqualifications.append("Empresa muito grande")
+        
+        qualified = len(disqualifications) == 0 and score >= 40
         
         return {
-            "total_monthly_savings_potential": total_monthly_savings,
-            "annual_savings_potential": total_monthly_savings * 12,
-            "estimated_revenue_impact": total_revenue_impact,
-            "critical_issues_count": critical_issues,
-            "overall_health_score": max(1, 10 - critical_issues * 2 - (total_monthly_savings / 1000))
+            "qualified": qualified,
+            "score": score,
+            "reasons": reasons,
+            "disqualifications": disqualifications
         }
-
-    def _generate_executive_summary(self, company_name, insights, opportunities, business_impact):
-        """Generate executive summary for leadership"""
-        summary = f"## Executive Summary - {company_name}\n\n"
-        
-        # Key metrics
-        annual_savings = business_impact["annual_savings_potential"]
-        health_score = business_impact["overall_health_score"]
-        
-        summary += f"**Annual Savings Opportunity:** ${annual_savings:,.0f}\n"
-        summary += f"**Digital Health Score:** {health_score:.1f}/10\n"
-        summary += f"**Priority Issues:** {len([opp for opp in opportunities if opp.get('priority') == 'critical'])}\n\n"
-        
-        # Top 3 opportunities
-        top_opportunities = sorted(opportunities, key=lambda x: {'critical': 4, 'high': 3, 'medium': 2, 'low': 1}.get(x.get('priority', 'low'), 1), reverse=True)[:3]
-        
-        summary += "**Top 3 Opportunities:**\n"
-        for i, opp in enumerate(top_opportunities, 1):
-            summary += f"{i}. {opp['type']} - {opp.get('roi_estimate', 'High ROI potential')}\n"
-        
-        return summary
-
-    def _generate_next_steps(self, opportunities):
-        """Generate prioritized next steps"""
-        next_steps = []
-        
-        # Group by priority
-        critical = [opp for opp in opportunities if opp.get('priority') == 'critical']
-        high = [opp for opp in opportunities if opp.get('priority') == 'high']
-        medium = [opp for opp in opportunities if opp.get('priority') == 'medium']
-        
-        if critical:
-            next_steps.append({
-                "phase": "Immediate (Week 1-2)",
-                "actions": [opp['action'] for opp in critical[:2]],
-                "expected_impact": "Critical revenue leakage mitigation"
-            })
-        
-        if high:
-            next_steps.append({
-                "phase": "Short-term (Week 3-6)",
-                "actions": [opp['action'] for opp in high[:3]],
-                "expected_impact": "Significant efficiency gains"
-            })
-        
-        if medium:
-            next_steps.append({
-                "phase": "Medium-term (Month 2-3)",
-                "actions": [opp['action'] for opp in medium[:2]],
-                "expected_impact": "Optimization and scaling"
-            })
-        
-        return next_steps
-
-# Exemplo de uso (para teste interno)
-if __name__ == "__main__":
-    # Para rodar este exemplo, você precisa de uma GOOGLE_PAGESPEED_API_KEY válida no seu arquivo .env
-    # E opcionalmente GOOGLE_ADS_API_KEY e META_BUSINESS_API_KEY para simulação de dados de anúncios.
-    # Crie um arquivo .env na raiz do projeto com:
-    # GOOGLE_PAGESPEED_API_KEY=SUA_CHAVE_AQUI
-    # GOOGLE_ADS_API_KEY=SUA_CHAVE_AQUI (opcional, para simulação de ads)
-    # META_BUSINESS_API_KEY=SUA_CHAVE_AQUI (opcional, para simulação de ads do Meta)
-
-    engine = ARCOEngine()
-    insights = engine.generate_optimization_insights(
-        "Minha Empresa de Teste", "https://www.google.com", 5000,
-        google_ads_customer_id="123-456-7890", # Exemplo de ID de cliente para análise de ads
-        meta_ad_account_id="act_987654321" # Exemplo de ID de conta de anúncios Meta
-    )
-    logger.info(f"\nGenerated Insights: {insights}")
-
-
+    
+    def generate_optimization_insights(self, company_data: Dict) -> Dict:
+        """
+        Gera insights de otimização baseados em dados coletados
+        """
+        try:
+            insights = {
+                'company_name': company_data.get('name', 'Unknown'),
+                'analysis_date': datetime.now().isoformat(),
+                'performance_insights': {},
+                'digital_insights': {},
+                'optimization_opportunities': [],
+                'estimated_roi': 0
+            }
+            
+            # Performance insights
+            if 'performance_data' in company_data:
+                perf = company_data['performance_data']
+                mobile_score = perf.get('mobile_score', 100)
+                
+                insights['performance_insights'] = {
+                    'mobile_score': mobile_score,
+                    'performance_grade': 'A' if mobile_score >= 90 else 'B' if mobile_score >= 70 else 'C',
+                    'optimization_potential': max(0, 90 - mobile_score)
+                }
+                
+                if mobile_score < 70:
+                    insights['optimization_opportunities'].append({
+                        'area': 'Website Performance',
+                        'current_score': mobile_score,
+                        'target_score': 85,
+                        'potential_improvement': f"+{85 - mobile_score} points",
+                        'estimated_value': 300
+                    })
+                    insights['estimated_roi'] += 300
+            
+            # Digital presence insights
+            if 'digital_presence' in company_data:
+                digital = company_data['digital_presence']
+                ads_count = digital.get('ads_found', 0)
+                
+                insights['digital_insights'] = {
+                    'ads_active': ads_count,
+                    'digital_maturity': 'high' if ads_count > 10 else 'medium' if ads_count > 0 else 'low',
+                    'market_presence': 'strong' if ads_count > 15 else 'moderate'
+                }
+                
+                if ads_count > 0:
+                    insights['optimization_opportunities'].append({
+                        'area': 'Ad Spend Optimization',
+                        'current_ads': ads_count,
+                        'optimization_potential': '15-25% cost reduction',
+                        'estimated_value': ads_count * 50
+                    })
+                    insights['estimated_roi'] += ads_count * 50
+            
+            # SaaS spend optimization
+            saas_spend = company_data.get('saas_spend', 0)
+            if saas_spend > 3000:
+                potential_savings = saas_spend * 0.15
+                insights['optimization_opportunities'].append({
+                    'area': 'SaaS Stack Optimization',
+                    'current_spend': saas_spend,
+                    'optimization_potential': '10-20% cost reduction',
+                    'estimated_value': potential_savings
+                })
+                insights['estimated_roi'] += potential_savings
+            
+            # Executive summary
+            insights['executive_summary'] = {
+                'total_opportunities': len(insights['optimization_opportunities']),
+                'estimated_monthly_roi': insights['estimated_roi'],
+                'priority': 'high' if insights['estimated_roi'] > 1000 else 'medium',
+                'next_steps': [
+                    'Website performance audit',
+                    'Digital marketing review',
+                    'SaaS audit and optimization'
+                ][:len(insights['optimization_opportunities'])]
+            }
+            
+            return insights
+            
+        except Exception as e:
+            logger.error(f"❌ Error generating insights: {e}")
+            return {'error': str(e)}

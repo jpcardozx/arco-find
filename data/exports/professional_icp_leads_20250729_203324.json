@@ -1,0 +1,248 @@
+{
+  "discovery_timestamp": "2025-07-29T20:33:24.058368",
+  "icp_criteria": {
+    "employee_range": [
+      10,
+      150
+    ],
+    "revenue_range": [
+      500000,
+      15000000
+    ],
+    "target_locations": [
+      "Brasil",
+      "São Paulo",
+      "Rio de Janeiro",
+      "Belo Horizonte",
+      "Porto Alegre",
+      "Curitiba",
+      "Florianópolis",
+      "Brasília",
+      "Canada",
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Portugal",
+      "Lisboa",
+      "Porto"
+    ],
+    "high_value_industries": [
+      "financial_services",
+      "real_estate_tech",
+      "healthcare_tech",
+      "legal_tech",
+      "education_tech",
+      "consulting_services",
+      "professional_services",
+      "manufacturing_tech",
+      "logistics_tech"
+    ],
+    "growth_indicators": [
+      "recent_funding",
+      "hiring_surge",
+      "market_expansion",
+      "product_launch",
+      "digital_transformation",
+      "scale_up_phase"
+    ],
+    "tech_sophistication_signals": [
+      "hubspot",
+      "salesforce",
+      "marketo",
+      "pardot",
+      "google_analytics_360",
+      "adobe_analytics",
+      "segment",
+      "mixpanel",
+      "amplitude"
+    ]
+  },
+  "total_qualified_leads": 6,
+  "api_calls_used": 6,
+  "average_conversion_probability": 0.9233333333333333,
+  "total_monthly_value": 48300.0,
+  "qualified_leads": [
+    {
+      "company_name": "Stone Pagamentos",
+      "website": "https://stone.com.br",
+      "industry": "financial_services",
+      "location": "São Paulo, Brasil",
+      "employee_count": 85,
+      "revenue_range": "$2M-$5M",
+      "decision_maker_level": "C-level",
+      "tech_stack_signals": [
+        "salesforce",
+        "hubspot",
+        "google_analytics"
+      ],
+      "growth_stage": "scale_up",
+      "funding_status": "series_c",
+      "marketing_spend_inefficiency": 3500.0,
+      "website_conversion_issues": [],
+      "competitor_pressure_level": 8,
+      "contact_accessibility": 8,
+      "urgency_level": "short-term",
+      "budget_authority_signals": [
+        "Substantial marketing investment",
+        "CMO access - direct budget authority",
+        "Recently funded - budget availability",
+        "Scale-up phase - optimization budget priority"
+      ],
+      "monthly_optimization_value": 6300.0,
+      "implementation_timeline_days": 29,
+      "conversion_probability": 0.95,
+      "discovery_timestamp": "2025-07-29T20:33:23.052679"
+    },
+    {
+      "company_name": "Alice Saúde",
+      "website": "https://alice.com.br",
+      "industry": "healthcare_tech",
+      "location": "São Paulo, Brasil",
+      "employee_count": 65,
+      "revenue_range": "$1M-$2M",
+      "decision_maker_level": "C-level",
+      "tech_stack_signals": [
+        "hubspot",
+        "google_analytics_360"
+      ],
+      "growth_stage": "growth",
+      "funding_status": "series_b",
+      "marketing_spend_inefficiency": 2800.0,
+      "website_conversion_issues": [],
+      "competitor_pressure_level": 5,
+      "contact_accessibility": 8,
+      "urgency_level": "long-term",
+      "budget_authority_signals": [
+        "Substantial marketing investment",
+        "CMO access - direct budget authority",
+        "Recently funded - budget availability"
+      ],
+      "monthly_optimization_value": 4200.0,
+      "implementation_timeline_days": 24,
+      "conversion_probability": 0.95,
+      "discovery_timestamp": "2025-07-29T20:33:23.660727"
+    },
+    {
+      "company_name": "Loggi",
+      "website": "https://loggi.com",
+      "industry": "logistics_tech",
+      "location": "São Paulo, Brasil",
+      "employee_count": 140,
+      "revenue_range": "$5M-$10M",
+      "decision_maker_level": "VP",
+      "tech_stack_signals": [
+        "amplitude",
+        "salesforce",
+        "marketo"
+      ],
+      "growth_stage": "scale_up",
+      "funding_status": "series_d",
+      "marketing_spend_inefficiency": 6500.0,
+      "website_conversion_issues": [],
+      "competitor_pressure_level": 5,
+      "contact_accessibility": 5,
+      "urgency_level": "long-term",
+      "budget_authority_signals": [
+        "High marketing budget indicates budget authority",
+        "VP level access - high budget influence",
+        "Recently funded - budget availability",
+        "Scale-up phase - optimization budget priority"
+      ],
+      "monthly_optimization_value": 11700.0,
+      "implementation_timeline_days": 33,
+      "conversion_probability": 0.9099999999999999,
+      "discovery_timestamp": "2025-07-29T20:33:23.856927"
+    },
+    {
+      "company_name": "QuintoAndar",
+      "website": "https://quintoandar.com.br",
+      "industry": "real_estate_tech",
+      "location": "São Paulo, Brasil",
+      "employee_count": 120,
+      "revenue_range": "$2M-$5M",
+      "decision_maker_level": "VP",
+      "tech_stack_signals": [
+        "segment",
+        "mixpanel",
+        "salesforce"
+      ],
+      "growth_stage": "scale_up",
+      "funding_status": "series_d",
+      "marketing_spend_inefficiency": 5500.0,
+      "website_conversion_issues": [],
+      "competitor_pressure_level": 8,
+      "contact_accessibility": 5,
+      "urgency_level": "long-term",
+      "budget_authority_signals": [
+        "High marketing budget indicates budget authority",
+        "VP level access - high budget influence",
+        "Recently funded - budget availability",
+        "Scale-up phase - optimization budget priority"
+      ],
+      "monthly_optimization_value": 9900.0,
+      "implementation_timeline_days": 33,
+      "conversion_probability": 0.9099999999999999,
+      "discovery_timestamp": "2025-07-29T20:33:23.240420"
+    },
+    {
+      "company_name": "Descomplica",
+      "website": "https://descomplica.com.br",
+      "industry": "education_tech",
+      "location": "Rio de Janeiro, Brasil",
+      "employee_count": 110,
+      "revenue_range": "$2M-$5M",
+      "decision_maker_level": "C-level",
+      "tech_stack_signals": [
+        "hubspot",
+        "segment",
+        "google_analytics"
+      ],
+      "growth_stage": "scale_up",
+      "funding_status": "series_c",
+      "marketing_spend_inefficiency": 4800.0,
+      "website_conversion_issues": [],
+      "competitor_pressure_level": 8,
+      "contact_accessibility": 7,
+      "urgency_level": "short-term",
+      "budget_authority_signals": [
+        "Substantial marketing investment",
+        "CMO access - direct budget authority",
+        "Recently funded - budget availability",
+        "Scale-up phase - optimization budget priority"
+      ],
+      "monthly_optimization_value": 8640.0,
+      "implementation_timeline_days": 33,
+      "conversion_probability": 0.9099999999999999,
+      "discovery_timestamp": "2025-07-29T20:33:23.454736"
+    },
+    {
+      "company_name": "Jusbrasil",
+      "website": "https://jusbrasil.com.br",
+      "industry": "legal_tech",
+      "location": "Salvador, Brasil",
+      "employee_count": 95,
+      "revenue_range": "$2M-$5M",
+      "decision_maker_level": "VP",
+      "tech_stack_signals": [
+        "marketo",
+        "salesforce",
+        "adobe_analytics"
+      ],
+      "growth_stage": "established",
+      "funding_status": "profitable",
+      "marketing_spend_inefficiency": 4200.0,
+      "website_conversion_issues": [],
+      "competitor_pressure_level": 5,
+      "contact_accessibility": 6,
+      "urgency_level": "long-term",
+      "budget_authority_signals": [
+        "Substantial marketing investment",
+        "VP level access - high budget influence"
+      ],
+      "monthly_optimization_value": 7560.0,
+      "implementation_timeline_days": 29,
+      "conversion_probability": 0.9099999999999999,
+      "discovery_timestamp": "2025-07-29T20:33:24.058368"
+    }
+  ]
+}

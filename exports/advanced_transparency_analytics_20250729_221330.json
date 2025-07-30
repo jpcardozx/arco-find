@@ -1,0 +1,358 @@
+{
+  "discovery_method": "ADVANCED_GOOGLE_ADS_TRANSPARENCY_CENTER_ANALYTICS_INTELLIGENCE",
+  "discovery_timestamp": "2025-07-30T01:13:30.272497",
+  "discovery_summary": {
+    "total_qualified_leads": 3,
+    "avg_qualification_score": 0.8566666666666668,
+    "total_monthly_ad_spend_in_scope": 190000,
+    "total_monthly_waste_opportunity": 107800,
+    "total_monthly_revenue_opportunity": 269200,
+    "waste_percentage": 56.736842105263165,
+    "opportunity_multiplier": 1.416842105263158
+  },
+  "transparency_intelligence": {
+    "spend_volume_distribution": {
+      "high_volume_advertisers": 1,
+      "medium_volume_advertisers": 2,
+      "total_geographic_markets": 17,
+      "campaign_type_sophistication": {
+        "ADVANCED": 1,
+        "INTERMEDIATE": 2
+      }
+    },
+    "targeting_sophistication_analysis": {
+      "ADVANCED": 3
+    },
+    "budget_intelligence_insights": {
+      "bid_strategies": {
+        "Target CPA with manual overrides": 1,
+        "Maximize conversions with tCPA": 1
+      },
+      "dayparting_usage": 2,
+      "device_optimization": 2,
+      "seasonal_adjustments": 1
+    }
+  },
+  "urgency_analysis": {
+    "ATTRIBUTION_TRACKING_EMERGENCY": {
+      "count": 1,
+      "total_waste": 85600,
+      "impact_value": 229200,
+      "leads_affected": [
+        "Miller & Associates Personal Injury Attorneys"
+      ]
+    },
+    "MOBILE_CONVERSION_CATASTROPHE": {
+      "count": 1,
+      "total_waste": 85600,
+      "impact_value": 229200,
+      "leads_affected": [
+        "Miller & Associates Personal Injury Attorneys"
+      ]
+    },
+    "CORE_WEB_VITALS_CRISIS": {
+      "count": 1,
+      "total_waste": 85600,
+      "impact_value": 229200,
+      "leads_affected": [
+        "Miller & Associates Personal Injury Attorneys"
+      ]
+    },
+    "BRAND_DEFENSE_COLLAPSE": {
+      "count": 1,
+      "total_waste": 85600,
+      "impact_value": 229200,
+      "leads_affected": [
+        "Miller & Associates Personal Injury Attorneys"
+      ]
+    },
+    "AD_SPEND_HEMORRHAGING": {
+      "count": 1,
+      "total_waste": 85600,
+      "impact_value": 229200,
+      "leads_affected": [
+        "Miller & Associates Personal Injury Attorneys"
+      ]
+    },
+    "COMPETITOR_VULNERABILITY": {
+      "count": 1,
+      "total_waste": 85600,
+      "impact_value": 229200,
+      "leads_affected": [
+        "Miller & Associates Personal Injury Attorneys"
+      ]
+    },
+    "REVENUE_LEAK_EMERGENCY": {
+      "count": 1,
+      "total_waste": 85600,
+      "impact_value": 229200,
+      "leads_affected": [
+        "Miller & Associates Personal Injury Attorneys"
+      ]
+    },
+    "PHONE_ATTRIBUTION_CRISIS": {
+      "count": 1,
+      "total_waste": 12800,
+      "impact_value": 18800,
+      "leads_affected": [
+        "Precision Auto Body & Collision Center"
+      ]
+    },
+    "MOBILE_LOCAL_OPTIMIZATION_MISSING": {
+      "count": 1,
+      "total_waste": 12800,
+      "impact_value": 18800,
+      "leads_affected": [
+        "Precision Auto Body & Collision Center"
+      ]
+    },
+    "INSURANCE_INTEGRATION_OPPORTUNITY": {
+      "count": 1,
+      "total_waste": 12800,
+      "impact_value": 18800,
+      "leads_affected": [
+        "Precision Auto Body & Collision Center"
+      ]
+    },
+    "CONVERSION_TRACKING_GAPS": {
+      "count": 1,
+      "total_waste": 12800,
+      "impact_value": 18800,
+      "leads_affected": [
+        "Precision Auto Body & Collision Center"
+      ]
+    },
+    "APPOINTMENT_ATTRIBUTION_GAP": {
+      "count": 1,
+      "total_waste": 9400,
+      "impact_value": 21200,
+      "leads_affected": [
+        "Smile Design Dental Studio"
+      ]
+    },
+    "MOBILE_CONVERSION_OPTIMIZATION": {
+      "count": 1,
+      "total_waste": 9400,
+      "impact_value": 21200,
+      "leads_affected": [
+        "Smile Design Dental Studio"
+      ]
+    },
+    "LIFETIME_VALUE_TRACKING_MISSING": {
+      "count": 1,
+      "total_waste": 9400,
+      "impact_value": 21200,
+      "leads_affected": [
+        "Smile Design Dental Studio"
+      ]
+    },
+    "INSURANCE_VERIFICATION_FRICTION": {
+      "count": 1,
+      "total_waste": 9400,
+      "impact_value": 21200,
+      "leads_affected": [
+        "Smile Design Dental Studio"
+      ]
+    }
+  },
+  "competitive_vulnerability_analysis": {
+    "brand_defense_weakness": [
+      {
+        "company": "Miller & Associates Personal Injury Attorneys",
+        "defense_score": 0.15,
+        "vulnerability_level": "CRITICAL",
+        "opportunity_value": 229200
+      },
+      {
+        "company": "Precision Auto Body & Collision Center",
+        "defense_score": 0.38,
+        "vulnerability_level": "HIGH",
+        "opportunity_value": 18800
+      }
+    ],
+    "message_differentiation_weakness": [
+      {
+        "company": "Miller & Associates Personal Injury Attorneys",
+        "uniqueness_score": 0.12,
+        "opportunity_value": 229200
+      },
+      {
+        "company": "Precision Auto Body & Collision Center",
+        "uniqueness_score": 0.42,
+        "opportunity_value": 18800
+      }
+    ]
+  },
+  "attribution_crisis_analysis": {
+    "total_attribution_loss": 184380.0,
+    "companies_affected": 2,
+    "critical_cases": [
+      {
+        "company": "Miller & Associates Personal Injury Attorneys",
+        "tracking_accuracy": 0.23,
+        "attribution_loss_estimate": 0.77,
+        "monthly_impact": 176484.0,
+        "issues": [
+          "GCLID_PARAMETER_LOSS_85%",
+          "CROSS_DOMAIN_TRACKING_MISSING",
+          "PHONE_CALL_ATTRIBUTION_MISSING",
+          "FORM_ABANDONMENT_NOT_TRACKED",
+          "OFFLINE_CONSULTATION_ATTRIBUTION_LOST",
+          "MULTI_TOUCH_ATTRIBUTION_FAILURE"
+        ]
+      }
+    ],
+    "moderate_cases": [
+      {
+        "company": "Precision Auto Body & Collision Center",
+        "tracking_accuracy": 0.58,
+        "attribution_loss_estimate": 0.42000000000000004,
+        "monthly_impact": 7896.000000000001,
+        "issues": [
+          "PHONE_CALL_ATTRIBUTION_MISSING",
+          "WALK_IN_ATTRIBUTION_LOST",
+          "INSURANCE_REFERRAL_TRACKING_GAP",
+          "CROSS_DOMAIN_ISSUES"
+        ]
+      }
+    ],
+    "tracking_gaps_identified": [
+      "GCLID_PARAMETER_LOSS_85%",
+      "CROSS_DOMAIN_TRACKING_MISSING",
+      "PHONE_CALL_ATTRIBUTION_MISSING",
+      "FORM_ABANDONMENT_NOT_TRACKED",
+      "OFFLINE_CONSULTATION_ATTRIBUTION_LOST",
+      "MULTI_TOUCH_ATTRIBUTION_FAILURE",
+      "PHONE_CALL_ATTRIBUTION_MISSING",
+      "WALK_IN_ATTRIBUTION_LOST",
+      "INSURANCE_REFERRAL_TRACKING_GAP",
+      "CROSS_DOMAIN_ISSUES"
+    ]
+  },
+  "industry_breakdown": {
+    "legal": {
+      "count": 1,
+      "avg_qualification_score": 0.92,
+      "total_waste_opportunity": 85600,
+      "total_revenue_opportunity": 229200,
+      "critical_issues": [
+        "Attribution Emergency",
+        "Mobile Catastrophe",
+        "Brand Defense Collapse"
+      ]
+    },
+    "automotive": {
+      "count": 1,
+      "avg_qualification_score": 0.86,
+      "total_waste_opportunity": 12800,
+      "total_revenue_opportunity": 18800,
+      "critical_issues": [
+        "Phone Attribution Missing",
+        "Local Optimization Gap"
+      ]
+    },
+    "healthcare": {
+      "count": 1,
+      "avg_qualification_score": 0.79,
+      "total_waste_opportunity": 9400,
+      "total_revenue_opportunity": 21200,
+      "critical_issues": [
+        "Appointment Attribution Gap",
+        "Mobile Conversion Gap"
+      ]
+    }
+  },
+  "top_opportunities": [
+    {
+      "company_name": "Miller & Associates Personal Injury Attorneys",
+      "domain": "millerinjurylaw.com",
+      "qualification_score": 0.92,
+      "estimated_monthly_waste": 85600,
+      "total_monthly_opportunity": 229200,
+      "opportunity_multiplier": 1.8047244094488188,
+      "urgency_indicators": [
+        "ATTRIBUTION_TRACKING_EMERGENCY",
+        "MOBILE_CONVERSION_CATASTROPHE",
+        "CORE_WEB_VITALS_CRISIS",
+        "BRAND_DEFENSE_COLLAPSE",
+        "AD_SPEND_HEMORRHAGING",
+        "COMPETITOR_VULNERABILITY",
+        "REVENUE_LEAK_EMERGENCY"
+      ],
+      "spend_volume_tier": "high",
+      "primary_pain_points": [
+        "Attribution Tracking Crisis",
+        "Critical Performance Issues",
+        "Mobile Experience Crisis"
+      ],
+      "transparency_insights": {
+        "ad_frequency": 1850,
+        "competitor_overlap": 0.89,
+        "campaign_sophistication": 5,
+        "targeting_precision": 9
+      }
+    },
+    {
+      "company_name": "Precision Auto Body & Collision Center",
+      "domain": "precisionautobody.com",
+      "qualification_score": 0.86,
+      "estimated_monthly_waste": 12800,
+      "total_monthly_opportunity": 18800,
+      "opportunity_multiplier": 0.6619718309859155,
+      "urgency_indicators": [
+        "PHONE_ATTRIBUTION_CRISIS",
+        "MOBILE_LOCAL_OPTIMIZATION_MISSING",
+        "INSURANCE_INTEGRATION_OPPORTUNITY",
+        "CONVERSION_TRACKING_GAPS"
+      ],
+      "spend_volume_tier": "medium",
+      "primary_pain_points": [
+        "Attribution Tracking Issues",
+        "Critical Performance Issues",
+        "Mobile Experience Crisis"
+      ],
+      "transparency_insights": {
+        "ad_frequency": 420,
+        "competitor_overlap": 0.73,
+        "campaign_sophistication": 4,
+        "targeting_precision": 6
+      }
+    },
+    {
+      "company_name": "Smile Design Dental Studio",
+      "domain": "smiledesignaustin.com",
+      "qualification_score": 0.79,
+      "estimated_monthly_waste": 9400,
+      "total_monthly_opportunity": 21200,
+      "opportunity_multiplier": 0.6127167630057804,
+      "urgency_indicators": [
+        "APPOINTMENT_ATTRIBUTION_GAP",
+        "MOBILE_CONVERSION_OPTIMIZATION",
+        "LIFETIME_VALUE_TRACKING_MISSING",
+        "INSURANCE_VERIFICATION_FRICTION"
+      ],
+      "spend_volume_tier": "medium",
+      "primary_pain_points": [],
+      "transparency_insights": {
+        "ad_frequency": 280,
+        "competitor_overlap": 0.68,
+        "campaign_sophistication": 4,
+        "targeting_precision": 5
+      }
+    }
+  ],
+  "strategic_insights": [
+    "Total revenue opportunity of $269,200/month identified across 3 high-spend advertisers",
+    "Average opportunity multiplier of 1.4x suggests significant optimization potential",
+    "1 companies suffering from attribution tracking crisis (<50% accuracy)",
+    "2 companies have critical mobile performance issues requiring immediate attention",
+    "2 companies have critical brand defense vulnerabilities"
+  ],
+  "execution_recommendations": [
+    "Prioritize immediate outreach to 2 ultra-qualified leads (score >0.85)",
+    "Lead with technical audit approach for 2 companies with critical performance issues",
+    "Focus on attribution recovery for 2 companies losing significant conversion data",
+    "Mobile optimization critical for 2 companies with poor mobile experience",
+    "Brand defense strategy needed for 2 companies vulnerable to competitors"
+  ]
+}

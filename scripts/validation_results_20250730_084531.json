@@ -1,0 +1,20 @@
+{
+  "validation_timestamp": "2025-07-30T08:45:31.450606",
+  "connections": {
+    "bigquery": {
+      "status": "MISSING_DEPS",
+      "details": {}
+    },
+    "searchapi": {
+      "status": "ERROR",
+      "details": {
+        "error": "No module named 'src'"
+      }
+    },
+    "connections_healthy": false
+  },
+  "pipeline": {
+    "pipeline_working": false,
+    "error": "No module named 'src'"
+  }
+}

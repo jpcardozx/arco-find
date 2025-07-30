@@ -1,0 +1,28 @@
+{
+  "validation_timestamp": "2025-07-30T08:46:06.104984",
+  "connections": {
+    "bigquery": {
+      "status": "CONNECTED",
+      "details": {
+        "project": "prospection-463116",
+        "dataset": "arco_intelligence",
+        "test_query_success": true
+      }
+    },
+    "searchapi": {
+      "status": "CONNECTED",
+      "details": {
+        "api_key_configured": true,
+        "test_search_success": true,
+        "results_count": 1
+      }
+    },
+    "connections_healthy": true
+  },
+  "pipeline": {
+    "pipeline_working": true,
+    "execution_time": 0.831874,
+    "leads_found": 0,
+    "sample_leads": []
+  }
+}

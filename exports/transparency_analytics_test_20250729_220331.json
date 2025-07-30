@@ -1,0 +1,88 @@
+{
+  "discovery_method": "GOOGLE_ADS_TRANSPARENCY_CENTER_ANALYTICS_CROSS_REFERENCE",
+  "discovery_timestamp": "2025-07-30T01:03:31.526978",
+  "discovery_summary": {
+    "total_qualified_leads": 3,
+    "avg_qualification_score": 0.8233333333333333,
+    "total_monthly_ad_spend_in_scope": 105000,
+    "total_monthly_waste_opportunity": 39500,
+    "waste_percentage": 37.61904761904762
+  },
+  "urgency_distribution": {
+    "CRITICAL_CORE_WEB_VITALS": 1,
+    "ATTRIBUTION_CRISIS": 1,
+    "AD_SPEND_WASTE": 1,
+    "BRAND_VULNERABILITY": 1,
+    "MOBILE_DISASTER": 1,
+    "CONVERSION_TRACKING_ISSUES": 1,
+    "PHONE_ATTRIBUTION_CRISIS": 1
+  },
+  "industry_breakdown": {
+    "legal": {
+      "count": 1,
+      "avg_qualification_score": 0.89,
+      "total_waste_opportunity": 24500
+    },
+    "automotive": {
+      "count": 1,
+      "avg_qualification_score": 0.82,
+      "total_waste_opportunity": 8200
+    },
+    "healthcare": {
+      "count": 1,
+      "avg_qualification_score": 0.76,
+      "total_waste_opportunity": 6800
+    }
+  },
+  "top_opportunities": [
+    {
+      "company_name": "Dallas Elite Personal Injury Law",
+      "domain": "dallaselitelaw.com",
+      "qualification_score": 0.89,
+      "estimated_monthly_waste": 24500,
+      "urgency_indicators": [
+        "CRITICAL_CORE_WEB_VITALS",
+        "ATTRIBUTION_CRISIS",
+        "AD_SPEND_WASTE",
+        "BRAND_VULNERABILITY",
+        "MOBILE_DISASTER"
+      ],
+      "primary_issues": [
+        "Critical Core Web Vitals"
+      ]
+    },
+    {
+      "company_name": "Phoenix Premium Auto Collision",
+      "domain": "phoenixpremiumcollision.com",
+      "qualification_score": 0.82,
+      "estimated_monthly_waste": 8200,
+      "urgency_indicators": [
+        "CONVERSION_TRACKING_ISSUES",
+        "MOBILE_PERFORMANCE_PROBLEMS"
+      ],
+      "primary_issues": [
+        "Conversion Optimization Needed"
+      ]
+    },
+    {
+      "company_name": "Austin Premier Dental Care",
+      "domain": "austinpremierdental.com",
+      "qualification_score": 0.76,
+      "estimated_monthly_waste": 6800,
+      "urgency_indicators": [
+        "PHONE_ATTRIBUTION_CRISIS",
+        "MOBILE_CONVERSION_GAP"
+      ],
+      "primary_issues": [
+        "Phone Attribution Missing"
+      ]
+    }
+  ],
+  "actionable_insights": [
+    "3 leads with qualification score >75% discovered via transparency center analysis",
+    "Legal industry shows highest waste opportunity: $24,500/month",
+    "Critical performance issues identified across all leads - technical audit approach recommended",
+    "Attribution tracking crisis affecting 67% of leads - conversion optimization critical",
+    "Total market opportunity: $39,500/month waste across 3 high-value advertisers"
+  ]
+}
