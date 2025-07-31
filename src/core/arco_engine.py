@@ -11,6 +11,7 @@ from src.connectors.searchapi_connector import SearchAPIConnector
 from src.integrations.bigquery_config import BigQueryConfig
 from src.analysis.missed_opportunity_detector import MissedOpportunityDetector
 from src.intelligence.technical_pain_detector import TechnicalPainDetector, TechnicalIntelligence
+from src.intelligence.validation_engine import IntelligenceValidationEngine
 import os
 
 class ARCOEngine:
@@ -69,6 +70,9 @@ class ARCOEngine:
         # Technical Pain Detector - core intelligence engine
         self.technical_pain_detector = TechnicalPainDetector()
         
+        # Intelligence Validation Engine - ensures accuracy
+        self.validation_engine = IntelligenceValidationEngine()
+        
         logger.info(f"ARCOEngine initialized with environment: {self.config.get('environment', 'development')}")
         
         # Log de APIs disponíveis
@@ -82,10 +86,181 @@ class ARCOEngine:
             
         logger.info(f"Available API services: {', '.join(available_apis)}")
     
+    def discover_validated_technical_intelligence(self, 
+                                                company_name: str,
+                                                website_url: str,
+                                                industry: str = None,
+                                                additional_sources: Dict = None) -> Dict[str, any]:
+        """
+        🎯 NEW: Discover and validate technical pain points across multiple sources
+        Provides high-confidence intelligence with cross-validation
+        
+        Args:
+            company_name: Nome da empresa
+            website_url: URL do website  
+            industry: Setor da empresa
+            additional_sources: Additional data sources for validation
+            
+        Returns:
+            Validated technical intelligence with confidence scoring
+        """
+        logger.info(f"🧠 Validated technical intelligence discovery for {company_name}")
+        
+        # 1. Get initial technical intelligence
+        raw_intelligence = self.discover_technical_intelligence(
+            company_name, website_url, industry
+        )
+        
+        # 2. Cross-validate the intelligence
+        validation_result = self.validation_engine.validate_technical_intelligence(
+            raw_intelligence, additional_sources or {}
+        )
+        
+        # 3. Determine final recommendation based on validation
+        if validation_result.recommendation == 'reject':
+            logger.warning(f"⚠️ {company_name}: Intelligence validation failed (confidence: {validation_result.confidence_score:.1%})")
+            return self._create_rejection_result(company_name, website_url, validation_result)
+        
+        # 4. Use validated pain points for final intelligence
+        validated_intelligence = TechnicalIntelligence(
+            company_name=raw_intelligence.company_name,
+            website=raw_intelligence.website,
+            total_monthly_pain_cost=sum(p.monthly_cost for p in validation_result.validated_pain_points),
+            pain_points=validation_result.validated_pain_points,
+            commercial_urgency=self._recalculate_urgency(validation_result.validated_pain_points),
+            conversion_probability=raw_intelligence.conversion_probability * validation_result.confidence_score,
+            rationale=self._generate_validated_rationale(validation_result),
+            next_action=self._determine_validated_action(validation_result)
+        )
+        
+        logger.info(f"✅ Validated intelligence: ${validated_intelligence.total_monthly_pain_cost:,.0f}/month pain")
+        logger.info(f"🎯 Confidence score: {validation_result.confidence_score:.1%}")
+        logger.info(f"📊 Validation sources: {', '.join(validation_result.validation_sources)}")
+        
+        return {
+            'validated_intelligence': validated_intelligence,
+            'validation_result': validation_result,
+            'confidence_level': self._get_confidence_level(validation_result.confidence_score),
+            'recommendation': validation_result.recommendation,
+            'quality_score': validation_result.confidence_score * 100  # 0-100 scale
+        }
+    
     def discover_technical_intelligence(self, 
                                       company_name: str,
                                       website_url: str,
                                       industry: str = None) -> TechnicalIntelligence:
+        """
+        🎯 NEW: Discover and validate technical pain points across multiple sources
+        Provides high-confidence intelligence with cross-validation
+        
+        Args:
+            company_name: Nome da empresa
+            website_url: URL do website  
+            industry: Setor da empresa
+            additional_sources: Additional data sources for validation
+            
+        Returns:
+            Validated technical intelligence with confidence scoring
+        """
+        logger.info(f"🧠 Validated technical intelligence discovery for {company_name}")
+        
+        # 1. Get initial technical intelligence
+        raw_intelligence = self.discover_technical_intelligence(
+            company_name, website_url, industry
+        )
+        
+        # 2. Cross-validate the intelligence
+        validation_result = self.validation_engine.validate_technical_intelligence(
+            raw_intelligence, additional_sources or {}
+        )
+        
+        # 3. Determine final recommendation based on validation
+        if validation_result.recommendation == 'reject':
+            logger.warning(f"⚠️ {company_name}: Intelligence validation failed (confidence: {validation_result.confidence_score:.1%})")
+            return self._create_rejection_result(company_name, website_url, validation_result)
+        
+        # 4. Use validated pain points for final intelligence
+        validated_intelligence = TechnicalIntelligence(
+            company_name=raw_intelligence.company_name,
+            website=raw_intelligence.website,
+            total_monthly_pain_cost=sum(p.monthly_cost for p in validation_result.validated_pain_points),
+            pain_points=validation_result.validated_pain_points,
+            commercial_urgency=self._recalculate_urgency(validation_result.validated_pain_points),
+            conversion_probability=raw_intelligence.conversion_probability * validation_result.confidence_score,
+            rationale=self._generate_validated_rationale(validation_result),
+            next_action=self._determine_validated_action(validation_result)
+        )
+        
+        logger.info(f"✅ Validated intelligence: ${validated_intelligence.total_monthly_pain_cost:,.0f}/month pain")
+        logger.info(f"🎯 Confidence score: {validation_result.confidence_score:.1%}")
+        logger.info(f"📊 Validation sources: {', '.join(validation_result.validation_sources)}")
+        
+        return {
+            'validated_intelligence': validated_intelligence,
+            'validation_result': validation_result,
+            'confidence_level': self._get_confidence_level(validation_result.confidence_score),
+            'recommendation': validation_result.recommendation,
+            'quality_score': validation_result.confidence_score * 100  # 0-100 scale
+        }
+    
+    def _create_rejection_result(self, company_name: str, website_url: str, validation_result) -> Dict:
+        """Create result for rejected intelligence"""
+        return {
+            'validated_intelligence': None,
+            'validation_result': validation_result,
+            'confidence_level': 'low',
+            'recommendation': 'reject',
+            'quality_score': validation_result.confidence_score * 100,
+            'rejection_reasons': validation_result.conflicting_signals,
+            'message': f"Insufficient confidence in technical intelligence for {company_name}"
+        }
+    
+    def _recalculate_urgency(self, validated_pain_points: List) -> str:
+        """Recalculate urgency based on validated pain points"""
+        if not validated_pain_points:
+            return 'cold'
+        
+        total_cost = sum(p.monthly_cost for p in validated_pain_points)
+        critical_issues = len([p for p in validated_pain_points if p.severity == 'critical'])
+        
+        if total_cost > 5000 or critical_issues > 0:
+            return 'hot'
+        elif total_cost > 2000:
+            return 'warm'
+        else:
+            return 'cold'
+    
+    def _generate_validated_rationale(self, validation_result) -> str:
+        """Generate rationale including validation confidence"""
+        if not validation_result.validated_pain_points:
+            return "No validated technical pain identified after cross-validation"
+        
+        total_cost = sum(p.monthly_cost for p in validation_result.validated_pain_points)
+        top_pain = max(validation_result.validated_pain_points, key=lambda p: p.monthly_cost)
+        
+        confidence_desc = "High-confidence" if validation_result.confidence_score > 0.8 else "Medium-confidence" if validation_result.confidence_score > 0.6 else "Lower-confidence"
+        
+        return f"{confidence_desc} analysis shows ${total_cost:,.0f}/month technical debt. Primary validated issue: {top_pain.description}. Cross-validated from {len(validation_result.validation_sources)} sources."
+    
+    def _determine_validated_action(self, validation_result) -> str:
+        """Determine action based on validation results"""
+        if validation_result.recommendation == 'proceed':
+            if validation_result.validated_pain_points:
+                top_pain = max(validation_result.validated_pain_points, key=lambda p: p.monthly_cost)
+                return f"HIGH-CONFIDENCE CALL: Validated ${top_pain.monthly_cost:,.0f}/month {top_pain.category} issue. Lead with: 'Our cross-validated analysis identified a specific technical problem costing you money...'"
+        elif validation_result.recommendation == 'investigate':
+            return f"QUALIFIED FOLLOW-UP: Medium confidence ({validation_result.confidence_score:.1%}). Schedule technical audit to validate findings."
+        else:
+            return "NURTURE: Low confidence in current pain analysis. Monitor for stronger signals."
+    
+    def _get_confidence_level(self, confidence_score: float) -> str:
+        """Convert confidence score to level"""
+        if confidence_score >= 0.8:
+            return 'high'
+        elif confidence_score >= 0.6:
+            return 'medium'
+        else:
+            return 'low'
         """
         🎯 NEW: Discover technical pain points that cost money
         Replaces superficial data with actionable business intelligence
@@ -267,28 +442,37 @@ class ARCOEngine:
         return demo_prospects[:limit]
     
     def _process_prospect_complete(self, prospect: Dict) -> Optional[Dict]:
-        """Processa um prospect completo com inteligência técnica real"""
+        """Processa um prospect completo com inteligência técnica validada"""
         try:
             company_name = prospect["name"]
             website = prospect["website"]
             industry = prospect.get("industry", "unknown")
             
-            # Use technical intelligence instead of superficial qualification
-            technical_intelligence = self.discover_technical_intelligence(
+            # Use validated technical intelligence for higher accuracy
+            validation_result = self.discover_validated_technical_intelligence(
                 company_name=company_name,
                 website_url=website,
                 industry=industry
             )
             
-            # Only proceed if there's meaningful technical pain identified
-            if technical_intelligence.total_monthly_pain_cost < 1000:
-                logger.info(f"⚠️ {company_name}: Insufficient technical pain (${technical_intelligence.total_monthly_pain_cost:.0f}/month)")
+            # Only proceed with high-confidence intelligence
+            if validation_result['recommendation'] == 'reject':
+                logger.info(f"⚠️ {company_name}: Rejected due to low intelligence confidence")
                 return None
             
-            # Calculate priority score based on technical intelligence
-            priority_score = self._calculate_technical_priority_score(technical_intelligence, prospect)
+            validated_intelligence = validation_result['validated_intelligence']
+            confidence_level = validation_result['confidence_level']
             
-            # Convert to enhanced lead format
+            # Higher threshold for validated intelligence
+            min_pain_threshold = 1500 if confidence_level == 'high' else 2500
+            if validated_intelligence.total_monthly_pain_cost < min_pain_threshold:
+                logger.info(f"⚠️ {company_name}: Insufficient validated pain (${validated_intelligence.total_monthly_pain_cost:.0f}/month, {confidence_level} confidence)")
+                return None
+            
+            # Calculate priority score with confidence weighting
+            priority_score = self._calculate_validated_priority_score(validated_intelligence, validation_result, prospect)
+            
+            # Convert to enhanced lead format with validation data
             return {
                 "name": company_name,
                 "website": website,
@@ -298,11 +482,11 @@ class ARCOEngine:
                 "qualified": True,
                 "score": priority_score,
                 
-                # NEW: Technical intelligence fields
-                "monthly_pain_cost": technical_intelligence.total_monthly_pain_cost,
-                "annual_opportunity": technical_intelligence.total_monthly_pain_cost * 12,
-                "commercial_urgency": technical_intelligence.commercial_urgency,
-                "conversion_probability": technical_intelligence.conversion_probability,
+                # Technical intelligence fields (validated)
+                "monthly_pain_cost": validated_intelligence.total_monthly_pain_cost,
+                "annual_opportunity": validated_intelligence.total_monthly_pain_cost * 12,
+                "commercial_urgency": validated_intelligence.commercial_urgency,
+                "conversion_probability": validated_intelligence.conversion_probability,
                 "pain_points": [
                     {
                         "category": p.category,
@@ -312,10 +496,16 @@ class ARCOEngine:
                         "urgency": p.urgency_level,
                         "solution_fit": p.solution_fit
                     }
-                    for p in technical_intelligence.pain_points
+                    for p in validated_intelligence.pain_points
                 ],
-                "rationale": technical_intelligence.rationale,
-                "next_action": technical_intelligence.next_action,
+                "rationale": validated_intelligence.rationale,
+                "next_action": validated_intelligence.next_action,
+                
+                # NEW: Validation metadata
+                "confidence_level": confidence_level,
+                "quality_score": validation_result['quality_score'],
+                "validation_sources": validation_result['validation_result'].validation_sources,
+                "validated": True,
                 "timestamp": datetime.now().isoformat()
             }
             
@@ -323,36 +513,44 @@ class ARCOEngine:
             logger.warning(f"⚠️ Erro processando prospect: {e}")
             return None
     
-    def _calculate_technical_priority_score(self, technical_intelligence: TechnicalIntelligence, prospect: Dict) -> int:
-        """Calculate priority score based on technical pain and business fit"""
+    def _calculate_validated_priority_score(self, validated_intelligence: TechnicalIntelligence, 
+                                          validation_result: Dict, prospect: Dict) -> int:
+        """Calculate priority score with validation confidence weighting"""
         score = 0
+        confidence_score = validation_result['quality_score'] / 100  # Convert to 0-1
         
-        # Pain cost impact (0-40 points)
-        monthly_cost = technical_intelligence.total_monthly_pain_cost
+        # Pain cost impact (0-40 points) - weighted by confidence
+        monthly_cost = validated_intelligence.total_monthly_pain_cost
+        base_cost_score = 0
         if monthly_cost >= 10000:
-            score += 40
+            base_cost_score = 40
         elif monthly_cost >= 5000:
-            score += 35
+            base_cost_score = 35
         elif monthly_cost >= 2500:
-            score += 25
+            base_cost_score = 25
         elif monthly_cost >= 1000:
+            base_cost_score = 15
+        else:
+            base_cost_score = 5
+        
+        score += int(base_cost_score * confidence_score)
+        
+        # Validation confidence bonus (0-25 points)
+        confidence_level = validation_result['confidence_level']
+        if confidence_level == 'high':
+            score += 25
+        elif confidence_level == 'medium':
             score += 15
         else:
             score += 5
         
-        # Conversion probability (0-25 points)
-        conversion_prob = technical_intelligence.conversion_probability
-        score += int(conversion_prob * 25)
+        # Conversion probability (0-20 points)
+        conversion_prob = validated_intelligence.conversion_probability
+        score += int(conversion_prob * 20)
         
-        # Urgency level (0-20 points)
-        urgency_map = {'hot': 20, 'warm': 15, 'cold': 5}
-        score += urgency_map.get(technical_intelligence.commercial_urgency, 5)
-        
-        # Solution fit (0-15 points) - based on pain point categories we can solve
-        solvable_categories = ['performance', 'message_match', 'tracking']
-        solvable_pain_points = [p for p in technical_intelligence.pain_points if p.category in solvable_categories]
-        if solvable_pain_points:
-            score += min(15, len(solvable_pain_points) * 5)
+        # Urgency level (0-15 points)
+        urgency_map = {'hot': 15, 'warm': 10, 'cold': 3}
+        score += urgency_map.get(validated_intelligence.commercial_urgency, 3)
         
         return min(score, 100)
     
