@@ -12,6 +12,7 @@ from src.integrations.bigquery_config import BigQueryConfig
 from src.analysis.missed_opportunity_detector import MissedOpportunityDetector
 from src.intelligence.technical_pain_detector import TechnicalPainDetector, TechnicalIntelligence
 from src.intelligence.validation_engine import IntelligenceValidationEngine
+from src.intelligence.conversion_strategy_engine import ConversionStrategyEngine
 import os
 
 class ARCOEngine:
@@ -72,6 +73,9 @@ class ARCOEngine:
         
         # Intelligence Validation Engine - ensures accuracy
         self.validation_engine = IntelligenceValidationEngine()
+        
+        # Conversion Strategy Engine - creates actionable sales strategies
+        self.conversion_engine = ConversionStrategyEngine()
         
         logger.info(f"ARCOEngine initialized with environment: {self.config.get('environment', 'development')}")
         
@@ -252,6 +256,163 @@ class ARCOEngine:
             return f"QUALIFIED FOLLOW-UP: Medium confidence ({validation_result.confidence_score:.1%}). Schedule technical audit to validate findings."
         else:
             return "NURTURE: Low confidence in current pain analysis. Monitor for stronger signals."
+    
+    def create_conversion_ready_profile(self,
+                                       company_name: str,
+                                       website_url: str,
+                                       industry: str = None,
+                                       additional_sources: Dict = None) -> Dict[str, any]:
+        """
+        🎯 FINAL: Create complete conversion-ready lead profile
+        The ultimate transformation from superficial data to actionable sales intelligence
+        
+        Args:
+            company_name: Nome da empresa
+            website_url: URL do website  
+            industry: Setor da empresa
+            additional_sources: Additional validation sources
+            
+        Returns:
+            Complete conversion-ready profile with strategy and talking points
+        """
+        logger.info(f"🚀 Creating conversion-ready profile for {company_name}")
+        
+        # 1. Get validated technical intelligence
+        validation_result = self.discover_validated_technical_intelligence(
+            company_name, website_url, industry, additional_sources
+        )
+        
+        # 2. Only proceed with actionable intelligence
+        if validation_result['recommendation'] == 'reject':
+            logger.warning(f"⚠️ {company_name}: Cannot create conversion profile - intelligence validation failed")
+            return {
+                'status': 'rejected',
+                'reason': 'Insufficient intelligence confidence',
+                'confidence_score': validation_result.get('quality_score', 0),
+                'company_name': company_name,
+                'website': website_url
+            }
+        
+        validated_intelligence = validation_result['validated_intelligence']
+        confidence_level = validation_result['confidence_level']
+        
+        # 3. Generate conversion strategy
+        lead_profile = self.conversion_engine.generate_conversion_strategy(
+            validated_intelligence, confidence_level, industry
+        )
+        
+        # 4. Create final conversion-ready output
+        conversion_profile = {
+            'status': 'conversion_ready',
+            'company_name': company_name,
+            'website': website_url,
+            'industry': lead_profile.industry,
+            'intelligence_summary': {
+                'total_monthly_pain': validated_intelligence.total_monthly_pain_cost,
+                'annual_opportunity': validated_intelligence.total_monthly_pain_cost * 12,
+                'confidence_level': confidence_level,
+                'quality_score': validation_result['quality_score'],
+                'commercial_urgency': validated_intelligence.commercial_urgency,
+                'conversion_probability': validated_intelligence.conversion_probability,
+                'validation_sources': validation_result['validation_result'].validation_sources
+            },
+            'pain_analysis': lead_profile.pain_profile,
+            'conversion_strategy': {
+                'approach_type': lead_profile.conversion_strategy.approach_type,
+                'primary_hook': lead_profile.conversion_strategy.primary_hook,
+                'talking_points': lead_profile.conversion_strategy.talking_points,
+                'objection_handlers': lead_profile.conversion_strategy.objection_handlers,
+                'timeline_strategy': lead_profile.conversion_strategy.timeline_strategy,
+                'success_metrics': lead_profile.conversion_strategy.success_metrics,
+                'follow_up_cadence': lead_profile.conversion_strategy.follow_up_cadence
+            },
+            'decision_maker_intel': lead_profile.decision_maker_profile,
+            'competitive_positioning': lead_profile.competitive_intel,
+            'roi_projections': lead_profile.roi_projection,
+            'urgency_timeline': lead_profile.urgency_timeline,
+            'next_steps': lead_profile.next_steps,
+            'generated_at': datetime.now().isoformat()
+        }
+        
+        logger.info(f"✅ Conversion-ready profile created for {company_name}")
+        logger.info(f"💰 Annual opportunity: ${validated_intelligence.total_monthly_pain_cost * 12:,.0f}")
+        logger.info(f"🎯 Approach: {lead_profile.conversion_strategy.approach_type}")
+        logger.info(f"⏰ Timeline: {lead_profile.urgency_timeline}")
+        
+        return conversion_profile
+    
+    def batch_create_conversion_profiles(self, prospects: List[Dict], 
+                                       max_profiles: int = 10) -> Dict[str, any]:
+        """
+        Create conversion-ready profiles for multiple prospects
+        Replaces the old volume-based approach with quality-focused profiling
+        """
+        logger.info(f"🏭 Creating conversion profiles for {len(prospects)} prospects (max: {max_profiles})")
+        
+        conversion_profiles = []
+        rejected_profiles = []
+        processing_summary = {
+            'total_prospects': len(prospects),
+            'processed': 0,
+            'conversion_ready': 0,
+            'rejected': 0,
+            'total_opportunity': 0,
+            'high_confidence_profiles': 0
+        }
+        
+        for prospect in prospects[:max_profiles * 2]:  # Process 2x to account for rejections
+            if len(conversion_profiles) >= max_profiles:
+                break
+            
+            try:
+                profile = self.create_conversion_ready_profile(
+                    company_name=prospect.get('name', 'Unknown'),
+                    website_url=prospect.get('website', ''),
+                    industry=prospect.get('industry', 'unknown')
+                )
+                
+                processing_summary['processed'] += 1
+                
+                if profile['status'] == 'conversion_ready':
+                    conversion_profiles.append(profile)
+                    processing_summary['conversion_ready'] += 1
+                    processing_summary['total_opportunity'] += profile['intelligence_summary']['annual_opportunity']
+                    
+                    if profile['intelligence_summary']['confidence_level'] == 'high':
+                        processing_summary['high_confidence_profiles'] += 1
+                else:
+                    rejected_profiles.append(profile)
+                    processing_summary['rejected'] += 1
+                
+            except Exception as e:
+                logger.warning(f"⚠️ Error creating profile for {prospect.get('name', 'Unknown')}: {e}")
+                processing_summary['rejected'] += 1
+        
+        # Sort by opportunity size and confidence
+        conversion_profiles.sort(
+            key=lambda p: (
+                p['intelligence_summary']['quality_score'],
+                p['intelligence_summary']['annual_opportunity']
+            ),
+            reverse=True
+        )
+        
+        logger.info(f"✅ Batch processing complete: {processing_summary['conversion_ready']} conversion-ready profiles")
+        logger.info(f"💰 Total opportunity: ${processing_summary['total_opportunity']:,.0f}")
+        logger.info(f"🎯 High-confidence profiles: {processing_summary['high_confidence_profiles']}")
+        
+        return {
+            'conversion_profiles': conversion_profiles,
+            'rejected_profiles': rejected_profiles[:5],  # Sample of rejections
+            'processing_summary': processing_summary,
+            'transformation_metrics': {
+                'quality_over_quantity': f"{processing_summary['conversion_ready']}/{processing_summary['processed']} profiles passed quality filter",
+                'average_opportunity': processing_summary['total_opportunity'] / max(1, processing_summary['conversion_ready']),
+                'high_confidence_rate': processing_summary['high_confidence_profiles'] / max(1, processing_summary['conversion_ready']),
+                'rejection_rate': processing_summary['rejected'] / max(1, processing_summary['processed'])
+            },
+            'generated_at': datetime.now().isoformat()
+        }
     
     def _get_confidence_level(self, confidence_score: float) -> str:
         """Convert confidence score to level"""
