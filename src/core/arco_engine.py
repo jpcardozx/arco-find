@@ -10,6 +10,7 @@ from src.connectors.google_pagespeed_api import GooglePageSpeedAPI
 from src.connectors.searchapi_connector import SearchAPIConnector
 from src.integrations.bigquery_config import BigQueryConfig
 from src.analysis.missed_opportunity_detector import MissedOpportunityDetector
+from src.intelligence.technical_pain_detector import TechnicalPainDetector, TechnicalIntelligence
 import os
 
 class ARCOEngine:
@@ -65,6 +66,9 @@ class ARCOEngine:
         # Detector de oportunidades
         self.missed_opportunity_detector = MissedOpportunityDetector()
         
+        # Technical Pain Detector - core intelligence engine
+        self.technical_pain_detector = TechnicalPainDetector()
+        
         logger.info(f"ARCOEngine initialized with environment: {self.config.get('environment', 'development')}")
         
         # Log de APIs disponíveis
@@ -78,13 +82,13 @@ class ARCOEngine:
             
         logger.info(f"Available API services: {', '.join(available_apis)}")
     
-    def discover_real_opportunities(self, 
-                                  company_name: str,
-                                  website_url: str,
-                                  industry: str = None) -> Dict[str, any]:
+    def discover_technical_intelligence(self, 
+                                      company_name: str,
+                                      website_url: str,
+                                      industry: str = None) -> TechnicalIntelligence:
         """
-        🎯 Descoberta de oportunidades usando dados reais
-        Integra SearchAPI + PageSpeed + BigQuery
+        🎯 NEW: Discover technical pain points that cost money
+        Replaces superficial data with actionable business intelligence
         
         Args:
             company_name: Nome da empresa
@@ -92,94 +96,69 @@ class ARCOEngine:
             industry: Setor da empresa
             
         Returns:
-            Análise completa com dados reais
+            Technical intelligence with specific pain points and costs
         """
-        logger.info(f"🚀 Real opportunity discovery for {company_name}")
+        logger.info(f"🧠 Technical intelligence discovery for {company_name}")
         
-        opportunities = {
-            'company_name': company_name,
-            'website_url': website_url,
-            'industry': industry or 'unknown',
-            'analysis_timestamp': datetime.now().isoformat(),
-            'data_sources': [],
-            'insights': {},
-            'opportunities': [],
-            'potential_savings': 0
+        # 1. Gather performance data (real technical metrics)
+        performance_data = self._analyze_website_performance(website_url)
+        
+        # 2. Analyze digital presence (ads and spending patterns)
+        digital_presence = self._analyze_digital_presence(company_name, website_url)
+        
+        # 3. Estimate business context for impact calculation
+        business_context = self._estimate_business_context(company_name, industry, digital_presence)
+        
+        # 4. Use technical pain detector to identify real problems
+        technical_intelligence = self.technical_pain_detector.analyze_technical_pain(
+            company_name=company_name,
+            website=website_url,
+            performance_data=performance_data,
+            digital_presence=digital_presence,
+            business_context=business_context
+        )
+        
+        logger.info(f"✅ Found ${technical_intelligence.total_monthly_pain_cost:,.0f}/month in technical debt")
+        logger.info(f"🎯 Commercial urgency: {technical_intelligence.commercial_urgency.upper()}")
+        logger.info(f"📈 Conversion probability: {technical_intelligence.conversion_probability:.1%}")
+        
+        return technical_intelligence
+    
+    def _estimate_business_context(self, company_name: str, industry: str, digital_presence: Dict) -> Dict:
+        """Estimate business metrics needed for pain impact calculation"""
+        # Base estimates on industry and digital activity
+        ads_found = digital_presence.get('ads_found', 0)
+        
+        # Industry-based estimates
+        industry_metrics = {
+            'social_media': {'traffic': 15000, 'aov': 150, 'conversion': 0.025, 'ad_spend_mult': 2.0},
+            'e_commerce': {'traffic': 25000, 'aov': 80, 'conversion': 0.035, 'ad_spend_mult': 2.5},
+            'email_marketing': {'traffic': 12000, 'aov': 300, 'conversion': 0.020, 'ad_spend_mult': 1.8},
+            'fintech': {'traffic': 8000, 'aov': 500, 'conversion': 0.015, 'ad_spend_mult': 3.0},
+            'healthtech': {'traffic': 6000, 'aov': 400, 'conversion': 0.012, 'ad_spend_mult': 2.2},
+            'saas': {'traffic': 10000, 'aov': 600, 'conversion': 0.018, 'ad_spend_mult': 2.8}
         }
         
-        # 1. Website Performance Analysis
-        if self.pagespeed_api:
-            try:
-                logger.info("🔍 Analyzing website performance...")
-                performance_data = self._analyze_website_performance(website_url)
-                opportunities['data_sources'].append('Google PageSpeed Insights')
-                opportunities['insights']['performance'] = performance_data
-                
-                # Calculate performance opportunities
-                mobile_score = performance_data.get('mobile_score', 100)
-                if mobile_score < 70:
-                    opportunities['opportunities'].append({
-                        'type': 'Website Performance',
-                        'description': f"Mobile performance score is only {mobile_score}/100",
-                        'potential_impact': 'High - Could improve conversion rates by 20-30%',
-                        'estimated_monthly_value': 500
-                    })
-                    opportunities['potential_savings'] += 500
-                    
-            except Exception as e:
-                logger.warning(f"⚠️ Performance analysis failed: {e}")
+        # Default to SaaS metrics if industry not found
+        metrics = industry_metrics.get(industry, industry_metrics['saas'])
         
-        # 2. Digital Presence Analysis
-        if self.searchapi:
-            try:
-                logger.info("🔍 Analyzing digital presence...")
-                digital_data = self._analyze_digital_presence(company_name, website_url)
-                opportunities['data_sources'].append('SearchAPI Meta Ads Library')
-                opportunities['insights']['digital_presence'] = digital_data
-                
-                # Calculate digital opportunities
-                ads_found = digital_data.get('ads_found', 0)
-                if ads_found == 0:
-                    opportunities['opportunities'].append({
-                        'type': 'Digital Marketing Opportunity',
-                        'description': "No active Meta ads found - untapped market",
-                        'potential_impact': 'Medium - Could capture market share',
-                        'estimated_monthly_value': 1000
-                    })
-                    opportunities['potential_savings'] += 1000
-                elif ads_found > 10:
-                    opportunities['opportunities'].append({
-                        'type': 'Ad Optimization Opportunity', 
-                        'description': f"Found {ads_found} active ads - optimization potential",
-                        'potential_impact': 'High - Could reduce ad spend by 15-25%',
-                        'estimated_monthly_value': 800
-                    })
-                    opportunities['potential_savings'] += 800
-                    
-            except Exception as e:
-                logger.warning(f"⚠️ Digital analysis failed: {e}")
+        # Adjust based on digital activity level
+        activity_multiplier = 1.0
+        if ads_found > 10:
+            activity_multiplier = 1.5  # High activity = higher traffic/spend
+        elif ads_found > 0:
+            activity_multiplier = 1.2  # Some activity = moderate boost
         
-        # 3. Use missed opportunity detector
-        try:
-            missed_opps = self.missed_opportunity_detector.detect_missed_opportunities(
-                website_url, industry or 'technology'
-            )
-            opportunities['insights']['missed_opportunities'] = missed_opps
-            opportunities['potential_savings'] += len(missed_opps) * 200
-            
-        except Exception as e:
-            logger.warning(f"⚠️ Missed opportunity detection failed: {e}")
+        base_monthly_spend = ads_found * 800 if ads_found > 0 else 3000  # Default $3k/month
         
-        # Generate executive summary
-        opportunities['executive_summary'] = {
-            'total_opportunities': len(opportunities['opportunities']),
-            'potential_monthly_savings': opportunities['potential_savings'],
-            'data_quality': 'high' if len(opportunities['data_sources']) > 1 else 'medium',
-            'priority_actions': [opp['type'] for opp in opportunities['opportunities'][:3]]
+        return {
+            'estimated_monthly_traffic': int(metrics['traffic'] * activity_multiplier),
+            'avg_order_value': metrics['aov'],
+            'conversion_rate': metrics['conversion'],
+            'monthly_ad_spend': base_monthly_spend * metrics['ad_spend_mult'],
+            'monthly_leads': int(metrics['traffic'] * activity_multiplier * 0.05),  # 5% lead rate
+            'avg_lead_value': metrics['aov'] * 2.5  # Lead value = 2.5x AOV
         }
-        
-        logger.info(f"✅ Found {len(opportunities['opportunities'])} opportunities worth ${opportunities['potential_savings']}/month")
-        return opportunities
     
     def discover_and_qualify_leads(self, limit: int = 10, industry_filter: str = None) -> List[Dict]:
         """
@@ -288,41 +267,94 @@ class ARCOEngine:
         return demo_prospects[:limit]
     
     def _process_prospect_complete(self, prospect: Dict) -> Optional[Dict]:
-        """Processa um prospect completo com todas as APIs"""
+        """Processa um prospect completo com inteligência técnica real"""
         try:
-            # 1. Análise de performance do website
-            performance_data = self._analyze_website_performance(prospect["website"])
+            company_name = prospect["name"]
+            website = prospect["website"]
+            industry = prospect.get("industry", "unknown")
             
-            # 2. Análise de presença digital (SearchAPI)
-            digital_presence = self._analyze_digital_presence(prospect["name"], prospect["website"])
+            # Use technical intelligence instead of superficial qualification
+            technical_intelligence = self.discover_technical_intelligence(
+                company_name=company_name,
+                website_url=website,
+                industry=industry
+            )
             
-            # 3. Qualificação baseada em dados reais
-            qualification = self._qualify_prospect_integrated(prospect, performance_data, digital_presence)
-            
-            if not qualification["qualified"]:
+            # Only proceed if there's meaningful technical pain identified
+            if technical_intelligence.total_monthly_pain_cost < 1000:
+                logger.info(f"⚠️ {company_name}: Insufficient technical pain (${technical_intelligence.total_monthly_pain_cost:.0f}/month)")
                 return None
             
-            # 4. Calcular potencial de economia
-            potential_savings = prospect["saas_spend"] * 0.15  # 15% economia típica
+            # Calculate priority score based on technical intelligence
+            priority_score = self._calculate_technical_priority_score(technical_intelligence, prospect)
             
+            # Convert to enhanced lead format
             return {
-                "name": prospect["name"],
-                "website": prospect["website"],
-                "saas_spend": prospect["saas_spend"],
-                "employee_count": prospect["employee_count"],
-                "industry": prospect["industry"],
-                "performance_data": performance_data,
-                "digital_presence": digital_presence,
+                "name": company_name,
+                "website": website,
+                "saas_spend": prospect.get("saas_spend", 0),
+                "employee_count": prospect.get("employee_count", 0),
+                "industry": industry,
                 "qualified": True,
-                "score": qualification["score"],
-                "potential_savings": potential_savings,
-                "qualification_reasons": qualification["reasons"],
+                "score": priority_score,
+                
+                # NEW: Technical intelligence fields
+                "monthly_pain_cost": technical_intelligence.total_monthly_pain_cost,
+                "annual_opportunity": technical_intelligence.total_monthly_pain_cost * 12,
+                "commercial_urgency": technical_intelligence.commercial_urgency,
+                "conversion_probability": technical_intelligence.conversion_probability,
+                "pain_points": [
+                    {
+                        "category": p.category,
+                        "severity": p.severity,
+                        "description": p.description,
+                        "monthly_cost": p.monthly_cost,
+                        "urgency": p.urgency_level,
+                        "solution_fit": p.solution_fit
+                    }
+                    for p in technical_intelligence.pain_points
+                ],
+                "rationale": technical_intelligence.rationale,
+                "next_action": technical_intelligence.next_action,
                 "timestamp": datetime.now().isoformat()
             }
             
         except Exception as e:
             logger.warning(f"⚠️ Erro processando prospect: {e}")
             return None
+    
+    def _calculate_technical_priority_score(self, technical_intelligence: TechnicalIntelligence, prospect: Dict) -> int:
+        """Calculate priority score based on technical pain and business fit"""
+        score = 0
+        
+        # Pain cost impact (0-40 points)
+        monthly_cost = technical_intelligence.total_monthly_pain_cost
+        if monthly_cost >= 10000:
+            score += 40
+        elif monthly_cost >= 5000:
+            score += 35
+        elif monthly_cost >= 2500:
+            score += 25
+        elif monthly_cost >= 1000:
+            score += 15
+        else:
+            score += 5
+        
+        # Conversion probability (0-25 points)
+        conversion_prob = technical_intelligence.conversion_probability
+        score += int(conversion_prob * 25)
+        
+        # Urgency level (0-20 points)
+        urgency_map = {'hot': 20, 'warm': 15, 'cold': 5}
+        score += urgency_map.get(technical_intelligence.commercial_urgency, 5)
+        
+        # Solution fit (0-15 points) - based on pain point categories we can solve
+        solvable_categories = ['performance', 'message_match', 'tracking']
+        solvable_pain_points = [p for p in technical_intelligence.pain_points if p.category in solvable_categories]
+        if solvable_pain_points:
+            score += min(15, len(solvable_pain_points) * 5)
+        
+        return min(score, 100)
     
     def _analyze_website_performance(self, website: str) -> Dict:
         """Analisa performance do website usando PageSpeed API com análise de negócio"""

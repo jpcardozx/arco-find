@@ -16,6 +16,23 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 # Core modules with fallback handling
 try:
+    from core.arco_engine import ARCOEngine
+    from intelligence.technical_pain_detector import TechnicalPainDetector
+except ImportError:
+    print("⚠️ ARCO Engine import failed - using fallback")
+    class ARCOEngine:
+        def __init__(self): pass
+        def discover_technical_intelligence(self, *args, **kwargs): 
+            return type('TechnicalIntelligence', (), {
+                'total_monthly_pain_cost': 0,
+                'commercial_urgency': 'cold',
+                'conversion_probability': 0.1,
+                'rationale': 'No technical analysis available',
+                'next_action': 'Manual qualification needed'
+            })()
+        def discover_and_qualify_leads(self, *args, **kwargs): return []
+
+try:
     from core.lead_qualification_engine import LeadQualificationEngine
 except ImportError:
     print("⚠️ LeadQualificationEngine import failed - using fallback")
@@ -74,10 +91,11 @@ logger = setup_logger(__name__)
 
 class StrategicLeadOrchestrator:
     """
-    Main orchestrator for strategic lead generation with cost optimization
+    Main orchestrator for intelligent lead generation using technical pain detection
     """
     
     def __init__(self):
+        self.arco_engine = ARCOEngine()
         self.lead_engine = LeadQualificationEngine()
         self.bigquery = BigQueryIntelligence()
         self.search_connector = SearchAPIConnector()
@@ -89,108 +107,282 @@ class StrategicLeadOrchestrator:
         
     async def execute_intelligent_lead_discovery(self, target_count: int = 20) -> Dict:
         """
-        Execute intelligent lead discovery with cost optimization
+        Execute intelligent lead discovery using technical pain detection
         """
         operation_id = performance_monitor.start_operation("intelligent_lead_discovery")
         start_time = datetime.utcnow()
         
         try:
-            logger.info(f"🚀 Starting intelligent lead discovery - Target: {target_count} qualified leads")
+            logger.info(f"🧠 Starting intelligent lead discovery with technical pain detection - Target: {target_count} leads")
             
-            # Step 1: Check existing hot leads (FREE - no API cost)
-            logger.info("📊 Step 1: Analyzing existing hot leads...")
-            hot_leads_analysis = await self.bigquery.get_hot_leads_analysis()
+            # Step 1: Use ARCO engine to discover and qualify leads with technical intelligence
+            logger.info("🔍 Step 1: Technical intelligence discovery...")
+            qualified_leads = self.arco_engine.discover_and_qualify_leads(
+                limit=target_count * 2,  # 2x buffer for qualification
+                industry_filter=None
+            )
             
-            existing_hot_count = 0
-            if 'data' in hot_leads_analysis:
-                for urgency_group in hot_leads_analysis['data']:
-                    if urgency_group.get('urgency_level') == 'HOT':
-                        existing_hot_count = urgency_group.get('lead_count', 0)
-                        break
+            # Step 2: Filter leads based on technical pain thresholds
+            logger.info("🎯 Step 2: Filtering leads by technical pain criteria...")
+            high_value_leads = []
+            warm_leads = []
+            cold_leads = []
             
-            logger.info(f"🔥 Found {existing_hot_count} existing HOT leads ready for immediate outreach")
-            
-            # Step 2: Strategic new lead discovery if needed
-            new_leads_needed = max(0, target_count - existing_hot_count)
-            discovered_leads = []
-            
-            if new_leads_needed > 0:
-                logger.info(f"🔍 Step 2: Discovering {new_leads_needed} new strategic leads...")
+            for lead in qualified_leads:
+                monthly_pain_cost = lead.get('monthly_pain_cost', 0)
+                urgency = lead.get('commercial_urgency', 'cold')
                 
-                # Prioritize search targets based on S-tier analysis
-                priority_targets = self._get_priority_search_targets()
-                
-                for target in priority_targets:
-                    if len(discovered_leads) >= new_leads_needed:
-                        break
-                    
-                    # Check cost limits before expensive operations
-                    if await self._check_cost_limits():
-                        target_leads = await self.search_connector.discover_strategic_prospects(
-                            target, max_results=min(new_leads_needed - len(discovered_leads), 5)
-                        )
-                        discovered_leads.extend(target_leads)
-                    else:
-                        logger.warning("⚠️ Cost limit reached, stopping new lead discovery")
-                        break
+                if monthly_pain_cost >= 5000 or urgency == 'hot':
+                    high_value_leads.append(lead)
+                elif monthly_pain_cost >= 2000 or urgency == 'warm':
+                    warm_leads.append(lead)
+                else:
+                    cold_leads.append(lead)
             
-            # Step 3: Qualify and analyze new discoveries
-            qualified_new_leads = []
-            if discovered_leads:
-                logger.info(f"🎯 Step 3: Qualifying {len(discovered_leads)} discovered prospects...")
-                
-                for lead in discovered_leads:
-                    if await self._check_cost_limits():
-                        qualified_lead = await self.lead_engine.qualify_lead_comprehensive(lead)
-                        if qualified_lead.get('qualification_score', 0) >= 60:
-                            qualified_new_leads.append(qualified_lead)
-                    else:
-                        break
+            # Step 3: Prioritize leads by technical intelligence
+            logger.info("📊 Step 3: Prioritizing by commercial impact...")
+            prioritized_leads = self._prioritize_by_technical_intelligence(
+                high_value_leads, warm_leads, cold_leads, target_count
+            )
             
-            # Step 4: Generate strategic intelligence summary
-            logger.info("📈 Step 4: Generating strategic intelligence summary...")
-            intelligence_summary = await self._generate_intelligence_summary()
+            # Step 4: Generate actionable intelligence summary
+            logger.info("🧠 Step 4: Generating actionable intelligence...")
+            intelligence_summary = self._generate_technical_intelligence_summary(prioritized_leads)
             
-            # Step 5: Create actionable results
+            # Step 5: Create conversion-ready results
             results = {
-                'operation': 'intelligent_lead_discovery',
+                'operation': 'intelligent_technical_discovery',
                 'timestamp': datetime.utcnow().isoformat(),
                 'execution_time_seconds': (datetime.utcnow() - start_time).total_seconds(),
                 
-                'discovery_summary': {
-                    'existing_hot_leads': existing_hot_count,
-                    'new_leads_discovered': len(discovered_leads),
-                    'new_leads_qualified': len(qualified_new_leads),
-                    'total_actionable_leads': existing_hot_count + len(qualified_new_leads)
+                'technical_discovery_summary': {
+                    'total_leads_analyzed': len(qualified_leads),
+                    'high_value_leads': len(high_value_leads),
+                    'warm_leads': len(warm_leads),
+                    'cold_leads': len(cold_leads),
+                    'final_prioritized_count': len(prioritized_leads)
                 },
                 
-                'cost_analysis': await self._get_session_cost_analysis(),
-                'strategic_intelligence': intelligence_summary,
-                'qualified_new_leads': qualified_new_leads[:10],  # Top 10 for immediate action
+                'commercial_intelligence': {
+                    'total_monthly_pain_identified': sum(l.get('monthly_pain_cost', 0) for l in prioritized_leads),
+                    'total_annual_opportunity': sum(l.get('annual_opportunity', 0) for l in prioritized_leads),
+                    'average_conversion_probability': sum(l.get('conversion_probability', 0) for l in prioritized_leads) / len(prioritized_leads) if prioritized_leads else 0,
+                    'hot_leads_ready_for_immediate_contact': len([l for l in prioritized_leads if l.get('commercial_urgency') == 'hot'])
+                },
                 
-                'immediate_actions': self._generate_immediate_actions(
-                    existing_hot_count, qualified_new_leads, intelligence_summary
-                )
+                'prioritized_leads': prioritized_leads,
+                'technical_intelligence_summary': intelligence_summary,
+                'cost_analysis': await self._get_session_cost_analysis(),
+                
+                'immediate_actions': self._generate_technical_action_plan(prioritized_leads)
             }
             
             # Save results
             await self._save_discovery_results(results)
             
             performance_monitor.end_operation(operation_id, {
-                'leads_discovered': len(discovered_leads),
-                'leads_qualified': len(qualified_new_leads),
+                'leads_qualified': len(qualified_leads),
+                'high_value_leads': len(high_value_leads),
                 'total_cost': self.current_session_cost
             })
             
-            logger.info(f"✅ Intelligent lead discovery completed - {results['discovery_summary']['total_actionable_leads']} actionable leads")
+            logger.info(f"✅ Technical intelligence discovery completed - {len(prioritized_leads)} actionable leads with ${results['commercial_intelligence']['total_monthly_pain_identified']:,.0f}/month pain identified")
             return results
             
         except Exception as e:
             logger.error(f"❌ Intelligent lead discovery failed: {e}")
             performance_monitor.end_operation(operation_id, {'error': str(e)})
-            return {'error': str(e), 'operation': 'intelligent_lead_discovery'}
+            return {'error': str(e), 'operation': 'intelligent_technical_discovery'}
     
-    def _get_priority_search_targets(self) -> List[SearchTarget]:
+    def _prioritize_by_technical_intelligence(self, high_value: List[Dict], warm: List[Dict], 
+                                            cold: List[Dict], target_count: int) -> List[Dict]:
+        """Prioritize leads based on technical pain and commercial impact"""
+        
+        # Sort each category by priority score (highest first)
+        high_value_sorted = sorted(high_value, key=lambda x: x.get('score', 0), reverse=True)
+        warm_sorted = sorted(warm, key=lambda x: x.get('score', 0), reverse=True)
+        cold_sorted = sorted(cold, key=lambda x: x.get('score', 0), reverse=True)
+        
+        # Prioritize: All high-value, then warm up to remaining slots, then cold if needed
+        prioritized = []
+        
+        # Take all high-value leads (they have >$5k/month pain or hot urgency)
+        prioritized.extend(high_value_sorted)
+        
+        # Fill remaining slots with warm leads
+        remaining_slots = target_count - len(prioritized)
+        if remaining_slots > 0:
+            prioritized.extend(warm_sorted[:remaining_slots])
+        
+        # If still need more, take top cold leads
+        remaining_slots = target_count - len(prioritized)
+        if remaining_slots > 0:
+            prioritized.extend(cold_sorted[:remaining_slots])
+        
+        return prioritized[:target_count]
+    
+    def _generate_technical_intelligence_summary(self, leads: List[Dict]) -> Dict:
+        """Generate summary of technical intelligence findings"""
+        if not leads:
+            return {'message': 'No qualified leads with technical pain identified'}
+        
+        # Aggregate pain point categories
+        pain_categories = {}
+        total_pain_cost = 0
+        urgent_leads = 0
+        high_conversion_leads = 0
+        
+        for lead in leads:
+            # Aggregate costs
+            monthly_cost = lead.get('monthly_pain_cost', 0)
+            total_pain_cost += monthly_cost
+            
+            # Count urgency levels
+            if lead.get('commercial_urgency') == 'hot':
+                urgent_leads += 1
+            
+            # Count high-conversion probability leads
+            if lead.get('conversion_probability', 0) > 0.6:
+                high_conversion_leads += 1
+            
+            # Aggregate pain point categories
+            for pain_point in lead.get('pain_points', []):
+                category = pain_point.get('category', 'unknown')
+                if category not in pain_categories:
+                    pain_categories[category] = {
+                        'count': 0,
+                        'total_cost': 0,
+                        'avg_severity': []
+                    }
+                
+                pain_categories[category]['count'] += 1
+                pain_categories[category]['total_cost'] += pain_point.get('monthly_cost', 0)
+                severity_score = {'critical': 4, 'high': 3, 'medium': 2, 'low': 1}.get(pain_point.get('severity', 'low'), 1)
+                pain_categories[category]['avg_severity'].append(severity_score)
+        
+        # Calculate averages
+        for category in pain_categories.values():
+            if category['avg_severity']:
+                category['avg_severity'] = sum(category['avg_severity']) / len(category['avg_severity'])
+            else:
+                category['avg_severity'] = 0
+        
+        return {
+            'leads_analyzed': len(leads),
+            'total_monthly_pain_cost': total_pain_cost,
+            'total_annual_opportunity': total_pain_cost * 12,
+            'urgent_leads_requiring_immediate_action': urgent_leads,
+            'high_conversion_probability_leads': high_conversion_leads,
+            'pain_categories_breakdown': pain_categories,
+            'average_pain_per_lead': total_pain_cost / len(leads) if leads else 0,
+            'key_insights': self._generate_key_insights(leads, pain_categories)
+        }
+    
+    def _generate_key_insights(self, leads: List[Dict], pain_categories: Dict) -> List[str]:
+        """Generate key actionable insights from technical analysis"""
+        insights = []
+        
+        # Top pain category insight
+        if pain_categories:
+            top_category = max(pain_categories.items(), key=lambda x: x[1]['total_cost'])
+            insights.append(
+                f"Primary opportunity: {top_category[0]} issues affecting {top_category[1]['count']} leads "
+                f"(${top_category[1]['total_cost']:,.0f}/month total pain)"
+            )
+        
+        # Urgency insight
+        hot_leads = [l for l in leads if l.get('commercial_urgency') == 'hot']
+        if hot_leads:
+            avg_hot_cost = sum(l.get('monthly_pain_cost', 0) for l in hot_leads) / len(hot_leads)
+            insights.append(
+                f"Immediate action required: {len(hot_leads)} hot leads with average "
+                f"${avg_hot_cost:,.0f}/month pain each"
+            )
+        
+        # Conversion probability insight
+        high_conv_leads = [l for l in leads if l.get('conversion_probability', 0) > 0.7]
+        if high_conv_leads:
+            insights.append(
+                f"High-probability conversions: {len(high_conv_leads)} leads with >70% conversion probability"
+            )
+        
+        # Solution fit insight
+        performance_issues = len([l for l in leads 
+                                for p in l.get('pain_points', []) 
+                                if p.get('category') == 'performance'])
+        if performance_issues > len(leads) * 0.6:  # >60% have performance issues
+            insights.append(
+                f"Market opportunity: {performance_issues} prospects with performance issues "
+                f"(our core strength)"
+            )
+        
+        return insights
+    
+    def _generate_technical_action_plan(self, leads: List[Dict]) -> List[Dict]:
+        """Generate specific action plan based on technical intelligence"""
+        actions = []
+        
+        # Immediate actions for hot leads
+        hot_leads = [l for l in leads if l.get('commercial_urgency') == 'hot']
+        if hot_leads:
+            for lead in hot_leads[:3]:  # Top 3 hot leads
+                primary_pain = max(lead.get('pain_points', []), 
+                                 key=lambda p: p.get('monthly_cost', 0), 
+                                 default={})
+                
+                actions.append({
+                    'priority': 'IMMEDIATE',
+                    'timeline': 'Next 24 hours',
+                    'action': f"Contact {lead.get('name', 'Unknown')}",
+                    'approach': lead.get('next_action', 'Technical demonstration call'),
+                    'talking_points': [
+                        f"We identified ${primary_pain.get('monthly_cost', 0):,.0f}/month loss from {primary_pain.get('category', 'technical')} issues",
+                        f"Specific problem: {primary_pain.get('description', 'Performance optimization needed')}",
+                        f"Our solution: {primary_pain.get('solution_fit', 'Direct technical optimization')}"
+                    ],
+                    'expected_outcome': f"${lead.get('annual_opportunity', 0):,.0f} annual opportunity"
+                })
+        
+        # Warm lead nurture actions
+        warm_leads = [l for l in leads if l.get('commercial_urgency') == 'warm']
+        if warm_leads:
+            total_warm_opportunity = sum(l.get('annual_opportunity', 0) for l in warm_leads)
+            actions.append({
+                'priority': 'HIGH',
+                'timeline': 'Next 3-5 days',
+                'action': f"Nurture {len(warm_leads)} warm leads",
+                'approach': 'Technical audit offer with specific pain point analysis',
+                'talking_points': [
+                    "Free technical audit focusing on revenue impact",
+                    "Benchmark against industry performance standards",
+                    "ROI calculation for optimization improvements"
+                ],
+                'expected_outcome': f"${total_warm_opportunity:,.0f} annual pipeline value"
+            })
+        
+        # Strategic market intelligence action
+        pain_categories = {}
+        for lead in leads:
+            for pain_point in lead.get('pain_points', []):
+                category = pain_point.get('category', 'unknown')
+                pain_categories[category] = pain_categories.get(category, 0) + 1
+        
+        if pain_categories:
+            top_category = max(pain_categories.items(), key=lambda x: x[1])
+            actions.append({
+                'priority': 'STRATEGIC',
+                'timeline': 'Next 1-2 weeks',
+                'action': f"Develop {top_category[0]} specialization",
+                'approach': 'Create targeted content and case studies',
+                'talking_points': [
+                    f"{top_category[0]} optimization is market's #1 pain point",
+                    f"{top_category[1]} prospects identified with this issue",
+                    "Opportunity to become category specialist"
+                ],
+                'expected_outcome': 'Market positioning and competitive advantage'
+            })
+        
+        return actions
         """Get prioritized search targets based on S-tier market analysis"""
         return [
             SearchTarget(
