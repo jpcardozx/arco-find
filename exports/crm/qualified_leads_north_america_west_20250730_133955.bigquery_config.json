@@ -1,0 +1,24 @@
+{
+  "source_csv": "exports\\crm\\qualified_leads_north_america_west_20250730_133955.csv",
+  "enrichment_fields": [
+    "website_performance_score",
+    "mobile_performance_score",
+    "seo_authority_score",
+    "social_media_presence",
+    "technology_stack",
+    "estimated_monthly_traffic",
+    "competitor_analysis",
+    "local_search_ranking",
+    "review_score_aggregate",
+    "business_registration_data"
+  ],
+  "bigquery_tables": [
+    "prospects_enriched",
+    "website_performance_metrics",
+    "competitive_intelligence",
+    "local_market_data"
+  ],
+  "matching_strategy": "domain_based",
+  "confidence_threshold": 0.7,
+  "update_strategy": "append_new_enrich_existing"
+}

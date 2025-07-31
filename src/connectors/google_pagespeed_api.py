@@ -1,8 +1,6 @@
 # src/connectors/google_pagespeed_api.py
 
 import requests
-from src.config.arco_config_manager import ARCOConfigManager
-from src.utils.logger import logger
 
 class GooglePageSpeedAPI:
     BASE_URL = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed"
@@ -11,11 +9,8 @@ class GooglePageSpeedAPI:
         if api_key:
             self.api_key = api_key
         else:
-            self.config = ARCOConfigManager().get_config()
-            self.api_key = self.config.get('pagespeed_key')
-            if not self.api_key:
-                logger.error("GOOGLE_PAGESPEED_API_KEY não configurada no .env")
-                raise ValueError("GOOGLE_PAGESPEED_API_KEY é necessária para usar a API PageSpeed.")
+            print("❌ GOOGLE_PAGESPEED_API_KEY não configurada")
+            raise ValueError("GOOGLE_PAGESPEED_API_KEY é necessária para usar a API PageSpeed.")
 
     def analyze_url(self, url: str, strategy: str = "mobile") -> dict:
         """
@@ -41,7 +36,7 @@ class GooglePageSpeedAPI:
         }
         
         try:
-            logger.info(f"Consultando PageSpeed Insights para URL: {url} com estratégia: {strategy}")
+            print("Consultando PageSpeed Insights para URL: {url} com estratégia: {strategy}")
             response = requests.get(self.BASE_URL, params=params)
             response.raise_for_status() # Levanta um HTTPError para códigos de status de erro (4xx ou 5xx)
             data = response.json()
@@ -52,13 +47,13 @@ class GooglePageSpeedAPI:
             if performance_score is not None:
                 performance_score = int(performance_score * 100)
 
-            logger.info(f"PageSpeed Insights para {url} ({strategy}): Score = {performance_score}")
+            print("PageSpeed Insights para {url} ({strategy}): Score = {performance_score}")
             return {"score": performance_score, "full_results": data}
         except requests.exceptions.RequestException as e:
-            logger.error(f"Erro ao consultar PageSpeed Insights para {url}: {e}")
+            print("Erro ao consultar PageSpeed Insights para {url}: {e}")
             return {"error": str(e)}
         except Exception as e:
-            logger.error(f"Erro inesperado ao processar resposta da PageSpeed Insights para {url}: {e}")
+            print("Erro inesperado ao processar resposta da PageSpeed Insights para {url}: {e}")
             return {"error": str(e)}
 
 # Exemplo de uso (para teste interno)
@@ -76,18 +71,18 @@ if __name__ == "__main__":
         # Teste para desktop
         desktop_results = pagespeed_api.get_page_speed_score(test_url, strategy="desktop")
         if desktop_results.get("score") is not None:
-            logger.info(f"Score de Performance Desktop para {test_url}: {desktop_results['score']}")
+            print("Score de Performance Desktop para {test_url}: {desktop_results['score']}")
         else:
-            logger.error(f"Não foi possível obter o score desktop: {desktop_results.get('error')}")
+            print("Não foi possível obter o score desktop: {desktop_results.get('error')}")
 
         # Teste para mobile
         mobile_results = pagespeed_api.get_page_speed_score(test_url, strategy="mobile")
         if mobile_results.get("score") is not None:
-            logger.info(f"Score de Performance Mobile para {test_url}: {mobile_results['score']}")
+            print("Score de Performance Mobile para {test_url}: {mobile_results['score']}")
         else:
-            logger.error(f"Não foi possível obter o score mobile: {mobile_results.get('error')}")
+            print("Não foi possível obter o score mobile: {mobile_results.get('error')}")
 
     except ValueError as e:
-        logger.error(f"Erro de configuração: {e}")
+        print("Erro de configuração: {e}")
     except Exception as e:
-        logger.error(f"Erro geral: {e}")
+        print("Erro geral: {e}")

@@ -1,0 +1,33 @@
+🎯 CRM EXPORT SUMMARY - NORTH AMERICA WEST COAST
+============================================================
+
+📊 LEAD DISTRIBUTION:
+   🔥 Tier 1 (Immediate): 9 prospects
+   ⚡ Tier 2 (Priority):  1 prospects
+   📈 Tier 3 (Pipeline):  0 prospects
+   📋 Total:              10 prospects
+
+🌍 MARKET DISTRIBUTION:
+   Canada: 10 prospects (100.0%)
+
+🏢 BUSINESS TYPE DISTRIBUTION:
+   Dental: 10 prospects (100.0%)
+
+💰 PIPELINE VALUE:
+   Total Monthly Opportunity: $1,730
+   Average per Prospect: $173
+
+📅 FOLLOW-UP SCHEDULE:
+   Tomorrow: 9 immediate prospects
+   48h: 1 priority prospects
+   7 days: 0 pipeline prospects
+
+🔧 BIGQUERY ENRICHMENT:
+   Ready for enrichment: 10 domains
+   Status: pending
+   Next step: Run BigQuery enrichment pipeline
+
+📁 FILES GENERATED:
+   CRM CSV: qualified_leads_north_america_west_20250730_133955.csv
+   Summary: qualified_leads_north_america_west_20250730_133955.summary.txt
+   Export timestamp: 2025-07-30 13:39:56

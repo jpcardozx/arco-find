@@ -6,12 +6,9 @@ Connector real para SearchAPI Meta Ads Library sem simulações
 
 import asyncio
 import aiohttp
-import logging
 from typing import Dict, List, Optional
 from dataclasses import dataclass
 from datetime import datetime
-
-logger = logging.getLogger(__name__)
 
 @dataclass
 class MetaAdData:
@@ -37,7 +34,7 @@ class SearchAPIConnector:
         # Default API key if not provided
         if api_key is None:
             try:
-                from config.api_keys import APIConfig
+                from src.utils.logger_fixed import setup_logger
                 api_config = APIConfig()
                 api_key = api_config.SEARCH_API_KEY
             except:
@@ -82,7 +79,7 @@ class SearchAPIConnector:
                 'limit': limit
             }
             
-            logger.info(f"🔍 Searching Meta Ads: '{query}' in {countries}")
+            print("🔍 Searching Meta Ads: '{query}' in {countries}")
             
             async with session.get(self.base_url, params=params, timeout=30) as response:
                 if response.status == 200:
@@ -106,27 +103,27 @@ class SearchAPIConnector:
                             )
                             parsed_ads.append(meta_ad)
                         except Exception as e:
-                            logger.warning(f"⚠️ Error parsing ad: {e}")
+                            print("⚠️ Error parsing ad: {e}")
                             continue
                     
-                    logger.info(f"✅ Found {len(parsed_ads)} real Meta ads")
+                    print("✅ Found {len(parsed_ads)} real Meta ads")
                     return parsed_ads
                     
                 elif response.status == 400:
-                    logger.warning(f"⚠️ SearchAPI 400: Check query parameters")
+                    print("⚠️ SearchAPI 400: Check query parameters")
                     return []
                 elif response.status == 401:
-                    logger.error(f"❌ SearchAPI 401: Invalid API key")
+                    print("❌ SearchAPI 401: Invalid API key")
                     return []
                 else:
-                    logger.error(f"❌ SearchAPI error {response.status}")
+                    print("❌ SearchAPI error {response.status}")
                     return []
                     
         except asyncio.TimeoutError:
-            logger.error("❌ SearchAPI timeout")
+            print("❌ SearchAPI timeout")
             return []
         except Exception as e:
-            logger.error(f"❌ SearchAPI error: {e}")
+            print("❌ SearchAPI error: {e}")
             return []
     
     async def discover_competitors(self, 
@@ -222,14 +219,14 @@ class SearchAPIConnector:
                         if company_info['name'] and company_info['website']:
                             companies.append(company_info)
                     
-                    logger.info(f"✅ Found {len(companies)} companies for query: {query}")
+                    print("✅ Found {len(companies)} companies for query: {query}")
                     return companies
                 else:
-                    logger.warning(f"⚠️ SearchAPI error {response.status} for query: {query}")
+                    print("⚠️ SearchAPI error {response.status} for query: {query}")
                     return []
                     
         except Exception as e:
-            logger.error(f"❌ Company search error: {e}")
+            print("❌ Company search error: {e}")
             return []
     
     async def discover_strategic_prospects(self, target, max_results: int = 10) -> List[Dict]:
@@ -256,7 +253,7 @@ class SearchAPIConnector:
             # Combine query
             strategic_query = " ".join(query_parts) if query_parts else "business marketing"
             
-            logger.info(f"🎯 Strategic prospect search: {strategic_query}")
+            print("🎯 Strategic prospect search: {strategic_query}")
             
             # Use existing search_companies method
             prospects = await self.search_companies(strategic_query, max_results)
@@ -275,11 +272,11 @@ class SearchAPIConnector:
             # Sort by strategic score
             enhanced_prospects.sort(key=lambda x: x.get('strategic_score', 0), reverse=True)
             
-            logger.info(f"✅ Discovered {len(enhanced_prospects)} strategic prospects")
+            print("✅ Discovered {len(enhanced_prospects)} strategic prospects")
             return enhanced_prospects
             
         except Exception as e:
-            logger.error(f"❌ Strategic prospect discovery error: {e}")
+            print("❌ Strategic prospect discovery error: {e}")
             return []
     
     def _calculate_strategic_score(self, prospect: Dict, target) -> int:
@@ -328,14 +325,14 @@ class SearchAPIConnector:
             
             if response.status_code == 200:
                 data = response.json()
-                logger.info(f"✅ SearchAPI: Encontrados anúncios para {page_name}")
+                print("✅ SearchAPI: Encontrados anúncios para {page_name}")
                 return data
             else:
-                logger.warning(f"⚠️ SearchAPI erro {response.status_code} para {page_name}")
+                print("⚠️ SearchAPI erro {response.status_code} para {page_name}")
                 return {"data": []}
                 
         except Exception as e:
-            logger.error(f"❌ Erro na busca SearchAPI: {e}")
+            print("❌ Erro na busca SearchAPI: {e}")
             return {"data": []}
     
     async def close(self):
