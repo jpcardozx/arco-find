@@ -148,6 +148,9 @@ class PerformanceMonitor:
 cost_tracker = CostTracker()
 performance_monitor = PerformanceMonitor()
 
+# Default logger instance
+logger = setup_logger(__name__)
+
 def get_system_stats() -> Dict:
     """Get current system performance and cost statistics"""
     today = datetime.now().strftime('%Y-%m-%d')
