@@ -1,0 +1,34 @@
+{
+  "execution_summary": {
+    "execution_id": "a8b5c39b-e76d-4006-8fbe-932bb420dbff",
+    "timestamp": "20250806_222305",
+    "status": "completed",
+    "total_execution_time_seconds": 0
+  },
+  "performance_metrics": {
+    "execution_id": "a8b5c39b-e76d-4006-8fbe-932bb420dbff",
+    "total_leads_discovered": 1,
+    "total_leads_qualified": 0,
+    "total_credits_used": 0,
+    "total_api_calls": 0,
+    "avg_processing_time_ms": 28.145,
+    "qualification_rate": 0.0,
+    "cost_per_lead": 0,
+    "errors_count": 0,
+    "warnings_count": 0,
+    "cache_hit_rate": 0.0
+  },
+  "lead_analysis": {
+    "total_discovered": 1,
+    "total_qualified": 0,
+    "total_rejected": 1,
+    "qualification_rate": 0.0,
+    "avg_score": 0
+  },
+  "quality_insights": [
+    "Tempo de processamento otimizado"
+  ],
+  "recommendations": [
+    "Considere ajustar critérios de targeting"
+  ]
+}

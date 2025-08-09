@@ -1,0 +1,86 @@
+[
+  {
+    "domain": "sydneyplumbingpros.com.au",
+    "advertiser_name": "Sydney Plumbing Professionals",
+    "vertical": "hvac_plumbing",
+    "location": "Sydney",
+    "score": 0,
+    "confidence": 0.0,
+    "gate_status": "fail_vertical",
+    "discovered_at": "2025-08-06T22:32:23.590486",
+    "qualified": false,
+    "evidence": {
+      "ads": [
+        {
+          "title": "24/7 Emergency Plumber Sydney | 30min Response",
+          "description": "Licensed plumbers across Sydney. Emergency repairs, blocked drains.",
+          "link": "https://sydneyplumbingpros.com.au/emergency",
+          "keyword": "emergency plumber sydney",
+          "position": 1
+        }
+      ],
+      "funnel": {
+        "friction_score": 0.7,
+        "has_click_to_call": false,
+        "click_depth_to_contact": 2,
+        "form_fields_count": 5
+      }
+    }
+  },
+  {
+    "domain": "melbourneplumbingexperts.com.au",
+    "advertiser_name": "Melbourne Plumbing Experts",
+    "vertical": "hvac_plumbing",
+    "location": "Melbourne",
+    "score": 0,
+    "confidence": 0.0,
+    "gate_status": "fail_vertical",
+    "discovered_at": "2025-08-06T22:32:23.590486",
+    "qualified": false,
+    "evidence": {
+      "ads": [
+        {
+          "title": "Melbourne Plumber | Hot Water & Blocked Drains",
+          "description": "Fast response plumbing services. Licensed & insured.",
+          "link": "https://melbourneplumbingexperts.com.au/services",
+          "keyword": "plumber melbourne",
+          "position": 1
+        }
+      ],
+      "funnel": {
+        "friction_score": 0.4,
+        "has_click_to_call": true,
+        "click_depth_to_contact": 3,
+        "form_fields_count": 4
+      }
+    }
+  },
+  {
+    "domain": "brisbanehvacpros.com.au",
+    "advertiser_name": "Brisbane HVAC Professionals",
+    "vertical": "hvac_plumbing",
+    "location": "Brisbane",
+    "score": 0,
+    "confidence": 0.0,
+    "gate_status": "fail_vertical",
+    "discovered_at": "2025-08-06T22:32:23.590486",
+    "qualified": false,
+    "evidence": {
+      "ads": [
+        {
+          "title": "Brisbane Air Conditioning | Installation & Repair",
+          "description": "Professional HVAC services. Same day service available.",
+          "link": "https://brisbanehvacpros.com.au/aircon",
+          "keyword": "air conditioning brisbane",
+          "position": 1
+        }
+      ],
+      "funnel": {
+        "friction_score": 0.7,
+        "has_click_to_call": false,
+        "click_depth_to_contact": 3,
+        "form_fields_count": 6
+      }
+    }
+  }
+]

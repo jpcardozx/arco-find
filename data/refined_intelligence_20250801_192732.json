@@ -1,0 +1,25 @@
+{
+  "execution_summary": {
+    "qualified_intelligence_count": 0,
+    "unique_prospects_analyzed": 2,
+    "raw_prospects_collected": 3,
+    "qualification_rate": 0.0,
+    "deduplication_rate": 0.3333333333333333,
+    "execution_time_seconds": 14.913695,
+    "timestamp": "2025-08-01T19:27:32.059959",
+    "engine_version": "5.0 Production Ready",
+    "methodology": "Advanced Semantic Analysis + Validated Scoring"
+  },
+  "qualified_intelligence": [],
+  "analytics": {},
+  "configuration": {
+    "min_intelligence_score": 60.0,
+    "min_confidence_level": 0.6,
+    "scoring_weights": {
+      "semantic_analysis": 0.35,
+      "competitive_context": 0.25,
+      "spend_intelligence": 0.25,
+      "market_opportunity": 0.15
+    }
+  }
+}

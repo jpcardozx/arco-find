@@ -1,0 +1,589 @@
+{
+  "execution_summary": {
+    "total_opportunities": 14,
+    "execution_time_seconds": 17.017931,
+    "timestamp": "2025-08-05T21:56:06.385838",
+    "methodology": "Critical Pain Signal Analysis V2.0",
+    "total_revenue_potential": 700.0
+  },
+  "critical_opportunities": [
+    {
+      "business_profile": {
+        "company_name": "Mist HVAC Solutions Pty Ltd",
+        "page_id": "AR10202586887709786113",
+        "city": "Melbourne",
+        "vertical": "hvac_emergency",
+        "fingerprint": "acdc0689313a"
+      },
+      "pain_analysis": {
+        "primary_pain": "booking_absence",
+        "pain_intensity": 0.5,
+        "opportunity_type": "medium_impact_optimization",
+        "monthly_waste_estimate": 140.0,
+        "implementation_effort": "HIGH",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 7.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "INVESTIGAR: Mist HVAC Solutions Pty Ltd tem baixo volume de ads - pode indicar dependência de phone",
+        "AUDIT: Verificar se website tem sistema de booking online",
+        "BENCHMARK: Comparar com competitors que têm booking systems",
+        "LOW AD VOLUME: Mist HVAC Solutions Pty Ltd tem apenas 7 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:02.996923"
+    },
+    {
+      "business_profile": {
+        "company_name": "AirHeads HVAC",
+        "page_id": "AR15117536423739129857",
+        "city": "Melbourne",
+        "vertical": "hvac_emergency",
+        "fingerprint": "20bacfc7ab42"
+      },
+      "pain_analysis": {
+        "primary_pain": "booking_absence",
+        "pain_intensity": 0.5,
+        "opportunity_type": "medium_impact_optimization",
+        "monthly_waste_estimate": 140.0,
+        "implementation_effort": "HIGH",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 6.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "INVESTIGAR: AirHeads HVAC tem baixo volume de ads - pode indicar dependência de phone",
+        "AUDIT: Verificar se website tem sistema de booking online",
+        "BENCHMARK: Comparar com competitors que têm booking systems",
+        "LOW AD VOLUME: AirHeads HVAC tem apenas 6 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:02.996923"
+    },
+    {
+      "business_profile": {
+        "company_name": "Eco HVAC Solutions Pty Ltd",
+        "page_id": "AR15463441149749886977",
+        "city": "Melbourne",
+        "vertical": "hvac_emergency",
+        "fingerprint": "a9f5bc678952"
+      },
+      "pain_analysis": {
+        "primary_pain": "booking_absence",
+        "pain_intensity": 0.5,
+        "opportunity_type": "medium_impact_optimization",
+        "monthly_waste_estimate": 140.0,
+        "implementation_effort": "HIGH",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 6.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "INVESTIGAR: Eco HVAC Solutions Pty Ltd tem baixo volume de ads - pode indicar dependência de phone",
+        "AUDIT: Verificar se website tem sistema de booking online",
+        "BENCHMARK: Comparar com competitors que têm booking systems",
+        "LOW AD VOLUME: Eco HVAC Solutions Pty Ltd tem apenas 6 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:02.996923"
+    },
+    {
+      "business_profile": {
+        "company_name": "Mist HVAC Solutions Pty Ltd",
+        "page_id": "AR10202586887709786113",
+        "city": "Sydney",
+        "vertical": "hvac_emergency",
+        "fingerprint": "7aee8c086639"
+      },
+      "pain_analysis": {
+        "primary_pain": "booking_absence",
+        "pain_intensity": 0.5,
+        "opportunity_type": "medium_impact_optimization",
+        "monthly_waste_estimate": 140.0,
+        "implementation_effort": "HIGH",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "sydney_metro",
+        "cpc_multiplier": 1.5,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 7.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "INVESTIGAR: Mist HVAC Solutions Pty Ltd tem baixo volume de ads - pode indicar dependência de phone",
+        "AUDIT: Verificar se website tem sistema de booking online",
+        "BENCHMARK: Comparar com competitors que têm booking systems",
+        "LOW AD VOLUME: Mist HVAC Solutions Pty Ltd tem apenas 7 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:03.733336"
+    },
+    {
+      "business_profile": {
+        "company_name": "AirHeads HVAC",
+        "page_id": "AR15117536423739129857",
+        "city": "Sydney",
+        "vertical": "hvac_emergency",
+        "fingerprint": "8dd03f7a7300"
+      },
+      "pain_analysis": {
+        "primary_pain": "booking_absence",
+        "pain_intensity": 0.5,
+        "opportunity_type": "medium_impact_optimization",
+        "monthly_waste_estimate": 140.0,
+        "implementation_effort": "HIGH",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "sydney_metro",
+        "cpc_multiplier": 1.5,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 6.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "INVESTIGAR: AirHeads HVAC tem baixo volume de ads - pode indicar dependência de phone",
+        "AUDIT: Verificar se website tem sistema de booking online",
+        "BENCHMARK: Comparar com competitors que têm booking systems",
+        "LOW AD VOLUME: AirHeads HVAC tem apenas 6 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:03.733336"
+    },
+    {
+      "business_profile": {
+        "company_name": "Eco HVAC Solutions Pty Ltd",
+        "page_id": "AR15463441149749886977",
+        "city": "Sydney",
+        "vertical": "hvac_emergency",
+        "fingerprint": "799c8cd5e09e"
+      },
+      "pain_analysis": {
+        "primary_pain": "booking_absence",
+        "pain_intensity": 0.5,
+        "opportunity_type": "medium_impact_optimization",
+        "monthly_waste_estimate": 140.0,
+        "implementation_effort": "HIGH",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "sydney_metro",
+        "cpc_multiplier": 1.5,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 6.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "INVESTIGAR: Eco HVAC Solutions Pty Ltd tem baixo volume de ads - pode indicar dependência de phone",
+        "AUDIT: Verificar se website tem sistema de booking online",
+        "BENCHMARK: Comparar com competitors que têm booking systems",
+        "LOW AD VOLUME: Eco HVAC Solutions Pty Ltd tem apenas 6 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:03.734352"
+    },
+    {
+      "business_profile": {
+        "company_name": "Sykes Roofing",
+        "page_id": "AR03725246034578767873",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "da5e9dc77aa7"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 120.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 60.0,
+        "estimated_monthly_spend_aud": 1800.0,
+        "ads_count": 49.0,
+        "spend_tier": "REGULAR_SPENDER",
+        "data_quality": 0.8,
+        "confidence": 0.4,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: Sykes Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.257010"
+    },
+    {
+      "business_profile": {
+        "company_name": "ACR Roofing",
+        "page_id": "AR12764815736275206145",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "e16fe0b766fc"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 120.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 60.0,
+        "estimated_monthly_spend_aud": 1800.0,
+        "ads_count": 31.0,
+        "spend_tier": "REGULAR_SPENDER",
+        "data_quality": 0.8,
+        "confidence": 0.4,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: ACR Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.258064"
+    },
+    {
+      "business_profile": {
+        "company_name": "SHM Roofing",
+        "page_id": "AR12088648520785985537",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "6dee435aba25"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 120.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 60.0,
+        "estimated_monthly_spend_aud": 1800.0,
+        "ads_count": 25.0,
+        "spend_tier": "REGULAR_SPENDER",
+        "data_quality": 0.8,
+        "confidence": 0.4,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: SHM Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.258064"
+    },
+    {
+      "business_profile": {
+        "company_name": "Jay's Roofing",
+        "page_id": "AR16746548456037810177",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "688748b135a4"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 120.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 60.0,
+        "estimated_monthly_spend_aud": 1800.0,
+        "ads_count": 18.0,
+        "spend_tier": "REGULAR_SPENDER",
+        "data_quality": 0.8,
+        "confidence": 0.4,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: Jay's Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.258064"
+    },
+    {
+      "business_profile": {
+        "company_name": "ZHF Roofing",
+        "page_id": "AR03324136977221025793",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "80a2df2d33b2"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 120.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 60.0,
+        "estimated_monthly_spend_aud": 1800.0,
+        "ads_count": 16.0,
+        "spend_tier": "REGULAR_SPENDER",
+        "data_quality": 0.8,
+        "confidence": 0.4,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: ZHF Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.258064"
+    },
+    {
+      "business_profile": {
+        "company_name": "KWR Roofing",
+        "page_id": "AR02510534192694034433",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "f14e5d17f97c"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 48.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 7.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: KWR Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition",
+        "LOW AD VOLUME: KWR Roofing tem apenas 7 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.259250"
+    },
+    {
+      "business_profile": {
+        "company_name": "SWKN Roofing",
+        "page_id": "AR16021051428030119937",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "4f324b47e355"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 48.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 6.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: SWKN Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition",
+        "LOW AD VOLUME: SWKN Roofing tem apenas 6 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.259250"
+    },
+    {
+      "business_profile": {
+        "company_name": "Recon Roofing",
+        "page_id": "AR15455453713170169857",
+        "city": "Melbourne",
+        "vertical": "roofing_repair",
+        "fingerprint": "20f53df9d4b5"
+      },
+      "pain_analysis": {
+        "primary_pain": "local_competition",
+        "pain_intensity": 0.4,
+        "opportunity_type": "low_impact_refinement",
+        "monthly_waste_estimate": 48.0,
+        "implementation_effort": "MEDIUM",
+        "confidence": 0.3
+      },
+      "competitive_context": {
+        "zone": "melbourne_metro",
+        "cpc_multiplier": 1.4,
+        "market_saturation": "high",
+        "competition_intensity": 0.7
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_aud": 25.0,
+        "estimated_monthly_spend_aud": 750.0,
+        "ads_count": 6.0,
+        "spend_tier": "SMALL_SPENDER",
+        "data_quality": 0.7,
+        "confidence": 0.3,
+        "data_source": "google_ads_transparency_center_real_data"
+      },
+      "actionable_insights": [
+        "POSITIONING AUDIT: Recon Roofing não tem diferenciação clara",
+        "RESEARCH: Identificar specialized credentials ou certifications",
+        "STRATEGY: Desenvolver unique selling proposition",
+        "LOW AD VOLUME: Recon Roofing tem apenas 6 ads - pode indicar budget limitado ou estratégia conservadora"
+      ],
+      "revenue_potential": 50.0,
+      "analysis_timestamp": "2025-08-05T21:56:05.259250"
+    }
+  ],
+  "analytics": {
+    "pain_signal_distribution": {
+      "booking_absence": 6,
+      "local_competition": 8
+    },
+    "vertical_distribution": {
+      "hvac_emergency": 6,
+      "roofing_repair": 8
+    },
+    "opportunity_type_distribution": {
+      "medium_impact_optimization": 6,
+      "low_impact_refinement": 8
+    },
+    "revenue_metrics": {
+      "total_monthly_potential": 700.0,
+      "average_per_opportunity": 50.0,
+      "high_impact_count": 0
+    },
+    "quality_metrics": {
+      "avg_confidence": 0.29999999999999993,
+      "high_confidence_count": 0
+    }
+  }
+}

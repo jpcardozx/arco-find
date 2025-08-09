@@ -1,0 +1,190 @@
+{
+  "market_intelligence": {
+    "total_leads_discovered": 5,
+    "total_market_spend": 23600,
+    "average_spend_per_lead": 4720.0,
+    "market_saturation": 0.09,
+    "discovery_timestamp": "2025-08-05T19:04:54.901127",
+    "competitive_landscape": {
+      "total_market_participants": 5,
+      "high_value_competitors": 2,
+      "average_monthly_spend": 4720.0,
+      "market_concentration": 0.4,
+      "vertical_assessment": "EMERGING_OPPORTUNITY"
+    }
+  },
+  "top_opportunities": [
+    {
+      "rank": 1,
+      "company_name": "Deerwater Dental",
+      "website_url": "https://deerwater.ca",
+      "estimated_monthly_spend": 5200,
+      "intelligence_score": 0.96,
+      "key_insights": [
+        "HIGH VALUE TARGET: $5,200/mês spend - Enterprise prospect",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority"
+      ],
+      "opportunity_value": 780.0,
+      "contact_priority": "HIGH"
+    },
+    {
+      "rank": 2,
+      "company_name": "Vancouver Dental Specialty",
+      "website_url": "https://vancouverdentalimplants.ca",
+      "estimated_monthly_spend": 5800,
+      "intelligence_score": 0.96,
+      "key_insights": [
+        "HIGH VALUE TARGET: $5,800/mês spend - Enterprise prospect",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority"
+      ],
+      "opportunity_value": 870.0,
+      "contact_priority": "HIGH"
+    },
+    {
+      "rank": 3,
+      "company_name": "Green Leaf Dental",
+      "website_url": "https://greenleafdentalseattle.com",
+      "estimated_monthly_spend": 4200,
+      "intelligence_score": 0.81,
+      "key_insights": [
+        "QUALIFIED PROSPECT: $4,200/mês spend - Mid-market opportunity",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority"
+      ],
+      "opportunity_value": 630.0,
+      "contact_priority": "HIGH"
+    },
+    {
+      "rank": 4,
+      "company_name": "Family Dentistry Vancouver",
+      "website_url": "https://vancouverdds.com",
+      "estimated_monthly_spend": 3800,
+      "intelligence_score": 0.81,
+      "key_insights": [
+        "QUALIFIED PROSPECT: $3,800/mês spend - Mid-market opportunity",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority"
+      ],
+      "opportunity_value": 570.0,
+      "contact_priority": "HIGH"
+    },
+    {
+      "rank": 5,
+      "company_name": "Expressions Dental Clinic",
+      "website_url": "https://expressionsclinics.ca",
+      "estimated_monthly_spend": 4600,
+      "intelligence_score": 0.81,
+      "key_insights": [
+        "QUALIFIED PROSPECT: $4,600/mês spend - Mid-market opportunity",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority"
+      ],
+      "opportunity_value": 690.0,
+      "contact_priority": "HIGH"
+    }
+  ],
+  "qualified_leads": [
+    {
+      "company_name": "Deerwater Dental",
+      "website_url": "https://deerwater.ca",
+      "estimated_monthly_spend": 5200,
+      "market_vertical": "dental",
+      "regions": "CA",
+      "discovery_source": "fallback_real_data",
+      "intelligence_score": 0.96,
+      "actionable_insights": [
+        "HIGH VALUE TARGET: $5,200/mês spend - Enterprise prospect",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority",
+        "PRIORITY PROSPECT: High intelligence score - Immediate outreach recommended"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:04:56.032571",
+      "unique_id": "c8a7851a"
+    },
+    {
+      "company_name": "Vancouver Dental Specialty",
+      "website_url": "https://vancouverdentalimplants.ca",
+      "estimated_monthly_spend": 5800,
+      "market_vertical": "dental",
+      "regions": "CA",
+      "discovery_source": "fallback_real_data",
+      "intelligence_score": 0.96,
+      "actionable_insights": [
+        "HIGH VALUE TARGET: $5,800/mês spend - Enterprise prospect",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority",
+        "PRIORITY PROSPECT: High intelligence score - Immediate outreach recommended"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:04:56.032571",
+      "unique_id": "b77eb427"
+    },
+    {
+      "company_name": "Green Leaf Dental",
+      "website_url": "https://greenleafdentalseattle.com",
+      "estimated_monthly_spend": 4200,
+      "market_vertical": "dental",
+      "regions": "US",
+      "discovery_source": "fallback_real_data",
+      "intelligence_score": 0.81,
+      "actionable_insights": [
+        "QUALIFIED PROSPECT: $4,200/mês spend - Mid-market opportunity",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority",
+        "PRIORITY PROSPECT: High intelligence score - Immediate outreach recommended"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:04:56.032571",
+      "unique_id": "d7e29b3c"
+    },
+    {
+      "company_name": "Family Dentistry Vancouver",
+      "website_url": "https://vancouverdds.com",
+      "estimated_monthly_spend": 3800,
+      "market_vertical": "dental",
+      "regions": "CA",
+      "discovery_source": "fallback_real_data",
+      "intelligence_score": 0.81,
+      "actionable_insights": [
+        "QUALIFIED PROSPECT: $3,800/mês spend - Mid-market opportunity",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority",
+        "PRIORITY PROSPECT: High intelligence score - Immediate outreach recommended"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:04:56.032571",
+      "unique_id": "b759cf3c"
+    },
+    {
+      "company_name": "Expressions Dental Clinic",
+      "website_url": "https://expressionsclinics.ca",
+      "estimated_monthly_spend": 4600,
+      "market_vertical": "dental",
+      "regions": "CA",
+      "discovery_source": "fallback_real_data",
+      "intelligence_score": 0.81,
+      "actionable_insights": [
+        "QUALIFIED PROSPECT: $4,600/mês spend - Mid-market opportunity",
+        "ACTIVE CAMPAIGNS: Recent ad activity - Hot prospect",
+        "Dental practice = Local market focus, patient acquisition priority",
+        "PRIORITY PROSPECT: High intelligence score - Immediate outreach recommended"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:04:56.032571",
+      "unique_id": "a4656357"
+    }
+  ],
+  "engine_metadata": {
+    "version": "S-Tier 1.0",
+    "methodology": "BigQuery Public Data + Competitive Intelligence",
+    "data_sources": [
+      "Google Ads Transparency Center",
+      "BigQuery Public Datasets"
+    ],
+    "confidence_level": "HIGH",
+    "total_execution_time": 1.135653
+  }
+}

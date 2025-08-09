@@ -1,0 +1,8 @@
+domain,company_name,vertical,location,score,confidence,mobile_optimized,click_to_call,friction_score
+sydneyplumbingpros.com.au,Sydney Plumbing Professionals,hvac_plumbing,Sydney,66,0.7888888888888889,False,False,0.7
+melbourneplumbingexperts.com.au,Melbourne Plumbing Experts,hvac_plumbing,Melbourne,55,0.7888888888888889,False,True,0.4
+brisbanehvacpros.com.au,Brisbane HVAC Professionals,hvac_plumbing,Brisbane,66,0.7888888888888889,False,False,0.7
+melbourneroofingexperts.com.au,Melbourne Roofing Experts,roofing,Melbourne,59,0.7888888888888889,False,True,0.4
+sydneyroofingpros.com.au,Sydney Roofing Professionals,roofing,Sydney,69,0.7888888888888889,False,False,0.7
+brisbanesparkies.com.au,Brisbane Sparkies,electrical,Brisbane,73,0.7888888888888889,False,False,0.7
+perthpestcontrol.com.au,Perth Pest Control,pest_control,Perth,62,0.7888888888888889,False,True,0.4

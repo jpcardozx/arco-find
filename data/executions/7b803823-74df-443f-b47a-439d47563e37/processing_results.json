@@ -1,0 +1,72 @@
+[
+  {
+    "lead_id": "sydneyplumbingpros.com.au_098e1cfa",
+    "domain": "sydneyplumbingpros.com.au",
+    "status": "qualified",
+    "score": 66,
+    "confidence": 0.7888888888888889,
+    "processing_time_ms": 0.9840000000000001,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "melbourneplumbingexperts.com.au_2ea19447",
+    "domain": "melbourneplumbingexperts.com.au",
+    "status": "qualified",
+    "score": 55,
+    "confidence": 0.7888888888888889,
+    "processing_time_ms": 0.988,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "brisbanehvacpros.com.au_433dde9f",
+    "domain": "brisbanehvacpros.com.au",
+    "status": "qualified",
+    "score": 66,
+    "confidence": 0.7888888888888889,
+    "processing_time_ms": 2.0100000000000002,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "melbourneroofingexperts.com.au_adb5424b",
+    "domain": "melbourneroofingexperts.com.au",
+    "status": "qualified",
+    "score": 59,
+    "confidence": 0.7888888888888889,
+    "processing_time_ms": 0.0,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "sydneyroofingpros.com.au_a82c00f0",
+    "domain": "sydneyroofingpros.com.au",
+    "status": "qualified",
+    "score": 69,
+    "confidence": 0.7888888888888889,
+    "processing_time_ms": 0.0,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "brisbanesparkies.com.au_489cd6e8",
+    "domain": "brisbanesparkies.com.au",
+    "status": "qualified",
+    "score": 73,
+    "confidence": 0.7888888888888889,
+    "processing_time_ms": 0.0,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "perthpestcontrol.com.au_79558876",
+    "domain": "perthpestcontrol.com.au",
+    "status": "qualified",
+    "score": 62,
+    "confidence": 0.7888888888888889,
+    "processing_time_ms": 0.0,
+    "error_message": null,
+    "qualification_reasons": []
+  }
+]

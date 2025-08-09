@@ -1,0 +1,3 @@
+# CONFIG/
+
+Configuration and settings

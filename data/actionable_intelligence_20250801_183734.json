@@ -1,0 +1,711 @@
+{
+  "summary": {
+    "total_leads_enriched": 8,
+    "timestamp": "2025-08-01T18:37:34.969105",
+    "pipeline_version": "1.0_real_data",
+    "data_quality": "production_ready"
+  },
+  "enriched_leads": [
+    {
+      "company": "advantageautoglassrepair",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 2340.0000000000005,
+      "qualification_score": 99,
+      "business_intel": {
+        "revenue_estimate": "CAD $336,960/year",
+        "employee_count_estimate": "5-15",
+        "service_areas": [
+          "general_service"
+        ],
+        "peak_seasons": [
+          "Winter (road conditions)",
+          "Summer (travel season)"
+        ],
+        "technology_stack": [
+          "booking_system",
+          "mobile_app"
+        ],
+        "digital_maturity_score": 2
+      },
+      "decision_maker": {
+        "likely_role": "Business Owner or Marketing Director",
+        "business_challenges": [
+          "Growth scaling",
+          "Market competition"
+        ],
+        "budget_authority_level": "HIGH - Owner/Director level",
+        "preferred_communication_style": "Direct, ROI-focused",
+        "urgency_triggers": [
+          "Significant ad spend at risk"
+        ]
+      },
+      "competitor_landscape": [
+        {
+          "name": "National auto glass chains",
+          "estimated_spend": "$2,000-4,000",
+          "campaign_weaknesses": [
+            "Poor local presence",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Insurance preferred shops",
+          "estimated_spend": "$1,000-2,500",
+          "campaign_weaknesses": [
+            "Limited direct marketing",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "I see advantageautoglassrepair has solid marketing foundation - ready to scale efficiently?",
+        "conversation_starters": [
+          "Quick question about advantageautoglassrepair's current ad performance metrics",
+          "Spotted some optimization opportunities in advantageautoglassrepair's digital campaigns",
+          "Is advantageautoglassrepair tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most auto_glass businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like advantageautoglassrepair reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar auto_glass business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $730/month",
+      "potential_savings": "CAD $6,571/year",
+      "revenue_opportunity": "CAD $19,712/year potential",
+      "implementation_effort": "HIGH - Enterprise-level optimization needed",
+      "success_probability": 0.7,
+      "enrichment_timestamp": "2025-08-01T18:37:18.955724",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "company": "Deal Plumbing Inc",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 2496.0,
+      "qualification_score": 90,
+      "business_intel": {
+        "revenue_estimate": "CAD $449,280/year",
+        "employee_count_estimate": "5-15",
+        "service_areas": [
+          "emergency",
+          "installation",
+          "repair",
+          "maintenance"
+        ],
+        "peak_seasons": [
+          "Winter (heating issues)",
+          "Spring (pipe bursts)"
+        ],
+        "technology_stack": [
+          "basic_digital_presence"
+        ],
+        "digital_maturity_score": 1
+      },
+      "decision_maker": {
+        "likely_role": "Business Owner or Marketing Director",
+        "business_challenges": [
+          "Price pressure from competition",
+          "Demand volatility management"
+        ],
+        "budget_authority_level": "HIGH - Owner/Director level",
+        "preferred_communication_style": "Direct, ROI-focused",
+        "urgency_triggers": [
+          "Significant ad spend at risk",
+          "Competitive pressure evident",
+          "Clear waste patterns detected"
+        ]
+      },
+      "competitor_landscape": [
+        {
+          "name": "Local plumbing franchises",
+          "estimated_spend": "$1,500-3,000",
+          "campaign_weaknesses": [
+            "Generic messaging",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Home service platforms",
+          "estimated_spend": "$2,000-5,000",
+          "campaign_weaknesses": [
+            "High commission fees",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "Deal Plumbing Inc's ad messaging shows competitive pressure - there's a better positioning strategy",
+        "conversation_starters": [
+          "Quick question about Deal Plumbing Inc's current ad performance metrics",
+          "Spotted some optimization opportunities in Deal Plumbing Inc's digital campaigns",
+          "Is Deal Plumbing Inc tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most emergency_plumbing businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like Deal Plumbing Inc reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar emergency_plumbing business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $988/month",
+      "potential_savings": "CAD $8,896/year",
+      "revenue_opportunity": "CAD $26,687/year potential",
+      "implementation_effort": "HIGH - Enterprise-level optimization needed",
+      "success_probability": 0.95,
+      "enrichment_timestamp": "2025-08-01T18:37:20.957372",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "company": "Deal Plumbing Inc",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 2496.0,
+      "qualification_score": 90,
+      "business_intel": {
+        "revenue_estimate": "CAD $449,280/year",
+        "employee_count_estimate": "5-15",
+        "service_areas": [
+          "emergency",
+          "installation",
+          "repair",
+          "maintenance"
+        ],
+        "peak_seasons": [
+          "Winter (heating issues)",
+          "Spring (pipe bursts)"
+        ],
+        "technology_stack": [
+          "basic_digital_presence"
+        ],
+        "digital_maturity_score": 1
+      },
+      "decision_maker": {
+        "likely_role": "Business Owner or Marketing Director",
+        "business_challenges": [
+          "Price pressure from competition",
+          "Demand volatility management"
+        ],
+        "budget_authority_level": "HIGH - Owner/Director level",
+        "preferred_communication_style": "Direct, ROI-focused",
+        "urgency_triggers": [
+          "Significant ad spend at risk",
+          "Competitive pressure evident",
+          "Clear waste patterns detected"
+        ]
+      },
+      "competitor_landscape": [
+        {
+          "name": "Local plumbing franchises",
+          "estimated_spend": "$1,500-3,000",
+          "campaign_weaknesses": [
+            "Generic messaging",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Home service platforms",
+          "estimated_spend": "$2,000-5,000",
+          "campaign_weaknesses": [
+            "High commission fees",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "Deal Plumbing Inc's ad messaging shows competitive pressure - there's a better positioning strategy",
+        "conversation_starters": [
+          "Quick question about Deal Plumbing Inc's current ad performance metrics",
+          "Spotted some optimization opportunities in Deal Plumbing Inc's digital campaigns",
+          "Is Deal Plumbing Inc tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most emergency_plumbing businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like Deal Plumbing Inc reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar emergency_plumbing business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $988/month",
+      "potential_savings": "CAD $8,896/year",
+      "revenue_opportunity": "CAD $26,687/year potential",
+      "implementation_effort": "HIGH - Enterprise-level optimization needed",
+      "success_probability": 0.95,
+      "enrichment_timestamp": "2025-08-01T18:37:22.960242",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "company": "Watermark Plumbing and Drains",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 2028.0000000000002,
+      "qualification_score": 81,
+      "business_intel": {
+        "revenue_estimate": "CAD $365,040/year",
+        "employee_count_estimate": "5-15",
+        "service_areas": [
+          "emergency"
+        ],
+        "peak_seasons": [
+          "Winter (heating issues)",
+          "Spring (pipe bursts)"
+        ],
+        "technology_stack": [
+          "basic_digital_presence"
+        ],
+        "digital_maturity_score": 1
+      },
+      "decision_maker": {
+        "likely_role": "Business Owner or Marketing Director",
+        "business_challenges": [
+          "Demand volatility management"
+        ],
+        "budget_authority_level": "HIGH - Owner/Director level",
+        "preferred_communication_style": "Direct, ROI-focused",
+        "urgency_triggers": [
+          "Significant ad spend at risk"
+        ]
+      },
+      "competitor_landscape": [
+        {
+          "name": "Local plumbing franchises",
+          "estimated_spend": "$1,500-3,000",
+          "campaign_weaknesses": [
+            "Generic messaging",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Home service platforms",
+          "estimated_spend": "$2,000-5,000",
+          "campaign_weaknesses": [
+            "High commission fees",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "I see Watermark Plumbing and Drains has solid marketing foundation - ready to scale efficiently?",
+        "conversation_starters": [
+          "Quick question about Watermark Plumbing and Drains's current ad performance metrics",
+          "Spotted some optimization opportunities in Watermark Plumbing and Drains's digital campaigns",
+          "Is Watermark Plumbing and Drains tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most emergency_plumbing businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like Watermark Plumbing and Drains reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar emergency_plumbing business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $754/month",
+      "potential_savings": "CAD $6,790/year",
+      "revenue_opportunity": "CAD $20,369/year potential",
+      "implementation_effort": "HIGH - Enterprise-level optimization needed",
+      "success_probability": 0.95,
+      "enrichment_timestamp": "2025-08-01T18:37:24.961823",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "company": "Watermark Plumbing and Drains",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 2028.0000000000002,
+      "qualification_score": 81,
+      "business_intel": {
+        "revenue_estimate": "CAD $365,040/year",
+        "employee_count_estimate": "5-15",
+        "service_areas": [
+          "emergency"
+        ],
+        "peak_seasons": [
+          "Winter (heating issues)",
+          "Spring (pipe bursts)"
+        ],
+        "technology_stack": [
+          "basic_digital_presence"
+        ],
+        "digital_maturity_score": 1
+      },
+      "decision_maker": {
+        "likely_role": "Business Owner or Marketing Director",
+        "business_challenges": [
+          "Demand volatility management"
+        ],
+        "budget_authority_level": "HIGH - Owner/Director level",
+        "preferred_communication_style": "Direct, ROI-focused",
+        "urgency_triggers": [
+          "Significant ad spend at risk"
+        ]
+      },
+      "competitor_landscape": [
+        {
+          "name": "Local plumbing franchises",
+          "estimated_spend": "$1,500-3,000",
+          "campaign_weaknesses": [
+            "Generic messaging",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Home service platforms",
+          "estimated_spend": "$2,000-5,000",
+          "campaign_weaknesses": [
+            "High commission fees",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "I see Watermark Plumbing and Drains has solid marketing foundation - ready to scale efficiently?",
+        "conversation_starters": [
+          "Quick question about Watermark Plumbing and Drains's current ad performance metrics",
+          "Spotted some optimization opportunities in Watermark Plumbing and Drains's digital campaigns",
+          "Is Watermark Plumbing and Drains tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most emergency_plumbing businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like Watermark Plumbing and Drains reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar emergency_plumbing business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $754/month",
+      "potential_savings": "CAD $6,790/year",
+      "revenue_opportunity": "CAD $20,369/year potential",
+      "implementation_effort": "HIGH - Enterprise-level optimization needed",
+      "success_probability": 0.95,
+      "enrichment_timestamp": "2025-08-01T18:37:26.963206",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "company": "Watermark Plumbing and Drains",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 2028.0000000000002,
+      "qualification_score": 81,
+      "business_intel": {
+        "revenue_estimate": "CAD $365,040/year",
+        "employee_count_estimate": "5-15",
+        "service_areas": [
+          "emergency"
+        ],
+        "peak_seasons": [
+          "Winter (heating issues)",
+          "Spring (pipe bursts)"
+        ],
+        "technology_stack": [
+          "basic_digital_presence"
+        ],
+        "digital_maturity_score": 1
+      },
+      "decision_maker": {
+        "likely_role": "Business Owner or Marketing Director",
+        "business_challenges": [
+          "Demand volatility management"
+        ],
+        "budget_authority_level": "HIGH - Owner/Director level",
+        "preferred_communication_style": "Direct, ROI-focused",
+        "urgency_triggers": [
+          "Significant ad spend at risk"
+        ]
+      },
+      "competitor_landscape": [
+        {
+          "name": "Local plumbing franchises",
+          "estimated_spend": "$1,500-3,000",
+          "campaign_weaknesses": [
+            "Generic messaging",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Home service platforms",
+          "estimated_spend": "$2,000-5,000",
+          "campaign_weaknesses": [
+            "High commission fees",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "I see Watermark Plumbing and Drains has solid marketing foundation - ready to scale efficiently?",
+        "conversation_starters": [
+          "Quick question about Watermark Plumbing and Drains's current ad performance metrics",
+          "Spotted some optimization opportunities in Watermark Plumbing and Drains's digital campaigns",
+          "Is Watermark Plumbing and Drains tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most emergency_plumbing businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like Watermark Plumbing and Drains reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar emergency_plumbing business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $754/month",
+      "potential_savings": "CAD $6,790/year",
+      "revenue_opportunity": "CAD $20,369/year potential",
+      "implementation_effort": "HIGH - Enterprise-level optimization needed",
+      "success_probability": 0.95,
+      "enrichment_timestamp": "2025-08-01T18:37:28.964388",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "company": "Watermark Plumbing and Drains",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 2028.0000000000002,
+      "qualification_score": 81,
+      "business_intel": {
+        "revenue_estimate": "CAD $365,040/year",
+        "employee_count_estimate": "5-15",
+        "service_areas": [
+          "emergency"
+        ],
+        "peak_seasons": [
+          "Winter (heating issues)",
+          "Spring (pipe bursts)"
+        ],
+        "technology_stack": [
+          "basic_digital_presence"
+        ],
+        "digital_maturity_score": 1
+      },
+      "decision_maker": {
+        "likely_role": "Business Owner or Marketing Director",
+        "business_challenges": [
+          "Demand volatility management"
+        ],
+        "budget_authority_level": "HIGH - Owner/Director level",
+        "preferred_communication_style": "Direct, ROI-focused",
+        "urgency_triggers": [
+          "Significant ad spend at risk"
+        ]
+      },
+      "competitor_landscape": [
+        {
+          "name": "Local plumbing franchises",
+          "estimated_spend": "$1,500-3,000",
+          "campaign_weaknesses": [
+            "Generic messaging",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Home service platforms",
+          "estimated_spend": "$2,000-5,000",
+          "campaign_weaknesses": [
+            "High commission fees",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "I see Watermark Plumbing and Drains has solid marketing foundation - ready to scale efficiently?",
+        "conversation_starters": [
+          "Quick question about Watermark Plumbing and Drains's current ad performance metrics",
+          "Spotted some optimization opportunities in Watermark Plumbing and Drains's digital campaigns",
+          "Is Watermark Plumbing and Drains tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most emergency_plumbing businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like Watermark Plumbing and Drains reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar emergency_plumbing business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $754/month",
+      "potential_savings": "CAD $6,790/year",
+      "revenue_opportunity": "CAD $20,369/year potential",
+      "implementation_effort": "HIGH - Enterprise-level optimization needed",
+      "success_probability": 0.95,
+      "enrichment_timestamp": "2025-08-01T18:37:30.966113",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 1.0
+    },
+    {
+      "company": "Wind Auto Glass & Windshield Replacement Toronto",
+      "city": "Toronto",
+      "province": "ON",
+      "monthly_spend": 1300.0,
+      "qualification_score": 74,
+      "business_intel": {
+        "revenue_estimate": "CAD $187,200/year",
+        "employee_count_estimate": "1-5",
+        "service_areas": [
+          "general_service"
+        ],
+        "peak_seasons": [
+          "Winter (road conditions)",
+          "Summer (travel season)"
+        ],
+        "technology_stack": [
+          "basic_digital_presence"
+        ],
+        "digital_maturity_score": 1
+      },
+      "decision_maker": {
+        "likely_role": "Operations Manager or Marketing Manager",
+        "business_challenges": [
+          "Growth scaling",
+          "Market competition"
+        ],
+        "budget_authority_level": "MEDIUM - Manager level",
+        "preferred_communication_style": "Educational, value-driven",
+        "urgency_triggers": []
+      },
+      "competitor_landscape": [
+        {
+          "name": "National auto glass chains",
+          "estimated_spend": "$2,000-4,000",
+          "campaign_weaknesses": [
+            "Poor local presence",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        },
+        {
+          "name": "Insurance preferred shops",
+          "estimated_spend": "$1,000-2,500",
+          "campaign_weaknesses": [
+            "Limited direct marketing",
+            "Inconsistent messaging"
+          ],
+          "positioning_gaps": [
+            "Local expertise emphasis",
+            "Customer testimonial integration"
+          ],
+          "opportunity_score": 75
+        }
+      ],
+      "outreach_strategy": {
+        "primary_hook": "I see Wind Auto Glass & Windshield Replacement Toronto has solid marketing foundation - ready to scale efficiently?",
+        "conversation_starters": [
+          "Quick question about Wind Auto Glass & Windshield Replacement Toronto's current ad performance metrics",
+          "Spotted some optimization opportunities in Wind Auto Glass & Windshield Replacement Toronto's digital campaigns",
+          "Is Wind Auto Glass & Windshield Replacement Toronto tracking cost-per-acquisition on your current ad spend?"
+        ],
+        "pain_point_validation": "Most auto_glass businesses lose 25-40% of ad spend to poor targeting",
+        "value_proposition": "We typically help businesses like Wind Auto Glass & Windshield Replacement Toronto reduce acquisition costs by 30-50% while doubling lead quality",
+        "social_proof_angle": "Just helped a similar auto_glass business in Toronto save $3,200/month",
+        "urgency_creator": "With Q4 approaching, optimizing now means capturing peak season at 40% lower costs",
+        "call_to_action": "Worth a 15-minute call to show you the specific gaps I identified?"
+      },
+      "waste_identified": "CAD $0/month",
+      "potential_savings": "CAD $0/year",
+      "revenue_opportunity": "CAD $0/year potential",
+      "implementation_effort": "MEDIUM - Standard campaign restructure",
+      "success_probability": 0.7,
+      "enrichment_timestamp": "2025-08-01T18:37:32.966943",
+      "data_sources": [
+        "Meta Ad Library",
+        "Search Intelligence",
+        "Industry Analysis"
+      ],
+      "confidence_score": 0.45
+    }
+  ]
+}

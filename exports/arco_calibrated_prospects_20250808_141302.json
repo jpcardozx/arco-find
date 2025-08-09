@@ -1,0 +1,336 @@
+{
+  "timestamp": "20250808_141302",
+  "engine_version": "calibrated_v1.0",
+  "thresholds": {
+    "min_waste_score": 15,
+    "min_contact_score": 40
+  },
+  "summary": {
+    "total_prospects": 20,
+    "total_monthly_opportunity": 30625,
+    "avg_waste_score": 15.0,
+    "avg_contact_likelihood": 81.5
+  },
+  "prospects": [
+    {
+      "company_name": "Pure Dentistry",
+      "advertiser_id": "AR06022958601981657089",
+      "region": "AU",
+      "vertical": "Dental Services",
+      "total_ads": 20,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 90,
+      "waste_indicators": [
+        "Campaign sprawl detected (20 active campaigns)"
+      ],
+      "pain_point": "Managing 20 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 20 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 2500
+    },
+    {
+      "company_name": "DM Fitness",
+      "advertiser_id": "AR00390173005470236673",
+      "region": "US",
+      "vertical": "Fitness & Wellness",
+      "total_ads": 19,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 90,
+      "waste_indicators": [
+        "Campaign sprawl detected (19 active campaigns)"
+      ],
+      "pain_point": "Managing 19 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 19 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 2375
+    },
+    {
+      "company_name": "FITNESS CF",
+      "advertiser_id": "AR16500147178698702849",
+      "region": "US",
+      "vertical": "Fitness & Wellness",
+      "total_ads": 19,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 90,
+      "waste_indicators": [
+        "Campaign sprawl detected (19 active campaigns)"
+      ],
+      "pain_point": "Managing 19 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 19 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 2375
+    },
+    {
+      "company_name": "GND Fitness",
+      "advertiser_id": "AR10092144037076140033",
+      "region": "AU",
+      "vertical": "Fitness & Wellness",
+      "total_ads": 15,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (15 active campaigns)"
+      ],
+      "pain_point": "Managing 15 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 15 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1875
+    },
+    {
+      "company_name": "CHA ACCOUNTANTS",
+      "advertiser_id": "AR08235498635010244609",
+      "region": "AU",
+      "vertical": "Accounting Services",
+      "total_ads": 14,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (14 active campaigns)"
+      ],
+      "pain_point": "Managing 14 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 14 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1750
+    },
+    {
+      "company_name": "KO FITNESS",
+      "advertiser_id": "AR00895182510038712321",
+      "region": "US",
+      "vertical": "Fitness & Wellness",
+      "total_ads": 14,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (14 active campaigns)"
+      ],
+      "pain_point": "Managing 14 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 14 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1750
+    },
+    {
+      "company_name": "Dapto Dentists",
+      "advertiser_id": "AR06701723585490190337",
+      "region": "AU",
+      "vertical": "Dental Services",
+      "total_ads": 13,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (13 active campaigns)"
+      ],
+      "pain_point": "Managing 13 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 13 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1625
+    },
+    {
+      "company_name": "LOWRYS ACCOUNTANTS",
+      "advertiser_id": "AR13786187374767636481",
+      "region": "AU",
+      "vertical": "Accounting Services",
+      "total_ads": 13,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (13 active campaigns)"
+      ],
+      "pain_point": "Managing 13 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 13 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1625
+    },
+    {
+      "company_name": "+64 Fitness",
+      "advertiser_id": "AR08175470832051552257",
+      "region": "AU",
+      "vertical": "Fitness & Wellness",
+      "total_ads": 13,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (13 active campaigns)"
+      ],
+      "pain_point": "Managing 13 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 13 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1625
+    },
+    {
+      "company_name": "GND Fitness",
+      "advertiser_id": "AR06974625790298161153",
+      "region": "AU",
+      "vertical": "Fitness & Wellness",
+      "total_ads": 13,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (13 active campaigns)"
+      ],
+      "pain_point": "Managing 13 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 13 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1625
+    },
+    {
+      "company_name": "SPS Plumbers NSW",
+      "advertiser_id": "AR17756825712968335361",
+      "region": "AU",
+      "vertical": "Home Services",
+      "total_ads": 12,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (12 active campaigns)"
+      ],
+      "pain_point": "Managing 12 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 12 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1500
+    },
+    {
+      "company_name": "HM DENTISTRY",
+      "advertiser_id": "AR04724009463441260545",
+      "region": "US",
+      "vertical": "Dental Services",
+      "total_ads": 12,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (12 active campaigns)"
+      ],
+      "pain_point": "Managing 12 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 12 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1500
+    },
+    {
+      "company_name": "The Plumber",
+      "advertiser_id": "AR11114619207285735425",
+      "region": "US",
+      "vertical": "Home Services",
+      "total_ads": 12,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (12 active campaigns)"
+      ],
+      "pain_point": "Managing 12 separate ad campaigns without clear ROI tracking",
+      "value_proposition": "Consolidate your 12 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1500
+    },
+    {
+      "company_name": "dentist.net",
+      "advertiser_id": "AR06715648419219636225",
+      "region": "US",
+      "vertical": "Dental Services",
+      "total_ads": 10,
+      "is_verified": false,
+      "waste_score": 15,
+      "contact_likelihood": 60,
+      "waste_indicators": [
+        "Campaign sprawl detected (10 active campaigns)"
+      ],
+      "pain_point": "Campaign sprawl across 10 ads reducing individual performance",
+      "value_proposition": "Consolidate your 10 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1250
+    },
+    {
+      "company_name": "Dentists R Us",
+      "advertiser_id": "AR11795343537694834689",
+      "region": "US",
+      "vertical": "Dental Services",
+      "total_ads": 10,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (10 active campaigns)"
+      ],
+      "pain_point": "Campaign sprawl across 10 ads reducing individual performance",
+      "value_proposition": "Consolidate your 10 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1250
+    },
+    {
+      "company_name": "Ged Lawyers",
+      "advertiser_id": "AR14890461743317778433",
+      "region": "US",
+      "vertical": "Legal Services",
+      "total_ads": 10,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 85,
+      "waste_indicators": [
+        "Campaign sprawl detected (10 active campaigns)"
+      ],
+      "pain_point": "Campaign sprawl across 10 ads reducing individual performance",
+      "value_proposition": "Consolidate your 10 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1250
+    },
+    {
+      "company_name": "Our Plumber QLD",
+      "advertiser_id": "AR08973647588699930625",
+      "region": "AU",
+      "vertical": "Home Services",
+      "total_ads": 8,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 70,
+      "waste_indicators": [
+        "Campaign sprawl detected (8 active campaigns)"
+      ],
+      "pain_point": "Campaign sprawl across 8 ads reducing individual performance",
+      "value_proposition": "Consolidate your 8 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1000
+    },
+    {
+      "company_name": "Z Dentistry",
+      "advertiser_id": "AR15862014097638817793",
+      "region": "US",
+      "vertical": "Dental Services",
+      "total_ads": 8,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 70,
+      "waste_indicators": [
+        "Campaign sprawl detected (8 active campaigns)"
+      ],
+      "pain_point": "Campaign sprawl across 8 ads reducing individual performance",
+      "value_proposition": "Consolidate your 8 campaigns into 3-5 high-performing funnels",
+      "estimated_monthly_opportunity": 1000
+    },
+    {
+      "company_name": "Accountants Near Me",
+      "advertiser_id": "AR09559287699727187969",
+      "region": "US",
+      "vertical": "Accounting Services",
+      "total_ads": 5,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 70,
+      "waste_indicators": [
+        "Generic location targeting suggests geographic inefficiency"
+      ],
+      "pain_point": "Inefficient ad structure limiting growth potential",
+      "value_proposition": "Optimize campaign structure for 30-50% better ROI",
+      "estimated_monthly_opportunity": 625
+    },
+    {
+      "company_name": "Find A Good Accountant",
+      "advertiser_id": "AR17572145074177835009",
+      "region": "US",
+      "vertical": "Accounting Services",
+      "total_ads": 5,
+      "is_verified": true,
+      "waste_score": 15,
+      "contact_likelihood": 70,
+      "waste_indicators": [
+        "Generic location targeting suggests geographic inefficiency"
+      ],
+      "pain_point": "Inefficient ad structure limiting growth potential",
+      "value_proposition": "Optimize campaign structure for 30-50% better ROI",
+      "estimated_monthly_opportunity": 625
+    }
+  ]
+}

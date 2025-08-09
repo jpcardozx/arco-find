@@ -1,0 +1,1781 @@
+{
+  "summary": {
+    "total_found": 0,
+    "niche": "personal_injury_ca",
+    "market": "canada",
+    "timestamp": "2025-07-31T18:39:35.939164",
+    "methodology": "canadian_smb_v4",
+    "analyzed_universe": 160,
+    "target_count": 15,
+    "avg_waste_estimate_cad": 0,
+    "avg_confidence": 0,
+    "deduplication_stats": {
+      "before": 135,
+      "after": 135,
+      "duplicates_removed": 0
+    },
+    "pain_signal_filter": {
+      "before_filter": 135,
+      "after_filter": 1,
+      "recent_activity_ratio": 0.007407407407407408
+    }
+  },
+  "qualified_leads": [],
+  "transparency_log": [
+    {
+      "company": "LAUREN COSLETT",
+      "advertiser_id": "AR13737186024168095745",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "NARANJADA PENINSULA",
+      "advertiser_id": "AR01222880508904472577",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Adello Group AG",
+      "advertiser_id": "AR15597309336131469313",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "advertiser_id": "AR12256352871842316289",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 20,
+      "recent_changes": 0
+    },
+    {
+      "company": "organize clear declutter",
+      "advertiser_id": "AR15360559296983072769",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "RUBEN AGUILERA GONZALEZ",
+      "advertiser_id": "AR04894661862869696513",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ATHENA SERVICES",
+      "advertiser_id": "AR16027531554427240449",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "WU WING FAI",
+      "advertiser_id": "AR05620515167004524545",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ROFU Kinderland Spielwarenhandelsgesellschaft mbH",
+      "advertiser_id": "AR09181556235260919809",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "MLashes Magdalena Rapior",
+      "advertiser_id": "AR13877867299991453697",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Mentes Digitales, Sociedad Anonima",
+      "advertiser_id": "AR08447099922653642753",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Attila Nagy",
+      "advertiser_id": "AR12820027592404893697",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "M\u00e9sz\u00e1ros G\u00e1bor Imre",
+      "advertiser_id": "AR15253166010568540161",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "The Walt Disney Company",
+      "advertiser_id": "AR12807815677532438529",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "HIPERSOM DISTRIBUIDORA DE BATERIAS SOCIEDADE UNIPESSOAL LTDA",
+      "advertiser_id": "AR05940021013969371137",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Antonio Lorenzo",
+      "advertiser_id": "AR09653444927727599617",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Supoj Anuraklekha",
+      "advertiser_id": "AR11824026583427973121",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "GLOBAL SERVICES SNC",
+      "advertiser_id": "AR07895143041105657857",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\u4e0a\u5f26\u52d5\u7269\u91ab\u9662",
+      "advertiser_id": "AR08210510102965256193",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Karol Janicki",
+      "advertiser_id": "AR04020319204166074369",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "GLINT",
+      "advertiser_id": "AR02505391828350533633",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ali alshiblawi",
+      "advertiser_id": "AR01391574592224493569",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Shaped Af LLC",
+      "advertiser_id": "AR09618769234385436673",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "S O S DROGARIA PAULISTA LTDA",
+      "advertiser_id": "AR15622810034436571137",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Kevin Tate",
+      "advertiser_id": "AR15623822341048369153",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Julia Parle",
+      "advertiser_id": "AR02889708766171758593",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Olena Zubchenko",
+      "advertiser_id": "AR08301820540742533121",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\u00ccbrahim Durak",
+      "advertiser_id": "AR07641685716614774785",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "CARLOS AMERICO SAMPAIO DE CAMPOS",
+      "advertiser_id": "AR17648755367909261313",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Shaleen Kumar",
+      "advertiser_id": "AR09115421091886530561",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "MAN WAH INC",
+      "advertiser_id": "AR05118661020289597441",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Brent Hendricks",
+      "advertiser_id": "AR14094725352727248897",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Usman Khan",
+      "advertiser_id": "AR02110451031224614913",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Imagination Unlimited, Inc.",
+      "advertiser_id": "AR06489603637596127233",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "T S SANTOS CENTRO AUTOMOTIVO LTDA",
+      "advertiser_id": "AR11442822655082758145",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ayberk Ay",
+      "advertiser_id": "AR18378781164052676609",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Google LLC",
+      "advertiser_id": "AR14188379519798214657",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 4,
+      "recent_changes": 0
+    },
+    {
+      "company": "Fabio Romano",
+      "advertiser_id": "AR00745171070599823361",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "GUILHERME DE PAULA RAMOS",
+      "advertiser_id": "AR13390967988883030017",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "GIAO TH\u1eca NG\u1eccC NGUYEN",
+      "advertiser_id": "AR05070172282626768897",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Talkin' Tacos",
+      "advertiser_id": "AR14149187874502737921",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ufuk S\u00fcrmelio\u011flu",
+      "advertiser_id": "AR09580795951052750849",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ivan Petry",
+      "advertiser_id": "AR02374123145155051521",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Angel Rubio",
+      "advertiser_id": "AR04841218983510147073",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Idyllic LLC",
+      "advertiser_id": "AR12269233599022104577",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Dreams Luxury Hair Lounge",
+      "advertiser_id": "AR13333768112651108353",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Paul A. Johnson, D.D.S., Inc",
+      "advertiser_id": "AR17877236770379137025",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ehsan Driving School",
+      "advertiser_id": "AR04475674797983924225",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "VALAREZO CHUCHUCA ALBERTO RAFAEL",
+      "advertiser_id": "AR11732154157769949185",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "F.JAVIER GONZALEZ COBO",
+      "advertiser_id": "AR00559691310194229249",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "State 48 Roofing LLC",
+      "advertiser_id": "AR03034387161899073537",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ana Mirian Hernandes",
+      "advertiser_id": "AR13625269879492837377",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "PAULO RODRIGUES",
+      "advertiser_id": "AR14343064347511619585",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ryan Alster",
+      "advertiser_id": "AR17560578538271145985",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Air Duct Cleaning Solutions LLC",
+      "advertiser_id": "AR09729135222284353537",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\uff08\u682a\uff09OKAMOTO",
+      "advertiser_id": "AR02684790396101328897",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "WANEEPORN JITTEESUP",
+      "advertiser_id": "AR11285066066759254017",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "RJ AutoSound llc",
+      "advertiser_id": "AR02098641194010542081",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Webtastic Media, LLC",
+      "advertiser_id": "AR13960323508069203969",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "The Walt Disney Company",
+      "advertiser_id": "AR12807815677532438529",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "VALMIRA HONORIO BISPO",
+      "advertiser_id": "AR11496510948873601025",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "WebBay Daniel Dom\u017calski",
+      "advertiser_id": "AR17027670695674380289",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\uc778\ud06c\ub85c\uc2a4 \uc8fc\uc2dd\ud68c\uc0ac",
+      "advertiser_id": "AR00700598776175263745",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Elias Mattar",
+      "advertiser_id": "AR06096275669409333249",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Jeff Pascal Eggenberg",
+      "advertiser_id": "AR12453758278960152577",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ST\uc131\ud615\uc678\uacfc\uc758\uc6d0",
+      "advertiser_id": "AR16711412685798899713",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Integra-e Consultoria Integral Informatica SL",
+      "advertiser_id": "AR09288222899108315137",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "DAVID ANNO",
+      "advertiser_id": "AR14350401852460236801",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "YouTube, Inc.",
+      "advertiser_id": "AR16446231045482741761",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Tigran Egoyan",
+      "advertiser_id": "AR17989936265549578241",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Sixteen Dreams Studios",
+      "advertiser_id": "AR14538052272157360129",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\u0422\u041e\u0412\u0410\u0420\u0418\u0421\u0422\u0412\u041e \u0417 \u041e\u0411\u041c\u0415\u0416\u0415\u041d\u041e\u042e \u0412\u0406\u0414\u041f\u041e\u0412\u0406\u0414\u0410\u041b\u042c\u041d\u0406\u0421\u0422\u042e \"\u0410\u0419 \u041f\u0406 \u041c\u0415\u0414\u0406\u0410\"",
+      "advertiser_id": "AR02714351058271862785",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Bandai Namco Toys & Collectibles America Inc.",
+      "advertiser_id": "AR04306505330503712769",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "W ONLINE S.R.L.",
+      "advertiser_id": "AR11715503943952891905",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Retro Gaming Guy LLC",
+      "advertiser_id": "AR03144056214044803073",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Evan Carmichael",
+      "advertiser_id": "AR02375028816318824449",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "FRONTIER MARKETS",
+      "advertiser_id": "AR08465369184522469377",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Irving D Steel",
+      "advertiser_id": "AR02123756015273902081",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Little Dot Studios LTD",
+      "advertiser_id": "AR13664994942546608129",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Simple Social, INC",
+      "advertiser_id": "AR03266024729676349441",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Francisco Javier Elcarte L\u00f3pez",
+      "advertiser_id": "AR17808270333023617025",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ATABAQUE ENTRETENIMENTO LTDA",
+      "advertiser_id": "AR11932616104133787649",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Aleksandrs Petunovs",
+      "advertiser_id": "AR14461808236057067521",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Warner Brothers Entertainment Inc.",
+      "advertiser_id": "AR00487664605561094145",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "MR. EVGENII IVANOV",
+      "advertiser_id": "AR10742989413878333441",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\u00d6Z EYMEN GIDA RESTORAN VE TUR\u0130ZM T\u0130CARET L\u0130M\u0130TED \u015e\u0130RKET\u0130",
+      "advertiser_id": "AR02007179556204576769",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Kelly Mcdonald Alves De Brito",
+      "advertiser_id": "AR15812727526851084289",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "EMANUELE COZZOLI",
+      "advertiser_id": "AR12404933365617131521",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\ub354\ud551\ud06c\ud401\ucef4\ud37c\ub2c8 \uc8fc\uc2dd\ud68c\uc0ac",
+      "advertiser_id": "AR17985709708492668929",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Serviceplan Neo GmbH & Co. KG",
+      "advertiser_id": "AR17174573042647433217",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Terence Allen",
+      "advertiser_id": "AR01220982940813492225",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "JODENNY LINO POGANDO",
+      "advertiser_id": "AR08344518425539772417",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "SISFRIENDS S.A.",
+      "advertiser_id": "AR10449866022004457473",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Alvaro Guadalajara Gomez",
+      "advertiser_id": "AR00449820050988204033",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "17 MOVEMENT KAROL GIERLACH",
+      "advertiser_id": "AR02115905983287918593",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\u00c7INAR PS\u0130KOLOJ\u0130K DANI\u015eMANLIK E\u011e\u0130T\u0130M VE AKADEM\u0130K H\u0130ZMETLER\u0130 L\u0130M\u0130TED \u015e\u0130RKET\u0130",
+      "advertiser_id": "AR13699572538835730433",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Giovanni Biassoni",
+      "advertiser_id": "AR07671493201965875201",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "(\uc8fc)\ucc54\ud504\uc2a4\ud130\ub514",
+      "advertiser_id": "AR18445609618227855361",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "The Walt Disney Company",
+      "advertiser_id": "AR12807815677532438529",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "PSICODOM SRL",
+      "advertiser_id": "AR00134690466460336129",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "LLD TEK LLC",
+      "advertiser_id": "AR01189923197617700865",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ebru kalay",
+      "advertiser_id": "AR04383018850032025601",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ANDRE LUIZ MELO MARIANO",
+      "advertiser_id": "AR02847759528533950465",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Michael Fleck",
+      "advertiser_id": "AR08603070629215731713",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Allen Dusnstan Rutageruka",
+      "advertiser_id": "AR18347677972967718913",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 3,
+      "recent_changes": 0
+    },
+    {
+      "company": "FELIPE JOHN CASTRO TOME",
+      "advertiser_id": "AR13279373090581643265",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "hilario bueno diaz",
+      "advertiser_id": "AR13399438901341323265",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Onurcan G\u00f6kmen",
+      "advertiser_id": "AR13654465641241903105",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Honeymooners Sociedade Unipessoal Lda",
+      "advertiser_id": "AR00143331992199495681",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Car point auto general repairing L.L.C",
+      "advertiser_id": "AR09081931324914139137",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Parihan Tamkin",
+      "advertiser_id": "AR03397301779468124161",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "50.977.684 RODRIGO RODRIGUES COSTA",
+      "advertiser_id": "AR13734334097164075009",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\u0634\u0631\u0643\u0629 \u0627\u0645 \u0643\u064a\u0648 \u0644\u062a\u0627\u062c\u064a\u0631 \u0627\u0644\u0633\u064a\u0627\u0631\u0627\u062a",
+      "advertiser_id": "AR09716490305988984833",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Bernabe S. A. S.",
+      "advertiser_id": "AR10651301345396523009",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "DENIS SOUZA DE CASTRO",
+      "advertiser_id": "AR18264938004990656513",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Bedia Karadere",
+      "advertiser_id": "AR12235561845695447041",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "LARISSA MARTHES FERREIRA DE FARIA",
+      "advertiser_id": "AR04046234315275632641",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "SAFFET YILMAZ",
+      "advertiser_id": "AR04409551010503065601",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ANGELA MATOS BASTOS",
+      "advertiser_id": "AR16527599338344415233",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Ink on Sky, S.L.",
+      "advertiser_id": "AR03558568799181471745",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Mariana Procopiak",
+      "advertiser_id": "AR10781519702929702913",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "PROFUTURO CURSOS E TREINAMENTOS LTDA",
+      "advertiser_id": "AR16719531307859705857",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Monica Rocha",
+      "advertiser_id": "AR09062566330988756993",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Mantenedora do Instituto de Forma\u00e7\u00e3o Profissional de Lorena Ltda \u2013 ME",
+      "advertiser_id": "AR01238341360377921537",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "ALEXANDRE ARRUDA CORRAIOLA",
+      "advertiser_id": "AR07729299201162477569",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "TBWA S.A",
+      "advertiser_id": "AR06576827482710736897",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "CHURCH & DWIGHT CANADA CORP.",
+      "advertiser_id": "AR07953477080761499649",
+      "city": "Toronto",
+      "waste_score": 4,
+      "confidence": 0.0,
+      "problems": [
+        "Potential Optimization Opportunity"
+      ],
+      "total_waste_cad": 300,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Curious Jane",
+      "advertiser_id": "AR18259396363307450369",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "DEISI MARIA BERTI SOMENSI",
+      "advertiser_id": "AR12874800073380200449",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "Jorge J\u00e1tiva",
+      "advertiser_id": "AR09863125042139758593",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "DIGILABTRES S.A.",
+      "advertiser_id": "AR12904167805619798017",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 2,
+      "recent_changes": 0
+    },
+    {
+      "company": "RENAN DE OLIVEIRA BORDIGNON",
+      "advertiser_id": "AR10897975267259580417",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "CARLA QUEIROZ NEVES",
+      "advertiser_id": "AR11110156289588592641",
+      "city": "Toronto",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "OMG Hungary H\u00edrdet\u00e9si Szolg\u00e1ltat\u00f3 Kft",
+      "advertiser_id": "AR08289463352896258049",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    },
+    {
+      "company": "\u5e73\u6210\u5e83\u544a\u5ba3\u4f1d\u4e8b\u52d9\u6240",
+      "advertiser_id": "AR08547827660342951937",
+      "city": "Unknown",
+      "waste_score": 10,
+      "confidence": 0.8,
+      "problems": [
+        "Poor Canadian Targeting"
+      ],
+      "total_waste_cad": 750,
+      "ads_analyzed": 1,
+      "recent_changes": 0
+    }
+  ]
+}

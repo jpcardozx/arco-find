@@ -1,0 +1,386 @@
+{
+  "execution_summary": {
+    "qualified_intelligence_count": 3,
+    "unique_prospects_analyzed": 3,
+    "raw_prospects_collected": 50,
+    "qualification_rate": 1.0,
+    "deduplication_rate": 0.94,
+    "execution_time_seconds": 1110.262945,
+    "timestamp": "2025-08-01T20:21:07.714101",
+    "engine_version": "5.0 Production Ready",
+    "methodology": "Advanced Semantic Analysis + Validated Scoring"
+  },
+  "qualified_intelligence": [
+    {
+      "business_profile": {
+        "company_name": "Dreame beauty-06",
+        "page_id": "111370448243828",
+        "city": "Vancouver",
+        "vertical": "auto_glass",
+        "fingerprint": "b92cd2e8dcff"
+      },
+      "geographic_zone": "metro_vancouver",
+      "semantic_analysis": {
+        "waste_score": 1.0,
+        "sophistication_score": 0.1,
+        "conversion_score": 0.15,
+        "differentiation_score": 0.73,
+        "confidence_level": 1.0,
+        "pain_indicators": {
+          "price_sensitivity": 0.0,
+          "urgency_desperation": 0.5,
+          "trust_compensation": 0.0,
+          "competition_pressure": 0.0,
+          "positioning_weakness": 0.0,
+          "sophistication_deficit": 0.9,
+          "message_scatter": 0.0,
+          "marketing_waste_composite": 0.125
+        }
+      },
+      "opportunity_assessment": {
+        "overall_score": 63.837500000000006,
+        "actionability_index": 0.8,
+        "revenue_impact_potential": 373.44937500000003,
+        "implementation_complexity": "HIGH",
+        "confidence_interval": [
+          63.837500000000006,
+          63.837500000000006
+        ],
+        "key_opportunities": [
+          {
+            "type": "waste_reduction",
+            "priority": "HIGH",
+            "impact_potential": 1.0,
+            "description": "Reduce wasteful messaging patterns"
+          },
+          {
+            "type": "sophistication_improvement",
+            "priority": "MEDIUM",
+            "impact_potential": 0.9,
+            "description": "Enhance messaging sophistication"
+          },
+          {
+            "type": "conversion_optimization",
+            "priority": "HIGH",
+            "impact_potential": 0.85,
+            "description": "Improve conversion elements"
+          }
+        ],
+        "risk_factors": []
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_cad": 52.0,
+        "estimated_monthly_spend_cad": 1560.0,
+        "campaign_maturity_days": 1,
+        "market_efficiency_score": 0.7692307692307692
+      },
+      "competitive_context": {
+        "market_saturation": 0.75,
+        "competition_intensity": 0.8,
+        "cpc_multiplier": 1.3
+      },
+      "implementation_roadmap": [
+        {
+          "phase": 1,
+          "opportunity_type": "waste_reduction",
+          "priority": "HIGH",
+          "impact_potential": 1.0,
+          "description": "Reduce wasteful messaging patterns",
+          "estimated_timeline": "1-2 weeks",
+          "key_actions": [
+            "Audit current messaging for desperation signals",
+            "Remove price-focused claims",
+            "Eliminate urgency overuse",
+            "Test refined messaging"
+          ]
+        },
+        {
+          "phase": 2,
+          "opportunity_type": "sophistication_improvement",
+          "priority": "MEDIUM",
+          "impact_potential": 0.9,
+          "description": "Enhance messaging sophistication",
+          "estimated_timeline": "2-3 weeks",
+          "key_actions": [
+            "Develop process-based messaging",
+            "Add technical credibility markers",
+            "Create methodology content",
+            "Implement expertise positioning"
+          ]
+        },
+        {
+          "phase": 3,
+          "opportunity_type": "conversion_optimization",
+          "priority": "HIGH",
+          "impact_potential": 0.85,
+          "description": "Improve conversion elements",
+          "estimated_timeline": "1-2 weeks",
+          "key_actions": [
+            "Add clear call-to-action",
+            "Include trust signals",
+            "Optimize contact information placement",
+            "Test conversion elements"
+          ]
+        }
+      ],
+      "analysis_timestamp": "2025-08-01T20:21:07.713101",
+      "methodology_version": "5.0"
+    },
+    {
+      "business_profile": {
+        "company_name": "Watermark Plumbing and Drains",
+        "page_id": "370255010343112",
+        "city": "Toronto",
+        "vertical": "emergency_plumbing",
+        "fingerprint": "ae5d82615e7e"
+      },
+      "geographic_zone": "metro_toronto",
+      "semantic_analysis": {
+        "waste_score": 0.7,
+        "sophistication_score": 0.1,
+        "conversion_score": 0.18,
+        "differentiation_score": 0.42999999999999994,
+        "confidence_level": 1.0,
+        "pain_indicators": {
+          "price_sensitivity": 0.0,
+          "urgency_desperation": 0.5,
+          "trust_compensation": 0.0,
+          "competition_pressure": 0.0,
+          "positioning_weakness": 0.25,
+          "sophistication_deficit": 0.9,
+          "message_scatter": 0.6,
+          "marketing_waste_composite": 0.2225
+        }
+      },
+      "opportunity_assessment": {
+        "overall_score": 61.87499999999999,
+        "actionability_index": 0.78,
+        "revenue_impact_potential": 389.8124999999999,
+        "implementation_complexity": "HIGH",
+        "confidence_interval": [
+          61.87499999999999,
+          61.87499999999999
+        ],
+        "key_opportunities": [
+          {
+            "type": "sophistication_improvement",
+            "priority": "MEDIUM",
+            "impact_potential": 0.9,
+            "description": "Enhance messaging sophistication"
+          },
+          {
+            "type": "conversion_optimization",
+            "priority": "HIGH",
+            "impact_potential": 0.8200000000000001,
+            "description": "Improve conversion elements"
+          },
+          {
+            "type": "waste_reduction",
+            "priority": "HIGH",
+            "impact_potential": 0.7,
+            "description": "Reduce wasteful messaging patterns"
+          }
+        ],
+        "risk_factors": [
+          "High competition may limit improvement impact"
+        ]
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_cad": 56.0,
+        "estimated_monthly_spend_cad": 1680.0,
+        "campaign_maturity_days": 38,
+        "market_efficiency_score": 0.7142857142857143
+      },
+      "competitive_context": {
+        "market_saturation": 0.85,
+        "competition_intensity": 0.9,
+        "cpc_multiplier": 1.4
+      },
+      "implementation_roadmap": [
+        {
+          "phase": 1,
+          "opportunity_type": "sophistication_improvement",
+          "priority": "MEDIUM",
+          "impact_potential": 0.9,
+          "description": "Enhance messaging sophistication",
+          "estimated_timeline": "2-3 weeks",
+          "key_actions": [
+            "Develop process-based messaging",
+            "Add technical credibility markers",
+            "Create methodology content",
+            "Implement expertise positioning"
+          ]
+        },
+        {
+          "phase": 2,
+          "opportunity_type": "conversion_optimization",
+          "priority": "HIGH",
+          "impact_potential": 0.8200000000000001,
+          "description": "Improve conversion elements",
+          "estimated_timeline": "1-2 weeks",
+          "key_actions": [
+            "Add clear call-to-action",
+            "Include trust signals",
+            "Optimize contact information placement",
+            "Test conversion elements"
+          ]
+        },
+        {
+          "phase": 3,
+          "opportunity_type": "waste_reduction",
+          "priority": "HIGH",
+          "impact_potential": 0.7,
+          "description": "Reduce wasteful messaging patterns",
+          "estimated_timeline": "1-2 weeks",
+          "key_actions": [
+            "Audit current messaging for desperation signals",
+            "Remove price-focused claims",
+            "Eliminate urgency overuse",
+            "Test refined messaging"
+          ]
+        }
+      ],
+      "analysis_timestamp": "2025-08-01T20:21:07.572475",
+      "methodology_version": "5.0"
+    },
+    {
+      "business_profile": {
+        "company_name": "advantageautoglassrepair",
+        "page_id": "101484305595374",
+        "city": "Toronto",
+        "vertical": "auto_glass",
+        "fingerprint": "80006fdec2d2"
+      },
+      "geographic_zone": "metro_toronto",
+      "semantic_analysis": {
+        "waste_score": 0.25,
+        "sophistication_score": 0.1,
+        "conversion_score": 0.24999999999999997,
+        "differentiation_score": 0.2,
+        "confidence_level": 0.8,
+        "pain_indicators": {
+          "price_sensitivity": 0.0,
+          "urgency_desperation": 0.5,
+          "trust_compensation": 0.0,
+          "competition_pressure": 0.0,
+          "positioning_weakness": 0.5,
+          "sophistication_deficit": 0.9,
+          "message_scatter": 0.0,
+          "marketing_waste_composite": 0.2
+        }
+      },
+      "opportunity_assessment": {
+        "overall_score": 54.962500000000006,
+        "actionability_index": 0.7000000000000002,
+        "revenue_impact_potential": 346.26374999999996,
+        "implementation_complexity": "HIGH",
+        "confidence_interval": [
+          50.962500000000006,
+          58.962500000000006
+        ],
+        "key_opportunities": [
+          {
+            "type": "sophistication_improvement",
+            "priority": "MEDIUM",
+            "impact_potential": 0.9,
+            "description": "Enhance messaging sophistication"
+          },
+          {
+            "type": "conversion_optimization",
+            "priority": "HIGH",
+            "impact_potential": 0.75,
+            "description": "Improve conversion elements"
+          }
+        ],
+        "risk_factors": [
+          "High competition may limit improvement impact"
+        ]
+      },
+      "spend_intelligence": {
+        "estimated_daily_spend_cad": 67.2,
+        "estimated_monthly_spend_cad": 2016.0,
+        "campaign_maturity_days": 306,
+        "market_efficiency_score": 0.7142857142857143
+      },
+      "competitive_context": {
+        "market_saturation": 0.85,
+        "competition_intensity": 0.9,
+        "cpc_multiplier": 1.4
+      },
+      "implementation_roadmap": [
+        {
+          "phase": 1,
+          "opportunity_type": "sophistication_improvement",
+          "priority": "MEDIUM",
+          "impact_potential": 0.9,
+          "description": "Enhance messaging sophistication",
+          "estimated_timeline": "2-3 weeks",
+          "key_actions": [
+            "Develop process-based messaging",
+            "Add technical credibility markers",
+            "Create methodology content",
+            "Implement expertise positioning"
+          ]
+        },
+        {
+          "phase": 2,
+          "opportunity_type": "conversion_optimization",
+          "priority": "HIGH",
+          "impact_potential": 0.75,
+          "description": "Improve conversion elements",
+          "estimated_timeline": "1-2 weeks",
+          "key_actions": [
+            "Add clear call-to-action",
+            "Include trust signals",
+            "Optimize contact information placement",
+            "Test conversion elements"
+          ]
+        }
+      ],
+      "analysis_timestamp": "2025-08-01T20:21:07.577168",
+      "methodology_version": "5.0"
+    }
+  ],
+  "analytics": {
+    "score_distribution": {
+      "exceptional_90plus": 0,
+      "high_80to89": 0,
+      "good_70to79": 0,
+      "average_60to69": 2
+    },
+    "geographic_distribution": {
+      "metro_vancouver": 1,
+      "metro_toronto": 2
+    },
+    "vertical_distribution": {
+      "auto_glass": 2,
+      "emergency_plumbing": 1
+    },
+    "top_opportunity_types": {
+      "sophistication_improvement": 3,
+      "conversion_optimization": 3,
+      "waste_reduction": 2
+    },
+    "average_metrics": {
+      "opportunity_score": 60.225,
+      "actionability_index": 0.7600000000000001,
+      "confidence_level": 0.9333333333333332,
+      "total_revenue_potential": 1109.5256249999998
+    },
+    "quality_metrics": {
+      "qualification_rate": 1.0,
+      "average_confidence": 0.9333333333333332,
+      "high_confidence_count": 2
+    }
+  },
+  "configuration": {
+    "min_intelligence_score": 50.0,
+    "min_confidence_level": 0.4,
+    "scoring_weights": {
+      "semantic_analysis": 0.35,
+      "competitive_context": 0.25,
+      "spend_intelligence": 0.25,
+      "market_opportunity": 0.15
+    }
+  }
+}

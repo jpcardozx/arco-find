@@ -1,0 +1,25 @@
+{
+  "execution_id": "6d1a3f6a-533c-458f-8a3b-ff2455d34971",
+  "timestamp": "20250806_223018",
+  "processing_results": [],
+  "metrics_history": [
+    {
+      "execution_id": "6d1a3f6a-533c-458f-8a3b-ff2455d34971",
+      "total_leads_discovered": 0,
+      "total_leads_qualified": 0,
+      "total_credits_used": 0,
+      "total_api_calls": 0,
+      "avg_processing_time_ms": 0.0,
+      "qualification_rate": 0.0,
+      "cost_per_lead": 0.0,
+      "errors_count": 0,
+      "warnings_count": 0,
+      "cache_hit_rate": 0.0
+    }
+  ],
+  "system_info": {
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "execution_platform": "win32",
+    "working_directory": "C:\\Users\\João Pedro Cardozo\\OneDrive\\Área de Trabalho\\arco\\arco-find"
+  }
+}

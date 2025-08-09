@@ -1,0 +1,114 @@
+[
+  {
+    "domain": "sydneyplumbingpros.com.au",
+    "advertiser_name": "Sydney Plumbing Professionals",
+    "vertical": "hvac_plumbing",
+    "location": "Sydney",
+    "score": 0,
+    "confidence": 0.0,
+    "gate_status": "fail_recency",
+    "discovered_at": "2025-08-06T22:17:57.053212",
+    "qualified": false,
+    "evidence": {
+      "ads": [
+        {
+          "title": "24/7 Emergency Plumber Sydney | 30min Response",
+          "description": "Licensed plumbers across Sydney. Emergency repairs, blocked drains.",
+          "link": "https://sydneyplumbingpros.com.au/emergency",
+          "keyword": "emergency plumber sydney",
+          "position": 1
+        }
+      ],
+      "funnel": {
+        "friction_score": 0.0,
+        "has_click_to_call": true,
+        "click_depth_to_contact": 1,
+        "form_fields_count": 2
+      }
+    }
+  },
+  {
+    "domain": "melbourneroofingexperts.com.au",
+    "advertiser_name": "Melbourne Roofing Experts",
+    "vertical": "roofing",
+    "location": "Melbourne",
+    "score": 0,
+    "confidence": 0.0,
+    "gate_status": "fail_recency",
+    "discovered_at": "2025-08-06T22:17:57.053212",
+    "qualified": false,
+    "evidence": {
+      "ads": [
+        {
+          "title": "Melbourne Roof Repairs | Storm Damage Specialists",
+          "description": "Insurance approved contractors. Leak repairs, storm damage.",
+          "link": "https://melbourneroofingexperts.com.au/repairs",
+          "keyword": "roof repairs melbourne",
+          "position": 1
+        }
+      ],
+      "funnel": {
+        "friction_score": 0.0,
+        "has_click_to_call": true,
+        "click_depth_to_contact": 1,
+        "form_fields_count": 3
+      }
+    }
+  },
+  {
+    "domain": "brisbanesparkies.com.au",
+    "advertiser_name": "Brisbane Sparkies",
+    "vertical": "electrical",
+    "location": "Brisbane",
+    "score": 0,
+    "confidence": 0.0,
+    "gate_status": "fail_recency",
+    "discovered_at": "2025-08-06T22:17:57.053212",
+    "qualified": false,
+    "evidence": {
+      "ads": [
+        {
+          "title": "Licensed Electrician Brisbane | Safety Switch Installation",
+          "description": "Residential & commercial electrical services.",
+          "link": "https://brisbanesparkies.com.au/residential",
+          "keyword": "electrician brisbane",
+          "position": 1
+        }
+      ],
+      "funnel": {
+        "friction_score": 0.7,
+        "has_click_to_call": false,
+        "click_depth_to_contact": 2,
+        "form_fields_count": 4
+      }
+    }
+  },
+  {
+    "domain": "perthpestcontrol.com.au",
+    "advertiser_name": "Perth Pest Control",
+    "vertical": "pest_control",
+    "location": "Perth",
+    "score": 0,
+    "confidence": 0.0,
+    "gate_status": "fail_recency",
+    "discovered_at": "2025-08-06T22:17:57.053212",
+    "qualified": false,
+    "evidence": {
+      "ads": [
+        {
+          "title": "Perth Pest Control | Termite Inspection & Treatment",
+          "description": "Professional pest control services across Perth.",
+          "link": "https://perthpestcontrol.com.au/services",
+          "keyword": "pest control perth",
+          "position": 1
+        }
+      ],
+      "funnel": {
+        "friction_score": 0.0,
+        "has_click_to_call": true,
+        "click_depth_to_contact": 1,
+        "form_fields_count": 3
+      }
+    }
+  }
+]

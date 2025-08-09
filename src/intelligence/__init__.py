@@ -1,1 +1,0 @@
-# Intelligence modules for technical pain detection and lead qualification

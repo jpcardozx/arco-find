@@ -1,0 +1,96 @@
+{
+  "execution_id": "9ec3cdc7-b440-49fb-bda2-09c4efa510e1",
+  "timestamp": "20250806_234724",
+  "processing_results": [
+    {
+      "lead_id": "sydneyplumbingpros.com.au_364308b8",
+      "domain": "sydneyplumbingpros.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 1.202,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "melbourneplumbingexperts.com.au_a2b43cd1",
+      "domain": "melbourneplumbingexperts.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 1.001,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "brisbanehvacpros.com.au_53b56792",
+      "domain": "brisbanehvacpros.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 1.003,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "melbourneroofingexperts.com.au_1200876e",
+      "domain": "melbourneroofingexperts.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 1.874,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "sydneyroofingpros.com.au_47ffd3de",
+      "domain": "sydneyroofingpros.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 0.571,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "brisbanesparkies.com.au_dfdb1140",
+      "domain": "brisbanesparkies.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 1.039,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "perthpestcontrol.com.au_6bbb3989",
+      "domain": "perthpestcontrol.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 0.0,
+      "error_message": null,
+      "qualification_reasons": []
+    }
+  ],
+  "metrics_history": [
+    {
+      "execution_id": "9ec3cdc7-b440-49fb-bda2-09c4efa510e1",
+      "total_leads_discovered": 7,
+      "total_leads_qualified": 0,
+      "total_credits_used": 0,
+      "total_api_calls": 0,
+      "avg_processing_time_ms": 0.9557142857142856,
+      "qualification_rate": 0.0,
+      "cost_per_lead": 0,
+      "errors_count": 0,
+      "warnings_count": 0,
+      "cache_hit_rate": 0.0
+    }
+  ],
+  "system_info": {
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "execution_platform": "win32",
+    "working_directory": "C:\\Users\\João Pedro Cardozo\\OneDrive\\Área de Trabalho\\arco\\arco-find"
+  }
+}

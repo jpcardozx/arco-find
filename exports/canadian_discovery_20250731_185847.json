@@ -1,0 +1,42 @@
+{
+  "execution_summary": {
+    "total_qualified": 0,
+    "analysis_pool": 0,
+    "data_sources": 0,
+    "execution_time_seconds": 22.444466,
+    "timestamp": "2025-07-31T18:58:47.616829",
+    "engine_version": "2.0 Professional",
+    "market_focus": "Canada (Vancouver, Toronto, Ontario)",
+    "methodology": "Real Google Ads Transparency Center + Actionable Intelligence"
+  },
+  "qualified_leads": [],
+  "performance_analytics": {},
+  "outreach_intelligence": {
+    "priority_leads": [],
+    "outreach_sequences": {
+      "high_confidence_sequence": [
+        "Performance audit offer with specific waste identification",
+        "Case study sharing from similar Canadian businesses",
+        "Free campaign optimization consultation"
+      ],
+      "medium_confidence_sequence": [
+        "Industry-specific marketing insights",
+        "Competitive analysis offer",
+        "Performance improvement proposal"
+      ]
+    },
+    "talking_points": {
+      "opening_lines": [
+        "I noticed your {vertical} advertising in {city} and identified some optimization opportunities",
+        "Your ads are running in {city} but missing some local market advantages",
+        "I found ${waste_estimate_cad:.0f}/month in potential ad waste in your campaigns"
+      ],
+      "value_props": [
+        "Reduce Canadian ad waste through geographic optimization",
+        "Improve local market penetration in {province}",
+        "Increase campaign stability and message consistency"
+      ]
+    }
+  },
+  "market_insights": {}
+}

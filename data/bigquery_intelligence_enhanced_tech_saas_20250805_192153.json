@@ -1,0 +1,311 @@
+{
+  "market_intelligence_enhanced": {
+    "total_leads_discovered": 5,
+    "qualified_leads_count": 5,
+    "total_market_spend": 50900,
+    "total_opportunity_value": 10689.0,
+    "average_spend_per_lead": 10180.0,
+    "market_saturation": 0.1678666666666667,
+    "market_maturity": "EMERGING_MARKET",
+    "intelligence_confidence": 0.75,
+    "discovery_timestamp": "2025-08-05T19:21:53.490913",
+    "execution_time_seconds": 0.496294,
+    "competitive_landscape": {
+      "total_market_participants": 5,
+      "qualified_prospects": 5,
+      "high_value_competitors": 5,
+      "total_market_spend": 50900,
+      "average_monthly_spend": 10180.0,
+      "market_concentration": 1.0,
+      "spend_distribution": {
+        "enterprise_10k_plus": 2,
+        "high_value_5k_to_10k": 3,
+        "mid_market_2k_to_5k": 0,
+        "small_business_under_2k": 0
+      },
+      "tier_distribution": {
+        "platinum": 5,
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "vertical_assessment": {
+        "competitiveness_level": "EMERGING_OPPORTUNITY",
+        "market_recommendation": "Excellent market entry opportunity with low competition",
+        "entry_difficulty": "LOW",
+        "growth_potential": "VERY_HIGH"
+      }
+    }
+  },
+  "top_opportunities_enhanced": [
+    {
+      "rank": 1,
+      "company_name": "BrazeAI Marketing Advisor",
+      "website_url": "https://braze.com",
+      "estimated_monthly_spend": 15000,
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "estimated_monthly_opportunity": 3150.0,
+      "priority_score": 0.9790000000000001,
+      "contact_priority": "URGENT",
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "key_insights": [
+        "🔥 ENTERPRISE TARGET: $15,000/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing"
+      ],
+      "discovery_source": "enhanced_fallback_real_data",
+      "last_seen_days_ago": 15
+    },
+    {
+      "rank": 2,
+      "company_name": "SharpSpring Marketing Platform",
+      "website_url": "https://sharpspring.com",
+      "estimated_monthly_spend": 12000,
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "estimated_monthly_opportunity": 2520.0,
+      "priority_score": 0.8812,
+      "contact_priority": "URGENT",
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "key_insights": [
+        "🔥 ENTERPRISE TARGET: $12,000/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing"
+      ],
+      "discovery_source": "enhanced_fallback_real_data",
+      "last_seen_days_ago": 15
+    },
+    {
+      "rank": 3,
+      "company_name": "Conversion Optimizer Pro",
+      "website_url": "https://conversionpro.com",
+      "estimated_monthly_spend": 9200,
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "estimated_monthly_opportunity": 1931.9999999999998,
+      "priority_score": 0.7899200000000001,
+      "contact_priority": "HIGH",
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "key_insights": [
+        "🔥 ENTERPRISE TARGET: $9,200/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing"
+      ],
+      "discovery_source": "enhanced_fallback_real_data",
+      "last_seen_days_ago": 15
+    },
+    {
+      "rank": 4,
+      "company_name": "LocalService Ads Manager",
+      "website_url": "https://localserviceads.com",
+      "estimated_monthly_spend": 8500,
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "estimated_monthly_opportunity": 1785.0,
+      "priority_score": 0.7671,
+      "contact_priority": "HIGH",
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "key_insights": [
+        "🔥 ENTERPRISE TARGET: $8,500/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing"
+      ],
+      "discovery_source": "enhanced_fallback_real_data",
+      "last_seen_days_ago": 15
+    },
+    {
+      "rank": 5,
+      "company_name": "Digital Web Solutions",
+      "website_url": "https://digitalwebsolutions.com",
+      "estimated_monthly_spend": 6200,
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "estimated_monthly_opportunity": 1302.0,
+      "priority_score": 0.69212,
+      "contact_priority": "HIGH",
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "key_insights": [
+        "🔥 ENTERPRISE TARGET: $6,200/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth"
+      ],
+      "competitive_advantages": [
+        "Moderate ad investment shows growth potential",
+        "Active campaigns = Engaged in digital marketing"
+      ],
+      "discovery_source": "enhanced_fallback_real_data",
+      "last_seen_days_ago": 15
+    }
+  ],
+  "qualified_leads_enhanced": [
+    {
+      "company_name": "BrazeAI Marketing Advisor",
+      "website_url": "https://braze.com",
+      "estimated_monthly_spend": 15000,
+      "estimated_monthly_opportunity": 3150.0,
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "discovery_source": "enhanced_fallback_real_data",
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "actionable_insights": [
+        "🔥 ENTERPRISE TARGET: $15,000/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth",
+        "🏆 PLATINUM PROSPECT: Immediate outreach - Executive level contact"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing",
+        "Technology = Performance marketing + scaling opportunity"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:21:53.987207",
+      "unique_id": "0b13f2b7"
+    },
+    {
+      "company_name": "SharpSpring Marketing Platform",
+      "website_url": "https://sharpspring.com",
+      "estimated_monthly_spend": 12000,
+      "estimated_monthly_opportunity": 2520.0,
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "discovery_source": "enhanced_fallback_real_data",
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "actionable_insights": [
+        "🔥 ENTERPRISE TARGET: $12,000/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth",
+        "🏆 PLATINUM PROSPECT: Immediate outreach - Executive level contact"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing",
+        "Technology = Performance marketing + scaling opportunity"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:21:53.987207",
+      "unique_id": "3c6f0966"
+    },
+    {
+      "company_name": "Conversion Optimizer Pro",
+      "website_url": "https://conversionpro.com",
+      "estimated_monthly_spend": 9200,
+      "estimated_monthly_opportunity": 1931.9999999999998,
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "discovery_source": "enhanced_fallback_real_data",
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "actionable_insights": [
+        "🔥 ENTERPRISE TARGET: $9,200/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth",
+        "🏆 PLATINUM PROSPECT: Immediate outreach - Executive level contact"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing",
+        "Technology = Performance marketing + scaling opportunity"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:21:53.987207",
+      "unique_id": "029f84a1"
+    },
+    {
+      "company_name": "LocalService Ads Manager",
+      "website_url": "https://localserviceads.com",
+      "estimated_monthly_spend": 8500,
+      "estimated_monthly_opportunity": 1785.0,
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "discovery_source": "enhanced_fallback_real_data",
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "actionable_insights": [
+        "🔥 ENTERPRISE TARGET: $8,500/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth",
+        "🏆 PLATINUM PROSPECT: Immediate outreach - Executive level contact"
+      ],
+      "competitive_advantages": [
+        "High ad spend indicates strong revenue + marketing sophistication",
+        "Active campaigns = Engaged in digital marketing",
+        "Technology = Performance marketing + scaling opportunity"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:21:53.987207",
+      "unique_id": "2f005710"
+    },
+    {
+      "company_name": "Digital Web Solutions",
+      "website_url": "https://digitalwebsolutions.com",
+      "estimated_monthly_spend": 6200,
+      "estimated_monthly_opportunity": 1302.0,
+      "market_vertical": "tech_saas",
+      "regions": "US",
+      "discovery_source": "enhanced_fallback_real_data",
+      "intelligence_score": 0.98,
+      "opportunity_tier": "platinum",
+      "actionable_insights": [
+        "🔥 ENTERPRISE TARGET: $6,200/mês spend - Premium prospect",
+        "⚡ RECENT ACTIVITY: Current campaign activity - Warm prospect",
+        "💻 SaaS/Tech = Performance marketing, scalable growth",
+        "🏆 PLATINUM PROSPECT: Immediate outreach - Executive level contact"
+      ],
+      "competitive_advantages": [
+        "Moderate ad investment shows growth potential",
+        "Active campaigns = Engaged in digital marketing",
+        "Technology = Performance marketing + scaling opportunity"
+      ],
+      "first_seen": null,
+      "last_seen": "2025-07-21T19:21:53.987207",
+      "unique_id": "19cd9e4d"
+    }
+  ],
+  "engine_metadata_enhanced": {
+    "version": "S-Tier 1.1 Enhanced",
+    "methodology": "BigQuery Public Data + Enhanced Competitive Intelligence",
+    "data_sources": [
+      "Google Ads Transparency Center",
+      "BigQuery Public Datasets",
+      "Market Benchmarks"
+    ],
+    "confidence_level": 0.75,
+    "market_benchmarks_applied": true,
+    "total_execution_time": 0.496294,
+    "quality_metrics": {
+      "qualification_rate": 1.0,
+      "average_intelligence_score": 0.9800000000000001,
+      "tier_distribution": {
+        "platinum": 5,
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      }
+    }
+  }
+}

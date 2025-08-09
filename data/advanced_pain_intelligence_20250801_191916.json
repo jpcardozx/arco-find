@@ -1,0 +1,199 @@
+{
+  "execution_summary": {
+    "total_qualified_intelligence": 1,
+    "unique_businesses_analyzed": 42,
+    "raw_prospects_collected": 43,
+    "deduplication_efficiency": "2.3%",
+    "execution_time_seconds": 258.316178,
+    "timestamp": "2025-08-01T19:19:16.718164",
+    "engine_version": "4.0 Advanced Intelligence",
+    "methodology": "Semantic Analysis + Geographic Distribution + Advanced Deduplication"
+  },
+  "qualified_intelligence": [
+    {
+      "company": "Sahara Motors",
+      "business_fingerprint": "d91710d56a7c",
+      "page_id": "642932705578118",
+      "geographic_zone": "metro_toronto",
+      "market_vertical": "auto_repair",
+      "ad_ecosystem_analysis": {
+        "ad_longevity": {
+          "running_days": 2,
+          "longevity_assessment": "new_campaign",
+          "efficiency_indicator": "normal"
+        },
+        "content_quality": {
+          "text_length": 569,
+          "quality_assessment": "comprehensive",
+          "information_density": 0.15992970123022848
+        },
+        "cta_analysis": {
+          "cta_type": "VIEW_INSTAGRAM_PROFILE",
+          "cta_text": "Visit Instagram profile",
+          "cta_effectiveness": "moderate_intent"
+        }
+      },
+      "spend_intelligence": {
+        "estimated_total_spend_cad": 140.0,
+        "estimated_monthly_spend_cad": 2100.0,
+        "spend_efficiency_assessment": "low",
+        "optimization_potential_cad": 630.0
+      },
+      "competition_positioning": {
+        "market_saturation": 0.85,
+        "competition_intensity": 0.9,
+        "cost_efficiency": {
+          "cpc_multiplier": 1.4,
+          "efficiency_assessment": "low"
+        },
+        "messaging_differentiation": 0.15000000000000002,
+        "competitive_advantage_potential": 0.94
+      },
+      "semantic_waste_score": 0.8888888888888891,
+      "messaging_sophistication": 0.0,
+      "conversion_optimization": 0.55,
+      "market_differentiation": 0.15000000000000002,
+      "pain_vector_analysis": {
+        "price_sensitivity": 0.0,
+        "urgency_desperation": 0.0,
+        "trust_deficit": 1.0,
+        "quality_anxiety": 0.0,
+        "competition_pressure": 0.3333333333333333
+      },
+      "opportunity_matrix": {
+        "messaging_optimization": {
+          "priority": "high",
+          "impact_potential": 1.0,
+          "implementation_effort": "low",
+          "expected_improvement": "30% conversion increase"
+        },
+        "conversion_optimization": {
+          "priority": "medium",
+          "impact_potential": 0.44999999999999996,
+          "implementation_effort": "medium",
+          "expected_improvement": "11% lead quality increase"
+        },
+        "differentiation_strategy": {
+          "priority": "critical",
+          "impact_potential": 0.94,
+          "implementation_effort": "high",
+          "expected_improvement": "38% market share opportunity"
+        },
+        "cost_efficiency": {
+          "priority": "high",
+          "impact_potential": 0.3999999999999999,
+          "implementation_effort": "medium",
+          "expected_improvement": "8% cost reduction potential"
+        },
+        "actionability_index": 0.4677499999999999
+      },
+      "implementation_roadmap": [
+        {
+          "phase": 1,
+          "opportunity": "Differentiation Strategy",
+          "priority": "critical",
+          "impact_potential": "94%",
+          "implementation_effort": "high",
+          "expected_improvement": "38% market share opportunity",
+          "timeline": "6-8 weeks",
+          "key_actions": [
+            "Identify unique service methodology",
+            "Develop proprietary process messaging",
+            "Create competitive advantage content",
+            "Implement brand positioning strategy"
+          ]
+        },
+        {
+          "phase": 2,
+          "opportunity": "Messaging Optimization",
+          "priority": "high",
+          "impact_potential": "100%",
+          "implementation_effort": "low",
+          "expected_improvement": "30% conversion increase",
+          "timeline": "1-2 weeks",
+          "key_actions": [
+            "Rewrite ad copy with specific value propositions",
+            "Remove generic claims and price-focused messaging",
+            "Add trust signals and credibility indicators",
+            "Implement urgency without desperation"
+          ]
+        },
+        {
+          "phase": 3,
+          "opportunity": "Cost Efficiency",
+          "priority": "high",
+          "impact_potential": "40%",
+          "implementation_effort": "medium",
+          "expected_improvement": "8% cost reduction potential",
+          "timeline": "3-4 weeks",
+          "key_actions": [
+            "Audit current keyword targeting",
+            "Optimize geographic targeting",
+            "Implement negative keyword strategy",
+            "Test cost-effective ad scheduling"
+          ]
+        },
+        {
+          "phase": 4,
+          "opportunity": "Conversion Optimization",
+          "priority": "medium",
+          "impact_potential": "45%",
+          "implementation_effort": "medium",
+          "expected_improvement": "11% lead quality increase",
+          "timeline": "3-4 weeks",
+          "key_actions": [
+            "Add clear, action-oriented CTA",
+            "Include contact information prominently",
+            "Create landing page alignment",
+            "Implement conversion tracking"
+          ]
+        }
+      ],
+      "overall_intelligence_score": 63.59347222222222,
+      "actionability_index": 0.4677499999999999,
+      "revenue_impact_potential": 9971.640000000001,
+      "analysis_methodology": "Advanced Semantic + Contextual Intelligence",
+      "confidence_interval": [
+        54.054451388888886,
+        73.13249305555554
+      ],
+      "last_updated": "2025-08-01T19:19:16.592267"
+    }
+  ],
+  "advanced_analytics": {
+    "intelligence_distribution": {
+      "exceptional_90plus": 0,
+      "high_80to89": 0,
+      "good_70to79": 0
+    },
+    "geographic_distribution": {
+      "metro_toronto": 1
+    },
+    "vertical_distribution": {
+      "auto_repair": 1
+    },
+    "advanced_metrics": {
+      "average_intelligence_score": 63.6,
+      "average_actionability_index": 0.47,
+      "average_revenue_potential_cad": 9972.0,
+      "total_revenue_opportunity_cad": 9972.0
+    },
+    "top_opportunity_patterns": {
+      "messaging_optimization": 1,
+      "conversion_optimization": 1,
+      "differentiation_strategy": 1,
+      "cost_efficiency": 1
+    },
+    "sophistication_analysis": {
+      "avg_messaging_sophistication": 0.0,
+      "avg_conversion_optimization": 0.55,
+      "avg_market_differentiation": 0.15
+    },
+    "deduplication_effectiveness": {
+      "raw_prospects": 42,
+      "unique_prospects": 42,
+      "qualified_intelligence": 1,
+      "qualification_rate": "2.4%"
+    }
+  }
+}

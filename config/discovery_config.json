@@ -1,0 +1,141 @@
+{
+  "discovery_engine": {
+    "min_icp_score": 70,
+    "min_opportunity_score": 75,
+    "min_commercial_viability": 70,
+    "cost_budget_per_session": 50.0,
+    "max_prospects_per_query": 20,
+    "analysis_timeout_seconds": 30
+  },
+  "icp_criteria": {
+    "company_size": {
+      "preferred": ["medium", "large", "enterprise"],
+      "minimum_employees": 50,
+      "exclude": ["startup"]
+    },
+    "tech_sophistication": {
+      "minimum_score": 60,
+      "advanced_tech_indicators": [
+        "react", "angular", "vue", "typescript", "graphql",
+        "microservices", "kubernetes", "aws", "azure", "gcp"
+      ],
+      "enterprise_features": [
+        "single sign-on", "sso", "api", "integration",
+        "enterprise", "security", "compliance"
+      ]
+    },
+    "budget_indicators": [
+      "hiring", "careers", "job", "investment", "funding",
+      "consulting", "optimization", "performance", "technical debt"
+    ],
+    "vertical_alignment": {
+      "ecommerce": ["shop", "store", "cart", "checkout", "product", "ecommerce"],
+      "saas": ["software", "saas", "platform", "solution", "tool", "app"],
+      "fintech": ["financial", "fintech", "payment", "banking", "investment"],
+      "healthtech": ["health", "medical", "healthcare", "telemedicine"],
+      "marketplace": ["marketplace", "platform", "connect", "network"]
+    }
+  },
+  "targeting_strategy": {
+    "sophisticated_keywords": {
+      "ecommerce_enterprise": [
+        "shopify plus optimization",
+        "magento enterprise performance",
+        "conversion rate optimization",
+        "mobile site speed",
+        "checkout optimization",
+        "page speed audit"
+      ],
+      "saas_enterprise": [
+        "application performance monitoring",
+        "site reliability engineering",
+        "user experience optimization",
+        "technical debt reduction",
+        "performance optimization consulting"
+      ],
+      "high_value_signals": [
+        "technical consulting",
+        "performance audit",
+        "optimization services",
+        "enterprise solutions",
+        "scalability consulting"
+      ]
+    },
+    "exclusion_patterns": [
+      "amazon.com", "ebay.com", "etsy.com", "facebook.com",
+      "instagram.com", "twitter.com", "linkedin.com",
+      "youtube.com", "google.com", "yahoo.com"
+    ]
+  },
+  "api_configuration": {
+    "searchapi": {
+      "base_url": "https://www.searchapi.io/api/v1/search",
+      "engine": "meta_ad_library",
+      "default_params": {
+        "country": "US",
+        "active_status": "active",
+        "platforms": "facebook,instagram",
+        "limit": 50
+      },
+      "rate_limit_delay": 2
+    },
+    "builtwith": {
+      "enabled": false,
+      "rate_limit_delay": 1
+    },
+    "pagespeed": {
+      "enabled": false,
+      "fallback_to_http_timing": true
+    }
+  },
+  "scoring_weights": {
+    "icp_score": {
+      "company_size": 0.15,
+      "tech_sophistication": 0.15,
+      "vertical_fit": 0.10,
+      "budget_indicators": 0.20,
+      "performance_opportunity": 0.25,
+      "decision_maker_signals": 0.15
+    },
+    "commercial_viability": {
+      "company_size": 0.30,
+      "pain_urgency": 0.20,
+      "budget_indicators": 0.15,
+      "decision_maker_access": 0.10,
+      "sophistication_match": 0.25
+    },
+    "final_ranking": {
+      "commercial_viability": 0.40,
+      "icp_score": 0.30,
+      "opportunity_score": 0.30
+    }
+  },
+  "pain_signal_thresholds": {
+    "performance": {
+      "load_time_critical": 5000,
+      "load_time_high": 3000,
+      "html_size_large": 500000,
+      "performance_grade_poor": ["poor", "fair"]
+    },
+    "business_impact_multipliers": {
+      "enterprise": 50000,
+      "large": 25000,
+      "medium": 10000,
+      "small": 3000,
+      "startup": 1500
+    }
+  },
+  "deal_size_estimates": {
+    "enterprise": "$50k-150k",
+    "large": "$25k-75k",
+    "medium": "$15k-50k",
+    "small": "$5k-20k",
+    "startup": "$3k-10k"
+  },
+  "timeline_estimates": {
+    "commercial_viability_90_plus": "30-60 days",
+    "commercial_viability_80_plus": "60-90 days",
+    "commercial_viability_70_plus": "90-120 days",
+    "commercial_viability_below_70": "120+ days"
+  }
+}

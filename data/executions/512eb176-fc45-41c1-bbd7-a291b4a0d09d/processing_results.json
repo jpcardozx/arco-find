@@ -1,0 +1,72 @@
+[
+  {
+    "lead_id": "sydneyplumbingpros.com.au_a8842bdb",
+    "domain": "sydneyplumbingpros.com.au",
+    "status": "rejected",
+    "score": 0,
+    "confidence": 0.0,
+    "processing_time_ms": 15.755,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "melbourneplumbingexperts.com.au_1543fe97",
+    "domain": "melbourneplumbingexperts.com.au",
+    "status": "rejected",
+    "score": 0,
+    "confidence": 0.0,
+    "processing_time_ms": 7.550000000000001,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "brisbanehvacpros.com.au_1c3fcf09",
+    "domain": "brisbanehvacpros.com.au",
+    "status": "rejected",
+    "score": 0,
+    "confidence": 0.0,
+    "processing_time_ms": 17.852,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "melbourneroofingexperts.com.au_ccbeacf7",
+    "domain": "melbourneroofingexperts.com.au",
+    "status": "rejected",
+    "score": 0,
+    "confidence": 0.0,
+    "processing_time_ms": 9.879000000000001,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "sydneyroofingpros.com.au_7bb9c347",
+    "domain": "sydneyroofingpros.com.au",
+    "status": "rejected",
+    "score": 0,
+    "confidence": 0.0,
+    "processing_time_ms": 5.734,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "brisbanesparkies.com.au_d0405f5a",
+    "domain": "brisbanesparkies.com.au",
+    "status": "rejected",
+    "score": 0,
+    "confidence": 0.0,
+    "processing_time_ms": 20.366,
+    "error_message": null,
+    "qualification_reasons": []
+  },
+  {
+    "lead_id": "perthpestcontrol.com.au_fa1eff17",
+    "domain": "perthpestcontrol.com.au",
+    "status": "rejected",
+    "score": 0,
+    "confidence": 0.0,
+    "processing_time_ms": 6.569,
+    "error_message": null,
+    "qualification_reasons": []
+  }
+]

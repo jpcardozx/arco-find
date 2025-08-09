@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "industry": "legal",
+    "leads_found": 0,
+    "target_requested": 10,
+    "scan_timestamp": "2025-07-31T18:46:28.171113",
+    "methodology": "realistic_pattern_analysis",
+    "limitations": [
+      "Based on publicly visible ad data only",
+      "No performance metrics available",
+      "Location inference may be imprecise",
+      "Activity patterns are observational, not predictive"
+    ]
+  },
+  "scan_metadata": {
+    "domains_scanned": [
+      "justicelaw.ca",
+      "personalinjurylawyers.ca",
+      "injurylaw.ca"
+    ],
+    "api_calls_made": 3,
+    "errors_encountered": [],
+    "total_ads_analyzed": 0
+  },
+  "leads": []
+}

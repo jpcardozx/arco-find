@@ -1,0 +1,35 @@
+{
+  "execution_summary": {
+    "execution_id": "94cf96fa-a3c9-4753-b057-c4ca2226c385",
+    "timestamp": "20250807_100127",
+    "status": "completed",
+    "total_execution_time_seconds": 0
+  },
+  "performance_metrics": {
+    "execution_id": "94cf96fa-a3c9-4753-b057-c4ca2226c385",
+    "total_leads_discovered": 45,
+    "total_leads_qualified": 34,
+    "total_credits_used": 0,
+    "total_api_calls": 0,
+    "avg_processing_time_ms": 1.699422222222222,
+    "qualification_rate": 0.7555555555555555,
+    "cost_per_lead": 0.0,
+    "errors_count": 0,
+    "warnings_count": 0,
+    "cache_hit_rate": 0.0
+  },
+  "lead_analysis": {
+    "total_discovered": 45,
+    "total_qualified": 34,
+    "total_rejected": 11,
+    "qualification_rate": 0.7555555555555555,
+    "avg_score": 64.88235294117646
+  },
+  "quality_insights": [
+    "Alta taxa de qualificação indica targeting eficaz",
+    "Tempo de processamento otimizado"
+  ],
+  "recommendations": [
+    "Iniciar processo de outreach com leads qualificados"
+  ]
+}

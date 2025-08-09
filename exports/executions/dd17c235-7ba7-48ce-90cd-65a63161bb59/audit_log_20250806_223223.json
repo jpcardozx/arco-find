@@ -1,0 +1,56 @@
+{
+  "execution_id": "dd17c235-7ba7-48ce-90cd-65a63161bb59",
+  "timestamp": "20250806_223223",
+  "processing_results": [
+    {
+      "lead_id": "sydneyplumbingpros.com.au_e2eb207a",
+      "domain": "sydneyplumbingpros.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 23.261,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "melbourneplumbingexperts.com.au_6fec898a",
+      "domain": "melbourneplumbingexperts.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 11.721,
+      "error_message": null,
+      "qualification_reasons": []
+    },
+    {
+      "lead_id": "brisbanehvacpros.com.au_a77e51bf",
+      "domain": "brisbanehvacpros.com.au",
+      "status": "rejected",
+      "score": 0,
+      "confidence": 0.0,
+      "processing_time_ms": 13.933,
+      "error_message": null,
+      "qualification_reasons": []
+    }
+  ],
+  "metrics_history": [
+    {
+      "execution_id": "dd17c235-7ba7-48ce-90cd-65a63161bb59",
+      "total_leads_discovered": 3,
+      "total_leads_qualified": 0,
+      "total_credits_used": 0,
+      "total_api_calls": 0,
+      "avg_processing_time_ms": 16.305,
+      "qualification_rate": 0.0,
+      "cost_per_lead": 0,
+      "errors_count": 0,
+      "warnings_count": 0,
+      "cache_hit_rate": 0.0
+    }
+  ],
+  "system_info": {
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "execution_platform": "win32",
+    "working_directory": "C:\\Users\\João Pedro Cardozo\\OneDrive\\Área de Trabalho\\arco\\arco-find"
+  }
+}
