@@ -53,6 +53,7 @@ class DiscoveryOutput:
     company_name: Optional[str] = None
     city: Optional[str] = None
     geo_location: Optional[str] = None
+    strategic_insights: Optional[Dict] = None  # Progressive disclosure insights
 
 
 @dataclass 

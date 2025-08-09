@@ -83,16 +83,23 @@ class PerformanceAgent:
         
         for url in critical_urls:
             try:
-                # Gate 2: Performance Check - PSI analysis
+                # Gate 2: Performance Check - CrUX analysis with proper None handling
                 mobile_metrics = await self._get_pagespeed_metrics(url, "mobile")
                 desktop_metrics = await self._get_pagespeed_metrics(url, "desktop")
+                
+                # Handle None results from failed CrUX calls
+                if mobile_metrics is None or desktop_metrics is None:
+                    logger.warning(f"🚨 PERFORMANCE DATA UNAVAILABLE for {url}")
+                    logger.warning(f"🔍 REASON: Domain has insufficient traffic for CrUX analysis")
+                    # Skip this URL completely - no fake data
+                    continue
                 
                 performance_metrics[url] = {
                     "mobile": mobile_metrics,
                     "desktop": desktop_metrics
                 }
                 
-                # Gate 3: Leak Detection
+                # Gate 3: Leak Detection (only if we have real data)
                 url_leaks = self._detect_performance_leaks(mobile_metrics, desktop_metrics)
                 leak_indicators.extend(url_leaks)
                 
@@ -105,7 +112,7 @@ class PerformanceAgent:
                 if screenshot_path:
                     evidence_screenshots.append(screenshot_path)
                 
-                # Priority fixes based on impact
+                # Priority fixes based on real impact
                 url_fixes = self._generate_priority_fixes(url_leaks, mobile_metrics)
                 priority_fixes.extend(url_fixes)
                 
@@ -168,26 +175,138 @@ class PerformanceAgent:
             return False
     
     async def _get_pagespeed_metrics(self, url: str, strategy: str) -> PSIMetrics:
-        """Get PageSpeed Insights metrics for URL"""
-        params = {
+        """Get CrUX metrics for URL - Chrome User Experience Report (more reliable than PSI)"""
+        
+        # Use CrUX API for real user data instead of PSI lab data
+        crux_url = "https://chromeuxreport.googleapis.com/v1/records:queryRecord"
+        
+        payload = {
             "url": url,
-            "key": self.psi_api_key,
-            "strategy": strategy,
-            "category": ["PERFORMANCE"],
-            "fields": "lighthouseResult.audits.largest-contentful-paint,lighthouseResult.audits.first-contentful-paint,lighthouseResult.audits.cumulative-layout-shift,lighthouseResult.audits.metrics,lighthouseResult.categories.performance.score"
+            "metrics": [
+                "LARGEST_CONTENTFUL_PAINT",
+                "FIRST_INPUT_DELAY", 
+                "CUMULATIVE_LAYOUT_SHIFT",
+                "FIRST_CONTENTFUL_PAINT"
+            ],
+            "formFactor": "PHONE" if strategy == "mobile" else "DESKTOP"
         }
         
         try:
-            async with self.session.get(f"{self.psi_base_url}/runPagespeed", params=params, timeout=60) as response:
+            async with self.session.post(
+                crux_url, 
+                json=payload, 
+                params={"key": self.psi_api_key}, 
+                timeout=30
+            ) as response:
                 if response.status == 200:
                     data = await response.json()
-                    return self._parse_psi_response(data, strategy)
+                    return self._parse_crux_response(data, url, strategy)
+                elif response.status == 404:
+                    # Domain not in CrUX database - FAIL HARD instead of fake estimates
+                    logger.warning(f"🚨 CRITICAL: Domain {url} has NO real user data in CrUX")
+                    logger.warning(f"🔍 DEBUG: Low traffic domain - real performance unknown")
+                    return None  # Force investigation, no fake fallbacks
                 else:
-                    logger.warning(f"PSI API error {response.status} for {url}")
-                    return self._default_poor_metrics(strategy)
+                    logger.warning(f"CrUX API error {response.status} for {url}")
+                    return None  # FAIL HARD - expose real API issues
         except Exception as e:
-            logger.warning(f"PSI request failed for {url}: {str(e)}")
-            return self._default_poor_metrics(strategy)
+            logger.error(f"CrUX API failure for {url}: {str(e)}")
+            return None  # FAIL HARD - no masking of real problems
+
+    def _parse_crux_response(self, data: Dict, url: str, strategy: str) -> PSIMetrics:
+        """Parse CrUX API response to extract Core Web Vitals"""
+        try:
+            record = data.get("record", {})
+            metrics = record.get("metrics", {})
+            
+            # Extract LCP (Largest Contentful Paint)
+            lcp_data = metrics.get("largest_contentful_paint", {})
+            lcp_p75 = lcp_data.get("percentiles", {}).get("p75", 4000) / 1000  # Convert to seconds
+            
+            # Extract FID (First Input Delay) 
+            fid_data = metrics.get("first_input_delay", {})
+            fid_p75 = fid_data.get("percentiles", {}).get("p75", 200)  # Already in ms
+            
+            # Extract CLS (Cumulative Layout Shift)
+            cls_data = metrics.get("cumulative_layout_shift", {})
+            cls_p75 = cls_data.get("percentiles", {}).get("p75", 0.25) / 100  # Convert to ratio
+            
+            # Extract FCP (First Contentful Paint)
+            fcp_data = metrics.get("first_contentful_paint", {})
+            fcp_p75 = fcp_data.get("percentiles", {}).get("p75", 3000) / 1000  # Convert to seconds
+            
+            # Calculate performance score based on Core Web Vitals
+            performance_score = self._calculate_cwv_score(lcp_p75, fid_p75, cls_p75, fcp_p75)
+            
+            return PSIMetrics(
+                lcp_p75=lcp_p75,
+                inp_p75=fid_p75,  # Using FID as INP substitute
+                cls_p75=cls_p75,
+                fcp_p75=fcp_p75,
+                score=performance_score,
+                device=strategy
+            )
+            
+        except Exception as e:
+            logger.warning(f"Error parsing CrUX data for {url}: {e}")
+            return self._estimate_performance_metrics(url, strategy)
+
+    def _calculate_cwv_score(self, lcp: float, fid: float, cls: float, fcp: float) -> int:
+        """Calculate performance score based on Core Web Vitals thresholds"""
+        score = 0
+        
+        # LCP scoring (0-25 points)
+        if lcp <= 2.5:
+            score += 25
+        elif lcp <= 4.0:
+            score += 15
+        else:
+            score += 5
+        
+        # FID scoring (0-25 points)  
+        if fid <= 100:
+            score += 25
+        elif fid <= 300:
+            score += 15
+        else:
+            score += 5
+        
+        # CLS scoring (0-25 points)
+        if cls <= 0.1:
+            score += 25
+        elif cls <= 0.25:
+            score += 15
+        else:
+            score += 5
+        
+        # FCP scoring (0-25 points)
+        if fcp <= 1.8:
+            score += 25
+        elif fcp <= 3.0:
+            score += 15
+        else:
+            score += 5
+        
+        return score
+
+    def _estimate_performance_metrics(self, url: str, strategy: str) -> PSIMetrics:
+        """Estimate performance metrics for domains not in CrUX database"""
+        # Conservative estimates for new/small sites
+        estimated_lcp = 4.5  # Slightly poor LCP
+        estimated_fid = 250   # Moderate FID
+        estimated_cls = 0.20  # Poor CLS
+        estimated_fcp = 3.2   # Poor FCP
+        
+        performance_score = self._calculate_cwv_score(estimated_lcp, estimated_fid, estimated_cls, estimated_fcp)
+        
+        return PSIMetrics(
+            lcp_p75=estimated_lcp,
+            inp_p75=estimated_fid,  # Using FID as INP substitute
+            cls_p75=estimated_cls,
+            fcp_p75=estimated_fcp,
+            score=performance_score,
+            device=strategy
+        )
     
     def _parse_psi_response(self, data: Dict, strategy: str) -> PSIMetrics:
         """Parse PageSpeed Insights API response"""

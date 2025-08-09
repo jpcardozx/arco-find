@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-ARCO V3 Command Line Interface
-Agent-based lead generation and outreach automation
+ARCO V3 Command Line Interface - INTELLIGENT DISCOVERY ENGINE
+Agent-based lead generation with vulnerability-focused advertising intelligence
 """
 
 import asyncio
@@ -22,27 +22,28 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 )
-logger = logging.getLogger("arco-cli")
+logger = logging.getLogger("arco-cli-intelligent")
 
 
 def main():
-    """Main CLI entry point"""
+    """Main CLI entry point for INTELLIGENT DISCOVERY ENGINE"""
     parser = argparse.ArgumentParser(
-        description="ARCO V3 - Agent-based Lead Generation System",
+        description="ARCO V3 - INTELLIGENT VULNERABILITY-FOCUSED DISCOVERY ENGINE",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-Examples:
-  # Run daily batch with defaults
-  python arco_v3.py batch
+🧠 INTELLIGENT DISCOVERY EXAMPLES:
 
-  # Target HVAC vertical with 50 credits
-  python arco_v3.py batch --vertical hvac --max-credits 50
+  # LinkedIn + Google escalonated discovery
+  python arco_v3.py intelligent --vertical hvac --max-credits 20
 
-  # High-priority prospects only
-  python arco_v3.py batch --min-score 10 --target-prospects 8
+  # High vulnerability threshold targeting
+  python arco_v3.py intelligent --vulnerability-min 7 --target-prospects 10
 
-  # Test with mock data
-  python arco_v3.py test --mock
+  # Multi-engine B2B discovery
+  python arco_v3.py intelligent --engines linkedin,google --vertical dental
+
+  # Test intelligent engine
+  python arco_v3.py test-intelligent --mock
         """
     )
     
