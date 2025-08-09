@@ -1,6 +1,6 @@
-# 🎯 ARCO ENGINE V3: Performance-Driven Lead Generation
+# 🎯 ARCO ENGINE V3: Agent-Based Lead Generation System
 
-**Evidence-based B2B lead generation system targeting performance optimization opportunities**
+**Automated B2B lead generation and hyper-personalized outreach using AI agents**
 
 ## 🚀 **Quick Start**
 
@@ -8,12 +8,14 @@
 # Install dependencies
 pip install -r requirements.txt
 
-# Configure API keys
-cp config/api_keys.py.example config/api_keys.py
-# Edit config/api_keys.py with your SearchAPI key
+# Validate configuration
+python arco_v3.py validate
 
-# Run the discovery engine
-python arco_engine_definitivo_calibrado.py
+# Run daily batch processing
+python arco_v3.py batch --max-credits 50 --target-prospects 10
+
+# Test with mock data
+python arco_v3.py test --mock
 ```
 
 ## 📋 **What This Does**
@@ -49,39 +51,63 @@ ARCO V3 identifies B2B companies with:
 - **Time to Close**: <21 days
 - **Monthly Revenue Target**: $15K-25K
 
-## 🔧 **Core Components**
+## 🔧 **Agent Architecture**
 
-### `arco_engine_definitivo_calibrado.py`
-
-Production-ready discovery engine with:
-
+### 🔍 **Discovery Agent**
 - SearchAPI integration (SERP + Transparency Center)
-- PageSpeed Insights + Chrome UX Report analysis
-- Evidence-based scoring (Demand + Leak + Fit)
-- Personalized outreach generation
+- Active advertiser filtering (≤7 days)
+- Currency validation (USD/EUR/GBP/CAD/AUD)
+- Demand & Fit scoring
 
-### Key Classes:
+### 🚀 **Performance Agent**
+- PageSpeed Insights analysis (mobile + desktop)
+- Chrome UX Report (p75 Core Web Vitals)
+- Evidence screenshot automation
+- Leak score calculation
 
-- `CalibratedSearchAPI`: Multi-engine query optimization
-- `CalibratedWasteAnalyzer`: Performance leak detection
-- `LeakScoreCalculator`: Priority scoring algorithm
+### 🎯 **Scoring Agent**
+- Combined priority scoring
+- Service fit determination (CWV/LP/Tracking)
+- Deal size estimation
+- Monthly loss calculation
+
+### 📧 **Outreach Agent**
+- Personalized message generation by vertical
+- Evidence package creation
+- Follow-up sequence planning
+- Hyper-personalization with real data
+
+### 📊 **Analytics Agent**
+- Pipeline metrics tracking
+- Response rate analysis
+- Score calibration
+- ROI reporting
 
 ## 📁 **Project Structure**
 
 ```
 arco-find/
-├── arco_engine_definitivo_calibrado.py    # Main discovery engine
+├── arco_v3.py                             # Main CLI interface
+├── src/
+│   ├── agents/                            # Agent implementations
+│   │   ├── discovery_agent.py            # SearchAPI + filtering
+│   │   ├── performance_agent.py          # PSI + performance analysis
+│   │   ├── scoring_agent.py              # Priority scoring
+│   │   ├── outreach_agent.py             # Message generation
+│   │   ├── followup_agent.py             # Follow-up automation
+│   │   └── analytics_agent.py            # Metrics & optimization
+│   ├── models/
+│   │   └── core_models.py                # Data structures
+│   └── arco_pipeline.py                  # Pipeline orchestrator
 ├── config/
-│   ├── api_keys.py                        # API credentials
-│   └── __init__.py
-├── src/                                   # Core modules
-├── data/                                  # Discovery results
-├── exports/                               # Pipeline outputs
-├── logs/                                  # Execution logs
-├── docs/                                  # Technical documentation
-├── ARCO_V3_PERFORMANCE_LEAD_GENERATION.md # Complete specification
-├── AGENTS.md                              # AI automation protocols
-└── GIT_ISSUE_ARCO_V3_STIER.md            # Production roadmap
+│   ├── api_keys.py                       # API credentials
+│   └── discovery_config.json             # Discovery settings
+├── data/
+│   └── executions/                       # Batch processing results
+├── docs/                                 # Technical documentation
+├── AGENTS.md                             # AI automation protocols
+└── legacy/
+    └── arco_s_tier_merged.py             # Legacy monolithic script
 ```
 
 ## 🔑 **Configuration**
@@ -137,14 +163,52 @@ priority_score = demand_score + leak_score + fit_score
 ```
 Subject: Your same-day LP is leaking calls — mobile LCP 3.6s
 
-PSI shows 3.6s LCP on mobile (p75). That's ~12 lost calls/month
+Hey Mike,
+
+Found your "Emergency HVAC" ads on Google — great targeting for Tampa.
+
+Issue: PSI shows 3.6s LCP on mobile (p75). That's ~12 lost calls/month 
 when users bounce before your "same-day" promise loads.
 
-Quick fix: image optimization + above-fold phone CTA
-Acceptance: ≥90% URLs pass CWV + A/B test
+Quick fix scope:
+• Image optimization (150KB savings)
+• Font loading strategy
+• Above-fold phone CTA (currently buried)
+
+Acceptance: ≥90% URLs pass CWV + A/B test on headline
 Typical result: 15-30% CPA reduction
 
 24h audit (USD 250, credited to sprint): [calendar]
+Evidence + one-pager: [evidence_url]
+
+Best,
+Alex
+```
+
+### Dental Template:
+
+```
+Subject: INP 280ms on your implants LP — clean A/B plan
+
+Hi Dr. Smith,
+
+Saw your implant ads — smart geo-targeting for Miami.
+
+Performance issue: Field INP 280ms (p75). Heavy images + no form 
+feedback = user frustration on mobile.
+
+2-week scope:
+• Media compression strategy
+• Form validation + progress feedback
+• A/B test: credentials vs. case studies above fold
+
+Acceptance: CWV within Google thresholds + experiment readout in GA4
+ROI: Typical 10-25% CVR lift on consultation forms
+
+24h audit (USD 250 → credited): [calendar]
+Proof + fix plan: [evidence_url]
+
+Alex
 ```
 
 ## 🚨 **Important Notes**
@@ -173,8 +237,27 @@ Typical result: 15-30% CPA reduction
 - **PageSpeed Insights API**: https://developers.google.com/speed/docs/insights/v5/get-started
 - **Chrome UX Report**: https://developers.google.com/web/tools/chrome-user-experience-report
 
+## 🤖 **Agent Automation**
+
+### **Daily Automation Flow**
+
+```
+06:00 - Discovery Phase    → SearchAPI queries by vertical
+07:00 - Performance Phase  → PSI + CrUX analysis  
+08:00 - Scoring Phase      → Priority calculation + service fit
+09:00 - Outreach Phase     → Personalized message generation
+18:00 - Analytics Phase    → Pipeline metrics + optimization
+```
+
+### **Expected Performance**
+
+- **Discovery**: 8-12 qualified prospects/day
+- **Response Rate**: 12-20% (vs industry 5-8%)
+- **Qualification Rate**: >15% (vs previous 2.3%)
+- **Pipeline Velocity**: <21 days to close
+
 ---
 
-**Success Criteria**: 2 sprints closed in first 7 days + $15K-25K monthly revenue by month-end.
+**Success Criteria**: 12-20% response rate + $15K-25K monthly revenue
 
-**Support**: See documentation files or run `python arco_engine_definitivo_calibrado.py --help`
+**Support**: Run `python arco_v3.py --help` or see [AGENTS.md](AGENTS.md)
