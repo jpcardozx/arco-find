@@ -1,0 +1,31 @@
+[
+  {
+    "domain": "dental-implants-tampa-fl.com",
+    "analyzed_urls": [
+      "https://dental-implants-tampa-fl.com"
+    ],
+    "performance_metrics": {
+      "https://dental-implants-tampa-fl.com": {
+        "mobile": "PSIMetrics(lcp_p75=4.5, inp_p75=350, cls_p75=0.2, fcp_p75=3.0, score=35, device='mobile')",
+        "desktop": "PSIMetrics(lcp_p75=4.5, inp_p75=350, cls_p75=0.2, fcp_p75=3.0, score=35, device='desktop')"
+      }
+    },
+    "leak_indicators": [
+      "CLS_MODERATE",
+      "LCP_HIGH",
+      "MOBILE_UNFRIENDLY",
+      "INP_MODERATE",
+      "ACCESSIBILITY_ISSUES"
+    ],
+    "leak_score": 9,
+    "evidence_screenshots": [
+      "evidence/dental-implants-tampa-fl.com_20250809_040014_performance.png"
+    ],
+    "priority_fixes": [
+      "Image optimization + lazy loading (Est. 1.5s LCP improvement)",
+      "Mobile responsiveness overhaul (Est. 25% mobile conversion boost)"
+    ],
+    "estimated_impact": "25-40% conversion rate improvement potential",
+    "analysis_timestamp": "2025-08-09T07:00:14.699965+00:00"
+  }
+]

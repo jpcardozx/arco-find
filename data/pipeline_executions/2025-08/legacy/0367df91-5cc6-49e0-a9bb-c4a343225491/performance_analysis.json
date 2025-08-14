@@ -1,0 +1,28 @@
+[
+  {
+    "domain": "tampapalmsdentistry.com",
+    "analyzed_urls": [
+      "https://tampapalmsdentistry.com"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T00:33:22.710067+00:00"
+  },
+  {
+    "domain": "tampadentalimplants.com",
+    "analyzed_urls": [
+      "https://tampadentalimplants.com"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T00:33:28.026086+00:00"
+  }
+]

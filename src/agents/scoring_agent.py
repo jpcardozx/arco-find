@@ -28,8 +28,8 @@ class ScoringAgent:
     """
     
     def __init__(self):
-        # Priority threshold for outreach qualification
-        self.priority_threshold = 8
+        # Priority threshold for outreach qualification - OPTIMIZED FOR REAL PROSPECTS
+        self.priority_threshold = 6  # Lowered from 8 to 6 for better qualification rate
         
         # Service fit definitions with deal size ranges
         self.service_definitions = {
@@ -78,13 +78,14 @@ class ScoringAgent:
             performance_output.leak_score
         )
         
-        logger.debug(f"Score breakdown - Demand: {discovery_output.demand_score}, "
-                    f"Fit: {discovery_output.fit_score}, Leak: {performance_output.leak_score}")
+        logger.info(f"📊 Score breakdown - Demand: {discovery_output.demand_score}, "
+                    f"Fit: {discovery_output.fit_score}, Leak: {performance_output.leak_score}, Total: {total_score}")
         
         # Gate 1: Priority Threshold
         if total_score < self.priority_threshold:
-            logger.debug(f"❌ Priority threshold not met: {total_score} < {self.priority_threshold}")
+            logger.info(f"❌ Priority threshold not met: {total_score} < {self.priority_threshold}")
             return None
+        logger.info(f"✅ Priority threshold passed: {total_score} >= {self.priority_threshold}")
         
         # Gate 2: Service Fit Logic
         service_fit, deal_size_range = self._determine_service_fit(performance_output)
@@ -201,6 +202,36 @@ class ScoringAgent:
     def get_service_description(self, service_fit: ServiceFit) -> str:
         """Get description for service recommendation"""
         return self.service_definitions[service_fit]["description"]
+    
+    def score_prospect(self, discovery_output: DiscoveryOutput) -> Optional[ScoredProspect]:
+        """
+        Score a single prospect from discovery data only (simplified scoring for Sunday verticals)
+        """
+        logger.info(f"🎯 Quick scoring prospect: {discovery_output.domain}")
+        
+        # For Sunday verticals, we use discovery scores directly since they already include strategic analysis
+        total_score = discovery_output.demand_score + discovery_output.fit_score
+        
+        # Lower threshold for Sunday vertical prospects
+        if total_score < 5:  # 5/10 minimum threshold
+            logger.info(f"❌ Quick score threshold not met: {total_score} < 5")
+            return None
+            
+        logger.info(f"✅ Quick score passed: {total_score} >= 5")
+        
+        # Create a simplified ScoredProspect
+        prospect = ScoredProspect(
+            discovery_data=discovery_output,
+            performance_data=None,  # Not available in Sunday vertical flow
+            priority_score=total_score,
+            service_fit=ServiceFit.LP_EXPERIMENT,  # Default for fitness/gym verticals
+            deal_size_range=(800, 1200),  # Default range for fitness
+            estimated_monthly_loss=1000,  # Default estimate
+            confidence_level=0.8,  # High confidence from real ad data
+            scoring_timestamp=datetime.now(timezone.utc)
+        )
+        
+        return prospect
     
     def get_qualification_summary(self, prospect: ScoredProspect) -> dict:
         """Generate qualification summary for prospect"""

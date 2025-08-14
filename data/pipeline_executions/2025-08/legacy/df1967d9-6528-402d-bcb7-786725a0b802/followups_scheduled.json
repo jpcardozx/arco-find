@@ -1,0 +1,98 @@
+[
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.642585+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-11T07:19:03.642585+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.642585+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-14T07:19:03.642585+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.642585+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-23T07:19:03.642585+00:00",
+    "sequence_step": 3
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.642585+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-11T07:19:03.642585+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.642585+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-14T07:19:03.642585+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.642585+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-23T07:19:03.642585+00:00",
+    "sequence_step": 3
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.643575+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-11T07:19:03.643575+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.643575+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-14T07:19:03.643575+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "fasttrackurgentcare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.643575+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-23T07:19:03.643575+00:00",
+    "sequence_step": 3
+  },
+  {
+    "prospect_id": "southtampaimmediatecare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.643575+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-11T07:19:03.643575+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "southtampaimmediatecare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.643575+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-14T07:19:03.643575+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "southtampaimmediatecare.com_1754723943",
+    "sent_at": "2025-08-09T07:19:03.643575+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-23T07:19:03.643575+00:00",
+    "sequence_step": 3
+  }
+]

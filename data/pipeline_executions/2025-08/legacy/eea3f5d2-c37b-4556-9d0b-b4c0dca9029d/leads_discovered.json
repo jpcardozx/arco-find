@@ -1,0 +1,70 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "fasttrackurgentcare.com",
+    "vertical": "urgent_care_express",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 5,
+    "discovery_timestamp": "2025-08-09T04:32:17.102665",
+    "company_name": "TGH Urgent Care powered by Fast Track (Downtown At The Heights)",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunities": []
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "fasttrackurgentcare.com",
+    "vertical": "urgent_care_express",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 5,
+    "discovery_timestamp": "2025-08-09T04:32:19.631787",
+    "company_name": "TGH Urgent Care powered by Fast Track (Downtown On Water Street)",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunities": []
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "southtampaimmediatecare.com",
+    "vertical": "urgent_care_express",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 5,
+    "discovery_timestamp": "2025-08-09T04:32:20.941454",
+    "company_name": "South Tampa Immediate Care",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "LOW_CREATIVE_VOLUME (1 ads only)"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "LOW_CREATIVE_VOLUME (1 ads only)",
+        "NO_VIDEO_ADVERTISING",
+        "LIMITED_FORMAT_DIVERSITY (['text'])"
+      ]
+    }
+  }
+]

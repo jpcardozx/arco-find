@@ -1,0 +1,23 @@
+{
+  "execution_id": "sunday_fitness_gyms_canada_20250810_144735",
+  "execution_date": "2025-08-10T17:48:13.313345+00:00",
+  "execution_duration": 38.027564,
+  "results": {
+    "prospects_discovered": 10,
+    "prospects_qualified": 10,
+    "outreach_generated": 0,
+    "qualification_rate": 1.0,
+    "credits_used": 20
+  },
+  "outputs": {
+    "execution_directory": "outputs\\pipeline_executions\\2025-08\\sunday_verticals\\sunday_fitness_gyms_canada_20250810_144735",
+    "prospects_export": "outputs\\prospects\\2025-08\\qualified_prospects_sunday_fitness_gyms_canada_20250810_144735.json",
+    "outreach_export": "outputs\\outreach\\2025-08\\outreach_ready_sunday_fitness_gyms_canada_20250810_144735.json",
+    "analytics_export": "outputs\\analytics\\2025-08\\performance_dashboard_sunday_fitness_gyms_canada_20250810_144735.json"
+  },
+  "optimization_recommendations": [
+    "High qualification rate - consider expanding discovery volume",
+    "Qualified prospects without outreach - check outreach generation",
+    "High prospect volume - prioritize by strategic tier"
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "prospect_id": "hotellondon.fr_1754828317",
+    "sent_at": "2025-08-10T12:18:37.651010+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-12T12:18:37.651010+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "hotellondon.fr_1754828317",
+    "sent_at": "2025-08-10T12:18:37.651010+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-15T12:18:37.651010+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "hotellondon.fr_1754828317",
+    "sent_at": "2025-08-10T12:18:37.651010+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-24T12:18:37.651010+00:00",
+    "sequence_step": 3
+  },
+  {
+    "prospect_id": "tablethotels.com_1754828317",
+    "sent_at": "2025-08-10T12:18:37.652407+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-12T12:18:37.652407+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "tablethotels.com_1754828317",
+    "sent_at": "2025-08-10T12:18:37.652407+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-15T12:18:37.652407+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "tablethotels.com_1754828317",
+    "sent_at": "2025-08-10T12:18:37.652407+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-24T12:18:37.652407+00:00",
+    "sequence_step": 3
+  },
+  {
+    "prospect_id": "editionhotels.com_1754828317",
+    "sent_at": "2025-08-10T12:18:37.652407+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-12T12:18:37.652407+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "editionhotels.com_1754828317",
+    "sent_at": "2025-08-10T12:18:37.652407+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-15T12:18:37.652407+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "editionhotels.com_1754828317",
+    "sent_at": "2025-08-10T12:18:37.652407+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-24T12:18:37.652407+00:00",
+    "sequence_step": 3
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "domain": "thecarclinicofmiami.com",
+    "analyzed_urls": [
+      "https://thecarclinicofmiami.com"
+    ],
+    "performance_metrics": {
+      "https://thecarclinicofmiami.com": {
+        "mobile": null,
+        "desktop": null
+      }
+    },
+    "leak_indicators": [
+      "ANALYSIS_FAILED"
+    ],
+    "leak_score": 1,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-15% conversion rate improvement potential",
+    "analysis_timestamp": "2025-08-09T07:52:21.669314+00:00"
+  },
+  {
+    "domain": "miamispringsanimalhospital.com",
+    "analyzed_urls": [
+      "https://miamispringsanimalhospital.com/",
+      "https://miamispringsanimalhospital.com/contact",
+      "https://miamispringsanimalhospital.com/appointment"
+    ],
+    "performance_metrics": {
+      "https://miamispringsanimalhospital.com/": {
+        "mobile": null,
+        "desktop": null
+      },
+      "https://miamispringsanimalhospital.com/contact": {
+        "mobile": null,
+        "desktop": null
+      },
+      "https://miamispringsanimalhospital.com/appointment": {
+        "mobile": null,
+        "desktop": null
+      }
+    },
+    "leak_indicators": [
+      "ANALYSIS_FAILED"
+    ],
+    "leak_score": 3,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-15% conversion rate improvement potential",
+    "analysis_timestamp": "2025-08-09T07:52:34.262242+00:00"
+  }
+]

@@ -140,7 +140,7 @@ class ARCOPipeline:
             discoveries = await agent.run_daily_queries(
                 vertical=config.vertical_focus,
                 max_credits=config.max_credits // 2,  # Reserve half credits for discovery
-                target_discoveries=config.target_prospects
+                target_discoveries=config.target_prospects * 3  # Allow more discoveries for better filtering
             )
             
             logger.info(f"🔍 Discovery complete: {len(discoveries)} advertisers found")
@@ -167,17 +167,23 @@ class ARCOPipeline:
     async def _scoring_phase(self, discoveries: List, performances: List, config: BatchJobConfig) -> List:
         """Execute scoring and prioritization phase"""
         scored_prospects = self.scoring_agent.batch_score_prospects(discoveries, performances)
+        logger.info(f"📊 Initial scoring results: {len(scored_prospects)} prospects qualified")
         
         # Apply filters
+        initial_count = len(scored_prospects)
+        
         if config.min_priority_score:
             scored_prospects = [p for p in scored_prospects if p.priority_score >= config.min_priority_score]
-        
+            logger.info(f"📊 After min_priority_score filter ({config.min_priority_score}): {len(scored_prospects)} prospects")
+
         if config.service_filters:
             scored_prospects = [p for p in scored_prospects if p.service_fit in config.service_filters]
-        
+            logger.info(f"📊 After service_filters: {len(scored_prospects)} prospects")
+
         # Limit to target count
         scored_prospects = scored_prospects[:config.target_prospects]
-        
+        logger.info(f"📊 After target limit ({config.target_prospects}): {len(scored_prospects)} prospects")
+
         logger.info(f"🎯 Scoring complete: {len(scored_prospects)} prospects qualified")
         return scored_prospects
     
@@ -273,7 +279,7 @@ async def run_daily_batch(
     max_credits: int = 100,
     target_prospects: int = 12,
     vertical: Vertical = None,
-    min_priority_score: int = 8
+    min_priority_score: int = 6  # Aligned with scoring agent threshold
 ) -> ProcessingResult:
     """
     Run daily batch processing with specified parameters
@@ -295,5 +301,5 @@ if __name__ == "__main__":
         max_credits=50,
         target_prospects=10,
         vertical=Vertical.HVAC_MULTI,
-        min_priority_score=8
+        min_priority_score=6  # Aligned with scoring agent threshold
     ))

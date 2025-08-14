@@ -1,0 +1,50 @@
+[
+  {
+    "prospect_id": "tampadentalimplants.com_1754786721",
+    "sent_at": "2025-08-10T00:45:21.876580+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-12T00:45:21.876580+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "tampadentalimplants.com_1754786721",
+    "sent_at": "2025-08-10T00:45:21.876580+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-15T00:45:21.876580+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "tampadentalimplants.com_1754786721",
+    "sent_at": "2025-08-10T00:45:21.876580+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-24T00:45:21.876580+00:00",
+    "sequence_step": 3
+  },
+  {
+    "prospect_id": "tampadentalimplants.com_1754786721",
+    "sent_at": "2025-08-10T00:45:21.876580+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-12T00:45:21.876580+00:00",
+    "sequence_step": 1
+  },
+  {
+    "prospect_id": "tampadentalimplants.com_1754786721",
+    "sent_at": "2025-08-10T00:45:21.876580+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-15T00:45:21.876580+00:00",
+    "sequence_step": 2
+  },
+  {
+    "prospect_id": "tampadentalimplants.com_1754786721",
+    "sent_at": "2025-08-10T00:45:21.876580+00:00",
+    "responded": false,
+    "response_type": null,
+    "next_followup_date": "2025-08-24T00:45:21.876580+00:00",
+    "sequence_step": 3
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "execution_id": "sunday_fitness_gyms_canada_20250810_145055",
+  "execution_date": "2025-08-10T17:51:29.405491+00:00",
+  "vertical": "fitness_gyms_canada",
+  "total_discovered": 10,
+  "total_qualified": 10,
+  "qualification_rate": 1.0,
+  "qualified_prospects": [
+    {
+      "domain": "citydentaltoronto.com",
+      "company_name": "Citydentaltoronto",
+      "priority_score": 6,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$4,600/month improvement potential"
+    },
+    {
+      "domain": "fitfactoryfitness.com",
+      "company_name": "Fit Factory Downtown",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$7,000/month improvement potential"
+    },
+    {
+      "domain": "alteaactive.com",
+      "company_name": "Altea Liberty Village",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$6,500/month improvement potential"
+    },
+    {
+      "domain": "sweatandtonic.com",
+      "company_name": "Sweat and Tonic",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$5,200/month improvement potential"
+    },
+    {
+      "domain": "equinox.com",
+      "company_name": "Bay Street, Toronto Fitness Club",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$6,500/month improvement potential"
+    },
+    {
+      "domain": "1hotels.com",
+      "company_name": "Mind & Movement - 1 Hotel Toronto",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$7,000/month improvement potential"
+    },
+    {
+      "domain": "planetfitness.com",
+      "company_name": "Gym in Toronto (College Park), ON",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$7,000/month improvement potential"
+    },
+    {
+      "domain": "higherground.ca",
+      "company_name": "Massage, Chiropractic, Physiotherapy & Training in Toronto",
+      "priority_score": 9,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$5,200/month improvement potential"
+    },
+    {
+      "domain": "citydentaltoronto.com",
+      "company_name": "Citydentaltoronto",
+      "priority_score": 6,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$4,600/month improvement potential"
+    },
+    {
+      "domain": "alteaactive.com",
+      "company_name": "Altea Liberty Village",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$6,500/month improvement potential"
+    }
+  ]
+}

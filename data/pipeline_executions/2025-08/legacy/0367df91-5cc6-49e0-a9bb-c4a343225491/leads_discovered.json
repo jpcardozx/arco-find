@@ -1,0 +1,60 @@
+[
+  {
+    "advertiser_id": "AR16530415359421841409",
+    "domain": "tampapalmsdentistry.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-09T21:33:16.912874",
+    "company_name": "Tampa Palms Dentistry",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$5,200/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "AR06966770157674823681",
+    "domain": "tampadentalimplants.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-09T21:33:18.232418",
+    "company_name": "TAMPA DENTAL IMPLANTS LLC",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "SINGLE_FORMAT_LIMITATION",
+        "LOW_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$3,449/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  }
+]

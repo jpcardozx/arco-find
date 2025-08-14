@@ -1,0 +1,38 @@
+{
+  "execution_id": "sunday_fitness_gyms_canada_20250810_172023",
+  "execution_date": "2025-08-10T20:22:36.925158+00:00",
+  "performance_metrics": {
+    "execution_id": "sunday_fitness_gyms_canada_20250810_172023",
+    "timestamp": "2025-08-10T20:22:36.912771+00:00",
+    "qualification_rate": 1.0,
+    "revenue_generated": 4800,
+    "optimization_recommendations": [
+      "High qualification rate - consider expanding discovery volume"
+    ],
+    "discovery": {
+      "prospects_found": 6,
+      "success_rate": 1.0
+    },
+    "qualification": {
+      "prospects_qualified": 6,
+      "qualification_rate": 1.0,
+      "target_rate": 0.25
+    },
+    "outreach": {
+      "messages_generated": 6,
+      "personalization_rate": 0.8
+    },
+    "revenue": {
+      "total_potential": 4800,
+      "average_deal_size": 800.0
+    }
+  },
+  "pipeline_efficiency": {
+    "discovery_rate": 6,
+    "qualification_rate": 1.0,
+    "outreach_completion_rate": 1.0
+  },
+  "optimization_focus": [
+    "High qualification rate - consider expanding discovery volume"
+  ]
+}

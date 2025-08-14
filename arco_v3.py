@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
 """
-ARCO V3 Command Line Interface - INTELLIGENT DISCOVERY ENGINE
-Agent-based lead generation with vulnerability-focused advertising intelligence
+ARCO V3 Command Line Interface
+Agent-based lead generation and outreach automation
 """
 
 import asyncio
 import argparse
 import logging
 import sys
+import json
 from pathlib import Path
+from datetime import datetime
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from src.arco_pipeline import run_daily_batch
 from src.models.core_models import Vertical, ServiceFit
+from src.feedback.auto_feedback_engine import run_feedback_analysis
 from config.api_keys import APIConfig
 
 # Setup logging
@@ -22,28 +25,27 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s"
 )
-logger = logging.getLogger("arco-cli-intelligent")
+logger = logging.getLogger("arco-cli")
 
 
 def main():
-    """Main CLI entry point for INTELLIGENT DISCOVERY ENGINE"""
+    """Main CLI entry point"""
     parser = argparse.ArgumentParser(
-        description="ARCO V3 - INTELLIGENT VULNERABILITY-FOCUSED DISCOVERY ENGINE",
+        description="ARCO V3 - Agent-based Lead Generation System",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-🧠 INTELLIGENT DISCOVERY EXAMPLES:
+Examples:
+  # Run daily batch with defaults
+  python arco_v3.py batch
 
-  # LinkedIn + Google escalonated discovery
-  python arco_v3.py intelligent --vertical hvac --max-credits 20
+  # Target HVAC vertical with 50 credits
+  python arco_v3.py batch --vertical hvac --max-credits 50
 
-  # High vulnerability threshold targeting
-  python arco_v3.py intelligent --vulnerability-min 7 --target-prospects 10
+  # High-priority prospects only
+  python arco_v3.py batch --min-score 10 --target-prospects 8
 
-  # Multi-engine B2B discovery
-  python arco_v3.py intelligent --engines linkedin,google --vertical dental
-
-  # Test intelligent engine
-  python arco_v3.py test-intelligent --mock
+  # Test with mock data
+  python arco_v3.py test --mock
         """
     )
     
@@ -57,7 +59,7 @@ def main():
                              help="Target number of qualified prospects (default: 12)")
     batch_parser.add_argument("--vertical", choices=[v.value for v in Vertical], 
                              help="Focus on specific vertical")
-    batch_parser.add_argument("--min-score", type=int, default=8,
+    batch_parser.add_argument("--min-score", type=int, default=6,  # Aligned with scoring agent threshold
                              help="Minimum priority score for qualification (default: 8)")
     batch_parser.add_argument("--output-dir", type=Path, default="data/executions",
                              help="Output directory for results")
@@ -135,6 +137,59 @@ async def run_batch_command(args):
             logger.info(f"   • Credits used: {result.credits_used}")
             logger.info(f"   • Duration: {(result.end_time - result.start_time).seconds}s")
             logger.info(f"💾 Results saved to: data/executions/{result.job_id}/")
+            
+            # AUTO FEEDBACK CRITICAL ANALYSIS
+            logger.info("🔬 Running critical auto feedback analysis...")
+            
+            try:
+                # Prepare execution data for feedback analysis
+                execution_data = {
+                    'execution_id': result.job_id,
+                    'credits_used': result.credits_used,
+                    'prospects_discovered': result.prospects_discovered,
+                    'prospects_qualified': result.prospects_qualified,
+                    'qualification_rate': result.prospects_qualified / max(result.prospects_discovered, 1),
+                    'cost_per_lead': result.credits_used / max(result.prospects_qualified, 1),
+                    'engines_used': getattr(result, 'engines_used', ['google_ads_transparency_center']),
+                    'errors_count': getattr(result, 'errors_count', 0),
+                    'warnings_count': getattr(result, 'warnings_count', 0),
+                    'avg_response_time_ms': getattr(result, 'avg_response_time_ms', 0.0)
+                }
+                
+                # Run feedback analysis
+                feedback_result = await run_feedback_analysis(execution_data)
+                
+                # Save feedback to file
+                feedback_file = Path(f"data/executions/{result.job_id}/auto_feedback.json")
+                feedback_file.parent.mkdir(parents=True, exist_ok=True)
+                
+                with open(feedback_file, 'w') as f:
+                    json.dump(feedback_result, f, indent=2, default=str)
+                
+                # Log critical feedback
+                summary = feedback_result.get('summary', {})
+                logger.info(f"🎯 Feedback Summary:")
+                logger.info(f"   • Health Score: {summary.get('overall_health_score', 0)}/100")
+                logger.info(f"   • Critical Issues: {summary.get('critical_issues', 0)}")
+                logger.info(f"   • High Priority Issues: {summary.get('high_issues', 0)}")
+                
+                # Display critical and high issues
+                feedback_items = feedback_result.get('feedback_items', [])
+                critical_items = [f for f in feedback_items if f['severity'] in ['CRITICAL', 'HIGH']]
+                
+                if critical_items:
+                    logger.warning("🚨 CRITICAL FEEDBACK:")
+                    for item in critical_items[:3]:  # Show top 3
+                        logger.warning(f"   • {item['severity']}: {item['issue']}")
+                        if item['recommendations']:
+                            logger.warning(f"     → {item['recommendations'][0]}")
+                
+                logger.info(f"📄 Complete feedback saved to: {feedback_file}")
+                
+            except Exception as feedback_error:
+                logger.warning(f"⚠️  Auto feedback failed: {feedback_error}")
+                logger.warning("Pipeline completed successfully but feedback analysis encountered issues")
+            
             return 0
         else:
             logger.error(f"❌ Batch processing failed: {result.error_message}")

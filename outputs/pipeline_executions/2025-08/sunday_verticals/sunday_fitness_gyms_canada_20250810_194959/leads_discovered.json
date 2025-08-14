@@ -1,0 +1,802 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "alteaactive.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:50:11.485481",
+    "company_name": "Altea Liberty Village",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1500/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1500",
+        "Estimated monthly spend: $10000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1500/month"
+      ],
+      "revenue_opportunity": "$1500/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1500.0,
+        "estimated_spend": 10000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1500.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 537.925,
+          "format_distribution": {
+            "text": 34,
+            "image": 3,
+            "video": 3
+          },
+          "recency_score": 1.0,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 600.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "image",
+        "text"
+      ],
+      "avg_campaign_duration": 468.8,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "fitfactoryfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:50:12.935164",
+    "company_name": "Fit Factory Downtown",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1200/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1200",
+        "Estimated monthly spend: $8000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1200/month"
+      ],
+      "revenue_opportunity": "$1200/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1200.0,
+        "estimated_spend": 8000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1200.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 171.375,
+          "format_distribution": {
+            "text": 27,
+            "image": 3,
+            "video": 2
+          },
+          "recency_score": 0.5625,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 480.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 32,
+      "formats_detected": [
+        "image",
+        "video",
+        "text"
+      ],
+      "avg_campaign_duration": 238.7,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "torontomu.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:50:22.285536",
+    "company_name": "Personal Training - Recreation & Active Wellbeing",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1500/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1500",
+        "Estimated monthly spend: $10000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1500/month"
+      ],
+      "revenue_opportunity": "$1500/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1500.0,
+        "estimated_spend": 10000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1500.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 424.0,
+          "format_distribution": {
+            "text": 33,
+            "image": 7
+          },
+          "recency_score": 1.0,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 600.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 673.9,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "ymcagta.org",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:50:23.713640",
+    "company_name": "Personal Training",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1500/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1500",
+        "Estimated monthly spend: $10000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1500/month"
+      ],
+      "revenue_opportunity": "$1500/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1500.0,
+        "estimated_spend": 10000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1500.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 464.075,
+          "format_distribution": {
+            "text": 37,
+            "image": 3
+          },
+          "recency_score": 1.0,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 600.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 447.7,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "totum.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:50:26.725809",
+    "company_name": "Personal Trainer Toronto | Get Results at totum Fitness Club",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1500/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1500",
+        "Estimated monthly spend: $10000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1500/month"
+      ],
+      "revenue_opportunity": "$1500/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1500.0,
+        "estimated_spend": 10000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1500.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 116.15,
+          "format_distribution": {
+            "text": 37,
+            "video": 3
+          },
+          "recency_score": 1.0,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 600.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 99.0,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "cascadeac.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:50:32.274513",
+    "company_name": "Cascade Athletic Club - Vancouver",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$27% budget inefficiency detected",
+        "$675/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $675",
+        "Estimated monthly spend: $2500",
+        "Waste percentage: 27.0%",
+        "High Cpm Waste: $375/month"
+      ],
+      "revenue_opportunity": "$675/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 675.0,
+        "estimated_spend": 2500,
+        "waste_percentage": 27.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 375.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 673.7,
+          "format_distribution": {
+            "text": 10
+          },
+          "recency_score": 0.8,
+          "longevity_issues": [],
+          "performance_red_flags": [
+            "SINGLE_FORMAT_DEPENDENCY"
+          ]
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 0,
+          "positioning_gaps": [],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 10,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 673.7,
+      "recent_campaigns_ratio": 0.8
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "cascadeac.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:50:41.797267",
+    "company_name": "Cascade Athletic Club - Vancouver",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$27% budget inefficiency detected",
+        "$675/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $675",
+        "Estimated monthly spend: $2500",
+        "Waste percentage: 27.0%",
+        "High Cpm Waste: $375/month"
+      ],
+      "revenue_opportunity": "$675/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 675.0,
+        "estimated_spend": 2500,
+        "waste_percentage": 27.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 375.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 673.7,
+          "format_distribution": {
+            "text": 10
+          },
+          "recency_score": 0.8,
+          "longevity_issues": [],
+          "performance_red_flags": [
+            "SINGLE_FORMAT_DEPENDENCY"
+          ]
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 0,
+          "positioning_gaps": [],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 10,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 673.7,
+      "recent_campaigns_ratio": 0.8
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "svetness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 5,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 19:50:58.475551",
+    "company_name": "The Best Personal Trainers in Vancouver, WA",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1500/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1500",
+        "Estimated monthly spend: $10000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1500/month"
+      ],
+      "revenue_opportunity": "$1500/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1500.0,
+        "estimated_spend": 10000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1500.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 120.675,
+          "format_distribution": {
+            "text": 37,
+            "image": 1,
+            "video": 2
+          },
+          "recency_score": 1.0,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 600.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "image",
+        "text"
+      ],
+      "avg_campaign_duration": 126.7,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "svptfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:51:46.569469",
+    "company_name": "SVPT Fitness & Athletics",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste",
+        "Timing Waste"
+      ],
+      "followup_insights": [
+        "$25% budget inefficiency detected",
+        "$562/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $562",
+        "Estimated monthly spend: $2250",
+        "Waste percentage: 25.0%",
+        "High Cpm Waste: $338/month",
+        "Timing Waste: $225/month"
+      ],
+      "revenue_opportunity": "$562/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 562.5,
+        "estimated_spend": 2250,
+        "waste_percentage": 25.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 337.5
+          },
+          {
+            "type": "Timing Waste",
+            "estimated_waste": 225.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 93.77777777777777,
+          "format_distribution": {
+            "text": 7,
+            "video": 1,
+            "image": 1
+          },
+          "recency_score": 0.2222222222222222,
+          "longevity_issues": [],
+          "performance_red_flags": [
+            "LOW_RECENT_ACTIVITY"
+          ]
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 0,
+          "positioning_gaps": [],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste",
+        "Timing Waste"
+      ],
+      "ad_count": 9,
+      "formats_detected": [
+        "image",
+        "video",
+        "text"
+      ],
+      "avg_campaign_duration": 93.8,
+      "recent_campaigns_ratio": 0.22
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "evolvestrength.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:51:51.003294",
+    "company_name": "Personal Training Services - Edmonton",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1500/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1500",
+        "Estimated monthly spend: $10000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1500/month"
+      ],
+      "revenue_opportunity": "$1500/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1500.0,
+        "estimated_spend": 10000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1500.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 75.325,
+          "format_distribution": {
+            "text": 35,
+            "image": 4,
+            "video": 1
+          },
+          "recency_score": 0.8,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 600.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "image",
+        "text"
+      ],
+      "avg_campaign_duration": 92.1,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "nait.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 19:51:54.487139",
+    "company_name": "Personal Fitness Trainer",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "High Cpm Waste"
+      ],
+      "followup_insights": [
+        "$15% budget inefficiency detected",
+        "$1500/month optimization potential",
+        "ROI improvement roadmap available"
+      ],
+      "proposal_insights": [
+        "Total monthly waste: $1500",
+        "Estimated monthly spend: $10000",
+        "Waste percentage: 15.0%",
+        "High Cpm Waste: $1500/month"
+      ],
+      "revenue_opportunity": "$1500/month waste reduction",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "financial_analysis": {
+        "monthly_waste": 1500.0,
+        "estimated_spend": 10000,
+        "waste_percentage": 15.0,
+        "inefficiencies": [
+          {
+            "type": "High Cpm Waste",
+            "estimated_waste": 1500.0
+          }
+        ],
+        "performance_metrics": {
+          "avg_campaign_duration": 289.8,
+          "format_distribution": {
+            "text": 33,
+            "video": 4,
+            "image": 3
+          },
+          "recency_score": 1.0,
+          "longevity_issues": [],
+          "performance_red_flags": []
+        },
+        "competitive_gaps": {
+          "bidding_inefficiency": 600.0,
+          "positioning_gaps": [
+            "POTENTIAL_OVERBIDDING"
+          ],
+          "market_share_lost": 0
+        }
+      },
+      "vulnerabilities": [
+        "High Cpm Waste"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "video",
+        "text"
+      ],
+      "avg_campaign_duration": 275.4,
+      "recent_campaigns_ratio": 1.0
+    }
+  }
+]

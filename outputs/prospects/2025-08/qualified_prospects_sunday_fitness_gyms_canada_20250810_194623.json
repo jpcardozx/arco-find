@@ -1,0 +1,94 @@
+{
+  "execution_id": "sunday_fitness_gyms_canada_20250810_194623",
+  "execution_date": "2025-08-10T22:48:20.708101+00:00",
+  "vertical": "fitness_gyms_canada",
+  "total_discovered": 12,
+  "total_qualified": 12,
+  "qualification_rate": 1.0,
+  "qualified_prospects": [
+    {
+      "domain": "fitfactoryfitness.com",
+      "company_name": "Fit Factory Downtown",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "alteaactive.com",
+      "company_name": "Altea Liberty Village",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "alteaactive.com",
+      "company_name": "Altea Liberty Village",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "goodlifefitness.com",
+      "company_name": "GoodLife Fitness Toronto 137 Yonge Street",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "ymcagta.org",
+      "company_name": "Personal Training",
+      "priority_score": 8,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "torontomu.ca",
+      "company_name": "Personal Training - Recreation & Active Wellbeing",
+      "priority_score": 8,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "totum.ca",
+      "company_name": "Personal Trainer Toronto | Get Results at totum Fitness Club",
+      "priority_score": 8,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "cascadeac.com",
+      "company_name": "Cascade Athletic Club - Vancouver",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "cascadeac.com",
+      "company_name": "Cascade Athletic Club - Vancouver",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "svptfitness.com",
+      "company_name": "SVPT Fitness & Athletics",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "evolvestrength.ca",
+      "company_name": "Personal Training Services - Edmonton",
+      "priority_score": 8,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    },
+    {
+      "domain": "nait.ca",
+      "company_name": "Personal Fitness Trainer",
+      "priority_score": 7,
+      "strategic_tier": "basic",
+      "revenue_opportunity": null
+    }
+  ]
+}

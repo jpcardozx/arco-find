@@ -1,0 +1,16 @@
+{
+  "date": "2025-08-10T12:20:53.201446+00:00",
+  "prospects_discovered": 3,
+  "prospects_qualified": 1,
+  "outreach_sent": 3,
+  "responses_received": 0,
+  "audits_scheduled": 0,
+  "deals_closed": 0,
+  "response_rate": 0.0,
+  "qualification_rate": 0.3333333333333333,
+  "revenue_generated": 0,
+  "optimization_recommendations": [
+    "Response rate below 12% - review message personalization",
+    "Few high-priority prospects - expand vertical targeting"
+  ]
+}

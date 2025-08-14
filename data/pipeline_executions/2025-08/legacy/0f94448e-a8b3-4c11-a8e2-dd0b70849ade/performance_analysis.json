@@ -1,0 +1,36 @@
+[
+  {
+    "domain": "fasttrackurgentcare.com",
+    "analyzed_urls": [
+      "https://fasttrackurgentcare.com/",
+      "https://fasttrackurgentcare.com/services",
+      "https://fasttrackurgentcare.com/emergency"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [
+      "ANALYSIS_FAILED"
+    ],
+    "leak_score": 3,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-15% conversion rate improvement potential",
+    "analysis_timestamp": "2025-08-09T07:45:38.951578+00:00"
+  },
+  {
+    "domain": "fasttrackurgentcare.com",
+    "analyzed_urls": [
+      "https://fasttrackurgentcare.com/",
+      "https://fasttrackurgentcare.com/services",
+      "https://fasttrackurgentcare.com/emergency"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [
+      "ANALYSIS_FAILED"
+    ],
+    "leak_score": 3,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-15% conversion rate improvement potential",
+    "analysis_timestamp": "2025-08-09T07:45:48.403455+00:00"
+  }
+]

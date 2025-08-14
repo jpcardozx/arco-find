@@ -1,0 +1,569 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "fitfactoryfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:59:31.810110",
+    "company_name": "Fit Factory Downtown",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW",
+      "vulnerabilities": [],
+      "ad_count": 32,
+      "formats_detected": [
+        "video",
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 238.7,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "alteaactive.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:59:34.398190",
+    "company_name": "Altea Liberty Village",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$6,899/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 516.4,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "alteaactive.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:59:41.847920",
+    "company_name": "Altea Liberty Village",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$6,899/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 516.4,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "fitfactoryfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:59:46.788858",
+    "company_name": "Fit Factory Downtown",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW",
+      "vulnerabilities": [],
+      "ad_count": 32,
+      "formats_detected": [
+        "video",
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 238.7,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "toronto.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:59:48.790482",
+    "company_name": "Drop-in Fitness Map",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$6,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW",
+      "vulnerabilities": [],
+      "ad_count": 40,
+      "formats_detected": [
+        "video",
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 50.2,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "ymcagta.org",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 5,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:59:51.108976",
+    "company_name": "Health and Fitness",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 447.7,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "firstclasspt.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 5,
+    "discovery_timestamp": "2025-08-10 19:00:00.808138",
+    "company_name": "First Class Personal Training Toronto",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$5,200/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 5,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 423.6,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "ymcagta.org",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:00:05.601606",
+    "company_name": "Personal Training",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 447.7,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "torontomu.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:00:08.612783",
+    "company_name": "Personal Training - Recreation & Active Wellbeing",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 673.9,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "totum.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:00:11.482244",
+    "company_name": "Personal Trainer Toronto | Get Results at totum Fitness Club",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$5,200/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 103.1,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "svetness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 5,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 19:00:49.550501",
+    "company_name": "The Best Personal Trainers in Vancouver, WA",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$5,750/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 122.2,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "edmonton.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:01:48.365785",
+    "company_name": "Personal Training Services",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$6,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW",
+      "vulnerabilities": [],
+      "ad_count": 40,
+      "formats_detected": [
+        "video",
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 55.3,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "evolvestrength.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:01:50.935839",
+    "company_name": "Personal Training Services - Edmonton",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$5,750/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 92.1,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "ymcanab.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:01:53.457978",
+    "company_name": "Personal Training",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "SHORT_CAMPAIGN_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "SHORT_CAMPAIGN_STRATEGY",
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$8,700/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "HIGH",
+      "vulnerabilities": [
+        "SHORT_CAMPAIGN_STRATEGY",
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "ad_count": 40,
+      "formats_detected": [
+        "text",
+        "image"
+      ],
+      "avg_campaign_duration": 280.4,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "nait.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 19:01:59.322403",
+    "company_name": "Personal Fitness Trainer",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW",
+      "vulnerabilities": [],
+      "ad_count": 40,
+      "formats_detected": [
+        "video",
+        "text"
+      ],
+      "avg_campaign_duration": 275.2,
+      "recent_campaigns_ratio": 1.0
+    }
+  }
+]

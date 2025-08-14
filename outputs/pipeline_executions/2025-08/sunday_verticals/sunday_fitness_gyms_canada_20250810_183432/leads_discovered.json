@@ -1,0 +1,383 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "fitfactoryfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:34:43.165264",
+    "company_name": "Fit Factory Downtown",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "alteaactive.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:34:44.478913",
+    "company_name": "Altea Liberty Village",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$6,899/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "alteaactive.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:34:55.163051",
+    "company_name": "Altea Liberty Village",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$6,899/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "fitfactoryfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:34:56.588174",
+    "company_name": "Fit Factory Downtown",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "toronto.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:35:00.239626",
+    "company_name": "Drop-in Fitness Map",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$6,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "onehealthclubs.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 18:35:01.630708",
+    "company_name": "One Health Clubs | It All Starts At One",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$6,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "firstclasspt.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 5,
+    "discovery_timestamp": "2025-08-10 18:35:09.146095",
+    "company_name": "First Class Personal Training Toronto",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$5,200/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "ymcagta.org",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:35:12.329271",
+    "company_name": "Personal Training",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "torontomu.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:35:18.720515",
+    "company_name": "Personal Training - Recreation & Active Wellbeing",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "medcan.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:35:22.250383",
+    "company_name": "Personalized Fitness Training",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$5,750/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "edmonton.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:36:46.491560",
+    "company_name": "Personal Training Services",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$6,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "evolvestrength.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:36:47.817448",
+    "company_name": "Personal Training Services - Edmonton",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$5,750/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "ymcanab.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 18:36:49.761934",
+    "company_name": "Personal Training",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "SHORT_CAMPAIGN_STRATEGY"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "SHORT_CAMPAIGN_STRATEGY",
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$8,700/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "HIGH"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "nait.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 18:36:53.847388",
+    "company_name": "Personal Fitness Trainer",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  }
+]

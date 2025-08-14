@@ -1,0 +1,274 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "citydentaltoronto.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 14:58:38.573849",
+    "company_name": "Citydentaltoronto",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$4,600/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "fitfactoryfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 14:58:41.562646",
+    "company_name": "Fit Factory Downtown",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "anytimefitness.ca",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 14:58:43.371399",
+    "company_name": "Anytime Fitness",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$6,899/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "alteaactive.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 14:58:45.160513",
+    "company_name": "Altea Liberty Village",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "equinox.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 14:58:47.682348",
+    "company_name": "Bay Street, Toronto Fitness Club",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "CRITICAL_SHORT_CAMPAIGN_STRATEGY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "SHORT_CAMPAIGN_STRATEGY"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "HIGH"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "1hotels.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 14:58:51.520429",
+    "company_name": "Mind & Movement - 1 Hotel Toronto",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [],
+      "proposal_insights": [],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "planetfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 14:58:54.388522",
+    "company_name": "Gym in Toronto (College Park), ON",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "citydentaltoronto.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10 14:59:07.663399",
+    "company_name": "Citydentaltoronto",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$4,600/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "alteaactive.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 14:59:10.331488",
+    "company_name": "Altea Liberty Village",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$6,500/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "sweatandtonic.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 14:59:12.290685",
+    "company_name": "Sweat and Tonic",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "revenue_opportunity": "$5,200/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  }
+]

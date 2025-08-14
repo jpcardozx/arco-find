@@ -1,0 +1,77 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "tampadental.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 1,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-09T21:05:16.982519",
+    "company_name": "Dental Implants Tampa, FL | Natural Replacements for ...",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "NO_DIGITAL_MATURITY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "Complete digital strategy rebuild needed"
+      ],
+      "revenue_opportunity": "HIGH_GREENFIELD"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "tampadental.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 1,
+    "fit_score": 2,
+    "discovery_timestamp": "2025-08-09T21:05:22.067855",
+    "company_name": "Dentist Tampa | Tampa Dental | Tampa Cosmetic Dentist",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "NO_DIGITAL_MATURITY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "Complete digital strategy rebuild needed"
+      ],
+      "revenue_opportunity": "HIGH_GREENFIELD"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "implantcenterofmiami.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 1,
+    "fit_score": 2,
+    "discovery_timestamp": "2025-08-09T21:05:32.048937",
+    "company_name": "Dental Implant Center of Miami - Veneers, Invisalign ...",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "NO_DIGITAL_MATURITY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "Complete digital strategy rebuild needed"
+      ],
+      "revenue_opportunity": "HIGH_GREENFIELD"
+    }
+  }
+]

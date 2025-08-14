@@ -1,0 +1,72 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "dental-implants-tampa-fl.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 2,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-09T04:07:42.594431",
+    "company_name": "Tampa Dental Implants",
+    "city": null,
+    "geo_location": null
+  },
+  {
+    "advertiser_id": "",
+    "domain": "tampaperiodontics.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 2,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-09T04:07:42.599921",
+    "company_name": "Tampa Bay Periodontics and Implant Dentistry",
+    "city": null,
+    "geo_location": null
+  },
+  {
+    "advertiser_id": "",
+    "domain": "bestvaluedentures.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 2,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-09T04:07:42.603525",
+    "company_name": "Best Value Dentures and Implants Tampa",
+    "city": null,
+    "geo_location": null
+  },
+  {
+    "advertiser_id": "",
+    "domain": "dental-implants-tampa-fl.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 2,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-09T04:07:42.606639",
+    "company_name": "Tampa Dental Implants - Your Premier Local Dentist for ...",
+    "city": null,
+    "geo_location": null
+  },
+  {
+    "advertiser_id": "",
+    "domain": "bestvaluedentures.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 2,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-09T04:07:42.608773",
+    "company_name": "Quality Dentures & Implants in Tampa, FL at Best Value",
+    "city": null,
+    "geo_location": null
+  }
+]

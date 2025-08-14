@@ -1,3 +1,0 @@
-advertiser,domain,city,advertiser_id,score,issues,waste_ratio,est_spend,est_waste,last_seen_days,spend_band,contact_signals,owner_operated,business_type
-Zen Pilates Sydney,zenpilates.com.au,Sydney,adv_2976,65,"Compliance risk (promessas exageradas), CTA fraco, Nenhum CTA de contato explícito nos anúncios",0.2,6000,1200,8,small,,False,pilates
-Pulse Fitness Studio Sydney,pulsefitness.com.au,Sydney,adv_6110,50,"Compliance risk (promessas exageradas), CTA fraco, Competição por preço, Nenhum CTA de contato explícito nos anúncios",0.26,6000,1560,8,small,,False,general_fitness

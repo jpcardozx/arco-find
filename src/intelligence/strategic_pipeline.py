@@ -4,7 +4,10 @@ Based on insights: ABM principles, budget thresholds, lead scoring, personalizat
 """
 import asyncio
 import json
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Any, Tuple
+import logging
+
+logger = logging.getLogger(__name__), Tuple
 from dataclasses import dataclass, asdict
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -214,8 +217,8 @@ class StrategicPipeline:
             # Get transparency data for behavioral signals
             transparency_ads = await client.get_transparency_ads(advertiser.advertiser_id)
             
-            # Simulate page speed analysis (would integrate with PageSpeed API)
-            page_metrics = self._simulate_page_analysis(domain)
+            # Get real performance data
+            page_metrics = await self._analyze_page_performance(domain)
             
             # EXPLICIT SCORING (40% weight)
             explicit_score = self._calculate_explicit_score(
@@ -318,24 +321,61 @@ class StrategicPipeline:
         
         return min(score, 80)  # Max 80 points implicit
     
-    def _simulate_page_analysis(self, domain: str) -> Dict[str, float]:
-        """Simulate page speed analysis (integrate PageSpeed API later)"""
-        import random
-        return {
-            'lcp': random.uniform(1.2, 4.5),  # Largest Contentful Paint
-            'fcp': random.uniform(0.8, 3.2),  # First Contentful Paint
-            'cls': random.uniform(0.05, 0.3), # Cumulative Layout Shift
-            'conversion_score': random.uniform(0.3, 0.9)
-        }
+    async def _analyze_page_performance(self, domain: str) -> Optional[Dict[str, float]]:
+        """Analyze real page performance using PageSpeed API"""
+        try:
+            from ..agents.performance_agent import PerformanceAgent
+            agent = PerformanceAgent()
+            
+            # Get real performance data
+            performance_data = await agent.analyze_domain_performance(domain)
+            
+            if performance_data and performance_data.desktop_metrics:
+                metrics = performance_data.desktop_metrics
+                return {
+                    'lcp': metrics.lcp_value or 0.0,
+                    'fcp': metrics.fcp_value or 0.0, 
+                    'cls': metrics.cls_value or 0.0,
+                    'conversion_score': self._calculate_conversion_score(metrics)
+                }
+            
+            # No fake data - return None if no real data available
+            return None
+            
+        except Exception as e:
+            logger.warning(f"Performance analysis failed for {domain}: {e}")
+            return None
     
-    def _detect_tracking_signals(self, domain: str) -> Dict[str, bool]:
-        """Detect tracking implementation (simulate - integrate with actual checks)"""
-        return {
-            'google_ads_tag': True,  # Would check actual implementation
-            'ga4_tag': True,
-            'conversion_tracking': False,  # Pain point opportunity
-            'gtm_container': True
-        }
+    def _calculate_conversion_score(self, metrics) -> float:
+        """Calculate conversion readiness from real metrics"""
+        if not metrics:
+            return 0.0
+            
+        # Research-based conversion impact scoring
+        lcp_score = 1.0 if (metrics.lcp_value or 0) < 2.5 else 0.5
+        fcp_score = 1.0 if (metrics.fcp_value or 0) < 1.8 else 0.5
+        cls_score = 1.0 if (metrics.cls_value or 0) < 0.1 else 0.5
+        
+        return (lcp_score + fcp_score + cls_score) / 3.0
+    
+    async def _detect_tracking_signals(self, domain: str) -> Optional[Dict[str, bool]]:
+        """Detect real tracking implementation using actual checks"""
+        try:
+            import aiohttp
+            async with aiohttp.ClientSession() as session:
+                async with session.get(f"https://{domain}", timeout=10) as response:
+                    html = await response.text()
+                    
+                    # Real tracking detection
+                    return {
+                        'google_ads_tag': 'gtag(' in html or 'googleadservices.com' in html,
+                        'ga4_tag': 'G-' in html or 'gtag(' in html,
+                        'conversion_tracking': 'gtag("event", "conversion"' in html,
+                        'gtm_container': 'googletagmanager.com/gtm.js' in html
+                    }
+        except Exception:
+            # Return None instead of fake data
+            return None
     
     def _calculate_freshness(self, transparency_ads: List) -> float:
         """Calculate campaign freshness score"""
@@ -372,11 +412,36 @@ class StrategicPipeline:
             'ad_volume_indicator': ad_count
         }
     
-    def _analyze_message_match(self, ad: AdResult) -> float:
-        """Analyze ad-to-landing message consistency (simulate)"""
-        # Would implement actual page scraping and NLP matching
-        import random
-        return random.uniform(0.4, 0.9)
+    async def _analyze_message_match(self, ad) -> Optional[float]:
+        """Analyze ad-to-landing message consistency using real page content"""
+        try:
+            import aiohttp
+            from urllib.parse import urlparse
+            
+            # Extract domain and get landing page
+            domain = urlparse(ad.link).netloc if hasattr(ad, 'link') else None
+            if not domain:
+                return None
+                
+            async with aiohttp.ClientSession() as session:
+                async with session.get(f"https://{domain}", timeout=10) as response:
+                    html = await response.text().lower()
+                    
+                    # Get ad text
+                    ad_text = (getattr(ad, 'title', '') + ' ' + getattr(ad, 'snippet', '')).lower()
+                    ad_words = set(ad_text.split())
+                    
+                    # Calculate real overlap
+                    page_words = set(html.split())
+                    overlap = len(ad_words.intersection(page_words))
+                    
+                    if len(ad_words) > 0:
+                        return min(overlap / len(ad_words), 1.0)
+                    
+        except Exception:
+            pass
+        
+        return None  # No fake scores
     
     def _assess_conversion_readiness(self, page_metrics: Dict) -> Dict[str, float]:
         """Assess technical conversion readiness"""

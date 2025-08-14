@@ -1,0 +1,71 @@
+[
+  {
+    "domain": "jacksonvilledentalspecialists.com",
+    "analyzed_urls": [
+      "https://jacksonvilledentalspecialists.com/",
+      "https://jacksonvilledentalspecialists.com/contact",
+      "https://jacksonvilledentalspecialists.com/services"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T22:54:56.016924+00:00"
+  },
+  {
+    "domain": "dentalimplantsinflorida.com",
+    "analyzed_urls": [
+      "https://dentalimplantsinflorida.com/"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T22:55:01.508414+00:00"
+  },
+  {
+    "domain": "dentalartsfl.com",
+    "analyzed_urls": [
+      "https://dentalartsfl.com/",
+      "https://dentalartsfl.com/contact",
+      "https://dentalartsfl.com/services"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T22:55:09.404991+00:00"
+  },
+  {
+    "domain": "asapdentalcare.com",
+    "analyzed_urls": [
+      "https://asapdentalcare.com"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T22:55:20.922396+00:00"
+  },
+  {
+    "domain": "dentalimplantsofjacksonville.com",
+    "analyzed_urls": [
+      "https://dentalimplantsofjacksonville.com"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T22:55:25.832999+00:00"
+  }
+]

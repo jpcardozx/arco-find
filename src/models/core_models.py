@@ -25,6 +25,14 @@ class Vertical(Enum):
     REAL_ESTATE = "real_estate_brokerages"
     AUTO_SERVICES = "auto_services"
     VETERINARY = "veterinary_pet_care"
+    # Sunday-Active Verticals - Canada & EU Focus
+    RESTAURANTS_CA = "restaurants_canada"
+    HOTELS_EU = "hotels_europe"
+    FITNESS_GYMS_CA = "fitness_gyms_canada"
+    PHARMACIES_EU = "pharmacies_europe"
+    GAS_STATIONS_CA = "gas_stations_canada"
+    CONVENIENCE_EU = "convenience_stores_europe"
+    EMERGENCY_SERVICES_CA = "emergency_services_canada"
 
 
 @dataclass
@@ -95,6 +103,7 @@ class OutreachMessage:
     vertical_template: str
     primary_pain_point: str
     created_timestamp: datetime
+    personalization_elements: Optional[Dict] = field(default_factory=dict)
 
 
 @dataclass
@@ -131,7 +140,7 @@ class BatchJobConfig:
     target_prospects: int = 12
     vertical_focus: Optional[Vertical] = None
     geographic_focus: Optional[List[str]] = None
-    min_priority_score: int = 8
+    min_priority_score: int = 6  # Aligned with scoring agent threshold
     service_filters: Optional[List[ServiceFit]] = None
     
     

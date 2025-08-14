@@ -1,0 +1,38 @@
+{
+  "execution_id": "sunday_fitness_gyms_canada_20250810_191756",
+  "execution_date": "2025-08-10T22:20:24.859379+00:00",
+  "vertical": "fitness_gyms_canada",
+  "total_discovered": 4,
+  "total_qualified": 4,
+  "qualification_rate": 1.0,
+  "qualified_prospects": [
+    {
+      "domain": "firstclasspt.com",
+      "company_name": "First Class Personal Training Toronto",
+      "priority_score": 9,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$7,800/month improvement potential"
+    },
+    {
+      "domain": "cascadeac.com",
+      "company_name": "Cascade Athletic Club - Vancouver",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$7,800/month improvement potential"
+    },
+    {
+      "domain": "cascadeac.com",
+      "company_name": "Cascade Athletic Club - Vancouver",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$7,800/month improvement potential"
+    },
+    {
+      "domain": "svptfitness.com",
+      "company_name": "SVPT Fitness & Athletics",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$7,000/month improvement potential"
+    }
+  ]
+}

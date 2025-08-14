@@ -1,0 +1,47 @@
+[
+  {
+    "domain": "fasttrackurgentcare.com",
+    "analyzed_urls": [
+      "https://fasttrackurgentcare.com/",
+      "https://fasttrackurgentcare.com/services",
+      "https://fasttrackurgentcare.com/emergency"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T14:50:47.970878+00:00"
+  },
+  {
+    "domain": "tampauc.com",
+    "analyzed_urls": [
+      "https://tampauc.com/",
+      "https://tampauc.com/contact",
+      "https://tampauc.com/services"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T14:50:56.954346+00:00"
+  },
+  {
+    "domain": "centracare.adventhealth.com",
+    "analyzed_urls": [
+      "https://centracare.adventhealth.com/",
+      "https://centracare.adventhealth.com/contact",
+      "https://centracare.adventhealth.com/emergency"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-09T14:51:14.039673+00:00"
+  }
+]

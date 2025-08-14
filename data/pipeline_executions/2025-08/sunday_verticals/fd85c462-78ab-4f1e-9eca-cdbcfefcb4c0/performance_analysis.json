@@ -1,0 +1,107 @@
+[
+  {
+    "domain": "hotellondon.fr",
+    "analyzed_urls": [
+      "https://hotellondon.fr/"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:17:16.511648+00:00"
+  },
+  {
+    "domain": "tablethotels.com",
+    "analyzed_urls": [
+      "https://tablethotels.com/"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:17:21.928824+00:00"
+  },
+  {
+    "domain": "editionhotels.com",
+    "analyzed_urls": [
+      "https://editionhotels.com/",
+      "https://editionhotels.com/contact"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:17:32.445266+00:00"
+  },
+  {
+    "domain": "edenhotelamsterdam.com",
+    "analyzed_urls": [
+      "https://edenhotelamsterdam.com/"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:17:47.411173+00:00"
+  },
+  {
+    "domain": "theedhotelamsterdam.com",
+    "analyzed_urls": [
+      "https://theedhotelamsterdam.com/"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:18:03.652943+00:00"
+  },
+  {
+    "domain": "hotelamsterdam-zuidas.nl",
+    "analyzed_urls": [
+      "https://hotelamsterdam-zuidas.nl"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:18:08.661196+00:00"
+  },
+  {
+    "domain": "themanorhotelamsterdam.com",
+    "analyzed_urls": [
+      "https://themanorhotelamsterdam.com/"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:18:23.146056+00:00"
+  },
+  {
+    "domain": "thelancasterhotelamsterdam.com",
+    "analyzed_urls": [
+      "https://thelancasterhotelamsterdam.com/"
+    ],
+    "performance_metrics": {},
+    "leak_indicators": [],
+    "leak_score": 0,
+    "evidence_screenshots": [],
+    "priority_fixes": [],
+    "estimated_impact": "5-10% conversion optimization potential",
+    "analysis_timestamp": "2025-08-10T12:18:37.631920+00:00"
+  }
+]

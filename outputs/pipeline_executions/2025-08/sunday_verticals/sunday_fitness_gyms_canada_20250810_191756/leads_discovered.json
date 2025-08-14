@@ -1,0 +1,167 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "firstclasspt.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 4,
+    "fit_score": 5,
+    "discovery_timestamp": "2025-08-10 19:18:31.877266",
+    "company_name": "First Class Personal Training Toronto",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$7,800/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 5,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 423.6,
+      "recent_campaigns_ratio": 1.0
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "cascadeac.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:18:51.307358",
+    "company_name": "Cascade Athletic Club - Vancouver",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$7,800/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 10,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 673.7,
+      "recent_campaigns_ratio": 0.8
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "cascadeac.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:19:03.277106",
+    "company_name": "Cascade Athletic Club - Vancouver",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$7,800/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM",
+      "vulnerabilities": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "ad_count": 10,
+      "formats_detected": [
+        "text"
+      ],
+      "avg_campaign_duration": 673.7,
+      "recent_campaigns_ratio": 0.8
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "svptfitness.com",
+    "vertical": "fitness_gyms_canada",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 4,
+    "discovery_timestamp": "2025-08-10 19:20:12.579344",
+    "company_name": "SVPT Fitness & Athletics",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$7,000/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "LOW",
+      "vulnerabilities": [],
+      "ad_count": 9,
+      "formats_detected": [
+        "text",
+        "image",
+        "video"
+      ],
+      "avg_campaign_duration": 93.8,
+      "recent_campaigns_ratio": 0.22
+    }
+  }
+]

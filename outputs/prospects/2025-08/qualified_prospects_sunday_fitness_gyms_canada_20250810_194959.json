@@ -1,0 +1,87 @@
+{
+  "execution_id": "sunday_fitness_gyms_canada_20250810_194959",
+  "execution_date": "2025-08-10T22:51:54.559397+00:00",
+  "vertical": "fitness_gyms_canada",
+  "total_discovered": 11,
+  "total_qualified": 11,
+  "qualification_rate": 1.0,
+  "qualified_prospects": [
+    {
+      "domain": "alteaactive.com",
+      "company_name": "Altea Liberty Village",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1500/month waste reduction"
+    },
+    {
+      "domain": "fitfactoryfitness.com",
+      "company_name": "Fit Factory Downtown",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1200/month waste reduction"
+    },
+    {
+      "domain": "torontomu.ca",
+      "company_name": "Personal Training - Recreation & Active Wellbeing",
+      "priority_score": 8,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1500/month waste reduction"
+    },
+    {
+      "domain": "ymcagta.org",
+      "company_name": "Personal Training",
+      "priority_score": 8,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1500/month waste reduction"
+    },
+    {
+      "domain": "totum.ca",
+      "company_name": "Personal Trainer Toronto | Get Results at totum Fitness Club",
+      "priority_score": 8,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1500/month waste reduction"
+    },
+    {
+      "domain": "cascadeac.com",
+      "company_name": "Cascade Athletic Club - Vancouver",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$675/month waste reduction"
+    },
+    {
+      "domain": "cascadeac.com",
+      "company_name": "Cascade Athletic Club - Vancouver",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$675/month waste reduction"
+    },
+    {
+      "domain": "svetness.com",
+      "company_name": "The Best Personal Trainers in Vancouver, WA",
+      "priority_score": 8,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1500/month waste reduction"
+    },
+    {
+      "domain": "svptfitness.com",
+      "company_name": "SVPT Fitness & Athletics",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$562/month waste reduction"
+    },
+    {
+      "domain": "evolvestrength.ca",
+      "company_name": "Personal Training Services - Edmonton",
+      "priority_score": 8,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1500/month waste reduction"
+    },
+    {
+      "domain": "nait.ca",
+      "company_name": "Personal Fitness Trainer",
+      "priority_score": 7,
+      "strategic_tier": "strategic",
+      "revenue_opportunity": "$1500/month waste reduction"
+    }
+  ]
+}

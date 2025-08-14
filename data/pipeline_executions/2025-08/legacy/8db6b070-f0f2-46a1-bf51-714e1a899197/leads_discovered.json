@@ -1,0 +1,132 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "floridaomfs.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-09T20:14:32.254121",
+    "company_name": "Dental Implants Tampa",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "SINGLE_FORMAT_LIMITATION",
+        "LOW_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$2,600/month improvement potential",
+      "timing_advantage": false,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "tampabayminidentalimplantsolutions.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 1,
+    "fit_score": 2,
+    "discovery_timestamp": "2025-08-09T20:14:32.525259",
+    "company_name": "Home | Tampa Bay Mini Dental Implant Solutions | Dr. Luz ...",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "NO_DIGITAL_MATURITY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "Complete digital strategy rebuild needed"
+      ],
+      "revenue_opportunity": "HIGH_GREENFIELD"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "tampadental.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-09T20:14:33.223488",
+    "company_name": "Dental Implants Tampa, FL | Natural Replacements for ...",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "NO_DIGITAL_MATURITY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "Complete digital strategy rebuild needed"
+      ],
+      "revenue_opportunity": "HIGH_GREENFIELD"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "tampadental.com",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 1,
+    "fit_score": 2,
+    "discovery_timestamp": "2025-08-09T20:15:18.533506",
+    "company_name": "Dentist Tampa | Tampa Dental | Tampa Cosmetic Dentist",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "NO_DIGITAL_MATURITY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "Complete digital strategy rebuild needed"
+      ],
+      "revenue_opportunity": "HIGH_GREENFIELD"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "tampadentalwellness.net",
+    "vertical": "dental_clinics",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 1,
+    "fit_score": 2,
+    "discovery_timestamp": "2025-08-09T20:15:19.642557",
+    "company_name": "Cosmetic Dentistry in Tampa, FL",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "basic",
+      "outreach_insights": [
+        "NO_DIGITAL_MATURITY"
+      ],
+      "followup_insights": [],
+      "proposal_insights": [
+        "Complete digital strategy rebuild needed"
+      ],
+      "revenue_opportunity": "HIGH_GREENFIELD"
+    }
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "advertiser_id": "",
+    "domain": "hotellondon.fr",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:14.362769",
+    "company_name": "Hotellondon.Fr",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [],
+      "revenue_opportunity": "$9,800/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "tablethotels.com",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:32.320726",
+    "company_name": "Boutique & Luxury Hotels in London from Tablet Hotels",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$9,659/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "editionhotels.com",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:33.733191",
+    "company_name": "Luxury Boutique Hotel in Soho London - EDITION Hotels",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [
+        "MISSING_VIDEO_STRATEGY"
+      ],
+      "revenue_opportunity": "$9,659/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "MEDIUM"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "edenhotelamsterdam.com",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:44.806643",
+    "company_name": "Edenhotelamsterdam",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [],
+      "revenue_opportunity": "$9,800/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "theedhotelamsterdam.com",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:46.363270",
+    "company_name": "Theedhotelamsterdam",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "CRITICAL_COMPLETELY_STALE_CAMPAIGNS",
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "MISSING_VIDEO_STRATEGY",
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [
+        "COMPLETELY_STALE_CAMPAIGNS",
+        "MISSING_VIDEO_STRATEGY",
+        "MODERATE_CREATIVE_VOLUME"
+      ],
+      "revenue_opportunity": "$10,150/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "HIGH"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "hotelamsterdam-zuidas.nl",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:49.252279",
+    "company_name": "Hotelamsterdam Zuidas.Nl",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [],
+      "revenue_opportunity": "$9,800/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "themanorhotelamsterdam.com",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:51.162808",
+    "company_name": "Themanorhotelamsterdam",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [],
+      "revenue_opportunity": "$9,800/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "LOW"
+    }
+  },
+  {
+    "advertiser_id": "",
+    "domain": "thelancasterhotelamsterdam.com",
+    "vertical": "hotels_europe",
+    "currency": "USD",
+    "last_seen": 1,
+    "creative_count": 1,
+    "demand_score": 3,
+    "fit_score": 3,
+    "discovery_timestamp": "2025-08-10T09:16:53.421793",
+    "company_name": "Thelancasterhotelamsterdam",
+    "city": null,
+    "geo_location": null,
+    "strategic_insights": {
+      "tier": "strategic",
+      "outreach_insights": [
+        "WEEKEND_OPERATIONAL_TIMING"
+      ],
+      "followup_insights": [
+        "WEEKEND_TIMING_OPPORTUNITY"
+      ],
+      "proposal_insights": [],
+      "revenue_opportunity": "$9,800/month improvement potential",
+      "timing_advantage": true,
+      "vulnerability_severity": "LOW"
+    }
+  }
+]

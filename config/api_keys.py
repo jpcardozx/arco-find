@@ -81,12 +81,12 @@ class APIConfig:
         if missing:
             raise ValueError(f"Missing S-tier API keys: {missing}")
         
-        print("🚀 S-Tier Lead Generation APIs Validated:")
-        print(f"   ✅ SearchAPI: {cls.SEARCHAPI_KEY[:8]}...")
-        print(f"   ✅ PageSpeed: {cls.GOOGLE_PAGESPEED_API_KEY[:8]}...")
-        print(f"   ✅ BigQuery Project: {cls.GOOGLE_CLOUD_PROJECT}")
-        print(f"   ✅ Target Industries: {len(cls.TARGET_INDUSTRIES)} sectors")
-        print(f"   🎯 Sprint Target: {cls.TARGET_PILOT_CONVERSIONS_PER_SPRINT} pilot conversions")
+        print("S-Tier Lead Generation APIs Validated:")
+        print(f"   SearchAPI: {cls.SEARCHAPI_KEY[:8]}...")
+        print(f"   PageSpeed: {cls.GOOGLE_PAGESPEED_API_KEY[:8]}...")
+        print(f"   BigQuery Project: {cls.GOOGLE_CLOUD_PROJECT}")
+        print(f"   Target Industries: {len(cls.TARGET_INDUSTRIES)} sectors")
+        print(f"   Sprint Target: {cls.TARGET_PILOT_CONVERSIONS_PER_SPRINT} pilot conversions")
         
         return True
     
@@ -138,5 +138,5 @@ class APIConfig:
 try:
     APIConfig.validate_s_tier_config()
 except ValueError as e:
-    print(f"❌ S-Tier API Configuration Error: {e}")
-    print("💡 Check your .env file or update the API keys above")
+    print(f"S-Tier API Configuration Error: {e}")
+    print("Check your .env file or update the API keys above")
