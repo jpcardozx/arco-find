@@ -1,7 +1,26 @@
-# Python
+# 🔐 Environment and Configuration
+.env
+.env.local
+.env.*.local
+config/local_*.json
+
+# 🗄️ Database Files
+*.db
+*.sqlite
+*.sqlite3
+data/prospects.db
+data/*.db
+
+# 📝 Logs and Cache
+logs/
+*.log
+.arco_cache.json
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+
+# 🐍 Python
 *.so
 .Python
 build/
@@ -16,39 +35,82 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# Environment variables
-.env
+# 🌐 Virtual Environments
 .venv
-env/
 venv/
 ENV/
-env.bak/
-venv.bak/
+env/
+.env/
 
-# IDE
+# 🎭 Playwright
+playwright-report/
+test-results/
+
+# 📊 Output and Exports
+outputs/
+exports/
+results/
+reports/
+temp/
+tmp/
+
+# 🛠️ IDE and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Logs
-*.log
-logs/*.log
+# 📦 Node.js (if using any JS tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔄 System Files
+.coverage
+.nyc_output
+.sass-cache/
+.connect.lock
+.typings/
+
+# 🚫 Sensitive Data
+api_keys.json
+credentials.json
+secrets/
+*.pem
+*.key
+
+# 📈 Analytics and Monitoring
+analytics/
+metrics/
+monitoring/
+
+# 🧪 Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# 📚 Documentation Build
+docs/_build/
+.docusaurus
+.next
+
+# 🔧 Tool-specific
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
 # ARCO specific
 data/executions/*/
@@ -58,15 +120,7 @@ evidence/*.png
 evidence/*.pdf
 prospects.json
 prospects.csv
-
-# API keys and secrets
 config/api_keys_local.py
-.env.local
-
-# Cache files
-.arco_cache.json
 *.cache
-
-# Test artifacts
 test_results/
 coverage/
