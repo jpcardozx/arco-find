@@ -30,7 +30,7 @@ def check_real_query_cost():
                 WHEN COUNT(*) > 40 AND (COUNT(DISTINCT creative_id) / COUNT(*)) < 0.3 
                 THEN 0.85  -- High volume, low diversity = major waste
                 WHEN COUNT(*) > 60 AND (COUNT(DISTINCT creative_id) / COUNT(*)) > 0.8
-                THEN 0.75  -- Excessive testing without optimization
+                THEN 0.25  -- High diversity = sophisticated marketing (good practice)
                 WHEN COUNT(*) BETWEEN 20 AND 60 AND (COUNT(DISTINCT creative_id) / COUNT(*)) BETWEEN 0.3 AND 0.7
                 THEN 0.45  -- Reasonable approach
                 ELSE 0.65  -- Default moderate waste
@@ -110,7 +110,7 @@ def check_real_query_cost():
                 OR LOWER(advertiser_disclosed_name) LIKE '%platform%'
             )
         GROUP BY advertiser_disclosed_name, advertiser_location
-        HAVING ad_volume BETWEEN 15 AND 150  -- SME sweet spot
+        HAVING ad_volume BETWEEN 5 AND 25  -- True SME range (micro/small businesses)
             AND vertical != 'other'
             AND waste_probability >= 0.5  -- Focus on real opportunities
     )

@@ -180,7 +180,7 @@ class ArcoDiscoveryEngine:
                     WHEN COUNT(*) > 40 AND (COUNT(DISTINCT creative_id) / COUNT(*)) < 0.3 
                     THEN 0.85  -- High volume, low diversity = major waste
                     WHEN COUNT(*) > 60 AND (COUNT(DISTINCT creative_id) / COUNT(*)) > 0.8
-                    THEN 0.75  -- Excessive testing without optimization
+                    THEN 0.25  -- High diversity = sophisticated marketing (good practice)
                     WHEN COUNT(*) BETWEEN 20 AND 60 AND (COUNT(DISTINCT creative_id) / COUNT(*)) BETWEEN 0.3 AND 0.7
                     THEN 0.45  -- Reasonable approach
                     ELSE 0.65  -- Default moderate waste
