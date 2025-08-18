@@ -87,27 +87,27 @@ class RealisticDiscoveryEngine:
         self.client = bigquery.Client()
         logger.info("Realistic Discovery Engine - Evidence-based approach")
         
-        # Conservative budget estimates based on industry research
+        # Realistic SME spend estimates based on true small business volumes
         self.realistic_spend_estimates = {
             'aesthetic': {
-                'ad_volume_15_30': 200,    # £200/month for small clinics
-                'ad_volume_31_60': 400,    # £400/month for medium
-                'ad_volume_61_150': 800    # £800/month for larger
+                'ad_volume_5_10': 400,     # £400/month for micro clinics (£40-80/ad)
+                'ad_volume_11_18': 720,    # £720/month for small clinics (£40-65/ad)  
+                'ad_volume_19_25': 1000    # £1000/month for established clinics (£40-53/ad)
             },
             'estate': {
-                'ad_volume_15_30': 150,    # £150/month for small agents
-                'ad_volume_31_60': 350,    # £350/month for medium
-                'ad_volume_61_150': 700    # £700/month for larger
+                'ad_volume_5_10': 350,     # £350/month for micro agents (£35-70/ad)
+                'ad_volume_11_18': 630,    # £630/month for small agents (£35-57/ad)
+                'ad_volume_19_25': 875     # £875/month for established agents (£35-46/ad)
             },
             'legal': {
-                'ad_volume_15_30': 300,    # £300/month for small firms
-                'ad_volume_31_60': 600,    # £600/month for medium
-                'ad_volume_61_150': 1200   # £1200/month for larger
+                'ad_volume_5_10': 500,     # £500/month for micro firms (£50-100/ad)
+                'ad_volume_11_18': 900,    # £900/month for small firms (£50-82/ad)
+                'ad_volume_19_25': 1250    # £1250/month for established firms (£50-66/ad)
             },
             'dental': {
-                'ad_volume_15_30': 180,    # £180/month for small practices
-                'ad_volume_31_60': 380,    # £380/month for medium
-                'ad_volume_61_150': 750    # £750/month for larger
+                'ad_volume_5_10': 450,     # £450/month for micro practices (£45-90/ad)
+                'ad_volume_11_18': 810,    # £810/month for small practices (£45-74/ad)
+                'ad_volume_19_25': 1125    # £1125/month for established practices (£45-60/ad)
             }
         }
         
@@ -202,7 +202,7 @@ class RealisticDiscoveryEngine:
                     OR LOWER(advertiser_disclosed_name) LIKE '%holdings%'
                 )
             GROUP BY advertiser_disclosed_name, advertiser_location
-            HAVING ad_volume BETWEEN 15 AND 100  -- SME range
+            HAVING ad_volume BETWEEN 5 AND 25  -- True SME range (micro/small businesses)
                 AND vertical != 'other'
         )
         SELECT * FROM basic_prospects
@@ -292,45 +292,48 @@ class RealisticDiscoveryEngine:
             return None
 
     def _estimate_conservative_spend(self, ad_volume: int, vertical: str) -> int:
-        """Conservative spend estimation based on real industry data"""
+        """Conservative spend estimation based on real SME industry data"""
         
+        # Realistic SME spend brackets (per ad ranges for true SMEs)
         spend_brackets = self.realistic_spend_estimates.get(vertical, {
-            'ad_volume_15_30': 200,
-            'ad_volume_31_60': 400, 
-            'ad_volume_61_150': 800
+            'ad_volume_5_10': 500,   # £50-100 per ad for micro SMEs  
+            'ad_volume_11_18': 900,  # £50-75 per ad for small SMEs
+            'ad_volume_19_25': 1250  # £50-70 per ad for established SMEs
         })
         
-        if ad_volume <= 30:
-            return spend_brackets['ad_volume_15_30']
-        elif ad_volume <= 60:
-            return spend_brackets['ad_volume_31_60']
+        if ad_volume <= 10:
+            return spend_brackets['ad_volume_5_10']
+        elif ad_volume <= 18:
+            return spend_brackets['ad_volume_11_18']
         else:
-            return spend_brackets['ad_volume_61_150']
+            return spend_brackets['ad_volume_19_25']
 
     def _estimate_company_size_realistic(self, company_name: str, ad_volume: int) -> str:
-        """Realistic company size estimation"""
+        """Realistic company size estimation for true SMEs"""
         
         name_lower = company_name.lower()
         
         # Clear size indicators in name
         if any(indicator in name_lower for indicator in ['limited', 'ltd', 'plc', 'group']):
-            if ad_volume > 60:
-                return "medium_company"
-            else:
+            if ad_volume > 20:  # Adjusted for SME scale
                 return "small_company"
+            else:
+                return "micro_company"
         
         # Independent/solo practice indicators
         if any(indicator in name_lower for indicator in ['dr ', 'practice', 'clinic']):
-            if ad_volume < 30:
+            if ad_volume < 12:
                 return "solo_practice"
             else:
                 return "small_practice"
         
-        # Default based on volume
-        if ad_volume > 50:
+        # Default based on SME volume ranges
+        if ad_volume > 18:
             return "small_company"
-        else:
+        elif ad_volume > 10:
             return "micro_business"
+        else:
+            return "solo_operation"
 
     def _detect_real_pain_signals(self, raw_data: Dict) -> tuple:
         """Detect pain signals with specific evidence"""
@@ -338,27 +341,29 @@ class RealisticDiscoveryEngine:
         pain_signals = []
         pain_evidence = []
         
-        # Creative diversity analysis
+        # Creative diversity analysis (CORRECTED LOGIC)
         diversity = raw_data['creative_diversity']
         volume = raw_data['ad_volume']
         
-        if diversity < 0.3 and volume > 25:
-            pain_signals.append("Limited creative variation")
-            pain_evidence.append(f"Only {diversity:.1%} creative diversity across {volume} ads suggests creative stagnation")
+        # LOW diversity = PROBLEM (reusing same ads)
+        if diversity < 0.3 and volume > 8:
+            pain_signals.append("Creative stagnation")
+            pain_evidence.append(f"Only {diversity:.1%} creative diversity across {volume} ads indicates reusing same creatives - poor testing practice")
         
-        if diversity > 0.8 and volume > 40:
-            pain_signals.append("Excessive creative testing")
-            pain_evidence.append(f"{diversity:.1%} creative diversity across {volume} ads indicates over-testing without optimization")
+        # HIGH diversity = GOOD PRACTICE (not a problem)
+        if diversity > 0.8 and volume > 15:
+            pain_signals.append("Active creative testing")
+            pain_evidence.append(f"{diversity:.1%} creative diversity across {volume} ads shows good testing practices - indicates sophisticated marketing")
         
-        # Volume-based insights
-        if volume > 60:
-            pain_signals.append("High ad volume without clear optimization")
-            pain_evidence.append(f"{volume} ads suggests significant spend without visible optimization patterns")
+        # Volume-based insights (adjusted for true SMEs)
+        if volume > 20:  # Reduced from 60 to match SME scale
+            pain_signals.append("High ad volume for SME")
+            pain_evidence.append(f"{volume} ads suggests significant marketing activity for SME size")
         
         # If no clear pain signals, be honest
         if not pain_signals:
-            pain_signals.append("Moderate advertising activity")
-            pain_evidence.append(f"{volume} ads with {diversity:.1%} diversity - standard activity level")
+            pain_signals.append("Standard SME advertising activity")
+            pain_evidence.append(f"{volume} ads with {diversity:.1%} diversity - typical SME marketing patterns")
         
         return pain_signals, pain_evidence
 
