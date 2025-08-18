@@ -77,10 +77,10 @@ class StrategicExecutionEngine:
             'estate_small': {'min': 500, 'max': 1000}       # £500-1000/mês
         }
         
-        # Performance thresholds críticos
+        # Performance thresholds críticos (CORRIGIDOS)
         self.performance_thresholds = {
-            'high_volume_low_diversity': 0.3,  # >30 ads, <30% diversidade = problema
-            'excessive_testing': 0.8,          # >80% diversidade = teste excessivo
+            'high_volume_low_diversity': 0.3,  # >18 ads, <30% diversidade = problema
+            'sophisticated_testing': 0.8,     # >80% diversidade = práticas avançadas (não problema)
             'spend_efficiency': 0.6            # Threshold para ineficiência
         }
     
@@ -106,7 +106,7 @@ class StrategicExecutionEngine:
                     WHEN COUNT(*) > 30 AND (COUNT(DISTINCT creative_id) / COUNT(*)) < 0.3 
                     THEN 0.8  -- High volume, low diversity = likely poor performance
                     WHEN COUNT(*) > 50 AND (COUNT(DISTINCT creative_id) / COUNT(*)) > 0.8
-                    THEN 0.7  -- Excessive testing = waste
+                    THEN 0.2  -- High diversity = sophisticated marketing (good practice)
                     WHEN COUNT(*) BETWEEN 15 AND 40 AND (COUNT(DISTINCT creative_id) / COUNT(*)) BETWEEN 0.4 AND 0.7
                     THEN 0.4  -- Balanced approach = lower waste probability
                     ELSE 0.6

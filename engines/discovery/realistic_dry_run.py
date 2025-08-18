@@ -79,7 +79,7 @@ class RealisticDryRunner:
                     OR LOWER(advertiser_disclosed_name) LIKE '%holdings%'
                 )
             GROUP BY advertiser_disclosed_name, advertiser_location
-            HAVING ad_volume BETWEEN 15 AND 100  -- SME range
+            HAVING ad_volume BETWEEN 5 AND 25  -- True SME range (micro/small businesses)
                 AND vertical != 'other'
         )
         SELECT * FROM basic_prospects
@@ -160,7 +160,7 @@ class RealisticDryRunner:
                 )
                 AND NOT LOWER(advertiser_disclosed_name) LIKE '%hospital%'
             GROUP BY advertiser_disclosed_name, advertiser_location
-            HAVING ad_count BETWEEN 15 AND 100
+            HAVING ad_count BETWEEN 5 AND 25  -- True SME range
         )
         """
         
