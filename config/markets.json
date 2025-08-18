@@ -1,0 +1,136 @@
+{
+  "oceania_east": {
+    "name": "Eastern Oceania",
+    "countries": ["AU", "NZ"],
+    "currency": "AUD",
+    "timezone": "Australia/Sydney",
+    "language": "en",
+    "major_cities": [
+      "Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide",
+      "Auckland", "Wellington", "Christchurch"
+    ],
+    "business_hours": "09:00-17:00 AEST",
+    "cost_benchmarks": {
+      "cpc_max_ecommerce": 4.50,
+      "cpc_max_professional_services": 12.00,
+      "cpc_max_dental": 15.00,
+      "cpc_max_fitness": 8.00,
+      "cpl_target_ecommerce": 45.00,
+      "cpl_target_professional": 120.00,
+      "cpl_target_dental": 180.00,
+      "cpl_target_fitness": 65.00,
+      "cvr_min_landing": 0.08,
+      "response_rate_cold_email": 0.12
+    },
+    "verticals": {
+      "dental_au": {
+        "search_terms": [
+          "dental practice sydney",
+          "orthodontist melbourne", 
+          "cosmetic dentist brisbane",
+          "dental clinic australia",
+          "periodontist sydney"
+        ],
+        "pain_signals": [
+          "empty appointment slots",
+          "treatment plan rejection rate high",
+          "patient referrals declining",
+          "consultation no-shows",
+          "insurance claim complexity",
+          "competition from corporate dentistry"
+        ],
+        "ad_intelligence_queries": [
+          "\"need more patients\" dental practice australia",
+          "\"appointment booking problems\" dentist sydney",
+          "\"case acceptance low\" dental clinic",
+          "\"patient acquisition cost\" orthodontist melbourne",
+          "\"marketing not working\" cosmetic dentist"
+        ]
+      },
+      "ecommerce_au": {
+        "search_terms": [
+          "online store australia",
+          "ecommerce business sydney",
+          "shopify store melbourne",
+          "online retailer brisbane",
+          "dropshipping business australia"
+        ],
+        "pain_signals": [
+          "cart abandonment rate high",
+          "conversion rate below 2%",
+          "advertising spend waste",
+          "customer acquisition cost rising",
+          "email marketing not working",
+          "mobile checkout issues"
+        ],
+        "ad_intelligence_queries": [
+          "\"low conversion rate\" ecommerce australia",
+          "\"cart abandonment\" online store sydney",
+          "\"advertising waste\" shopify melbourne",
+          "\"need more sales\" online business",
+          "\"checkout optimization\" ecommerce australia"
+        ]
+      },
+      "fitness_au": {
+        "search_terms": [
+          "personal trainer sydney",
+          "fitness coach melbourne", 
+          "gym membership brisbane",
+          "yoga studio australia",
+          "nutrition coaching sydney"
+        ],
+        "pain_signals": [
+          "member retention issues",
+          "class booking struggles",
+          "online program sales low",
+          "social media not converting",
+          "trial to membership conversion poor",
+          "seasonal revenue drops"
+        ],
+        "ad_intelligence_queries": [
+          "\"need more members\" fitness australia",
+          "\"low retention rate\" gym sydney",
+          "\"online program not selling\" personal trainer",
+          "\"membership conversion\" fitness center",
+          "\"marketing struggles\" yoga studio"
+        ]
+      },
+      "real_estate_au": {
+        "search_terms": [
+          "real estate agent marketing sydney",
+          "property developer advertising",
+          "buyers agent melbourne",
+          "commercial real estate brisbane",
+          "property management marketing"
+        ],
+        "pain_signals": [
+          "listing conversion",
+          "buyer lead generation", 
+          "property inquiry optimization",
+          "market share growth"
+        ]
+      }
+    }
+  },
+  "north_america_west": {
+    "name": "Western North America", 
+    "countries": ["CA", "US"],
+    "currency": "CAD",
+    "timezone": "America/Vancouver",
+    "language": "en",
+    "major_cities": [
+      "Vancouver", "Calgary", "Edmonton", "Victoria",
+      "Seattle", "Portland", "San Francisco", "Los Angeles"
+    ],
+    "cost_benchmarks": {
+      "cpc_max_saas": 6.50,
+      "cpc_max_professional_services": 9.00,
+      "cpc_max_dental": 12.00,
+      "cpl_target_saas": 65.00,
+      "cpl_target_professional": 95.00,
+      "cpl_target_dental": 145.00,
+      "cvr_min_landing": 0.10,
+      "response_rate_cold_email": 0.09
+    }
+  }
+}

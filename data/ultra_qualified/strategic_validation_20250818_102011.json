@@ -1,0 +1,102 @@
+{
+  "validation_type": "strategic_dry_run",
+  "timestamp": "20250818_102011",
+  "methodology_validated": "cross_data_marketing_performance",
+  "validation_summary": {
+    "total_prospects": 5,
+    "high_priority_count": 5,
+    "total_opportunity_value": 17084,
+    "avg_opportunity_score": 96.0,
+    "avg_waste_probability": 0.67,
+    "avg_monthly_spend": 480
+  },
+  "strategic_corrections": {
+    "budget_realism": "£150-1000/mês baseado em research UK ONS",
+    "company_sizing": "4-14 funcionários (96% do mercado)",
+    "performance_focus": "Cross-data waste probability >0.5",
+    "quality_filter": "5 prospects qualificados vs 50+ genéricos"
+  },
+  "prospects": [
+    {
+      "company_name": "West London Aesthetics Clinic",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 45,
+      "creative_diversity": 0.27,
+      "estimated_monthly_spend": 600,
+      "waste_probability": 0.82,
+      "performance_issues": [
+        "Creative stagnation - mesmo anúncio repetido",
+        "High waste probability detectada"
+      ],
+      "company_size": "small",
+      "staff_estimate": 12,
+      "opportunity_score": 100,
+      "priority_level": "CRITICAL",
+      "estimated_contract_value": 4680
+    },
+    {
+      "company_name": "Brighton Property Solutions",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 38,
+      "creative_diversity": 0.89,
+      "estimated_monthly_spend": 750,
+      "waste_probability": 0.71,
+      "performance_issues": [
+        "Over-testing - muitos criativos diferentes",
+        "High waste probability detectada"
+      ],
+      "company_size": "small",
+      "staff_estimate": 12,
+      "opportunity_score": 100,
+      "priority_level": "CRITICAL",
+      "estimated_contract_value": 4950
+    },
+    {
+      "company_name": "Dublin Beauty Center",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 25,
+      "creative_diversity": 0.52,
+      "estimated_monthly_spend": 325,
+      "waste_probability": 0.65,
+      "performance_issues": [],
+      "company_size": "micro",
+      "staff_estimate": 7,
+      "opportunity_score": 94.5,
+      "priority_level": "CRITICAL",
+      "estimated_contract_value": 2465
+    },
+    {
+      "company_name": "Edinburgh Estate Agents",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 31,
+      "creative_diversity": 0.35,
+      "estimated_monthly_spend": 400,
+      "waste_probability": 0.58,
+      "performance_issues": [],
+      "company_size": "micro",
+      "staff_estimate": 7,
+      "opportunity_score": 92.4,
+      "priority_level": "CRITICAL",
+      "estimated_contract_value": 2539
+    },
+    {
+      "company_name": "Cork Cosmetic Clinic",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 22,
+      "creative_diversity": 0.68,
+      "estimated_monthly_spend": 325,
+      "waste_probability": 0.61,
+      "performance_issues": [],
+      "company_size": "micro",
+      "staff_estimate": 7,
+      "opportunity_score": 93.3,
+      "priority_level": "CRITICAL",
+      "estimated_contract_value": 2450
+    }
+  ]
+}

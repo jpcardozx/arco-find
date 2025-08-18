@@ -1,0 +1,489 @@
+{
+  "execution_summary": {
+    "timestamp": "20250818_110048",
+    "engine_version": "ARCO Discovery Engine v1.0",
+    "methodology": "Integrated ad performance + web opportunity analysis",
+    "total_prospects": 12,
+    "high_priority_prospects": 12,
+    "execution_cost_estimate": "$0.008"
+  },
+  "opportunity_analysis": {
+    "total_ad_optimization_value": 68370,
+    "total_web_development_value": 167200,
+    "total_digital_opportunity_value": 235570,
+    "average_opportunity_score": 94.9,
+    "roi_projection": "942x"
+  },
+  "market_intelligence": {
+    "target_markets": [
+      "GB",
+      "IE",
+      "AU",
+      "NZ",
+      "CA"
+    ],
+    "vertical_breakdown": {
+      "aesthetic": {
+        "count": 9,
+        "avg_opportunity_score": 95.8,
+        "total_value": 172548
+      },
+      "legal": {
+        "count": 1,
+        "avg_opportunity_score": 93.8,
+        "total_value": 24322
+      },
+      "dental": {
+        "count": 2,
+        "avg_opportunity_score": 91.8,
+        "total_value": 38700
+      }
+    },
+    "avg_monthly_ad_spend": 1267,
+    "avg_company_size": {
+      "micro": 0,
+      "small": 0,
+      "medium": 12
+    }
+  },
+  "web_opportunity_insights": {
+    "website_refresh_opportunities": 0,
+    "landing_page_optimization_opportunities": 12,
+    "digital_strategy_opportunities": 0,
+    "high_confidence_web_opportunities": 0
+  },
+  "prospects": [
+    {
+      "company_name": "ICON Clinical Research Limited",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 150,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 37,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "MITCHELL COSMETICS LIMITED",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 150,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 37,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "UpCircle Beauty Europe Ltd",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 147,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 36,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "The Cadogan Clinic",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 146,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 36,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "the Other clinic",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 140,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 35,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "Adare LM Clinic Limited",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 137,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 34,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "Portobello Dental Clinic Ltd",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 134,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 33,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "PULSE LIGHT CLINIC (UK) LTD",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 130,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 32,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "ECLINIC LIMITED",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 127,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 31,
+      "estimated_monthly_ad_spend": 1150,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 862,
+      "company_size": "medium",
+      "staff_estimate": 18,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 14000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19172,
+      "opportunity_score": 95.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and brand positioning through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic partnership approach for comprehensive digital growth"
+    },
+    {
+      "company_name": "Stanislaw Halasa",
+      "location": "CA",
+      "vertical": "legal",
+      "ad_volume": 127,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 31,
+      "estimated_monthly_ad_spend": 1850,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 1387,
+      "company_size": "medium",
+      "staff_estimate": 25,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 16000,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 24322,
+      "opportunity_score": 93.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize client acquisition and professional credibility through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic legal marketing partnership for firm growth"
+    },
+    {
+      "company_name": "Bespoke Dental Ltd",
+      "location": "IE",
+      "vertical": "dental",
+      "ad_volume": 148,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 37,
+      "estimated_monthly_ad_spend": 1500,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 1125,
+      "company_size": "medium",
+      "staff_estimate": 15,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 12600,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19350,
+      "opportunity_score": 91.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and practice growth through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic healthcare marketing partnership"
+    },
+    {
+      "company_name": "Green Dental Ltd",
+      "location": "IE",
+      "vertical": "dental",
+      "ad_volume": 141,
+      "creative_diversity": 1.0,
+      "creative_age_estimate": 35,
+      "estimated_monthly_ad_spend": 1500,
+      "waste_probability": 0.75,
+      "performance_issues": [
+        "Over-testing - too many variants without optimization focus"
+      ],
+      "monthly_waste_estimate": 1125,
+      "company_size": "medium",
+      "staff_estimate": 15,
+      "market_segment": "premium",
+      "web_opportunity": {
+        "opportunity_type": "landing_page_optimization",
+        "evidence": [],
+        "estimated_value": 12600,
+        "confidence_level": "medium",
+        "timeline": "3-4 weeks",
+        "deliverables": [
+          "Landing page performance audit",
+          "Conversion rate optimization",
+          "A/B testing framework setup",
+          "Performance tracking implementation"
+        ]
+      },
+      "total_digital_opportunity": 19350,
+      "opportunity_score": 91.75,
+      "priority_level": "CRITICAL",
+      "primary_pain_point": "Over-testing - too many variants without optimization focus",
+      "value_proposition": "Optimize patient acquisition and practice growth through improved ad performance and landing page conversion",
+      "contact_approach": "Strategic healthcare marketing partnership"
+    }
+  ]
+}

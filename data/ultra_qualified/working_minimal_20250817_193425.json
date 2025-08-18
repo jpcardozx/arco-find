@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "date": "2025-08-17 19:34",
+    "engine": "Working Minimal Engine",
+    "validated": "Real BigQuery data GB/IE",
+    "cost_target": "<$0.20 USD",
+    "total_prospects": 8,
+    "estate_agents": 4,
+    "aesthetic_clinics": 4,
+    "high_priority": 8,
+    "total_project_value": 21776.0
+  },
+  "prospects": [
+    {
+      "name": "The Beauty Basket",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "records": 200,
+      "budget": 2000,
+      "value": 4000,
+      "priority": "high"
+    },
+    {
+      "name": "MEN IN BLACK Property Maintenance",
+      "location": "IE",
+      "vertical": "estate",
+      "records": 194,
+      "budget": 600,
+      "value": 1500.0,
+      "priority": "high"
+    },
+    {
+      "name": "TULLOCH HOMES LIMITED",
+      "location": "GB",
+      "vertical": "estate",
+      "records": 177,
+      "budget": 600,
+      "value": 1500.0,
+      "priority": "high"
+    },
+    {
+      "name": "Sandra Davidson Estate Agents Ltd",
+      "location": "GB",
+      "vertical": "estate",
+      "records": 173,
+      "budget": 600,
+      "value": 1500.0,
+      "priority": "high"
+    },
+    {
+      "name": "ELIZABETH SANDS BEAUTY SCHOOL LTD",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "records": 173,
+      "budget": 2000,
+      "value": 4000,
+      "priority": "high"
+    },
+    {
+      "name": "Bancon Homes",
+      "location": "GB",
+      "vertical": "estate",
+      "records": 163,
+      "budget": 600,
+      "value": 1500.0,
+      "priority": "high"
+    },
+    {
+      "name": "London Doctors Clinic Ltd",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "records": 162,
+      "budget": 1944,
+      "value": 3888,
+      "priority": "high"
+    },
+    {
+      "name": "Clinica London Ltd",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "records": 162,
+      "budget": 1944,
+      "value": 3888,
+      "priority": "high"
+    }
+  ]
+}

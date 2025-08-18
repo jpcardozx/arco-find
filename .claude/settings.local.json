@@ -1,8 +1,11 @@
 {
   "permissions": {
-    "defaultMode": "acceptEdits",
     "allow": [
-      "Bash(rm:*)"
-    ]
+      "Bash(rm:*)",
+      "Bash(python:*)",
+      "WebSearch",
+      "Bash(mv:*)"
+    ],
+    "defaultMode": "acceptEdits"
   }
 }

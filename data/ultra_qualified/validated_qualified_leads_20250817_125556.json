@@ -1,0 +1,333 @@
+{
+  "campaign_summary": {
+    "execution_date": "2025-08-17",
+    "total_validated_leads": 8,
+    "immediate_priority": 6,
+    "high_priority": 2,
+    "total_revenue_opportunity": 53080,
+    "average_lead_score": 8.65,
+    "average_close_probability": 0.61625
+  },
+  "validated_qualified_leads": [
+    {
+      "agency_name": "Harcourts",
+      "location": "Regional, AU",
+      "lead_score": "8.3/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "61%",
+      "activity_intelligence": {
+        "total_ad_records": 188,
+        "estimated_creatives": 188,
+        "activity_level": "high",
+        "estimated_monthly_spend": 2400
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "188 ad records but only 1 format types in competitive AU/NZ market",
+        "pain_severity": "7.5/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (188 records) with limited format testing",
+          "Using only 1 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency",
+          "Format diversification opportunity for competitive advantage"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 5720,
+        "project_value_estimate": 1800
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Owner/Principal",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies across Australia and New Zealand, and Harcourts caught my attention. 188 ad records but only 1 format types in competitive AU/NZ market suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For Harcourts specifically, I identified high activity low sophistication - significant advertising activity (188 records) with limited format testing. Based on similar optimizations, this could improve ad efficiency by $288/month.",
+        "talking_points": [
+          "Address Harcourts's high activity low sophistication",
+          "Optimize $2,400/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Real estate market digital transformation"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of Harcourts's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week? With today's Sunday market heating, I can prioritize your consultation this week."
+      }
+    },
+    {
+      "agency_name": "Otago Realty (NZ) Limited",
+      "location": "Regional, NZ",
+      "lead_score": "8.3/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "61%",
+      "activity_intelligence": {
+        "total_ad_records": 131,
+        "estimated_creatives": 131,
+        "activity_level": "high",
+        "estimated_monthly_spend": 2400
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "131 ad records but only 2 format types in competitive AU/NZ market",
+        "pain_severity": "7.5/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (131 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency",
+          "Format diversification opportunity for competitive advantage"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 5720,
+        "project_value_estimate": 2070
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Owner/Principal",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies across Australia and New Zealand, and Otago Realty (NZ) Limited caught my attention. 131 ad records but only 2 format types in competitive AU/NZ market suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For Otago Realty (NZ) Limited specifically, I identified high activity low sophistication - significant advertising activity (131 records) with limited format testing. Based on similar optimizations, this could improve ad efficiency by $288/month.",
+        "talking_points": [
+          "Address Otago Realty (NZ) Limited's high activity low sophistication",
+          "Optimize $2,400/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Real estate market digital transformation"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of Otago Realty (NZ) Limited's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week? With today's Sunday market heating, I can prioritize your consultation this week."
+      }
+    },
+    {
+      "agency_name": "CARLISLE HOMES PTY LTD",
+      "location": "Regional, AU",
+      "lead_score": "7.9/10",
+      "contact_priority": "HIGH",
+      "close_probability": "58%",
+      "activity_intelligence": {
+        "total_ad_records": 142,
+        "estimated_creatives": 142,
+        "activity_level": "high",
+        "estimated_monthly_spend": 2400
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "optimization_opportunity",
+        "pain_evidence": "142 creatives across 142 records in competitive AU/NZ market",
+        "pain_severity": "6.5/10",
+        "demonstrable_issues": [
+          "Active campaign management (142 creatives) with optimization potential",
+          "Ad portfolio analysis shows efficiency improvement opportunities",
+          "Ready for performance optimization and format diversification",
+          "Campaign structure suggests immediate ROI improvements available"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 5200,
+        "project_value_estimate": 1800
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Owner/Principal",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies across Australia and New Zealand, and CARLISLE HOMES PTY LTD caught my attention. 142 creatives across 142 records in competitive AU/NZ market suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For CARLISLE HOMES PTY LTD specifically, I identified optimization opportunity - active campaign management (142 creatives) with optimization potential. Based on similar optimizations, this could improve ad efficiency by $192/month.",
+        "talking_points": [
+          "Address CARLISLE HOMES PTY LTD's optimization opportunity",
+          "Optimize $2,400/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Real estate market digital transformation"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of CARLISLE HOMES PTY LTD's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week? With today's Sunday market heating, I can prioritize your consultation this week."
+      }
+    },
+    {
+      "agency_name": "WILDERNESS MOTORHOMES LIMITED",
+      "location": "Regional, NZ",
+      "lead_score": "7.9/10",
+      "contact_priority": "HIGH",
+      "close_probability": "58%",
+      "activity_intelligence": {
+        "total_ad_records": 140,
+        "estimated_creatives": 140,
+        "activity_level": "high",
+        "estimated_monthly_spend": 2400
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "optimization_opportunity",
+        "pain_evidence": "140 creatives across 140 records in competitive AU/NZ market",
+        "pain_severity": "6.5/10",
+        "demonstrable_issues": [
+          "Active campaign management (140 creatives) with optimization potential",
+          "Ad portfolio analysis shows efficiency improvement opportunities",
+          "Ready for performance optimization and format diversification",
+          "Campaign structure suggests immediate ROI improvements available"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 5200,
+        "project_value_estimate": 2070
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Owner/Principal",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies across Australia and New Zealand, and WILDERNESS MOTORHOMES LIMITED caught my attention. 140 creatives across 140 records in competitive AU/NZ market suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For WILDERNESS MOTORHOMES LIMITED specifically, I identified optimization opportunity - active campaign management (140 creatives) with optimization potential. Based on similar optimizations, this could improve ad efficiency by $192/month.",
+        "talking_points": [
+          "Address WILDERNESS MOTORHOMES LIMITED's optimization opportunity",
+          "Optimize $2,400/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Real estate market digital transformation"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of WILDERNESS MOTORHOMES LIMITED's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week? With today's Sunday market heating, I can prioritize your consultation this week."
+      }
+    },
+    {
+      "agency_name": "Harron Homes Limited",
+      "location": "Regional, GB",
+      "lead_score": "9.2/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "64%",
+      "activity_intelligence": {
+        "total_ad_records": 572,
+        "estimated_creatives": 572,
+        "activity_level": "high",
+        "estimated_monthly_spend": 4000
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "572 ad records but only 2 format types in competitive UK/IE market",
+        "pain_severity": "8.0/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (572 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency",
+          "Format diversification opportunity for competitive advantage"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 7810,
+        "project_value_estimate": 2875
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Managing Director or Marketing Director",
+        "personalized_opener": "I've been analyzing digital advertising performance for estate agencies across the UK and Ireland, and Harron Homes Limited caught my attention. 572 ad records but only 2 format types in competitive UK/IE market indicates significant optimization opportunities in your current market position.",
+        "specific_pain_pitch": "For Harron Homes Limited specifically, I identified high activity low sophistication - significant advertising activity (572 records) with limited format testing. Based on similar optimizations, this could improve ad efficiency by \u00a3480/month.",
+        "talking_points": [
+          "Address Harron Homes Limited's high activity low sophistication",
+          "Optimize \u00a34,000/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Corporate structure optimization for UK/IE market"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of Harron Homes Limited's current digital approach and the specific improvements I've identified. When would be a convenient time for a brief call this week? I can accommodate UK business hours. Given today's heightened market activity, I can arrange a priority consultation within 24 hours."
+      }
+    },
+    {
+      "agency_name": "NEW HOMES FOR SALE.CO.UK LIMITED",
+      "location": "Regional, GB",
+      "lead_score": "9.2/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "64%",
+      "activity_intelligence": {
+        "total_ad_records": 709,
+        "estimated_creatives": 709,
+        "activity_level": "high",
+        "estimated_monthly_spend": 4000
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "709 ad records but only 2 format types in competitive UK/IE market",
+        "pain_severity": "8.0/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (709 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency",
+          "Format diversification opportunity for competitive advantage"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 7810,
+        "project_value_estimate": 2875
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Managing Director or Marketing Director",
+        "personalized_opener": "I've been analyzing digital advertising performance for estate agencies across the UK and Ireland, and NEW HOMES FOR SALE.CO.UK LIMITED caught my attention. 709 ad records but only 2 format types in competitive UK/IE market indicates significant optimization opportunities in your current market position.",
+        "specific_pain_pitch": "For NEW HOMES FOR SALE.CO.UK LIMITED specifically, I identified high activity low sophistication - significant advertising activity (709 records) with limited format testing. Based on similar optimizations, this could improve ad efficiency by \u00a3480/month.",
+        "talking_points": [
+          "Address NEW HOMES FOR SALE.CO.UK LIMITED's high activity low sophistication",
+          "Optimize \u00a34,000/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Corporate structure optimization for UK/IE market"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of NEW HOMES FOR SALE.CO.UK LIMITED's current digital approach and the specific improvements I've identified. When would be a convenient time for a brief call this week? I can accommodate UK business hours. Given today's heightened market activity, I can arrange a priority consultation within 24 hours."
+      }
+    },
+    {
+      "agency_name": "HOMES FOR STUDENTS LIMITED",
+      "location": "Regional, GB",
+      "lead_score": "9.2/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "64%",
+      "activity_intelligence": {
+        "total_ad_records": 355,
+        "estimated_creatives": 355,
+        "activity_level": "high",
+        "estimated_monthly_spend": 4000
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "355 ad records but only 2 format types in competitive UK/IE market",
+        "pain_severity": "8.0/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (355 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency",
+          "Format diversification opportunity for competitive advantage"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 7810,
+        "project_value_estimate": 2875
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Managing Director or Marketing Director",
+        "personalized_opener": "I've been analyzing digital advertising performance for estate agencies across the UK and Ireland, and HOMES FOR STUDENTS LIMITED caught my attention. 355 ad records but only 2 format types in competitive UK/IE market indicates significant optimization opportunities in your current market position.",
+        "specific_pain_pitch": "For HOMES FOR STUDENTS LIMITED specifically, I identified high activity low sophistication - significant advertising activity (355 records) with limited format testing. Based on similar optimizations, this could improve ad efficiency by \u00a3480/month.",
+        "talking_points": [
+          "Address HOMES FOR STUDENTS LIMITED's high activity low sophistication",
+          "Optimize \u00a34,000/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Corporate structure optimization for UK/IE market"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of HOMES FOR STUDENTS LIMITED's current digital approach and the specific improvements I've identified. When would be a convenient time for a brief call this week? I can accommodate UK business hours. Given today's heightened market activity, I can arrange a priority consultation within 24 hours."
+      }
+    },
+    {
+      "agency_name": "Property Health Check Ltd",
+      "location": "Regional, IE",
+      "lead_score": "9.2/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "64%",
+      "activity_intelligence": {
+        "total_ad_records": 294,
+        "estimated_creatives": 294,
+        "activity_level": "high",
+        "estimated_monthly_spend": 4000
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "294 ad records but only 2 format types in competitive UK/IE market",
+        "pain_severity": "8.0/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (294 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency",
+          "Format diversification opportunity for competitive advantage"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 7810,
+        "project_value_estimate": 2500
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Managing Director or Marketing Director",
+        "personalized_opener": "I've been analyzing digital advertising performance for estate agencies across the UK and Ireland, and Property Health Check Ltd caught my attention. 294 ad records but only 2 format types in competitive UK/IE market indicates significant optimization opportunities in your current market position.",
+        "specific_pain_pitch": "For Property Health Check Ltd specifically, I identified high activity low sophistication - significant advertising activity (294 records) with limited format testing. Based on similar optimizations, this could improve ad efficiency by \u00a3480/month.",
+        "talking_points": [
+          "Address Property Health Check Ltd's high activity low sophistication",
+          "Optimize \u00a34,000/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Estate agency market competitive positioning"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of Property Health Check Ltd's current digital approach and the specific improvements I've identified. When would be a convenient time for a brief call this week? I can accommodate UK business hours. Given today's heightened market activity, I can arrange a priority consultation within 24 hours."
+      }
+    }
+  ]
+}

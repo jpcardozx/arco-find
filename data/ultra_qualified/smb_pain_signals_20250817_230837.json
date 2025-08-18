@@ -1,0 +1,235 @@
+{
+  "summary": {
+    "execution_date": "2025-08-17 23:08",
+    "engine_version": "4.0 (SMB Pain Signal Focus)",
+    "methodology": "Target SMBs (10-500 ads) with real pain signals, exclude giants",
+    "target_markets": "EU Premium (EEA, IE, DE, FR, ES, IT, NL, BE)",
+    "total_prospects": 20,
+    "avg_ads_per_prospect": 5.0,
+    "avg_creative_age": 604.4,
+    "avg_opportunity_score": 9.0,
+    "niches_covered": 4
+  },
+  "prospects": [
+    {
+      "business_name": "SIRIPORN THAI SPA AND BEAUTY THERAPY LIMITED",
+      "location_region": "EEA",
+      "niche": "Aesthetics",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 643.2,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 643 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Hispano Europea de Pesaje S.A.",
+      "location_region": "EEA",
+      "niche": "Aesthetics",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 625.8,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 625 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Debt Relief Legal Clinic",
+      "location_region": "DE",
+      "niche": "Aesthetics",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 495.4,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 495 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Dermal Glow Limited",
+      "location_region": "DE",
+      "niche": "Aesthetics",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 810.0,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 810 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Christian Caspar",
+      "location_region": "EEA",
+      "niche": "Aesthetics",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 441.0,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 441 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "DD&HH Real Estate Ltda",
+      "location_region": "EEA",
+      "niche": "Real Estate",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 700.2,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 700 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "ExperienceOne Homes",
+      "location_region": "DE",
+      "niche": "Real Estate",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 901.0,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 901 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "CTRLF Realty",
+      "location_region": "EEA",
+      "niche": "Real Estate",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 901.0,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 901 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Cornel Realty",
+      "location_region": "DE",
+      "niche": "Real Estate",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 389.0,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 389 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "PT IAS Property Indonesia",
+      "location_region": "BE",
+      "niche": "Real Estate",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 428.6,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 428 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "The Woods Counselling Co.",
+      "location_region": "EEA",
+      "niche": "Legal",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 582.0,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 582 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Colombia Legal & Associates SAS",
+      "location_region": "DE",
+      "niche": "Legal",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 389.4,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 389 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Bernoussi Legal Help",
+      "location_region": "EEA",
+      "niche": "Legal",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 449.2,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 449 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Renee Roumanos Legal",
+      "location_region": "EEA",
+      "niche": "Legal",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 454.0,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 454 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "NJ Bergen Florist Fair Lawn INC.",
+      "location_region": "EEA",
+      "niche": "Legal",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 715.8,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 715 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Angelica maria alzate morales",
+      "location_region": "EEA",
+      "niche": "Dental",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 875.4,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 875 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "Gustavo Adolfo Morales Interiano",
+      "location_region": "DE",
+      "niche": "Dental",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 647.6,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 647 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "ORAL UNIC ODONTOLOGIA NATAL LTDA",
+      "location_region": "EEA",
+      "niche": "Dental",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 819.4,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 819 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "M.T.M. IMPLANT S.R.L. S.T.P",
+      "location_region": "EEA",
+      "niche": "Dental",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 423.6,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 423 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    },
+    {
+      "business_name": "CORAL DIFFUSION",
+      "location_region": "DE",
+      "niche": "Dental",
+      "total_ads_count": 5,
+      "avg_creative_age_days": 396.2,
+      "business_size_category": "Small Micro Business",
+      "pain_signal_summary": "CRITICAL: Creatives are 396 days old (1+ year stagnation)",
+      "opportunity_score": 9.0,
+      "suggested_service": "Creative Refresh & Ad Account Optimization"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "campaign_summary": {
+    "execution_date": "2025-08-17",
+    "total_smb_agents": 6,
+    "immediate_priority": 0,
+    "high_priority": 1,
+    "total_project_value": 9000,
+    "total_retainer_potential": 3150,
+    "average_lead_score": 6.870833333333333,
+    "average_monthly_spend": 1558.5
+  },
+  "market_intelligence": {
+    "uk_market_data": {
+      "total_agencies": 22591,
+      "total_employees": 154880,
+      "avg_employees_per_agency": 6.9,
+      "avg_turnover_per_employee": 56000,
+      "independent_market_share": 0.82,
+      "online_market_share": 0.089,
+      "avg_cpl_range": [
+        35,
+        66
+      ],
+      "avg_monthly_ad_spend": [
+        500,
+        3000
+      ],
+      "conversion_rate": 0.047
+    },
+    "target_focus": "Independent UK estate agents (1-50 staff)",
+    "commercial_focus": "Cost-per-lead optimization and lead quality improvement"
+  },
+  "smb_estate_agents": [
+    {
+      "agent_name": "Chancellors Group of Estate Agents Ltd",
+      "location": "UK Regional, GB",
+      "business_profile": {
+        "estimated_staff": "31-50",
+        "business_tier": "medium business",
+        "total_ad_records": 206,
+        "impression_range": "50,000+"
+      },
+      "commercial_intelligence": {
+        "monthly_ad_spend": "\u00a32148",
+        "current_cpl": "\u00a351.14",
+        "estimated_leads_per_month": 42,
+        "lead_quality_score": "7.0/10"
+      },
+      "market_position": {
+        "local_competition": "extreme",
+        "market_share_estimate": "struggling",
+        "digital_sophistication": "developing"
+      },
+      "pain_signal_analysis": {
+        "primary_pain": "standard_optimization_opportunity",
+        "pain_evidence": "\u00a32148/month budget with optimization potential",
+        "commercial_impact": "Industry benchmarks suggest 9 additional leads/month possible",
+        "demonstrable_issues": [
+          "Current 47 leads/month below potential for \u00a32148 budget",
+          "Market share growth opportunity in local area",
+          "Digital strategy optimization could improve ROI by 15-25%",
+          "Competitive positioning needs strengthening"
+        ]
+      },
+      "freelancer_opportunity": {
+        "project_value": "\u00a31800",
+        "monthly_retainer": "\u00a3600",
+        "efficiency_gain": "10-20% CPL reduction",
+        "timeline": "4-6 weeks"
+      },
+      "outreach_strategy": {
+        "decision_maker": "Office Manager or Marketing Manager",
+        "pain_focused_opener": "I've been analyzing digital marketing performance for independent estate agents in your area, and Chancellors Group of Estate Agents Ltd caught my attention. \u00a32148/month budget with optimization potential - which suggests immediate cost savings are possible.",
+        "value_proposition": "Based on similar optimizations for estate agents, I typically help reduce cost-per-lead by 15-25%, which for your \u00a32148/month budget could save \u00a3322+ monthly while improving lead quality.",
+        "social_proof": "Recent client results: Reduced CPL from \u00a367 to \u00a342 (38% improvement), increased monthly leads from 28 to 41, ROI improved from 2.1x to 3.4x",
+        "call_to_action": "I'd like to show you a 5-minute analysis of Chancellors Group of Estate Agents Ltd's current lead generation and the specific improvements I've identified. When would be convenient for a brief call this week?"
+      },
+      "qualification": {
+        "lead_score": "7.9/10",
+        "close_probability": "40%",
+        "priority_level": "HIGH"
+      }
+    },
+    {
+      "agent_name": "Sandra Davidson Estate Agents Ltd",
+      "location": "UK Regional, GB",
+      "business_profile": {
+        "estimated_staff": "31-50",
+        "business_tier": "medium business",
+        "total_ad_records": 173,
+        "impression_range": "20,000-50,000"
+      },
+      "commercial_intelligence": {
+        "monthly_ad_spend": "\u00a31884",
+        "current_cpl": "\u00a350.92",
+        "estimated_leads_per_month": 37,
+        "lead_quality_score": "7.0/10"
+      },
+      "market_position": {
+        "local_competition": "medium",
+        "market_share_estimate": "unknown",
+        "digital_sophistication": "developing"
+      },
+      "pain_signal_analysis": {
+        "primary_pain": "standard_optimization_opportunity",
+        "pain_evidence": "\u00a31884/month budget with optimization potential",
+        "commercial_impact": "Industry benchmarks suggest 8 additional leads/month possible",
+        "demonstrable_issues": [
+          "Current 41 leads/month below potential for \u00a31884 budget",
+          "Market share growth opportunity in local area",
+          "Digital strategy optimization could improve ROI by 15-25%",
+          "Competitive positioning needs strengthening"
+        ]
+      },
+      "freelancer_opportunity": {
+        "project_value": "\u00a31800",
+        "monthly_retainer": "\u00a3600",
+        "efficiency_gain": "10-20% CPL reduction",
+        "timeline": "4-6 weeks"
+      },
+      "outreach_strategy": {
+        "decision_maker": "Office Manager or Marketing Manager",
+        "pain_focused_opener": "I've been analyzing digital marketing performance for independent estate agents in your area, and Sandra Davidson Estate Agents Ltd caught my attention. \u00a31884/month budget with optimization potential - which suggests immediate cost savings are possible.",
+        "value_proposition": "Based on similar optimizations for estate agents, I typically help reduce cost-per-lead by 15-25%, which for your \u00a31884/month budget could save \u00a3282+ monthly while improving lead quality.",
+        "social_proof": "Recent client results: Reduced CPL from \u00a367 to \u00a342 (38% improvement), increased monthly leads from 28 to 41, ROI improved from 2.1x to 3.4x",
+        "call_to_action": "I'd like to show you a 5-minute analysis of Sandra Davidson Estate Agents Ltd's current lead generation and the specific improvements I've identified. When would be convenient for a brief call this week?"
+      },
+      "qualification": {
+        "lead_score": "6.8/10",
+        "close_probability": "37%",
+        "priority_level": "MEDIUM"
+      }
+    },
+    {
+      "agent_name": "ZOOPLA LIMITED",
+      "location": "UK Regional, GB",
+      "business_profile": {
+        "estimated_staff": "16-30",
+        "business_tier": "medium business",
+        "total_ad_records": 139,
+        "impression_range": "20,000-50,000"
+      },
+      "commercial_intelligence": {
+        "monthly_ad_spend": "\u00a31612",
+        "current_cpl": "\u00a350.38",
+        "estimated_leads_per_month": 32,
+        "lead_quality_score": "7.0/10"
+      },
+      "market_position": {
+        "local_competition": "medium",
+        "market_share_estimate": "unknown",
+        "digital_sophistication": "developing"
+      },
+      "pain_signal_analysis": {
+        "primary_pain": "standard_optimization_opportunity",
+        "pain_evidence": "\u00a31612/month budget with optimization potential",
+        "commercial_impact": "Industry benchmarks suggest 7 additional leads/month possible",
+        "demonstrable_issues": [
+          "Current 35 leads/month below potential for \u00a31612 budget",
+          "Market share growth opportunity in local area",
+          "Digital strategy optimization could improve ROI by 15-25%",
+          "Competitive positioning needs strengthening"
+        ]
+      },
+      "freelancer_opportunity": {
+        "project_value": "\u00a31800",
+        "monthly_retainer": "\u00a3600",
+        "efficiency_gain": "10-20% CPL reduction",
+        "timeline": "4-6 weeks"
+      },
+      "outreach_strategy": {
+        "decision_maker": "Office Manager or Marketing Manager",
+        "pain_focused_opener": "I've been analyzing digital marketing performance for independent estate agents in your area, and ZOOPLA LIMITED caught my attention. \u00a31612/month budget with optimization potential - which suggests immediate cost savings are possible.",
+        "value_proposition": "Based on similar optimizations for estate agents, I typically help reduce cost-per-lead by 15-25%, which for your \u00a31612/month budget could save \u00a3241+ monthly while improving lead quality.",
+        "social_proof": "Recent client results: Reduced CPL from \u00a367 to \u00a342 (38% improvement), increased monthly leads from 28 to 41, ROI improved from 2.1x to 3.4x",
+        "call_to_action": "I'd like to show you a 5-minute analysis of ZOOPLA LIMITED's current lead generation and the specific improvements I've identified. When would be convenient for a brief call this week?"
+      },
+      "qualification": {
+        "lead_score": "6.8/10",
+        "close_probability": "37%",
+        "priority_level": "MEDIUM"
+      }
+    },
+    {
+      "agent_name": "Rightmove Group Limited",
+      "location": "UK Regional, GB",
+      "business_profile": {
+        "estimated_staff": "16-30",
+        "business_tier": "medium business",
+        "total_ad_records": 109,
+        "impression_range": "20,000-50,000"
+      },
+      "commercial_intelligence": {
+        "monthly_ad_spend": "\u00a31372",
+        "current_cpl": "\u00a350.81",
+        "estimated_leads_per_month": 27,
+        "lead_quality_score": "7.0/10"
+      },
+      "market_position": {
+        "local_competition": "medium",
+        "market_share_estimate": "unknown",
+        "digital_sophistication": "developing"
+      },
+      "pain_signal_analysis": {
+        "primary_pain": "standard_optimization_opportunity",
+        "pain_evidence": "\u00a31372/month budget with optimization potential",
+        "commercial_impact": "Industry benchmarks suggest 6 additional leads/month possible",
+        "demonstrable_issues": [
+          "Current 30 leads/month below potential for \u00a31372 budget",
+          "Market share growth opportunity in local area",
+          "Digital strategy optimization could improve ROI by 15-25%",
+          "Competitive positioning needs strengthening"
+        ]
+      },
+      "freelancer_opportunity": {
+        "project_value": "\u00a31200",
+        "monthly_retainer": "\u00a3450",
+        "efficiency_gain": "10-20% CPL reduction",
+        "timeline": "3-4 weeks"
+      },
+      "outreach_strategy": {
+        "decision_maker": "Owner or Principal",
+        "pain_focused_opener": "I've been analyzing digital marketing performance for independent estate agents in your area, and Rightmove Group Limited caught my attention. \u00a31372/month budget with optimization potential - which suggests immediate cost savings are possible.",
+        "value_proposition": "Based on similar optimizations for estate agents, I typically help reduce cost-per-lead by 15-25%, which for your \u00a31372/month budget could save \u00a3205+ monthly while improving lead quality.",
+        "social_proof": "Recent client results: Reduced CPL from \u00a367 to \u00a342 (38% improvement), increased monthly leads from 28 to 41, ROI improved from 2.1x to 3.4x",
+        "call_to_action": "I'd like to show you a 5-minute analysis of Rightmove Group Limited's current lead generation and the specific improvements I've identified. When would be convenient for a brief call this week?"
+      },
+      "qualification": {
+        "lead_score": "6.8/10",
+        "close_probability": "37%",
+        "priority_level": "MEDIUM"
+      }
+    },
+    {
+      "agent_name": "Fee Savers Property Sales",
+      "location": "UK Regional, IE",
+      "business_profile": {
+        "estimated_staff": "16-30",
+        "business_tier": "small business",
+        "total_ad_records": 92,
+        "impression_range": "10,000-20,000"
+      },
+      "commercial_intelligence": {
+        "monthly_ad_spend": "\u00a31236",
+        "current_cpl": "\u00a351.5",
+        "estimated_leads_per_month": 24,
+        "lead_quality_score": "7.0/10"
+      },
+      "market_position": {
+        "local_competition": "medium",
+        "market_share_estimate": "unknown",
+        "digital_sophistication": "basic"
+      },
+      "pain_signal_analysis": {
+        "primary_pain": "standard_optimization_opportunity",
+        "pain_evidence": "\u00a31236/month budget with optimization potential",
+        "commercial_impact": "Industry benchmarks suggest 5 additional leads/month possible",
+        "demonstrable_issues": [
+          "Current 27 leads/month below potential for \u00a31236 budget",
+          "Market share growth opportunity in local area",
+          "Digital strategy optimization could improve ROI by 15-25%",
+          "Competitive positioning needs strengthening"
+        ]
+      },
+      "freelancer_opportunity": {
+        "project_value": "\u00a31200",
+        "monthly_retainer": "\u00a3450",
+        "efficiency_gain": "10-20% CPL reduction",
+        "timeline": "3-4 weeks"
+      },
+      "outreach_strategy": {
+        "decision_maker": "Owner or Principal",
+        "pain_focused_opener": "I've been analyzing digital marketing performance for independent estate agents in your area, and Fee Savers Property Sales caught my attention. \u00a31236/month budget with optimization potential - which suggests immediate cost savings are possible.",
+        "value_proposition": "Based on similar optimizations for estate agents, I typically help reduce cost-per-lead by 15-25%, which for your \u00a31236/month budget could save \u00a3185+ monthly while improving lead quality.",
+        "social_proof": "Recent client results: Reduced CPL from \u00a367 to \u00a342 (38% improvement), increased monthly leads from 28 to 41, ROI improved from 2.1x to 3.4x",
+        "call_to_action": "I'd like to show you a 5-minute analysis of Fee Savers Property Sales's current lead generation and the specific improvements I've identified. When would be convenient for a brief call this week?"
+      },
+      "qualification": {
+        "lead_score": "6.8/10",
+        "close_probability": "42%",
+        "priority_level": "MEDIUM"
+      }
+    },
+    {
+      "agent_name": "David Ross Estate Agents",
+      "location": "UK Regional, IE",
+      "business_profile": {
+        "estimated_staff": "16-30",
+        "business_tier": "small business",
+        "total_ad_records": 57,
+        "impression_range": "10,000-20,000"
+      },
+      "commercial_intelligence": {
+        "monthly_ad_spend": "\u00a31099",
+        "current_cpl": "\u00a352.33",
+        "estimated_leads_per_month": 21,
+        "lead_quality_score": "7.0/10"
+      },
+      "market_position": {
+        "local_competition": "medium",
+        "market_share_estimate": "unknown",
+        "digital_sophistication": "basic"
+      },
+      "pain_signal_analysis": {
+        "primary_pain": "standard_optimization_opportunity",
+        "pain_evidence": "\u00a31099/month budget with optimization potential",
+        "commercial_impact": "Industry benchmarks suggest 4 additional leads/month possible",
+        "demonstrable_issues": [
+          "Current 24 leads/month below potential for \u00a31099 budget",
+          "Market share growth opportunity in local area",
+          "Digital strategy optimization could improve ROI by 15-25%",
+          "Competitive positioning needs strengthening"
+        ]
+      },
+      "freelancer_opportunity": {
+        "project_value": "\u00a31200",
+        "monthly_retainer": "\u00a3450",
+        "efficiency_gain": "10-20% CPL reduction",
+        "timeline": "3-4 weeks"
+      },
+      "outreach_strategy": {
+        "decision_maker": "Owner or Principal",
+        "pain_focused_opener": "I've been analyzing digital marketing performance for independent estate agents in your area, and David Ross Estate Agents caught my attention. \u00a31099/month budget with optimization potential - which suggests immediate cost savings are possible.",
+        "value_proposition": "Based on similar optimizations for estate agents, I typically help reduce cost-per-lead by 15-25%, which for your \u00a31099/month budget could save \u00a3164+ monthly while improving lead quality.",
+        "social_proof": "Recent client results: Reduced CPL from \u00a367 to \u00a342 (38% improvement), increased monthly leads from 28 to 41, ROI improved from 2.1x to 3.4x",
+        "call_to_action": "I'd like to show you a 5-minute analysis of David Ross Estate Agents's current lead generation and the specific improvements I've identified. When would be convenient for a brief call this week?"
+      },
+      "qualification": {
+        "lead_score": "6.0/10",
+        "close_probability": "40%",
+        "priority_level": "STANDARD"
+      }
+    }
+  ]
+}

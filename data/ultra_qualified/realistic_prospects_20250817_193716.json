@@ -1,0 +1,231 @@
+{
+  "portfolio_summary": {
+    "execution_date": "2025-08-17 19:37",
+    "engine_type": "Realistic Volume Engine",
+    "purpose": "Portfolio building with real, verifiable prospects",
+    "approach": "Volume-based optimization opportunities",
+    "total_prospects": 10,
+    "estate_agents": 2,
+    "aesthetic_clinics": 8,
+    "total_project_value": 16600,
+    "avg_monthly_spend": 997
+  },
+  "methodology": {
+    "focus": "Realistic value propositions without fictional pain signals",
+    "targeting": "20-200 ad volume SMEs with clear industry classification",
+    "pricing": "Industry benchmarks + volume-based scaling",
+    "value_prop": "Optimization and efficiency improvements"
+  },
+  "realistic_prospects": [
+    {
+      "business_name": "Ai Beauty Ltd",
+      "location": "GB",
+      "industry": "aesthetic",
+      "ad_volume": 123,
+      "monthly_spend_estimate": 2214,
+      "business_size": "Established SME (8-15 staff)",
+      "market_position": "regional",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 3000,
+      "project_scope": "Comprehensive advertising optimization",
+      "timeline": "4-6 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    },
+    {
+      "business_name": "Jule Beauty Limited",
+      "location": "IE",
+      "industry": "aesthetic",
+      "ad_volume": 78,
+      "monthly_spend_estimate": 1404,
+      "business_size": "Growing SME (6-10 staff)",
+      "market_position": "growing",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 2100,
+      "project_scope": "Campaign optimization and improvement",
+      "timeline": "3-4 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    },
+    {
+      "business_name": "the skin nurse clinic",
+      "location": "IE",
+      "industry": "aesthetic",
+      "ad_volume": 76,
+      "monthly_spend_estimate": 1368,
+      "business_size": "Growing SME (6-10 staff)",
+      "market_position": "growing",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 2100,
+      "project_scope": "Campaign optimization and improvement",
+      "timeline": "3-4 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    },
+    {
+      "business_name": "Hallmark Care Homes (Holdings) Ltd",
+      "location": "GB",
+      "industry": "estate",
+      "ad_volume": 112,
+      "monthly_spend_estimate": 1344,
+      "business_size": "Established SME (8-15 staff)",
+      "market_position": "regional",
+      "optimization_focus": "Local market positioning and lead quality improvement",
+      "project_value": 2000,
+      "project_scope": "Comprehensive advertising optimization",
+      "timeline": "4-6 weeks",
+      "approach_angle": "Property marketing specialist",
+      "key_selling_points": [
+        "Estate agent digital marketing expertise",
+        "Local market positioning strategies",
+        "Lead quality improvement focus",
+        "Cost-per-lead optimization"
+      ],
+      "next_steps": "Free marketing performance analysis"
+    },
+    {
+      "business_name": "The Goodwood Estate Co Limited",
+      "location": "GB",
+      "industry": "estate",
+      "ad_volume": 74,
+      "monthly_spend_estimate": 888,
+      "business_size": "Growing SME (6-10 staff)",
+      "market_position": "growing",
+      "optimization_focus": "Local market positioning and lead quality improvement",
+      "project_value": 1400,
+      "project_scope": "Campaign optimization and improvement",
+      "timeline": "3-4 weeks",
+      "approach_angle": "Property marketing specialist",
+      "key_selling_points": [
+        "Estate agent digital marketing expertise",
+        "Local market positioning strategies",
+        "Lead quality improvement focus",
+        "Cost-per-lead optimization"
+      ],
+      "next_steps": "Free marketing performance analysis"
+    },
+    {
+      "business_name": "NEWSPAPER CLUB LIMITED",
+      "location": "GB",
+      "industry": "aesthetic",
+      "ad_volume": 58,
+      "monthly_spend_estimate": 1044,
+      "business_size": "Local SME (4-8 staff)",
+      "market_position": "local",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 1200,
+      "project_scope": "Advertising efficiency audit and quick wins",
+      "timeline": "2-3 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    },
+    {
+      "business_name": "The Ayurvedic Clinic LTD",
+      "location": "GB",
+      "industry": "aesthetic",
+      "ad_volume": 26,
+      "monthly_spend_estimate": 468,
+      "business_size": "Local SME (4-8 staff)",
+      "market_position": "local",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 1200,
+      "project_scope": "Advertising efficiency audit and quick wins",
+      "timeline": "2-3 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    },
+    {
+      "business_name": "Spark Layer Limited",
+      "location": "GB",
+      "industry": "aesthetic",
+      "ad_volume": 25,
+      "monthly_spend_estimate": 450,
+      "business_size": "Local SME (4-8 staff)",
+      "market_position": "local",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 1200,
+      "project_scope": "Advertising efficiency audit and quick wins",
+      "timeline": "2-3 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    },
+    {
+      "business_name": "the harley laser clinic ltd",
+      "location": "GB",
+      "industry": "aesthetic",
+      "ad_volume": 24,
+      "monthly_spend_estimate": 432,
+      "business_size": "Local SME (4-8 staff)",
+      "market_position": "local",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 1200,
+      "project_scope": "Advertising efficiency audit and quick wins",
+      "timeline": "2-3 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    },
+    {
+      "business_name": "In-OVO Fertility Clinics Ltd",
+      "location": "GB",
+      "industry": "aesthetic",
+      "ad_volume": 20,
+      "monthly_spend_estimate": 360,
+      "business_size": "Local SME (4-8 staff)",
+      "market_position": "local",
+      "optimization_focus": "Premium positioning and consultation booking optimization",
+      "project_value": 1200,
+      "project_scope": "Advertising efficiency audit and quick wins",
+      "timeline": "2-3 weeks",
+      "approach_angle": "Premium healthcare marketing specialist",
+      "key_selling_points": [
+        "Aesthetic clinic advertising expertise",
+        "Patient acquisition cost optimization",
+        "Premium positioning strategies",
+        "Consultation booking improvements"
+      ],
+      "next_steps": "Free 30-minute consultation audit call"
+    }
+  ]
+}

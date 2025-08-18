@@ -1,0 +1,174 @@
+{
+  "audit_timestamp": "2025-08-17T12:49:55.710901",
+  "funnel_metrics": {
+    "stage_1_raw_records": 1000,
+    "stage_2_filtered": 2,
+    "stage_3_excluded": 998,
+    "stage_4_qualified": 2,
+    "stage_5_final": 2,
+    "filtering_conversion_rate": "0.2%",
+    "qualification_conversion_rate": "100.0%",
+    "overall_conversion_rate": "0.2%"
+  },
+  "raw_data_analysis": {
+    "activity_distribution": {
+      "low": 0,
+      "medium": 0,
+      "high": 0,
+      "very_high": 1000
+    },
+    "format_distribution": {
+      "3": 770,
+      "2": 157,
+      "1": 73
+    },
+    "country_distribution": {
+      "GB": 738,
+      "IE": 214,
+      "AU": 41,
+      "NZ": 7
+    },
+    "name_patterns": {
+      "other_terms": 998,
+      "homes_terms": 2
+    },
+    "total_records": 1000
+  },
+  "exclusion_analysis": {
+    "no_re_pattern_match": 998
+  },
+  "qualification_issues": [
+    "Found 998 high-activity records excluded for non-activity reasons",
+    "High number of records with unclear real estate categorization"
+  ],
+  "recommendations": [
+    "Consider expanding real estate pattern matching - 30%+ records don't match current patterns",
+    "Many advertisers use only 1 format type - strong optimization opportunity"
+  ],
+  "sample_data": {
+    "top_5_qualified": [
+      {
+        "advertiser_disclosed_name": "Homescapes Europa Ltd",
+        "advertiser_location": "GB",
+        "total_records": 767,
+        "unique_creatives": 767,
+        "format_types": 3,
+        "last_activity_date": "2025-08-16",
+        "days_since_activity": 1,
+        "qualification_score": 9.5
+      },
+      {
+        "advertiser_disclosed_name": "NEW HOMES FOR SALE.CO.UK LIMITED",
+        "advertiser_location": "GB",
+        "total_records": 709,
+        "unique_creatives": 709,
+        "format_types": 2,
+        "last_activity_date": "2025-08-16",
+        "days_since_activity": 1,
+        "qualification_score": 9.0
+      }
+    ],
+    "sample_excluded": [
+      {
+        "advertiser_disclosed_name": "Tripadvisor",
+        "advertiser_location": "GB",
+        "total_records": 419023,
+        "unique_creatives": 419023,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "Netpeak LTD",
+        "advertiser_location": "GB",
+        "total_records": 246680,
+        "unique_creatives": 246680,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "Trainline.com Limited",
+        "advertiser_location": "GB",
+        "total_records": 188804,
+        "unique_creatives": 188804,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "On Web Consulting Ltd",
+        "advertiser_location": "GB",
+        "total_records": 182788,
+        "unique_creatives": 182788,
+        "format_types": 2,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "We love Holidays Ltd",
+        "advertiser_location": "GB",
+        "total_records": 147936,
+        "unique_creatives": 147936,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "Rentalcars.com",
+        "advertiser_location": "GB",
+        "total_records": 137310,
+        "unique_creatives": 137310,
+        "format_types": 1,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "Direct Ferries Limited",
+        "advertiser_location": "GB",
+        "total_records": 125282,
+        "unique_creatives": 125282,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "Farfetch UK Limited",
+        "advertiser_location": "GB",
+        "total_records": 123174,
+        "unique_creatives": 123174,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "Skyscanner Ltd",
+        "advertiser_location": "GB",
+        "total_records": 118145,
+        "unique_creatives": 118145,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      },
+      {
+        "advertiser_disclosed_name": "Fruugo.com Limited",
+        "advertiser_location": "GB",
+        "total_records": 90704,
+        "unique_creatives": 90704,
+        "format_types": 3,
+        "last_activity_date": "2025-08-17",
+        "days_since_activity": 0,
+        "exclusion_reason": "no_re_pattern_match"
+      }
+    ]
+  }
+}

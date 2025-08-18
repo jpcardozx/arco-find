@@ -6,6 +6,17 @@ Foco em insights premium para prospecção e aquisição de clientes piloto
 
 import os
 from typing import Optional
+from pathlib import Path
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    env_path = Path(__file__).parent.parent / '.env'
+    load_dotenv(env_path)
+except ImportError:
+    print("Warning: python-dotenv not installed. Install with: pip install python-dotenv")
+except Exception as e:
+    print(f"Warning: Could not load .env file: {e}")
 
 class APIConfig:
     """S-Tier API configuration for lead generation and conversion"""
@@ -13,13 +24,13 @@ class APIConfig:
     # === CORE APIS FOR LEAD GENERATION ===
     
     # SearchAPI - Meta Ads + Google Ads Library
-    SEARCHAPI_KEY: str = os.getenv('SEARCHAPI_KEY', '3sgTQQBwGfmtBR1WBW61MgnU')
-    SEARCH_API_KEY: str = os.getenv('SEARCH_API_KEY', '3sgTQQBwGfmtBR1WBW61MgnU')  # Alias for compatibility
+    SEARCHAPI_KEY: str = os.getenv('SEARCHAPI_KEY')
+    SEARCH_API_KEY: str = os.getenv('SEARCH_API_KEY', SEARCHAPI_KEY)  # Alias for compatibility
     SEARCHAPI_BASE_URL = "https://www.searchapi.io/api/v1/search"
     SEARCHAPI_DAILY_LIMIT = 1000
     
     # Google PageSpeed Insights API
-    GOOGLE_PAGESPEED_API_KEY: str = os.getenv('GOOGLE_PAGESPEED_API_KEY', 'AIzaSyDNo6ycjKNYfDBmbFbOLI7kk-A-teppPaE')
+    GOOGLE_PAGESPEED_API_KEY: str = os.getenv('GOOGLE_PAGESPEED_API_KEY') or os.getenv('PAGESPEED_KEY')
     PAGESPEED_BASE_URL = "https://www.googleapis.com/pagespeed/insights/v5/runPagespeed"
     
     # === BIGQUERY FOR LEAD STORAGE & ANALYTICS ===
@@ -36,16 +47,18 @@ class APIConfig:
     
     # === S-TIER PROSPECT QUALIFICATION CRITERIA ===
     
-    # Micro Audit Targets (7-14 day sprint conversion)
-    MIN_SAAS_SPEND = int(os.getenv('MIN_SAAS_SPEND', '3000'))  # $3k+/month
-    MIN_EMPLOYEE_COUNT = int(os.getenv('MIN_EMPLOYEE_COUNT', '15'))  # 15+ employees
-    MAX_EMPLOYEE_COUNT = int(os.getenv('MAX_EMPLOYEE_COUNT', '75'))  # 75 employees max
+    # Professional Services Targets (7-14 day sprint conversion)
+    MIN_MONTHLY_SPEND = int(os.getenv('MIN_MONTHLY_SPEND', '5000'))  # $5k+/month
+    MIN_EMPLOYEE_COUNT = int(os.getenv('MIN_EMPLOYEE_COUNT', '8'))  # 8+ employees
+    MAX_EMPLOYEE_COUNT = int(os.getenv('MAX_EMPLOYEE_COUNT', '50'))  # 50 employees max
     MIN_WEBSITE_PERFORMANCE_SCORE = int(os.getenv('MIN_PERFORMANCE_SCORE', '60'))  # Performance issues
     
     # Target Industries for Pilot Conversion
     TARGET_INDUSTRIES = [
-        'saas', 'e_commerce', 'digital_marketing', 'consulting', 
-        'fintech', 'healthtech', 'edtech', 'real_estate'
+        'dental', 'orthodontics', 'cosmetic_dentistry', 'oral_surgery',
+        'ecommerce', 'online_retail', 'dropshipping', 'shopify_stores',
+        'fitness', 'personal_training', 'yoga', 'nutrition_coaching',
+        'real_estate', 'property_management', 'construction'
     ]
     
     # === PERFORMANCE & CACHING ===
@@ -76,10 +89,13 @@ class APIConfig:
             cls.GOOGLE_SERVICE_ACCOUNT_EMAIL
         ]
         
-        missing = [key for key in required_keys if not key or key == '']
+        missing = []
+        for i, key in enumerate(['SEARCHAPI_KEY', 'GOOGLE_PAGESPEED_API_KEY', 'GOOGLE_CLOUD_PROJECT', 'GOOGLE_SERVICE_ACCOUNT_EMAIL']):
+            if not required_keys[i] or required_keys[i] == '':
+                missing.append(key)
         
         if missing:
-            raise ValueError(f"Missing S-tier API keys: {missing}")
+            raise ValueError(f"Missing S-tier API keys in .env: {missing}")
         
         print("S-Tier Lead Generation APIs Validated:")
         print(f"   SearchAPI: {cls.SEARCHAPI_KEY[:8]}...")
@@ -94,7 +110,7 @@ class APIConfig:
     def get_qualification_criteria(cls) -> dict:
         """Get S-tier qualification criteria for prospects"""
         return {
-            'min_saas_spend': cls.MIN_SAAS_SPEND,
+            'min_monthly_spend': cls.MIN_MONTHLY_SPEND,
             'employee_range': (cls.MIN_EMPLOYEE_COUNT, cls.MAX_EMPLOYEE_COUNT),
             'min_performance_score': cls.MIN_WEBSITE_PERFORMANCE_SCORE,
             'target_industries': cls.TARGET_INDUSTRIES,
@@ -133,6 +149,38 @@ class APIConfig:
                 "pipeline_health_threshold": 70  # 70/100 health score
             }
         }
+
+# Helper function to get configuration values
+def get_config(key: str, default=None):
+    """Get configuration value with fallback to environment variables"""
+    # First try to get from environment
+    env_value = os.getenv(key, default)
+    
+    # Then try to get from APIConfig class
+    if hasattr(APIConfig, key):
+        return getattr(APIConfig, key) or env_value
+    
+    return env_value
+
+def validate_required_keys():
+    """Validate that all required API keys are present"""
+    required_keys = {
+        'SEARCHAPI_KEY': APIConfig.SEARCHAPI_KEY,
+        'GOOGLE_PAGESPEED_API_KEY': APIConfig.GOOGLE_PAGESPEED_API_KEY or os.getenv('PAGESPEED_KEY'),
+    }
+    
+    missing = []
+    for key, value in required_keys.items():
+        if not value or value.strip() == '':
+            missing.append(key)
+    
+    if missing:
+        print(f"⚠️  Missing API keys: {', '.join(missing)}")
+        print("💡 Add them to your .env file or set as environment variables")
+        return False
+    
+    print("✅ All required API keys are configured")
+    return True
 
 # Validate S-tier configuration on import
 try:

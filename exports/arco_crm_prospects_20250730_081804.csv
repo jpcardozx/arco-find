@@ -1,4 +1,0 @@
-company_name,domain,industry,location,employee_count,arco_qualification_score,arco_priority_tier,total_monthly_value_opportunity,monthly_cost_savings,monthly_revenue_gain,arco_recommended_approach,implementation_timeline,saas_waste_opportunity,performance_score,operational_efficiency_score,discovery_date
-Thompson Legal Group,thompsonlegal.com,personal_injury_law,Dallas,35,0.577,B_TIER_STANDARD_ENGAGEMENT,"$63,910","$8,910","$55,000",SAAS_OPTIMIZATION_LEAD_APPROACH,STANDARD_2_MONTH_PROGRAM,"$3,400",28,0.45,2025-07-30
-Elite HVAC Solutions,elitehvacphoenix.com,hvac_services,Phoenix,31,0.577,C_TIER_FUTURE_OPPORTUNITY,"$28,402","$4,902","$23,500",PERFORMANCE_OPTIMIZATION_LEAD_APPROACH,FUTURE_3_MONTH_PLANNING,"$2,100",35,0.48,2025-07-30
-Phoenix Premier Auto Body,phoenixpremierauto.com,auto_collision_repair,Phoenix,28,0.535,C_TIER_FUTURE_OPPORTUNITY,"$23,818","$3,318","$20,500",PERFORMANCE_OPTIMIZATION_LEAD_APPROACH,FUTURE_3_MONTH_PLANNING,"$1,200",31,0.52,2025-07-30

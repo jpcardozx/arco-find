@@ -1,0 +1,112 @@
+{
+  "clients": [
+    {
+      "client_id": "arco_08be03de6a984775",
+      "client_token_hash": "9c5ccf46bdcdfef202a3b1b217ac2194960b72c8d4c241e8f34f7a4c3cc17207",
+      "client_name": "Test S-Tier Client",
+      "tier_level": "S_TIER",
+      "permissions": [
+        "basic_search",
+        "company_lookup",
+        "advanced_analytics",
+        "competitive_intelligence",
+        "performance_analysis",
+        "contact_extraction",
+        "bigquery_access",
+        "real_time_monitoring",
+        "custom_integrations",
+        "priority_support"
+      ],
+      "rate_limits": {
+        "hourly": 10000
+      },
+      "created_at": "2025-08-15T11:26:54.400276",
+      "last_access": "2025-08-15T11:26:54.400276",
+      "total_api_calls": 0,
+      "monthly_quota": 7200000,
+      "industry_focus": [
+        "dental",
+        "legal",
+        "real_estate"
+      ],
+      "geographic_markets": [
+        "US",
+        "CA",
+        "AU"
+      ],
+      "active": true
+    },
+    {
+      "client_id": "arco_410c87843f2dd1ea",
+      "client_token_hash": "0101bdd15b954b88309e23ff3e2af43594faa2f2c13ebfcdb39d6d416af74400",
+      "client_name": "Production S-Tier Client",
+      "tier_level": "S_TIER",
+      "permissions": [
+        "basic_search",
+        "company_lookup",
+        "advanced_analytics",
+        "competitive_intelligence",
+        "performance_analysis",
+        "contact_extraction",
+        "bigquery_access",
+        "real_time_monitoring",
+        "custom_integrations",
+        "priority_support"
+      ],
+      "rate_limits": {
+        "hourly": 10000
+      },
+      "created_at": "2025-08-15T11:29:15.884628",
+      "last_access": "2025-08-15T11:29:15.884628",
+      "total_api_calls": 0,
+      "monthly_quota": 7200000,
+      "industry_focus": [
+        "real_estate",
+        "dental",
+        "legal",
+        "fitness"
+      ],
+      "geographic_markets": [
+        "US",
+        "CA",
+        "AU",
+        "UK",
+        "BR"
+      ],
+      "active": true
+    },
+    {
+      "client_id": "arco_61256d752b246e22",
+      "client_token_hash": "671bb2e3443cc70833d2b6a13028c4a41c1d3812846bcd33d0bdd4f52457177a",
+      "client_name": "Performance Test Client",
+      "tier_level": "S_TIER",
+      "permissions": [
+        "basic_search",
+        "company_lookup",
+        "advanced_analytics",
+        "competitive_intelligence",
+        "performance_analysis",
+        "contact_extraction",
+        "bigquery_access",
+        "real_time_monitoring",
+        "custom_integrations",
+        "priority_support"
+      ],
+      "rate_limits": {
+        "hourly": 10000
+      },
+      "created_at": "2025-08-15T16:36:41.979099",
+      "last_access": "2025-08-15T16:36:41.979099",
+      "total_api_calls": 0,
+      "monthly_quota": 7200000,
+      "industry_focus": [
+        "dental"
+      ],
+      "geographic_markets": [
+        "US"
+      ],
+      "active": true
+    }
+  ],
+  "last_updated": "2025-08-15T16:36:41.980496"
+}

@@ -1,0 +1,365 @@
+{
+  "execution_summary": {
+    "timestamp": "20250818_124533",
+    "engine_version": "Realistic Discovery Engine v1.0",
+    "methodology": "Evidence-based analysis with conservative estimates",
+    "total_prospects": 8,
+    "execution_cost_estimate": "$0.055",
+    "approach": "Conservative estimates, verifiable data only"
+  },
+  "realistic_analysis": {
+    "total_estimated_monthly_spend": 6700,
+    "average_confidence_score": 9.4,
+    "project_value_range": {
+      "minimum_potential": 4000,
+      "maximum_potential": 12000,
+      "expected_value": 4800
+    },
+    "success_probability_analysis": {
+      "high_probability": 8,
+      "moderate_probability": 0,
+      "low_probability": 0
+    }
+  },
+  "web_analysis_summary": {
+    "urls_analyzed": 8,
+    "verified_insights": 8,
+    "common_issues": {}
+  },
+  "prospects": [
+    {
+      "company_name": "TMC Property Media Ltd",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 99,
+      "creative_count": 99,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 700,
+      "company_size_estimate": "medium_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 99 ads indicates over-testing without optimization",
+        "99 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR04290429061756354561/creative/CR15227594496842661889",
+        "url_accessible": true,
+        "load_time_ms": 1656,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - estate business with significant ad investment (£700/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £700/month suggests growth potential",
+        "UK market focus - understanding of local competition"
+      ]
+    },
+    {
+      "company_name": "NADCLINIC GROUP UK LTD",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 96,
+      "creative_count": 96,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 800,
+      "company_size_estimate": "medium_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 96 ads indicates over-testing without optimization",
+        "96 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR08322814907821064193/creative/CR04378020470172155905",
+        "url_accessible": true,
+        "load_time_ms": 1930,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - aesthetic business with significant ad investment (£800/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £800/month suggests growth potential",
+        "UK market focus - understanding of local competition"
+      ]
+    },
+    {
+      "company_name": "STUDENT CASTLE PROPERTY MANAGEMENT SERVICES LIMITED",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 96,
+      "creative_count": 96,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 700,
+      "company_size_estimate": "medium_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 96 ads indicates over-testing without optimization",
+        "96 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR00918758856836775937/creative/CR16412115965631791105",
+        "url_accessible": true,
+        "load_time_ms": 1481,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - estate business with significant ad investment (£700/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £700/month suggests growth potential",
+        "UK market focus - understanding of local competition"
+      ]
+    },
+    {
+      "company_name": "Patterson Law",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 95,
+      "creative_count": 95,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1200,
+      "company_size_estimate": "small_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 95 ads indicates over-testing without optimization",
+        "95 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR01709773016784699393/creative/CR12948602643911016449",
+        "url_accessible": true,
+        "load_time_ms": 1492,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - legal business with significant ad investment (£1200/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £1200/month suggests growth potential",
+        "UK market focus - understanding of local competition"
+      ]
+    },
+    {
+      "company_name": "W-V Law Firm LLP",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 94,
+      "creative_count": 94,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1200,
+      "company_size_estimate": "small_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 94 ads indicates over-testing without optimization",
+        "94 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR07748392856233967617/creative/CR16719296974444036097",
+        "url_accessible": true,
+        "load_time_ms": 1253,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - legal business with significant ad investment (£1200/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £1200/month suggests growth potential",
+        "UK market focus - understanding of local competition"
+      ]
+    },
+    {
+      "company_name": "Mulberry Property developments LTD",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 87,
+      "creative_count": 87,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 700,
+      "company_size_estimate": "medium_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 87 ads indicates over-testing without optimization",
+        "87 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR16720960861954375681/creative/CR05601391000485363713",
+        "url_accessible": true,
+        "load_time_ms": 1566,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - estate business with significant ad investment (£700/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £700/month suggests growth potential",
+        "UK market focus - understanding of local competition"
+      ]
+    },
+    {
+      "company_name": "4pm Kennedy Estates Limited",
+      "location": "IE",
+      "vertical": "estate",
+      "ad_volume": 99,
+      "creative_count": 99,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 700,
+      "company_size_estimate": "medium_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 99 ads indicates over-testing without optimization",
+        "99 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.0,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR17861626935080124417/creative/CR00084102932898775041",
+        "url_accessible": true,
+        "load_time_ms": 1772,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - estate business with significant ad investment (£700/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £700/month suggests growth potential"
+      ]
+    },
+    {
+      "company_name": "Halligan O'Connor Property Consultants Limited",
+      "location": "IE",
+      "vertical": "estate",
+      "ad_volume": 96,
+      "creative_count": 96,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 700,
+      "company_size_estimate": "medium_company",
+      "pain_signals": [
+        "Excessive creative testing",
+        "High ad volume without clear optimization"
+      ],
+      "pain_evidence": [
+        "100.0% creative diversity across 96 ads indicates over-testing without optimization",
+        "96 ads suggests significant spend without visible optimization patterns"
+      ],
+      "confidence_score": 9.0,
+      "web_analysis": {
+        "landing_page_url": "https://adstransparency.google.com/advertiser/AR00534562521697222657/creative/CR06054037139954335745",
+        "url_accessible": true,
+        "load_time_ms": 1270,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "opportunity_evidence": [],
+        "confidence_level": "verified"
+      },
+      "project_type": "ad_optimization",
+      "project_value_range": [
+        500,
+        1500
+      ],
+      "success_probability": 0.4,
+      "contact_approach": "Direct approach - estate business with significant ad investment (£700/month)",
+      "key_talking_points": [
+        "Observed: Excessive creative testing in your advertising patterns",
+        "Observed: High ad volume without clear optimization in your advertising patterns",
+        "Current estimated ad spend: £700/month suggests growth potential"
+      ]
+    }
+  ]
+}

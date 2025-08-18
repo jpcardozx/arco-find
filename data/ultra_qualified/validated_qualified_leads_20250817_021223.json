@@ -1,0 +1,245 @@
+{
+  "campaign_summary": {
+    "execution_date": "2025-08-17",
+    "total_validated_leads": 6,
+    "immediate_priority": 5,
+    "high_priority": 1,
+    "total_revenue_opportunity": 38198,
+    "average_lead_score": 8.35,
+    "average_close_probability": 0.6054166666666666
+  },
+  "validated_qualified_leads": [
+    {
+      "agency_name": "Otago Realty (NZ) Limited",
+      "location": "Regional, NZ",
+      "lead_score": "9.0/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "62%",
+      "activity_intelligence": {
+        "total_ad_records": 131,
+        "estimated_creatives": 131,
+        "activity_level": "high",
+        "estimated_monthly_spend": 7663
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "131 ad records but only 2 format types",
+        "pain_severity": "7.5/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (131 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 12000,
+        "project_value_estimate": 13676
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Principal Partner or Marketing Manager",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies and Otago Realty (NZ) Limited caught my attention. 131 ad records but only 2 format types suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For Otago Realty (NZ) Limited specifically, I identified high activity low sophistication - significant advertising activity (131 records) with limited format testing. This typically represents $1379/month efficiency improvement opportunity.",
+        "talking_points": [
+          "Address Otago Realty (NZ) Limited's high activity low sophistication",
+          "Optimize $7,663/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Corporate structure digital marketing efficiency"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of Otago Realty (NZ) Limited's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week?"
+      }
+    },
+    {
+      "agency_name": "TRUEPROPERTY.IO LIMITED",
+      "location": "Regional, NZ",
+      "lead_score": "8.3/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "61%",
+      "activity_intelligence": {
+        "total_ad_records": 63,
+        "estimated_creatives": 63,
+        "activity_level": "high",
+        "estimated_monthly_spend": 3685
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "63 ad records but only 2 format types",
+        "pain_severity": "7.5/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (63 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 6964,
+        "project_value_estimate": 9379
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Principal Partner or Marketing Manager",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies and TRUEPROPERTY.IO LIMITED caught my attention. 63 ad records but only 2 format types suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For TRUEPROPERTY.IO LIMITED specifically, I identified high activity low sophistication - significant advertising activity (63 records) with limited format testing. This typically represents $663/month efficiency improvement opportunity.",
+        "talking_points": [
+          "Address TRUEPROPERTY.IO LIMITED's high activity low sophistication",
+          "Optimize $3,685/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Corporate structure digital marketing efficiency"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of TRUEPROPERTY.IO LIMITED's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week?"
+      }
+    },
+    {
+      "agency_name": "BAYLEYS REALTY GROUP LIMITED",
+      "location": "Regional, NZ",
+      "lead_score": "8.3/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "61%",
+      "activity_intelligence": {
+        "total_ad_records": 55,
+        "estimated_creatives": 55,
+        "activity_level": "high",
+        "estimated_monthly_spend": 3217
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "55 ad records but only 2 format types",
+        "pain_severity": "7.5/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (55 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 6080,
+        "project_value_estimate": 9613
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Principal Partner or Marketing Manager",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies and BAYLEYS REALTY GROUP LIMITED caught my attention. 55 ad records but only 2 format types suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For BAYLEYS REALTY GROUP LIMITED specifically, I identified high activity low sophistication - significant advertising activity (55 records) with limited format testing. This typically represents $579/month efficiency improvement opportunity.",
+        "talking_points": [
+          "Address BAYLEYS REALTY GROUP LIMITED's high activity low sophistication",
+          "Optimize $3,217/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Corporate structure digital marketing efficiency"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of BAYLEYS REALTY GROUP LIMITED's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week?"
+      }
+    },
+    {
+      "agency_name": "Esho Property Group",
+      "location": "Regional, AU",
+      "lead_score": "8.3/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "61%",
+      "activity_intelligence": {
+        "total_ad_records": 46,
+        "estimated_creatives": 46,
+        "activity_level": "high",
+        "estimated_monthly_spend": 2691
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "46 ad records but only 2 format types",
+        "pain_severity": "7.5/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (46 records) with limited format testing",
+          "Using only 2 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 5085,
+        "project_value_estimate": 8998
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Group Manager or Principal",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies and Esho Property Group caught my attention. 46 ad records but only 2 format types suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For Esho Property Group specifically, I identified high activity low sophistication - significant advertising activity (46 records) with limited format testing. This typically represents $484/month efficiency improvement opportunity.",
+        "talking_points": [
+          "Address Esho Property Group's high activity low sophistication",
+          "Optimize $2,691/month advertising investment",
+          "Leverage high activity level for competitive advantage"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of Esho Property Group's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week?"
+      }
+    },
+    {
+      "agency_name": "Exemplar Realty Limited",
+      "location": "Regional, NZ",
+      "lead_score": "8.3/10",
+      "contact_priority": "IMMEDIATE",
+      "close_probability": "61%",
+      "activity_intelligence": {
+        "total_ad_records": 40,
+        "estimated_creatives": 40,
+        "activity_level": "high",
+        "estimated_monthly_spend": 2340
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "high_activity_low_sophistication",
+        "pain_evidence": "40 ad records but only 1 format types",
+        "pain_severity": "7.5/10",
+        "demonstrable_issues": [
+          "Significant advertising activity (40 records) with limited format testing",
+          "Using only 1 ad format types - missing optimization opportunities",
+          "High volume, low sophistication approach affecting efficiency"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 4422,
+        "project_value_estimate": 7927
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Owner/Principal",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies and Exemplar Realty Limited caught my attention. 40 ad records but only 1 format types suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For Exemplar Realty Limited specifically, I identified high activity low sophistication - significant advertising activity (40 records) with limited format testing. This typically represents $421/month efficiency improvement opportunity.",
+        "talking_points": [
+          "Address Exemplar Realty Limited's high activity low sophistication",
+          "Optimize $2,340/month advertising investment",
+          "Leverage high activity level for competitive advantage",
+          "Corporate structure digital marketing efficiency"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of Exemplar Realty Limited's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week?"
+      }
+    },
+    {
+      "agency_name": "ACE PROPERTY MELBOURNE PTY LTD",
+      "location": "Melbourne, AU",
+      "lead_score": "7.9/10",
+      "contact_priority": "HIGH",
+      "close_probability": "58%",
+      "activity_intelligence": {
+        "total_ad_records": 35,
+        "estimated_creatives": 35,
+        "activity_level": "high",
+        "estimated_monthly_spend": 2047
+      },
+      "pain_signal_analysis": {
+        "primary_pain_signal": "optimization_opportunity",
+        "pain_evidence": "35 creatives across 35 records",
+        "pain_severity": "6.5/10",
+        "demonstrable_issues": [
+          "Active campaign management (35 creatives) with optimization potential",
+          "Ad portfolio analysis shows efficiency improvement opportunities",
+          "Ready for performance optimization and format diversification"
+        ]
+      },
+      "opportunity_analysis": {
+        "revenue_opportunity": 3647,
+        "project_value_estimate": 7610
+      },
+      "personalized_outreach": {
+        "decision_maker_type": "Owner/Principal",
+        "personalized_opener": "I've been analyzing digital advertising patterns for real estate agencies and ACE PROPERTY MELBOURNE PTY LTD caught my attention. 35 creatives across 35 records suggests immediate optimization opportunities worth exploring.",
+        "specific_pain_pitch": "For ACE PROPERTY MELBOURNE PTY LTD specifically, I identified optimization opportunity - active campaign management (35 creatives) with optimization potential. This typically represents $368/month efficiency improvement opportunity.",
+        "talking_points": [
+          "Address ACE PROPERTY MELBOURNE PTY LTD's optimization opportunity",
+          "Optimize $2,047/month advertising investment",
+          "Leverage high activity level for competitive advantage"
+        ],
+        "call_to_action": "I'd like to show you a 5-minute analysis of ACE PROPERTY MELBOURNE PTY LTD's current advertising approach and the specific improvements I've identified. When would be a good time for a brief call this week?"
+      }
+    }
+  ]
+}

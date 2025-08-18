@@ -1,0 +1,179 @@
+{
+  "summary": {
+    "execution_date": "2025-08-17 22:35",
+    "engine_version": "3.2 (BQF - Strategic Europe Focus)",
+    "target_markets": "EU Premium (EEA, IE, DE, FR, ES, IT, NL)",
+    "total_leads": 15,
+    "aesthetics_leads": 5,
+    "real_estate_leads": 5,
+    "legal_leads": 5,
+    "avg_creative_age": 548.1
+  },
+  "leads": [
+    {
+      "business_name": "Bookiply Spain, S.L.",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR05371537613662453761/creative/CR13326799820271124481",
+      "niche": "Aesthetics",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 2761651,
+      "avg_creative_age_days": 453.4,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 453.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "YOOX NET-A-PORTER GROUP SPA",
+      "location_city": "DE",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR15471365553389568001/creative/CR14379326086376849409",
+      "niche": "Aesthetics",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 752137,
+      "avg_creative_age_days": 493.1,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 493.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "D-MOBILELAB SPAIN S.A.",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR15714032992319963137/creative/CR02209249143187046401",
+      "niche": "Aesthetics",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 311259,
+      "avg_creative_age_days": 408.5,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 409.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "ESPASA CALPE SA",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR08522216461119258625/creative/CR14361512898495250433",
+      "niche": "Aesthetics",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 129500,
+      "avg_creative_age_days": 677.8,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 678.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "LA FOURCHETTE ESPAÑA SL",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR13660952450608136193/creative/CR07118677619016466433",
+      "niche": "Aesthetics",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 114555,
+      "avg_creative_age_days": 450.1,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 450.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "CoStar Realty Information, Inc.",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR17757060561780080641/creative/CR06572263959699652609",
+      "niche": "Real Estate",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 76139,
+      "avg_creative_age_days": 752.9,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 753.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "Housing Anywhere B.V.",
+      "location_city": "DE",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR17811432030248894465/creative/CR05700539770757709825",
+      "niche": "Real Estate",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 15552,
+      "avg_creative_age_days": 679.5,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 679.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "SOTHEBYS INTERNATIONAL REALTY AFFILIATES LLC",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR05668514072237178881/creative/CR00002413720080744449",
+      "niche": "Real Estate",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 11914,
+      "avg_creative_age_days": 767.6,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 768.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "Adevinta Real Estate S.L.U.",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR17224538235447803905/creative/CR05991127139062120449",
+      "niche": "Real Estate",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 10977,
+      "avg_creative_age_days": 494.1,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 494.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "Property Group Sp. z o.o.",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR08671176922060816385/creative/CR14358414612167131137",
+      "niche": "Real Estate",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 10894,
+      "avg_creative_age_days": 587.7,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 588.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "LegalSimpli Software, LLC",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR11308024367763423233/creative/CR16385775858918359041",
+      "niche": "Legal",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 54305,
+      "avg_creative_age_days": 413.0,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 413.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "LEGALPLACE",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR07273534039263281153/creative/CR08230798995895615489",
+      "niche": "Legal",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 8090,
+      "avg_creative_age_days": 763.4,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 763.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "Delaware North Companies, Incorporated",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR10191128155482226689/creative/CR00340113684166606849",
+      "niche": "Legal",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 6228,
+      "avg_creative_age_days": 578.7,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 579.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "Wladislaw Jachtchenko",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR04100162285421461505/creative/CR13556455501159464961",
+      "niche": "Legal",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 5373,
+      "avg_creative_age_days": 196.7,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 197.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    },
+    {
+      "business_name": "LegalSimpli Software, LLC",
+      "location_city": "EEA",
+      "landing_page": "https://adstransparency.google.com/advertiser/AR12208767451701182465/creative/CR07266470398609326081",
+      "niche": "Legal",
+      "business_size_proxy": "Medium SME",
+      "total_ads_count": 5323,
+      "avg_creative_age_days": 505.4,
+      "pain_signal_summary": "Creative Stagnation: Ads are on average 505.0 days old.",
+      "suggested_service": "Creative Refresh & Performance Optimization Sprint"
+    }
+  ]
+}

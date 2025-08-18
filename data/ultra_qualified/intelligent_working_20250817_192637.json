@@ -1,0 +1,114 @@
+{
+  "campaign_summary": {
+    "execution_date": "2025-08-17 19:26",
+    "engine_type": "Intelligent Working Engine",
+    "optimization_approach": "Research-based + BigQuery best practices",
+    "cost_optimization": "TABLESAMPLE 50% + staging + limits",
+    "market_intelligence": "UK market data + B2B SaaS benchmarks",
+    "total_prospects": 1,
+    "estate_agents": 0,
+    "aesthetic_clinics": 1,
+    "immediate_priority": 0,
+    "high_priority": 1,
+    "total_project_value_min": 500,
+    "total_project_value_max": 1200,
+    "average_opportunity_score": 7.140000000000001,
+    "average_close_probability": 0.12465000000000001
+  },
+  "research_foundation": {
+    "uk_market_data": {
+      "estate_agents": {
+        "total_agencies": 22591,
+        "avg_employees": 6.9,
+        "micro_business_share": 0.96,
+        "avg_monthly_spend": [
+          300,
+          800
+        ],
+        "avg_cpl": [
+          35,
+          66
+        ],
+        "conversion_rate": 0.03,
+        "cac_payback_months": 8.5
+      },
+      "aesthetic_clinics": {
+        "total_providers": 25000,
+        "avg_monthly_spend": [
+          1000,
+          3000
+        ],
+        "avg_cpl": [
+          80,
+          200
+        ],
+        "conversion_rate": 0.05,
+        "cac_payback_months": 6.5,
+        "treatment_recurrence": 0.85
+      }
+    },
+    "b2b_benchmarks": {
+      "email_roi": 36,
+      "content_cpl_reduction": 0.8,
+      "ai_personalization_lift": 0.5,
+      "quality_over_quantity": true,
+      "marketing_spend_percentage": 0.08
+    },
+    "bigquery_optimization": [
+      "TABLESAMPLE 50% for cost reduction",
+      "Materialized staging queries",
+      "Hard LIMIT enforcement",
+      "WHERE before expensive operations"
+    ]
+  },
+  "intelligent_prospects": [
+    {
+      "business_name": "Screwfix Spares Limited",
+      "location": "GB",
+      "industry_vertical": "aesthetic_clinics",
+      "estimated_staff_size": "4-6",
+      "business_maturity": "emerging",
+      "independence_score": 0.5,
+      "total_advertising_records": 14,
+      "creative_diversity_ratio": 1.0,
+      "campaign_consistency_days": 30,
+      "market_presence_strength": "medium",
+      "competitive_pressure_indicator": "medium",
+      "budget_efficiency_signal": "acceptable_efficiency",
+      "growth_opportunity_signal": "standard_opportunity",
+      "pain_severity_score": 3.8499999999999996,
+      "estimated_monthly_ad_spend": 1000,
+      "cost_per_lead_estimate": 96.8,
+      "budget_optimization_potential": 0.1,
+      "project_scope_estimate": "audit",
+      "project_value_range": [
+        500,
+        1200
+      ],
+      "expected_payback_months": 8.5,
+      "sprint_delivery_timeline": "2-4 weeks",
+      "opportunity_score": 7.140000000000001,
+      "contact_priority": "high",
+      "close_probability": 0.12465000000000001,
+      "primary_value_proposition": "Aesthetic clinic growth optimization: Strategic positioning and lead quality improvement for premium market",
+      "key_differentiators": [
+        "Specialist aesthetic clinics expertise",
+        "Data-driven approach with 10% improvement potential",
+        "Sprint-based delivery with clear ROI metrics",
+        "UK market intelligence and competitive analysis"
+      ],
+      "success_metrics": [
+        "Target: 10% cost reduction",
+        "ROI payback: 8.5 months",
+        "Improved lead quality and conversion rates",
+        "Enhanced competitive market position"
+      ],
+      "risk_mitigation": [
+        "Phased implementation reduces execution risk",
+        "Performance-based milestones ensure accountability",
+        "Market-tested strategies minimize uncertainty",
+        "SME-focused approach (staff size: 4-6)"
+      ]
+    }
+  ]
+}
