@@ -151,7 +151,7 @@ class StrategicExecutionEngine:
                     OR LOWER(advertiser_disclosed_name) LIKE '%plc%'
                 )
             GROUP BY advertiser_disclosed_name, advertiser_location
-            HAVING ad_volume BETWEEN 10 AND 100  -- Volume estratégico para SME
+            HAVING ad_volume BETWEEN 5 AND 25  -- True SME range (micro/small businesses)
                 AND vertical IN ('aesthetic', 'estate')
                 AND waste_probability >= 0.5  -- Foco em oportunidades reais
         )
@@ -234,20 +234,20 @@ class StrategicExecutionEngine:
             return 'micro', 5   # 3-6 funcionários
     
     def _identify_performance_issues(self, row) -> List[str]:
-        """Identifica issues específicos de performance"""
+        """Identifica issues específicos de performance (CORRIGIDO)"""
         
         issues = []
         
-        # High volume, low diversity = creative stagnation
-        if row.ad_volume > 30 and row.creative_diversity < 0.3:
+        # High volume, low diversity = creative stagnation (adjusted for SME scale)
+        if row.ad_volume > 18 and row.creative_diversity < 0.3:
             issues.append("Creative stagnation - mesmo anúncio repetido excessivamente")
         
-        # Excessive testing
+        # High diversity = GOOD PRACTICE (not excessive testing)
         if row.creative_diversity > 0.8:
-            issues.append("Over-testing - muitos criativos diferentes, falta de scaling")
+            issues.append("Sophisticated testing - práticas avançadas de marketing")
         
-        # Volume médio com baixa diversidade
-        if 15 <= row.ad_volume <= 30 and row.creative_diversity < 0.4:
+        # Volume médio com baixa diversidade (adjusted for SME scale)
+        if 10 <= row.ad_volume <= 18 and row.creative_diversity < 0.4:
             issues.append("Possible ad fatigue - poucos criativos para o volume")
         
         # Alta probabilidade de waste

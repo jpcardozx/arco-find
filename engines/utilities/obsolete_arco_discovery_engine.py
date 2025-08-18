@@ -115,20 +115,20 @@ class ArcoDiscoveryEngine:
             }
         }
         
-        # Performance issue detection patterns
+        # Performance issue detection patterns (CORRECTED LOGIC)
         self.pain_signal_patterns = {
             'creative_fatigue': {
-                'threshold': 0.35,  # Creative diversity < 35%
+                'threshold': 0.35,  # Creative diversity < 35% = PROBLEM (reusing same ads)
                 'web_impact': 'high',  # Strong correlation with outdated website
                 'web_opportunity': 'website_refresh'
             },
-            'excessive_testing': {
-                'threshold': 0.75,  # Creative diversity > 75%
-                'web_impact': 'medium',  # May indicate lack of landing page optimization
-                'web_opportunity': 'landing_page_optimization'  
+            'good_testing_practice': {
+                'threshold': 0.75,  # Creative diversity > 75% = GOOD PRACTICE (not a problem)
+                'web_impact': 'low',  # High diversity indicates sophisticated marketing
+                'web_opportunity': 'advanced_optimization'  
             },
             'budget_inefficiency': {
-                'ad_threshold': 40,  # >40 ads with poor diversity
+                'ad_threshold': 20,  # >20 ads for SMEs (adjusted from 40)
                 'web_impact': 'high',  # Poor ad performance often indicates poor website
                 'web_opportunity': 'digital_strategy'
             }
@@ -260,7 +260,7 @@ class ArcoDiscoveryEngine:
                     OR LOWER(advertiser_disclosed_name) LIKE '%platform%'
                 )
             GROUP BY advertiser_disclosed_name, advertiser_location
-            HAVING ad_volume BETWEEN 15 AND 150  -- SME sweet spot
+            HAVING ad_volume BETWEEN 5 AND 25  -- True SME range (micro/small businesses)
                 AND vertical != 'other'
                 AND waste_probability >= 0.5  -- Focus on real opportunities
         )
@@ -400,18 +400,18 @@ class ArcoDiscoveryEngine:
         
         issues = []
         
-        # Creative fatigue detection
+        # Creative fatigue detection (LOW diversity = PROBLEM)
         if raw_data['creative_diversity'] < self.pain_signal_patterns['creative_fatigue']['threshold']:
             issues.append("Creative fatigue - limited ad variation reducing effectiveness")
         
-        # Excessive testing detection
-        if raw_data['creative_diversity'] > self.pain_signal_patterns['excessive_testing']['threshold']:
-            issues.append("Over-testing - too many variants without optimization focus")
+        # Good testing practice detection (HIGH diversity = POSITIVE SIGNAL, not a problem)
+        if raw_data['creative_diversity'] > self.pain_signal_patterns['good_testing_practice']['threshold']:
+            issues.append("Sophisticated creative testing - indicates advanced marketing approach")
         
-        # Budget inefficiency detection
+        # Budget inefficiency detection (adjusted for SME scale)
         if (raw_data['ad_volume'] > self.pain_signal_patterns['budget_inefficiency']['ad_threshold'] and 
             raw_data['creative_diversity'] < 0.4):
-            issues.append("Budget inefficiency - high spend with poor creative strategy")
+            issues.append("Budget inefficiency - high SME ad volume with poor creative strategy")
         
         # Stale campaign detection
         if raw_data['estimated_creative_age'] > 120:
