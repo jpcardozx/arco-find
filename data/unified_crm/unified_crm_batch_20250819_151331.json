@@ -1,0 +1,84 @@
+{
+  "batch_metadata": {
+    "timestamp": "2025-08-19T15:13:31.718538",
+    "total_leads": 1,
+    "high_priority_leads": 1,
+    "average_quality_score": 89.5,
+    "total_estimated_opportunity": 10000.0
+  },
+  "leads": [
+    {
+      "company_name": "TestCorp",
+      "domain": "testcorp.com",
+      "industry": "ecommerce",
+      "country": "US",
+      "search_keywords": [],
+      "ad_volume_score": 0,
+      "estimated_monthly_spend": 10000,
+      "confirmed_advertiser": false,
+      "advertising_platforms": [],
+      "creative_diversity_score": 0.2,
+      "campaign_strategies": [],
+      "target_audiences": [],
+      "creative_themes": [],
+      "pain_signals": [
+        {
+          "type": "performance_issues",
+          "description": "Site performance below industry standards",
+          "severity": "high",
+          "estimated_revenue_impact": 1650.0,
+          "urgency_days": 30,
+          "solution_category": "technical_optimization"
+        },
+        {
+          "type": "growth_stagnation",
+          "description": "Low creative diversity suggests limited testing/optimization",
+          "severity": "low",
+          "estimated_revenue_impact": 1500.0,
+          "urgency_days": 90,
+          "solution_category": "creative_strategy"
+        }
+      ],
+      "growth_opportunities": [
+        {
+          "type": "platform_expansion",
+          "description": "Expand to additional advertising platforms",
+          "potential_revenue_increase": 4500.0,
+          "implementation_timeline": "4-8 weeks",
+          "investment_required": "medium",
+          "roi_timeline": "2-3 months"
+        },
+        {
+          "type": "creative_optimization",
+          "description": "Implement systematic creative testing framework",
+          "potential_revenue_increase": 2500.0,
+          "implementation_timeline": "2-4 weeks",
+          "investment_required": "low",
+          "roi_timeline": "1-2 months"
+        },
+        {
+          "type": "audience_expansion",
+          "description": "Expand target audience segments with lookalike modeling",
+          "potential_revenue_increase": 3000.0,
+          "implementation_timeline": "3-6 weeks",
+          "investment_required": "medium",
+          "roi_timeline": "2-4 months"
+        }
+      ],
+      "urgency_score": 70.0,
+      "lead_quality_score": 89.5,
+      "outreach_priority": "high",
+      "recommended_approach": {
+        "approach": "consultative_strategic",
+        "key_message": "Revenue optimization and growth acceleration",
+        "timeline": "immediate",
+        "decision_maker": "VP Growth/CMO"
+      },
+      "enriched_timestamp": "2025-08-19T15:13:31.718462",
+      "data_sources": [
+        "test"
+      ],
+      "confidence_level": 60
+    }
+  ]
+}
