@@ -1,0 +1,398 @@
+{
+  "execution_summary": {
+    "timestamp": "20250818_160026",
+    "engine_version": "Master Discovery Engine v4.0",
+    "methodology": "Evidence-based with cost controls",
+    "total_prospects": 10,
+    "query_cost_estimate": "<$0.25",
+    "markets_targeted": "GB, IE, AU, NZ, CA (English-speaking SMEs)"
+  },
+  "financial_analysis": {
+    "total_estimated_monthly_spend": 10025,
+    "average_confidence_score": 9.3,
+    "project_value_analysis": {
+      "minimum_potential_gbp": 12000,
+      "maximum_potential_gbp": 32000,
+      "expected_value_gbp": 6400
+    },
+    "probability_distribution": {
+      "high_probability": 0,
+      "medium_probability": 10,
+      "lower_probability": 0
+    }
+  },
+  "quality_metrics": {
+    "prospects_with_web_analysis": 10,
+    "verified_web_insights": 10,
+    "high_evidence_prospects": 0,
+    "average_ad_volume": 34.7
+  },
+  "vertical_breakdown": {
+    "aesthetic": 3,
+    "estate": 4,
+    "legal": 0,
+    "dental": 3
+  },
+  "prospects": [
+    {
+      "company_name": "TRENDY TRADING BEAUTY LIMITED",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 35,
+      "creative_count": 35,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1050,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (35) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR17871233935107686401/creative/CR13260919007680135169",
+        "accessible": true,
+        "load_time_ms": 1426,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - aesthetic business with significant investment",
+      "key_talking_points": [
+        "Observed 35 ads with 100% diversity",
+        "Estimated monthly spend: £1050 suggests growth opportunity",
+        "Opportunity: High ad volume (35) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "READYLET PROPERTY LTD",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 35,
+      "creative_count": 35,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 875,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (35) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR14811757687389290497/creative/CR12750101693715185665",
+        "accessible": true,
+        "load_time_ms": 2287,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - estate business with significant investment",
+      "key_talking_points": [
+        "Observed 35 ads with 100% diversity",
+        "Estimated monthly spend: £875 suggests growth opportunity",
+        "Opportunity: High ad volume (35) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "Propertydrum Ltd",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 35,
+      "creative_count": 35,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 875,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (35) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR08149920449564770305/creative/CR08786550240531447809",
+        "accessible": true,
+        "load_time_ms": 1314,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - estate business with significant investment",
+      "key_talking_points": [
+        "Observed 35 ads with 100% diversity",
+        "Estimated monthly spend: £875 suggests growth opportunity",
+        "Opportunity: High ad volume (35) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "Ralph Rose Property Group Ltd",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 34,
+      "creative_count": 34,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 875,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (34) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR04740987366083133441/creative/CR10740208766151557121",
+        "accessible": true,
+        "load_time_ms": 1298,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - estate business with significant investment",
+      "key_talking_points": [
+        "Observed 34 ads with 100% diversity",
+        "Estimated monthly spend: £875 suggests growth opportunity",
+        "Opportunity: High ad volume (34) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "Fine Luxury Property Limited",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 34,
+      "creative_count": 34,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 875,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (34) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR13258604106206937089/creative/CR04421066384759324673",
+        "accessible": true,
+        "load_time_ms": 1893,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - estate business with significant investment",
+      "key_talking_points": [
+        "Observed 34 ads with 100% diversity",
+        "Estimated monthly spend: £875 suggests growth opportunity",
+        "Opportunity: High ad volume (34) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "Branded Beauty Limited",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 34,
+      "creative_count": 34,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1050,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (34) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.5,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR17780889933691486209/creative/CR00976254055019970561",
+        "accessible": true,
+        "load_time_ms": 885,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - aesthetic business with significant investment",
+      "key_talking_points": [
+        "Observed 34 ads with 100% diversity",
+        "Estimated monthly spend: £1050 suggests growth opportunity",
+        "Opportunity: High ad volume (34) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "Market Cross Dental Care",
+      "location": "IE",
+      "vertical": "dental",
+      "ad_volume": 35,
+      "creative_count": 35,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1125,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (35) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR10965441300739915777/creative/CR14564482951141130241",
+        "accessible": true,
+        "load_time_ms": 1848,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - dental business with significant investment",
+      "key_talking_points": [
+        "Observed 35 ads with 100% diversity",
+        "Estimated monthly spend: £1125 suggests growth opportunity",
+        "Opportunity: High ad volume (35) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "Sullivan dental",
+      "location": "IE",
+      "vertical": "dental",
+      "ad_volume": 35,
+      "creative_count": 35,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1125,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (35) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR04132662234230816769/creative/CR08689332143957999617",
+        "accessible": true,
+        "load_time_ms": 1165,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - dental business with significant investment",
+      "key_talking_points": [
+        "Observed 35 ads with 100% diversity",
+        "Estimated monthly spend: £1125 suggests growth opportunity",
+        "Opportunity: High ad volume (35) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "Boyne Dental",
+      "location": "IE",
+      "vertical": "dental",
+      "ad_volume": 35,
+      "creative_count": 35,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1125,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (35) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR17576748110888042497/creative/CR10748548561848238081",
+        "accessible": true,
+        "load_time_ms": 1230,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - dental business with significant investment",
+      "key_talking_points": [
+        "Observed 35 ads with 100% diversity",
+        "Estimated monthly spend: £1125 suggests growth opportunity",
+        "Opportunity: High ad volume (35) may indicate inefficient spend patterns"
+      ]
+    },
+    {
+      "company_name": "I Vision Laser Clinic Limited",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 35,
+      "creative_count": 35,
+      "creative_diversity": 1.0,
+      "estimated_monthly_spend": 1050,
+      "company_size_category": "established",
+      "pain_signals": [
+        "High ad volume (35) may indicate inefficient spend patterns"
+      ],
+      "evidence_quality": "medium",
+      "confidence_score": 9.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR01552603292792520705/creative/CR07046883237754306561",
+        "accessible": true,
+        "load_time_ms": 1491,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Direct value-based approach - aesthetic business with significant investment",
+      "key_talking_points": [
+        "Observed 35 ads with 100% diversity",
+        "Estimated monthly spend: £1050 suggests growth opportunity",
+        "Opportunity: High ad volume (35) may indicate inefficient spend patterns"
+      ]
+    }
+  ]
+}

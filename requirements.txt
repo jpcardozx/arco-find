@@ -1,6 +1,12 @@
 # ARCO Pipeline Dependencies - S-tier BigQuery Engine
 aiohttp>=3.8.0
-requests>=2.31.0
+requests
+python-dotenv
+aiohttp
+asyncio
+pydantic
+dataclasses
+typing-extensions>=2.31.0
 beautifulsoup4>=4.12.0
 python-dotenv>=1.0.0
 email-validator>=2.0.0

@@ -1,0 +1,202 @@
+{
+  "search_metadata": {
+    "id": "search_DWmO1QkoEbuQp2E6r4J2r8Ga",
+    "status": "Success",
+    "created_at": "2025-08-19T14:43:28Z",
+    "request_time_taken": 0.27,
+    "parsing_time_taken": 0.0,
+    "total_time_taken": 0.27,
+    "request_url": "https://adstransparency.google.com?domain=clareestateagents.com&region=ANYWHERE",
+    "html_url": "https://www.searchapi.io/api/v1/searches/search_DWmO1QkoEbuQp2E6r4J2r8Ga.html",
+    "json_url": "https://www.searchapi.io/api/v1/searches/search_DWmO1QkoEbuQp2E6r4J2r8Ga"
+  },
+  "search_parameters": {
+    "engine": "google_ads_transparency_center",
+    "domain": "clareestateagents.com",
+    "num": 40,
+    "region": "ANYWHERE"
+  },
+  "search_information": {
+    "total_results": 10
+  },
+  "ad_creatives": [
+    {
+      "position": 1,
+      "id": "CR14121294243758604289",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR03641939165278371841",
+        "name": "RP DATA PTY LTD"
+      },
+      "first_shown_datetime": "2025-05-27T08:26:41Z",
+      "last_shown_datetime": "2025-06-08T20:02:34Z",
+      "total_days_shown": 13,
+      "format": "image",
+      "image": {
+        "link": "https://tpc.googlesyndication.com/archive/simgad/16943095183082457711",
+        "height": 600,
+        "width": 300
+      },
+      "details_link": "https://adstransparency.google.com/advertiser/AR03641939165278371841/creative/CR14121294243758604289?region=ANYWHERE"
+    },
+    {
+      "position": 2,
+      "id": "CR01138880689580539905",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR03641939165278371841",
+        "name": "RP DATA PTY LTD"
+      },
+      "first_shown_datetime": "2025-04-13T14:41:23Z",
+      "last_shown_datetime": "2025-05-09T05:29:49Z",
+      "total_days_shown": 26,
+      "format": "image",
+      "image": {
+        "link": "https://tpc.googlesyndication.com/archive/simgad/6445224610720481446",
+        "height": 600,
+        "width": 300
+      },
+      "details_link": "https://adstransparency.google.com/advertiser/AR03641939165278371841/creative/CR01138880689580539905?region=ANYWHERE"
+    },
+    {
+      "position": 3,
+      "id": "CR05212818660606869505",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR03641939165278371841",
+        "name": "RP DATA PTY LTD"
+      },
+      "first_shown_datetime": "2025-04-11T11:31:20Z",
+      "last_shown_datetime": "2025-04-14T07:36:48Z",
+      "total_days_shown": 3,
+      "format": "image",
+      "image": {
+        "link": "https://tpc.googlesyndication.com/archive/simgad/6123171854465918689",
+        "height": 600,
+        "width": 300
+      },
+      "details_link": "https://adstransparency.google.com/advertiser/AR03641939165278371841/creative/CR05212818660606869505?region=ANYWHERE"
+    },
+    {
+      "position": 4,
+      "id": "CR02253060283507408897",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR03641939165278371841",
+        "name": "RP DATA PTY LTD"
+      },
+      "first_shown_datetime": "2025-02-12T19:27:26Z",
+      "last_shown_datetime": "2025-03-10T07:34:26Z",
+      "total_days_shown": 26,
+      "format": "image",
+      "image": {
+        "link": "https://tpc.googlesyndication.com/archive/simgad/11353664769462457765",
+        "height": 600,
+        "width": 300
+      },
+      "details_link": "https://adstransparency.google.com/advertiser/AR03641939165278371841/creative/CR02253060283507408897?region=ANYWHERE"
+    },
+    {
+      "position": 5,
+      "id": "CR13349865804695339009",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR15773717197894975489",
+        "name": "Clare Estate Agents Pty Ltd"
+      },
+      "first_shown_datetime": "2024-05-20T07:00:00Z",
+      "last_shown_datetime": "2024-12-21T05:16:00Z",
+      "total_days_shown": 215,
+      "format": "image",
+      "image": {
+        "link": "https://tpc.googlesyndication.com/archive/simgad/4507819361994602187",
+        "height": 600,
+        "width": 300
+      },
+      "details_link": "https://adstransparency.google.com/advertiser/AR15773717197894975489/creative/CR13349865804695339009?region=ANYWHERE"
+    },
+    {
+      "position": 6,
+      "id": "CR08070368360933621761",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR15773717197894975489",
+        "name": "Clare Estate Agents Pty Ltd"
+      },
+      "first_shown_datetime": "2024-09-23T04:11:21Z",
+      "last_shown_datetime": "2024-12-21T04:41:41Z",
+      "total_days_shown": 90,
+      "format": "text",
+      "details_link": "https://adstransparency.google.com/advertiser/AR15773717197894975489/creative/CR08070368360933621761?region=ANYWHERE",
+      "details_script_link": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=4893213886&creativeId=714480324717&uiFeatures=12,54&adGroupId=170869057194&assets=%3DH4sIAAAAAAAAAOPS4eLkuP_48qZmVgFGIPMOgvlpKZjJDGS-hDKl2Dn-9f7oOcUIZOyc_fTwaSYgo2356-2XQCKdMMamPZ1fjoAY3y5vOTeTBcjoh0lNhTHe_z_y6wgjAHItDCd_AAAA&allowedVariations=36&sig=ACiVB_x5ed9sEAzb7seY6MzaMjXHRzbWGg&htmlParentId=fletch-render-2355983518940796331&responseCallback=fletchCallback2355983518940796331"
+    },
+    {
+      "position": 7,
+      "id": "CR00182747869147561985",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR15773717197894975489",
+        "name": "Clare Estate Agents Pty Ltd"
+      },
+      "first_shown_datetime": "2022-10-17T06:09:00Z",
+      "last_shown_datetime": "2024-12-21T04:33:16Z",
+      "total_days_shown": 796,
+      "format": "text",
+      "details_link": "https://adstransparency.google.com/advertiser/AR15773717197894975489/creative/CR00182747869147561985?region=ANYWHERE",
+      "details_script_link": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=4893213886&creativeId=624299230489&uiFeatures=12,54&adGroupId=143444092004&assets=%3DH4sIAAAAAAAAAONS5OLk-LT08qZmVgFmIPP0zoXbLzEKMAKZ7_8f-XUEyJRi5_jb3nj2Eoixc_bTw6eZgIxvl7ecm8kCZJzu3dxwDCQFUQ4A8C8k1lAAAAA&allowedVariations=36&sig=ACiVB_zRzmkPG4mrK14_l2i9F156hC5t4Q&htmlParentId=fletch-render-10560324849616203634&responseCallback=fletchCallback10560324849616203634"
+    },
+    {
+      "position": 8,
+      "id": "CR07653363182936784897",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR15773717197894975489",
+        "name": "Clare Estate Agents Pty Ltd"
+      },
+      "first_shown_datetime": "2024-09-23T04:15:48Z",
+      "last_shown_datetime": "2024-12-21T04:33:05Z",
+      "total_days_shown": 90,
+      "format": "text",
+      "details_link": "https://adstransparency.google.com/advertiser/AR15773717197894975489/creative/CR07653363182936784897?region=ANYWHERE",
+      "details_script_link": "https://displayads-formats.googleusercontent.com/ads/preview/content.js?client=ads-integrity-transparency&obfuscatedCustomerId=4893213886&creativeId=714480324840&uiFeatures=12,54&adGroupId=170869057354&assets=%3DH4sIAAAAAAAAAONS5OLkeP348qZmVgFGIPP9_yO_jjCCmZ-WgkWZpdg5_vX-6DnFCGT0LH-9_RKIser9ujNgRidM5G9741kwYxJMZOfsp4dPMwEZ_TCRb5e3nJvJAmRMhYlA7AMyTvdubjgGYrSBpQARmDPEmAAAAA&allowedVariations=36&sig=ACiVB_w6jSxhhP5xlsCAlzqR5LHKiaTYcQ&htmlParentId=fletch-render-3078817360226195634&responseCallback=fletchCallback3078817360226195634"
+    },
+    {
+      "position": 9,
+      "id": "CR10006673758389010433",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR03641939165278371841",
+        "name": "RP DATA PTY LTD"
+      },
+      "first_shown_datetime": "2024-11-20T02:07:43Z",
+      "last_shown_datetime": "2024-12-16T09:36:37Z",
+      "total_days_shown": 27,
+      "format": "image",
+      "image": {
+        "link": "https://tpc.googlesyndication.com/archive/simgad/10749174435579171837",
+        "height": 600,
+        "width": 300
+      },
+      "details_link": "https://adstransparency.google.com/advertiser/AR03641939165278371841/creative/CR10006673758389010433?region=ANYWHERE"
+    },
+    {
+      "position": 10,
+      "id": "CR02457272715573198849",
+      "target_domain": "clareestateagents.com",
+      "advertiser": {
+        "id": "AR03641939165278371841",
+        "name": "RP DATA PTY LTD"
+      },
+      "first_shown_datetime": "2024-10-04T06:16:26Z",
+      "last_shown_datetime": "2024-10-29T04:36:36Z",
+      "total_days_shown": 25,
+      "format": "image",
+      "image": {
+        "link": "https://tpc.googlesyndication.com/archive/simgad/13001343202662241112",
+        "height": 600,
+        "width": 300
+      },
+      "details_link": "https://adstransparency.google.com/advertiser/AR03641939165278371841/creative/CR02457272715573198849?region=ANYWHERE"
+    }
+  ]
+}

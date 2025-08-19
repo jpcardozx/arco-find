@@ -1,14 +1,39 @@
-# 🎯 ARCO Intelligence System
+# ARCO Lead Generation System
 
-## Sistema S-Tier de Lead Generation para Real Estate (Costa Oeste do Canadá)
+Sistema otimizado para geração eficiente de leads com perfis firmográficos definidos e controle rigoroso de custos.
 
-**Status**: ✅ **PRODUÇÃO** | **Versão**: 2.0.0 | **Arquitetura**: Consolidada e Otimizada
+## 🎯 Características Principais
 
----
+- **Filtros Pré-Agregação**: Máxima redução de custos através de filtros aplicados antes da agregação
+- **Perfis Firmográficos Definidos**: Targeting baseado em características empresariais estabelecidas
+- **Controle de Custos**: Orçamento automático com alertas e limites
+- **Geração em Lotes**: Distribuição de custos através de execução em batches
+- **Análise de Performance**: Métricas detalhadas de qualidade dos leads
 
-## 📋 Resumo Executivo
+## 🚀 Uso Rápido
 
-Sistema consolidado de intelligence para descoberta de leads baseado em **sinais públicos de desperdiço** em campanhas de tráfego pago. Foca em agências de real estate de 3-9 pessoas na costa oeste do Canadá com performance crítica e tracking ausente.
+```python
+from arco_lead_generation import ArcoLeadGeneration, LeadGenerationConfig
+
+# Configuração personalizada
+config = LeadGenerationConfig(
+    target_ad_volume_range=(6, 12),
+    max_audience_size=75000,
+    target_markets=['US', 'CA', 'AU'],
+    target_verticals=['marketing', 'digital', 'agency'],
+    target_cost_per_execution=0.008
+)
+
+# Inicializar sistema
+arco = ArcoLeadGeneration(config)
+
+# Gerar leads otimizados
+result = arco.optimize_and_generate(target_count=100, target_cost=0.006)
+
+if result['success']:
+    leads = result['leads']
+    print(f"Gerados {len(leads)} leads por ${result['execution_stats']['actual_cost']:.4f}")
+```
 
 ### 🎯 Resultados Comprovados:
 - **70+ arquivos desnecessários removidos**

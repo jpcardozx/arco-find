@@ -1,0 +1,263 @@
+{
+  "advertising_intelligence_config": {
+    "version": "1.0",
+    "strategy": "places_seed_plus_ad_confirmation_plus_pain_detection",
+    "description": "Pipeline otimizado para identificar empresas que estão anunciando + têm dor técnica mensurável = viabilidade para sprints USD 497"
+  },
+  
+  "target_markets": {
+    "primary": ["AU", "NZ"],
+    "secondary": ["CA", "US"],
+    "focus_cities": [
+      "Sydney, Australia",
+      "Melbourne, Australia", 
+      "Brisbane, Australia",
+      "Auckland, New Zealand",
+      "Wellington, New Zealand"
+    ]
+  },
+  
+  "target_verticals": {
+    "dental": {
+      "keywords": ["dental", "dentist", "orthodontics", "dental clinic", "oral health"],
+      "sprint_focus": "booking_optimization",
+      "avg_monthly_spend": 2500,
+      "conversion_potential": "high",
+      "common_pain_points": ["booking_forms", "mobile_performance", "tracking"]
+    },
+    "aesthetic": {
+      "keywords": ["aesthetic", "cosmetic", "beauty clinic", "plastic surgery", "dermatology"],
+      "sprint_focus": "conversion_tracking", 
+      "avg_monthly_spend": 3500,
+      "conversion_potential": "high",
+      "common_pain_points": ["image_optimization", "mobile_ux", "lead_capture"]
+    },
+    "real_estate": {
+      "keywords": ["real estate", "property", "realtor", "homes", "real estate agent"],
+      "sprint_focus": "lead_capture",
+      "avg_monthly_spend": 2000,
+      "conversion_potential": "medium",
+      "common_pain_points": ["contact_forms", "mobile_search", "crm_integration"]
+    },
+    "legal": {
+      "keywords": ["lawyer", "legal", "attorney", "law firm", "legal services"],
+      "sprint_focus": "contact_optimization",
+      "avg_monthly_spend": 1800,
+      "conversion_potential": "high",
+      "common_pain_points": ["consultation_booking", "trust_signals", "mobile_calls"]
+    },
+    "ecommerce": {
+      "keywords": ["shop", "store", "retail", "online store", "ecommerce"],
+      "sprint_focus": "checkout_optimization",
+      "avg_monthly_spend": 4000,
+      "conversion_potential": "very_high", 
+      "common_pain_points": ["checkout_speed", "mobile_conversion", "abandoned_cart"]
+    }
+  },
+  
+  "api_configuration": {
+    "google_places": {
+      "base_url": "https://maps.googleapis.com/maps/api/place",
+      "cost_optimization": {
+        "use_field_masking": true,
+        "essential_fields": ["place_id", "name", "formatted_address", "website", "rating", "user_ratings_total"],
+        "detailed_fields": ["formatted_phone_number", "opening_hours", "types"],
+        "max_results_per_search": 20
+      },
+      "rate_limiting": {
+        "requests_per_second": 0.5,
+        "daily_quota_warning": 1000
+      }
+    },
+    "pagespeed_insights": {
+      "base_url": "https://www.googleapis.com/pagespeedonline/v5/runPagespeed",
+      "default_strategy": "mobile",
+      "categories": ["PERFORMANCE"],
+      "timeout_seconds": 45
+    }
+  },
+  
+  "ad_verification_sources": {
+    "google_ads_transparency": {
+      "base_url": "https://adstransparency.google.com",
+      "verification_method": "manual_lookup",
+      "confidence_level": "high",
+      "data_freshness": "real_time"
+    },
+    "meta_ad_library": {
+      "base_url": "https://www.facebook.com/ads/library",
+      "verification_method": "manual_lookup",
+      "confidence_level": "high", 
+      "regions": ["AU", "NZ", "CA", "US"],
+      "ad_types": ["all"]
+    },
+    "tiktok_creative_center": {
+      "base_url": "https://ads.tiktok.com/business/creativecenter",
+      "verification_method": "manual_lookup",
+      "confidence_level": "medium",
+      "focus_verticals": ["aesthetic", "ecommerce"]
+    }
+  },
+  
+  "qualification_criteria": {
+    "advertising_activity": {
+      "min_active_platforms": 1,
+      "recent_activity_days": 30,
+      "min_estimated_monthly_spend": 500,
+      "platform_weights": {
+        "Google Ads": 1.0,
+        "Meta": 0.9,
+        "TikTok": 0.7
+      }
+    },
+    "technical_pain_signals": {
+      "web_vitals_thresholds": {
+        "lcp_critical": 4.0,
+        "lcp_poor": 2.5,
+        "inp_critical": 500,
+        "inp_poor": 400,
+        "cls_critical": 0.5,
+        "cls_poor": 0.25
+      },
+      "tech_stack_red_flags": [
+        "jquery_version_below_3.0",
+        "no_cdn",
+        "http_1.1",
+        "wordpress_without_caching",
+        "inline_css_above_50kb"
+      ],
+      "form_issues": [
+        "no_validation",
+        "no_thank_you_page", 
+        "no_error_handling",
+        "complex_captcha"
+      ],
+      "tracking_issues": [
+        "legacy_google_analytics",
+        "no_meta_pixel",
+        "no_utm_parameters",
+        "broken_conversion_tracking"
+      ]
+    },
+    "scoring_algorithm": {
+      "max_score": 100,
+      "weights": {
+        "advertising_activity": 40,
+        "estimated_spend": 30,
+        "technical_pain_severity": 30
+      },
+      "bonuses": {
+        "multiple_platforms": 10,
+        "high_spend_estimate": 10,
+        "critical_web_vitals": 10
+      },
+      "min_qualification_score": 75
+    }
+  },
+  
+  "sprint_recommendations": {
+    "web_vitals_patch": {
+      "price": 497,
+      "duration_days": 7,
+      "deliverables": [
+        "LCP optimization (critical CSS, image compression)",
+        "INP improvement (JavaScript optimization)", 
+        "CDN setup and configuration",
+        "Core Web Vitals monitoring setup"
+      ],
+      "typical_improvements": {
+        "lcp_reduction": "40-60%",
+        "conversion_increase": "15-25%"
+      }
+    },
+    "leadflow_rescue": {
+      "price": 497,
+      "duration_days": 5,
+      "deliverables": [
+        "Form validation and UX optimization",
+        "Thank you page and confirmation flow",
+        "WhatsApp integration with tracking",
+        "Lead capture optimization"
+      ],
+      "typical_improvements": {
+        "form_completion_increase": "25-40%",
+        "lead_quality_improvement": "30-50%"
+      }
+    },
+    "tracking_sane": {
+      "price": 497,
+      "duration_days": 4,
+      "deliverables": [
+        "GA4 setup and migration",
+        "Meta Pixel configuration",
+        "UTM parameter structure", 
+        "Conversion event tracking"
+      ],
+      "typical_improvements": {
+        "attribution_accuracy": "80-95%",
+        "campaign_optimization": "20-30% better ROAS"
+      }
+    },
+    "cro_express": {
+      "price": 497,
+      "duration_days": 6,
+      "deliverables": [
+        "Landing page optimization",
+        "Mobile UX improvements",
+        "Trust signals and social proof",
+        "CTA optimization"
+      ],
+      "typical_improvements": {
+        "conversion_rate_increase": "20-35%",
+        "mobile_performance": "30-50% better"
+      }
+    }
+  },
+  
+  "outreach_strategy": {
+    "proof_pack_components": [
+      "active_advertising_screenshot",
+      "web_vitals_audit_summary", 
+      "technical_issues_list",
+      "estimated_impact_calculation"
+    ],
+    "email_templates": {
+      "subject_line": "Quick question about {{company_name}}'s {{platform}} ads performance",
+      "opener": "I noticed {{company_name}} is actively running ads on {{platforms}} (spending ~${{estimated_spend}}/month)",
+      "pain_point": "However, I spotted some technical issues that might be limiting your conversion rates",
+      "proof": "Specifically: {{top_technical_issue}} - this typically costs advertisers 15-30% in lost conversions",
+      "solution": "I can fix this in a 5-day sprint for $497 - would you like to see the detailed analysis?"
+    },
+    "follow_up_cadence": {
+      "initial_email": 0,
+      "follow_up_1": 3,
+      "follow_up_2": 7,
+      "follow_up_3": 14
+    }
+  },
+  
+  "cost_control": {
+    "daily_api_budget": 25,
+    "max_businesses_per_session": 50,
+    "cost_per_qualified_lead_target": 5,
+    "roi_calculation": {
+      "avg_sprint_value": 497,
+      "close_rate_estimate": 0.15,
+      "expected_value_per_qualified_lead": 74.55
+    }
+  },
+  
+  "success_metrics": {
+    "discovery_kpis": {
+      "businesses_analyzed_per_hour": 10,
+      "qualification_rate_target": 0.10,
+      "false_positive_rate_max": 0.05
+    },
+    "business_kpis": {
+      "response_rate_target": 0.25,
+      "meeting_booking_rate": 0.60,
+      "close_rate_target": 0.15,
+      "sprint_completion_rate": 0.95
+    }
+  }
+}

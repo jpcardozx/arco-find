@@ -1,0 +1,265 @@
+{
+  "execution_summary": {
+    "timestamp": "20250818_193316",
+    "engine_version": "Realistic Micro SME Engine v1.0",
+    "methodology": "No simulations - real data only",
+    "total_prospects": 10,
+    "data_limitations": "Limited to BigQuery transparency data",
+    "honesty_note": "Conservative estimates, honest confidence scores"
+  },
+  "realistic_analysis": {
+    "total_estimated_spend_gbp": 3650,
+    "average_confidence_score": 2.9,
+    "honest_project_assessment": {
+      "minimum_value_gbp": 4000,
+      "maximum_value_gbp": 8000,
+      "realistic_expected_value_gbp": 1600
+    },
+    "success_probability_honest": {
+      "average_success_rate": 0.2,
+      "note": "Conservative estimates based on real conversion data"
+    }
+  },
+  "data_quality": {
+    "source": "BigQuery Ads Transparency Center",
+    "limitations": [
+      "No real landing page URLs",
+      "Limited creative insight",
+      "No contact information"
+    ],
+    "confidence_range": "2.5-3.0/10",
+    "honesty_score": "High - no artificial inflation"
+  },
+  "prospects": [
+    {
+      "company_name": "Ropergate Dental Clinic",
+      "location": "GB",
+      "vertical": "dental",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 350,
+      "company_size": "micro_practice",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - dental business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in dental sector",
+        "Conservative spend estimate: £350/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "Velleta Pedersen Christie Lawyers",
+      "location": "CA",
+      "vertical": "legal",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 400,
+      "company_size": "very_small_business",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - legal business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in legal sector",
+        "Conservative spend estimate: £400/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "Komet Dental Instruments UK Limited",
+      "location": "GB",
+      "vertical": "dental",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 350,
+      "company_size": "micro_company",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - dental business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in dental sector",
+        "Conservative spend estimate: £350/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "Abraham Baron Solicitors Ltd",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 400,
+      "company_size": "micro_company",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - legal business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in legal sector",
+        "Conservative spend estimate: £400/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "lopag slawomir",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 400,
+      "company_size": "very_small_business",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - legal business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in legal sector",
+        "Conservative spend estimate: £400/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "PA Duffy & Co Solicitors",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 400,
+      "company_size": "very_small_business",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - legal business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in legal sector",
+        "Conservative spend estimate: £400/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "Queen’s Drive Dental Practice",
+      "location": "GB",
+      "vertical": "dental",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 350,
+      "company_size": "micro_practice",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - dental business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in dental sector",
+        "Conservative spend estimate: £350/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "BANLAW PTY LIMITED",
+      "location": "AU",
+      "vertical": "legal",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 400,
+      "company_size": "micro_company",
+      "data_quality": "limited",
+      "confidence_score": 3.0,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - legal business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in legal sector",
+        "Conservative spend estimate: £400/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "Active Motion Injury Clinic (Ports Solent) Ltd",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 300,
+      "company_size": "micro_company",
+      "data_quality": "limited",
+      "confidence_score": 2.5,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - aesthetic business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in aesthetic sector",
+        "Conservative spend estimate: £300/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    },
+    {
+      "company_name": "BEAUTY AESTHETIC CLINIC",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 5,
+      "estimated_monthly_spend_gbp": 300,
+      "company_size": "micro_practice",
+      "data_quality": "limited",
+      "confidence_score": 2.5,
+      "suggested_project": "basic_audit",
+      "project_value_range_gbp": [
+        400,
+        800
+      ],
+      "success_probability": 0.2,
+      "primary_approach": "Research-based approach - aesthetic business with 5 ads suggests micro SME scale",
+      "evidence_based_talking_points": [
+        "Identified 5 ads in aesthetic sector",
+        "Conservative spend estimate: £300/month",
+        "Micro SME scale suggests optimization opportunities",
+        "Initial consultation to understand current challenges"
+      ]
+    }
+  ]
+}

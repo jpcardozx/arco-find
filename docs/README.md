@@ -11,8 +11,9 @@ Esta pasta contém a documentação técnica completa do sistema ARCO-Find.
 
 ### 🏗️ **Documentação Técnica**
 - **[Arquitetura do Sistema](architecture.md)** - Visão geral da arquitetura
-- **[API Reference](API_HANDLING.md)** - Documentação das APIs
+- **[API Reference](API_HANDLING.md)** - Documentação das APIs (APENAS DADOS REAIS)
 - **[Schema do Banco](BIGQUERY_SCHEMA.md)** - Estrutura de dados
+- **[Sistema Real de Inteligência](../README_REAL_ADVERTISING_INTELLIGENCE.md)** - Engine sem simulações
 
 ### 📊 **Análises e Relatórios**
 - **[Auditoria Estratégica](AUDITORIA_ESTRATEGICA_COMPLETA.md)** - Análise completa do sistema

@@ -1,0 +1,79 @@
+{
+  "cost_control": {
+    "daily_limit_usd": 15.0,
+    "weekly_limit_usd": 75.0,
+    "monthly_limit_usd": 250.0,
+    "query_timeout_minutes": 5,
+    "max_bytes_per_query": "200GB",
+    "cost_alerts": {
+      "warning_threshold_usd": 8.0,
+      "critical_threshold_usd": 12.0,
+      "alert_email": "admin@arco.com"
+    }
+  },
+  
+  "query_optimization": {
+    "use_query_cache": true,
+    "partition_filters_required": true,
+    "require_where_clause": true,
+    "max_scan_days": 180,
+    "min_scan_days": 7,
+    "default_scan_days": 90
+  },
+  
+  "discovery_parameters": {
+    "target_countries": ["AU", "NZ", "GB", "US", "CA"],
+    "target_verticals": ["dental", "legal", "aesthetic", "estate", "fitness"],
+    "min_ad_volume": 8,
+    "max_ad_volume": 100,
+    "min_opportunity_score": 50,
+    "max_results_per_query": 1000,
+    "execution_schedule": {
+      "frequency": "weekly",
+      "day_of_week": "monday",
+      "hour": 10,
+      "timezone": "Australia/Sydney"
+    }
+  },
+  
+  "quality_filters": {
+    "min_creative_diversity": 0.2,
+    "max_days_since_last_ad": 90,
+    "exclude_enterprise_patterns": [
+      ".*google.*",
+      ".*facebook.*", 
+      ".*microsoft.*",
+      ".*amazon.*",
+      ".*apple.*"
+    ],
+    "require_company_name": true,
+    "min_company_name_length": 3
+  },
+  
+  "output_settings": {
+    "export_format": "json",
+    "include_raw_data": false,
+    "include_cost_metadata": true,
+    "save_location": "data/discoveries",
+    "retention_days": 90,
+    "compression": true
+  },
+  
+  "monitoring": {
+    "track_query_performance": true,
+    "log_cost_breakdown": true,
+    "alert_on_anomalies": true,
+    "performance_benchmarks": {
+      "max_execution_time_minutes": 3,
+      "min_leads_per_dollar": 25,
+      "target_cost_per_lead_usd": 0.20
+    }
+  },
+  
+  "safety_limits": {
+    "max_concurrent_queries": 2,
+    "cooldown_period_minutes": 30,
+    "emergency_stop_threshold_usd": 100.0,
+    "auto_disable_on_error_count": 5
+  }
+}

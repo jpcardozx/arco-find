@@ -1,0 +1,119 @@
+{
+  "timestamp": "2025-08-19T04:10:40.638905",
+  "strategic_recommendation": {
+    "chosen_strategy": "pain_signals_especificos",
+    "rationale": [
+      "Melhor ROI: 4791.3%",
+      "Custo por prospect: $0.23",
+      "Prospects esperados: 28",
+      "Balance ideal entre volume e qualidade"
+    ]
+  },
+  "keyword_execution": {
+    "recommended_keywords": [
+      "buyers agent",
+      "property appraisal",
+      "investment property",
+      "strata management",
+      "commercial valuation",
+      "property settlement"
+    ],
+    "regions_priority": [
+      "AU",
+      "NZ"
+    ],
+    "max_keywords_per_run": 4,
+    "estimated_total_cost": "$6.33"
+  },
+  "timing_strategy": {
+    "avoid_mondays": true,
+    "optimal_outreach": "Tuesday 10AM-12PM local time",
+    "cultural_considerations": [
+      "Weekends s\u00e3o dias de trabalho (open homes)",
+      "Segunda = recovery day, admin tasks",
+      "Ter\u00e7a/Quarta = client meetings, prospecting",
+      "Quinta = preparation para weekend",
+      "Sexta = networking, wind down"
+    ]
+  },
+  "expected_outcomes": {
+    "layer1_advertisers": "50-150 advertisers",
+    "layer2_qualification_rate": "40-60%",
+    "final_prospects": "10-45",
+    "expected_meetings": "0.4",
+    "projected_revenue": "$309 AUD"
+  },
+  "roi_analysis": {
+    "amplitude_maxima": {
+      "avg_prospects": 37.5,
+      "avg_cost_per_prospect": 0.54,
+      "total_cost": 20.25,
+      "expected_meetings": 0.5625,
+      "expected_revenue": 421.87499999999994,
+      "roi_percent": 1983.3333333333333,
+      "recommendation": "\u2705 RECOMENDADO - Bom retorno"
+    },
+    "pain_signals_especificos": {
+      "avg_prospects": 27.5,
+      "avg_cost_per_prospect": 0.23,
+      "total_cost": 6.325,
+      "expected_meetings": 0.4125,
+      "expected_revenue": 309.37499999999994,
+      "roi_percent": 4791.304347826086,
+      "recommendation": "\ud83d\ude80 ALTAMENTE RECOMENDADO - ROI excelente"
+    },
+    "hibrida_inteligente": {
+      "avg_prospects": 35.0,
+      "avg_cost_per_prospect": 0.265,
+      "total_cost": 9.275,
+      "expected_meetings": 0.525,
+      "expected_revenue": 393.75,
+      "roi_percent": 4145.2830188679245,
+      "recommendation": "\ud83d\ude80 ALTAMENTE RECOMENDADO - ROI excelente"
+    }
+  },
+  "cultural_analysis": {
+    "australia": {
+      "monday_work_culture": "Moderadamente ativa",
+      "best_outreach_times": "Tuesday 9AM-11AM, Wednesday 2PM-4PM",
+      "cultural_notes": [
+        "Segunda de manh\u00e3: caf\u00e9 culture, slow start",
+        "Evitar long weekends (muito comum)",
+        "Ter\u00e7a/Quarta: picos de produtividade",
+        "Sexta afternoon: wind down mode"
+      ],
+      "response_rates": {
+        "monday": "15-20% below average",
+        "tuesday_wednesday": "peak performance",
+        "thursday": "good",
+        "friday": "declining after 2PM"
+      }
+    },
+    "new_zealand": {
+      "monday_work_culture": "Mais relaxada que AU",
+      "best_outreach_times": "Tuesday 10AM-12PM, Wednesday 1PM-3PM",
+      "cultural_notes": [
+        "Monday blues mais pronunciado",
+        "Work-life balance culture forte",
+        "Kiwi time: mais flex\u00edvel com hor\u00e1rios",
+        "Evitar school holidays periods"
+      ],
+      "response_rates": {
+        "monday": "20-25% below average",
+        "tuesday_wednesday": "optimal",
+        "thursday": "decent",
+        "friday": "avoid after 1PM"
+      }
+    },
+    "real_estate_specific": {
+      "industry_patterns": [
+        "Weekends s\u00e3o dias de trabalho (open homes)",
+        "Segunda = recovery day, admin tasks",
+        "Ter\u00e7a/Quarta = client meetings, prospecting",
+        "Quinta = preparation para weekend",
+        "Sexta = networking, wind down"
+      ],
+      "optimal_outreach_strategy": "Tuesday 10AM-12PM local time"
+    }
+  }
+}

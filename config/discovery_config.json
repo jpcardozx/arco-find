@@ -7,6 +7,38 @@
     "max_prospects_per_query": 20,
     "analysis_timeout_seconds": 30
   },
+  "searchapi_config": {
+    "api_key": "${SEARCHAPI_KEY}",
+    "base_url": "https://serpapi.com/api/v1/search",
+    "rate_limit_delay": 1.0,
+    "max_retries": 3,
+    "timeout_seconds": 30,
+    "arco_verticals": {
+      "dental_ortho": [
+        "invisalign", "dental implants", "veneers", "clear aligners",
+        "orthodontist", "emergency dentist", "dental clinic"
+      ],
+      "estética_medspa": [
+        "botox", "dermal filler", "laser hair removal", "coolsculpting",
+        "medical spa", "skin clinic", "cosmetic clinic"
+      ],
+      "real_estate": [
+        "property management", "real estate agent", "sell your home",
+        "free appraisal", "open home", "property valuation"
+      ],
+      "home_services": [
+        "solar install", "roof replacement", "air conditioning",
+        "heating repair", "plumbing emergency", "electrical services"
+      ]
+    },
+    "priority_regions": ["IE", "GB", "MT", "CY", "AU", "NZ"],
+    "qualification_thresholds": {
+      "min_ads_threshold": 3,
+      "max_ads_threshold": 80,
+      "recency_days": 30,
+      "min_arco_score": 50
+    }
+  },
   "icp_criteria": {
     "company_size": {
       "preferred": ["medium", "large", "enterprise"],

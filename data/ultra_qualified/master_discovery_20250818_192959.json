@@ -1,0 +1,398 @@
+{
+  "execution_summary": {
+    "timestamp": "20250818_192959",
+    "engine_version": "Master Discovery Engine v4.0",
+    "methodology": "Evidence-based with cost controls",
+    "total_prospects": 10,
+    "query_cost_estimate": "<$0.25",
+    "markets_targeted": "GB, IE, AU, NZ, CA (English-speaking SMEs)"
+  },
+  "financial_analysis": {
+    "total_estimated_monthly_spend": 4330,
+    "average_confidence_score": 1.9,
+    "project_value_analysis": {
+      "minimum_potential_gbp": 12000,
+      "maximum_potential_gbp": 32000,
+      "expected_value_gbp": 6400
+    },
+    "probability_distribution": {
+      "high_probability": 0,
+      "medium_probability": 10,
+      "lower_probability": 0
+    }
+  },
+  "quality_metrics": {
+    "prospects_with_web_analysis": 10,
+    "verified_web_insights": 10,
+    "high_evidence_prospects": 10,
+    "average_ad_volume": 14.0
+  },
+  "vertical_breakdown": {
+    "aesthetic": 4,
+    "estate": 2,
+    "legal": 3,
+    "dental": 1
+  },
+  "prospects": [
+    {
+      "company_name": "Avenue Dental Group PTY LTD ABN 86617459113",
+      "location": "AU",
+      "vertical": "dental",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 450,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR03118015621170724865/creative/CR13613702931269287937",
+        "accessible": true,
+        "load_time_ms": 1823,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - dental business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £450 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "Private Therapy Clinic Ltd",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 420,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR16624574511567601665/creative/CR03075495032623464449",
+        "accessible": true,
+        "load_time_ms": 1596,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - aesthetic business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £420 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "The Thornhill Clinic",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 420,
+      "company_size_category": "micro_practice",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR11604837806559461377/creative/CR07341600217113821185",
+        "accessible": true,
+        "load_time_ms": 1782,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - aesthetic business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £420 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "Lexea Legal Ltd",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 500,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR12664682250260971521/creative/CR11013856594461982721",
+        "accessible": true,
+        "load_time_ms": 1443,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - legal business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £500 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "Frankie Property, PTy Ltd",
+      "location": "AU",
+      "vertical": "estate",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 350,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR09333599761166499841/creative/CR01035093612326551553",
+        "accessible": true,
+        "load_time_ms": 1359,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - estate business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £350 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "SWIFT Homeopathy Clinic Limited",
+      "location": "GB",
+      "vertical": "aesthetic",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 420,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR07016007903274336257/creative/CR06674662731724881921",
+        "accessible": true,
+        "load_time_ms": 1496,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - aesthetic business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £420 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "John Lake Estate Agents",
+      "location": "GB",
+      "vertical": "estate",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 350,
+      "company_size_category": "growing_micro",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR00715892673679982593/creative/CR09165426227882754049",
+        "accessible": true,
+        "load_time_ms": 1386,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - estate business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £350 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "Homeward Legal Limited",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 500,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR15074534764494979073/creative/CR08074091152686448641",
+        "accessible": true,
+        "load_time_ms": 1366,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - legal business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £500 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "Guthrie & Co Legal Ltd.",
+      "location": "GB",
+      "vertical": "legal",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 500,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 2.0,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR02491698854135595009/creative/CR04500435009567457281",
+        "accessible": true,
+        "load_time_ms": 1178,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - legal business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £500 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    },
+    {
+      "company_name": "Diana Beauty Salon LTD",
+      "location": "IE",
+      "vertical": "aesthetic",
+      "ad_volume": 14,
+      "creative_count": 14,
+      "creative_diversity": 0.4,
+      "estimated_monthly_spend": 420,
+      "company_size_category": "micro_company",
+      "pain_signals": [
+        "High activity (14 ads) for micro SME - potential inefficiency"
+      ],
+      "evidence_quality": "high",
+      "confidence_score": 1.5,
+      "web_analysis": {
+        "url": "https://adstransparency.google.com/advertiser/AR15349341495240949761/creative/CR18318198124901826561",
+        "accessible": true,
+        "load_time_ms": 1784,
+        "https_enabled": true,
+        "mobile_responsive": true,
+        "issues_found": [],
+        "confidence": "verified"
+      },
+      "project_type": "landing_page_work",
+      "value_range_gbp": [
+        1200,
+        3200
+      ],
+      "success_probability": 0.2,
+      "approach_strategy": "Consultative growth approach - aesthetic business with optimization potential",
+      "key_talking_points": [
+        "Observed 14 ads with 40% diversity",
+        "Estimated monthly spend: £420 suggests growth opportunity",
+        "Opportunity: High activity (14 ads) for micro SME - potential inefficiency"
+      ]
+    }
+  ]
+}
