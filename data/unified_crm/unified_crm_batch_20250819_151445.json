@@ -1,0 +1,98 @@
+{
+  "batch_metadata": {
+    "timestamp": "2025-08-19T15:14:45.613953",
+    "total_leads": 1,
+    "high_priority_leads": 1,
+    "average_quality_score": 94.5,
+    "total_estimated_opportunity": 15000.0
+  },
+  "leads": [
+    {
+      "company_name": "TechCorp Solutions",
+      "domain": "techcorp.com",
+      "industry": "Software",
+      "country": "US",
+      "search_keywords": [
+        "crm software",
+        "sales automation"
+      ],
+      "ad_volume_score": 85,
+      "estimated_monthly_spend": 15000,
+      "confirmed_advertiser": true,
+      "advertising_platforms": [
+        "google",
+        "meta"
+      ],
+      "creative_diversity_score": 0.3,
+      "campaign_strategies": [
+        "lead_generation"
+      ],
+      "target_audiences": [
+        "business_owners"
+      ],
+      "creative_themes": [
+        "efficiency"
+      ],
+      "pain_signals": [
+        {
+          "type": "performance_issues",
+          "description": "Site performance below industry standards",
+          "severity": "high",
+          "estimated_revenue_impact": 2475.0,
+          "urgency_days": 30,
+          "solution_category": "technical_optimization"
+        },
+        {
+          "type": "advertising_inefficiency",
+          "description": "High cost per acquisition indicates targeting issues",
+          "severity": "medium",
+          "estimated_revenue_impact": 3000.0,
+          "urgency_days": 45,
+          "solution_category": "campaign_optimization"
+        }
+      ],
+      "growth_opportunities": [
+        {
+          "type": "platform_expansion",
+          "description": "Expand to additional advertising platforms",
+          "potential_revenue_increase": 6750.0,
+          "implementation_timeline": "4-8 weeks",
+          "investment_required": "medium",
+          "roi_timeline": "2-3 months"
+        },
+        {
+          "type": "creative_optimization",
+          "description": "Implement systematic creative testing framework",
+          "potential_revenue_increase": 3750.0,
+          "implementation_timeline": "2-4 weeks",
+          "investment_required": "low",
+          "roi_timeline": "1-2 months"
+        },
+        {
+          "type": "audience_expansion",
+          "description": "Expand target audience segments with lookalike modeling",
+          "potential_revenue_increase": 4500.0,
+          "implementation_timeline": "3-6 weeks",
+          "investment_required": "medium",
+          "roi_timeline": "2-4 months"
+        }
+      ],
+      "urgency_score": 81.25,
+      "lead_quality_score": 94.5,
+      "outreach_priority": "high",
+      "recommended_approach": {
+        "approach": "consultative_strategic",
+        "key_message": "Revenue optimization and growth acceleration",
+        "timeline": "immediate",
+        "decision_maker": "VP Growth/CMO"
+      },
+      "enriched_timestamp": "2025-08-19T15:14:45.613850",
+      "data_sources": [
+        "searchapi_layer1",
+        "searchapi_layer2",
+        "searchapi_layer3"
+      ],
+      "confidence_level": 100
+    }
+  ]
+}
