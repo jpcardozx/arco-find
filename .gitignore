@@ -8,6 +8,16 @@ __pycache__/
 env/
 venv/
 .venv/
+.env
+.env.local
+.env.production
+.env.development
+
+# API Keys and Secrets
+*.key
+*.pem
+credentials.json
+secrets/
 
 # Editor directories
 .idea/
@@ -19,8 +29,11 @@ cache/
 
 # Misc
 .DS_Store
+<<<<<<< HEAD
 .env
 
 # Arco-Find specific
 output/
 arquivos_obsoletos/
+=======
+>>>>>>> 3eecc12b42c819e6c9a1ddff98abbcc0a9ab723e

@@ -43,7 +43,8 @@ assign
                     Write-Host "Método 2 também falhou" -ForegroundColor Red
                 }
             }
-        } else {
+        }
+        else {
             Write-Host "Disco não encontrado. Aguardando..." -ForegroundColor Yellow
         }
     }
@@ -57,6 +58,7 @@ assign
 
 if ($attempt -gt $maxAttempts) {
     Write-Host "❌ Todas as tentativas falharam. SSD pode ter defeito físico." -ForegroundColor Red
-} else {
+}
+else {
     Write-Host "🎉 Operação concluída!" -ForegroundColor Green
 }
