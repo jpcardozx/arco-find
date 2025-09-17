@@ -1,0 +1,127 @@
+{
+  "discovery_date": "2025-07-15T22:20:00.974535",
+  "focus_segment": "education_tech",
+  "optimization_basis": "Real data analysis showing education tech highest ROI",
+  "total_prospects": 7,
+  "total_monthly_opportunity": 350414,
+  "arco_monthly_fee": 87603,
+  "annual_potential": 1051236,
+  "prospects": [
+    {
+      "domain": "pluralsight.com",
+      "segment": "bootcamps_tech",
+      "detected_tools": [
+        "teams",
+        "salesforce education"
+      ],
+      "saas_cost": 370,
+      "performance_loss": 83592,
+      "total_waste": 83962,
+      "qualified": true,
+      "education_score": 45,
+      "lcp_seconds": 18.71858543562461,
+      "priority_tier": "S+++",
+      "estimated_students": "Large (50k+ students)",
+      "revenue_model": "Course Sales + Freemium"
+    },
+    {
+      "domain": "devsuperior.com.br",
+      "segment": "online_education",
+      "detected_tools": [],
+      "saas_cost": 0,
+      "performance_loss": 81622,
+      "total_waste": 81622,
+      "qualified": true,
+      "education_score": 50,
+      "lcp_seconds": 18.32452611645063,
+      "priority_tier": "S+++",
+      "estimated_students": "Small (<5k students)",
+      "revenue_model": "Course Sales"
+    },
+    {
+      "domain": "digitalinnovation.one",
+      "segment": "bootcamps_tech",
+      "detected_tools": [
+        "github teams"
+      ],
+      "saas_cost": 48,
+      "performance_loss": 80417,
+      "total_waste": 80465,
+      "qualified": true,
+      "education_score": 50,
+      "lcp_seconds": 18.083536770794776,
+      "priority_tier": "S+++",
+      "estimated_students": "Medium (5k-50k students)",
+      "revenue_model": "Subscription + Course Sales + Freemium"
+    },
+    {
+      "domain": "linkedin.com/learning",
+      "segment": "bootcamps_tech",
+      "detected_tools": [
+        "teams",
+        "canvas",
+        "zendesk",
+        "github teams"
+      ],
+      "saas_cost": 657,
+      "performance_loss": 46785,
+      "total_waste": 47442,
+      "qualified": true,
+      "education_score": 55,
+      "lcp_seconds": 11.357020214843804,
+      "priority_tier": "S+++",
+      "estimated_students": "Medium (5k-50k students)",
+      "revenue_model": "Subscription + Course Sales + Freemium"
+    },
+    {
+      "domain": "domestika.org",
+      "segment": "online_education",
+      "detected_tools": [
+        "vimeo business"
+      ],
+      "saas_cost": 75,
+      "performance_loss": 29852,
+      "total_waste": 29927,
+      "qualified": true,
+      "education_score": 45,
+      "lcp_seconds": 7.9704005233177035,
+      "priority_tier": "S+++",
+      "estimated_students": "Large (50k+ students)",
+      "revenue_model": "Course Sales + Freemium"
+    },
+    {
+      "domain": "treinaweb.com.br",
+      "segment": "online_education",
+      "detected_tools": [
+        "github teams"
+      ],
+      "saas_cost": 48,
+      "performance_loss": 14940,
+      "total_waste": 14988,
+      "qualified": true,
+      "education_score": 65,
+      "lcp_seconds": 4.988016769446529,
+      "priority_tier": "S+",
+      "estimated_students": "Medium (5k-50k students)",
+      "revenue_model": "Course Sales + Freemium"
+    },
+    {
+      "domain": "alura.com.br",
+      "segment": "online_education",
+      "detected_tools": [
+        "hubspot education",
+        "wordpress premium",
+        "discord nitro"
+      ],
+      "saas_cost": 365,
+      "performance_loss": 11643,
+      "total_waste": 12008,
+      "qualified": true,
+      "education_score": 65,
+      "lcp_seconds": 4.328755227476952,
+      "priority_tier": "S+",
+      "estimated_students": "Small (<5k students)",
+      "revenue_model": "Course Sales"
+    }
+  ]
+}

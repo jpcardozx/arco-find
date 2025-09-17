@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-07-19T14:30:53.732043",
+  "leads": [
+    {
+      "lead_id": "10b4aaa2-6e6f-4a89-9708-6ff2d9660e72",
+      "domain": "toh.com.br",
+      "company_name": "Toh Acess\u00f3rios Pet",
+      "current_stage": "imported",
+      "stage_history": {
+        "imported": {
+          "timestamp": "2025-07-19T14:30:53.731042",
+          "duration": 0
+        },
+        "enriched_advanced": {
+          "timestamp": "2025-07-17T20:26:10.013849",
+          "duration": 151483.717193
+        }
+      },
+      "metadata": {
+        "enriched_advanced": {
+          "start_time": "2025-07-17T20:26:10.013849"
+        },
+        "imported": {
+          "source": "apollo_csv",
+          "csv_file": "apollo-accounts-export (1).csv",
+          "row_number": 1,
+          "session_id": "887f51d2",
+          "industry": "consumer services",
+          "employee_count": 13,
+          "country": "Brazil"
+        }
+      },
+      "errors": [],
+      "total_duration": 0.001001
+    }
+  ]
+}

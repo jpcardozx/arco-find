@@ -1,0 +1,239 @@
+[
+  {
+    "domain": "toh.com.br",
+    "company_name": "Toh Acess\u00f3rios Pet",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified",
+      "registered_crm"
+    ],
+    "final_qualified": true,
+    "qualification_level": "C",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 21540.0,
+      "roi_percentage": 1.1046153846153846,
+      "monthly_waste": 3998.1881612510383
+    },
+    "best_icp": "shopify_dtc",
+    "qualification_summary": {
+      "total_score": 56.776153846153846,
+      "qualification_reasons": [
+        "Moderate overall score",
+        "Significant savings potential ($21,540)"
+      ],
+      "disqualification_reasons": [],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 51.104615384615386,
+        "technology_score": 60,
+        "contact_score": 40,
+        "company_score": 100,
+        "engagement_score": 80
+      }
+    },
+    "crm_lead_id": "380ab374-ccab-4582-9cf6-d1fe23ade5ae"
+  },
+  {
+    "domain": "bikinilasirene.com.br",
+    "company_name": "La Sir\u00e8ne",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified",
+      "registered_crm"
+    ],
+    "final_qualified": true,
+    "qualification_level": "C",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 21540.0,
+      "roi_percentage": 1.436,
+      "monthly_waste": 3145.2060066814224
+    },
+    "best_icp": "shopify_dtc",
+    "qualification_summary": {
+      "total_score": 58.359,
+      "qualification_reasons": [
+        "Moderate overall score",
+        "Good technology stack",
+        "Significant savings potential ($21,540)"
+      ],
+      "disqualification_reasons": [],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 51.436,
+        "technology_score": 70,
+        "contact_score": 40,
+        "company_score": 100,
+        "engagement_score": 80
+      }
+    },
+    "crm_lead_id": "2341b551-3da7-463b-9f90-18da39b54475"
+  },
+  {
+    "domain": "magnavita.com.br",
+    "company_name": "Emp\u00f3rio Magna Vita",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified",
+      "registered_crm"
+    ],
+    "final_qualified": true,
+    "qualification_level": "C",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 21540.0,
+      "roi_percentage": 1.436,
+      "monthly_waste": 3480.1479074246354
+    },
+    "best_icp": "shopify_dtc",
+    "qualification_summary": {
+      "total_score": 59.859,
+      "qualification_reasons": [
+        "Moderate overall score",
+        "Good technology stack",
+        "Significant savings potential ($21,540)"
+      ],
+      "disqualification_reasons": [],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 51.436,
+        "technology_score": 80,
+        "contact_score": 40,
+        "company_score": 100,
+        "engagement_score": 80
+      }
+    },
+    "crm_lead_id": "65b193c5-14ef-42be-a9cf-f5e82779cccb"
+  },
+  {
+    "domain": "joolabrasil.com",
+    "company_name": "JOOLA Brasil T\u00eanis de Mesa e Pickleball",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified",
+      "registered_crm"
+    ],
+    "final_qualified": true,
+    "qualification_level": "C",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 19650.0,
+      "roi_percentage": 1.8714285714285714,
+      "monthly_waste": 2457.232203276227
+    },
+    "best_icp": "shopify_dtc",
+    "qualification_summary": {
+      "total_score": 56.96785714285714,
+      "qualification_reasons": [
+        "Moderate overall score",
+        "Significant savings potential ($19,650)"
+      ],
+      "disqualification_reasons": [],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 51.871428571428574,
+        "technology_score": 60,
+        "contact_score": 40,
+        "company_score": 100,
+        "engagement_score": 80
+      }
+    },
+    "crm_lead_id": "651265fc-6d24-439e-811f-a6ec2331f4d7"
+  },
+  {
+    "domain": "voyantdistrihub.com",
+    "company_name": "Voyant Distrihub",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified",
+      "registered_crm"
+    ],
+    "final_qualified": true,
+    "qualification_level": "C",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 19650.0,
+      "roi_percentage": 3.2750000000000004,
+      "monthly_waste": 2862.4191953122727
+    },
+    "best_icp": "health_supplements",
+    "qualification_summary": {
+      "total_score": 57.31875,
+      "qualification_reasons": [
+        "Moderate overall score",
+        "Significant savings potential ($19,650)"
+      ],
+      "disqualification_reasons": [],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 53.275,
+        "technology_score": 60,
+        "contact_score": 40,
+        "company_score": 100,
+        "engagement_score": 80
+      }
+    },
+    "crm_lead_id": "f53fa799-b29b-4230-b6f1-9bc37fe218a0"
+  }
+]

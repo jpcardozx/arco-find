@@ -1,0 +1,83 @@
+{
+  "generated_at": "2025-07-15T16:14:03.770916",
+  "discovery_method": "real_transparent_scraping",
+  "libraries_used": [
+    "requests",
+    "beautifulsoup4",
+    "builtwith"
+  ],
+  "summary": {
+    "total_prospects": 1,
+    "analyzed_count": 6,
+    "qualified_count": 1,
+    "qualification_rate": 16.7,
+    "high_priority_count": 0,
+    "total_monthly_opportunity": 600,
+    "average_opportunity": 600
+  },
+  "prospects": [
+    {
+      "company_name": "Loja Integrada",
+      "domain": "lojaintegrada.com.br",
+      "industry": "E-commerce Platform",
+      "description": "Plataforma de e-commerce brasileira",
+      "source": "known_tech_companies",
+      "website_analysis": {
+        "accessible": true,
+        "status_code": 200,
+        "title": "Loja Integrada",
+        "meta_description": "Loja Integrada",
+        "page_size_kb": 258.2109375,
+        "load_time_ms": 88.645,
+        "has_contact_info": true,
+        "has_pricing": true,
+        "has_blog": true,
+        "mobile_responsive": true,
+        "uses_https": true,
+        "server": "cloudflare",
+        "compression": true
+      },
+      "tech_stack": {
+        "raw_data": {
+          "cdn": [
+            "CloudFlare"
+          ],
+          "tag-managers": [
+            "Google Tag Manager"
+          ]
+        },
+        "categories": [
+          "cdn",
+          "tag-managers"
+        ],
+        "total_technologies": 2,
+        "complexity_score": 20,
+        "saas_tools": [],
+        "monthly_saas_cost": 0
+      },
+      "performance_analysis": {
+        "load_time_ms": 636,
+        "status_code": 200,
+        "response_size_kb": 258.2041015625,
+        "server_response_time": 491.36400000000003,
+        "compression_enabled": true,
+        "cache_control": "",
+        "score": 100,
+        "issues": []
+      },
+      "business_metrics": {
+        "monthly_opportunity_usd": 600,
+        "annual_opportunity_usd": 7200,
+        "priority_level": "LOW",
+        "priority_score": 7,
+        "saas_optimization_potential": 0,
+        "performance_optimization_potential": 240,
+        "total_issues": 0,
+        "issues_summary": [],
+        "roi_potential": 120
+      },
+      "analysis_timestamp": "2025-07-15T16:13:59.303354",
+      "analysis_completeness": "FULL"
+    }
+  ]
+}

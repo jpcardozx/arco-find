@@ -1,0 +1,280 @@
+{
+  "generated_at": "2025-07-15T16:15:59.103763",
+  "target_revenue_range": "USD 500-1000",
+  "timeline_days": 7,
+  "prospects_analyzed": 1,
+  "portfolio_analysis": {
+    "total_prospects": 1,
+    "total_monthly_opportunity": 600,
+    "average_opportunity": 600,
+    "top_prospect": {
+      "company_name": "Loja Integrada",
+      "domain": "lojaintegrada.com.br",
+      "industry": "E-commerce Platform",
+      "description": "Plataforma de e-commerce brasileira",
+      "source": "known_tech_companies",
+      "website_analysis": {
+        "accessible": true,
+        "status_code": 200,
+        "title": "Loja Integrada",
+        "meta_description": "Loja Integrada",
+        "page_size_kb": 258.2109375,
+        "load_time_ms": 88.645,
+        "has_contact_info": true,
+        "has_pricing": true,
+        "has_blog": true,
+        "mobile_responsive": true,
+        "uses_https": true,
+        "server": "cloudflare",
+        "compression": true
+      },
+      "tech_stack": {
+        "raw_data": {
+          "cdn": [
+            "CloudFlare"
+          ],
+          "tag-managers": [
+            "Google Tag Manager"
+          ]
+        },
+        "categories": [
+          "cdn",
+          "tag-managers"
+        ],
+        "total_technologies": 2,
+        "complexity_score": 20,
+        "saas_tools": [],
+        "monthly_saas_cost": 0
+      },
+      "performance_analysis": {
+        "load_time_ms": 636,
+        "status_code": 200,
+        "response_size_kb": 258.2041015625,
+        "server_response_time": 491.36400000000003,
+        "compression_enabled": true,
+        "cache_control": "",
+        "score": 100,
+        "issues": []
+      },
+      "business_metrics": {
+        "monthly_opportunity_usd": 600,
+        "annual_opportunity_usd": 7200,
+        "priority_level": "LOW",
+        "priority_score": 7,
+        "saas_optimization_potential": 0,
+        "performance_optimization_potential": 240,
+        "total_issues": 0,
+        "issues_summary": [],
+        "roi_potential": 120
+      },
+      "analysis_timestamp": "2025-07-15T16:13:59.303354",
+      "analysis_completeness": "FULL"
+    },
+    "revenue_confidence": "MEDIUM"
+  },
+  "daily_actions": {
+    "day_1": {
+      "date": "2025-07-15",
+      "day_name": "Tuesday",
+      "focus": "Research & Qualification Enhancement",
+      "actions": [
+        "Deep research on top 3 prospects from real discovery",
+        "Identify key decision makers using LinkedIn",
+        "Analyze tech stack optimization opportunities",
+        "Create personalized value propositions",
+        "Set up tracking systems"
+      ],
+      "targets": {
+        "research_completed": 3,
+        "value_props_created": 3
+      },
+      "deliverables": [
+        "Prospect research reports",
+        "Value proposition documents"
+      ],
+      "revenue_milestone": 0
+    },
+    "day_2": {
+      "date": "2025-07-16",
+      "day_name": "Wednesday",
+      "focus": "Outreach Campaign Launch",
+      "actions": [
+        "Send personalized outreach emails to top prospects",
+        "LinkedIn connection requests with custom messages",
+        "Cold calls to 2 highest priority prospects",
+        "Social media engagement (comment on posts)",
+        "Follow up with warm prospects"
+      ],
+      "targets": {
+        "emails_sent": 5,
+        "calls_made": 2,
+        "linkedin_connects": 10
+      },
+      "deliverables": [
+        "Outreach email templates",
+        "LinkedIn messaging scripts"
+      ],
+      "revenue_milestone": 0
+    },
+    "day_3": {
+      "date": "2025-07-17",
+      "day_name": "Thursday",
+      "focus": "Follow-up & Demo Scheduling",
+      "actions": [
+        "Follow up on outreach (24-48h rule)",
+        "Schedule demo calls with interested prospects",
+        "Send case studies to prospects who replied",
+        "Address objections and questions",
+        "Nurture prospects with valuable content"
+      ],
+      "targets": {
+        "follow_ups_sent": 5,
+        "demos_scheduled": 2
+      },
+      "deliverables": [
+        "Demo presentation",
+        "Follow-up email sequences"
+      ],
+      "revenue_milestone": 0
+    },
+    "day_4": {
+      "date": "2025-07-18",
+      "day_name": "Friday",
+      "focus": "Proposal Development",
+      "actions": [
+        "Create custom proposals for engaged prospects",
+        "Develop implementation timelines",
+        "Prepare ROI calculations",
+        "Schedule proposal presentation calls",
+        "Handle pricing negotiations"
+      ],
+      "targets": {
+        "proposals_created": 2,
+        "presentations_scheduled": 2
+      },
+      "deliverables": [
+        "Custom proposals",
+        "ROI calculation spreadsheets"
+      ],
+      "revenue_milestone": 0
+    },
+    "day_5": {
+      "date": "2025-07-19",
+      "day_name": "Saturday",
+      "focus": "Negotiation & Closing",
+      "actions": [
+        "Present final proposals",
+        "Negotiate terms and pricing",
+        "Handle final objections",
+        "Create urgency with limited-time offers",
+        "Close deals with clear next steps"
+      ],
+      "targets": {
+        "proposals_presented": 2,
+        "negotiations_started": 1
+      },
+      "deliverables": [
+        "Negotiation summaries",
+        "Updated proposals"
+      ],
+      "revenue_milestone": 300.0
+    },
+    "day_6": {
+      "date": "2025-07-20",
+      "day_name": "Sunday",
+      "focus": "Implementation Planning",
+      "actions": [
+        "Finalize contracts and agreements",
+        "Plan implementation schedule",
+        "Set up project management systems",
+        "Schedule kickoff calls",
+        "Collect initial payments"
+      ],
+      "targets": {
+        "contracts_signed": 1,
+        "payments_collected": 1
+      },
+      "deliverables": [
+        "Signed contracts",
+        "Implementation plans"
+      ],
+      "revenue_milestone": 225.0
+    },
+    "day_7": {
+      "date": "2025-07-21",
+      "day_name": "Monday",
+      "focus": "Results Analysis & Scaling",
+      "actions": [
+        "Analyze 7-day results vs targets",
+        "Document lessons learned",
+        "Plan scaling strategies",
+        "Set up systems for ongoing revenue",
+        "Prepare next 7-day cycle"
+      ],
+      "targets": {
+        "revenue_analyzed": true,
+        "next_cycle_planned": true
+      },
+      "deliverables": [
+        "Results analysis report",
+        "Scaling strategy document"
+      ],
+      "revenue_milestone": 225.0
+    }
+  },
+  "outreach_materials": {
+    "prospect_1_Loja_Integrada": {
+      "company_info": {
+        "name": "Loja Integrada",
+        "domain": "lojaintegrada.com.br",
+        "opportunity_usd": 600
+      },
+      "email_template": "Subject: Performance Optimization Opportunity - Loja Integrada\n\nOlá,\n\nEncontrei o Loja Integrada durante uma análise de empresas brasileiras de tecnologia e identifiquei algumas oportunidades interessantes.\n\n**Análise Técnica Rápida:**\n• Website: lojaintegrada.com.br\n• Stack tecnológico: 2 ferramentas detectadas\n• Performance score: 100/100\n• Potencial de otimização: USD 600/mês\n\n**Oportunidades identificadas:**\n1. Otimização de performance (tempo de carregamento)\n2. Simplificação do stack tecnológico\n3. Redução de custos SaaS\n\nPosso mostrar especificamente como implementar essas otimizações em uma call de 15 minutos?\n\nAlguns resultados recentes:\n• TechCorp: Reduziu 40% dos custos SaaS (USD 2,000/mês economia)\n• DigitalAgency: Melhorou performance em 60% (25% mais conversões)\n\nTem interesse em uma análise mais detalhada?\n\nAbraços,\n[Seu Nome]\n[Contato]",
+      "linkedin_template": "Olá! \n\nVi que você trabalha no Loja Integrada e fiquei impressionado com a operação de vocês.\n\nFaço análises de performance e stack tecnológico para empresas brasileiras. Identifiquei algumas oportunidades de otimização no Loja Integrada que poderiam gerar USD 600/mês em eficiência.\n\nVale uma conversa rápida?",
+      "proposal_outline": {
+        "title": "Performance & Cost Optimization Proposal - Loja Integrada",
+        "executive_summary": "Oportunidade de USD 600/mês em otimizações",
+        "current_state_analysis": {
+          "identified_issues": [],
+          "optimization_potential": "USD 600/mês"
+        },
+        "proposed_solution": {
+          "phase_1": "Performance optimization (Days 1-14)",
+          "phase_2": "SaaS cost reduction (Days 15-30)",
+          "phase_3": "Ongoing monitoring (Month 2+)"
+        },
+        "investment": {
+          "implementation": "USD 500-800 (one-time)",
+          "monthly_management": "USD 150-300/mês",
+          "roi_timeline": "2-3 months payback"
+        },
+        "expected_outcomes": {
+          "cost_savings": "USD 300/mês",
+          "performance_improvement": "30-60% faster load times",
+          "efficiency_gains": "20-40% operational efficiency"
+        }
+      },
+      "call_script": "**Cold Call Script - Loja Integrada**\n\n**Opening (30 seconds):**\n\"Olá, aqui é [Nome]. Estou ligando porque fiz uma análise técnica do lojaintegrada.com.br e identifiquei algumas oportunidades que poderiam gerar USD 600/mês em otimizações. Você tem 2 minutos para eu explicar?\"\n\n**If YES - Value Proposition (60 seconds):**\n\"Perfeito. Descobri que vocês estão usando várias ferramentas que poderiam ser simplificadas, e a performance do site tem espaço para melhorias significativas. Trabalho especificamente com empresas brasileiras de tech para reduzir custos e melhorar performance.\n\nPor exemplo, recentemente ajudei uma empresa similar a economizar USD 2,000/mês só em otimização de SaaS. \n\nFaz sentido agendarmos 15 minutos para eu mostrar especificamente o que encontrei no Loja Integrada?\"\n\n**If NO - Quick Hook:**\n\"Entendo que está ocupado. É só que encontrei USD 600/mês em oportunidades específicas do Loja Integrada. Posso enviar um email com a análise? São literalmente 3 pontos que você pode implementar essa semana.\"\n\n**Closing:**\n\"Quando seria um bom momento para uma call rápida? Tenho slots amanhã às [horários] ou na quinta às [horários].\""
+    }
+  },
+  "success_metrics": {
+    "revenue_targets": {
+      "minimum": 500,
+      "target": 750.0,
+      "stretch": 1000
+    },
+    "activity_metrics": {
+      "emails_sent": 25,
+      "calls_made": 10,
+      "demos_scheduled": 5,
+      "proposals_sent": 3,
+      "deals_closed": 1
+    },
+    "conversion_targets": {
+      "email_response_rate": "20%",
+      "call_to_demo_rate": "40%",
+      "demo_to_proposal_rate": "60%",
+      "proposal_to_close_rate": "50%"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-07-17T20:06:47.043855",
+  "processing_summary": {
+    "total_prospects": 3,
+    "successful_prospects": 3,
+    "success_rate": 1.0,
+    "qualified_prospects": 0,
+    "qualification_rate": 0.0,
+    "registered_prospects": 0,
+    "registration_rate": 0
+  },
+  "qualification_analysis": {
+    "level_distribution": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 3
+    },
+    "priority_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 3,
+      "5": 0
+    },
+    "average_scores": {
+      "total_score": 56.08138461538462,
+      "financial_score": 51.325538461538464,
+      "icp_score": 40.0
+    }
+  },
+  "financial_analysis": {
+    "total_annual_savings": 64620.0,
+    "average_annual_savings": 0,
+    "total_monthly_waste": 8203.404859237527,
+    "average_monthly_waste": 2734.4682864125093
+  },
+  "stage_performance": {
+    "imported": 0,
+    "enriched_basic": 0,
+    "enriched_advanced": 0,
+    "analyzed": 0,
+    "qualified": 3,
+    "registered_crm": 0,
+    "contacted": 0,
+    "engaged": 0,
+    "meeting": 0,
+    "opportunity": 0,
+    "client": 0
+  },
+  "conversion_rates": {
+    "imported_to_enriched_basic": 0,
+    "enriched_basic_to_enriched_advanced": 0,
+    "enriched_advanced_to_analyzed": 0,
+    "analyzed_to_qualified": 0,
+    "qualified_to_registered_crm": 0.0,
+    "registered_crm_to_contacted": 0,
+    "contacted_to_engaged": 0,
+    "engaged_to_meeting": 0,
+    "meeting_to_opportunity": 0,
+    "opportunity_to_client": 0
+  }
+}

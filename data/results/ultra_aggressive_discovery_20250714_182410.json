@@ -1,0 +1,23 @@
+{
+  "ultra_discovery_results": [],
+  "metadata": {
+    "discovery_type": "ultra_aggressive_v5.0",
+    "total_companies": 0,
+    "tech_companies": 0,
+    "discovery_date": "2025-07-14T18:24:10.062972",
+    "sources_used": [
+      "cnpj_databases",
+      "startup_directories",
+      "google_searches",
+      "job_boards",
+      "linkedin_companies"
+    ],
+    "zero_tolerance_weak_results": true
+  },
+  "tech_companies_classified": [],
+  "quality_stats": {
+    "avg_name_length": 0,
+    "unique_domains": 0,
+    "unique_names": 0
+  }
+}

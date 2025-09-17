@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "timestamp": "20250716_103818",
+    "total_campaigns": 4,
+    "analysis_type": "niche_performance"
+  },
+  "niche_performance": {
+    "beauty_skincare": {
+      "campaigns": 2,
+      "total_prospects": 5,
+      "total_pipeline": 147500,
+      "avg_processing_time": 28.046300649642944,
+      "avg_prospect_value": 29500.0
+    },
+    "b2b_saas": {
+      "campaigns": 1,
+      "total_prospects": 4,
+      "total_pipeline": 154000,
+      "avg_processing_time": 18.456217765808105,
+      "avg_prospect_value": 38500.0
+    },
+    "ecommerce": {
+      "campaigns": 1,
+      "total_prospects": 5,
+      "total_pipeline": 171000,
+      "avg_processing_time": 23.356362342834473,
+      "avg_prospect_value": 34200.0
+    }
+  },
+  "campaigns_summary": [
+    {
+      "campaign_id": "beauty_q1_2025",
+      "niche": "beauty_skincare",
+      "prospects": 0,
+      "pipeline": 0,
+      "processing_time": 37.93163084983826
+    },
+    {
+      "campaign_id": "market_expansion_2025_beauty_skincare",
+      "niche": "beauty_skincare",
+      "prospects": 5,
+      "pipeline": 147500,
+      "processing_time": 18.160970449447632
+    },
+    {
+      "campaign_id": "market_expansion_2025_b2b_saas",
+      "niche": "b2b_saas",
+      "prospects": 4,
+      "pipeline": 154000,
+      "processing_time": 18.456217765808105
+    },
+    {
+      "campaign_id": "market_expansion_2025_ecommerce",
+      "niche": "ecommerce",
+      "prospects": 5,
+      "pipeline": 171000,
+      "processing_time": 23.356362342834473
+    }
+  ]
+}

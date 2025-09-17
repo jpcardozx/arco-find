@@ -1,0 +1,35 @@
+name,domain,monthly_sales,monthly_visits,category,source,vertical,launch_date,mobile_score,lcp,audit_status
+Beleza na Web,belezanaweb.com.br,25000.0,180000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Época Cosméticos,epocacosmeticos.com.br,35000.0,220000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Tricae,tricae.com.br,40000.0,150000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Imaginarium,imaginarium.com.br,30000.0,120000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Zattini,zattini.com.br,45000.0,280000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Petite Jolie,petitejolie.com.br,20000.0,95000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Track&Field,trackfield.com.br,55000.0,340000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Mundo Verde,mundoverde.com.br,28000.0,160000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Vila Mulher,vilamulher.com.br,15000.0,85000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Insider Store,insiderstore.com.br,22000.0,110000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Sephora BR,sephora.com.br,50000.0,380000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Loja Integrada Demo,demo.lojaintegrada.com.br,12000.0,65000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Tray Commerce,site-exemplo.tray.com.br,18000.0,75000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+VTEX Store,exemplo.vtexcommercestable.com.br,32000.0,145000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Mercado Shops,exemplo.mercadoshops.com.br,16000.0,88000.0,shopify_small,manual_verified,shopify,,0,0.0,pending
+Www.Googletagmanager,www.googletagmanager.com,,,saas_bootstrap,producthunt_web,saas,recent,0,0.0,pending
+Ph-Files.Imgix.Net,ph-files.imgix.net,,,saas_bootstrap,producthunt_web,saas,recent,0,0.0,pending
+Ph-Static.Imgix.Net,ph-static.imgix.net,,,saas_bootstrap,producthunt_web,saas,recent,0,0.0,pending
+Producthunt.App.Link,producthunt.app.link,,,saas_bootstrap,producthunt_web,saas,recent,0,0.0,pending
+Sympla,sympla.com.br,,,saas_bootstrap,manual_verified,saas,2016,0,0.0,pending
+Hotmart,hotmart.com,,,saas_bootstrap,manual_verified,saas,2011,0,0.0,pending
+Eduzz,eduzz.com,,,saas_bootstrap,manual_verified,saas,2015,0,0.0,pending
+Monetizze,monetizze.com.br,,,saas_bootstrap,manual_verified,saas,2017,0,0.0,pending
+Vindi,vindi.com.br,,,saas_bootstrap,manual_verified,saas,2014,0,0.0,pending
+Iugu,iugu.com,,,saas_bootstrap,manual_verified,saas,2013,0,0.0,pending
+PagSeguro,pagseguro.uol.com.br,,,saas_bootstrap,manual_verified,saas,2006,0,0.0,pending
+ContaAzul,contaazul.com,,,saas_bootstrap,manual_verified,saas,2012,0,0.0,pending
+Nibo,nibo.com.br,,,saas_bootstrap,manual_verified,saas,2012,0,0.0,pending
+Granatum,granatum.com.br,,,saas_bootstrap,manual_verified,saas,2019,0,0.0,pending
+JivoChat,jivochat.com.br,,,saas_bootstrap,manual_verified,saas,2012,0,0.0,pending
+Pipedrive BR,pipedrive.com.br,,,saas_bootstrap,manual_verified,saas,2010,0,0.0,pending
+Resultados Digitais,resultadosdigitais.com.br,,,saas_bootstrap,manual_verified,saas,2011,0,0.0,pending
+Moskit CRM,moskitcrm.com,,,saas_bootstrap,manual_verified,saas,2014,0,0.0,pending
+Agendor,agendor.com.br,,,saas_bootstrap,manual_verified,saas,2012,0,0.0,pending

@@ -1,0 +1,12 @@
+{
+  "prospects": [],
+  "metadata": {
+    "execution_time": "55.50s",
+    "discovery_sources": [],
+    "total_prospects": 0,
+    "categories": {},
+    "pipeline_version": "3.0_real_scraping",
+    "zero_fallbacks": true,
+    "sources": {}
+  }
+}

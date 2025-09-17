@@ -1,0 +1,372 @@
+{
+  "summary": {
+    "total_tests": 64,
+    "passed": 63,
+    "failed": 1,
+    "warnings": 1
+  },
+  "passed_tests": [
+    {
+      "name": "dir_arco",
+      "message": "Directory arco exists"
+    },
+    {
+      "name": "dir_arco/pipelines",
+      "message": "Directory arco/pipelines exists"
+    },
+    {
+      "name": "dir_arco/engines",
+      "message": "Directory arco/engines exists"
+    },
+    {
+      "name": "dir_arco/models",
+      "message": "Directory arco/models exists"
+    },
+    {
+      "name": "dir_arco/integrations",
+      "message": "Directory arco/integrations exists"
+    },
+    {
+      "name": "dir_arco/config",
+      "message": "Directory arco/config exists"
+    },
+    {
+      "name": "dir_arco/utils",
+      "message": "Directory arco/utils exists"
+    },
+    {
+      "name": "dir_tests",
+      "message": "Directory tests exists"
+    },
+    {
+      "name": "dir_docs",
+      "message": "Directory docs exists"
+    },
+    {
+      "name": "dir_config",
+      "message": "Directory config exists"
+    },
+    {
+      "name": "req1.1",
+      "message": "Project has a clear directory structure"
+    },
+    {
+      "name": "file_main.py",
+      "message": "File main.py exists"
+    },
+    {
+      "name": "file_requirements.txt",
+      "message": "File requirements.txt exists"
+    },
+    {
+      "name": "file_setup.py",
+      "message": "File setup.py exists"
+    },
+    {
+      "name": "file_.env.template",
+      "message": "File .env.template exists"
+    },
+    {
+      "name": "file_README.md",
+      "message": "File README.md exists"
+    },
+    {
+      "name": "req5.4",
+      "message": "Project has all required setup files"
+    },
+    {
+      "name": "req1.2",
+      "message": "Directory depth is 1, which is <= 3"
+    },
+    {
+      "name": "init_arco",
+      "message": "__init__.py exists in arco"
+    },
+    {
+      "name": "init_arco/pipelines",
+      "message": "__init__.py exists in arco/pipelines"
+    },
+    {
+      "name": "init_arco/engines",
+      "message": "__init__.py exists in arco/engines"
+    },
+    {
+      "name": "init_arco/models",
+      "message": "__init__.py exists in arco/models"
+    },
+    {
+      "name": "init_arco/integrations",
+      "message": "__init__.py exists in arco/integrations"
+    },
+    {
+      "name": "init_arco/config",
+      "message": "__init__.py exists in arco/config"
+    },
+    {
+      "name": "init_arco/utils",
+      "message": "__init__.py exists in arco/utils"
+    },
+    {
+      "name": "req1.4",
+      "message": "Project follows Python package conventions"
+    },
+    {
+      "name": "req2.1",
+      "message": "Archive directory exists for legacy code"
+    },
+    {
+      "name": "archive_readme",
+      "message": "README.md exists in archive directory"
+    },
+    {
+      "name": "legacy_dir_legacy",
+      "message": "Legacy directory legacy does not exist"
+    },
+    {
+      "name": "legacy_dir_old",
+      "message": "Legacy directory old does not exist"
+    },
+    {
+      "name": "legacy_dir_deprecated",
+      "message": "Legacy directory deprecated does not exist"
+    },
+    {
+      "name": "import_arco",
+      "message": "Successfully imported arco"
+    },
+    {
+      "name": "import_arco.pipelines",
+      "message": "Successfully imported arco.pipelines"
+    },
+    {
+      "name": "import_arco.engines",
+      "message": "Successfully imported arco.engines"
+    },
+    {
+      "name": "import_arco.models",
+      "message": "Successfully imported arco.models"
+    },
+    {
+      "name": "import_arco.integrations",
+      "message": "Successfully imported arco.integrations"
+    },
+    {
+      "name": "import_arco.config",
+      "message": "Successfully imported arco.config"
+    },
+    {
+      "name": "import_arco.utils",
+      "message": "Successfully imported arco.utils"
+    },
+    {
+      "name": "req3.2",
+      "message": "Project has clean imports"
+    },
+    {
+      "name": "cli_standard_pipeline",
+      "message": "Standard pipeline runs successfully"
+    },
+    {
+      "name": "cli_advanced_pipeline",
+      "message": "Advanced pipeline runs successfully"
+    },
+    {
+      "name": "cli_help",
+      "message": "CLI help command works correctly"
+    },
+    {
+      "name": "req6.3",
+      "message": "CLI compatibility is maintained"
+    },
+    {
+      "name": "doc_README.md",
+      "message": "Documentation file README.md exists"
+    },
+    {
+      "name": "doc_docs/architecture.md",
+      "message": "Documentation file docs/architecture.md exists"
+    },
+    {
+      "name": "doc_docs/usage.md",
+      "message": "Documentation file docs/usage.md exists"
+    },
+    {
+      "name": "doc_docs/installation.md",
+      "message": "Documentation file docs/installation.md exists"
+    },
+    {
+      "name": "doc_docs/contributing.md",
+      "message": "Documentation file docs/contributing.md exists"
+    },
+    {
+      "name": "req4.2",
+      "message": "README.md appears to describe the project structure"
+    },
+    {
+      "name": "req4.3",
+      "message": "Installation and usage guides exist"
+    },
+    {
+      "name": "req4.4",
+      "message": "Example documentation found: docs\\examples.md"
+    },
+    {
+      "name": "req5.1",
+      "message": "Configuration directory contains 9 files"
+    },
+    {
+      "name": "req5.2",
+      "message": ".env.template exists"
+    },
+    {
+      "name": "env_template_content",
+      "message": ".env.template has content"
+    },
+    {
+      "name": "req5.3",
+      "message": "requirements.txt exists"
+    },
+    {
+      "name": "requirements_content",
+      "message": "requirements.txt has content"
+    },
+    {
+      "name": "pipeline_arco/pipelines/standard_pipeline.py",
+      "message": "Pipeline file arco/pipelines/standard_pipeline.py exists"
+    },
+    {
+      "name": "pipeline_arco/pipelines/advanced_pipeline.py",
+      "message": "Pipeline file arco/pipelines/advanced_pipeline.py exists"
+    },
+    {
+      "name": "req6.1",
+      "message": "Pipeline files exist"
+    },
+    {
+      "name": "req6.2",
+      "message": "Integration files exist: base.py, google_api.py, search_api.py, wappalyzer.py, __init__.py"
+    },
+    {
+      "name": "req2.4",
+      "message": "No temporary files were found"
+    },
+    {
+      "name": "req2.3",
+      "message": "Tests directory contains 36 test files"
+    },
+    {
+      "name": "req3.3",
+      "message": "Tests exist for independent module testing"
+    }
+  ],
+  "failed_tests": [
+    {
+      "name": "req6.4",
+      "message": "Some tests failed"
+    }
+  ],
+  "warnings": [
+    {
+      "name": "req2.2",
+      "message": "Potential duplicate code in files with similar names: {'__init__': ['arco\\\\__init__.py', 'arco\\\\config\\\\__init__.py', 'arco\\\\engines\\\\__init__.py', 'arco\\\\integrations\\\\__init__.py', 'arco\\\\models\\\\__init__.py', 'arco\\\\pipelines\\\\__init__.py', 'arco\\\\utils\\\\__init__.py'], 'base': ['arco\\\\engines\\\\base.py', 'arco\\\\integrations\\\\base.py', 'arco\\\\pipelines\\\\base.py']}"
+    }
+  ],
+  "requirements_status": {
+    "1.1": {
+      "status": "passed",
+      "description": "Clear directory structure"
+    },
+    "1.2": {
+      "status": "passed",
+      "description": "Max 3 levels of directory depth"
+    },
+    "1.3": {
+      "status": "unknown",
+      "description": "No duplicate files"
+    },
+    "1.4": {
+      "status": "passed",
+      "description": "Python package conventions"
+    },
+    "2.1": {
+      "status": "passed",
+      "description": "Legacy files in archive/"
+    },
+    "2.2": {
+      "status": "warning",
+      "description": "No duplicate code"
+    },
+    "2.3": {
+      "status": "passed",
+      "description": "Unified test structure"
+    },
+    "2.4": {
+      "status": "passed",
+      "description": "No debug/temp files"
+    },
+    "3.1": {
+      "status": "unknown",
+      "description": "Clear module separation"
+    },
+    "3.2": {
+      "status": "passed",
+      "description": "Clean imports"
+    },
+    "3.3": {
+      "status": "passed",
+      "description": "Independent module testing"
+    },
+    "3.4": {
+      "status": "unknown",
+      "description": "Single entry point"
+    },
+    "4.1": {
+      "status": "unknown",
+      "description": "Consolidated documentation"
+    },
+    "4.2": {
+      "status": "passed",
+      "description": "Updated README"
+    },
+    "4.3": {
+      "status": "passed",
+      "description": "Installation/usage guides"
+    },
+    "4.4": {
+      "status": "passed",
+      "description": "Updated examples"
+    },
+    "5.1": {
+      "status": "passed",
+      "description": "Centralized config"
+    },
+    "5.2": {
+      "status": "passed",
+      "description": "Environment templates"
+    },
+    "5.3": {
+      "status": "passed",
+      "description": "Clean requirements.txt"
+    },
+    "5.4": {
+      "status": "passed",
+      "description": "Easy setup"
+    },
+    "6.1": {
+      "status": "passed",
+      "description": "Functional pipelines"
+    },
+    "6.2": {
+      "status": "passed",
+      "description": "Preserved API integrations"
+    },
+    "6.3": {
+      "status": "passed",
+      "description": "CLI compatibility"
+    },
+    "6.4": {
+      "status": "failed",
+      "description": "Passing tests"
+    }
+  }
+}

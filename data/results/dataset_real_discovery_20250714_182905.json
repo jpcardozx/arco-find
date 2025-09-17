@@ -1,0 +1,1294 @@
+{
+  "dataset_discovery_results": [
+    {
+      "name": "Curso em Vídeo",
+      "domain": "cursoemvideo.com",
+      "description": "Curso em Vídeo - Cursos gratuitos com certificado",
+      "source": "github_api",
+      "github_url": "https://github.com/cursoemvideo",
+      "followers": 8364,
+      "public_repos": 5
+    },
+    {
+      "name": "Front-end Brasil",
+      "domain": "frontendbr.com.br",
+      "description": "Maior comunidade front-end do Brasil",
+      "source": "github_api",
+      "github_url": "https://github.com/frontendbr",
+      "followers": 5244,
+      "public_repos": 4
+    },
+    {
+      "name": "Rocketseat",
+      "domain": "rseat.in",
+      "description": "Plataforma de educação em tecnologia 🚀",
+      "source": "github_api",
+      "github_url": "https://github.com/Rocketseat",
+      "followers": 4608,
+      "public_repos": 32
+    },
+    {
+      "name": "Universidade Brasileira Livre",
+      "domain": "ulivre.dev",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/Universidade-Livre",
+      "followers": 4481,
+      "public_repos": 17
+    },
+    {
+      "name": "nubank",
+      "domain": "nubank.com.br",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/nubank",
+      "followers": 2635,
+      "public_repos": 191
+    },
+    {
+      "name": "DevSuperior",
+      "domain": "devsuperior.com.br",
+      "description": "Ajudamos programadores a ingressar ou se recolocar na carreira",
+      "source": "github_api",
+      "github_url": "https://github.com/devsuperior",
+      "followers": 2282,
+      "public_repos": 134
+    },
+    {
+      "name": "Hydra",
+      "domain": "hydralauncher.gg",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/hydralauncher",
+      "followers": 1739,
+      "public_repos": 10
+    },
+    {
+      "name": "SouJunior",
+      "domain": "soujunior.tech",
+      "description": "O Junior de hoje é o Sênior do amanhã!",
+      "source": "github_api",
+      "github_url": "https://github.com/SouJunior",
+      "followers": 1633,
+      "public_repos": 45
+    },
+    {
+      "name": "PixelExperience",
+      "domain": "get.pixelexperience.org",
+      "description": "AOSP based ROM, with Google apps included and all Pixel goodies",
+      "source": "github_api",
+      "github_url": "https://github.com/PixelExperience",
+      "followers": 1505,
+      "public_repos": 377
+    },
+    {
+      "name": "Full Cycle",
+      "domain": "fullcycle.com.br",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/devfullcycle",
+      "followers": 1434,
+      "public_repos": 151
+    },
+    {
+      "name": "He4rt Developers",
+      "domain": "heartdevs.com",
+      "description": "Organização criada para fins acadêmicos",
+      "source": "github_api",
+      "github_url": "https://github.com/he4rt",
+      "followers": 1219,
+      "public_repos": 31
+    },
+    {
+      "name": "Stone Payments",
+      "domain": "stone.com.br",
+      "description": "Pensar fora da máquina só é possível quando se trabalha com tecnologia humana de ponta.",
+      "source": "github_api",
+      "github_url": "https://github.com/stone-payments",
+      "followers": 982,
+      "public_repos": 89
+    },
+    {
+      "name": "Asimov Academy",
+      "domain": "asimov.academy",
+      "description": "Cursos de programação, Data Science, AI, criação de Web Apps e Dashboards. Comece do zero. Torne-se um especialista.",
+      "source": "github_api",
+      "github_url": "https://github.com/asimov-academy",
+      "followers": 900,
+      "public_repos": 38
+    },
+    {
+      "name": "React Brasil",
+      "domain": "react.now.sh",
+      "description": "Awesome React, React Native, GraphQL, Reason, TypeScript... developers from Brazil",
+      "source": "github_api",
+      "github_url": "https://github.com/react-brasil",
+      "followers": 805,
+      "public_repos": 28
+    },
+    {
+      "name": "Faculdade Descomplica",
+      "domain": "descomplica.com.br",
+      "description": "Centro Universitário UniAmérica + Faculdade Descomplica",
+      "source": "github_api",
+      "github_url": "https://github.com/FaculdadeDescomplica",
+      "followers": 764,
+      "public_repos": 55
+    },
+    {
+      "name": "Evolution API",
+      "domain": "evolution-api.com",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/EvolutionAPI",
+      "followers": 651,
+      "public_repos": 15
+    },
+    {
+      "name": "VTEX Apps",
+      "domain": "vtex.com",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/vtex-apps",
+      "followers": 627,
+      "public_repos": 491
+    },
+    {
+      "name": "Prefeitura Municipal de São Paulo",
+      "domain": "capital.sp.gov.br",
+      "description": "Prefeitura Municipal de São Paulo",
+      "source": "github_api",
+      "github_url": "https://github.com/prefeiturasp",
+      "followers": 92,
+      "public_repos": 193
+    },
+    {
+      "name": "42 São Paulo",
+      "domain": "42sp.org.br",
+      "description": "Organização Oficial da 42 São Paulo no GitHub",
+      "source": "github_api",
+      "github_url": "https://github.com/42sp",
+      "followers": 234,
+      "public_repos": 6
+    },
+    {
+      "name": "Data ICMC",
+      "domain": "data.icmc.usp.br",
+      "description": "Data Science and Machine Learning Extension Group from Universidade de São Paulo, Brazil",
+      "source": "github_api",
+      "github_url": "https://github.com/icmc-data",
+      "followers": 222,
+      "public_repos": 32
+    },
+    {
+      "name": "Turing USP",
+      "domain": "grupoturing.com.br",
+      "description": "Artificial Intelligence development group created by students of the University of São Paulo.",
+      "source": "github_api",
+      "github_url": "https://github.com/turing-usp",
+      "followers": 149,
+      "public_repos": 74
+    },
+    {
+      "name": "Ironhack São Paulo",
+      "domain": "ironhack.com",
+      "description": "Repositório oficial com aulas, Labs resolvidos e mais do bootcamp de Web Development em período integral da Ironhack São Paulo",
+      "source": "github_api",
+      "github_url": "https://github.com/ironhack-sao-wdft",
+      "followers": 34,
+      "public_repos": 74
+    },
+    {
+      "name": "GANESH ICMC/USP",
+      "domain": "ganesh.icmc.usp.br",
+      "description": "Information security study group from University of São Paulo/Brazil",
+      "source": "github_api",
+      "github_url": "https://github.com/GANESH-ICMC",
+      "followers": 97,
+      "public_repos": 13
+    },
+    {
+      "name": "USPGameDev",
+      "domain": "usp.game.dev.br",
+      "description": "University of São Paulo's game development studies & research student group.",
+      "source": "github_api",
+      "github_url": "https://github.com/uspgamedev",
+      "followers": 31,
+      "public_repos": 93
+    },
+    {
+      "name": "R-Ladies São Paulo",
+      "domain": "rladies-sp.org",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/R-Ladies-Sao-Paulo",
+      "followers": 86,
+      "public_repos": 30
+    },
+    {
+      "name": "Universidade Virtual do Estado de São Paulo",
+      "domain": "univesp.br",
+      "description": "A Univesp é a quarta universidade pública do Estado de São Paulo, com mais de 50 mil alunos.",
+      "source": "github_api",
+      "github_url": "https://github.com/univesp",
+      "followers": 143,
+      "public_repos": 94
+    },
+    {
+      "name": "Fundação Seade",
+      "domain": "seade.gov.br",
+      "description": "Agência de estatísticas do Estado de São Paulo",
+      "source": "github_api",
+      "github_url": "https://github.com/seade-R",
+      "followers": 46,
+      "public_repos": 4
+    },
+    {
+      "name": "PyLadies São Paulo",
+      "domain": "pyladiessp.github.io",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/PyLadiesSP",
+      "followers": 86,
+      "public_repos": 16
+    },
+    {
+      "name": "ThundeRatz Robotics Team",
+      "domain": "thunderatz.org",
+      "description": "Robotics Team of Escola Politénica da USP (Engineering School of the University of São Paulo)",
+      "source": "github_api",
+      "github_url": "https://github.com/ThundeRatz",
+      "followers": 61,
+      "public_repos": 89
+    },
+    {
+      "name": "AngularSP",
+      "domain": "meetup.com",
+      "description": "A sua comunidade de Angular e TypeScript em São Paulo!",
+      "source": "github_api",
+      "github_url": "https://github.com/AngularSP",
+      "followers": 60,
+      "public_repos": 4
+    },
+    {
+      "name": "Projeto Jupiter",
+      "domain": "projetojupiter.com",
+      "description": "High-Power Rocketry group from University of São Paulo - Escola Politécnica ",
+      "source": "github_api",
+      "github_url": "https://github.com/Projeto-Jupiter",
+      "followers": 40,
+      "public_repos": 11
+    },
+    {
+      "name": "Folha de S.Paulo",
+      "domain": "folha.com.br",
+      "description": "Repositório oficial para projetos de software livre",
+      "source": "github_api",
+      "github_url": "https://github.com/FolhaSP",
+      "followers": 36,
+      "public_repos": 21
+    },
+    {
+      "name": "TOTVS Cloud",
+      "domain": "totvs.com",
+      "description": " Av. Braz Leme, 1000 - Santana, São Paulo - SP ",
+      "source": "github_api",
+      "github_url": "https://github.com/totvs-cloud",
+      "followers": 9,
+      "public_repos": 16
+    },
+    {
+      "name": "C4AI - Center for Artificial Intelligence",
+      "domain": "c4ai.inova.usp.br",
+      "description": "A research center for advanced artificial intelligence in Brazil. Based at the Universidade de São Paulo, sponsored by IBM and FAPESP.",
+      "source": "github_api",
+      "github_url": "https://github.com/C4AI",
+      "followers": 43,
+      "public_repos": 41
+    },
+    {
+      "name": "DevMob UFRJ",
+      "domain": "devmob.dcc.ufrj.br",
+      "description": "Grupo de Extensão de Desenvolvimento Mobile da Universidade Federal do Rio de Janeiro.",
+      "source": "github_api",
+      "github_url": "https://github.com/DevMobUFRJ",
+      "followers": 10,
+      "public_repos": 27
+    },
+    {
+      "name": "ATOMS: Applied Thermodynamics and Molecular Simulation",
+      "domain": "atoms.peq.coppe.ufrj.br",
+      "description": "Software Development at the ATOMS Research Group, Rio de Janeiro, Brasil",
+      "source": "github_api",
+      "github_url": "https://github.com/atoms-ufrj",
+      "followers": 17,
+      "public_repos": 22
+    },
+    {
+      "name": "PHPRio",
+      "domain": "php.rio",
+      "description": "PHPRio is the group of all people who participate in the PHP community in the State of Rio de Janeiro - Brazil",
+      "source": "github_api",
+      "github_url": "https://github.com/PHPRio",
+      "followers": 72,
+      "public_repos": 22
+    },
+    {
+      "name": "Instituto de Computação - UFRJ",
+      "domain": "ic.ufrj.br",
+      "description": "Instituto de Computação da Universidade Federal do Rio de Janeiro",
+      "source": "github_api",
+      "github_url": "https://github.com/ic-ufrj",
+      "followers": 7,
+      "public_repos": 6
+    },
+    {
+      "name": "RioBus",
+      "domain": "riob.us",
+      "description": "Serviço online de monitoramento de ônibus das linhas municipais da cidade do Rio de Janeiro, RJ.",
+      "source": "github_api",
+      "github_url": "https://github.com/RioBus",
+      "followers": 4,
+      "public_repos": 16
+    },
+    {
+      "name": "LAB.Rio",
+      "domain": "labrio.cc",
+      "description": "Laboratório de Participação da Prefeitura do Rio de Janeiro",
+      "source": "github_api",
+      "github_url": "https://github.com/LAB-Rio",
+      "followers": 1,
+      "public_repos": 27
+    },
+    {
+      "name": "Ministério Público do Estado do Rio de Janeiro",
+      "domain": "mprj.mp.br",
+      "description": "Public Ministry of the State of Rio de Janeiro, Brazil",
+      "source": "github_api",
+      "github_url": "https://github.com/mp-rj",
+      "followers": 2,
+      "public_repos": 6
+    },
+    {
+      "name": "Front-End Carioca",
+      "domain": "frontendcarioca.com.br",
+      "description": "Community created to event in Rio de Janeiro - Brazil",
+      "source": "github_api",
+      "github_url": "https://github.com/front-end-carioca",
+      "followers": 0,
+      "public_repos": 8
+    },
+    {
+      "name": "Universidade Federal do Rio de Janeiro",
+      "domain": "ufrj.br",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/ufrj-lab",
+      "followers": 1,
+      "public_repos": 6
+    },
+    {
+      "name": "Grupo de Foguetes do Rio de Janeiro",
+      "domain": "gfrj.uerj.br",
+      "description": "A rocket group which has no sky as your limit.",
+      "source": "github_api",
+      "github_url": "https://github.com/gfrj",
+      "followers": 2,
+      "public_repos": 0
+    },
+    {
+      "name": "Sindicato de Engenharia no Estado do Rio de Janeiro",
+      "domain": "sengerj.org.br",
+      "description": null,
+      "source": "github_api",
+      "github_url": "https://github.com/Senge-RJ",
+      "followers": 0,
+      "public_repos": 7
+    },
+    {
+      "name": "Pagar.me",
+      "domain": "pagar.me",
+      "description": "Plataforma de pagamentos online",
+      "source": "known_database",
+      "category": "fintech",
+      "founded": 2013,
+      "city": "São Paulo"
+    },
+    {
+      "name": "Iugu",
+      "domain": "iugu.com",
+      "description": "Gateway de pagamentos e gestão financeira",
+      "source": "known_database",
+      "category": "fintech",
+      "founded": 2011,
+      "city": "São Paulo"
+    },
+    {
+      "name": "Conta Azul",
+      "domain": "contaazul.com",
+      "description": "Software de gestão para pequenas empresas",
+      "source": "known_database",
+      "category": "saas",
+      "founded": 2012,
+      "city": "Joinville"
+    },
+    {
+      "name": "Sympla",
+      "domain": "sympla.com.br",
+      "description": "Plataforma de eventos online",
+      "source": "known_database",
+      "category": "saas",
+      "founded": 2012,
+      "city": "Belo Horizonte"
+    },
+    {
+      "name": "Hotmart",
+      "domain": "hotmart.com",
+      "description": "Plataforma de produtos digitais",
+      "source": "known_database",
+      "category": "edtech",
+      "founded": 2011,
+      "city": "Belo Horizonte"
+    },
+    {
+      "name": "GetNinjas",
+      "domain": "getninjas.com.br",
+      "description": "Marketplace de serviços",
+      "source": "known_database",
+      "category": "marketplace",
+      "founded": 2011,
+      "city": "São Paulo"
+    },
+    {
+      "name": "Loggi",
+      "domain": "loggi.com",
+      "description": "Plataforma de logística urbana",
+      "source": "known_database",
+      "category": "logistics",
+      "founded": 2013,
+      "city": "São Paulo"
+    },
+    {
+      "name": "Creditas",
+      "domain": "creditas.com",
+      "description": "Plataforma de crédito com garantia",
+      "source": "known_database",
+      "category": "fintech",
+      "founded": 2012,
+      "city": "São Paulo"
+    },
+    {
+      "name": "ContaSimples",
+      "domain": "contasimples.com",
+      "description": "Conta digital para empresas",
+      "source": "known_database",
+      "category": "fintech",
+      "founded": 2016,
+      "city": "São Paulo"
+    },
+    {
+      "name": "Buser",
+      "domain": "buser.com.br",
+      "description": "Plataforma de viagens de ônibus",
+      "source": "known_database",
+      "category": "transport",
+      "founded": 2017,
+      "city": "São Paulo"
+    },
+    {
+      "name": "Gympass",
+      "domain": "gympass.com",
+      "description": "Plataforma de wellness corporativo",
+      "source": "known_database",
+      "category": "healthtech",
+      "founded": 2012,
+      "city": "São Paulo"
+    },
+    {
+      "name": "QuintoAndar",
+      "domain": "quintoandar.com.br",
+      "description": "Plataforma de aluguel residencial",
+      "source": "known_database",
+      "category": "proptech",
+      "founded": 2013,
+      "city": "São Paulo"
+    },
+    {
+      "name": "Nexaas",
+      "domain": "nexaas.com",
+      "description": "ERP em nuvem para PMEs",
+      "source": "known_database",
+      "category": "saas",
+      "founded": 2012,
+      "city": "Joinville"
+    },
+    {
+      "name": "Trackmob",
+      "domain": "trackmob.com.br",
+      "description": "Logística de última milha",
+      "source": "known_database",
+      "category": "logistics",
+      "founded": 2015,
+      "city": "São Paulo"
+    },
+    {
+      "name": "MadeiraMadeira",
+      "domain": "madeiramadeira.com.br",
+      "description": "E-commerce de móveis e decoração",
+      "source": "known_database",
+      "category": "ecommerce",
+      "founded": 2009,
+      "city": "Curitiba"
+    },
+    {
+      "name": "Resultados Digitais",
+      "domain": "resultadosdigitais.com.br",
+      "description": "Plataforma de marketing digital",
+      "source": "known_database",
+      "category": "martech",
+      "founded": 2011,
+      "city": "Florianópolis"
+    },
+    {
+      "name": "Loft",
+      "domain": "loft.com.br",
+      "source": "tech_news"
+    },
+    {
+      "name": "Olist",
+      "domain": "olist.com",
+      "source": "tech_news"
+    },
+    {
+      "name": "Vindi",
+      "domain": "vindi.com.br",
+      "source": "tech_news"
+    },
+    {
+      "name": "Stone",
+      "domain": "stone.co",
+      "source": "tech_news"
+    },
+    {
+      "name": "iFood",
+      "domain": "ifood.com.br",
+      "source": "tech_news"
+    },
+    {
+      "name": "Dock",
+      "domain": "dock.tech",
+      "category": "fintech",
+      "source": "startup_list_specific"
+    },
+    {
+      "name": "Magazord",
+      "domain": "magazord.com.br",
+      "category": "ecommerce",
+      "source": "startup_list_specific"
+    },
+    {
+      "name": "Tray",
+      "domain": "tray.com.br",
+      "category": "ecommerce",
+      "source": "startup_list_specific"
+    },
+    {
+      "name": "Loja Integrada",
+      "domain": "lojaintegrada.com.br",
+      "category": "ecommerce",
+      "source": "startup_list_specific"
+    },
+    {
+      "name": "Pipedrive",
+      "domain": "pipedrive.com.br",
+      "category": "saas",
+      "source": "startup_list_specific"
+    },
+    {
+      "name": "RD Station",
+      "domain": "rdstation.com",
+      "category": "saas",
+      "source": "startup_list_specific"
+    },
+    {
+      "name": "Pluga",
+      "domain": "pluga.co",
+      "category": "saas",
+      "source": "startup_list_specific"
+    },
+    {
+      "name": "Agendor",
+      "domain": "agendor.com.br",
+      "category": "saas",
+      "source": "startup_list_specific"
+    }
+  ],
+  "metadata": {
+    "discovery_type": "dataset_real_v6.0",
+    "total_companies": 74,
+    "discovery_date": "2025-07-14T18:29:05.332664",
+    "sources_used": [
+      "github_api",
+      "known_database",
+      "tech_news",
+      "startup_lists"
+    ],
+    "real_datasets_only": true
+  },
+  "companies_by_category": {
+    "other": [
+      {
+        "name": "Curso em Vídeo",
+        "domain": "cursoemvideo.com",
+        "description": "Curso em Vídeo - Cursos gratuitos com certificado",
+        "source": "github_api",
+        "github_url": "https://github.com/cursoemvideo",
+        "followers": 8364,
+        "public_repos": 5
+      },
+      {
+        "name": "Front-end Brasil",
+        "domain": "frontendbr.com.br",
+        "description": "Maior comunidade front-end do Brasil",
+        "source": "github_api",
+        "github_url": "https://github.com/frontendbr",
+        "followers": 5244,
+        "public_repos": 4
+      },
+      {
+        "name": "Rocketseat",
+        "domain": "rseat.in",
+        "description": "Plataforma de educação em tecnologia 🚀",
+        "source": "github_api",
+        "github_url": "https://github.com/Rocketseat",
+        "followers": 4608,
+        "public_repos": 32
+      },
+      {
+        "name": "Universidade Brasileira Livre",
+        "domain": "ulivre.dev",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/Universidade-Livre",
+        "followers": 4481,
+        "public_repos": 17
+      },
+      {
+        "name": "nubank",
+        "domain": "nubank.com.br",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/nubank",
+        "followers": 2635,
+        "public_repos": 191
+      },
+      {
+        "name": "DevSuperior",
+        "domain": "devsuperior.com.br",
+        "description": "Ajudamos programadores a ingressar ou se recolocar na carreira",
+        "source": "github_api",
+        "github_url": "https://github.com/devsuperior",
+        "followers": 2282,
+        "public_repos": 134
+      },
+      {
+        "name": "Hydra",
+        "domain": "hydralauncher.gg",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/hydralauncher",
+        "followers": 1739,
+        "public_repos": 10
+      },
+      {
+        "name": "SouJunior",
+        "domain": "soujunior.tech",
+        "description": "O Junior de hoje é o Sênior do amanhã!",
+        "source": "github_api",
+        "github_url": "https://github.com/SouJunior",
+        "followers": 1633,
+        "public_repos": 45
+      },
+      {
+        "name": "PixelExperience",
+        "domain": "get.pixelexperience.org",
+        "description": "AOSP based ROM, with Google apps included and all Pixel goodies",
+        "source": "github_api",
+        "github_url": "https://github.com/PixelExperience",
+        "followers": 1505,
+        "public_repos": 377
+      },
+      {
+        "name": "Full Cycle",
+        "domain": "fullcycle.com.br",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/devfullcycle",
+        "followers": 1434,
+        "public_repos": 151
+      },
+      {
+        "name": "He4rt Developers",
+        "domain": "heartdevs.com",
+        "description": "Organização criada para fins acadêmicos",
+        "source": "github_api",
+        "github_url": "https://github.com/he4rt",
+        "followers": 1219,
+        "public_repos": 31
+      },
+      {
+        "name": "Stone Payments",
+        "domain": "stone.com.br",
+        "description": "Pensar fora da máquina só é possível quando se trabalha com tecnologia humana de ponta.",
+        "source": "github_api",
+        "github_url": "https://github.com/stone-payments",
+        "followers": 982,
+        "public_repos": 89
+      },
+      {
+        "name": "Asimov Academy",
+        "domain": "asimov.academy",
+        "description": "Cursos de programação, Data Science, AI, criação de Web Apps e Dashboards. Comece do zero. Torne-se um especialista.",
+        "source": "github_api",
+        "github_url": "https://github.com/asimov-academy",
+        "followers": 900,
+        "public_repos": 38
+      },
+      {
+        "name": "React Brasil",
+        "domain": "react.now.sh",
+        "description": "Awesome React, React Native, GraphQL, Reason, TypeScript... developers from Brazil",
+        "source": "github_api",
+        "github_url": "https://github.com/react-brasil",
+        "followers": 805,
+        "public_repos": 28
+      },
+      {
+        "name": "Faculdade Descomplica",
+        "domain": "descomplica.com.br",
+        "description": "Centro Universitário UniAmérica + Faculdade Descomplica",
+        "source": "github_api",
+        "github_url": "https://github.com/FaculdadeDescomplica",
+        "followers": 764,
+        "public_repos": 55
+      },
+      {
+        "name": "Evolution API",
+        "domain": "evolution-api.com",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/EvolutionAPI",
+        "followers": 651,
+        "public_repos": 15
+      },
+      {
+        "name": "VTEX Apps",
+        "domain": "vtex.com",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/vtex-apps",
+        "followers": 627,
+        "public_repos": 491
+      },
+      {
+        "name": "Prefeitura Municipal de São Paulo",
+        "domain": "capital.sp.gov.br",
+        "description": "Prefeitura Municipal de São Paulo",
+        "source": "github_api",
+        "github_url": "https://github.com/prefeiturasp",
+        "followers": 92,
+        "public_repos": 193
+      },
+      {
+        "name": "42 São Paulo",
+        "domain": "42sp.org.br",
+        "description": "Organização Oficial da 42 São Paulo no GitHub",
+        "source": "github_api",
+        "github_url": "https://github.com/42sp",
+        "followers": 234,
+        "public_repos": 6
+      },
+      {
+        "name": "Data ICMC",
+        "domain": "data.icmc.usp.br",
+        "description": "Data Science and Machine Learning Extension Group from Universidade de São Paulo, Brazil",
+        "source": "github_api",
+        "github_url": "https://github.com/icmc-data",
+        "followers": 222,
+        "public_repos": 32
+      },
+      {
+        "name": "Turing USP",
+        "domain": "grupoturing.com.br",
+        "description": "Artificial Intelligence development group created by students of the University of São Paulo.",
+        "source": "github_api",
+        "github_url": "https://github.com/turing-usp",
+        "followers": 149,
+        "public_repos": 74
+      },
+      {
+        "name": "Ironhack São Paulo",
+        "domain": "ironhack.com",
+        "description": "Repositório oficial com aulas, Labs resolvidos e mais do bootcamp de Web Development em período integral da Ironhack São Paulo",
+        "source": "github_api",
+        "github_url": "https://github.com/ironhack-sao-wdft",
+        "followers": 34,
+        "public_repos": 74
+      },
+      {
+        "name": "GANESH ICMC/USP",
+        "domain": "ganesh.icmc.usp.br",
+        "description": "Information security study group from University of São Paulo/Brazil",
+        "source": "github_api",
+        "github_url": "https://github.com/GANESH-ICMC",
+        "followers": 97,
+        "public_repos": 13
+      },
+      {
+        "name": "USPGameDev",
+        "domain": "usp.game.dev.br",
+        "description": "University of São Paulo's game development studies & research student group.",
+        "source": "github_api",
+        "github_url": "https://github.com/uspgamedev",
+        "followers": 31,
+        "public_repos": 93
+      },
+      {
+        "name": "R-Ladies São Paulo",
+        "domain": "rladies-sp.org",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/R-Ladies-Sao-Paulo",
+        "followers": 86,
+        "public_repos": 30
+      },
+      {
+        "name": "Universidade Virtual do Estado de São Paulo",
+        "domain": "univesp.br",
+        "description": "A Univesp é a quarta universidade pública do Estado de São Paulo, com mais de 50 mil alunos.",
+        "source": "github_api",
+        "github_url": "https://github.com/univesp",
+        "followers": 143,
+        "public_repos": 94
+      },
+      {
+        "name": "Fundação Seade",
+        "domain": "seade.gov.br",
+        "description": "Agência de estatísticas do Estado de São Paulo",
+        "source": "github_api",
+        "github_url": "https://github.com/seade-R",
+        "followers": 46,
+        "public_repos": 4
+      },
+      {
+        "name": "PyLadies São Paulo",
+        "domain": "pyladiessp.github.io",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/PyLadiesSP",
+        "followers": 86,
+        "public_repos": 16
+      },
+      {
+        "name": "ThundeRatz Robotics Team",
+        "domain": "thunderatz.org",
+        "description": "Robotics Team of Escola Politénica da USP (Engineering School of the University of São Paulo)",
+        "source": "github_api",
+        "github_url": "https://github.com/ThundeRatz",
+        "followers": 61,
+        "public_repos": 89
+      },
+      {
+        "name": "AngularSP",
+        "domain": "meetup.com",
+        "description": "A sua comunidade de Angular e TypeScript em São Paulo!",
+        "source": "github_api",
+        "github_url": "https://github.com/AngularSP",
+        "followers": 60,
+        "public_repos": 4
+      },
+      {
+        "name": "Projeto Jupiter",
+        "domain": "projetojupiter.com",
+        "description": "High-Power Rocketry group from University of São Paulo - Escola Politécnica ",
+        "source": "github_api",
+        "github_url": "https://github.com/Projeto-Jupiter",
+        "followers": 40,
+        "public_repos": 11
+      },
+      {
+        "name": "Folha de S.Paulo",
+        "domain": "folha.com.br",
+        "description": "Repositório oficial para projetos de software livre",
+        "source": "github_api",
+        "github_url": "https://github.com/FolhaSP",
+        "followers": 36,
+        "public_repos": 21
+      },
+      {
+        "name": "TOTVS Cloud",
+        "domain": "totvs.com",
+        "description": " Av. Braz Leme, 1000 - Santana, São Paulo - SP ",
+        "source": "github_api",
+        "github_url": "https://github.com/totvs-cloud",
+        "followers": 9,
+        "public_repos": 16
+      },
+      {
+        "name": "C4AI - Center for Artificial Intelligence",
+        "domain": "c4ai.inova.usp.br",
+        "description": "A research center for advanced artificial intelligence in Brazil. Based at the Universidade de São Paulo, sponsored by IBM and FAPESP.",
+        "source": "github_api",
+        "github_url": "https://github.com/C4AI",
+        "followers": 43,
+        "public_repos": 41
+      },
+      {
+        "name": "DevMob UFRJ",
+        "domain": "devmob.dcc.ufrj.br",
+        "description": "Grupo de Extensão de Desenvolvimento Mobile da Universidade Federal do Rio de Janeiro.",
+        "source": "github_api",
+        "github_url": "https://github.com/DevMobUFRJ",
+        "followers": 10,
+        "public_repos": 27
+      },
+      {
+        "name": "ATOMS: Applied Thermodynamics and Molecular Simulation",
+        "domain": "atoms.peq.coppe.ufrj.br",
+        "description": "Software Development at the ATOMS Research Group, Rio de Janeiro, Brasil",
+        "source": "github_api",
+        "github_url": "https://github.com/atoms-ufrj",
+        "followers": 17,
+        "public_repos": 22
+      },
+      {
+        "name": "PHPRio",
+        "domain": "php.rio",
+        "description": "PHPRio is the group of all people who participate in the PHP community in the State of Rio de Janeiro - Brazil",
+        "source": "github_api",
+        "github_url": "https://github.com/PHPRio",
+        "followers": 72,
+        "public_repos": 22
+      },
+      {
+        "name": "Instituto de Computação - UFRJ",
+        "domain": "ic.ufrj.br",
+        "description": "Instituto de Computação da Universidade Federal do Rio de Janeiro",
+        "source": "github_api",
+        "github_url": "https://github.com/ic-ufrj",
+        "followers": 7,
+        "public_repos": 6
+      },
+      {
+        "name": "RioBus",
+        "domain": "riob.us",
+        "description": "Serviço online de monitoramento de ônibus das linhas municipais da cidade do Rio de Janeiro, RJ.",
+        "source": "github_api",
+        "github_url": "https://github.com/RioBus",
+        "followers": 4,
+        "public_repos": 16
+      },
+      {
+        "name": "LAB.Rio",
+        "domain": "labrio.cc",
+        "description": "Laboratório de Participação da Prefeitura do Rio de Janeiro",
+        "source": "github_api",
+        "github_url": "https://github.com/LAB-Rio",
+        "followers": 1,
+        "public_repos": 27
+      },
+      {
+        "name": "Ministério Público do Estado do Rio de Janeiro",
+        "domain": "mprj.mp.br",
+        "description": "Public Ministry of the State of Rio de Janeiro, Brazil",
+        "source": "github_api",
+        "github_url": "https://github.com/mp-rj",
+        "followers": 2,
+        "public_repos": 6
+      },
+      {
+        "name": "Front-End Carioca",
+        "domain": "frontendcarioca.com.br",
+        "description": "Community created to event in Rio de Janeiro - Brazil",
+        "source": "github_api",
+        "github_url": "https://github.com/front-end-carioca",
+        "followers": 0,
+        "public_repos": 8
+      },
+      {
+        "name": "Universidade Federal do Rio de Janeiro",
+        "domain": "ufrj.br",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/ufrj-lab",
+        "followers": 1,
+        "public_repos": 6
+      },
+      {
+        "name": "Grupo de Foguetes do Rio de Janeiro",
+        "domain": "gfrj.uerj.br",
+        "description": "A rocket group which has no sky as your limit.",
+        "source": "github_api",
+        "github_url": "https://github.com/gfrj",
+        "followers": 2,
+        "public_repos": 0
+      },
+      {
+        "name": "Sindicato de Engenharia no Estado do Rio de Janeiro",
+        "domain": "sengerj.org.br",
+        "description": null,
+        "source": "github_api",
+        "github_url": "https://github.com/Senge-RJ",
+        "followers": 0,
+        "public_repos": 7
+      },
+      {
+        "name": "Loft",
+        "domain": "loft.com.br",
+        "source": "tech_news"
+      },
+      {
+        "name": "Olist",
+        "domain": "olist.com",
+        "source": "tech_news"
+      },
+      {
+        "name": "Vindi",
+        "domain": "vindi.com.br",
+        "source": "tech_news"
+      },
+      {
+        "name": "Stone",
+        "domain": "stone.co",
+        "source": "tech_news"
+      },
+      {
+        "name": "iFood",
+        "domain": "ifood.com.br",
+        "source": "tech_news"
+      }
+    ],
+    "fintech": [
+      {
+        "name": "Pagar.me",
+        "domain": "pagar.me",
+        "description": "Plataforma de pagamentos online",
+        "source": "known_database",
+        "category": "fintech",
+        "founded": 2013,
+        "city": "São Paulo"
+      },
+      {
+        "name": "Iugu",
+        "domain": "iugu.com",
+        "description": "Gateway de pagamentos e gestão financeira",
+        "source": "known_database",
+        "category": "fintech",
+        "founded": 2011,
+        "city": "São Paulo"
+      },
+      {
+        "name": "Creditas",
+        "domain": "creditas.com",
+        "description": "Plataforma de crédito com garantia",
+        "source": "known_database",
+        "category": "fintech",
+        "founded": 2012,
+        "city": "São Paulo"
+      },
+      {
+        "name": "ContaSimples",
+        "domain": "contasimples.com",
+        "description": "Conta digital para empresas",
+        "source": "known_database",
+        "category": "fintech",
+        "founded": 2016,
+        "city": "São Paulo"
+      },
+      {
+        "name": "Dock",
+        "domain": "dock.tech",
+        "category": "fintech",
+        "source": "startup_list_specific"
+      }
+    ],
+    "saas": [
+      {
+        "name": "Conta Azul",
+        "domain": "contaazul.com",
+        "description": "Software de gestão para pequenas empresas",
+        "source": "known_database",
+        "category": "saas",
+        "founded": 2012,
+        "city": "Joinville"
+      },
+      {
+        "name": "Sympla",
+        "domain": "sympla.com.br",
+        "description": "Plataforma de eventos online",
+        "source": "known_database",
+        "category": "saas",
+        "founded": 2012,
+        "city": "Belo Horizonte"
+      },
+      {
+        "name": "Nexaas",
+        "domain": "nexaas.com",
+        "description": "ERP em nuvem para PMEs",
+        "source": "known_database",
+        "category": "saas",
+        "founded": 2012,
+        "city": "Joinville"
+      },
+      {
+        "name": "Pipedrive",
+        "domain": "pipedrive.com.br",
+        "category": "saas",
+        "source": "startup_list_specific"
+      },
+      {
+        "name": "RD Station",
+        "domain": "rdstation.com",
+        "category": "saas",
+        "source": "startup_list_specific"
+      },
+      {
+        "name": "Pluga",
+        "domain": "pluga.co",
+        "category": "saas",
+        "source": "startup_list_specific"
+      },
+      {
+        "name": "Agendor",
+        "domain": "agendor.com.br",
+        "category": "saas",
+        "source": "startup_list_specific"
+      }
+    ],
+    "edtech": [
+      {
+        "name": "Hotmart",
+        "domain": "hotmart.com",
+        "description": "Plataforma de produtos digitais",
+        "source": "known_database",
+        "category": "edtech",
+        "founded": 2011,
+        "city": "Belo Horizonte"
+      }
+    ],
+    "marketplace": [
+      {
+        "name": "GetNinjas",
+        "domain": "getninjas.com.br",
+        "description": "Marketplace de serviços",
+        "source": "known_database",
+        "category": "marketplace",
+        "founded": 2011,
+        "city": "São Paulo"
+      }
+    ],
+    "logistics": [
+      {
+        "name": "Loggi",
+        "domain": "loggi.com",
+        "description": "Plataforma de logística urbana",
+        "source": "known_database",
+        "category": "logistics",
+        "founded": 2013,
+        "city": "São Paulo"
+      },
+      {
+        "name": "Trackmob",
+        "domain": "trackmob.com.br",
+        "description": "Logística de última milha",
+        "source": "known_database",
+        "category": "logistics",
+        "founded": 2015,
+        "city": "São Paulo"
+      }
+    ],
+    "transport": [
+      {
+        "name": "Buser",
+        "domain": "buser.com.br",
+        "description": "Plataforma de viagens de ônibus",
+        "source": "known_database",
+        "category": "transport",
+        "founded": 2017,
+        "city": "São Paulo"
+      }
+    ],
+    "healthtech": [
+      {
+        "name": "Gympass",
+        "domain": "gympass.com",
+        "description": "Plataforma de wellness corporativo",
+        "source": "known_database",
+        "category": "healthtech",
+        "founded": 2012,
+        "city": "São Paulo"
+      }
+    ],
+    "proptech": [
+      {
+        "name": "QuintoAndar",
+        "domain": "quintoandar.com.br",
+        "description": "Plataforma de aluguel residencial",
+        "source": "known_database",
+        "category": "proptech",
+        "founded": 2013,
+        "city": "São Paulo"
+      }
+    ],
+    "ecommerce": [
+      {
+        "name": "MadeiraMadeira",
+        "domain": "madeiramadeira.com.br",
+        "description": "E-commerce de móveis e decoração",
+        "source": "known_database",
+        "category": "ecommerce",
+        "founded": 2009,
+        "city": "Curitiba"
+      },
+      {
+        "name": "Magazord",
+        "domain": "magazord.com.br",
+        "category": "ecommerce",
+        "source": "startup_list_specific"
+      },
+      {
+        "name": "Tray",
+        "domain": "tray.com.br",
+        "category": "ecommerce",
+        "source": "startup_list_specific"
+      },
+      {
+        "name": "Loja Integrada",
+        "domain": "lojaintegrada.com.br",
+        "category": "ecommerce",
+        "source": "startup_list_specific"
+      }
+    ],
+    "martech": [
+      {
+        "name": "Resultados Digitais",
+        "domain": "resultadosdigitais.com.br",
+        "description": "Plataforma de marketing digital",
+        "source": "known_database",
+        "category": "martech",
+        "founded": 2011,
+        "city": "Florianópolis"
+      }
+    ]
+  },
+  "quality_metrics": {
+    "unique_domains": 74,
+    "avg_name_length": 14.391891891891891,
+    "sources_breakdown": {
+      "github_api": 45,
+      "known_database": 16,
+      "tech_news": 5,
+      "startup_list_specific": 8
+    }
+  }
+}

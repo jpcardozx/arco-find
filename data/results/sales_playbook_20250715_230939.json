@@ -1,0 +1,133 @@
+[
+  {
+    "company": "Loja Virtual Moda",
+    "industry": "E-commerce Fashion",
+    "priority": "MEDIUM",
+    "decision_maker": "Founder/CTO",
+    "contact_strategy": "founder_direct",
+    "email_template": "Subject: [Loja Virtual Moda] $650/month in hidden costs detected (2-min audit)\n\nHi [Decision Maker],\n\nQuick technical audit of example-fashion.com.br revealed:\n• SaaS Apps: Klaviyo, Hotjar, Zendesk, Recharge ($272/month)\n• Performance Issues: ~$378/month in conversion loss\n• Total waste: $650/month\n\nOur fee: 25% of verified savings ($162/month)\nNo savings = no payment guarantee\n\nWorth a 15-minute call to review? [calendly_link]\n\nBest regards,\n[Your name]",
+    "outreach_sequence": [
+      "email_educational_day_0",
+      "linkedin_connection_day_3",
+      "email_industry_insights_day_7",
+      "follow_up_day_14"
+    ],
+    "talking_points": [
+      "$650/month waste detected",
+      "4 SaaS apps with optimization opportunities",
+      "25% fee model - only pay for verified savings",
+      "Implementation in 7-14 days",
+      "Expected ROI: $488/month net savings"
+    ],
+    "objection_handling": {
+      "We're too busy": "Implementation takes 7-14 days, managed by our team",
+      "Not in budget": "No upfront cost - you only pay from verified savings",
+      "Need to think about it": "Waste compounds daily - ${prospect.total_monthly_waste/30:.0f}/day opportunity cost"
+    }
+  },
+  {
+    "company": "SaaS Gestão Empresarial",
+    "industry": "B2B SaaS",
+    "priority": "MEDIUM",
+    "decision_maker": "Founder/CTO",
+    "contact_strategy": "founder_direct",
+    "email_template": "Subject: [SaaS Gestão Empresarial] $790/month in hidden costs detected (2-min audit)\n\nHi [Decision Maker],\n\nQuick technical audit of example-saas.com.br revealed:\n• SaaS Apps: Intercom, Mixpanel, Segment, Drift ($269/month)\n• Performance Issues: ~$521/month in conversion loss\n• Total waste: $790/month\n\nOur fee: 25% of verified savings ($198/month)\nNo savings = no payment guarantee\n\nWorth a 15-minute call to review? [calendly_link]\n\nBest regards,\n[Your name]",
+    "outreach_sequence": [
+      "email_educational_day_0",
+      "linkedin_connection_day_3",
+      "email_industry_insights_day_7",
+      "follow_up_day_14"
+    ],
+    "talking_points": [
+      "$790/month waste detected",
+      "4 SaaS apps with optimization opportunities",
+      "25% fee model - only pay for verified savings",
+      "Implementation in 7-14 days",
+      "Expected ROI: $592/month net savings"
+    ],
+    "objection_handling": {
+      "We're too busy": "Implementation takes 7-14 days, managed by our team",
+      "Not in budget": "No upfront cost - you only pay from verified savings",
+      "Need to think about it": "Waste compounds daily - ${prospect.total_monthly_waste/30:.0f}/day opportunity cost"
+    }
+  },
+  {
+    "company": "Clínica Médica Digital",
+    "industry": "HealthTech",
+    "priority": "LOW",
+    "decision_maker": "Technical Director",
+    "contact_strategy": "technical_approach",
+    "email_template": "Subject: [Clínica Médica Digital] $420/month in hidden costs detected (2-min audit)\n\nHi [Decision Maker],\n\nQuick technical audit of example-health.com.br revealed:\n• SaaS Apps: Zendesk, Calendly, Mailchimp ($134/month)\n• Performance Issues: ~$286/month in conversion loss\n• Total waste: $420/month\n\nOur fee: 25% of verified savings ($105/month)\nNo savings = no payment guarantee\n\nWorth a 15-minute call to review? [calendly_link]\n\nBest regards,\n[Your name]",
+    "outreach_sequence": [
+      "email_educational_day_0",
+      "linkedin_connection_day_3",
+      "email_industry_insights_day_7",
+      "follow_up_day_14"
+    ],
+    "talking_points": [
+      "$420/month waste detected",
+      "3 SaaS apps with optimization opportunities",
+      "25% fee model - only pay for verified savings",
+      "Implementation in 7-14 days",
+      "Expected ROI: $315/month net savings"
+    ],
+    "objection_handling": {
+      "We're too busy": "Implementation takes 7-14 days, managed by our team",
+      "Not in budget": "No upfront cost - you only pay from verified savings",
+      "Need to think about it": "Waste compounds daily - ${prospect.total_monthly_waste/30:.0f}/day opportunity cost"
+    }
+  },
+  {
+    "company": "Plataforma Educacional",
+    "industry": "EdTech",
+    "priority": "HIGH",
+    "decision_maker": "Technical Director",
+    "contact_strategy": "technical_approach",
+    "email_template": "Subject: [Plataforma Educacional] $1,100/month in hidden costs detected (2-min audit)\n\nHi [Decision Maker],\n\nQuick technical audit of example-edu.com.br revealed:\n• SaaS Apps: Typeform, Klaviyo, Hotjar, Intercom ($237/month)\n• Performance Issues: ~$863/month in conversion loss\n• Total waste: $1,100/month\n\nOur fee: 25% of verified savings ($275/month)\nNo savings = no payment guarantee\n\nWorth a 15-minute call to review? [calendly_link]\n\nBest regards,\n[Your name]",
+    "outreach_sequence": [
+      "email_audit_results_day_0",
+      "linkedin_dm_day_2",
+      "email_case_study_day_5",
+      "phone_call_day_10"
+    ],
+    "talking_points": [
+      "$1,100/month waste detected",
+      "4 SaaS apps with optimization opportunities",
+      "25% fee model - only pay for verified savings",
+      "Implementation in 7-14 days",
+      "Expected ROI: $825/month net savings"
+    ],
+    "objection_handling": {
+      "We're too busy": "Implementation takes 7-14 days, managed by our team",
+      "Not in budget": "No upfront cost - you only pay from verified savings",
+      "Need to think about it": "Waste compounds daily - ${prospect.total_monthly_waste/30:.0f}/day opportunity cost"
+    }
+  },
+  {
+    "company": "Fintech Pagamentos",
+    "industry": "Fintech",
+    "priority": "IMMEDIATE",
+    "decision_maker": "CTO/CEO",
+    "contact_strategy": "executive_outreach",
+    "email_template": "Subject: [Fintech Pagamentos] $1,700/month in hidden costs detected (2-min audit)\n\nHi [Decision Maker],\n\nQuick technical audit of example-fintech.com.br revealed:\n• SaaS Apps: Segment, Mixpanel, Zendesk, Drift ($284/month)\n• Performance Issues: ~$1416/month in conversion loss\n• Total waste: $1,700/month\n\nOur fee: 25% of verified savings ($425/month)\nNo savings = no payment guarantee\n\nWorth a 15-minute call to review? [calendly_link]\n\nBest regards,\n[Your name]",
+    "outreach_sequence": [
+      "email_audit_results_day_0",
+      "linkedin_dm_day_1",
+      "whatsapp_audio_day_3",
+      "email_competitive_day_5",
+      "phone_call_day_7"
+    ],
+    "talking_points": [
+      "$1,700/month waste detected",
+      "4 SaaS apps with optimization opportunities",
+      "25% fee model - only pay for verified savings",
+      "Implementation in 7-14 days",
+      "Expected ROI: $1,275/month net savings"
+    ],
+    "objection_handling": {
+      "We're too busy": "Implementation takes 7-14 days, managed by our team",
+      "Not in budget": "No upfront cost - you only pay from verified savings",
+      "Need to think about it": "Waste compounds daily - ${prospect.total_monthly_waste/30:.0f}/day opportunity cost"
+    }
+  }
+]

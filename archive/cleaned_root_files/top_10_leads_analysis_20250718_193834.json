@@ -1,0 +1,436 @@
+{
+  "analysis_date": "2025-07-18T19:38:34.135746",
+  "total_leads_analyzed": 175,
+  "top_10_leads": [
+    {
+      "rank": 1,
+      "company_name": "Empório Magna Vita",
+      "domain": "http://www.magnavita.com.br",
+      "location": "Sao Paulo, Brazil",
+      "employees": 10,
+      "final_score": 100,
+      "segment": "health_wellness",
+      "revenue_potential": 780000.0,
+      "contract_value": 90000,
+      "roi_percentage": 111.6,
+      "payback_months": 5.7,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [],
+      "value_proposition": "Podemos ajudar Empório Magna Vita a aumentar receita em 111.6% com payback em 5.7 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Health Wellness (confiança: 100.0%) | 💰 Alto potencial de receita: $780,000 anuais | 📈 ROI excepcional: 111.6% ao ano | 🎪 Baixa intensidade competitiva",
+      "approach_recommendations": {
+        "timing": "medium_term",
+        "message_angle": "Health Wellness optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 100.0,
+        "revenue_potential": 15.600000000000001,
+        "solution_fit": 40,
+        "geography": 95.0,
+        "competitive_advantage": 80,
+        "roi_potential": 55.77777777777778,
+        "technical_urgency": 0,
+        "technology_maturity": 40
+      }
+    },
+    {
+      "rank": 2,
+      "company_name": "Aurha",
+      "domain": "http://www.aurha.com.br",
+      "location": "Belo Horizonte, Brazil",
+      "employees": 6,
+      "final_score": 100,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 264000.0,
+      "contract_value": 80000,
+      "roi_percentage": -3.1,
+      "payback_months": 12.4,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [
+        "Performance optimization opportunities"
+      ],
+      "value_proposition": "Podemos ajudar Aurha a aumentar receita em -3.1% com payback em 12.4 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 60.0%) | 💰 Alto potencial de receita: $264,000 anuais",
+      "approach_recommendations": {
+        "timing": "short_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 60.0,
+        "revenue_potential": 5.28,
+        "solution_fit": 100,
+        "geography": 95.0,
+        "competitive_advantage": 60,
+        "roi_potential": 0,
+        "technical_urgency": 30,
+        "technology_maturity": 70
+      }
+    },
+    {
+      "rank": 3,
+      "company_name": "Clube da Borracha",
+      "domain": "http://www.clubedaborracha.com.br",
+      "location": "Teresina, Brazil",
+      "employees": 4,
+      "final_score": 100,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 208000.0,
+      "contract_value": 80000,
+      "roi_percentage": -28.2,
+      "payback_months": 16.7,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [
+        "Performance optimization opportunities"
+      ],
+      "value_proposition": "Podemos ajudar Clube da Borracha a aumentar receita em -28.2% com payback em 16.7 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 40.0%) | 💰 Alto potencial de receita: $208,000 anuais | 🎪 Baixa intensidade competitiva",
+      "approach_recommendations": {
+        "timing": "short_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 40.0,
+        "revenue_potential": 4.16,
+        "solution_fit": 100,
+        "geography": 85.0,
+        "competitive_advantage": 80,
+        "roi_potential": 0,
+        "technical_urgency": 30,
+        "technology_maturity": 30
+      }
+    },
+    {
+      "rank": 4,
+      "company_name": "UniqueBox",
+      "domain": "http://www.uniquebox.com.br",
+      "location": "Curitiba, Brazil",
+      "employees": 12,
+      "final_score": 100,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 792000.0000000001,
+      "contract_value": 80000,
+      "roi_percentage": 153.2,
+      "payback_months": 4.7,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [],
+      "value_proposition": "Podemos ajudar UniqueBox a aumentar receita em 153.2% com payback em 4.7 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 40.0%) | 💰 Alto potencial de receita: $792,000 anuais | 📈 ROI excepcional: 153.2% ao ano",
+      "approach_recommendations": {
+        "timing": "medium_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 40.0,
+        "revenue_potential": 15.840000000000003,
+        "solution_fit": 55,
+        "geography": 85.0,
+        "competitive_advantage": 60,
+        "roi_potential": 76.60000000000002,
+        "technical_urgency": 0,
+        "technology_maturity": 60
+      }
+    },
+    {
+      "rank": 5,
+      "company_name": "Empório Magna Vita",
+      "domain": "http://www.magnavita.com.br",
+      "location": "Sao Paulo, Brazil",
+      "employees": 10,
+      "final_score": 100,
+      "segment": "health_wellness",
+      "revenue_potential": 780000.0,
+      "contract_value": 90000,
+      "roi_percentage": 111.6,
+      "payback_months": 5.7,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [],
+      "value_proposition": "Podemos ajudar Empório Magna Vita a aumentar receita em 111.6% com payback em 5.7 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Health Wellness (confiança: 100.0%) | 💰 Alto potencial de receita: $780,000 anuais | 📈 ROI excepcional: 111.6% ao ano | 🎪 Baixa intensidade competitiva",
+      "approach_recommendations": {
+        "timing": "medium_term",
+        "message_angle": "Health Wellness optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 100.0,
+        "revenue_potential": 15.600000000000001,
+        "solution_fit": 40,
+        "geography": 95.0,
+        "competitive_advantage": 80,
+        "roi_potential": 55.77777777777778,
+        "technical_urgency": 0,
+        "technology_maturity": 40
+      }
+    },
+    {
+      "rank": 6,
+      "company_name": "Aurha",
+      "domain": "http://www.aurha.com.br",
+      "location": "Belo Horizonte, Brazil",
+      "employees": 6,
+      "final_score": 100,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 264000.0,
+      "contract_value": 80000,
+      "roi_percentage": -3.1,
+      "payback_months": 12.4,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [
+        "Performance optimization opportunities"
+      ],
+      "value_proposition": "Podemos ajudar Aurha a aumentar receita em -3.1% com payback em 12.4 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 60.0%) | 💰 Alto potencial de receita: $264,000 anuais",
+      "approach_recommendations": {
+        "timing": "short_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 60.0,
+        "revenue_potential": 5.28,
+        "solution_fit": 100,
+        "geography": 95.0,
+        "competitive_advantage": 60,
+        "roi_potential": 0,
+        "technical_urgency": 30,
+        "technology_maturity": 70
+      }
+    },
+    {
+      "rank": 7,
+      "company_name": "Clube da Borracha",
+      "domain": "http://www.clubedaborracha.com.br",
+      "location": "Teresina, Brazil",
+      "employees": 4,
+      "final_score": 100,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 208000.0,
+      "contract_value": 80000,
+      "roi_percentage": -28.2,
+      "payback_months": 16.7,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [
+        "Performance optimization opportunities"
+      ],
+      "value_proposition": "Podemos ajudar Clube da Borracha a aumentar receita em -28.2% com payback em 16.7 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 40.0%) | 💰 Alto potencial de receita: $208,000 anuais | 🎪 Baixa intensidade competitiva",
+      "approach_recommendations": {
+        "timing": "short_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 40.0,
+        "revenue_potential": 4.16,
+        "solution_fit": 100,
+        "geography": 85.0,
+        "competitive_advantage": 80,
+        "roi_potential": 0,
+        "technical_urgency": 30,
+        "technology_maturity": 30
+      }
+    },
+    {
+      "rank": 8,
+      "company_name": "UniqueBox",
+      "domain": "http://www.uniquebox.com.br",
+      "location": "Curitiba, Brazil",
+      "employees": 12,
+      "final_score": 100,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 792000.0000000001,
+      "contract_value": 80000,
+      "roi_percentage": 153.2,
+      "payback_months": 4.7,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [],
+      "value_proposition": "Podemos ajudar UniqueBox a aumentar receita em 153.2% com payback em 4.7 meses através de otimização de performance e conversão.",
+      "success_probability": 100.0,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 40.0%) | 💰 Alto potencial de receita: $792,000 anuais | 📈 ROI excepcional: 153.2% ao ano",
+      "approach_recommendations": {
+        "timing": "medium_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 40.0,
+        "revenue_potential": 15.840000000000003,
+        "solution_fit": 55,
+        "geography": 85.0,
+        "competitive_advantage": 60,
+        "roi_potential": 76.60000000000002,
+        "technical_urgency": 0,
+        "technology_maturity": 60
+      }
+    },
+    {
+      "rank": 9,
+      "company_name": "La Sirène",
+      "domain": "http://www.bikinilasirene.com.br",
+      "location": "nan, Brazil",
+      "employees": 10,
+      "final_score": 97.77,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 780000.0,
+      "contract_value": 80000,
+      "roi_percentage": 138.0,
+      "payback_months": 5.0,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [],
+      "value_proposition": "Podemos ajudar La Sirène a aumentar receita em 138.0% com payback em 5.0 meses através de otimização de performance e conversão.",
+      "success_probability": 97.8,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 40.0%) | 💰 Alto potencial de receita: $780,000 anuais | 📈 ROI excepcional: 138.0% ao ano | 🎪 Baixa intensidade competitiva",
+      "approach_recommendations": {
+        "timing": "medium_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 40.0,
+        "revenue_potential": 15.600000000000001,
+        "solution_fit": 30,
+        "geography": 85.0,
+        "competitive_advantage": 80,
+        "roi_potential": 69.0,
+        "technical_urgency": 0,
+        "technology_maturity": 40
+      }
+    },
+    {
+      "rank": 10,
+      "company_name": "La Sirène",
+      "domain": "http://www.bikinilasirene.com.br",
+      "location": "nan, Brazil",
+      "employees": 10,
+      "final_score": 97.77,
+      "segment": "ecommerce_puro",
+      "revenue_potential": 780000.0,
+      "contract_value": 80000,
+      "roi_percentage": 138.0,
+      "payback_months": 5.0,
+      "decision_makers": [
+        "CEO",
+        "Founder",
+        "Owner"
+      ],
+      "key_pain_points": [],
+      "value_proposition": "Podemos ajudar La Sirène a aumentar receita em 138.0% com payback em 5.0 meses através de otimização de performance e conversão.",
+      "success_probability": 97.8,
+      "why_top_10": "🇧🇷 Localização prioritária no Brasil (multiplicador 1.5x) | 🎯 Excelente fit no segmento Ecommerce Puro (confiança: 40.0%) | 💰 Alto potencial de receita: $780,000 anuais | 📈 ROI excepcional: 138.0% ao ano | 🎪 Baixa intensidade competitiva",
+      "approach_recommendations": {
+        "timing": "medium_term",
+        "message_angle": "Ecommerce Puro optimization specialist",
+        "expected_objections": [
+          "Budget constraints",
+          "Implementation complexity",
+          "ROI uncertainty"
+        ]
+      },
+      "detailed_scores": {
+        "segment_fit": 40.0,
+        "revenue_potential": 15.600000000000001,
+        "solution_fit": 30,
+        "geography": 85.0,
+        "competitive_advantage": 80,
+        "roi_potential": 69.0,
+        "technical_urgency": 0,
+        "technology_maturity": 40
+      }
+    }
+  ],
+  "summary_insights": {
+    "average_score": 99.55436,
+    "geographic_distribution": {
+      "Brazil": 10
+    },
+    "segment_distribution": {
+      "health_wellness": 2,
+      "ecommerce_puro": 8
+    },
+    "total_revenue_potential": 5648000.0,
+    "total_contract_value": 820000
+  }
+}

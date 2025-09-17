@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-17T18:58:39.124551",
+  "total_prospects": 20,
+  "successful_prospects": 0,
+  "success_rate": 0.0,
+  "qualified_prospects": 0,
+  "qualification_rate": 0,
+  "registered_prospects": 0,
+  "registration_rate": 0,
+  "average_score": 0.0,
+  "total_annual_savings": 0,
+  "average_annual_savings": 0,
+  "average_roi_percentage": 0,
+  "stage_counts": {
+    "imported": 0,
+    "enriched_basic": 0,
+    "enriched_advanced": 0,
+    "analyzed": 20,
+    "qualified": 0,
+    "registered_crm": 0,
+    "contacted": 0,
+    "engaged": 0,
+    "meeting": 0,
+    "opportunity": 0,
+    "client": 0
+  },
+  "average_durations": {
+    "imported": 0.0001001,
+    "enriched_basic": 0.00046869999999999995,
+    "enriched_advanced": 0.0008234999999999999,
+    "analyzed": 0,
+    "qualified": 0,
+    "registered_crm": 0,
+    "contacted": 0,
+    "engaged": 0,
+    "meeting": 0,
+    "opportunity": 0,
+    "client": 0
+  },
+  "conversion_rates": {
+    "imported_to_enriched_basic": 0,
+    "enriched_basic_to_enriched_advanced": 0,
+    "enriched_advanced_to_analyzed": 0,
+    "analyzed_to_qualified": 0.0,
+    "qualified_to_registered_crm": 0,
+    "registered_crm_to_contacted": 0,
+    "contacted_to_engaged": 0,
+    "engaged_to_meeting": 0,
+    "meeting_to_opportunity": 0,
+    "opportunity_to_client": 0
+  }
+}

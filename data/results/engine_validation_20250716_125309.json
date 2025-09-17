@@ -1,0 +1,87 @@
+{
+  "validation_session": {
+    "timestamp": "20250716_125309",
+    "total_prospects": 3,
+    "validation_stats": {
+      "total_validated": 3,
+      "avg_revenue_accuracy": 0.0045439999999999925,
+      "business_type_accuracy": 1.0,
+      "pain_point_accuracy": 0.0,
+      "avg_processing_time": 0.840971310933431,
+      "validation_session": "2025-07-16 12:52:31.319130"
+    }
+  },
+  "validation_results": [
+    {
+      "domain": "allbirds.com",
+      "predicted_revenue": 1152000,
+      "actual_revenue": 300000000,
+      "revenue_accuracy": 0.0038399999999999546,
+      "predicted_business_type": "ecommerce",
+      "actual_business_type": "ecommerce",
+      "business_type_correct": true,
+      "predicted_pain_points": [
+        "conversion",
+        "performance"
+      ],
+      "actual_pain_points": [
+        "sustainability_messaging",
+        "international_expansion",
+        "supply_chain"
+      ],
+      "pain_point_overlap": 0.0,
+      "confidence_score": 75,
+      "analysis_time": 0.9991855621337891,
+      "overall_accuracy": 0.10051199999999999
+    },
+    {
+      "domain": "glossier.com",
+      "predicted_revenue": 1497600,
+      "actual_revenue": 200000000,
+      "revenue_accuracy": 0.00748800000000005,
+      "predicted_business_type": "ecommerce",
+      "actual_business_type": "ecommerce",
+      "business_type_correct": true,
+      "predicted_pain_points": [
+        "checkout",
+        "conversion",
+        "performance"
+      ],
+      "actual_pain_points": [
+        "customer_retention",
+        "omnichannel",
+        "inventory_planning"
+      ],
+      "pain_point_overlap": 0.0,
+      "confidence_score": 90,
+      "analysis_time": 0.8217332363128662,
+      "overall_accuracy": 0.1009984
+    },
+    {
+      "domain": "casper.com",
+      "predicted_revenue": 1152000,
+      "actual_revenue": 500000000,
+      "revenue_accuracy": 0.0023039999999999727,
+      "predicted_business_type": "ecommerce",
+      "actual_business_type": "ecommerce",
+      "business_type_correct": true,
+      "predicted_pain_points": [
+        "checkout",
+        "mobile",
+        "conversion"
+      ],
+      "actual_pain_points": [
+        "profitability",
+        "customer_acquisition_cost",
+        "retail_expansion"
+      ],
+      "pain_point_overlap": 0.0,
+      "confidence_score": 85,
+      "analysis_time": 0.7019951343536377,
+      "overall_accuracy": 0.10030719999999999
+    }
+  ],
+  "discovery_test_results": {
+    "error": "No prospects could be analyzed"
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "discovery_meta": {
+    "generated_at": "2025-07-15T15:02:04.461834",
+    "system": "Boolean Search Prospect Discovery",
+    "methodology": "Pain signals → Google Search → Technical validation",
+    "search_stats": {
+      "queries_executed": 6,
+      "urls_discovered": 0,
+      "duplicates_filtered": 0,
+      "qualified_prospects": 15
+    }
+  },
+  "pipeline_metrics": {
+    "total_prospects_discovered": 15,
+    "total_revenue_potential": 105120.0,
+    "avg_qualification_score": 62.0,
+    "critical_pain_prospects": 7,
+    "high_pain_prospects": 8,
+    "immediate_contact_prospects": 0,
+    "high_urgency_prospects": 11
+  },
+  "discovered_prospects": [
+    {
+      "company_name": "Quanto você pode ganhar com Dropshipping em 2025",
+      "domain": "eprolo.com",
+      "website": "https://eprolo.com/pt/how-much-can-you-make-dropshipping",
+      "pain_signals_found": [
+        "Métricas baixas",
+        "Problemas de conversão"
+      ],
+      "search_query_matched": "\"conversão baixa\" \"loja online\" \"carrinho abandonado\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 32,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 70,
+      "revenue_potential": 8160.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "GUIA DE E",
+      "domain": "abradi.com.br",
+      "website": "https://abradi.com.br/wp-content/uploads/2022/03/ab_guia_ecommerce22_digital_compressed.pdf",
+      "pain_signals_found": [
+        "Métricas baixas",
+        "Problemas de conversão"
+      ],
+      "search_query_matched": "\"conversão baixa\" \"loja online\" \"carrinho abandonado\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 30,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 70,
+      "revenue_potential": 8160.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Cloudmarket",
+      "domain": "cloudmarket.com.br",
+      "website": "https://www.cloudmarket.com.br/marketing-digital/blog/o-que-e-otimizacao-seo-guia-completo-para-iniciantes/",
+      "pain_signals_found": [
+        "PageSpeed com problemas",
+        "Problemas de SEO técnico"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 32,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 70,
+      "revenue_potential": 8160.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "7 boas práticas de usabilidade para o seu e",
+      "domain": "conteudo.stone.com.br",
+      "website": "https://conteudo.stone.com.br/usabilidade-para-ecommerce/",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Site/sistema lento"
+      ],
+      "search_query_matched": "\"site muito lento\" \"e-commerce\" \"checkout\" -gigante -magazine",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 47,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "MEDIUM",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Socix",
+      "domain": "socix.com.br",
+      "website": "https://www.socix.com.br/motivos-do-abandono-de-carrinho-o-que-aprendemos-com-eles/",
+      "pain_signals_found": [
+        "Site/sistema lento"
+      ],
+      "search_query_matched": "\"site muito lento\" \"e-commerce\" \"checkout\" -gigante -magazine",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 31,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Instagram",
+      "domain": "instagram.com",
+      "website": "https://www.instagram.com/wigcommerce/",
+      "pain_signals_found": [
+        "Métricas baixas",
+        "Problemas de conversão"
+      ],
+      "search_query_matched": "\"conversão baixa\" \"loja online\" \"carrinho abandonado\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 35,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Burnell",
+      "domain": "burnell.com.br",
+      "website": "https://burnell.com.br/blog/ecommerce-nao-vende/",
+      "pain_signals_found": [
+        "Métricas baixas",
+        "Problemas de conversão"
+      ],
+      "search_query_matched": "\"conversão baixa\" \"loja online\" \"carrinho abandonado\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 41,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Site Ecommerce: Entenda e aprenda a criar o seu.",
+      "domain": "mailchimp.com",
+      "website": "https://mailchimp.com/pt-br/marketing-glossary/ecommerce-website/",
+      "pain_signals_found": [
+        "Métricas baixas",
+        "Problemas de conversão"
+      ],
+      "search_query_matched": "\"conversão baixa\" \"loja online\" \"carrinho abandonado\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 46,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "MEDIUM",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Grátis: ab guia ecommerce22 digital compressed",
+      "domain": "passeidireto.com",
+      "website": "https://www.passeidireto.com/arquivo/107146773/ab-guia-ecommerce-22-digital-compressed",
+      "pain_signals_found": [
+        "Métricas baixas",
+        "Problemas de conversão"
+      ],
+      "search_query_matched": "\"conversão baixa\" \"loja online\" \"carrinho abandonado\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 45,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "MEDIUM",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "20 ferramentas para você otimizar seu site",
+      "domain": "tnb.studio",
+      "website": "https://tnb.studio/lab/20-ferramentas-para-voce-otimizar-seu-site",
+      "pain_signals_found": [
+        "PageSpeed com problemas",
+        "Problemas de SEO técnico"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 49,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "MEDIUM",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Reddit",
+      "domain": "reddit.com",
+      "website": "https://www.reddit.com/r/Wordpress/comments/1lo5d6o/rapid_figma_to_wordpress_development_how/?tl=pt-br",
+      "pain_signals_found": [
+        "PageSpeed com problemas"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 32,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Webshare",
+      "domain": "webshare.com.br",
+      "website": "https://www.webshare.com.br/blog/gtmetrix/",
+      "pain_signals_found": [
+        "PageSpeed com problemas",
+        "Problemas de SEO técnico"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 40,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Rockcontent",
+      "domain": "rockcontent.com",
+      "website": "https://rockcontent.com/br/blog/o-que-e-seo/",
+      "pain_signals_found": [
+        "PageSpeed com problemas",
+        "Problemas de SEO técnico"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 41,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "PageSpeed Insights e os dados do mundo real",
+      "domain": "imasters.com.br",
+      "website": "https://imasters.com.br/back-end/pagespeed-insights-e-os-dados-do-mundo-real",
+      "pain_signals_found": [
+        "PageSpeed com problemas"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 32,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Godaddy",
+      "domain": "godaddy.com",
+      "website": "https://www.godaddy.com/resources/br/artigos/cumulative-layout-shift",
+      "pain_signals_found": [
+        "Core Web Vitals reprovado"
+      ],
+      "search_query_matched": "\"Core Web Vitals\" \"loja online\" \"melhorar\" -Shopify -Magento",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 34,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    }
+  ],
+  "action_priorities": {
+    "immediate_contact": [],
+    "high_priority": [
+      "Quanto você pode ganhar com Dropshipping em 2025",
+      "GUIA DE E",
+      "Cloudmarket",
+      "Socix",
+      "Instagram",
+      "Burnell",
+      "Reddit",
+      "Webshare",
+      "Rockcontent",
+      "PageSpeed Insights e os dados do mundo real",
+      "Godaddy"
+    ],
+    "critical_pain": [
+      "Quanto você pode ganhar com Dropshipping em 2025",
+      "GUIA DE E",
+      "Cloudmarket",
+      "Instagram",
+      "Burnell",
+      "Webshare",
+      "Rockcontent"
+    ],
+    "total_pipeline_value": "R$ 105,120/month"
+  },
+  "segment_breakdown": {
+    "ecommerce_general": {
+      "count": 15,
+      "total_revenue": 105120.0,
+      "avg_qualification": 62.0,
+      "prospects": [
+        "Quanto você pode ganhar com Dropshipping em 2025",
+        "GUIA DE E",
+        "Cloudmarket",
+        "7 boas práticas de usabilidade para o seu e",
+        "Socix",
+        "Instagram",
+        "Burnell",
+        "Site Ecommerce: Entenda e aprenda a criar o seu.",
+        "Grátis: ab guia ecommerce22 digital compressed",
+        "20 ferramentas para você otimizar seu site",
+        "Reddit",
+        "Webshare",
+        "Rockcontent",
+        "PageSpeed Insights e os dados do mundo real",
+        "Godaddy"
+      ]
+    }
+  }
+}

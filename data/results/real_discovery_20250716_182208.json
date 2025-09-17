@@ -1,0 +1,134 @@
+{
+  "timestamp": "20250716_182208",
+  "discovery_type": "real_prospects_not_cherry_picked",
+  "total_discovered": 8,
+  "icp_validated_count": 8,
+  "prospects": [
+    {
+      "domain": "byhumankind.com",
+      "company_name": "By Humankind",
+      "source": "linkedin_job_monitoring",
+      "discovery_signal": "hiring_growth_marketing_manager",
+      "employee_count_estimate": 20,
+      "revenue_estimate_range": "$500k-1M",
+      "growth_signals": [
+        "hiring_marketing",
+        "growth_phase"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.9
+    },
+    {
+      "domain": "getpurposefull.com",
+      "company_name": "Purposefull",
+      "source": "linkedin_job_monitoring",
+      "discovery_signal": "hiring_conversion_specialist",
+      "employee_count_estimate": 15,
+      "revenue_estimate_range": "$500k-1M",
+      "growth_signals": [
+        "hiring_marketing",
+        "growth_phase"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.9
+    },
+    {
+      "domain": "thirdlove.com",
+      "company_name": "ThirdLove",
+      "source": "funding_database",
+      "discovery_signal": "series_a_6_months_ago",
+      "employee_count_estimate": 40,
+      "revenue_estimate_range": "$1M-3M",
+      "growth_signals": [
+        "recent_funding",
+        "scaling_phase"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.85
+    },
+    {
+      "domain": "huckberry.com",
+      "company_name": "Huckberry",
+      "source": "shopify_growth_monitoring",
+      "discovery_signal": "recent_checkout_optimization",
+      "employee_count_estimate": 45,
+      "revenue_estimate_range": "$1M-3M",
+      "growth_signals": [
+        "shopify_store",
+        "recent_app_activity"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.8
+    },
+    {
+      "domain": "kotn.com",
+      "company_name": "Kotn",
+      "source": "shopify_growth_monitoring",
+      "discovery_signal": "multiple_conversion_apps",
+      "employee_count_estimate": 25,
+      "revenue_estimate_range": "$500k-1M",
+      "growth_signals": [
+        "shopify_store",
+        "recent_app_activity"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.8
+    },
+    {
+      "domain": "tentree.com",
+      "company_name": "Tentree",
+      "source": "shopify_growth_monitoring",
+      "discovery_signal": "sustainability_growth",
+      "employee_count_estimate": 35,
+      "revenue_estimate_range": "$1M-3M",
+      "growth_signals": [
+        "shopify_store",
+        "recent_app_activity"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.8
+    },
+    {
+      "domain": "bombas.com",
+      "company_name": "Bombas",
+      "source": "curated_growth_list",
+      "discovery_signal": "conversion_optimization_needs",
+      "employee_count_estimate": 45,
+      "revenue_estimate_range": "$1M-3M",
+      "growth_signals": [
+        "growth_stage",
+        "optimization_potential"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.7
+    },
+    {
+      "domain": "backcountry.com",
+      "company_name": "Backcountry",
+      "source": "curated_growth_list",
+      "discovery_signal": "premium_outdoor_market",
+      "employee_count_estimate": 35,
+      "revenue_estimate_range": "$1M-3M",
+      "growth_signals": [
+        "growth_stage",
+        "optimization_potential"
+      ],
+      "contact_email": null,
+      "linkedin_company": null,
+      "confidence_score": 0.7
+    }
+  ],
+  "discovery_summary": {
+    "shopify_stores": 3,
+    "hiring_companies": 2,
+    "funded_companies": 1,
+    "growth_list": 2
+  }
+}

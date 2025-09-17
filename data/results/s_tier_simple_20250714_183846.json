@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total_leads": 5,
+    "immediate_priority": 1,
+    "high_priority": 2,
+    "total_revenue_potential": 24500.0,
+    "avg_revenue_per_lead": 4900.0
+  },
+  "top_leads": [
+    {
+      "company": "Agendor",
+      "domain": "agendor.com.br",
+      "performance_score": 38,
+      "issues": [
+        "Múltiplos problemas",
+        "Otimização urgente"
+      ],
+      "revenue_potential": 6500.0,
+      "priority": "IMMEDIATE",
+      "confidence": "DEMO",
+      "next_action": "Contato urgente - Performance crítica (38/100)",
+      "tech_stack": []
+    },
+    {
+      "company": "RD Station",
+      "domain": "resultadosdigitais.com.br",
+      "performance_score": 58,
+      "issues": [
+        "Imagens pesadas",
+        "LCP lento"
+      ],
+      "revenue_potential": 5000.0,
+      "priority": "HIGH",
+      "confidence": "DEMO",
+      "next_action": "Proposta de auditoria - Múltiplos problemas identificados",
+      "tech_stack": []
+    },
+    {
+      "company": "Movidesk",
+      "domain": "movidesk.com",
+      "performance_score": 45,
+      "issues": [
+        "Performance crítica",
+        "Layout shift"
+      ],
+      "revenue_potential": 5000.0,
+      "priority": "HIGH",
+      "confidence": "DEMO",
+      "next_action": "Proposta de auditoria - Múltiplos problemas identificados",
+      "tech_stack": []
+    }
+  ]
+}

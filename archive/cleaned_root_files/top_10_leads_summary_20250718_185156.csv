@@ -1,0 +1,6 @@
+Rank,Company,Domain,Industry,Employees,Location,Final_Score,Confidence,Estimated_Revenue,Contract_Value,Monthly_Savings,Annual_ROI,Primary_Segment,Decision_Maker,Value_Proposition
+1,Empório Magna Vita,magnavita.com.br,retail,10,"Sao Paulo, State of Sao Paulo, Brazil",100.0,1.00,780000.0,90000.0,8700.0,111.6,health_wellness,CEO/Founder,"Especialista em otimização para mercado wellness - ROI de 111.6% ao ano"
+2,UniqueBox,uniquebox.com.br,retail,12,"Curitiba, State of Parana, Brazil",100.0,0.40,792000.0,80000.0,9900.0,153.2,ecommerce_puro,CEO/CTO,"Especialista em otimização de e-commerce - ROI de 153.2% ao ano"
+3,La Sirène,bikinilasirene.com.br,retail,10,"Brazil (location TBD)",97.8,0.40,780000.0,80000.0,9200.0,138.0,ecommerce_puro,CEO/Founder,"Otimização sazonal para fashion e-commerce - ROI de 138% ao ano"
+4,Aurha,aurha.com.br,retail,6,"Belo Horizonte, State of Minas Gerais, Brazil",100.0,0.60,264000.0,80000.0,3300.0,-3.1,ecommerce_puro,CEO/Founder,"Otimização técnica para nicho esotérico - Foco em performance"
+5,Clube da Borracha,clubedaborracha.com.br,retail,4,"Teresina, State of Piaui, Brazil",100.0,0.40,208000.0,80000.0,2600.0,-28.2,ecommerce_puro,CEO/Owner,"Modernização completa de e-commerce B2B - Transformação digital"

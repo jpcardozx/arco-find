@@ -1,0 +1,44 @@
+{
+  "prospects": [
+    {
+      "name": "Linkedin",
+      "domain": "linkedin.com",
+      "category": "saas_bootstrap",
+      "estimated_revenue_usd": "$40K-$400K",
+      "estimated_staff": 6,
+      "business_type": "Directory SaaS discovered",
+      "source": "directory_scraping",
+      "source_url": "https://abstartups.com.br/startups/",
+      "founded_year": null,
+      "timestamp": "2025-07-14T17:56:25.721234"
+    },
+    {
+      "name": "Linkedin",
+      "domain": "linkedin.com",
+      "category": "saas_bootstrap",
+      "estimated_revenue_usd": "$40K-$400K",
+      "estimated_staff": 6,
+      "business_type": "Directory SaaS discovered",
+      "source": "directory_scraping",
+      "source_url": "https://abstartups.com.br/startups/",
+      "founded_year": null,
+      "timestamp": "2025-07-14T17:56:27.526893"
+    }
+  ],
+  "metadata": {
+    "execution_time": "58.66s",
+    "discovery_sources": [
+      "shopify_scraping",
+      "saas_scraping"
+    ],
+    "total_prospects": 2,
+    "categories": {
+      "saas_bootstrap": 2
+    },
+    "pipeline_version": "3.0_real_scraping",
+    "zero_fallbacks": true,
+    "sources": {
+      "directory_scraping": 2
+    }
+  }
+}

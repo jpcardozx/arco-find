@@ -1,0 +1,176 @@
+{
+  "timestamp": "20250716_183033",
+  "pipeline_type": "complete_discovery_leak_qualification",
+  "summary": {
+    "total_qualified_leads": 3,
+    "total_monthly_waste_identified": 1650,
+    "total_annual_savings_potential": 19800,
+    "average_close_probability": 0.3,
+    "expected_monthly_revenue": 152.27999999999997
+  },
+  "qualification_criteria": {
+    "min_monthly_waste": 100,
+    "min_qualification_score": 70
+  },
+  "qualified_leads": [
+    {
+      "domain": "byhumankind.com",
+      "company_name": "By Humankind",
+      "source": "linkedin_job_monitoring",
+      "discovery_signal": "hiring_growth_marketing_manager",
+      "employee_count_estimate": 20,
+      "revenue_estimate_range": "$500k-1M",
+      "growth_signals": [
+        "hiring_marketing",
+        "growth_phase"
+      ],
+      "confidence_score": 0.9,
+      "monthly_waste": 600,
+      "annual_savings": 7200,
+      "leak_details": [
+        {
+          "leak_type": "vendor_waste",
+          "monthly_cost": 150,
+          "detection_source": "http_analysis",
+          "confidence": 75,
+          "vendor_name": "klaviyo",
+          "category": "email_marketing"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 300,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "recharge",
+          "category": "shopify_app"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 150,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "klaviyo",
+          "category": "shopify_app"
+        }
+      ],
+      "qualification_score": 100,
+      "ready_for_outreach": true,
+      "contact_email": null,
+      "linkedin_company": null,
+      "outreach_angle": "Perfect timing - saw you're hiring a Growth Marketing Manager. Found $600/month in optimization opportunities that could fund the new hire.",
+      "estimated_close_probability": 0.44999999999999996
+    },
+    {
+      "domain": "kotn.com",
+      "company_name": "Kotn",
+      "source": "shopify_growth_monitoring",
+      "discovery_signal": "multiple_conversion_apps",
+      "employee_count_estimate": 25,
+      "revenue_estimate_range": "$500k-1M",
+      "growth_signals": [
+        "shopify_store",
+        "recent_app_activity"
+      ],
+      "confidence_score": 0.8,
+      "monthly_waste": 600,
+      "annual_savings": 7200,
+      "leak_details": [
+        {
+          "leak_type": "vendor_waste",
+          "monthly_cost": 150,
+          "detection_source": "http_analysis",
+          "confidence": 75,
+          "vendor_name": "gorgias",
+          "category": "customer_support"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 300,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "recharge",
+          "category": "shopify_app"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 150,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "klaviyo",
+          "category": "shopify_app"
+        }
+      ],
+      "qualification_score": 100,
+      "ready_for_outreach": true,
+      "contact_email": null,
+      "linkedin_company": null,
+      "outreach_angle": "Quick analysis found $600/month in optimization opportunities. Worth a 10-minute chat?",
+      "estimated_close_probability": 0.23399999999999999
+    },
+    {
+      "domain": "getpurposefull.com",
+      "company_name": "Purposefull",
+      "source": "linkedin_job_monitoring",
+      "discovery_signal": "hiring_conversion_specialist",
+      "employee_count_estimate": 15,
+      "revenue_estimate_range": "$500k-1M",
+      "growth_signals": [
+        "hiring_marketing",
+        "growth_phase"
+      ],
+      "confidence_score": 0.9,
+      "monthly_waste": 450,
+      "annual_savings": 5400,
+      "leak_details": [
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 300,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "recharge",
+          "category": "shopify_app"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 150,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "klaviyo",
+          "category": "shopify_app"
+        }
+      ],
+      "qualification_score": 85,
+      "ready_for_outreach": true,
+      "contact_email": null,
+      "linkedin_company": null,
+      "outreach_angle": "Noticed you're hiring a Conversion Specialist. Identified $450/month in immediate conversion wins they could implement.",
+      "estimated_close_probability": 0.21600000000000003
+    }
+  ],
+  "top_prospects_summary": [
+    {
+      "company": "By Humankind",
+      "domain": "byhumankind.com",
+      "monthly_waste": 600,
+      "discovery_signal": "hiring_growth_marketing_manager",
+      "close_probability": 0.44999999999999996,
+      "outreach_angle": "Perfect timing - saw you're hiring a Growth Marketing Manager. Found $600/month in optimization opportunities that could fund the new hire."
+    },
+    {
+      "company": "Kotn",
+      "domain": "kotn.com",
+      "monthly_waste": 600,
+      "discovery_signal": "multiple_conversion_apps",
+      "close_probability": 0.23399999999999999,
+      "outreach_angle": "Quick analysis found $600/month in optimization opportunities. Worth a 10-minute chat?"
+    },
+    {
+      "company": "Purposefull",
+      "domain": "getpurposefull.com",
+      "monthly_waste": 450,
+      "discovery_signal": "hiring_conversion_specialist",
+      "close_probability": 0.21600000000000003,
+      "outreach_angle": "Noticed you're hiring a Conversion Specialist. Identified $450/month in immediate conversion wins they could implement."
+    }
+  ]
+}

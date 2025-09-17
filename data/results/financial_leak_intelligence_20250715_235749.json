@@ -1,0 +1,79 @@
+{
+  "analysis_metadata": {
+    "timestamp": "20250715_235749",
+    "total_domains": 3,
+    "successful_analyses": 1,
+    "system_version": "1.0.0"
+  },
+  "results": [
+    {
+      "domain": "glossier.com",
+      "analysis_timestamp": "2025-07-15 23:57:47",
+      "detected_apps": [],
+      "ecommerce_platform": null,
+      "tech_stack_quality": "unknown",
+      "estimated_monthly_revenue": 0,
+      "revenue_confidence": 0,
+      "monthly_saas_waste": 0,
+      "waste_percentage": 0,
+      "annual_savings_potential": 0,
+      "roas_waste_score": 0,
+      "duplicate_apps": [],
+      "overpriced_tools": [],
+      "leak_severity": "unknown",
+      "priority_score": 0,
+      "immediate_actions": [],
+      "total_analysis_time": 1.6679470539093018,
+      "success": false,
+      "layer_errors": [
+        "Layer 2: No content retrieved (status: 0)"
+      ]
+    },
+    {
+      "domain": "sephora.com",
+      "analysis_timestamp": "2025-07-15 23:57:47",
+      "detected_apps": [],
+      "ecommerce_platform": null,
+      "tech_stack_quality": "unknown",
+      "estimated_monthly_revenue": 0,
+      "revenue_confidence": 0,
+      "monthly_saas_waste": 0,
+      "waste_percentage": 0,
+      "annual_savings_potential": 0,
+      "roas_waste_score": 0,
+      "duplicate_apps": [],
+      "overpriced_tools": [],
+      "leak_severity": "unknown",
+      "priority_score": 0,
+      "immediate_actions": [],
+      "total_analysis_time": 1.5833375453948975,
+      "success": false,
+      "layer_errors": [
+        "Layer 2: No content retrieved (status: 0)"
+      ]
+    },
+    {
+      "domain": "kiehls.com",
+      "analysis_timestamp": "2025-07-15 23:57:47",
+      "detected_apps": [],
+      "ecommerce_platform": "magento",
+      "tech_stack_quality": "basic",
+      "estimated_monthly_revenue": 50544,
+      "revenue_confidence": 27.500000000000004,
+      "monthly_saas_waste": 0,
+      "waste_percentage": 0.0,
+      "annual_savings_potential": 0,
+      "roas_waste_score": 0,
+      "duplicate_apps": [],
+      "overpriced_tools": [],
+      "leak_severity": "low",
+      "priority_score": 6,
+      "immediate_actions": [
+        "Improve revenue tracking for better financial analysis"
+      ],
+      "total_analysis_time": 0.19284272193908691,
+      "success": true,
+      "layer_errors": []
+    }
+  ]
+}

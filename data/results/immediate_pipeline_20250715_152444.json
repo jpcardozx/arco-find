@@ -1,0 +1,166 @@
+{
+  "generated_at": "2025-07-15T15:24:44.349213",
+  "execution_plan": "7-day immediate revenue generation",
+  "summary": {
+    "total_prospects": 7,
+    "immediate_priority": 7,
+    "high_priority": 0,
+    "total_pipeline_value": 10140.0,
+    "expected_revenue": 6708.0,
+    "avg_close_probability": 0.6571428571428571
+  },
+  "immediate_actions": [
+    "Contact SaaS Marketing - $1,560 opportunity",
+    "Contact E-commerce Tech - $1,560 opportunity",
+    "Contact SaaS CRM Startup - $1,560 opportunity",
+    "Prepare audit reports for 7 prospects",
+    "Setup Calendly for demo calls",
+    "Prepare standard SaaS replacement proposals"
+  ],
+  "weekly_execution": {
+    "day_1": "Contact top 5 prospects with audit reports",
+    "day_2": "Follow up on initial contacts, schedule demos",
+    "day_3": "Conduct demos and present solutions",
+    "day_4": "Send proposals and handle objections",
+    "day_5": "Close deals and collect payments",
+    "day_6_7": "Begin implementation for closed deals",
+    "expected_closes": 7
+  },
+  "top_prospects": [
+    {
+      "company": "SaaS Marketing",
+      "domain": "marketingsaas.com.br",
+      "performance_score": 50,
+      "issues_found": [
+        "Performance mediana",
+        "Over-spend SaaS detectado: USD 800/mês"
+      ],
+      "tech_stack": {
+        "analytics": [
+          "Google Analytics"
+        ]
+      },
+      "immediate_value": 1560.0,
+      "action_plan": [
+        "Day 1: Send performance audit to SaaS Marketing",
+        "Day 4: Present ROI calculation & close deal",
+        "Day 5-7: Implement solutions & deliver results"
+      ],
+      "close_probability": 0.7,
+      "revenue_potential": 10150,
+      "priority": "HIGH",
+      "next_actions": [
+        "Send audit: 'SaaS Marketing losing USD 1,560/year'",
+        "Limited time: 40% discount for immediate decision"
+      ]
+    },
+    {
+      "company": "E-commerce Tech",
+      "domain": "lojatech.com.br",
+      "performance_score": 50,
+      "issues_found": [
+        "Performance mediana",
+        "Ferramentas e-commerce caras: USD 450/mês"
+      ],
+      "tech_stack": {
+        "analytics": [
+          "Google Analytics"
+        ]
+      },
+      "immediate_value": 1560.0,
+      "action_plan": [
+        "Day 1: Send performance audit to E-commerce Tech",
+        "Day 4: Present ROI calculation & close deal",
+        "Day 5-7: Implement solutions & deliver results"
+      ],
+      "close_probability": 0.7,
+      "revenue_potential": 10075,
+      "priority": "HIGH",
+      "next_actions": [
+        "Send audit: 'E-commerce Tech losing USD 1,560/year'",
+        "Limited time: 40% discount for immediate decision"
+      ]
+    },
+    {
+      "company": "SaaS CRM Startup",
+      "domain": "crmstartup.com.br",
+      "performance_score": 50,
+      "issues_found": [
+        "Performance mediana",
+        "Over-spend SaaS detectado: USD 800/mês"
+      ],
+      "tech_stack": {
+        "analytics": [
+          "Google Analytics"
+        ]
+      },
+      "immediate_value": 1560.0,
+      "action_plan": [
+        "Day 1: Send performance audit to SaaS CRM Startup",
+        "Day 4: Present ROI calculation & close deal",
+        "Day 5-7: Implement solutions & deliver results"
+      ],
+      "close_probability": 0.7,
+      "revenue_potential": 8250,
+      "priority": "HIGH",
+      "next_actions": [
+        "Send audit: 'SaaS CRM Startup losing USD 1,560/year'",
+        "Limited time: 40% discount for immediate decision"
+      ]
+    },
+    {
+      "company": "E-commerce Fashion BR",
+      "domain": "lojafashion.com.br",
+      "performance_score": 50,
+      "issues_found": [
+        "Performance mediana",
+        "Ferramentas e-commerce caras: USD 450/mês"
+      ],
+      "tech_stack": {
+        "analytics": [
+          "Google Analytics"
+        ]
+      },
+      "immediate_value": 1560.0,
+      "action_plan": [
+        "Day 1: Send performance audit to E-commerce Fashion BR",
+        "Day 4: Present ROI calculation & close deal",
+        "Day 5-7: Implement solutions & deliver results"
+      ],
+      "close_probability": 0.7,
+      "revenue_potential": 7875,
+      "priority": "HIGH",
+      "next_actions": [
+        "Send audit: 'E-commerce Fashion BR losing USD 1,560/year'",
+        "Limited time: 40% discount for immediate decision"
+      ]
+    },
+    {
+      "company": "Agência Digital",
+      "domain": "agenciadigital.com.br",
+      "performance_score": 50,
+      "issues_found": [
+        "Performance mediana",
+        "Over-spend SaaS detectado: USD 800/mês"
+      ],
+      "tech_stack": {
+        "analytics": [
+          "Google Analytics"
+        ]
+      },
+      "immediate_value": 1300.0,
+      "action_plan": [
+        "Day 1: Send performance audit to Agência Digital",
+        "Day 4: Present ROI calculation & close deal",
+        "Day 5-7: Implement solutions & deliver results"
+      ],
+      "close_probability": 0.6,
+      "revenue_potential": 8250,
+      "priority": "MEDIUM",
+      "next_actions": [
+        "Send audit: 'Agência Digital losing USD 1,300/year'",
+        "Limited time: 40% discount for immediate decision"
+      ]
+    }
+  ]
+}

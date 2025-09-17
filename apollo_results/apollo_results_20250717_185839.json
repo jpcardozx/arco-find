@@ -1,0 +1,202 @@
+[
+  {
+    "domain": "toh.com.br",
+    "company_name": "Toh Acess\u00f3rios Pet",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "bikinilasirene.com.br",
+    "company_name": "La Sir\u00e8ne",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "magnavita.com.br",
+    "company_name": "Emp\u00f3rio Magna Vita",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "joolabrasil.com",
+    "company_name": "JOOLA Brasil T\u00eanis de Mesa e Pickleball",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "voyantdistrihub.com",
+    "company_name": "Voyant Distrihub",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "naguirreshop.com.br",
+    "company_name": "Naguirre Shop",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "ayapitaya.com.br",
+    "company_name": "Aya Pitaya",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "itstone.com.br",
+    "company_name": "It Stone Semi Joias",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "aurha.com.br",
+    "company_name": "Aurha",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "autofasstore.com",
+    "company_name": "Autof\u00e3s",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "adastrabr.com",
+    "company_name": "Ad Astra",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "nutrabase.com.br",
+    "company_name": "Nutrabase",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "hutolifestyle.ca",
+    "company_name": "HUTO",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "maborio.com.br",
+    "company_name": "Mab\u00f4 Rio",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "truedata.com.br",
+    "company_name": "Truedata",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "axiosbrasil.com.br",
+    "company_name": "Axios Brasil",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "usenobs.com",
+    "company_name": "NOBS & Co",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "mahewanted.com.br",
+    "company_name": "MAHE WANTED",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "carnan.com.br",
+    "company_name": "Carnan",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "domain": "tucumbrasil.com",
+    "company_name": "TUCUM BRASIL",
+    "success": false,
+    "stages_completed": [
+      "enriched_basic",
+      "enriched_advanced"
+    ],
+    "error": "Analysis failed: '<' not supported between instances of 'NoneType' and 'int'"
+  }
+]

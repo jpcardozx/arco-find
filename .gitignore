@@ -20,3 +20,7 @@ cache/
 # Misc
 .DS_Store
 .env
+
+# Arco-Find specific
+output/
+arquivos_obsoletos/

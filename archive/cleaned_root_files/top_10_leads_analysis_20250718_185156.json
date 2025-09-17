@@ -1,0 +1,1246 @@
+[
+  {
+    "company": "Mabô Rio",
+    "domain": "maborio.com.br",
+    "industry": "retail",
+    "employees": 7,
+    "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+    "score": {
+      "segment_score": 100.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 70,
+      "roi_score": 0,
+      "final_score": 79.0,
+      "confidence_level": 0.74,
+      "strengths": [
+        "Alto potencial de receita (R$ 10,780,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "fashion",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 5.0,
+          "matched_keywords": [
+            "e-commerce",
+            "varejo"
+          ]
+        },
+        "fashion": {
+          "score": 11.0,
+          "matched_keywords": [
+            "moda",
+            "fashion",
+            "bordado"
+          ]
+        },
+        "pet": {
+          "score": 2.0,
+          "matched_keywords": [
+            "ração"
+          ]
+        }
+      },
+      "segment_confidence": 1.0,
+      "market_characteristics": {
+        "market_size_brazil": 85000000000,
+        "growth_rate": 0.08,
+        "competition_level": "very_high",
+        "avg_margins": 0.25
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 10780000.0,
+      "contract_value_estimate": 258720.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 4.4,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify"
+        ],
+        "analytics": [
+          "Google Analytics"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences"
+        ]
+      },
+      "technology_maturity_score": 30,
+      "optimization_opportunities": [
+        {
+          "type": "performance_optimization",
+          "description": "Oportunidade de otimização de performance",
+          "impact": "medium",
+          "monthly_value": 1000
+        }
+      ],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [],
+      "urgency_score": 70,
+      "market_position": "growing",
+      "competitive_pressure": "very_high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 1000,
+      "monthly_savings_potential": 700.0,
+      "annual_savings_potential": 8400.0,
+      "implementation_cost": 215600.0,
+      "annual_roi_percentage": -96.1038961038961,
+      "payback_period_months": 36,
+      "three_year_value": -190400.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Melhoria da experiência de compra online",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a melhorar a experiência de compra online e otimizar seus investimentos digitais, com ROI de -96% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "Mabô Rio",
+    "domain": "maborio.com.br",
+    "industry": "retail",
+    "employees": 7,
+    "location": "Rio de Janeiro, State of Rio de Janeiro, Brazil",
+    "score": {
+      "segment_score": 100.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 70,
+      "roi_score": 0,
+      "final_score": 79.0,
+      "confidence_level": 0.74,
+      "strengths": [
+        "Alto potencial de receita (R$ 10,780,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "fashion",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 5.0,
+          "matched_keywords": [
+            "e-commerce",
+            "varejo"
+          ]
+        },
+        "fashion": {
+          "score": 11.0,
+          "matched_keywords": [
+            "moda",
+            "fashion",
+            "bordado"
+          ]
+        },
+        "pet": {
+          "score": 2.0,
+          "matched_keywords": [
+            "ração"
+          ]
+        }
+      },
+      "segment_confidence": 1.0,
+      "market_characteristics": {
+        "market_size_brazil": 85000000000,
+        "growth_rate": 0.08,
+        "competition_level": "very_high",
+        "avg_margins": 0.25
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 10780000.0,
+      "contract_value_estimate": 258720.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 4.4,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify"
+        ],
+        "analytics": [
+          "Google Analytics"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences"
+        ]
+      },
+      "technology_maturity_score": 30,
+      "optimization_opportunities": [
+        {
+          "type": "performance_optimization",
+          "description": "Oportunidade de otimização de performance",
+          "impact": "medium",
+          "monthly_value": 1000
+        }
+      ],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [],
+      "urgency_score": 70,
+      "market_position": "growing",
+      "competitive_pressure": "very_high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 1000,
+      "monthly_savings_potential": 700.0,
+      "annual_savings_potential": 8400.0,
+      "implementation_cost": 215600.0,
+      "annual_roi_percentage": -96.1038961038961,
+      "payback_period_months": 36,
+      "three_year_value": -190400.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Melhoria da experiência de compra online",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a melhorar a experiência de compra online e otimizar seus investimentos digitais, com ROI de -96% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "HIST | How I See Things",
+    "domain": "howiseethings.com.br",
+    "industry": "retail",
+    "employees": 9,
+    "location": "Sao Paulo, State of Sao Paulo, Brazil",
+    "score": {
+      "segment_score": 90.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 70,
+      "roi_score": 0,
+      "final_score": 77.5,
+      "confidence_level": 0.72,
+      "strengths": [
+        "Alto potencial de receita (R$ 15,750,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "fashion",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 3.0,
+          "matched_keywords": [
+            "e-commerce"
+          ]
+        },
+        "fashion": {
+          "score": 9.0,
+          "matched_keywords": [
+            "moda",
+            "fashion"
+          ]
+        },
+        "pet": {
+          "score": 2.0,
+          "matched_keywords": [
+            "ração"
+          ]
+        },
+        "services": {
+          "score": 3.0,
+          "matched_keywords": [
+            "desenvolvimento"
+          ]
+        }
+      },
+      "segment_confidence": 0.9,
+      "market_characteristics": {
+        "market_size_brazil": 85000000000,
+        "growth_rate": 0.08,
+        "competition_level": "very_high",
+        "avg_margins": 0.25
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 15750000.0,
+      "contract_value_estimate": 378000.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 5.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify"
+        ],
+        "analytics": [
+          "Google Analytics"
+        ],
+        "marketing": [
+          "Facebook Custom Audiences"
+        ],
+        "email": [
+          "Gmail",
+          "SendGrid"
+        ]
+      },
+      "technology_maturity_score": 40,
+      "optimization_opportunities": [
+        {
+          "type": "performance_optimization",
+          "description": "Oportunidade de otimização de performance",
+          "impact": "medium",
+          "monthly_value": 1000
+        }
+      ],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [],
+      "urgency_score": 70,
+      "market_position": "growing",
+      "competitive_pressure": "very_high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 1000,
+      "monthly_savings_potential": 700.0,
+      "annual_savings_potential": 8400.0,
+      "implementation_cost": 315000.0,
+      "annual_roi_percentage": -97.33333333333334,
+      "payback_period_months": 36,
+      "three_year_value": -289800.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Melhoria da experiência de compra online",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a melhorar a experiência de compra online e otimizar seus investimentos digitais, com ROI de -97% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "HIST | How I See Things",
+    "domain": "howiseethings.com.br",
+    "industry": "retail",
+    "employees": 9,
+    "location": "Sao Paulo, State of Sao Paulo, Brazil",
+    "score": {
+      "segment_score": 90.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 70,
+      "roi_score": 0,
+      "final_score": 77.5,
+      "confidence_level": 0.72,
+      "strengths": [
+        "Alto potencial de receita (R$ 15,750,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "fashion",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 3.0,
+          "matched_keywords": [
+            "e-commerce"
+          ]
+        },
+        "fashion": {
+          "score": 9.0,
+          "matched_keywords": [
+            "moda",
+            "fashion"
+          ]
+        },
+        "pet": {
+          "score": 2.0,
+          "matched_keywords": [
+            "ração"
+          ]
+        },
+        "services": {
+          "score": 3.0,
+          "matched_keywords": [
+            "desenvolvimento"
+          ]
+        }
+      },
+      "segment_confidence": 0.9,
+      "market_characteristics": {
+        "market_size_brazil": 85000000000,
+        "growth_rate": 0.08,
+        "competition_level": "very_high",
+        "avg_margins": 0.25
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 15750000.0,
+      "contract_value_estimate": 378000.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 5.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify"
+        ],
+        "analytics": [
+          "Google Analytics"
+        ],
+        "marketing": [
+          "Facebook Custom Audiences"
+        ],
+        "email": [
+          "Gmail",
+          "SendGrid"
+        ]
+      },
+      "technology_maturity_score": 40,
+      "optimization_opportunities": [
+        {
+          "type": "performance_optimization",
+          "description": "Oportunidade de otimização de performance",
+          "impact": "medium",
+          "monthly_value": 1000
+        }
+      ],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [],
+      "urgency_score": 70,
+      "market_position": "growing",
+      "competitive_pressure": "very_high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 1000,
+      "monthly_savings_potential": 700.0,
+      "annual_savings_potential": 8400.0,
+      "implementation_cost": 315000.0,
+      "annual_roi_percentage": -97.33333333333334,
+      "payback_period_months": 36,
+      "three_year_value": -289800.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Melhoria da experiência de compra online",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a melhorar a experiência de compra online e otimizar seus investimentos digitais, com ROI de -97% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "Empório Magna Vita",
+    "domain": "magnavita.com.br",
+    "industry": "retail",
+    "employees": 10,
+    "location": "Sao Paulo, State of Sao Paulo, Brazil",
+    "score": {
+      "segment_score": 100.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 50,
+      "roi_score": 0,
+      "final_score": 77.0,
+      "confidence_level": 0.74,
+      "strengths": [
+        "Alto potencial de receita (R$ 16,000,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "food_health",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 2.0,
+          "matched_keywords": [
+            "varejo"
+          ]
+        },
+        "food_health": {
+          "score": 21.0,
+          "matched_keywords": [
+            "natural products",
+            "organic",
+            "suplementos",
+            "vitaminas",
+            "wellness",
+            "nutrition"
+          ]
+        }
+      },
+      "segment_confidence": 1.0,
+      "market_characteristics": {
+        "market_size_brazil": 50000000000,
+        "growth_rate": 0.1,
+        "competition_level": "medium",
+        "avg_margins": 0.2
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 16000000.0,
+      "contract_value_estimate": 384000.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 5.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify",
+          "Vtex"
+        ],
+        "analytics": [
+          "Google Analytics"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences",
+          "DoubleClick"
+        ],
+        "performance": [
+          "Cloudflare"
+        ],
+        "email": [
+          "SendGrid"
+        ]
+      },
+      "technology_maturity_score": 50,
+      "optimization_opportunities": [],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [
+        "Foco pode estar em crescimento vs otimização"
+      ],
+      "urgency_score": 50,
+      "market_position": "startup",
+      "competitive_pressure": "medium"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 0,
+      "monthly_savings_potential": 0.0,
+      "annual_savings_potential": 0.0,
+      "implementation_cost": 320000.0,
+      "annual_roi_percentage": -100.0,
+      "payback_period_months": 36,
+      "three_year_value": -320000.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Otimização para mercado de wellness",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a otimizar para o mercado wellness e otimizar seus investimentos digitais, com ROI de -100% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "Truedata",
+    "domain": "truedata.com.br",
+    "industry": "retail",
+    "employees": 10,
+    "location": "Manaus, Amazonas, Brazil",
+    "score": {
+      "segment_score": 100.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 50,
+      "roi_score": 0,
+      "final_score": 77.0,
+      "confidence_level": 0.74,
+      "strengths": [
+        "Alto potencial de receita (R$ 10,000,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "technology",
+      "segment_scores": {
+        "technology": {
+          "score": 22.0,
+          "matched_keywords": [
+            "software",
+            "tecnologia",
+            "informática",
+            "computador",
+            "hardware",
+            "eletrônicos"
+          ]
+        }
+      },
+      "segment_confidence": 1.0,
+      "market_characteristics": {
+        "market_size_brazil": 50000000000,
+        "growth_rate": 0.1,
+        "competition_level": "medium",
+        "avg_margins": 0.2
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 10000000.0,
+      "contract_value_estimate": 360000.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 2.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify"
+        ],
+        "analytics": [
+          "Google Analytics",
+          "Hotjar"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences",
+          "DoubleClick"
+        ],
+        "crm": [
+          "Salesforce"
+        ]
+      },
+      "technology_maturity_score": 40,
+      "optimization_opportunities": [
+        {
+          "type": "performance_optimization",
+          "description": "Oportunidade de otimização de performance",
+          "impact": "medium",
+          "monthly_value": 1000
+        }
+      ],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [
+        "Possível resistência a mudanças tecnológicas"
+      ],
+      "urgency_score": 50,
+      "market_position": "growing",
+      "competitive_pressure": "high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 1000,
+      "monthly_savings_potential": 700.0,
+      "annual_savings_potential": 8400.0,
+      "implementation_cost": 200000.0,
+      "annual_roi_percentage": -95.8,
+      "payback_period_months": 36,
+      "three_year_value": -174800.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Eficiência operacional e redução de custos",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a aumentar eficiência operacional e otimizar seus investimentos digitais, com ROI de -96% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "Empório Magna Vita",
+    "domain": "magnavita.com.br",
+    "industry": "retail",
+    "employees": 10,
+    "location": "Sao Paulo, State of Sao Paulo, Brazil",
+    "score": {
+      "segment_score": 100.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 50,
+      "roi_score": 0,
+      "final_score": 77.0,
+      "confidence_level": 0.74,
+      "strengths": [
+        "Alto potencial de receita (R$ 16,000,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "food_health",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 2.0,
+          "matched_keywords": [
+            "varejo"
+          ]
+        },
+        "food_health": {
+          "score": 21.0,
+          "matched_keywords": [
+            "natural products",
+            "organic",
+            "suplementos",
+            "vitaminas",
+            "wellness",
+            "nutrition"
+          ]
+        }
+      },
+      "segment_confidence": 1.0,
+      "market_characteristics": {
+        "market_size_brazil": 50000000000,
+        "growth_rate": 0.1,
+        "competition_level": "medium",
+        "avg_margins": 0.2
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 16000000.0,
+      "contract_value_estimate": 384000.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 5.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify",
+          "Vtex"
+        ],
+        "analytics": [
+          "Google Analytics"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences",
+          "DoubleClick"
+        ],
+        "performance": [
+          "Cloudflare"
+        ],
+        "email": [
+          "SendGrid"
+        ]
+      },
+      "technology_maturity_score": 50,
+      "optimization_opportunities": [],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [
+        "Foco pode estar em crescimento vs otimização"
+      ],
+      "urgency_score": 50,
+      "market_position": "startup",
+      "competitive_pressure": "medium"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 0,
+      "monthly_savings_potential": 0.0,
+      "annual_savings_potential": 0.0,
+      "implementation_cost": 320000.0,
+      "annual_roi_percentage": -100.0,
+      "payback_period_months": 36,
+      "three_year_value": -320000.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Otimização para mercado de wellness",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a otimizar para o mercado wellness e otimizar seus investimentos digitais, com ROI de -100% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "Truedata",
+    "domain": "truedata.com.br",
+    "industry": "retail",
+    "employees": 10,
+    "location": "Manaus, Amazonas, Brazil",
+    "score": {
+      "segment_score": 100.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 50,
+      "roi_score": 0,
+      "final_score": 77.0,
+      "confidence_level": 0.74,
+      "strengths": [
+        "Alto potencial de receita (R$ 10,000,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "technology",
+      "segment_scores": {
+        "technology": {
+          "score": 22.0,
+          "matched_keywords": [
+            "software",
+            "tecnologia",
+            "informática",
+            "computador",
+            "hardware",
+            "eletrônicos"
+          ]
+        }
+      },
+      "segment_confidence": 1.0,
+      "market_characteristics": {
+        "market_size_brazil": 50000000000,
+        "growth_rate": 0.1,
+        "competition_level": "medium",
+        "avg_margins": 0.2
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 10000000.0,
+      "contract_value_estimate": 360000.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 2.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify"
+        ],
+        "analytics": [
+          "Google Analytics",
+          "Hotjar"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences",
+          "DoubleClick"
+        ],
+        "crm": [
+          "Salesforce"
+        ]
+      },
+      "technology_maturity_score": 40,
+      "optimization_opportunities": [
+        {
+          "type": "performance_optimization",
+          "description": "Oportunidade de otimização de performance",
+          "impact": "medium",
+          "monthly_value": 1000
+        }
+      ],
+      "solution_fit_score": 85,
+      "implementation_complexity": "low"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [
+        "Possível resistência a mudanças tecnológicas"
+      ],
+      "urgency_score": 50,
+      "market_position": "growing",
+      "competitive_pressure": "high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 1000,
+      "monthly_savings_potential": 700.0,
+      "annual_savings_potential": 8400.0,
+      "implementation_cost": 200000.0,
+      "annual_roi_percentage": -95.8,
+      "payback_period_months": 36,
+      "three_year_value": -174800.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Eficiência operacional e redução de custos",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a aumentar eficiência operacional e otimizar seus investimentos digitais, com ROI de -96% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "Aurha",
+    "domain": "aurha.com.br",
+    "industry": "retail",
+    "employees": 6,
+    "location": "Belo Horizonte, State of Minas Gerais, Brazil",
+    "score": {
+      "segment_score": 80.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 70,
+      "roi_score": 0,
+      "final_score": 76.0,
+      "confidence_level": 0.7,
+      "strengths": [
+        "Alto potencial de receita (R$ 8,400,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "fashion",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 5.0,
+          "matched_keywords": [
+            "shopify"
+          ]
+        },
+        "fashion": {
+          "score": 8.0,
+          "matched_keywords": [
+            "moda",
+            "acessórios"
+          ]
+        },
+        "food_health": {
+          "score": 3.0,
+          "matched_keywords": [
+            "wellness"
+          ]
+        }
+      },
+      "segment_confidence": 0.8,
+      "market_characteristics": {
+        "market_size_brazil": 85000000000,
+        "growth_rate": 0.08,
+        "competition_level": "very_high",
+        "avg_margins": 0.25
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 8400000.0,
+      "contract_value_estimate": 201600.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 4.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify",
+          "Magento"
+        ],
+        "analytics": [
+          "Google Analytics",
+          "Hotjar"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences",
+          "DoubleClick",
+          "Klaviyo"
+        ],
+        "performance": [
+          "Cloudflare"
+        ],
+        "email": [
+          "Gmail"
+        ],
+        "crm": [
+          "HubSpot"
+        ]
+      },
+      "technology_maturity_score": 60,
+      "optimization_opportunities": [],
+      "solution_fit_score": 85,
+      "implementation_complexity": "medium"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [],
+      "urgency_score": 70,
+      "market_position": "growing",
+      "competitive_pressure": "very_high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 0,
+      "monthly_savings_potential": 0.0,
+      "annual_savings_potential": 0.0,
+      "implementation_cost": 168000.0,
+      "annual_roi_percentage": -100.0,
+      "payback_period_months": 36,
+      "three_year_value": -168000.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Melhoria da experiência de compra online",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a melhorar a experiência de compra online e otimizar seus investimentos digitais, com ROI de -100% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  },
+  {
+    "company": "Aurha",
+    "domain": "aurha.com.br",
+    "industry": "retail",
+    "employees": 6,
+    "location": "Belo Horizonte, State of Minas Gerais, Brazil",
+    "score": {
+      "segment_score": 80.0,
+      "revenue_score": 100,
+      "technology_score": 85,
+      "geographic_score": 100,
+      "competitive_score": 70,
+      "roi_score": 0,
+      "final_score": 76.0,
+      "confidence_level": 0.7,
+      "strengths": [
+        "Alto potencial de receita (R$ 8,400,000)",
+        "Localização prioritária (Brasil)"
+      ],
+      "opportunities": [],
+      "risks": []
+    },
+    "segment_analysis": {
+      "primary_segment": "fashion",
+      "segment_scores": {
+        "ecommerce": {
+          "score": 5.0,
+          "matched_keywords": [
+            "shopify"
+          ]
+        },
+        "fashion": {
+          "score": 8.0,
+          "matched_keywords": [
+            "moda",
+            "acessórios"
+          ]
+        },
+        "food_health": {
+          "score": 3.0,
+          "matched_keywords": [
+            "wellness"
+          ]
+        }
+      },
+      "segment_confidence": 0.8,
+      "market_characteristics": {
+        "market_size_brazil": 85000000000,
+        "growth_rate": 0.08,
+        "competition_level": "very_high",
+        "avg_margins": 0.25
+      }
+    },
+    "revenue_analysis": {
+      "estimated_annual_revenue": 8400000.0,
+      "contract_value_estimate": 201600.0,
+      "revenue_confidence": 0.6,
+      "payment_capacity": "high",
+      "geographic_multiplier": 4.0,
+      "revenue_source": "estimated"
+    },
+    "technology_analysis": {
+      "categorized_technologies": {
+        "ecommerce_platforms": [
+          "Shopify",
+          "Magento"
+        ],
+        "analytics": [
+          "Google Analytics",
+          "Hotjar"
+        ],
+        "marketing": [
+          "Google AdWords",
+          "Facebook Custom Audiences",
+          "DoubleClick",
+          "Klaviyo"
+        ],
+        "performance": [
+          "Cloudflare"
+        ],
+        "email": [
+          "Gmail"
+        ],
+        "crm": [
+          "HubSpot"
+        ]
+      },
+      "technology_maturity_score": 60,
+      "optimization_opportunities": [],
+      "solution_fit_score": 85,
+      "implementation_complexity": "medium"
+    },
+    "competitive_analysis": {
+      "competitive_advantages": [
+        "Tamanho ideal para implementação ágil"
+      ],
+      "vulnerabilities": [],
+      "urgency_score": 70,
+      "market_position": "growing",
+      "competitive_pressure": "very_high"
+    },
+    "roi_analysis": {
+      "monthly_current_waste": 0,
+      "monthly_savings_potential": 0.0,
+      "annual_savings_potential": 0.0,
+      "implementation_cost": 168000.0,
+      "annual_roi_percentage": -100.0,
+      "payback_period_months": 36,
+      "three_year_value": -168000.0,
+      "roi_confidence": 0.4
+    },
+    "approach_strategy": {
+      "decision_maker": "CEO/Founder",
+      "approach_style": "direct_founder",
+      "primary_message": "Melhoria da experiência de compra online",
+      "timing": "long_term",
+      "urgency_message": "Investimento estratégico de longo prazo",
+      "preferred_channel": "email",
+      "meeting_type": "video_call"
+    },
+    "value_proposition": "Podemos ajudar sua empresa a melhorar a experiência de compra online e otimizar seus investimentos digitais, com ROI de -100% ao ano.",
+    "next_steps": [
+      "⭐ ALTA PRIORIDADE - Contato em 48h",
+      "Pesquisa adicional sobre necessidades específicas",
+      "Abordagem via LinkedIn + email"
+    ]
+  }
+]

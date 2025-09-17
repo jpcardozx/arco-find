@@ -1,0 +1,152 @@
+[
+  {
+    "company_name": "Loja Virtual Moda",
+    "domain": "example-fashion.com.br",
+    "industry": "E-commerce Fashion",
+    "saas_waste": 272,
+    "performance_loss": 378,
+    "total_monthly_waste": 650,
+    "leak_score": 86,
+    "detected_apps": [
+      "Klaviyo",
+      "Hotjar",
+      "Zendesk",
+      "Recharge"
+    ],
+    "estimated_revenue": "$500k-2M annual",
+    "employee_count": 25,
+    "tech_maturity": "medium",
+    "urgency_level": "MEDIUM",
+    "monthly_arco_fee": 162.5,
+    "annual_revenue_potential": 1950.0,
+    "close_probability": 0.45,
+    "decision_maker": "Founder/CTO",
+    "contact_strategy": "founder_direct",
+    "outreach_sequence": [
+      "email_educational_day_0",
+      "linkedin_connection_day_3",
+      "email_industry_insights_day_7",
+      "follow_up_day_14"
+    ]
+  },
+  {
+    "company_name": "SaaS Gestão Empresarial",
+    "domain": "example-saas.com.br",
+    "industry": "B2B SaaS",
+    "saas_waste": 269,
+    "performance_loss": 521,
+    "total_monthly_waste": 790,
+    "leak_score": 100,
+    "detected_apps": [
+      "Intercom",
+      "Mixpanel",
+      "Segment",
+      "Drift"
+    ],
+    "estimated_revenue": "$1M-5M ARR",
+    "employee_count": 45,
+    "tech_maturity": "high",
+    "urgency_level": "MEDIUM",
+    "monthly_arco_fee": 197.5,
+    "annual_revenue_potential": 2370.0,
+    "close_probability": 0.45,
+    "decision_maker": "Founder/CTO",
+    "contact_strategy": "founder_direct",
+    "outreach_sequence": [
+      "email_educational_day_0",
+      "linkedin_connection_day_3",
+      "email_industry_insights_day_7",
+      "follow_up_day_14"
+    ]
+  },
+  {
+    "company_name": "Clínica Médica Digital",
+    "domain": "example-health.com.br",
+    "industry": "HealthTech",
+    "saas_waste": 134,
+    "performance_loss": 286,
+    "total_monthly_waste": 420,
+    "leak_score": 71,
+    "detected_apps": [
+      "Zendesk",
+      "Calendly",
+      "Mailchimp"
+    ],
+    "estimated_revenue": "$2M-8M annual",
+    "employee_count": 60,
+    "tech_maturity": "medium",
+    "urgency_level": "LOW",
+    "monthly_arco_fee": 105.0,
+    "annual_revenue_potential": 1260.0,
+    "close_probability": 0.3,
+    "decision_maker": "Technical Director",
+    "contact_strategy": "technical_approach",
+    "outreach_sequence": [
+      "email_educational_day_0",
+      "linkedin_connection_day_3",
+      "email_industry_insights_day_7",
+      "follow_up_day_14"
+    ]
+  },
+  {
+    "company_name": "Plataforma Educacional",
+    "domain": "example-edu.com.br",
+    "industry": "EdTech",
+    "saas_waste": 237,
+    "performance_loss": 863,
+    "total_monthly_waste": 1100,
+    "leak_score": 100,
+    "detected_apps": [
+      "Typeform",
+      "Klaviyo",
+      "Hotjar",
+      "Intercom"
+    ],
+    "estimated_revenue": "$3M-10M annual",
+    "employee_count": 80,
+    "tech_maturity": "high",
+    "urgency_level": "HIGH",
+    "monthly_arco_fee": 275.0,
+    "annual_revenue_potential": 3300.0,
+    "close_probability": 0.6,
+    "decision_maker": "Technical Director",
+    "contact_strategy": "technical_approach",
+    "outreach_sequence": [
+      "email_audit_results_day_0",
+      "linkedin_dm_day_2",
+      "email_case_study_day_5",
+      "phone_call_day_10"
+    ]
+  },
+  {
+    "company_name": "Fintech Pagamentos",
+    "domain": "example-fintech.com.br",
+    "industry": "Fintech",
+    "saas_waste": 284,
+    "performance_loss": 1416,
+    "total_monthly_waste": 1700,
+    "leak_score": 100,
+    "detected_apps": [
+      "Segment",
+      "Mixpanel",
+      "Zendesk",
+      "Drift"
+    ],
+    "estimated_revenue": "$5M-15M annual",
+    "employee_count": 120,
+    "tech_maturity": "high",
+    "urgency_level": "IMMEDIATE",
+    "monthly_arco_fee": 425.0,
+    "annual_revenue_potential": 5100.0,
+    "close_probability": 0.75,
+    "decision_maker": "CTO/CEO",
+    "contact_strategy": "executive_outreach",
+    "outreach_sequence": [
+      "email_audit_results_day_0",
+      "linkedin_dm_day_1",
+      "whatsapp_audio_day_3",
+      "email_competitive_day_5",
+      "phone_call_day_7"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "campaign_date": "2025-07-19T09:11:58.775261",
+  "total_prospects": 10,
+  "priority_leads": 1,
+  "total_revenue_potential": 15000000,
+  "roi_potential": 150000.0,
+  "leads": [
+    {
+      "company_name": "CloudScale AI",
+      "domain": "cloudscale.ai",
+      "priority_score": 100.0,
+      "priority_tier": "HIGH",
+      "revenue": 15000000,
+      "industry": "saas",
+      "decision_makers": [
+        "cto@cloudscale.ai",
+        "vp-eng@cloudscale.ai"
+      ],
+      "outreach_subject": "Performance optimization insights for CloudScale AI",
+      "roi_projection": 150000.0
+    }
+  ]
+}

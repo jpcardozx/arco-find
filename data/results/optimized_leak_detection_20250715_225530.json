@@ -1,0 +1,26 @@
+[
+  {
+    "domain": "pipedrive.com",
+    "saas_waste": 120,
+    "revenue_proxy": 33000,
+    "roas_inefficiency": false,
+    "leak_score": 50,
+    "detected_apps": [
+      "Segment"
+    ],
+    "duplicate_apps": 0,
+    "performance_issues": {
+      "monthly_loss": 200,
+      "performance_score": 82
+    },
+    "total_waste": 320,
+    "arco_fee": 80.0,
+    "confidence_level": "MEDIUM",
+    "analysis_time": 2.348022699356079,
+    "data_sources": [
+      "html_analysis",
+      "pattern_matching",
+      "pagespeed_api"
+    ]
+  }
+]

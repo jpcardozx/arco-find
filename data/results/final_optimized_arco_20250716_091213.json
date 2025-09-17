@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "timestamp": "20250716_091213",
+    "system": "final_optimized_arco_v1.0",
+    "optimization_focus": "speed_without_losing_intelligence"
+  },
+  "performance_metrics": {
+    "total_leads": 8,
+    "total_pipeline_value": 50000.0,
+    "avg_analysis_time": 3.0223515033721924,
+    "speed_target_met": false,
+    "optimization_success": true
+  },
+  "priority_distribution": {
+    "MEDIUM": 2,
+    "HIGH": 6
+  },
+  "leads": [
+    {
+      "company": "ContaAzul",
+      "domain": "contaazul.com",
+      "performance_score": 50,
+      "revenue_potential": 4000.0,
+      "priority": "MEDIUM",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": [
+        "http_errors"
+      ]
+    },
+    {
+      "company": "RD Station",
+      "domain": "resultadosdigitais.com.br",
+      "performance_score": 50,
+      "revenue_potential": 5000.0,
+      "priority": "HIGH",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": [
+        "connection_issues"
+      ]
+    },
+    {
+      "company": "Movidesk",
+      "domain": "movidesk.com",
+      "performance_score": 50,
+      "revenue_potential": 5000.0,
+      "priority": "HIGH",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": [
+        "connection_issues"
+      ]
+    },
+    {
+      "company": "Agendor",
+      "domain": "agendor.com.br",
+      "performance_score": 50,
+      "revenue_potential": 6500.0,
+      "priority": "HIGH",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": []
+    },
+    {
+      "company": "Hotmart",
+      "domain": "hotmart.com",
+      "performance_score": 50,
+      "revenue_potential": 4000.0,
+      "priority": "MEDIUM",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": [
+        "connection_issues"
+      ]
+    },
+    {
+      "company": "Pipedrive",
+      "domain": "pipedrive.com",
+      "performance_score": 50,
+      "revenue_potential": 9750.0,
+      "priority": "HIGH",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": [
+        "connection_issues"
+      ]
+    },
+    {
+      "company": "Zendesk",
+      "domain": "zendesk.com.br",
+      "performance_score": 50,
+      "revenue_potential": 8250.0,
+      "priority": "HIGH",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": [
+        "connection_issues"
+      ]
+    },
+    {
+      "company": "Hubspot",
+      "domain": "hubspot.com.br",
+      "performance_score": 50,
+      "revenue_potential": 7500.0,
+      "priority": "HIGH",
+      "confidence": "HIGH",
+      "analysis_time": 3.0223515033721924,
+      "issues_found": [
+        "connection_issues"
+      ]
+    }
+  ]
+}

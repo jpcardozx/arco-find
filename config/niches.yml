@@ -1,0 +1,175 @@
+# Niches Configuration
+# Taxonomia de nichos para Financial-Leak Intelligence
+# Base: análise de mercado beauty/skincare + dados de conversão
+
+# Primary Target Niches
+beauty_skincare:
+  categories:
+    - skincare
+    - makeup
+    - beauty_tools
+    - supplements
+    - haircare
+
+  # PublicWWW Search Dorks
+  search_dorks:
+    - '"Add to cart" site:myshopify.com "serum"'
+    - '"$25.00 USD" "skincare" site:shopifycdn.com'
+    - '"beauty" "subscription" site:myshopify.com'
+    - '"anti-aging" "cart" inurl:products'
+    - '"vitamin c" "buy now" site:shopify.com'
+    - '"moisturizer" "$" site:myshopify.com'
+    - '"cleanser" "add to bag" shopify'
+
+  # Revenue Indicators
+  revenue_keywords:
+    - "premium skincare"
+    - "luxury beauty"
+    - "clinical grade"
+    - "dermatologist"
+    - "subscription box"
+    - "bundle"
+    - "kit"
+
+  # High-Value Product Signals
+  high_value_signals:
+    - price_range: "$50-200"
+    - product_types: ["serum", "cream", "treatment", "device"]
+    - subscription_model: true
+    - professional_grade: true
+
+  # Common SaaS Stack (beauty/skincare)
+  typical_saas_stack:
+    email_marketing: ["klaviyo", "mailchimp"]
+    reviews: ["yotpo", "okendo", "judge.me"]
+    subscriptions: ["recharge", "bold_subscriptions"]
+    support: ["zendesk", "gorgias"]
+    analytics: ["hotjar", "google_analytics"]
+    forms: ["typeform", "klaviyo_forms"]
+
+# Secondary Target Niches
+health_supplements:
+  categories:
+    - vitamins
+    - protein
+    - wellness
+    - fitness
+
+  search_dorks:
+    - '"supplement" "buy now" site:myshopify.com'
+    - '"protein" "$" "add to cart"'
+    - '"vitamin" "subscription" shopify'
+
+  typical_saas_stack:
+    email_marketing: ["klaviyo", "convertkit"]
+    subscriptions: ["recharge", "loop_subscriptions"]
+    reviews: ["yotpo", "trustpilot"]
+
+fitness_equipment:
+  categories:
+    - home_gym
+    - accessories
+    - wearables
+
+  search_dorks:
+    - '"fitness equipment" "cart" site:myshopify.com'
+    - '"home gym" "$" "buy"'
+    - '"workout" "add to cart" shopify'
+
+# Geo Targeting
+geo_focus:
+  primary_markets:
+    - "United States"
+    - "Canada"
+    - "Australia"
+    - "United Kingdom"
+
+  # Market-specific indicators
+  us_indicators:
+    - currency: "USD"
+    - shipping: ["free shipping", "2-day delivery"]
+    - payment: ["stripe", "paypal", "shop_pay"]
+
+  ca_indicators:
+    - currency: "CAD"
+    - shipping: ["canada wide", "canadian shipping"]
+
+  au_indicators:
+    - currency: "AUD"
+    - shipping: ["australia wide", "aussie"]
+
+# Revenue Proxy Calculation
+revenue_estimation:
+  # Base monthly revenue by niche
+  base_estimates:
+    beauty_skincare: 45000
+    health_supplements: 35000
+    fitness_equipment: 30000
+
+  # Multipliers based on signals
+  multipliers:
+    subscription_model: 1.5
+    luxury_positioning: 2.0
+    clinical_grade: 1.8
+    professional_tools: 1.6
+    bundle_offers: 1.3
+    international_shipping: 1.4
+
+  # TLD adjustments
+  tld_multipliers:
+    ".com": 1.2
+    ".co": 1.1
+    ".io": 0.9
+    ".store": 0.8
+
+# ROAS Detection
+roas_indicators:
+  # Ad platform footprints
+  ad_platforms:
+    google_ads: ["googleads", "google-ads", "gtag"]
+    facebook_ads: ["facebook.net/tr", "fbq(", "facebook_pixel"]
+    tiktok_ads: ["tiktok.com/business", "ttd-pixel"]
+    pinterest_ads: ["pinterest.com/ct", "pintrk"]
+    snapchat_ads: ["snapchat.com/p", "snaptr"]
+
+  # ROAS inefficiency signals
+  inefficiency_indicators:
+    high_ad_density: ">5 ad platforms"
+    retargeting_heavy: "multiple retargeting pixels"
+    broad_targeting: "no geo restrictions"
+    budget_waste: "duplicate campaign types"
+
+  # Threshold for ROAS flag
+  inefficiency_threshold: 0.4 # >40% ad traffic share
+
+# Competitive Analysis
+competitor_detection:
+  # How to find competitors
+  methods:
+    similarweb: "category competitors"
+    google_serp: "same keyword rankings"
+    facebook_library: "similar ad creative"
+
+  # Performance benchmarks
+  benchmark_metrics:
+    - "page_load_time"
+    - "mobile_score"
+    - "conversion_rate_proxy"
+    - "email_capture_rate"
+
+# Qualification Thresholds
+qualification_criteria:
+  # Pre-qualification (before PageSpeed)
+  pre_qual_threshold: 40
+
+  # Final qualification
+  final_qual_threshold: 75
+
+  # Minimum waste detection
+  min_monthly_waste: 1000 # $1k/month
+
+  # Confidence levels
+  confidence_thresholds:
+    high: 80 # score ≥80
+    medium: 60 # score 60-79
+    low: 40 # score 40-59

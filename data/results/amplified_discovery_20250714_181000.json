@@ -1,0 +1,30 @@
+{
+  "prospects": [
+    {
+      "name": "O Marco Legal Das Startups Em Revisão: Uma Oportunidade Para Construir O Futuro Da Inovação No Brasil04/07/20252:57 Amabstartups",
+      "domain": "abstartups.com.br",
+      "category": "saas_bootstrap",
+      "estimated_revenue_usd": "$50K-$1M",
+      "estimated_staff": 15,
+      "business_type": "SaaS startup discovered",
+      "source": "startup_directory_amplified",
+      "source_url": "https://abstartups.com.br/startups/",
+      "founded_year": null,
+      "timestamp": "2025-07-14T18:08:50.534990"
+    }
+  ],
+  "metadata": {
+    "pipeline_version": "3.5_amplified",
+    "execution_time": "82.36s",
+    "total_prospects": 1,
+    "sources_scraped": 5,
+    "zero_fallbacks": true,
+    "discovery_breakdown": {
+      "ecommerce_directories": 0,
+      "startup_directories": 10,
+      "github_repositories": 0,
+      "product_hunt": 0,
+      "builtwith_tech": 0
+    }
+  }
+}

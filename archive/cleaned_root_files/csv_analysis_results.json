@@ -1,0 +1,715 @@
+{
+  "basic_stats": {
+    "total_rows": 175,
+    "total_columns": 36,
+    "memory_usage_mb": 0.5456323623657227
+  },
+  "columns": [
+    "Company",
+    "Company Name for Emails",
+    "Account Stage",
+    "Lists",
+    "# Employees",
+    "Industry",
+    "Account Owner",
+    "Website",
+    "Company Linkedin Url",
+    "Facebook Url",
+    "Twitter Url",
+    "Company Street",
+    "Company City",
+    "Company State",
+    "Company Country",
+    "Company Postal Code",
+    "Company Address",
+    "Keywords",
+    "Company Phone",
+    "Technologies",
+    "Total Funding",
+    "Latest Funding",
+    "Latest Funding Amount",
+    "Last Raised At",
+    "Annual Revenue",
+    "Number of Retail Locations",
+    "Apollo Account Id",
+    "SIC Codes",
+    "Short Description",
+    "Founded Year",
+    "Logo Url",
+    "Subsidiary of",
+    "Primary Intent Topic",
+    "Primary Intent Score",
+    "Secondary Intent Topic",
+    "Secondary Intent Score"
+  ],
+  "data_types": {
+    "Company": "object",
+    "Company Name for Emails": "object",
+    "Account Stage": "object",
+    "Lists": "float64",
+    "# Employees": "int64",
+    "Industry": "object",
+    "Account Owner": "object",
+    "Website": "object",
+    "Company Linkedin Url": "object",
+    "Facebook Url": "object",
+    "Twitter Url": "object",
+    "Company Street": "object",
+    "Company City": "object",
+    "Company State": "object",
+    "Company Country": "object",
+    "Company Postal Code": "object",
+    "Company Address": "object",
+    "Keywords": "object",
+    "Company Phone": "object",
+    "Technologies": "object",
+    "Total Funding": "float64",
+    "Latest Funding": "object",
+    "Latest Funding Amount": "float64",
+    "Last Raised At": "object",
+    "Annual Revenue": "float64",
+    "Number of Retail Locations": "float64",
+    "Apollo Account Id": "object",
+    "SIC Codes": "float64",
+    "Short Description": "object",
+    "Founded Year": "float64",
+    "Logo Url": "object",
+    "Subsidiary of": "float64",
+    "Primary Intent Topic": "float64",
+    "Primary Intent Score": "float64",
+    "Secondary Intent Topic": "float64",
+    "Secondary Intent Score": "float64"
+  },
+  "missing_data": {
+    "Company": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Company Name for Emails": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Account Stage": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Lists": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    },
+    "# Employees": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Industry": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Account Owner": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Website": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Company Linkedin Url": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Facebook Url": {
+      "missing_count": 99,
+      "missing_percentage": 56.57,
+      "present_count": 76
+    },
+    "Twitter Url": {
+      "missing_count": 139,
+      "missing_percentage": 79.43,
+      "present_count": 36
+    },
+    "Company Street": {
+      "missing_count": 62,
+      "missing_percentage": 35.43,
+      "present_count": 113
+    },
+    "Company City": {
+      "missing_count": 6,
+      "missing_percentage": 3.43,
+      "present_count": 169
+    },
+    "Company State": {
+      "missing_count": 4,
+      "missing_percentage": 2.29,
+      "present_count": 171
+    },
+    "Company Country": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Company Postal Code": {
+      "missing_count": 43,
+      "missing_percentage": 24.57,
+      "present_count": 132
+    },
+    "Company Address": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Keywords": {
+      "missing_count": 37,
+      "missing_percentage": 21.14,
+      "present_count": 138
+    },
+    "Company Phone": {
+      "missing_count": 57,
+      "missing_percentage": 32.57,
+      "present_count": 118
+    },
+    "Technologies": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Total Funding": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    },
+    "Latest Funding": {
+      "missing_count": 174,
+      "missing_percentage": 99.43,
+      "present_count": 1
+    },
+    "Latest Funding Amount": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    },
+    "Last Raised At": {
+      "missing_count": 174,
+      "missing_percentage": 99.43,
+      "present_count": 1
+    },
+    "Annual Revenue": {
+      "missing_count": 154,
+      "missing_percentage": 88.0,
+      "present_count": 21
+    },
+    "Number of Retail Locations": {
+      "missing_count": 170,
+      "missing_percentage": 97.14,
+      "present_count": 5
+    },
+    "Apollo Account Id": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "SIC Codes": {
+      "missing_count": 43,
+      "missing_percentage": 24.57,
+      "present_count": 132
+    },
+    "Short Description": {
+      "missing_count": 4,
+      "missing_percentage": 2.29,
+      "present_count": 171
+    },
+    "Founded Year": {
+      "missing_count": 49,
+      "missing_percentage": 28.0,
+      "present_count": 126
+    },
+    "Logo Url": {
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "present_count": 175
+    },
+    "Subsidiary of": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    },
+    "Primary Intent Topic": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    },
+    "Primary Intent Score": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    },
+    "Secondary Intent Topic": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    },
+    "Secondary Intent Score": {
+      "missing_count": 175,
+      "missing_percentage": 100.0,
+      "present_count": 0
+    }
+  },
+  "data_completeness": {
+    "Company": 100.0,
+    "Company Name for Emails": 100.0,
+    "Account Stage": 100.0,
+    "Lists": 0.0,
+    "# Employees": 100.0,
+    "Industry": 100.0,
+    "Account Owner": 100.0,
+    "Website": 100.0,
+    "Company Linkedin Url": 100.0,
+    "Facebook Url": 43.43,
+    "Twitter Url": 20.57,
+    "Company Street": 64.57,
+    "Company City": 96.57,
+    "Company State": 97.71,
+    "Company Country": 100.0,
+    "Company Postal Code": 75.43,
+    "Company Address": 100.0,
+    "Keywords": 78.86,
+    "Company Phone": 67.43,
+    "Technologies": 100.0,
+    "Total Funding": 0.0,
+    "Latest Funding": 0.57,
+    "Latest Funding Amount": 0.0,
+    "Last Raised At": 0.57,
+    "Annual Revenue": 12.0,
+    "Number of Retail Locations": 2.86,
+    "Apollo Account Id": 100.0,
+    "SIC Codes": 75.43,
+    "Short Description": 97.71,
+    "Founded Year": 72.0,
+    "Logo Url": 100.0,
+    "Subsidiary of": 0.0,
+    "Primary Intent Topic": 0.0,
+    "Primary Intent Score": 0.0,
+    "Secondary Intent Topic": 0.0,
+    "Secondary Intent Score": 0.0
+  },
+  "field_mapping": {
+    "direct_mappings": {
+      "Company": "company_name",
+      "Website": "website",
+      "Company Name for Emails": "company_name_alt",
+      "# Employees": "employee_count",
+      "Industry": "industry",
+      "Company Country": "country",
+      "Company State": "state",
+      "Company City": "city",
+      "Company Phone": "phone",
+      "Technologies": "technologies_raw",
+      "Annual Revenue": "revenue",
+      "Founded Year": "founded_year",
+      "Short Description": "description"
+    },
+    "complex_mappings": {
+      "domain_extraction": {
+        "source_fields": [
+          "Website",
+          "Company Linkedin Url"
+        ],
+        "target_field": "domain",
+        "processing": "extract_domain_from_url"
+      },
+      "contact_creation": {
+        "source_fields": [
+          "Account Owner"
+        ],
+        "target_field": "contacts",
+        "processing": "create_contact_from_email"
+      },
+      "address_combination": {
+        "source_fields": [
+          "Company Street",
+          "Company City",
+          "Company State",
+          "Company Country",
+          "Company Postal Code"
+        ],
+        "target_field": "address",
+        "processing": "combine_address_fields"
+      },
+      "technology_parsing": {
+        "source_fields": [
+          "Technologies"
+        ],
+        "target_field": "technologies",
+        "processing": "parse_technology_string"
+      },
+      "social_media": {
+        "source_fields": [
+          "Company Linkedin Url",
+          "Facebook Url",
+          "Twitter Url"
+        ],
+        "target_field": "social_media",
+        "processing": "collect_social_urls"
+      }
+    },
+    "unused_fields": [
+      "Account Stage",
+      "Lists",
+      "Logo Url",
+      "Subsidiary of",
+      "Primary Intent Topic",
+      "Primary Intent Score",
+      "Secondary Intent Topic",
+      "Secondary Intent Score",
+      "Apollo Account Id",
+      "SIC Codes",
+      "Keywords",
+      "Total Funding",
+      "Latest Funding",
+      "Latest Funding Amount",
+      "Last Raised At",
+      "Number of Retail Locations"
+    ],
+    "prospect_fields_coverage": {
+      "domain": "complex_mapping:domain_extraction",
+      "company_name": "direct_mapping:Company",
+      "website": "direct_mapping:Website",
+      "industry": "direct_mapping:Industry",
+      "employee_count": "direct_mapping:# Employees",
+      "revenue": "direct_mapping:Annual Revenue",
+      "country": "direct_mapping:Company Country",
+      "state": "direct_mapping:Company State",
+      "city": "direct_mapping:Company City",
+      "phone": "direct_mapping:Company Phone",
+      "description": "direct_mapping:Short Description",
+      "founded_year": "direct_mapping:Founded Year",
+      "technologies": "complex_mapping:technology_parsing",
+      "contacts": "complex_mapping:contact_creation",
+      "address": "complex_mapping:address_combination"
+    }
+  },
+  "data_quality_issues": [
+    {
+      "type": "empty_column",
+      "column": "Lists",
+      "description": "Column 'Lists' is completely empty"
+    },
+    {
+      "type": "empty_column",
+      "column": "Total Funding",
+      "description": "Column 'Total Funding' is completely empty"
+    },
+    {
+      "type": "empty_column",
+      "column": "Latest Funding Amount",
+      "description": "Column 'Latest Funding Amount' is completely empty"
+    },
+    {
+      "type": "empty_column",
+      "column": "Subsidiary of",
+      "description": "Column 'Subsidiary of' is completely empty"
+    },
+    {
+      "type": "empty_column",
+      "column": "Primary Intent Topic",
+      "description": "Column 'Primary Intent Topic' is completely empty"
+    },
+    {
+      "type": "empty_column",
+      "column": "Primary Intent Score",
+      "description": "Column 'Primary Intent Score' is completely empty"
+    },
+    {
+      "type": "empty_column",
+      "column": "Secondary Intent Topic",
+      "description": "Column 'Secondary Intent Topic' is completely empty"
+    },
+    {
+      "type": "empty_column",
+      "column": "Secondary Intent Score",
+      "description": "Column 'Secondary Intent Score' is completely empty"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Lists",
+      "missing_percentage": 100.0,
+      "description": "Column 'Lists' has 100.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Total Funding",
+      "missing_percentage": 100.0,
+      "description": "Column 'Total Funding' has 100.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Latest Funding",
+      "missing_percentage": 99.43,
+      "description": "Column 'Latest Funding' has 99.4% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Latest Funding Amount",
+      "missing_percentage": 100.0,
+      "description": "Column 'Latest Funding Amount' has 100.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Last Raised At",
+      "missing_percentage": 99.43,
+      "description": "Column 'Last Raised At' has 99.4% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Annual Revenue",
+      "missing_percentage": 88.0,
+      "description": "Column 'Annual Revenue' has 88.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Number of Retail Locations",
+      "missing_percentage": 97.14,
+      "description": "Column 'Number of Retail Locations' has 97.1% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Subsidiary of",
+      "missing_percentage": 100.0,
+      "description": "Column 'Subsidiary of' has 100.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Primary Intent Topic",
+      "missing_percentage": 100.0,
+      "description": "Column 'Primary Intent Topic' has 100.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Primary Intent Score",
+      "missing_percentage": 100.0,
+      "description": "Column 'Primary Intent Score' has 100.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Secondary Intent Topic",
+      "missing_percentage": 100.0,
+      "description": "Column 'Secondary Intent Topic' has 100.0% missing data"
+    },
+    {
+      "type": "low_data_availability",
+      "column": "Secondary Intent Score",
+      "missing_percentage": 100.0,
+      "description": "Column 'Secondary Intent Score' has 100.0% missing data"
+    },
+    {
+      "type": "duplicate_data",
+      "column": "Company",
+      "duplicate_count": 50,
+      "description": "50 duplicate company names found"
+    }
+  ],
+  "sample_data": {
+    "Company": [
+      "Toh Acess\u00f3rios Pet",
+      "La Sir\u00e8ne",
+      "Emp\u00f3rio Magna Vita"
+    ],
+    "Company Name for Emails": [
+      "Toh Acess\u00f3rios Pet",
+      "La Sir\u00e8ne",
+      "Emp\u00f3rio Magna Vita"
+    ],
+    "Account Stage": [
+      "Cold",
+      "Cold",
+      "Cold"
+    ],
+    "Lists": [],
+    "# Employees": [
+      13,
+      10,
+      10
+    ],
+    "Industry": [
+      "consumer services",
+      "retail",
+      "retail"
+    ],
+    "Account Owner": [
+      "jpcardozoo0106@gmail.com",
+      "jpcardozoo0106@gmail.com",
+      "jpcardozoo0106@gmail.com"
+    ],
+    "Website": [
+      "http://www.toh.com.br",
+      "http://www.bikinilasirene.com.br",
+      "http://www.magnavita.com.br"
+    ],
+    "Company Linkedin Url": [
+      "http://www.linkedin.com/company/toh-dog",
+      "http://www.linkedin.com/company/la-sir%c3%a8nee",
+      "http://www.linkedin.com/company/emp%c3%b3rio-magna-vita"
+    ],
+    "Facebook Url": [
+      "https://www.facebook.com/toh.dog1/",
+      "https://www.facebook.com/naguirreshop",
+      "https://www.facebook.com/people/Aya-Pitaya/100075713542070/"
+    ],
+    "Twitter Url": [
+      "https://twitter.com/truedata",
+      "https://twitter.com/lockpickscom",
+      "https://twitter.com/shumination"
+    ],
+    "Company Street": [
+      "Rua Aureliano Ariza",
+      "77 Rua Vinte e Quatro de Maio",
+      "3470 Avenida Barao de Itapura"
+    ],
+    "Company City": [
+      "Mogi das Cruzes",
+      "Sao Paulo",
+      "Sao Paulo"
+    ],
+    "Company State": [
+      "Sao Paulo",
+      "State of Sao Paulo",
+      "State of Sao Paulo"
+    ],
+    "Company Country": [
+      "Brazil",
+      "Brazil",
+      "Brazil"
+    ],
+    "Company Postal Code": [
+      "08810-030",
+      "01041-000",
+      "04057-000"
+    ],
+    "Company Address": [
+      "Rua Aureliano Ariza, Mogi das Cruzes, Sao Paulo, Brazil, 08810-030",
+      "Brazil",
+      "77 Rua Vinte e Quatro de Maio, Sao Paulo, State of Sao Paulo, Brazil, 01041-000"
+    ],
+    "Keywords": [
+      "acessorios pet, pet services, pet accessories, dog harness, hygiene products, travel kits, leashes, id tags, biodegradable litter, poop bags, pet grooming, collars, pet safety, hands-free carriers, basic harness, anti-pull harness, comfort harness, pet pillows, cat accessories, dog collars, pet tags, secure shopping, customer service, discount codes, return policy, free shipping, adjustable leashes, qr code accessories, pet care, small dog harness, big dog harness, durable leashes, pet supplies, cat litter, pet travel, hygienic pads, eco-friendly products, pet gifts, pet safety belts, premium pet products, adjustable collars, easy to clean, lightweight harness, stylish collars, durable collars, pet carriers, dog walking gear, comfortable leashes, consumer services",
+      "natural products, organic food, healthy snacks, nutritional supplements, vegetarian protein, vegan protein, creatine, glutamine, whey protein, collagen supplements, superfoods, herbal tea, bioactive compounds, essential oils, functional foods, whole grains, gluten-free products, lactose-free products, nut butter, peanut butter, chia seeds, nutritional yeast, meal replacement, energy bars, vitamins, herbs, anti-inflammatory, antioxidant, probiotics, detox tea, weight loss tea, blood sugar control, digestive health, immune support, skin health, superfood smoothies, elevated metabolism, wellness kits, herbal supplements, energy enhancement, homeopathic remedies, raw snacks, natural sweeteners, sugar substitutes, cookie mix, oatmeal, dried fruits, snack bars, plant-based diet, natural cosmetics, food & beverages, consumer goods, consumers",
+      "tenis de mesa & pickleball, pickleball, table tennis, professional rackets, accessories, training balls, competition balls, recreational rackes, premium rubbers, performance woods, indoor tables, outdoor tables, pickleball nets, table tennis nets, care products, coaching aids, mens sportswear, womens sportswear, unisex apparel, bags and backpacks, promotions, raquete pro iv, agassi x joola, hyperion series, scorpeus series, perseus series, ben johns, senior rackets, junior rackets, accessories for arena, table covers, edge protectors, ball caddy, grip tape, protective gear, clothing collection, premium performance, fast shipping, secure payment, customer support, premium equipment, player edition, special offers, ergonomic designs, layered performance, durability testing, custom fit, club accessories"
+    ],
+    "Company Phone": [
+      "'+55 11 99930-2018",
+      "'+55 11 3223-2788",
+      "'+55 21 97188-8285"
+    ],
+    "Technologies": [
+      "Outlook, Microsoft Office 365, Lucky Orange, Google AdSense, Facebook Widget, Google Font API, Mobile Friendly, Google AdWords Conversion, DoubleClick, Facebook Custom Audiences, Shopify, Google Dynamic Remarketing, DoubleClick Conversion, Google Tag Manager, Facebook Login (Connect), Reviews",
+      "Outlook, Microsoft Office 365, DoubleClick, Google Tag Manager, Google Dynamic Remarketing, Google Analytics Ecommerce Tracking, Hotjar, Google Analytics, Mobile Friendly, Google AdWords Conversion, AddThis, JivoSite, DoubleClick Conversion, Facebook Widget, Facebook Login (Connect), Facebook Custom Audiences, Shopify",
+      "Cloudflare DNS, Sendgrid, Google Analytics, YouTube, Bootstrap Framework, reCAPTCHA, Mobile Friendly, Google Dynamic Remarketing, Facebook Widget, Google Tag Manager, Shopify, DoubleClick Conversion, Facebook Custom Audiences, Google AdWords Conversion, Google Font API, DoubleClick, Facebook Login (Connect), Vtex"
+    ],
+    "Total Funding": [],
+    "Latest Funding": [
+      "Other"
+    ],
+    "Latest Funding Amount": [],
+    "Last Raised At": [
+      "2025-05-01"
+    ],
+    "Annual Revenue": [
+      123000.0,
+      31620000.0,
+      32152000.0
+    ],
+    "Number of Retail Locations": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Apollo Account Id": [
+      "68790aa9cdd5be00012c925c",
+      "68790aa9cdd5be00012c925e",
+      "68790aa9cdd5be00012c9269"
+    ],
+    "SIC Codes": [
+      5099.0,
+      5191.0,
+      5099.0
+    ],
+    "Short Description": [
+      "Temos uma preocupa\u00e7\u00e3o especial com desenvolvimento de nossos produtos. Isso resulta diretamente na qualidade de cada pe\u00e7a que, al\u00e9m de atender as expectativas e necessidades dos clientes com excel\u00eancia, torna nosso portf\u00f3lio singular. Seja pela apar\u00eancia, qualidade ou novidades, buscamos sempre oferecer uma gama de produtos diferentes de tudo que existe no mercado a pre\u00e7os competitivos.",
+      "Desde 2018, a La Sir\u00e8ne transforma beachwear em alta moda. Pe\u00e7as bordadas \u00e0 m\u00e3o, design \u00fanico e versatilidade para acompanhar voc\u00ea em qualquer ocasi\u00e3o. Descubra!",
+      "Loja de produtos naturais \u00e9 na Magna Vita, Variedade de produtos a granel, vegano, Ch\u00e1s, Vitaminas e Suplementos, compre online para atacado e Varejo, Clique aqui e aproveite o desconto da primeira compra."
+    ],
+    "Founded Year": [
+      2019.0,
+      2016.0,
+      2020.0
+    ],
+    "Logo Url": [
+      "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/67107977d85fb300012a54d1/picture",
+      "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/678c745a0874440001083263/picture",
+      "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/670bdc47677a010001f223a5/picture"
+    ],
+    "Subsidiary of": [],
+    "Primary Intent Topic": [],
+    "Primary Intent Score": [],
+    "Secondary Intent Topic": [],
+    "Secondary Intent Score": []
+  },
+  "completeness_statistics": {
+    "overall_completeness": 58.49,
+    "best_fields": [
+      [
+        "Company",
+        100.0
+      ],
+      [
+        "Company Name for Emails",
+        100.0
+      ],
+      [
+        "Account Stage",
+        100.0
+      ],
+      [
+        "# Employees",
+        100.0
+      ],
+      [
+        "Industry",
+        100.0
+      ]
+    ],
+    "worst_fields": [
+      [
+        "Subsidiary of",
+        0.0
+      ],
+      [
+        "Primary Intent Topic",
+        0.0
+      ],
+      [
+        "Primary Intent Score",
+        0.0
+      ],
+      [
+        "Secondary Intent Topic",
+        0.0
+      ],
+      [
+        "Secondary Intent Score",
+        0.0
+      ]
+    ],
+    "fields_above_80_percent": 16,
+    "fields_above_50_percent": 6,
+    "fields_below_20_percent": 12
+  }
+}

@@ -1,0 +1,54 @@
+# Production configuration for ARCO system
+
+# Path configurations
+paths:
+  output: "output"
+  logs: "logs"
+  cache: "cache"
+  data: "data"
+
+# API configurations
+api:
+  timeout: 30
+  retries: 3
+  retry_delay: 2
+
+# Discovery engine configurations
+discovery:
+  batch_size: 10
+  max_results: 100
+  search_depth: 2
+  min_domain_authority: 10
+
+# Validation engine configurations
+validation:
+  min_score: 0.5
+  timeout: 60
+  required_fields:
+    - domain
+    - company_name
+
+# Leak detection configurations
+leak_detection:
+  threshold: 0.7
+  min_monthly_waste: 1000
+  max_leaks_per_prospect: 5
+  analysis_timeout: 120
+
+# Pipeline configurations
+pipeline:
+  standard:
+    batch_size: 10
+    parallel_processes: 2
+
+  advanced:
+    batch_size: 5
+    parallel_processes: 4
+    enrichment_level: "full"
+
+# Logging configurations
+logging:
+  level: "INFO"
+  console: true
+  file: true
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

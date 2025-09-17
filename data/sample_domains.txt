@@ -1,0 +1,65 @@
+# Sample Shopify domains for testing ARCO Revenue Leak Detection
+# Format: one domain per line
+# Focus: Beauty, Skincare, Wellness brands likely to have SaaS waste
+
+# Beauty & Skincare brands (known to use multiple SaaS tools)
+glossier.com
+fenty-beauty.com
+rare-beauty.com
+theordinary.com
+drunk-elephant.com
+tatcha.com
+glow-recipe.com
+summer-fridays.com
+youth-to-the-people.com
+herbivore-botanicals.com
+
+# Wellness & Supplements (high SaaS usage)
+ritual.com
+care-of.com
+hum-nutrition.com
+seed.com
+athletic-greens.com
+moon-juice.com
+sun-potion.com
+four-sigmatic.com
+vital-proteins.com
+ancient-nutrition.com
+
+# Fashion brands (subscription model = apps redundancy risk)
+everlane.com
+reformation.com
+girlfriend-collective.com
+patagonia.com
+allbirds.com
+warby-parker.com
+casper.com
+away.com
+bombas.com
+third-love.com
+
+# Emerging D2C brands (likely to have suboptimal tech stacks)
+native.com
+hello-bello.com
+honest.com
+grove.co
+brandless.com
+quip.com
+goby.co
+burrow.com
+floyd.com
+parachute-home.com
+
+# International Shopify stores (often using expensive global solutions)
+asos.com
+boohoo.com
+pretty-little-thing.com
+nasty-gal.com
+fashion-nova.com
+
+# Sample domains for testing (will be filtered for active Shopify stores)
+skincare-startup-001.com
+beauty-brand-testing.com
+wellness-supplements-demo.com
+fashion-boutique-sample.com
+cosmetics-direct-example.com

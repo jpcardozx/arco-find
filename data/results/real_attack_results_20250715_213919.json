@@ -1,0 +1,31 @@
+{
+  "generated_at": "2025-07-15T21:39:19.350512",
+  "method": "real_icp_integration",
+  "summary": {
+    "total_analyzed": 1,
+    "qualified_count": 0,
+    "qualification_rate": 0.0,
+    "monthly_opportunity": 0,
+    "annual_potential": 0
+  },
+  "qualified_leads": [],
+  "all_results": [
+    {
+      "company_name": "Loja Integrada",
+      "domain": "lojaintegrada.com.br",
+      "industry": "E-commerce Platform",
+      "source": "known_tech_companies",
+      "saas_tools": [
+        "CloudFlare ($20/mo)"
+      ],
+      "saas_cost": 20,
+      "performance_loss": 0,
+      "total_waste": 20,
+      "qualified": false,
+      "priority_score": 0,
+      "has_contact_info": true,
+      "load_time_ms": 88.645,
+      "tech_categories": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "source": "builtwithshopify_official",
+    "scraper_version": "1.0",
+    "scraped_at": "2025-07-14T18:06:25.169235",
+    "total_stores": 0,
+    "categories_scraped": [
+      "fashion",
+      "beauty",
+      "home",
+      "tech",
+      "food",
+      "sports",
+      "jewelry",
+      "books",
+      "art",
+      "kids"
+    ],
+    "icp_criteria": "small/medium Shopify stores",
+    "zero_fallbacks": true
+  },
+  "stores": [],
+  "statistics": {
+    "by_category": {},
+    "by_traffic": {},
+    "revenue_distribution": {}
+  }
+}

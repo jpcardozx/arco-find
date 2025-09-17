@@ -1,0 +1,48 @@
+{
+  "prospects": [
+    {
+      "name": "O Marco Legal das Startups em Revisão: uma oportunidade para construir o futuro da inovação no Brasil",
+      "domain": "abstartups.com.br",
+      "category": "saas_bootstrap",
+      "estimated_revenue_usd": "$100K-$2M",
+      "estimated_staff": 20,
+      "business_type": "Tech company",
+      "source": "tech_directory_optimized",
+      "source_url": "https://abstartups.com.br/startups/",
+      "founded_year": null,
+      "timestamp": "2025-07-14T18:13:08.725715"
+    },
+    {
+      "name": "CASE",
+      "domain": "case.abstartups.com.br",
+      "category": "saas_bootstrap",
+      "estimated_revenue_usd": "$100K-$1M",
+      "estimated_staff": 15,
+      "business_type": "Tech company",
+      "source": "tech_directory_optimized",
+      "source_url": "https://abstartups.com.br/startups/",
+      "founded_year": null,
+      "timestamp": "2025-07-14T18:13:09.883833"
+    }
+  ],
+  "metadata": {
+    "pipeline_version": "4.0_final_optimized",
+    "execution_time": "101.39s",
+    "total_prospects": 2,
+    "sources_scraped": 4,
+    "zero_fallbacks": true,
+    "optimization_features": [
+      "improved_data_extraction",
+      "rigorous_icp_validation",
+      "enhanced_domain_parsing",
+      "job_boards_source",
+      "tech_news_source"
+    ],
+    "discovery_breakdown": {
+      "tech_directories": 2,
+      "job_boards": 0,
+      "tech_news": 0,
+      "github_orgs": 0
+    }
+  }
+}

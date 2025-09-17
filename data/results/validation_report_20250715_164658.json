@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-07-15T16:46:54.116097",
+  "validation_type": "REAL_DATA_VERIFICATION",
+  "zero_simulation_guarantee": true,
+  "tests_performed": [
+    {
+      "test_name": "real_api_connections",
+      "status": "PASSED",
+      "apis_tested": [
+        {
+          "api": "example.com",
+          "status": "REAL",
+          "content_length": 1256,
+          "server": "Unknown"
+        }
+      ],
+      "real_responses": []
+    },
+    {
+      "test_name": "real_website_analysis",
+      "status": "PASSED",
+      "websites_analyzed": [
+        {
+          "domain": "httpbin.org",
+          "status_code": 503,
+          "load_time_ms": 508,
+          "content_size_kb": 0.158203125,
+          "server": "awselb/2.0",
+          "timestamp": "2025-07-15T16:46:55.774912",
+          "data_source": "REAL_HTTP_REQUEST"
+        },
+        {
+          "domain": "example.com",
+          "status_code": 200,
+          "load_time_ms": 541,
+          "content_size_kb": 1.2265625,
+          "server": "",
+          "timestamp": "2025-07-15T16:46:56.317816",
+          "data_source": "REAL_HTTP_REQUEST"
+        }
+      ],
+      "real_metrics": []
+    },
+    {
+      "test_name": "builtwith_real_detection",
+      "status": "FAILED",
+      "builtwith_results": []
+    },
+    {
+      "test_name": "simulation_pattern_detection",
+      "status": "PASSED",
+      "files_scanned": 3,
+      "patterns_searched": 10,
+      "simulations_found": []
+    },
+    {
+      "test_name": "data_authenticity",
+      "status": "PASSED",
+      "authenticity_checks": [
+        {
+          "check": "real_domain",
+          "value": "lojaintegrada.com.br",
+          "status": "AUTHENTIC"
+        },
+        {
+          "check": "real_company_name",
+          "value": "Loja Integrada",
+          "status": "AUTHENTIC"
+        }
+      ]
+    },
+    {
+      "test_name": "external_cross_reference",
+      "status": "PASSED",
+      "external_validations": [
+        {
+          "domain": "lojaintegrada.com.br",
+          "status_code": 200,
+          "accessible": true,
+          "server": "cloudflare",
+          "real_website": true
+        },
+        {
+          "domain": "rdstation.com",
+          "status_code": 200,
+          "accessible": true,
+          "server": "cloudflare",
+          "real_website": true
+        }
+      ]
+    }
+  ],
+  "data_sources_verified": [],
+  "real_data_samples": [
+    {
+      "domain": "httpbin.org",
+      "status_code": 503,
+      "load_time_ms": 508,
+      "content_size_kb": 0.158203125,
+      "server": "awselb/2.0",
+      "timestamp": "2025-07-15T16:46:55.774912",
+      "data_source": "REAL_HTTP_REQUEST"
+    },
+    {
+      "domain": "example.com",
+      "status_code": 200,
+      "load_time_ms": 541,
+      "content_size_kb": 1.2265625,
+      "server": "",
+      "timestamp": "2025-07-15T16:46:56.317816",
+      "data_source": "REAL_HTTP_REQUEST"
+    }
+  ],
+  "simulation_detection": []
+}

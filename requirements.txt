@@ -1,8 +1,54 @@
+# Core dependencies
 python-dotenv
 requests
-aiohttp
 certifi
-beautifulsoup4
-pandas
-pytest
+beautifulsoup4>=4.12.0
 
+# High-performance HTTP and async
+httpx>=0.25.0
+aiohttp>=3.9.0
+selectolax>=0.3.17
+orjson>=3.9.0
+uvloop>=0.19.0; sys_platform != "win32"
+
+# Advanced caching (optimized stack)
+diskcache>=5.6.3
+cachetools>=5.3.0
+
+# Data processing (performance focused)  
+pandas>=2.0.0
+polars>=0.20.0
+pydantic>=2.5.0
+msgpack>=1.0.7
+
+# YAML configuration support
+pyyaml>=6.0.0
+
+# Testing and validation
+pytest>=7.4.0
+
+# Legacy APIs (to be eliminated)
+google-ads>=27.0.0
+facebook-business>=23.0.0
+
+# Infrastructure
+redis>=6.0.0
+aiosqlite>=0.21.0
+psutil>=7.0.0
+
+# Real Engine - Performance & Tech Detection
+pyspeedinsights>=1.0.0      # Batch PageSpeed processing
+python-wappalyzer>=0.3.0    # Tech stack detection  
+python-builtwith>=0.1.0     # Alternative tech detection
+
+# Real Engine - Web Scraping & Crawling
+scrapy>=2.11.0              # Professional web scraping
+selenium>=4.15.0            # Browser automation (if needed)
+
+# Real Engine - Data Processing & Utilities
+python-slugify>=8.0.0       # Clean data normalization
+phonenumbers>=8.13.0        # Phone number validation
+
+# Revenue Leak Intelligence System
+# Email automation (for outreach)
+# NOTE: For production email sending, configure SMTP properly

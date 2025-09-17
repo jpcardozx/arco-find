@@ -1,0 +1,32 @@
+{
+  "analysis_date": "2025-07-18T15:34:36.186677",
+  "prospects_analyzed": 3,
+  "data_source": "google_pagespeed_insights",
+  "analysis_type": "technical_performance_only",
+  "results": [
+    {
+      "company_name": "Shopify",
+      "domain": "shopify.com",
+      "priority_score": 78.53999999999999,
+      "performance_score": 10,
+      "lcp_seconds": 5.8915050025100575,
+      "performance_grade": "Poor"
+    },
+    {
+      "company_name": "Google",
+      "domain": "google.com",
+      "priority_score": 66.55000000000001,
+      "performance_score": 45,
+      "lcp_seconds": 7.001004672242361,
+      "performance_grade": "Needs Improvement"
+    },
+    {
+      "company_name": "WordPress.com",
+      "domain": "wordpress.com",
+      "priority_score": 64.02,
+      "performance_score": 45,
+      "lcp_seconds": 8.717986375550637,
+      "performance_grade": "Needs Improvement"
+    }
+  ]
+}

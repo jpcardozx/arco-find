@@ -1,0 +1,6 @@
+domain,company_name,industry,employee_count,total_monthly_waste,total_annual_savings,leak_count,authority_score,has_ads,processing_time,marketing_leaks,saas_leaks,performance_leaks
+toh.com.br,Toh Acessórios Pet,consumer services,13,0.0,0.0,0,0.0,False,11.545999,[],[],[]
+bikinilasirene.com.br,La Sirène,retail,10,0.0,0.0,0,0.0,False,7.393183,[],[],[]
+magnavita.com.br,Empório Magna Vita,retail,10,0.0,0.0,0,0.0,False,7.54757,[],[],[]
+joolabrasil.com,JOOLA Brasil Tênis de Mesa e Pickleball,retail,7,0.0,0.0,0,0.0,False,14.541577,[],[],[]
+voyantdistrihub.com,Voyant Distrihub,retail,4,0.0,0.0,0,0.0,False,8.409988,[],[],[]

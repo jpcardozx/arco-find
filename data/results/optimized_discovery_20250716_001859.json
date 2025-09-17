@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "timestamp": "20250716_001859",
+    "total_analyzed": 10,
+    "successful": 0,
+    "avg_analysis_time": 0,
+    "speed_target_met": true,
+    "total_pipeline_value": 0,
+    "system_version": "optimized_v1.0"
+  },
+  "performance_metrics": {
+    "avg_analysis_time": 0,
+    "success_rate": 0.0,
+    "total_waste_detected": 0,
+    "total_revenue_analyzed": 0,
+    "efficiency_ratio": 0
+  },
+  "priority_distribution": {},
+  "results": [
+    {
+      "company_name": "ContaAzul",
+      "domain": "contaazul.com",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "RD Station",
+      "domain": "resultadosdigitais.com.br",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Movidesk",
+      "domain": "movidesk.com",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Agendor",
+      "domain": "agendor.com.br",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Hotmart",
+      "domain": "hotmart.com",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Pipedrive",
+      "domain": "pipedrive.com",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Zendesk",
+      "domain": "zendesk.com.br",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Mailchimp",
+      "domain": "mailchimp.com",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Typeform",
+      "domain": "typeform.com",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    },
+    {
+      "company_name": "Calendly",
+      "domain": "calendly.com",
+      "mobile_score": 0,
+      "performance_issues": [
+        "timeout_error"
+      ],
+      "estimated_revenue": 150000,
+      "saas_waste": 0,
+      "leak_score": 0,
+      "priority": "low",
+      "contact_urgency": "low",
+      "immediate_wins": [],
+      "analysis_time": 2.014561891555786,
+      "success": false
+    }
+  ]
+}

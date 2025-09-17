@@ -1,0 +1,35 @@
+{
+  "generated_at": "20250716_133846",
+  "engine_type": "simplified_production",
+  "total_prospects": 1,
+  "prospects": [
+    {
+      "company_name": "Kotn",
+      "domain": "kotn.com",
+      "monthly_waste": 600,
+      "annual_savings_potential": 7200,
+      "qualification_score": 100,
+      "ready_for_outreach": true,
+      "financial_leaks": [
+        {
+          "type": "vendor_waste",
+          "monthly_cost": 150,
+          "detection_source": "http_analysis",
+          "vendor_name": "gorgias"
+        },
+        {
+          "type": "subscription_cost",
+          "monthly_cost": 300,
+          "detection_source": "shopify_analysis",
+          "vendor_name": "recharge"
+        },
+        {
+          "type": "subscription_cost",
+          "monthly_cost": 150,
+          "detection_source": "shopify_analysis",
+          "vendor_name": "klaviyo"
+        }
+      ]
+    }
+  ]
+}

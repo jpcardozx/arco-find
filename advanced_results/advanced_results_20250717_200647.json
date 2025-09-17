@@ -1,0 +1,134 @@
+[
+  {
+    "domain": "toh.com.br",
+    "company_name": "Toh Acess\u00f3rios Pet",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified"
+    ],
+    "final_qualified": false,
+    "qualification_level": "D",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 21540.0,
+      "roi_percentage": 1.1046153846153846,
+      "monthly_waste": 2309.2602364806285
+    },
+    "best_icp": "shopify_dtc",
+    "qualification_summary": {
+      "total_score": 54.526153846153846,
+      "qualification_reasons": [],
+      "disqualification_reasons": [
+        "Outside target geography (Brazil)"
+      ],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 51.104615384615386,
+        "technology_score": 60,
+        "contact_score": 40,
+        "company_score": 85,
+        "engagement_score": 80
+      }
+    }
+  },
+  {
+    "domain": "bikinilasirene.com.br",
+    "company_name": "La Sir\u00e8ne",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified"
+    ],
+    "final_qualified": false,
+    "qualification_level": "D",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 21540.0,
+      "roi_percentage": 1.436,
+      "monthly_waste": 2876.2998382332776
+    },
+    "best_icp": "shopify_dtc",
+    "qualification_summary": {
+      "total_score": 56.109,
+      "qualification_reasons": [],
+      "disqualification_reasons": [
+        "Outside target geography (Brazil)"
+      ],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 51.436,
+        "technology_score": 70,
+        "contact_score": 40,
+        "company_score": 85,
+        "engagement_score": 80
+      }
+    }
+  },
+  {
+    "domain": "magnavita.com.br",
+    "company_name": "Emp\u00f3rio Magna Vita",
+    "success": true,
+    "stages_completed": [
+      "enriched_advanced",
+      "analyzed",
+      "qualified"
+    ],
+    "final_qualified": false,
+    "qualification_level": "D",
+    "priority_level": 4,
+    "enrichment_summary": {
+      "enriched_fields": [
+        "revenue"
+      ],
+      "new_technologies": 0,
+      "new_contacts": 0,
+      "confidence_scores": {
+        "revenue": 0.3
+      }
+    },
+    "financial_summary": {
+      "annual_savings": 21540.0,
+      "roi_percentage": 1.436,
+      "monthly_waste": 3017.8447845236215
+    },
+    "best_icp": "shopify_dtc",
+    "qualification_summary": {
+      "total_score": 57.609,
+      "qualification_reasons": [],
+      "disqualification_reasons": [
+        "Outside target geography (Brazil)"
+      ],
+      "score_breakdown": {
+        "icp_score": 40.0,
+        "financial_score": 51.436,
+        "technology_score": 80,
+        "contact_score": 40,
+        "company_score": 85,
+        "engagement_score": 80
+      }
+    }
+  }
+]

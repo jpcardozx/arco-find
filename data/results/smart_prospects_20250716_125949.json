@@ -1,0 +1,15 @@
+[
+  {
+    "company_name": "Casper",
+    "domain": "casper.com",
+    "business_type": "ecommerce",
+    "estimated_revenue": 1152000,
+    "qualification_score": 109,
+    "ready_for_outreach": true,
+    "icp_type": "P1_growth_ecommerce",
+    "pain_points": "checkout, mobile, conversion",
+    "confidence_score": 85,
+    "key_message": "Subject: Quick question about Your Company's checkout conversion",
+    "processed_at": "2025-07-16T12:59:49.812330"
+  }
+]

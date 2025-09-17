@@ -1,0 +1,164 @@
+# Scoring Weights Configuration
+# Pesos para Financial-Leak Intelligence Scoring Algorithm
+# Base: validação com 50+ prospects reais + A/B testing
+
+# Primary Scoring Components (Total: 100%)
+primary_weights:
+  saas_waste: 0.40 # 40% - Custo direto de SaaS apps
+  revenue_capability: 0.25 # 25% - Capacidade de pagamento
+  performance_impact: 0.20 # 20% - Perda por performance
+  roas_inefficiency: 0.10 # 10% - Desperdício em ads
+  duplicate_apps: 0.05 # 5% - Apps com funções sobrepostas
+
+# SaaS Waste Scoring (40 points max)
+saas_waste_scoring:
+  # Multiplier por dollar de waste
+  waste_multiplier: 0.5 # $100 waste = 50 points (capped at 40)
+
+  # Bonus por categoria de app
+  category_bonus:
+    email_marketing: 5 # Alta oportunidade de otimização
+    analytics: 3 # Múltiplas ferramentas comuns
+    customer_support: 4 # Alto custo/benefício
+    subscriptions: 6 # Critical para ecommerce
+    forms: 2 # Fácil substituição
+
+# Revenue Capability Scoring (25 points max)
+revenue_capability_scoring:
+  thresholds:
+    tier_1: 100000 # $100k+/month = 25 points
+    tier_2: 80000 # $80k+/month = 20 points
+    tier_3: 50000 # $50k+/month = 15 points
+    tier_4: 30000 # $30k+/month = 10 points
+    tier_5: 15000 # $15k+/month = 5 points
+
+  # Adjustments baseados em sinais
+  adjustment_factors:
+    subscription_model: 1.2 # +20% if subscription
+    luxury_positioning: 1.3 # +30% if luxury
+    b2b_saas: 1.1 # +10% if B2B
+    international: 1.1 # +10% if international
+
+# Performance Impact Scoring (20 points max)
+performance_impact_scoring:
+  # Perda mensal → pontos
+  loss_to_points:
+    severe: 1500 # $1500+ loss = 20 points
+    high: 1000 # $1000+ loss = 15 points
+    medium: 600 # $600+ loss = 10 points
+    low: 300 # $300+ loss = 5 points
+
+  # Métricas de performance
+  performance_metrics:
+    lcp_weight: 0.4 # Largest Contentful Paint
+    fid_weight: 0.3 # First Input Delay
+    cls_weight: 0.2 # Cumulative Layout Shift
+    ttfb_weight: 0.1 # Time to First Byte
+
+# ROAS Inefficiency Scoring (10 points max)
+roas_inefficiency_scoring:
+  # Threshold para flag de ineficiência
+  inefficiency_threshold: 0.4 # >40% ad traffic share
+
+  # Pontuação baseada em sinais
+  signal_scoring:
+    multiple_platforms: 4 # 4+ ad platforms
+    retargeting_heavy: 3 # Múltiplos pixels retargeting
+    no_geo_targeting: 2 # Sem restrições geo
+    duplicate_campaigns: 1 # Campanhas duplicadas
+
+# Duplicate Apps Scoring (5 points max)
+duplicate_apps_scoring:
+  # Pontos por categoria com duplicatas
+  points_per_duplicate: 2.5 # Max 5 points (2 duplicates)
+
+  # Categorias de alta duplicação
+  high_duplication_risk:
+    - email_marketing
+    - analytics
+    - customer_support
+    - forms
+    - chat_widgets
+
+# Advanced Scoring Modifiers
+scoring_modifiers:
+  # Confidence multipliers
+  confidence_multipliers:
+    high_confidence: 1.0 # No change
+    medium_confidence: 0.9 # -10%
+    low_confidence: 0.8 # -20%
+
+  # Industry multipliers
+  industry_multipliers:
+    ecommerce: 1.0
+    saas: 1.1 # +10% (higher value)
+    services: 0.9 # -10% (lower tech needs)
+    healthcare: 1.2 # +20% (compliance needs)
+
+  # Company size multipliers
+  size_multipliers:
+    enterprise: 1.3 # 100+ employees
+    mid_market: 1.1 # 20-99 employees
+    small_business: 1.0 # 5-19 employees
+    startup: 0.8 # <5 employees
+
+# Qualification Gates
+qualification_gates:
+  # Pre-qualification threshold (before expensive operations)
+  pre_qualification: 40
+
+  # Final qualification threshold
+  final_qualification: 75
+
+  # Priority levels
+  priority_thresholds:
+    immediate: 90 # Score ≥90 = immediate priority
+    high: 75 # Score 75-89 = high priority
+    medium: 60 # Score 60-74 = medium priority
+    low: 40 # Score 40-59 = low priority
+
+# A/B Testing Framework
+ab_testing:
+  # Variants for testing
+  scoring_variants:
+    conservative: # Lower waste emphasis
+      saas_waste: 0.35
+      revenue_capability: 0.30
+      performance_impact: 0.20
+      roas_inefficiency: 0.10
+      duplicate_apps: 0.05
+
+    aggressive: # Higher waste emphasis
+      saas_waste: 0.45
+      revenue_capability: 0.20
+      performance_impact: 0.20
+      roas_inefficiency: 0.10
+      duplicate_apps: 0.05
+
+  # Test parameters
+  test_config:
+    traffic_split: 0.5 # 50/50 split
+    min_sample_size: 100 # prospects
+    confidence_level: 0.95 # 95% confidence
+
+# Performance Targets
+performance_targets:
+  scoring_speed: 0.1 # <100ms per score calculation
+  batch_throughput: 1000 # 1000 scores per minute
+  accuracy_target: 0.85 # 85% correlation with actual waste
+
+# Monitoring & Validation
+monitoring:
+  # Metrics to track
+  key_metrics:
+    - average_score
+    - qualification_rate
+    - false_positive_rate
+    - revenue_correlation
+    - score_distribution
+
+  # Validation methods
+  validation:
+    manual_audit: 0.05 # 5% manual validation
+    client_feedback: true # Track actual savings
+    competitor_benchmarking: true

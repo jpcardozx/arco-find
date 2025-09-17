@@ -1,0 +1,262 @@
+[
+  {
+    "company_name": "Beardbrand",
+    "domain": "beardbrand.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Rothy",
+    "domain": "rothy.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Tuftandneedle",
+    "domain": "tuftandneedle.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Parachutehome",
+    "domain": "parachutehome.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Outdoor",
+    "domain": "outdoor.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Bombas",
+    "domain": "bombas.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Cuyana",
+    "domain": "cuyana.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Kotn",
+    "domain": "kotn.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Beardbrand",
+    "domain": "beardbrand.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  },
+  {
+    "company_name": "Outdoor",
+    "domain": "outdoor.com",
+    "icp_type": "combined",
+    "monthly_waste": 200,
+    "annual_savings_potential": 720.0,
+    "qualification_score": 100,
+    "ready_for_outreach": true,
+    "financial_leaks": [
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 150,
+        "source": "wappalyzer",
+        "confidence": 85
+      },
+      {
+        "type": "vendor_waste",
+        "monthly_cost": 50,
+        "source": "wappalyzer",
+        "confidence": 85
+      }
+    ],
+    "outreach_hook": "Identified $200/month in waste",
+    "savings_pitch": "$720 annual savings potential",
+    "processed_at": "2025-07-16T13:20:49.775993"
+  }
+]

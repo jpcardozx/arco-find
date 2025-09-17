@@ -1,0 +1,275 @@
+{
+  "generated_at": "2025-07-15T21:44:57.828196",
+  "method": "real_icp_integration",
+  "summary": {
+    "total_analyzed": 10,
+    "qualified_count": 4,
+    "qualification_rate": 40.0,
+    "monthly_opportunity": 11249,
+    "annual_potential": 134988
+  },
+  "qualified_leads": [
+    {
+      "company_name": "Curso em Vídeo",
+      "domain": "cursoemvideo.com",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Wordpress ($25/mo)",
+        "Woocommerce ($25/mo)",
+        "Magento ($100/mo)",
+        "Segment ($120/mo)"
+      ],
+      "saas_cost": 270,
+      "performance_loss": 5039,
+      "total_waste": 5309,
+      "qualified": true,
+      "priority_score": 110,
+      "has_contact_info": true,
+      "load_time": 5.399945259094238,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "DevSuperior",
+      "domain": "devsuperior.com.br",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 34597,
+      "total_waste": 34697,
+      "qualified": true,
+      "priority_score": 95,
+      "has_contact_info": true,
+      "load_time": 0.06621956825256348,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "Universidade Brasileira Livre",
+      "domain": "ulivre.dev",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 4056,
+      "total_waste": 4156,
+      "qualified": true,
+      "priority_score": 75,
+      "has_contact_info": false,
+      "load_time": 0.3559587001800537,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "Hydra",
+      "domain": "hydralauncher.gg",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 739,
+      "total_waste": 839,
+      "qualified": true,
+      "priority_score": 30,
+      "has_contact_info": true,
+      "load_time": 0.17956852912902832,
+      "responsive": true,
+      "accessible": true
+    }
+  ],
+  "all_results": [
+    {
+      "company_name": "Curso em Vídeo",
+      "domain": "cursoemvideo.com",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Wordpress ($25/mo)",
+        "Woocommerce ($25/mo)",
+        "Magento ($100/mo)",
+        "Segment ($120/mo)"
+      ],
+      "saas_cost": 270,
+      "performance_loss": 5039,
+      "total_waste": 5309,
+      "qualified": true,
+      "priority_score": 110,
+      "has_contact_info": true,
+      "load_time": 5.399945259094238,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "Front-end Brasil",
+      "domain": "frontendbr.com.br",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [],
+      "saas_cost": 0,
+      "performance_loss": 0,
+      "total_waste": 0,
+      "qualified": false,
+      "priority_score": 0,
+      "has_contact_info": false,
+      "load_time": 0.8191125392913818,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "Rocketseat",
+      "domain": "rseat.in",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 0,
+      "total_waste": 100,
+      "qualified": false,
+      "priority_score": 0,
+      "has_contact_info": true,
+      "load_time": 0.4117112159729004,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "Universidade Brasileira Livre",
+      "domain": "ulivre.dev",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 4056,
+      "total_waste": 4156,
+      "qualified": true,
+      "priority_score": 75,
+      "has_contact_info": false,
+      "load_time": 0.3559587001800537,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "nubank",
+      "domain": "nubank.com.br",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)",
+        "Segment ($120/mo)"
+      ],
+      "saas_cost": 220,
+      "performance_loss": 0,
+      "total_waste": 220,
+      "qualified": false,
+      "priority_score": 0,
+      "has_contact_info": true,
+      "load_time": 0.04777073860168457,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "DevSuperior",
+      "domain": "devsuperior.com.br",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 34597,
+      "total_waste": 34697,
+      "qualified": true,
+      "priority_score": 95,
+      "has_contact_info": true,
+      "load_time": 0.06621956825256348,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "Hydra",
+      "domain": "hydralauncher.gg",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 739,
+      "total_waste": 839,
+      "qualified": true,
+      "priority_score": 30,
+      "has_contact_info": true,
+      "load_time": 0.17956852912902832,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "SouJunior",
+      "domain": "soujunior.tech",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 0,
+      "total_waste": 100,
+      "qualified": false,
+      "priority_score": 0,
+      "has_contact_info": true,
+      "load_time": 1.4100370407104492,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "PixelExperience",
+      "domain": "get.pixelexperience.org",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Magento ($100/mo)"
+      ],
+      "saas_cost": 100,
+      "performance_loss": 0,
+      "total_waste": 100,
+      "qualified": false,
+      "priority_score": 0,
+      "has_contact_info": true,
+      "load_time": 1.4901318550109863,
+      "responsive": true,
+      "accessible": true
+    },
+    {
+      "company_name": "Full Cycle",
+      "domain": "fullcycle.com.br",
+      "industry": "Technology/Education",
+      "source": "github_api",
+      "saas_tools": [
+        "Wordpress ($25/mo)",
+        "Magento ($100/mo)",
+        "Hubspot ($150/mo)",
+        "Cloudflare ($20/mo)"
+      ],
+      "saas_cost": 295,
+      "performance_loss": 0,
+      "total_waste": 295,
+      "qualified": false,
+      "priority_score": 0,
+      "has_contact_info": true,
+      "load_time": 0.9246668815612793,
+      "responsive": true,
+      "accessible": true
+    }
+  ]
+}

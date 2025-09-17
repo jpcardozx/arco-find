@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "timestamp": "20250716_090748",
+    "system": "production_arco_v1.0",
+    "base_system": "arco_s_tier_proven"
+  },
+  "metrics": {
+    "total_analyzed": 5,
+    "successful": 5,
+    "total_time": 15.4049654006958,
+    "avg_time_per_domain": 3.08099308013916,
+    "total_pipeline_value": 24500,
+    "speed_target_met": false,
+    "top_opportunities": [
+      {
+        "company": "Agendor",
+        "value": 6500,
+        "priority": "IMMEDIATE",
+        "performance_score": 38,
+        "confidence": "DEMO"
+      },
+      {
+        "company": "RD Station",
+        "value": 5000,
+        "priority": "HIGH",
+        "performance_score": 58,
+        "confidence": "DEMO"
+      },
+      {
+        "company": "Movidesk",
+        "value": 5000,
+        "priority": "HIGH",
+        "performance_score": 45,
+        "confidence": "DEMO"
+      },
+      {
+        "company": "ContaAzul",
+        "value": 4000,
+        "priority": "MEDIUM",
+        "performance_score": 72,
+        "confidence": "DEMO"
+      },
+      {
+        "company": "Hotmart",
+        "value": 4000,
+        "priority": "MEDIUM",
+        "performance_score": 62,
+        "confidence": "DEMO"
+      }
+    ]
+  },
+  "leads": [
+    {
+      "company": "Agendor",
+      "domain": "agendor.com.br",
+      "performance_score": 38,
+      "issues_found": [
+        "Múltiplos problemas",
+        "Otimização urgente"
+      ],
+      "revenue_potential": 6500,
+      "priority": "IMMEDIATE",
+      "confidence": "DEMO",
+      "tech_stack": []
+    },
+    {
+      "company": "RD Station",
+      "domain": "resultadosdigitais.com.br",
+      "performance_score": 58,
+      "issues_found": [
+        "Imagens pesadas",
+        "LCP lento"
+      ],
+      "revenue_potential": 5000,
+      "priority": "HIGH",
+      "confidence": "DEMO",
+      "tech_stack": []
+    },
+    {
+      "company": "Movidesk",
+      "domain": "movidesk.com",
+      "performance_score": 45,
+      "issues_found": [
+        "Performance crítica",
+        "Layout shift"
+      ],
+      "revenue_potential": 5000,
+      "priority": "HIGH",
+      "confidence": "DEMO",
+      "tech_stack": []
+    },
+    {
+      "company": "ContaAzul",
+      "domain": "contaazul.com",
+      "performance_score": 72,
+      "issues_found": [
+        "JavaScript não otimizado"
+      ],
+      "revenue_potential": 4000,
+      "priority": "MEDIUM",
+      "confidence": "DEMO",
+      "tech_stack": []
+    },
+    {
+      "company": "Hotmart",
+      "domain": "hotmart.com",
+      "performance_score": 62,
+      "issues_found": [
+        "Scripts terceiros",
+        "CSS não otimizado"
+      ],
+      "revenue_potential": 4000,
+      "priority": "MEDIUM",
+      "confidence": "DEMO",
+      "tech_stack": []
+    }
+  ],
+  "summary": {
+    "total_pipeline_value": 24500,
+    "avg_deal_size": 4900.0,
+    "performance_score_avg": 55.0,
+    "confidence_distribution": {
+      "DEMO": 1
+    }
+  }
+}

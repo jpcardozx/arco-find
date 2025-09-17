@@ -1,0 +1,7 @@
+# Exemplo de configuracao para APIs do Pipeline Avancado
+# Substitua os valores de exemplo pelas suas chaves de API reais
+
+google_pagespeed_api_key: "SUA_CHAVE_API_DO_GOOGLE_PAGESPEED"
+meta_ads_access_token: "SEU_TOKEN_DE_ACESSO_META_ADS"
+
+# Outras configuracoes de API podem ser adicionadas aqui

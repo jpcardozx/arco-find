@@ -1,0 +1,63 @@
+# Default configuration for ARCO system
+# This file serves as a template and documentation for available configuration options
+
+# Path configurations
+paths:
+  config: "config/production.yml" # Main configuration file
+  output: "output" # Directory for output files
+  logs: "logs" # Directory for log files
+  cache: "cache" # Directory for cached data
+  data: "data" # Directory for data files
+
+# API configurations
+api:
+  timeout: 30 # Default timeout for API requests in seconds
+  retries: 3 # Number of retries for failed API requests
+  retry_delay: 2 # Delay between retries in seconds
+
+  # API keys (should be set via environment variables in production)
+  keys:
+    google_search: "" # Google Search API key
+    google_pagespeed: "" # Google PageSpeed API key
+    meta_ads: "" # Meta Ads API key
+
+# Discovery engine configurations
+discovery:
+  batch_size: 10 # Number of prospects to process in a batch
+  max_results: 100 # Maximum number of results to return
+  search_depth: 2 # Search depth for discovery
+  min_domain_authority: 10 # Minimum domain authority score
+
+# Validation engine configurations
+validation:
+  min_score: 0.5 # Minimum validation score for qualified prospects
+  timeout: 60 # Timeout for validation in seconds
+  required_fields: # Fields required for validation
+    - domain
+    - company_name
+    - industry
+
+# Leak detection configurations
+leak_detection:
+  threshold: 0.7 # Threshold for leak detection
+  min_monthly_waste: 1000 # Minimum monthly waste to report (in currency units)
+  max_leaks_per_prospect: 5 # Maximum number of leaks to report per prospect
+  analysis_timeout: 120 # Timeout for leak analysis in seconds
+
+# Pipeline configurations
+pipeline:
+  standard:
+    batch_size: 10 # Batch size for standard pipeline
+    parallel_processes: 2 # Number of parallel processes
+
+  advanced:
+    batch_size: 5 # Batch size for advanced pipeline
+    parallel_processes: 4 # Number of parallel processes
+    enrichment_level: "full" # Enrichment level (basic, standard, full)
+
+# Logging configurations
+logging:
+  level: "INFO" # Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  console: true # Whether to log to console
+  file: true # Whether to log to file
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s" # Log format

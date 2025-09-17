@@ -1,0 +1,465 @@
+# 💰 EXPANDED VENDOR COST DATABASE
+# Real pricing tiers for SaaS vendors - EXPANDED DETECTION
+
+# ===== EMAIL MARKETING & AUTOMATION =====
+klaviyo:
+  starter: 45
+  growth: 150
+  premium: 400
+  enterprise: 1000
+  categories: ["email_marketing", "automation"]
+
+mailchimp:
+  standard: 20
+  premium: 60
+  enterprise: 350
+  categories: ["email_marketing"]
+
+sendgrid:
+  essentials: 15
+  pro: 89.95
+  premier: 249
+  categories: ["email_marketing", "transactional"]
+
+constant_contact:
+  core: 12
+  plus: 45
+  categories: ["email_marketing"]
+
+# ===== FORMS & SURVEYS =====
+typeform:
+  basic: 25
+  plus: 50
+  business: 166
+  enterprise: 500
+  categories: ["forms", "surveys"]
+
+jotform:
+  starter: 39
+  bronze: 49
+  silver: 129
+  gold: 399
+  categories: ["forms"]
+
+gravity_forms:
+  basic: 59
+  plus: 159
+  pro: 259
+  categories: ["forms", "wordpress"]
+
+# ===== CUSTOMER SUPPORT =====
+gorgias:
+  starter: 50
+  basic: 150
+  pro: 300
+  advanced: 750
+  categories: ["customer_support", "helpdesk"]
+
+zendesk:
+  team: 55
+  growth: 89
+  professional: 115
+  enterprise: 169
+  categories: ["customer_support"]
+
+intercom:
+  starter: 74
+  growth: 149
+  scale: 499
+  categories: ["customer_support", "chat"]
+
+freshworks:
+  growth: 29
+  pro: 49
+  enterprise: 79
+  categories: ["customer_support", "crm"]
+
+# ===== SUBSCRIPTION MANAGEMENT =====
+recharge:
+  starter: 60
+  growth: 300
+  pro: 600
+  plus: 2400
+  categories: ["subscription_management", "shopify_app"]
+
+bold_subscriptions:
+  basic: 29
+  pro: 99
+  premium: 299
+  categories: ["subscription_management", "shopify_app"]
+
+chargebee:
+  launch: 249
+  scale: 549
+  enterprise: 999
+  categories: ["subscription_management", "billing"]
+
+recurly:
+  core: 149
+  professional: 399
+  enterprise: 999
+  categories: ["subscription_management", "billing"]
+
+# ===== ANALYTICS & TRACKING =====
+google_analytics:
+  ga4: 0  # Free tier
+  analytics_360: 12500
+  categories: ["analytics", "tracking"]
+
+mixpanel:
+  growth: 25
+  enterprise: 833
+  categories: ["analytics", "product_analytics"]
+
+amplitude:
+  growth: 61
+  enterprise: 1000
+  categories: ["analytics", "product_analytics"]
+
+hotjar:
+  plus: 32
+  business: 80
+  scale: 171
+  categories: ["analytics", "heatmaps", "session_recording"]
+
+fullstory:
+  business: 199
+  advanced: 399
+  enterprise: 999
+  categories: ["analytics", "session_recording"]
+
+# ===== A/B TESTING & OPTIMIZATION =====
+optimizely:
+  starter: 50
+  business: 2000
+  enterprise: 5000
+  categories: ["ab_testing", "optimization"]
+
+vwo:
+  starter: 199
+  growth: 349
+  pro: 599
+  enterprise: 1999
+  categories: ["ab_testing", "optimization"]
+
+google_optimize:
+  free: 0
+  360: 12500
+  categories: ["ab_testing", "optimization"]
+
+unbounce:
+  launch: 90
+  optimize: 135
+  accelerate: 225
+  scale: 400
+  categories: ["landing_pages", "ab_testing"]
+
+# ===== CRM & SALES =====
+hubspot:
+  starter: 45
+  professional: 800
+  enterprise: 3200
+  categories: ["crm", "marketing_automation"]
+
+salesforce:
+  essentials: 25
+  professional: 75
+  enterprise: 150
+  unlimited: 300
+  categories: ["crm", "sales"]
+
+pipedrive:
+  essential: 14.90
+  advanced: 27.90
+  professional: 49.90
+  power: 64.90
+  categories: ["crm", "sales"]
+
+# ===== HOSTING & INFRASTRUCTURE =====
+aws:
+  variable: 100  # Average small business
+  categories: ["hosting", "cloud", "infrastructure"]
+
+google_cloud:
+  variable: 150  # Average small business
+  categories: ["hosting", "cloud", "infrastructure"]
+
+cloudflare:
+  pro: 20
+  business: 200
+  enterprise: 5000
+  categories: ["cdn", "security", "hosting"]
+
+netlify:
+  pro: 19
+  business: 99
+  enterprise: 500
+  categories: ["hosting", "jamstack"]
+
+# ===== SECURITY & MONITORING =====
+sucuri:
+  basic: 199.99
+  pro: 299.99
+  business: 499.99
+  categories: ["security", "malware_protection"]
+
+wordfence:
+  premium: 99
+  care: 490
+  response: 950
+  categories: ["security", "wordpress"]
+
+pingdom:
+  starter: 10
+  standard: 42
+  advanced: 85
+  categories: ["monitoring", "uptime"]
+
+# ===== SHOPIFY APPS =====
+privy:
+  starter: 15
+  growth: 45
+  pro: 75
+  categories: ["email_popups", "shopify_app"]
+
+justuno:
+  basic: 19
+  plus: 49
+  premium: 99
+  categories: ["popups", "conversion", "shopify_app"]
+
+yotpo:
+  growth: 199
+  premium: 699
+  enterprise: 1999
+  categories: ["reviews", "loyalty", "shopify_app"]
+
+stamped:
+  free: 0
+  standard: 23
+  plus: 69
+  premium: 199
+  categories: ["reviews", "shopify_app"]
+
+# ===== PROJECT MANAGEMENT =====
+asana:
+  starter: 10.99
+  advanced: 24.99
+  categories: ["project_management"]
+
+monday:
+  basic: 8
+  standard: 10
+  pro: 16
+  enterprise: 24
+  categories: ["project_management"]
+
+notion:
+  plus: 8
+  business: 15
+  enterprise: 25
+  categories: ["project_management", "documentation"]
+
+# ===== COMMUNICATION =====
+slack:
+  pro: 7.25
+  business: 12.50
+  enterprise: 15
+  categories: ["communication", "team_chat"]
+
+zoom:
+  pro: 14.99
+  business: 19.99
+  enterprise: 19.99
+  categories: ["video_conferencing"]
+
+# ===== BACKUP & STORAGE =====
+dropbox:
+  plus: 9.99
+  family: 16.99
+  professional: 16.58
+  standard: 12.50
+  advanced: 20
+  categories: ["storage", "backup"]
+
+google_workspace:
+  business_starter: 6
+  business_standard: 12
+  business_plus: 18
+  enterprise: 25
+  categories: ["email", "storage", "productivity"]
+  growth: 300
+  pro: 500
+  max: 1000
+  categories: ["subscriptions", "recurring_billing"]
+
+bold:
+  basic: 40
+  pro: 80
+  premium: 200
+  categories: ["subscriptions", "shopify_apps"]
+
+# Reviews & UGC
+yotpo:
+  free: 0
+  growth: 359
+  premium: 699
+  enterprise: 1199
+  categories: ["reviews", "ugc", "loyalty"]
+
+trustpilot:
+  starter: 299
+  basic: 599
+  premium: 1199
+  enterprise: 2499
+  categories: ["reviews", "trust"]
+
+# Analytics & Tracking
+hotjar:
+  basic: 39
+  business: 99
+  scale: 389
+  categories: ["analytics", "heatmaps"]
+
+fullstory:
+  business: 199
+  advanced: 399
+  enterprise: 899
+  categories: ["session_recording", "analytics"]
+
+# A/B Testing
+optimizely:
+  starter: 50
+  business: 2000
+  enterprise: 5000
+  categories: ["ab_testing", "optimization"]
+
+vwo:
+  starter: 199
+  business: 499
+  enterprise: 1199
+  categories: ["ab_testing"]
+
+# Live Chat
+intercom:
+  starter: 39
+  basic: 99
+  premium: 139
+  categories: ["live_chat", "customer_support"]
+
+crisp:
+  basic: 25
+  pro: 95
+  unlimited: 395
+  categories: ["live_chat"]
+
+# SMS Marketing
+postscript:
+  starter: 25
+  growth: 150
+  scale: 500
+  categories: ["sms_marketing", "shopify_apps"]
+
+attentive:
+  starter: 150
+  growth: 500
+  enterprise: 1500
+  categories: ["sms_marketing"]
+
+# Inventory Management
+skubana:
+  starter: 199
+  professional: 499
+  enterprise: 999
+  categories: ["inventory", "fulfillment"]
+
+cin7:
+  starter: 325
+  standard: 395
+  pro: 695
+  enterprise: 1395
+  categories: ["inventory", "warehouse"]
+
+# Accounting & Finance
+quickbooks:
+  simple: 30
+  essentials: 55
+  plus: 85
+  advanced: 200
+  categories: ["accounting", "finance"]
+
+xero:
+  starter: 13
+  standard: 37
+  premium: 70
+  categories: ["accounting"]
+
+# Shopify Apps Common Costs
+shopify_apps:
+  # Subscription management
+  recharge_recurring: 60
+  bold_subscriptions: 40
+  paywhirl: 35
+
+  # Email marketing
+  klaviyo_shopify: 150
+  mailchimp_shopify: 50
+
+  # Reviews
+  yotpo_reviews: 359
+  loox_reviews: 49
+
+  # Upsells
+  zipify_ocu: 97
+  reconvert_upsell: 97
+
+  # Loyalty
+  swell_loyalty: 299
+  smile_loyalty: 199
+
+  # Popups
+  privy_popups: 45
+  optinmonster: 49
+
+# Performance Benchmarks (for loss calculation)
+performance_impact:
+  # Revenue impact per second of delay
+  conversion_loss_per_second: 0.07 # 7% conversion loss per second
+
+  # Average e-commerce metrics
+  avg_conversion_rate: 0.025 # 2.5%
+  avg_aov: 85 # $85 average order value
+  avg_monthly_traffic: 10000 # 10k monthly visitors
+
+  # Performance thresholds
+  good_fcp: 1800 # First Contentful Paint (ms)
+  poor_fcp: 3000
+  good_ttfb: 600 # Time to First Byte (ms)
+  poor_ttfb: 1000
+
+# Industry Pricing Validation
+# These ranges help validate if detected costs are realistic
+pricing_validation:
+  email_marketing:
+    typical_range: [20, 500]
+    enterprise_threshold: 1000
+
+  forms_surveys:
+    typical_range: [25, 200]
+    enterprise_threshold: 500
+
+  customer_support:
+    typical_range: [50, 400]
+    enterprise_threshold: 1000
+
+  subscriptions:
+    typical_range: [40, 600]
+    enterprise_threshold: 1200
+
+  reviews_ugc:
+    typical_range: [0, 800]
+    enterprise_threshold: 2000
+
+  analytics:
+    typical_range: [30, 500]
+    enterprise_threshold: 1000

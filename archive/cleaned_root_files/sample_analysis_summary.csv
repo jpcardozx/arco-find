@@ -1,0 +1,11 @@
+domain,company_name,industry,employee_count,confidence_score,performance_issues_count,opportunities_count,monthly_waste_estimate,annual_savings_potential,lcp_score,bounce_rate,organic_traffic,paid_traffic
+toh.com.br,Toh Acessórios Pet,consumer services,13,0.7,0,0,0.0,0.0,,0.47,0.35,0.2
+bikinilasirene.com.br,La Sirène,retail,10,0.7,0,0,0.0,0.0,,0.47,0.35,0.2
+magnavita.com.br,Empório Magna Vita,retail,10,0.7,0,0,0.0,0.0,,0.47,0.35,0.2
+joolabrasil.com,JOOLA Brasil Tênis de Mesa e Pickleball,retail,7,0.7,0,0,0.0,0.0,,0.47,0.35,0.2
+voyantdistrihub.com,Voyant Distrihub,retail,4,0.7,0,0,0.0,0.0,,0.47,0.35,0.2
+naguirreshop.com.br,Naguirre Shop,retail,9,0.7,0,0,0.0,0.0,,0.47,0.3,0.25
+ayapitaya.com.br,Aya Pitaya,retail,15,0.7,0,0,0.0,0.0,,0.47,0.45,0.25
+itstone.com.br,It Stone Semi Joias,retail,7,0.7,0,0,0.0,0.0,,0.47,0.35,0.2
+aurha.com.br,Aurha,retail,6,0.7,0,0,0.0,0.0,,0.47,0.35,0.2
+autofasstore.com,Autofãs,retail,5,0.7,0,0,0.0,0.0,,0.47,0.3,0.25

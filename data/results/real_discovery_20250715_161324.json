@@ -1,0 +1,29 @@
+{
+  "generated_at": "2025-07-15T16:13:24.656906",
+  "discovery_method": "real_transparent_scraping",
+  "libraries_used": [
+    "requests",
+    "beautifulsoup4",
+    "builtwith"
+  ],
+  "summary": {
+    "total_prospects": 1,
+    "analyzed_count": 6,
+    "qualified_count": 1,
+    "qualification_rate": 16.7,
+    "high_priority_count": 0,
+    "total_monthly_opportunity": 600,
+    "average_opportunity": 600
+  },
+  "prospects": [
+    {
+      "company_name": "Loja Integrada",
+      "domain": "lojaintegrada.com.br",
+      "industry": "E-commerce Platform",
+      "description": "Plataforma de e-commerce brasileira",
+      "source": "known_tech_companies",
+      "website_analysis": {
+        "accessible": true,
+        "status_code": 200,
+        "title": "Loja Integrada",
+        "meta_description": 

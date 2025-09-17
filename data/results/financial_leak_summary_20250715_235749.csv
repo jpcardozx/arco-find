@@ -1,0 +1,4 @@
+Domain,Success,Priority Score,Leak Severity,Monthly Revenue,Revenue Confidence,Monthly Waste,Waste %,Annual Savings,ROAS Score,Apps Count,Duplicates,Overpriced Tools,Actions Count
+glossier.com,False,0,unknown,0,0.0%,0,0.0%,0,0,0,0,0,0
+sephora.com,False,0,unknown,0,0.0%,0,0.0%,0,0,0,0,0,0
+kiehls.com,True,6,low,50544,27.5%,0,0.0%,0,0,0,0,0,1

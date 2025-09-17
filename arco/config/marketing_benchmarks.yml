@@ -1,0 +1,111 @@
+# Marketing Benchmarks Configuration
+# Industry-specific benchmarks for marketing performance analysis
+
+industries:
+  ecommerce:
+    avg_cpc: 1.16
+    avg_conversion_rate: 0.0268
+    avg_bounce_rate: 0.47
+    avg_ctr: 0.0268
+    web_vitals_thresholds:
+      lcp_good: 2.5
+      fid_good: 100
+      cls_good: 0.1
+      ttfb_good: 800
+    traffic_distribution:
+      organic_search: 0.35
+      paid_search: 0.25
+      direct: 0.20
+      social: 0.12
+      referral: 0.05
+      email: 0.03
+
+  saas:
+    avg_cpc: 3.80
+    avg_conversion_rate: 0.0363
+    avg_bounce_rate: 0.42
+    avg_ctr: 0.0363
+    web_vitals_thresholds:
+      lcp_good: 2.5
+      fid_good: 100
+      cls_good: 0.1
+      ttfb_good: 800
+    traffic_distribution:
+      organic_search: 0.45
+      paid_search: 0.25
+      direct: 0.15
+      referral: 0.10
+      social: 0.03
+      email: 0.02
+
+  retail:
+    avg_cpc: 1.16
+    avg_conversion_rate: 0.0268
+    avg_bounce_rate: 0.47
+    avg_ctr: 0.0268
+    web_vitals_thresholds:
+      lcp_good: 2.5
+      fid_good: 100
+      cls_good: 0.1
+      ttfb_good: 800
+    traffic_distribution:
+      organic_search: 0.35
+      paid_search: 0.20
+      direct: 0.25
+      social: 0.12
+      referral: 0.05
+      email: 0.03
+
+  services:
+    avg_cpc: 2.50
+    avg_conversion_rate: 0.0320
+    avg_bounce_rate: 0.45
+    avg_ctr: 0.0320
+    web_vitals_thresholds:
+      lcp_good: 2.5
+      fid_good: 100
+      cls_good: 0.1
+      ttfb_good: 800
+    traffic_distribution:
+      organic_search: 0.40
+      paid_search: 0.15
+      direct: 0.20
+      referral: 0.20
+      social: 0.03
+      email: 0.02
+
+# Performance impact calculations
+performance_impact:
+  lcp_delay_conversion_loss: 0.07 # 7% conversion loss per second of LCP delay
+  bounce_rate_threshold: 0.60 # Above 60% bounce rate is concerning
+  session_duration_minimum: 120 # Minimum 2 minutes session duration
+  cls_bounce_impact: 0.10 # 10% bounce rate increase per 0.1 CLS
+
+# Waste detection thresholds
+waste_thresholds:
+  min_monthly_waste: 50 # Minimum monthly waste to report
+  high_cpc_multiplier: 1.2 # CPC 20% above benchmark triggers waste
+  low_conversion_multiplier: 0.8 # Conversion 20% below benchmark triggers waste
+  paid_traffic_threshold: 0.4 # Above 40% paid traffic is over-reliance
+  organic_traffic_minimum: 0.25 # Below 25% organic traffic is under-optimized
+
+# Revenue estimation factors
+revenue_estimation:
+  base_monthly_visitors:
+    small: 2000 # < 10 employees
+    medium: 8000 # 10-50 employees
+    large: 20000 # 50-200 employees
+    enterprise: 50000 # 200+ employees
+
+  base_aov:
+    ecommerce: 85.0
+    saas: 150.0
+    retail: 75.0
+    services: 200.0
+    default: 100.0
+
+  marketing_spend_percentage:
+    small: 0.05 # 5% of revenue
+    medium: 0.08 # 8% of revenue
+    large: 0.12 # 12% of revenue
+    enterprise: 0.15 # 15% of revenue

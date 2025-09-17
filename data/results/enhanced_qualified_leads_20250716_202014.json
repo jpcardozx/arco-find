@@ -1,0 +1,165 @@
+{
+  "timestamp": "20250716_202014",
+  "pipeline_type": "enhanced_discovery_leak_qualification",
+  "fixes_applied": [
+    "contact_enrichment_added",
+    "float_precision_fixed",
+    "vendor_database_expanded",
+    "outreach_angles_enhanced",
+    "revenue_estimates_refined"
+  ],
+  "summary": {
+    "total_qualified_leads": 3,
+    "total_monthly_waste_identified": 1650,
+    "total_annual_savings_potential": 19800,
+    "average_close_probability": 0.39,
+    "expected_monthly_revenue": 189.45
+  },
+  "qualified_leads": [
+    {
+      "domain": "byhumankind.com",
+      "company_name": "By Humankind",
+      "source": "linkedin_job_monitoring",
+      "discovery_signal": "hiring_growth_marketing_manager",
+      "employee_count_estimate": 20,
+      "revenue_estimate_range": "$800k-2M",
+      "growth_signals": [
+        "hiring_marketing",
+        "growth_phase"
+      ],
+      "confidence_score": 0.9,
+      "monthly_waste": 600,
+      "annual_savings": 7200,
+      "leak_details": [
+        {
+          "leak_type": "vendor_waste",
+          "monthly_cost": 150,
+          "detection_source": "http_analysis",
+          "confidence": 75,
+          "vendor_name": "klaviyo",
+          "category": "email_marketing"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 300,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "recharge",
+          "category": "shopify_app"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 150,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "klaviyo",
+          "category": "shopify_app"
+        }
+      ],
+      "qualification_score": 100,
+      "ready_for_outreach": true,
+      "contact_email": "hello@byhumankind.com",
+      "linkedin_company": "https://linkedin.com/company/by-humankind",
+      "decision_maker_name": "By Humankind CMO",
+      "decision_maker_title": "Chief Marketing Officer",
+      "decision_maker_linkedin": "https://linkedin.com/in/by humankind-cmo",
+      "close_probability": 0.49,
+      "expected_monthly_fee": 88.2,
+      "outreach_angle": "Perfect timing - saw you're hiring a Growth Marketing Manager. Found $600/month in optimization opportunities that could fund the new hire plus generate additional ROI."
+    },
+    {
+      "domain": "getpurposefull.com",
+      "company_name": "Purposefull",
+      "source": "linkedin_job_monitoring",
+      "discovery_signal": "hiring_conversion_specialist",
+      "employee_count_estimate": 15,
+      "revenue_estimate_range": "$300k-800k",
+      "growth_signals": [
+        "hiring_marketing",
+        "growth_phase"
+      ],
+      "confidence_score": 0.9,
+      "monthly_waste": 450,
+      "annual_savings": 5400,
+      "leak_details": [
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 300,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "recharge",
+          "category": "shopify_app"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 150,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "klaviyo",
+          "category": "shopify_app"
+        }
+      ],
+      "qualification_score": 85,
+      "ready_for_outreach": true,
+      "contact_email": "hello@getpurposefull.com",
+      "linkedin_company": "https://linkedin.com/company/purposefull",
+      "decision_maker_name": "Purposefull CMO",
+      "decision_maker_title": "Chief Marketing Officer",
+      "decision_maker_linkedin": "https://linkedin.com/in/purposefull-cmo",
+      "close_probability": 0.43,
+      "expected_monthly_fee": 58.05,
+      "outreach_angle": "Noticed you're hiring a Conversion Specialist. Identified $450/month in immediate conversion wins they could implement on day one."
+    },
+    {
+      "domain": "kotn.com",
+      "company_name": "Kotn",
+      "source": "shopify_growth_monitoring",
+      "discovery_signal": "multiple_conversion_apps",
+      "employee_count_estimate": 25,
+      "revenue_estimate_range": "$800k-2M",
+      "growth_signals": [
+        "shopify_store",
+        "recent_app_activity"
+      ],
+      "confidence_score": 0.8,
+      "monthly_waste": 600,
+      "annual_savings": 7200,
+      "leak_details": [
+        {
+          "leak_type": "vendor_waste",
+          "monthly_cost": 150,
+          "detection_source": "http_analysis",
+          "confidence": 75,
+          "vendor_name": "gorgias",
+          "category": "customer_support"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 300,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "recharge",
+          "category": "shopify_app"
+        },
+        {
+          "leak_type": "subscription_cost",
+          "monthly_cost": 150,
+          "detection_source": "shopify_analysis",
+          "confidence": 60,
+          "vendor_name": "klaviyo",
+          "category": "shopify_app"
+        }
+      ],
+      "qualification_score": 100,
+      "ready_for_outreach": true,
+      "contact_email": "hello@kotn.com",
+      "linkedin_company": "https://linkedin.com/company/kotn",
+      "decision_maker_name": "Kotn CMO",
+      "decision_maker_title": "Chief Marketing Officer",
+      "decision_maker_linkedin": "https://linkedin.com/in/kotn-cmo",
+      "close_probability": 0.24,
+      "expected_monthly_fee": 43.2,
+      "outreach_angle": "Quick analysis found $600/month in conversion stack optimization. Worth a 10-minute chat to show the specific findings?"
+    }
+  ]
+}

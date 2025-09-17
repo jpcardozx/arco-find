@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Beleza na Web",
+    "domain": "belezanaweb.com.br",
+    "monthly_sales": 25000,
+    "monthly_visits": 180000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "\u00c9poca Cosm\u00e9ticos",
+    "domain": "epocacosmeticos.com.br",
+    "monthly_sales": 35000,
+    "monthly_visits": 220000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Tricae",
+    "domain": "tricae.com.br",
+    "monthly_sales": 40000,
+    "monthly_visits": 150000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Imaginarium",
+    "domain": "imaginarium.com.br",
+    "monthly_sales": 30000,
+    "monthly_visits": 120000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Zattini",
+    "domain": "zattini.com.br",
+    "monthly_sales": 45000,
+    "monthly_visits": 280000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Petite Jolie",
+    "domain": "petitejolie.com.br",
+    "monthly_sales": 20000,
+    "monthly_visits": 95000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Track&Field",
+    "domain": "trackfield.com.br",
+    "monthly_sales": 55000,
+    "monthly_visits": 340000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Mundo Verde",
+    "domain": "mundoverde.com.br",
+    "monthly_sales": 28000,
+    "monthly_visits": 160000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Vila Mulher",
+    "domain": "vilamulher.com.br",
+    "monthly_sales": 15000,
+    "monthly_visits": 85000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Insider Store",
+    "domain": "insiderstore.com.br",
+    "monthly_sales": 22000,
+    "monthly_visits": 110000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Sephora BR",
+    "domain": "sephora.com.br",
+    "monthly_sales": 50000,
+    "monthly_visits": 380000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Loja Integrada Demo",
+    "domain": "demo.lojaintegrada.com.br",
+    "monthly_sales": 12000,
+    "monthly_visits": 65000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Tray Commerce",
+    "domain": "site-exemplo.tray.com.br",
+    "monthly_sales": 18000,
+    "monthly_visits": 75000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "VTEX Store",
+    "domain": "exemplo.vtexcommercestable.com.br",
+    "monthly_sales": 32000,
+    "monthly_visits": 145000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  },
+  {
+    "name": "Mercado Shops",
+    "domain": "exemplo.mercadoshops.com.br",
+    "monthly_sales": 16000,
+    "monthly_visits": 88000,
+    "category": "shopify_small",
+    "source": "manual_verified"
+  }
+]

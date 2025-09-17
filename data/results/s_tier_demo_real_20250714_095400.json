@@ -1,0 +1,29 @@
+{
+  "demo_meta": {
+    "generated_at": "2025-07-14T09:54:00.073219",
+    "system": "ARCO S-Tier Real Demo",
+    "api_used": "Google PageSpeed Insights API",
+    "data_source": "100% real Google API data",
+    "icp_alignment": "PMEs tech-enabled com performance issues"
+  },
+  "demo_results": {
+    "leads_analyzed": 5,
+    "leads_qualified": 0,
+    "qualification_rate": "0.0%",
+    "total_revenue_potential": 0,
+    "avg_pain_score": 0,
+    "avg_opportunity_score": 0
+  },
+  "qualified_leads": [],
+  "s_tier_criteria": {
+    "min_pain_score": 25,
+    "min_opportunity_score": 30,
+    "max_performance_score": 80,
+    "min_revenue_potential": 1200
+  },
+  "api_validation": {
+    "google_pagespeed_api": "✅ Verified real data",
+    "performance_metrics": "✅ Live Core Web Vitals",
+    "optimization_opportunities": "✅ Real PageSpeed insights"
+  }
+}

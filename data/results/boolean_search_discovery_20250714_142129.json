@@ -1,0 +1,501 @@
+{
+  "discovery_meta": {
+    "generated_at": "2025-07-14T14:21:29.528288",
+    "system": "Boolean Search Prospect Discovery",
+    "methodology": "Pain signals → Google Search → Technical validation",
+    "search_stats": {
+      "queries_executed": 12,
+      "urls_discovered": 0,
+      "duplicates_filtered": 10,
+      "qualified_prospects": 15
+    }
+  },
+  "pipeline_metrics": {
+    "total_prospects_discovered": 15,
+    "total_revenue_potential": 103400.0,
+    "avg_qualification_score": 61.7,
+    "critical_pain_prospects": 8,
+    "high_pain_prospects": 7,
+    "immediate_contact_prospects": 0,
+    "high_urgency_prospects": 13
+  },
+  "discovered_prospects": [
+    {
+      "company_name": "Victor Torres",
+      "domain": "pt.linkedin.com",
+      "website": "https://pt.linkedin.com/in/victortorres93/en",
+      "pain_signals_found": [
+        "Pain signal detectado via search"
+      ],
+      "search_query_matched": "\"performance\" \"dashboard\" \"B2B\" \"otimização\" -empresa -big",
+      "discovery_context": "Google Search: saas_trial_issues",
+      "performance_score": 33,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "saas_crm",
+      "pain_severity": "HIGH",
+      "qualification_score": 75,
+      "revenue_potential": 9800.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "O que é SEO técnico e como fazer no seu site",
+      "domain": "locaweb.com.br",
+      "website": "https://www.locaweb.com.br/blog/temas/marketing-e-seo/seo-tecnico-o-guia-definitivo/",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Problemas técnicos reportados"
+      ],
+      "search_query_matched": "\"SEO técnico\" \"e-commerce\" \"velocidade\" \"problema\" -agência",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 34,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 70,
+      "revenue_potential": 8160.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Webshare",
+      "domain": "webshare.com.br",
+      "website": "https://www.webshare.com.br/blog/gtmetrix/",
+      "pain_signals_found": [
+        "PageSpeed com problemas",
+        "Problemas de SEO técnico"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 37,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Rockcontent",
+      "domain": "rockcontent.com",
+      "website": "https://rockcontent.com/br/blog/o-que-e-seo/",
+      "pain_signals_found": [
+        "PageSpeed com problemas",
+        "Problemas de SEO técnico"
+      ],
+      "search_query_matched": "\"Google PageSpeed\" \"e-commerce\" \"otimização\" \"preciso\" Brasil",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 40,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "SEO para E",
+      "domain": "conversion.com.br",
+      "website": "https://www.conversion.com.br/blog/seo-para-ecommerce/",
+      "pain_signals_found": [
+        "Core Web Vitals reprovado"
+      ],
+      "search_query_matched": "\"Core Web Vitals\" \"loja online\" \"melhorar\" -Shopify -Magento",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 30,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "O que é First Input Delay e Como Melhorá",
+      "domain": "hostinger.com",
+      "website": "https://www.hostinger.com/pt/tutoriais/first-input-delay",
+      "pain_signals_found": [
+        "Core Web Vitals reprovado"
+      ],
+      "search_query_matched": "\"Core Web Vitals\" \"loja online\" \"melhorar\" -Shopify -Magento",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 30,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Marcoslucas",
+      "domain": "marcoslucas.com.br",
+      "website": "https://marcoslucas.com.br/seo/tecnico/core-web-vitals-inp/",
+      "pain_signals_found": [
+        "Core Web Vitals reprovado",
+        "Problemas de SEO técnico"
+      ],
+      "search_query_matched": "\"Core Web Vitals\" \"loja online\" \"melhorar\" -Shopify -Magento",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 41,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Shopify",
+      "domain": "shopify.com",
+      "website": "https://www.shopify.com/br/blog/importancia-da-velocidade-do-site",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Problemas técnicos reportados"
+      ],
+      "search_query_matched": "\"SEO técnico\" \"e-commerce\" \"velocidade\" \"problema\" -agência",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 37,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Makingnet",
+      "domain": "makingnet.com.br",
+      "website": "https://www.makingnet.com.br/blog/guia-completo-seo-tecnico/",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Problemas técnicos reportados"
+      ],
+      "search_query_matched": "\"SEO técnico\" \"e-commerce\" \"velocidade\" \"problema\" -agência",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 45,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "MEDIUM",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Colinatech",
+      "domain": "colinatech.com.br",
+      "website": "https://colinatech.com.br/seo-tecnico-para-analise-site/",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Problemas técnicos reportados"
+      ],
+      "search_query_matched": "\"SEO técnico\" \"e-commerce\" \"velocidade\" \"problema\" -agência",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 36,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Estratégias Eficazes de SEO para E",
+      "domain": "vitorpeyroton.com.br",
+      "website": "https://vitorpeyroton.com.br/seo-para-e-commerce-em-2025/",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Problemas técnicos reportados",
+        "Problemas mobile específicos"
+      ],
+      "search_query_matched": "\"SEO técnico\" \"e-commerce\" \"velocidade\" \"problema\" -agência",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 57,
+      "technical_issues": [
+        "Oportunidades de otimização"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 4800.0,
+      "contact_urgency": "MEDIUM",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Especialista Magento",
+      "domain": "cyberfire.com.br",
+      "website": "https://cyberfire.com.br/especialistas-em-marketplace-adobe-commerce-magento/",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Problemas técnicos reportados"
+      ],
+      "search_query_matched": "\"SEO técnico\" \"e-commerce\" \"velocidade\" \"problema\" -agência",
+      "discovery_context": "Google Search: ecommerce_checkout_issues",
+      "performance_score": 39,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "ecommerce_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Userguiding",
+      "domain": "userguiding.com",
+      "website": "https://userguiding.com/pt-br/blog/taxa-churn-clientes",
+      "pain_signals_found": [
+        "Alto abandono de usuários"
+      ],
+      "search_query_matched": "\"onboarding\" \"abandono\" \"software\" \"plataforma\" -grande",
+      "discovery_context": "Google Search: saas_trial_issues",
+      "performance_score": 33,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "saas_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Digital Transformation for Industry 4.0",
+      "domain": "webcomum.com",
+      "website": "https://www.webcomum.com/expertise/industry-4-0-digital-transformation",
+      "pain_signals_found": [
+        "Problemas de SEO técnico",
+        "Problemas mobile específicos"
+      ],
+      "search_query_matched": "\"performance\" \"dashboard\" \"B2B\" \"otimização\" -empresa -big",
+      "discovery_context": "Google Search: saas_trial_issues",
+      "performance_score": 43,
+      "technical_issues": [
+        "Imagens pesadas",
+        "JavaScript blocking"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "saas_general",
+      "pain_severity": "CRITICAL",
+      "qualification_score": 60,
+      "revenue_potential": 6240.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    },
+    {
+      "company_name": "Richardalquati",
+      "domain": "richardalquati.com.br",
+      "website": "https://richardalquati.com.br/blog/transforme-seu-negocio-no-abc-como-um-consultor-de-marketing-em-santo-andre-pode-impulsionar-seu-crescimento-inteligente/",
+      "pain_signals_found": [
+        "Pain signal detectado via search"
+      ],
+      "search_query_matched": "\"performance\" \"dashboard\" \"B2B\" \"otimização\" -empresa -big",
+      "discovery_context": "Google Search: saas_trial_issues",
+      "performance_score": 30,
+      "technical_issues": [
+        "Performance crítica",
+        "LCP > 4s",
+        "CLS alto"
+      ],
+      "estimated_size": "medium",
+      "industry_segment": "saas_general",
+      "pain_severity": "HIGH",
+      "qualification_score": 60,
+      "revenue_potential": 7680.0,
+      "contact_urgency": "HIGH",
+      "confidence_level": "MEDIUM",
+      "data_sources": [
+        "Google Search",
+        "Intelligent Simulation"
+      ]
+    }
+  ],
+  "action_priorities": {
+    "immediate_contact": [],
+    "high_priority": [
+      "Victor Torres",
+      "O que é SEO técnico e como fazer no seu site",
+      "Webshare",
+      "Rockcontent",
+      "SEO para E",
+      "O que é First Input Delay e Como Melhorá",
+      "Marcoslucas",
+      "Shopify",
+      "Colinatech",
+      "Especialista Magento",
+      "Userguiding",
+      "Digital Transformation for Industry 4.0",
+      "Richardalquati"
+    ],
+    "critical_pain": [
+      "O que é SEO técnico e como fazer no seu site",
+      "Webshare",
+      "Rockcontent",
+      "Marcoslucas",
+      "Shopify",
+      "Colinatech",
+      "Especialista Magento",
+      "Digital Transformation for Industry 4.0"
+    ],
+    "total_pipeline_value": "R$ 103,400/month"
+  },
+  "segment_breakdown": {
+    "saas_crm": {
+      "count": 1,
+      "total_revenue": 9800.0,
+      "avg_qualification": 180.0,
+      "prospects": [
+        "Victor Torres"
+      ]
+    },
+    "ecommerce_general": {
+      "count": 11,
+      "total_revenue": 72000.0,
+      "avg_qualification": 16.363636363636363,
+      "prospects": [
+        "O que é SEO técnico e como fazer no seu site",
+        "Webshare",
+        "Rockcontent",
+        "SEO para E",
+        "O que é First Input Delay e Como Melhorá",
+        "Marcoslucas",
+        "Shopify",
+        "Makingnet",
+        "Colinatech",
+        "Estratégias Eficazes de SEO para E",
+        "Especialista Magento"
+      ]
+    },
+    "saas_general": {
+      "count": 3,
+      "total_revenue": 21600.0,
+      "avg_qualification": 60.0,
+      "prospects": [
+        "Userguiding",
+        "Digital Transformation for Industry 4.0",
+        "Richardalquati"
+      ]
+    }
+  }
+}

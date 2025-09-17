@@ -1,0 +1,15 @@
+{
+  "url": "https://example.com",
+  "timestamp": "2025-07-15T20:45:47.153044",
+  "performance_score": 100,
+  "lcp_seconds": 0.755,
+  "fcp_seconds": 0.755,
+  "cls_score": 0,
+  "js_bytes": 0,
+  "total_bytes": 2004,
+  "performance_penalty_percent": 0,
+  "estimated_monthly_loss": 0,
+  "total_monthly_waste": 223,
+  "arco_fee_monthly": 55,
+  "qualified": false
+}
